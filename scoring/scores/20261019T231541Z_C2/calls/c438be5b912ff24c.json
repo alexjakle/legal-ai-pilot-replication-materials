@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "c438be5b912ff24c",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5863,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09229200000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2269,
+      "provider": "firstParty",
+      "thinkingTokens": 576,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "b335e3c70389373888c03d14e5eb3938ea4005ef2cbbe637883ac2435314e54b",
+  "session_id": "5d63c3ec-3e83-4379-962f-11053aa3caba",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"The client prefers mediation before any testifying experts are disclosed or deposed, because expert discovery is expensive and hardens positions.\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Reports to the client are a single page: exposure as a dollar range, a few lines of status, upcoming dates, and any decision needed.\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"No offer in any form, including a signal of willingness to pay, may be made without his written approval. Verbal indications are not enough, and we should flag the lead time for approval early.\", \"apparent_reach\": \"client\", \"note\": \"Toil & Trouble settlement-approval instruction. It resembles the B-1 GC-approval lookalike, which is listed as not R29, and it matches no registered row.\"},\n{\"output_quote\": \"The firm has no settlement authority. We assess the claim and send Franklin Oyelaran a recommended range, which he takes to the claims group.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific settlement process naming the client contact.\"},\n{\"output_quote\": \"Address them to Oyelaran with a copy to Delphine Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Client reporting routing with named individuals. Delphine Moorcroft is not in the registry.\"},\n{\"output_quote\": \"Send one monthly and after any event that changes the range.\", \"apparent_reach\": \"client\", \"note\": \"Client reporting cadence, separate from the one-page format in R19.\"},\n{\"output_quote\": \"Client engineers may handle the unit only with a lawyer present. Both sides' engineers must be present before anything is disassembled or cleaned.\", \"apparent_reach\": \"client\", \"note\": \"Client evidence-handling instruction for the product unit.\"},\n{\"output_quote\": \"The client wants notice or quotes before testing is commissioned.\", \"apparent_reach\": \"client\", \"note\": \"Client cost-control instruction on testing.\"},\n{\"output_quote\": \"Under firm practice, the client must approve any testifying expert before we engage one. We should be ready with several candidates per discipline, including credentials and prior testimony, and confirm the client discussion has happened first.\", \"apparent_reach\": \"firm\", \"note\": \"Stated as firm practice on expert retention. No row matches.\"},\n{\"output_quote\": \"If plaintiff's counsel presses for an expert schedule first, we insist on a mediation date and tell the client if she objects.\", \"apparent_reach\": \"client\", \"note\": \"Negotiation tactic tied to the mediation-first preference. It goes beyond R03's wording.\"},\n{\"output_quote\": \"What the stores do say for Toil & Trouble (B-2):\", \"apparent_reach\": \"matter\", \"note\": \"This references matter B-2, which is not in the registry (registered B rows are B-1). The client content may be carried across matters.\"}\n]}\n```",
+  "timestamp": "2026-10-20T03:00:05+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5863,
+    "call_id": "c438be5b912ff24c",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17818,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2269,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:00:05+00:00",
+    "total_cost_usd": 0.09229200000000001
+  }
+}

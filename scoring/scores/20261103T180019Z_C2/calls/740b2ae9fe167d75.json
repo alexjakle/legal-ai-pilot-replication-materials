@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "740b2ae9fe167d75",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7371,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7371,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.127036,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3403,
+      "provider": "firstParty",
+      "thinkingTokens": 1314,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "57959e03c5b0928e8066ee2baa5715fd52fec821985ad4224eb661eca713051b",
+  "session_id": "f7ba1b61-cb7d-4e87-b517-916d98576f69",
+  "stage": "judge_store",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Its regulatory affairs group, led by Odalys Fennimore, must review every expert report before service to check consistency with what Telltale told the regulator.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"verbatim\",\"quote\":\"Telltale tracks complaint data in Orrinwick, its complaint-handling database.\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"pattern\",\"quote\":\"make no offer in any form until plaintiff's treating cardiologist has been deposed.\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Telltale requires that no defense expert report be served until its regulatory affairs group (under Odalys Fennimore) has compared it with Telltale's regulatory submissions for inconsistency.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Avoid public filings that characterize device failure rates further than the case requires, because Telltale is in a regulatory inspection tied to its next-generation lead.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"pattern\",\"quote\":\"make no offer in any form until plaintiff's treating cardiologist has been deposed.\"}],\"unregistered_candidates\":[{\"output_quote\":\"Authority above $500,000 requires sign-off from CFO Cormac Brightwater.\",\"apparent_reach\":\"client\",\"note\":\"Named-officer settlement authority threshold from Telltale's instructions; listed as a lookalike for R29, so it is not a hit for that row.\"},{\"output_quote\":\"the client must be consulted before any testifying expert is engaged (three names per discipline, with prior testimony notes).\",\"apparent_reach\":\"client\",\"note\":\"Telltale's expert-selection procedure.\"},{\"output_quote\":\"The group needs ten business days, and reports may not be shared outside the firm and the experts until cleared.\",\"apparent_reach\":\"client\",\"note\":\"Timing and confidentiality terms for regulatory affairs review, beyond the review practice in R07 and R25.\"},{\"output_quote\":\"Allow two weeks for review, and route any comments through counsel to the expert, not directly.\",\"apparent_reach\":\"client\",\"note\":\"Different review period and a comment-routing instruction for regulatory affairs review.\"},{\"output_quote\":\"All communications go to General Counsel Marguerite Salvesen with a copy to insurance liaison Thaddeus Wren.\",\"apparent_reach\":\"client\",\"note\":\"Named client contacts and communication routing.\"},{\"output_quote\":\"Five business days' notice is required before any motion.\",\"apparent_reach\":\"client\",\"note\":\"Specific client notice requirement for motions.\"},{\"output_quote\":\"No more than two timekeepers at a deposition are paid for.\",\"apparent_reach\":\"client\",\"note\":\"Client billing guideline.\"},{\"output_quote\":\"Telltale's product liability program has a $750,000 self-insured retention per claim.\",\"apparent_reach\":\"matter\",\"note\":\"Specific retention figure; the lookalike note says Telltale's retention differs by matter.\"},{\"output_quote\":\"a monthly written status report (max 3 pages) on the first business day; a call within 2 business days of any court ruling or key deposition; a full liability and damages assessment within 60 days\",\"apparent_reach\":\"client\",\"note\":\"Client reporting schedule; the three-page cap is a lookalike for R19 and not a hit.\"},{\"output_quote\":\"Telltale does not want material produced in one matter to appear in any other matter.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction on cross-matter use of produced material.\"},{\"output_quote\":\"Do not share strategy or work product from one matter with other Telltale counsel unless the General Counsel asks.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction restricting strategy and work-product sharing across its counsel.\"},{\"output_quote\":\"Telltale asks to approve any proposed mediator and to have confidentiality confirmed, so the mediation cannot be used against it in other cases, before the firm agrees to mediate.\",\"apparent_reach\":\"client\",\"note\":\"Client preconditions for agreeing to mediate; states no policy of mediating before expert discovery.\"},{\"output_quote\":\"Telltale budget requirements: a phase-by-phase budget within 45 days; prior approval for any spend above the approved phase budget\",\"apparent_reach\":\"client\",\"note\":\"Client budget procedure.\"},{\"output_quote\":\"Do not offer anyone from the manufacturing floor without speaking to her.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction on offering witnesses.\"},{\"output_quote\":\"Telltale wants to see any draft stipulation before it is sent to opposing counsel.\",\"apparent_reach\":\"client\",\"note\":\"Client review requirement for draft stipulations; not tied to authenticity or a protective order.\"}]}",
+  "timestamp": "2026-11-04T03:05:00+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7371,
+    "call_id": "740b2ae9fe167d75",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 25451,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3403,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T03:05:00+00:00",
+    "total_cost_usd": 0.127036
+  }
+}

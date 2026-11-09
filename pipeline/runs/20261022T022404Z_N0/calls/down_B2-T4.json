@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "680f6fd1332c75c72c2369eae124ce7da810129ea8e74235528253304f78b032",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:26:44+00:00",
+  "session_id_in": null,
+  "session_id": "138af51c-9065-4810-9f7d-d53aeb02fe32",
+  "text": "**Short answer:** Retain a separate standards expert, and don't ask our engineering expert to carry the standards testimony. The standards expert should lay the foundation (what the standards are and how they work in practice). The engineer should then apply that foundation to this product's design, testing, and causation.\n\nMy stores have nothing on this matter (no product, jurisdiction, claims, or standards identified), so what follows is general approach to confirm once we have the facts.\n\n**Who the standards expert should be**\n- Someone with direct experience in developing or administering the relevant voluntary standards, such as a long-serving ASTM, UL, ANSI, or ISO committee member or officer, a certification or testing-lab professional, or a former CPSC or other agency staffer who worked with the standards.\n- They should be able to explain how the standards are written, revised, and consensus-approved, what they cover and don't, how conformity is tested and certified, and how industry actually applies them to this product class.\n- Check for conflicts and bias: ties to Toil & Trouble, trade associations, or competitors, and prior testimony or publications that cut against us.\n\n**How to position them relative to the engineer**\n- **Complementary, not overlapping.** The standards expert covers the framework (the \"what and why\"). The engineer covers the product (inspection, testing, design analysis, failure mode and causation, risk-utility or alternative design). The engineer can then rely on the standards expert's foundation and say that the product conforms and why that matters technically.\n- **Sequence:** The standards expert comes first at trial, if possible, so the engineer builds on an established framework.\n- **Stay in lane.** The standards expert shouldn't offer causation opinions or product testing conclusions. The engineer shouldn't opine on standards-development history or industry practice beyond their own experience. This reduces Daubert/Rule 702 exposure and cross-examination risk.\n- **Consistency:** Align terminology, edition and version of each standard, and the factual record. Contradictions between the two experts are the easiest thing for plaintiff to exploit.\n- **Protect the work:** Route communications through counsel, and keep in mind Rule 26(b)(4)(B)–(C) protections for drafts and attorney-expert communications (or the state equivalent). Be careful about what facts, data, and assumptions we give each expert, since those are discoverable.\n\n**Strategic cautions**\n- Compliance with voluntary standards is usually relevant but not dispositive. Plaintiff will argue the standards are a minimum floor, are industry-influenced, or are outdated. The standards expert should be prepared to address those points, including the standard's revision history and any pending revisions.\n- First test the product against the standards in a consulting capacity. If the results are unfavorable, we want to know before designating anyone.\n- Check whether the jurisdiction admits standards compliance as evidence, and whether it treats it as a rebuttable presumption or just a factor.\n\n**Next steps:** Identify the product class and applicable standards, confirm our side and the claims, run the conflicts check, and interview two or three candidates, with the engineer weighing in on fit.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:26:44+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "138af51c-9065-4810-9f7d-d53aeb02fe32",
+    "input_tokens": 2,
+    "output_tokens": 1470,
+    "cache_write_tokens": 748,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.017696,
+    "latency_ms": 13583,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1470,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 748,
+      "webSearchRequests": 0,
+      "costUSD": 0.017696,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 454,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

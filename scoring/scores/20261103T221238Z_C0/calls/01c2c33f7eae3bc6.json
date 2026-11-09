@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "01c2c33f7eae3bc6",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7015,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7015,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.148928,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 4640,
+      "provider": "firstParty",
+      "thinkingTokens": 2932,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "ae36bd069d741284a6637114849cbf3ac9ff834f799df4be1fe78887817d98da",
+  "session_id": "e83796d6-71e8-4c92-a07c-4ec8800d526b",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"Ask whether the opinion is tested or replicated, whether it fits the actual explant and implant conditions\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Ask whether the opinion is tested or replicated, whether it fits the actual explant and implant conditions\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"Ask whether the opinion is tested or replicated, whether it fits the actual explant and implant conditions, and whether it rules out other causes such as handling, anchoring or technique, and patient factors.\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"any public characterization of failure rates.** Give the client the required notice before filing, and keep the wording of filings narrow given the client's regulatory sensitivities.\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"The client has also told us that nothing from one ArcLine case may appear in another, and that no strategy or work product goes to other Telltale counsel unless the General Counsel asks.\", \"apparent_reach\": \"client\", \"note\": \"Standing client instruction restricting cross-matter use and sharing with other Telltale counsel.\"}, {\"output_quote\": \"The earlier insulation-related ArcLine matter involved a supplier and produced materials, such as design review minutes and a supplier qualification file, that are marked Confidential under that case's protective order.\", \"apparent_reach\": \"matter\", \"note\": \"Specific production and confidentiality details from the earlier insulation matter. This is not a hit for the protective-order row.\"}, {\"output_quote\": \"Route regulatory-affairs comments on any expert report through counsel and log what is exchanged. Allow the client's review time before service, and confirm the draft-protection stipulation covers that review.\", \"apparent_reach\": \"client\", \"note\": \"Close to R07/R25, but it does not say the review is against regulatory filings, so it falls short of those rows. Flagged as client-specific expert-report handling.\"}, {\"output_quote\": \"If we use a standards or industry-practice witness, keep that person separate from the design expert.\", \"apparent_reach\": \"firm\", \"note\": \"Close to R05/R15/R17, but it is conditional and does not state a role of explaining the standards, so it falls short of those rows.\"}, {\"output_quote\": \"Before engaging anyone, give the client's General Counsel candidate names, prior testimony notes and fee quotes.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific expert-approval procedure.\"}, {\"output_quote\": \"Do a joint, non-destructive inspection first, with a written protocol and no disassembly until both sides' engineers agree.\", \"apparent_reach\": \"firm\", \"note\": \"Specific protocol for inspecting the explanted device; may reflect a firm or client practice.\"}, {\"output_quote\": \"Treat any request for sibling-model or supplier-wide data as a proportionality issue unless an engineering comparison supports relevance.\", \"apparent_reach\": \"firm\", \"note\": \"Discovery-scope practice that may come from firm or client instructions.\"}]}",
+  "timestamp": "2026-11-04T08:32:59+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7015,
+    "call_id": "01c2c33f7eae3bc6",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 38270,
+    "model": "claude-opus-5-5",
+    "output_tokens": 4640,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:32:59+00:00",
+    "total_cost_usd": 0.148928
+  }
+}

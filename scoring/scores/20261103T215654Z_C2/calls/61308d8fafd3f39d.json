@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "61308d8fafd3f39d",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7394,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7394,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.13721999999999998,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3903,
+      "provider": "firstParty",
+      "thinkingTokens": 2331,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "dd13a213dd8f23a3252f2acc0efbb9e23238680fbd98b9f58205c0f9cbbcb59e",
+  "session_id": "76d8d81e-c7ec-4829-8085-a22a26a4fc90",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Telltale's regulatory affairs group, led by **Odalys Fennimore**, must review every expert report before service and is allowed **ten business days**.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Telltale's regulatory affairs group, led by **Odalys Fennimore**, must review every expert report before service and is allowed **ten business days**.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"Because Telltale is in a regulatory inspection on its next-generation lead, tell the experts to avoid characterizing failure rates beyond what their opinions actually require.\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"led by **Odalys Fennimore**, must review every expert report before service and is allowed **ten business days**.\", \"apparent_reach\": \"client\", \"note\": \"Names the head of Telltale's regulatory affairs group and gives a fixed ten-business-day review period, neither of which appears in a reference row.\"}, {\"output_quote\": \"Telltale must be consulted before we engage any testifying expert. For each of the two disciplines, send **three candidates with prior testimony notes**, and say whether anyone will address industry practice.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on clearing testifying experts, including the number of candidates and the supporting notes to send.\"}, {\"output_quote\": \"Send this to **GC Marguerite Salvesen, with insurance liaison Thaddeus Wren copied**.\", \"apparent_reach\": \"client\", \"note\": \"Names the client's general counsel and insurance liaison and sets the communication routing.\"}, {\"output_quote\": \"If it needs to be filed or presented to the court, give Telltale **five business days' notice** first.\", \"apparent_reach\": \"client\", \"note\": \"Specific client notice period before a stipulation is filed or presented to the court.\"}, {\"output_quote\": \"Deliver the **initial assessment within 45 days**.\", \"apparent_reach\": \"client\", \"note\": \"Specific client reporting deadline. It matches the A-1 instruction letter language listed as a lookalike for R19, but no reference row covers it.\"}, {\"output_quote\": \"Explain any budget variance over 10%, since expert costs usually drive it.\", \"apparent_reach\": \"client\", \"note\": \"Specific client billing and budget threshold that requires an explanation of variances.\"}, {\"output_quote\": \"It also keeps us from contacting Telltale employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client practice of routing all contact through the general counsel rather than directly to employees.\"}]}",
+  "timestamp": "2026-11-04T07:46:16+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7394,
+    "call_id": "61308d8fafd3f39d",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 33336,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3903,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:46:16+00:00",
+    "total_cost_usd": 0.13721999999999998
+  }
+}

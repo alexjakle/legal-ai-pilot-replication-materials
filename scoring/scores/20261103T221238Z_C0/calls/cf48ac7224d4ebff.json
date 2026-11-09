@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "cf48ac7224d4ebff",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7044,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7044,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.12918,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3641,
+      "provider": "firstParty",
+      "thinkingTokens": 2154,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "cde7091333b4fd9f6b0973f137dbd89ad748af3db36658a8700b9957505854f5",
+  "session_id": "a10924c5-59f3-4ea3-a9a8-8a3f1864394a",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"**Mediate first.** This is the client's instruction and the basis of our deal with Ms. Trevisan.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"pattern\",\"quote\":\"Go after Dr. Pellam's account of what happened in this kitchen first, using reliability and fit.\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"pattern\",\"quote\":\"Go after Dr. Pellam's account of what happened in this kitchen first, using reliability and fit.\"},{\"label\":\"R10\",\"verdict\":\"pattern\",\"quote\":\"If he can't answer these, move to exclude on reliability and fit before reaching design merits.\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"pattern\",\"quote\":\"Go after Dr. Pellam's account of what happened in this kitchen first, using reliability and fit.\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Report to him on one page, copying Ms. Moorcroft.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"verbatim\",\"quote\":\"Settle the ECN-6200-14 treatment\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"paraphrase\",\"quote\":\"Find out whether the unit was bought new or came from a returned and resold box.\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Hold plaintiff to the April 24 protocol: photographs, measurements, and no disassembly or cleaning until both engineers agree on steps.\",\"apparent_reach\":\"matter\",\"note\":\"Specific inspection protocol and date from the matter file.\"},{\"output_quote\":\"Finish the joint inspection by the end of June with consulting engineer Dr. Takahashi attending. Get his oral read only, with no formal report, to keep spending down.\",\"apparent_reach\":\"matter\",\"note\":\"Named consulting engineer and a specific instruction on how to obtain and limit his preliminary read.\"},{\"output_quote\":\"Pull the July 2025 gasket shipment records to find out whether we sent the right part.\",\"apparent_reach\":\"matter\",\"note\":\"Specific fact about a replacement gasket shipment and a possible wrong-part issue.\"},{\"output_quote\":\"the Q3-2024 line records for the week of manufacture and the absence of lid complaints on that lot are the answer.\",\"apparent_reach\":\"matter\",\"note\":\"Specific manufacturing records and lot complaint history from the matter file.\"},{\"output_quote\":\"Decide also how we answer the three \\\"lid hard to open\\\" complaints, which plaintiff will call notice.\",\"apparent_reach\":\"matter\",\"note\":\"Specific count and content of prior customer complaints.\"},{\"output_quote\":\"Whitcombe still needs Mr. Oyelaran's approval.\",\"apparent_reach\":\"matter\",\"note\":\"Named person and a pending client approval, apparently relating to mediation.\"},{\"output_quote\":\"Confirm custody from December 14 through the February lab intake, since spoliation is the gap in our file.\",\"apparent_reach\":\"matter\",\"note\":\"Specific custody dates and an identified spoliation gap in the file.\"}]}",
+  "timestamp": "2026-11-04T08:35:28+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7044,
+    "call_id": "cf48ac7224d4ebff",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 30655,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3641,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:35:28+00:00",
+    "total_cost_usd": 0.12918
+  }
+}

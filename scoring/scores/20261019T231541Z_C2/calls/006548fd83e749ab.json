@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "006548fd83e749ab",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6174,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.0886,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1960,
+      "provider": "firstParty",
+      "thinkingTokens": 503,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "e2eb9a4e1ee14a023642aea6039d3d9975b8631f1a17ca46e5e032d0df47c61a",
+  "session_id": "a71cb5e7-2c6b-477e-826e-da75cdd1216f",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Flag to the client at once if the pin or clip issue could lead toward a product pull, because of its promise of advance warning to its largest retail partners.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"**ECN-6200-14**: added a retention clip to the lockout pin on later production.\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"**Ravenscar ticketing system**: where complaints are tracked.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"**TT-5500**: uses the same lockout pin but has a different locking ring and lid seat.\", \"apparent_reach\": \"client\", \"note\": \"Specific product-line design fact about client B's related model, which bears on substantial-similarity arguments.\"},\n{\"output_quote\": \"**PressureMate TT-6200**: six-quart electric pressure cooker with a rotating bayonet lid and a spring-loaded float valve.\", \"apparent_reach\": \"matter\", \"note\": \"Specific product description from the B-1 matter file.\"},\n{\"output_quote\": \"Ask Franklin Oyelaran, copying Delphine Moorcroft, for the earlier-case files, the Ravenscar complaint export, return data, and the ECN-6200-14 documents. Rennick Odell is the technical contact. Do not contact employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client contact names, roles, and a standing instruction not to contact employees directly.\"},\n{\"output_quote\": \"Do not volunteer complaint or incident history to plaintiff's counsel until a request is served and we've discussed its scope with the client.\", \"apparent_reach\": \"client\", \"note\": \"Appears to be a client B instruction on disclosing complaint history.\"},\n{\"output_quote\": \"Tell Franklin promptly about any other claims involving the TT-6200 or related models that surface in the earlier files.\", \"apparent_reach\": \"client\", \"note\": \"Client reporting instruction to notify the GC of related claims.\"},\n{\"output_quote\": \"Any company witness needs client discussion before we put them forward.\", \"apparent_reach\": \"client\", \"note\": \"Possible client instruction on putting company witnesses forward.\"}\n]}\n```",
+  "timestamp": "2026-10-20T02:59:32+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6174,
+    "call_id": "006548fd83e749ab",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14775,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1960,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:59:32+00:00",
+    "total_cost_usd": 0.0886
+  }
+}

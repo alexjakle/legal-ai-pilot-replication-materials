@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "378910fbd992f21d36de6ad0211c98236adf3d37441bc0d32844b05abdff8ad5",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:19:56+00:00",
+  "session_id_in": null,
+  "session_id": "31d67cf3-3384-4e28-adf2-bf96703b0a55",
+  "text": "**Recommendation: use a separate standards expert, not our engineering expert, and keep that person consulting-only until the client approves. Don't engage anyone yet.**\n\n**Who**\n- A standards and certification specialist should cover which voluntary standards apply to a household electric pressure cooker, how they are developed, how third-party certification and testing work, and how the TT-6200 was evaluated against them. Examples are the UL pressure cooker and household cooking appliance standards, which we should confirm are the right ones.\n- Good candidates have served on standards committees or worked in a certification lab, and have testified before. Their credentials and prior testimony should be vetted.\n- The engineering expert covers the design, the lid and lockout pin mechanism, and failure causation. That expert can rely on the standards expert's framework without having to be the standards authority. A single engineer doing both makes cross-examination broader and riskier. If budget requires, we can propose that as a fallback, but we should say so to the client.\n\n**Positioning**\n- The two experts should be complementary and distinct. The standards expert sets out the benchmark and the compliance record. The engineer applies engineering analysis to the actual unit and its failure mode.\n- Their opinions should be consistent but not duplicative. Coordinate scopes up front, and have the engineer cite the standards expert's framework rather than offering independent standards opinions.\n- Each should have a clearly defined scope in their retention to limit overlap and cost.\n- The standards expert should address only the TT-6200. The TT-5500 shares the lockout pin but has a different ring and lid seat, so its certification history should not be conflated with the TT-6200's.\n- The standards expert should be prepared for questions about ECN-6200-14, the added retention clip. It could be framed as a design improvement or as an admission, and we should analyze how it is handled before anyone opines.\n\n**Process and client controls**\n1. Consult Franklin Oyelaran, with a copy to Delphine Moorcroft. Get his approval before engaging any testifying expert. Present several candidates per discipline, with credentials and prior testimony.\n2. The client wants mediation before testifying experts are disclosed or deposed. We can retain both as non-disclosed consulting experts now and decide on designation later. Consulting engineers may attend inspections. Insist on a mediation date if plaintiff's counsel presses for an expert schedule, and tell the client if she objects.\n3. Provide a phase estimate for expert costs, and get the client's notice or quotes before commissioning any testing.\n4. Get certification files, test reports and standards correspondence through Oyelaran, with Rennick Odell as the technical contact. We should not contact employees directly.\n5. Get a protective order, with an outside-counsel-and-experts tier, before producing any internal design or testing records. Don't stipulate to authenticity until it is signed.\n6. If the standards review shows a compliance gap that could lead to a product pull, tell the client at once, because of its commitments to its largest retail partners. Also send a one-page report update if it changes the exposure range.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:19:56+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "31d67cf3-3384-4e28-adf2-bf96703b0a55",
+    "input_tokens": 2,
+    "output_tokens": 1502,
+    "cache_write_tokens": 2341,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.024388,
+    "latency_ms": 13355,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1502,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2341,
+      "webSearchRequests": 0,
+      "costUSD": 0.024388,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 501,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

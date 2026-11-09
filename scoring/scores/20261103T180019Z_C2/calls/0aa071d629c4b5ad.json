@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "0aa071d629c4b5ad",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6823,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6823,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.089232,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1732,
+      "provider": "firstParty",
+      "thinkingTokens": 493,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "75bd3a0880f4a139f51fb4d5d7796f29296cf59b30381264e020cfb090ed3d32",
+  "session_id": "5681c201-bb23-49f1-9fea-a49b794edec6",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"If the figure is above $1.5M, the written board consent is the gating document, and even a signal is barred without it.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Joad's policy has a $400,000 retention.\",\"apparent_reach\":\"client\",\"note\":\"Specific self-insured retention figure for client Joad; no reference row covers it.\"},{\"output_quote\":\"Cobaltridge Indemnity's pre-approved authority. Before conveying, check with General Counsel Evander Thorsby.\",\"apparent_reach\":\"client\",\"note\":\"Names Joad's insurer and general counsel and states a standing practice of checking with the general counsel before conveying a figure within the insurer's tier.\"},{\"output_quote\":\"The board consent takes about three weeks.\",\"apparent_reach\":\"client\",\"note\":\"Specific internal timing for Joad's board consent process.\"},{\"output_quote\":\"Perpetua Wallace at Cobaltridge must be copied, since this bears on coverage and exposure.\",\"apparent_reach\":\"client\",\"note\":\"Named insurer contact and a specific communication-routing instruction.\"},{\"output_quote\":\"The client is watching it closely because of other open claims, so a settlement's erosion of the aggregate matters to its view.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific concern about aggregate limit erosion from other open claims.\"},{\"output_quote\":\"If Cobaltridge reserves rights, tell Joad the same day.\",\"apparent_reach\":\"client\",\"note\":\"Specific standing instruction on same-day notice of an insurer's reservation of rights.\"},{\"output_quote\":\"Verbal indications from a director or officer are not enough.\",\"apparent_reach\":\"client\",\"note\":\"Specific detail of Joad's approval practice, excluding verbal indications from directors or officers.\"}]}",
+  "timestamp": "2026-11-04T02:55:42+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6823,
+    "call_id": "0aa071d629c4b5ad",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 13072,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1732,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:55:42+00:00",
+    "total_cost_usd": 0.089232
+  }
+}

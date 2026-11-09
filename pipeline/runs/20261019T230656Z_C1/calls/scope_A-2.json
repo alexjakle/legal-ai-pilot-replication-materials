@@ -1,0 +1,45 @@
+{
+  "call_id": "scope_A-2",
+  "prompt_hash": "8f798c8e1dbc76128fa32ac1f09bb50a92001034018f5cc8d7442f1a359b4822",
+  "stage": "scope_gate",
+  "role": "scope_gate",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:08:22+00:00",
+  "session_id_in": null,
+  "session_id": "02d3e562-d139-4529-9c11-8fb3f7affeea",
+  "text": "{\"items\":[\n{\"id\":\"N4fc817.01\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.02\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.03\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.04\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.05\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.06\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.07\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.08\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.09\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.10\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.11\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.12\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.13\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.14\",\"decision\":\"client_store\",\"text\":\"Client instruction: Telltale's general counsel must be consulted before any testifying expert is signed, and the client asks for fee quotes before engagement. Confirm that client discussion has happened before engaging any expert.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.15\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.16\",\"decision\":\"client_store\",\"text\":\"Client instruction: before any production, seek a protective order limiting use of produced materials to the lawsuit in which they are produced. Telltale defends multiple cases involving the same product line and does not want the material surfacing elsewhere.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.17\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.18\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.19\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.20\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.21\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.22\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.23\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.24\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.25\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.26\",\"decision\":\"client_store\",\"text\":\"Client instruction: give advance notice before the firm agrees to any mediator, so the client can approve the choice and confirm the mediation is confidential and cannot be used against Telltale in other cases. The client also wants to review any draft stipulation before it is sent. Check client approval on both when planning mediation and stipulation steps.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.27\",\"decision\":\"client_store\",\"text\":\"Client rule on expert reports: none may be served until Telltale's regulatory affairs group (under Odalys Fennimore) has compared it with Telltale's regulatory submissions for inconsistency. Plan on two weeks for review. Comments go through the firm to the expert, not directly.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.28\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.29\",\"decision\":\"client_store\",\"text\":\"Client objective: a thorough merits defense that avoids unnecessary spend. The client asks to hear about serious weaknesses early.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.30\",\"decision\":\"client_store\",\"text\":\"Client reporting requirements: a written status report of no more than three pages on the first business day of each month; a call within two business days of any court ruling or key-witness deposition; and notice of any motion at least a week before filing, except emergencies.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.31\",\"decision\":\"client_store\",\"text\":\"Client staffing and communication rules: direct all communications to the general counsel and copy insurance liaison Thaddeus Wren on anything touching coverage or exposure. Contact Telltale employees only through the general counsel's office. Do not approach treating physicians without approval. Use no more than three lawyers on a matter.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.32\",\"decision\":\"client_store\",\"text\":\"Client witness-preparation rules: give each company witness a two-hour preparation session before any deposition. The client wants advance notice of any corporate-representative designation and wants to see proposed topics before they are agreed. Do not offer anyone from the manufacturing floor without speaking to the client.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.33\",\"decision\":\"client_store\",\"text\":\"Client budget rules: the client wants a written explanation if projected fees and costs exceed its working budget assumption, a phase-by-phase budget early in the matter, and prior client approval for spending above an approved phase budget.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.34\",\"decision\":\"client_store\",\"text\":\"Insurance: Telltale's retention is $1,200,000 per claim, above which the excess carrier must be notified. Mr. Wren handles that notice.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.35\",\"decision\":\"client_store\",\"text\":\"Client instruction: no strategy or work product from a matter may be shared with other counsel for Telltale unless the client asks.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.36\",\"decision\":\"client_store\",\"text\":\"Client instruction: acknowledge politely any correspondence from plaintiff's counsel that contains settlement hints, and keep the content of those hints out of any written correspondence not marked as a settlement communication.\",\"tags\":[\"wall:A-3\"]}\n]}",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:08:22+00:00",
+    "stage": "scope_gate",
+    "condition": "C1",
+    "role": "scope_gate",
+    "model": "claude-sonnet-5-5",
+    "session_id": "02d3e562-d139-4529-9c11-8fb3f7affeea",
+    "input_tokens": 2,
+    "output_tokens": 3455,
+    "cache_write_tokens": 5419,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.05623,
+    "latency_ms": 20260,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 3455,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 5419,
+      "webSearchRequests": 0,
+      "costUSD": 0.05623,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1253,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

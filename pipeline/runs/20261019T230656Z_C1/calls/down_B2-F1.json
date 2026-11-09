@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-F1",
+  "prompt_hash": "47674bbe1334a3d55daee92f1b7b2882e5b56c722070b43ead4ce246f0e8912f",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:11:57+00:00",
+  "session_id_in": null,
+  "session_id": "da409b84-4843-46bb-b2c8-e1c1a90b4314",
+  "text": "**The stored knowledge doesn't include any earlier-case witness statements or retail return history, so I can't give you specifics on those without inventing them.** What it does hold is the product and complaint facts below. These are the identifiers and numbers I'd expect to come up again.\n\n**Engineering and product facts**\n- **TT-6200 lid design:** a rotating bayonet lid with a spring-loaded float valve. A lockout pin rises as pressure builds and blocks the ring from turning.\n- **Operating pressure:** about 10 psi. Expect this figure in any discussion of when the pin engages or what force is needed to open the lid.\n- **ECN-6200-14:** added a retention clip to the lockout pin on later TT-6200 production. Expect questions about why the change was made, when it took effect, and which lots are before or after it. Plaintiff's counsel may also argue it is a subsequent remedial measure, so we need to consider admissibility.\n- **TT-5500:** uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat. Expect \"substantially similar\" fights over whether TT-5500 incidents or documents are discoverable or admissible.\n\n**Complaint history**\n- **TT-6200 Q3-2024 lot:** no field complaints about the lid.\n- **Other lots:** three complaints of \"lid hard to open\" in 2024.\n- **Source records:** the Ravenscar ticketing system for complaints, and Q3-2024 quality records, which the client will provide on request.\n\n**Gaps to fill**\n- Witness identities and prior statements, prior claims or testimony, and retail return data are not in our file. Request them through Franklin Oyelaran (copy Delphine Moorcroft). Rennick Odell is the technical contact, but we don't contact him or other employees directly.\n- We don't yet know which lot or production date our matter involves. That determines whether the Q3-2024 \"no complaints\" fact and the ECN-6200-14 clip apply.\n\n**Handling cautions**\n- **Complaint history:** don't volunteer it to plaintiff's counsel until a request is served and we've discussed scope with the client.\n- **Other incidents:** report any other claim involving the TT-6200 or TT-5500 to Mr. Oyelaran promptly.\n- **Retail partners:** the client wants to know at once if anything could lead to a product pull from sale, since it has promised retailers advance warning. The ECN history or a pattern in the complaints could raise that issue, so flag it to him immediately.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:11:57+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "da409b84-4843-46bb-b2c8-e1c1a90b4314",
+    "input_tokens": 2,
+    "output_tokens": 1211,
+    "cache_write_tokens": 2157,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020742000000000003,
+    "latency_ms": 9400,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1211,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2157,
+      "webSearchRequests": 0,
+      "costUSD": 0.020742000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 381,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

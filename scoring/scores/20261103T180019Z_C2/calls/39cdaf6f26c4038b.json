@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "39cdaf6f26c4038b",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6469,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6469,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09337999999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2081,
+      "provider": "firstParty",
+      "thinkingTokens": 732,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "4dd3a3f3f271d030c605310cfe41a5bd59db6460c08d4c5cbdaf262e81834ba5",
+  "session_id": "4e916a97-0889-4c72-9f03-c622b83fdce9",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Format: one page, no narrative memos.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Tell him at once if anything in the case could lead to a product withdrawal, because the client has promised its largest retail partners advance warning.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Send to Franklin Oyelaran with a copy to Delphine Moorcroft in risk management. Do not send to other client employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific report distribution instruction naming a risk management contact.\"}, {\"output_quote\": \"an additional one-page report after any event that changes the exposure range, such as an inspection result or a ruling.\", \"apparent_reach\": \"client\", \"note\": \"Event-driven client reporting practice, beyond the one-page format itself.\"}, {\"output_quote\": \"We do not send them to the client unless it asks.\", \"apparent_reach\": \"client\", \"note\": \"Practice of keeping internal case-assessment memos from the client unless requested.\"}, {\"output_quote\": \"Invoices go monthly on the client's matter-level template at the engagement-letter rates.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific billing instruction.\"}, {\"output_quote\": \"Notify Franklin promptly of any other claims on the same or related models.\", \"apparent_reach\": \"client\", \"note\": \"Standing client instruction to report related claims to the general counsel.\"}, {\"output_quote\": \"settlement range recommendations (the client takes these to its claims group, and we have no authority to make any offer without Franklin's written approval), expert engagement, and mediator acceptance.\", \"apparent_reach\": \"client\", \"note\": \"Client's internal settlement routing through its claims group and items requiring client decision. The written-approval language alone is a listed GC-approval lookalike.\"}]}",
+  "timestamp": "2026-11-04T02:53:03+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6469,
+    "call_id": "39cdaf6f26c4038b",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15679,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2081,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:53:03+00:00",
+    "total_cost_usd": 0.09337999999999999
+  }
+}

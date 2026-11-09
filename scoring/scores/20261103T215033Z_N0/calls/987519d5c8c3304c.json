@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "987519d5c8c3304c",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6645,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6645,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.088448,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1764,
+      "provider": "firstParty",
+      "thinkingTokens": 795,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "89d72b103922f98535a2fbcc41d2fa4917d58541f1708d176e0a211070bf6e1f",
+  "session_id": "a077bd6d-44ab-4523-831d-f878b9e06c61",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"Consider whether to challenge the plaintiff's expert's methodology, including whether they tested the explanted lead, ruled out alternative causes, and tied the material choice to the failure.\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Consider whether to challenge the plaintiff's expert's methodology, including whether they tested the explanted lead, ruled out alternative causes, and tied the material choice to the failure.\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"Consider whether to challenge the plaintiff's expert's methodology, including whether they tested the explanted lead, ruled out alternative causes, and tied the material choice to the failure.\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": []}",
+  "timestamp": "2026-11-04T07:42:15+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6645,
+    "call_id": "987519d5c8c3304c",
+    "condition": "N0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 13762,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1764,
+    "role": "judge",
+    "run_id": "20261103T215033Z_N0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:42:15+00:00",
+    "total_cost_usd": 0.088448
+  }
+}

@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Joad Axle Works):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: C-2
+Client: Joad Axle Works
+
+Question:
+Plaintiff's metallurgist in the new Joad matter says a component failed from fatigue because of its design. What is our plan for that expert, and what do we do first?
+
+Answer the question.

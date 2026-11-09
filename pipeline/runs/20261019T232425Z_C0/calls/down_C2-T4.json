@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T4",
+  "prompt_hash": "434d22d0672f059da15838699f328ce67e8cd034f842c55b180be6d2730bbca6",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-10-19T23:29:24+00:00",
+  "session_id_in": null,
+  "session_id": "9e687fb9-cdd4-4616-a610-e0b76907063c",
+  "text": "**Recommendation:** Dr. Mathilde Grosvenor, who chairs the relevant standards subcommittee, should explain what the standards require and how manufacturers are expected to meet them. She should be a separate witness from Dr. Raul Esquivel, who would address this axle's design and testing.\n\n**Why keep them separate**\n- If Dr. Esquivel also explained the standards, he would be vouching for both the design and the yardstick used to judge it. Plaintiff could say he is grading his own work.\n- A separate standards witness keeps Dr. Esquivel out of cross-examination on committee matters, such as how the standards were drafted or the politics behind them. That protects his design opinion.\n- This supports the industry-standards and state-of-the-art defenses and keeps the focus on whether the JX-9 met the benchmark. It also supports the memo's plan to build that defense early.\n\n**How to position them**\n- **Dr. Grosvenor:** She testifies only on what the standards require, their history, and what compliance means in practice. She does not opine on the JX-9's design, the FT-77 results, or causation.\n- **Dr. Esquivel:** He applies the standards as Dr. Grosvenor describes them to this axle's design and testing. He does not testify about committee processes.\n- **Retention:** Retain her through the firm, with a retention letter limited to the standards and their history.\n- **Materials:** Control what she receives, because each side must list the materials its experts considered. Do not give her the privileged post-accident metallurgical review, which found the tool mark at the fracture origin. She does not need FT-77 detail to explain the standards, and the test data should stay within the outside-counsel-and-experts-only tier. Do not raise the 2020 forging-supplier change or Corbelmark with her.\n- **Cross-examination:** Her committee role is a double-edged point. It gives her authority, but plaintiff may probe bias, committee deliberations, and any ties to Joad or the tractor builder. Run a conflicts and publication-history check before engagement.\n\n**Client approvals before engaging either expert**\n- Joad wants to review names and credentials of all proposed testifying experts before engagement. It has asked whether anyone would speak to industry practice, and it prefers design testimony to stay focused on this axle. The proposed split fits that preference.\n- Joad has also offered to help identify candidates with standards-body experience, so offer it the chance to suggest alternatives or compare candidates.\n- Send the proposal through General Counsel Evander Thorsby, who handles all case communications. Do not engage Dr. Grosvenor or Dr. Esquivel until Joad approves.\n\n**Points to confirm**\n- I assumed C-2 is the Lindqvist matter, since that is where the file's standards strategy sits. If C-2 is a different Joad matter, confirm that the same standards and witness structure apply.\n- The expert dates I have (defense reports June 14, 2024) are old, so check the current schedule and whether either expert was already engaged.",
+  "usage": {
+    "run_id": "20261019T232425Z_C0",
+    "timestamp": "2026-10-19T23:29:24+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "9e687fb9-cdd4-4616-a610-e0b76907063c",
+    "input_tokens": 2,
+    "output_tokens": 1508,
+    "cache_write_tokens": 20537,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.097232,
+    "latency_ms": 11942,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1508,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20537,
+      "webSearchRequests": 0,
+      "costUSD": 0.097232,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 520,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

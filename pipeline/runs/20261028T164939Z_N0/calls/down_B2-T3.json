@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "c7cb767f4de5961416527da2555ea27d6d311d2540a61442695155003aa9d95d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:52:50+00:00",
+  "session_id_in": null,
+  "session_id": "2df42b94-594d-4950-8a7d-2c46739b4d6f",
+  "text": "**Caveat:** The client store and firm store are both empty. I have no firm playbook, no facts about the unit or the claim, and no jurisdiction or scheduling order for B-2. What follows is a general approach to a manufacturing-defect expert, and it should be adjusted once we have those facts.\n\n## Approach\n\nOur goal is to test whether the expert can show the unit deviated from its intended design or specifications, and whether that deviation caused the failure. \"How it was made\" is a manufacturing-defect theory. It is different from a design-defect theory, and the expert has to tie the opinion to evidence of the specific unit's departure from spec. We want to expose weak methodology, alternative causes, and evidence problems before deciding whether to challenge the expert, rebut them, or both.\n\n## Order of Proceeding\n\n1. **Lock down the basics.**\n   - Confirm the jurisdiction's expert admissibility standard (Daubert, Frye, or a state variant).\n   - Calendar the expert disclosure, deposition, and Daubert motion deadlines.\n   - Issue or confirm a litigation hold on the client's design, manufacturing, QC, batch, and complaint records.\n\n2. **Secure the evidence.**\n   - Find out who has the failed unit and document the chain of custody.\n   - Object to any destructive testing without an agreed protocol or a court order.\n   - Demand preservation of the unit, packaging, and installation components. This also positions us for a spoliation argument if needed.\n\n3. **Retain our own consulting expert early.** Do this before any inspection, under privilege and work-product protection. This expert helps us understand the failure mode, run the inspection, and critique plaintiff's expert. We can decide later whether they testify.\n\n4. **Build the internal fact picture.** Work with the client to collect the following:\n   - Specifications and drawings\n   - Production records for the relevant lot\n   - QC and testing results\n   - Supplier information\n   - Similar complaints and incidents\n   - Any prior remedial measures or recalls\n\n   Do this before we commit to positions, so we know what is helpful or harmful.\n\n5. **Get the expert's file.** Obtain the report, CV, materials reviewed, test data, photos, notes (to the extent discoverable), fee records, and prior testimony and exclusions.\n\n6. **Conduct a joint inspection and testing under an agreed protocol.** The protocol should cover who attends, what tests are run, how they are documented, and how the unit is preserved. We should compare the unit against exemplar and same-lot units.\n\n7. **Analyze the opinion.** Check these points:\n   - Qualifications for this specific product\n   - Whether there was an actual identified manufacturing deviation\n   - Whether alternative causes were ruled out (misuse, installation, maintenance, post-sale damage)\n   - Whether the testing is reliable and replicable\n   - Whether the opinion actually fits the facts\n\n8. **Depose the expert** after we have the file, inspection results, and our consultant's input. Lock in the basis for the opinion, the concessions on alternative causes, and the limits of their testing.\n\n9. **Serve our rebuttal expert disclosure** by the deadline, based on the consultant's work.\n\n10. **File the motion to exclude or limit** on the deposition record, and then consider summary judgment if the causation or defect proof fails.\n\nOnce we have the pleadings, jurisdiction, and the client's records, I can refine this into a dated work plan.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:52:50+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "2df42b94-594d-4950-8a7d-2c46739b4d6f",
+    "input_tokens": 2,
+    "output_tokens": 1616,
+    "cache_write_tokens": 718,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019036,
+    "latency_ms": 13925,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1616,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 718,
+      "webSearchRequests": 0,
+      "costUSD": 0.019036,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 485,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

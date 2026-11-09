@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "2025464fd7100f59508465b670869591d0962baca6bf07c1125a68aa4b77bc88",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T17:46:12+00:00",
+  "session_id_in": null,
+  "session_id": "7ab77f67-535f-471a-a16b-1772fae32e19",
+  "text": "**Recommendation: use a separate standards witness, not Dr. Takahashi.**\n\n**Who**\n- Retain someone who has served on the committee or working group behind the voluntary standard(s) for electric pressure cookers, or who has worked with the listing body behind the TT-6200's safety listing. The file doesn't identify a candidate, so we need to source three names with prior testimony notes.\n- Their scope should be narrow: what the standard requires, how it was developed, what compliance and listing mean, and how the independent lab testing maps to those requirements.\n- They should not touch the unit. That keeps them out of the inspection protocol and away from the facts of this failure.\n\n**Positioning relative to Dr. Takahashi**\n- Takahashi addresses this product: the lid system, the inspection findings (pin travel, residue, ring, gasket origin), and, if needed, design and alternative-design opinions. He is also our answer to Dr. Pellam on causation.\n- The standards witness is the yardstick, not the measurement. Splitting the roles avoids one expert vouching for both the design and the standard it is judged against. It also shields Takahashi from cross-examination on committee politics, how the standard was drafted, and what it doesn't cover. Any standard-level weakness, such as the absence of a secondary lockout requirement, stays with the standards witness.\n- The retention letter should keep the two analyses separate. The standards witness should get the test reports and the standard, not Takahashi's inspection work.\n\n**Timing and staging**\n- Client sequence is inspection, core document exchange, then mediation, with no testifying expert disclosed before mediation. Engage the standards witness as a non-testifying consultant if needed for mediation. Under the agreed terms, consultants aren't disclosed or deposed. Decide on designation only if mediation fails.\n- The firm's strategy is to attack Pellam's causation opinion first. Standards compliance goes to the design-defect and alternative-design theories, so it is second priority and should not drive early spending.\n- Compliance with standards is not a complete defense. The witness should be positioned as relevant to defect and reasonableness, not as dispositive.\n\n**Cautions**\n- Get Mr. Oyelaran's clearance on the name and fee quote before engagement, with a copy to Ms. Moorcroft. The client has asked to hear early if the budget will exceed $150,000 through mediation.\n- The agreed terms cover consultants but record no stipulation on drafts and attorney-expert communications for testifying experts. Seek one before designation.\n- The designation dates in the agreed schedule (August 21 and October 2, 2026) may already have passed or been affected by mediation. I don't have the current status, so confirm it before acting.\n- ECN-6200-14 (the retention clip) and the three \"hard to open\" complaints will probably be used to attack whether compliance was enough. Prepare the standards witness for those questions, but don't volunteer complaint history until a request has been served and scope discussed.",
+  "usage": {
+    "run_id": "20261103T174207Z_C0",
+    "timestamp": "2026-11-03T17:46:12+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7ab77f67-535f-471a-a16b-1772fae32e19",
+    "input_tokens": 2,
+    "output_tokens": 1837,
+    "cache_write_tokens": 20809,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.10161,
+    "latency_ms": 17021,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1837,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20809,
+      "webSearchRequests": 0,
+      "costUSD": 0.10161,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 858,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 20809,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

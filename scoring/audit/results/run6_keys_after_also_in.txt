@@ -1,0 +1,29 @@
+Keys found outside their own matter (informational; same-client and area-pattern overlap is expected):
+  A1-A-1 'regulatory affairs group' -> ['A-1', 'A-2']
+  A1-A-2 'regulatory affairs' -> ['A-1', 'A-2']
+  A2-A-2 'cardiologist' -> ['A-1', 'A-2']
+  A2-A-2 'has been deposed' -> ['A-1', 'A-2']
+  P1-A-1 'fits the facts' -> ['A-1', 'B-1', 'C-1']
+  P1-A-1 'design-defect' -> ['A-1', 'C-1']
+  P1-A-2 'causation opinion' -> ['A-1', 'A-2']
+  P1-B-1 'fits the facts' -> ['A-1', 'B-1', 'C-1']
+  P1-C-1 'reliable and fits the facts' -> ['A-1', 'C-1']
+  P2-A-1 'how the standards' -> ['A-1', 'C-1']
+  P2-A-1 'separate engagement' -> ['A-1', 'C-1']
+  P2-A-2 'separate witness' -> ['A-1', 'A-2']
+  P2-C-1 'separate engagement' -> ['A-1', 'C-1']
+Keys absent from all of the row's carrier documents (doc_path plus also_in):
+Carrier check (each also_in document must contain at least 2 of the row's keys):
+  A1-A-1 A/A-1/04-instruction-letter.md -> 3 keys: ['regulatory affairs group', 'before anything is served', 'told the regulator']
+  A1-A-2 A/A-2/04-instruction-letter.md -> 3 keys: ['regulatory affairs', 'regulatory submissions', 'no inconsistency']
+  A2-A-1 A/A-1/04-instruction-letter.md -> 2 keys: ['engage on figures', 'signal willingness to pay']
+  A2-A-2 A/A-2/04-instruction-letter.md -> 4 keys: ['cardiologist', 'put an offer on the table', 'sat for a deposition', 'do not respond with a number']
+  B1-B-1 B/B-1/04-instruction-letter.md -> 2 keys: ['before the parties get into expert work', 'before anyone designates an expert']
+  B2-B-1 B/B-1/04-instruction-letter.md -> 3 keys: ['single page', 'narrative memos', 'as a range in dollars']
+  C1-C-1 C/C-1/04-instruction-letter.md -> 4 keys: ['not stipulate', 'authenticity', 'internal test data', 'records are genuine']
+  C2-C-1 C/C-1/04-instruction-letter.md -> 4 keys: ['written sign-off', 'board of directors', '$1,500,000', 'verbal indication']
+carrier failures: 0
+Key-level check (pattern rows only; capitalized words in a key usually name a person, place or product):
+level violations: 0
+Whether a key is generic enough for its reach level is a judgment call; this check only catches names.
+done

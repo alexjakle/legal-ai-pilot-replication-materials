@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-X1",
+  "prompt_hash": "3180b9a231ff2ad0c5b5f8eef5ad8f22890f9f93ac6dd6d072de701c10e71d26",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:05:02+00:00",
+  "session_id_in": null,
+  "session_id": "0b4315b3-d151-4154-b7b5-8ef8b0ad3be4",
+  "text": "I have nothing on Telltale in the firm's stored knowledge. The only client store I have is Toil & Trouble's, plus the firm-wide practices, so I can't say how Telltale wants expert reports reviewed or when it will discuss settlement. I haven't guessed. If Telltale's file exists, point me to it. Its terms are also that client's confidential arrangements, so check whether they should be a model for another client at all.\n\nHere is what applies to Toil & Trouble.\n\n**Expert reports and expert selection**\n- **Client control:** Consult Franklin Oyelaran before engaging any testifying expert. Provide names, credentials and prior testimony.\n- **Standards or industry-practice witness:** Clear the plan with him first.\n- **Regulatory review:** Ask at intake whether Toil & Trouble's regulatory group reviews expert reports for consistency with its regulatory submissions. If it does, build that review time into the expert timetable. The stored knowledge doesn't say that this client does.\n- **Cost:** Get quotes before major expert or testing spend. Expert and testing costs are the likeliest cause of a budget overrun, so raise any projected overrun with Franklin early.\n- **Consulting engineer:** One attending a joint inspection is acceptable to the client.\n\n**Settlement and mediation**\n- **Timing:** Toil & Trouble prefers mediation before any testifying expert is disclosed or deposed, because expert discovery is expensive and hardens positions.\n- **Authority:** The firm has none. We recommend a range, and the client takes it to its claims group. No offer, number or signal of willingness to pay goes out without Franklin's written approval. A verbal indication is not enough.\n- **Before mediation:**\n  - Obtain preliminary authority before the session.\n  - Confirm the client accepts the proposed mediator.\n  - Confirm confidentiality protections prevent the mediation from being used in other cases.\n- **Approval process:** Ask early what approval thresholds apply and how long approval takes. Flag any recommended figure that would need the longer process, such as CFO or board sign-off.\n\n**Reporting**\n- Send Franklin a one-page report each month and after any event that changes the exposure range. Copy Delphine Moorcroft.\n- Keep internal case-assessment memos internal.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:05:02+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "0b4315b3-d151-4154-b7b5-8ef8b0ad3be4",
+    "input_tokens": 2,
+    "output_tokens": 1051,
+    "cache_write_tokens": 2530,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020634,
+    "latency_ms": 7654,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1051,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2530,
+      "webSearchRequests": 0,
+      "costUSD": 0.020634,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 290,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2530,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-X2",
+  "prompt_hash": "9d7e90f9eb92c3f0561186fde486a9e08eeec39ad02871c3a6bc5bea496244c3",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:28:44+00:00",
+  "session_id_in": null,
+  "session_id": "415dd767-1882-41aa-9a62-c9dcdf8600d6",
+  "text": "I can't answer this from what the firm has on file. Both the Joad Axle Works client store and the firm store are empty, so there is nothing on Toil & Trouble's case-report requirements or on how they sequence mediation and expert work. I won't guess at their practices, because a model built on guesses could mislead Joad.\n\n**What I'd need to answer it**\n- Toil & Trouble's outside counsel guidelines or litigation management protocol, if we have them.\n- Sample case reports we've prepared for them, or their report templates.\n- Engagement letters or emails that set out their reporting expectations, such as timing, budget forecasts, and early case assessments.\n- Any prior matters where we handled mediation or expert retention for them.\n- Whoever at the firm has worked with Toil & Trouble. That person could fill in unwritten preferences.\n\n**Questions to settle before building Joad's model**\n1. **Case reports:** What is the cadence (initial, periodic, event-driven)? What are the required sections (facts, claims and defenses, exposure and reserves, budget versus actual, strategy, next steps)? Do they want a format or length, or a particular level of candor on risk?\n2. **Sequencing:** Do they mediate before or after expert work? Do they retain consulting experts early to assess damages or causation, then designate testifying experts later? Do they want a mediation-ready expert analysis, or do they hold the expert spend until mediation fails?\n3. **Joad's own needs:** Joad's insurer, board, or lender may impose different reporting requirements, so a copy of Toil & Trouble's approach may not fit.\n\nIf you send me their guidelines or sample reports, I can summarize their approach and draft a Joad reporting template and a mediation-and-expert timeline for matter C-2. In the meantime I can draft a generic template and sequencing outline, clearly labeled as not based on Toil & Trouble's practices.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:28:44+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "415dd767-1882-41aa-9a62-c9dcdf8600d6",
+    "input_tokens": 2,
+    "output_tokens": 668,
+    "cache_write_tokens": 724,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.00958,
+    "latency_ms": 6924,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 668,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 724,
+      "webSearchRequests": 0,
+      "costUSD": 0.00958,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 45,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

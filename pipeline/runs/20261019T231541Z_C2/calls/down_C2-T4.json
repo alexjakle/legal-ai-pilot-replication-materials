@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T4",
+  "prompt_hash": "0b1fb8a4c8eeabca6b0d7d4e6ec07156c274c5c46e14b92f994f9e442ba6a9a0",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:21:14+00:00",
+  "session_id_in": null,
+  "session_id": "59cc3495-61a5-4245-a1e2-f23efabed839",
+  "text": "**Recommendation:** Retain a separate standards-and-compliance expert, with experience on a heavy-vehicle standards body (for example, SAE, ISO, or FMCSA/NHTSA-related committees). This expert would explain what the standards require and how manufacturers are expected to meet them. Do not engage this person until Joad has approved them.\n\n**Positioning relative to our engineering expert**\n\n- **Separate roles, complementary lanes.** The standards expert covers the industry framework: what the standards say, how they are developed and interpreted, and what a reasonable manufacturer does to comply (design validation, testing, documentation). The engineering expert stays focused on the JX-series spindle at issue, covering its design, testing, and performance against those standards. This matches Joad's preference that design testimony stay on the product.\n- **Sequence.** The standards expert sets the benchmark and the engineering expert applies it to the product. Their opinions should be consistent and cross-referenced, but neither should stray into the other's territory. That avoids overlap, inconsistent testimony, and cross-examination openings.\n- **Independence.** The standards expert should be able to speak to the industry as a whole rather than as an advocate for Joad's design. That makes the testimony more credible and keeps the engineering expert from having to vouch for the standards themselves.\n- **Information control.** Joad wants a tight circle around test files. Give the standards expert only the material needed (the standards, and what is required for their opinion). Product test data should go to them only after a protective order with an outside-counsel-and-experts-only tier is in place, and only if their opinion truly needs it.\n\n**Process before engagement**\n\n1. Prepare a short list of several candidates, with credentials, standards-body roles, and prior testimony (including any prior positions that could conflict with Joad's).\n2. Run conflict checks.\n3. Send the list through General Counsel Evander Thorsby. Joad has offered to help identify candidates with standards-body experience, so take up that offer.\n4. Get Joad's approval before any engagement, and before any substantive contact that would amount to retaining the person.\n5. Once approved, set out the scope in writing, and coordinate with the engineering expert on the division of topics.\n6. Flag the cost to Joad and the insurer in the budget, and report it in the next six-week report. If the insurer is paying, copy Perpetua Wallace on anything bearing on coverage or exposure.\n\n**Caution:** the standards expert should not touch physical evidence or testing. Any testing needs at least ten days' notice to Joad, quotes beforehand, and a written protocol with both sides' engineers present.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:21:14+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "59cc3495-61a5-4245-a1e2-f23efabed839",
+    "input_tokens": 2,
+    "output_tokens": 860,
+    "cache_write_tokens": 2149,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.0172,
+    "latency_ms": 7987,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 860,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2149,
+      "webSearchRequests": 0,
+      "costUSD": 0.0172,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

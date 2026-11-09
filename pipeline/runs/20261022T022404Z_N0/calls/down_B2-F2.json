@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-F2",
+  "prompt_hash": "34f1a9e82e8eee81fe957f5d22157fb34dc61a7e7a3e53c29fa794d55573ca6f",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:26:59+00:00",
+  "session_id_in": null,
+  "session_id": "a1b728c6-c018-4a25-887c-c826d1a44fda",
+  "text": "I can't give you that list, because the firm's knowledge stores contain nothing on it. Both the Client store (Toil & Trouble Home Products) and the Firm store are empty. There are no earlier-matter records, productions, or notes to draw from. Listing system names, document identifiers (such as Bates prefixes or control-number formats), or code names from memory would mean inventing them, and a made-up identifier could lead you to misclassify or overlook real material when the production arrives.\n\n**Ways to get the information**\n\n1. **Prior matter files.** If the firm has handled earlier matters for Toil & Trouble, the document management system, closed-matter archives, or prior review databases should hold previous productions. Bates prefixes, custodian lists, and metadata fields from those are the most reliable source.\n2. **Client IT or legal contact.** Ask for a data map or ESI systems questionnaire covering email platform, file shares, ERP/inventory/order systems, PLM or product databases, customer-service ticketing, and messaging tools. Ask also for any internal project code names and naming conventions for part numbers, SKUs, and document control numbers.\n3. **Prior counsel or litigation hold records.** Earlier hold notices, discovery responses, and 30(b)(6) or custodian interview notes often list systems and terms.\n4. **The incoming production itself.** Once it arrives, review the load file metadata (fields such as source, custodian, file path, and application) and the document headers and footers. These will reveal the identifiers and systems in use.\n\n**Next step**\n\nIf you can add earlier-matter materials to the client store, or tell me where they are, I can pull out the systems, identifiers, and code names and put them in a recognition guide for the B-2 review. I can also draft a short ESI questionnaire for the client.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:26:59+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a1b728c6-c018-4a25-887c-c826d1a44fda",
+    "input_tokens": 2,
+    "output_tokens": 582,
+    "cache_write_tokens": 730,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.008744,
+    "latency_ms": 5951,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 582,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 730,
+      "webSearchRequests": 0,
+      "costUSD": 0.008744,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

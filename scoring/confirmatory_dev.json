@@ -1,0 +1,12 @@
+{
+  "label": "EXPLORATORY",
+  "expected": "dev",
+  "replicates": [
+    {
+      "C0": "scores/20261019T232425Z_C0__2",
+      "C1": "scores/20261019T230656Z_C1__2",
+      "C2": "scores/20261019T231541Z_C2__2",
+      "N0": ["scores/20261022T022404Z_N0", "scores/20261028T164939Z_N0"]
+    }
+  ]
+}

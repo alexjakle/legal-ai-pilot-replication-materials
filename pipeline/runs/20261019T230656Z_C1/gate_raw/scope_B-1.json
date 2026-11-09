@@ -1,0 +1,177 @@
+{
+  "matter": "B-1",
+  "call_id": "scope_B-1",
+  "timestamp": "2026-10-19T23:08:40+00:00",
+  "session_id": "3f1f1b27-1b61-47a6-8ce0-9a63458f3aa6",
+  "raw": "{\"items\":[\n{\"id\":\"N8ce7bf.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.05\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N8ce7bf.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.10\",\"decision\":\"client_store\",\"text\":\"Complaint history: the TT-6200 Q3-2024 lot has no field complaints about the lid. There were three complaints of \\\"lid hard to open\\\" on other lots in 2024. Complaints are tracked in the Ravenscar ticketing system.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.11\",\"decision\":\"client_store\",\"text\":\"Engineering change notice ECN-6200-14 added a retention clip to the lockout pin on later TT-6200 production.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.14\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.17\",\"decision\":\"client_store\",\"text\":\"The TT-5500 uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.24\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.25\",\"decision\":\"client_store\",\"text\":\"Client staffing and budget preferences: wants an estimate for each phase of a matter, staffing limited to one associate and one partner, and no more than two lawyers at any deposition or hearing.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.26\",\"decision\":\"client_store\",\"text\":\"Delphine Moorcroft in risk management coordinates with the insurer's claims adjuster on claims.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.27\",\"decision\":\"client_store\",\"text\":\"Client reporting requirement (Franklin Oyelaran, General Counsel, letter of March 9, 2026): case reports must be a single page. Each page should show the current exposure as a range in dollars, a few lines of status, upcoming dates, and any decision needed from the client. No narrative memos. Send a page monthly and after any event that changes the range, such as an inspection result or a ruling.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.28\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N8ce7bf.29\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N8ce7bf.30\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N8ce7bf.31\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N8ce7bf.32\",\"decision\":\"discard\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N8ce7bf.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.04",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.05",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.06",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.07",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.08",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.09",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.10",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Complaint history: the TT-6200 Q3-2024 lot has no field complaints about the lid. There were three complaints of \"lid hard to open\" on other lots in 2024. Complaints are tracked in the Ravenscar ticketing system."
+      },
+      {
+        "id": "N8ce7bf.11",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Engineering change notice ECN-6200-14 added a retention clip to the lockout pin on later TT-6200 production."
+      },
+      {
+        "id": "N8ce7bf.12",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.13",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.14",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.15",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.17",
+        "decision": "client_store",
+        "tags": [],
+        "text": "The TT-5500 uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat."
+      },
+      {
+        "id": "N8ce7bf.18",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.19",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.22",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.23",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.24",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.25",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client staffing and budget preferences: wants an estimate for each phase of a matter, staffing limited to one associate and one partner, and no more than two lawyers at any deposition or hearing."
+      },
+      {
+        "id": "N8ce7bf.26",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Delphine Moorcroft in risk management coordinates with the insurer's claims adjuster on claims."
+      },
+      {
+        "id": "N8ce7bf.27",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client reporting requirement (Franklin Oyelaran, General Counsel, letter of March 9, 2026): case reports must be a single page. Each page should show the current exposure as a range in dollars, a few lines of status, upcoming dates, and any decision needed from the client. No narrative memos. Send a page monthly and after any event that changes the range, such as an inspection result or a ruling."
+      },
+      {
+        "id": "N8ce7bf.28",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.29",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.30",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.31",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.32",
+        "decision": "discard",
+        "tags": []
+      }
+    ]
+  }
+}

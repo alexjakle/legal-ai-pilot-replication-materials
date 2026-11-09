@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-F2",
+  "prompt_hash": "aa435b0af8b33f97df812df3a929fffb3d6eec153b7e43731aa2bb754a77f52a",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:10:33+00:00",
+  "session_id_in": null,
+  "session_id": "fd46bb0d-3b74-4cbb-9cb3-44ba41010ce6",
+  "text": "The stored knowledge has no figures from Telltale's earlier matters. It holds only client-wide standing terms, and it contains no reserves, prior budgets, settlement amounts, or fee totals.\n\n**Dollar figures and thresholds on file**\n\n| Item | Exact figure | Source and effect |\n|---|---|---|\n| Settlement authority threshold | **$500,000** | Settlement authority above this amount needs written sign-off from the CFO, Cormac Brightwater. |\n| Self-insured retention (SIR) | **$750,000 per claim** | Applies to Telltale's product liability program. The excess carrier sits above it. |\n| Budget variance threshold | **10%** | Telltale requires an explanation when a phase budget varies by more than this. |\n\n**Not on file**\n- No reserve figures, whether set by Telltale, the carrier, or the firm.\n- No prior-matter budgets, actual fees and costs, or settlement or verdict values.\n- No budget assumption for this matter, so I can't yet say whether an estimate exceeds it.\n- No details on how much of the SIR has been eroded, or whether defense costs count toward it. This matters for the reserve picture and needs confirmation.\n\n**Implications for the A-3 budget and reserve picture**\n- **Settlement authority:** The $500,000 threshold sits below the $750,000 SIR. Any settlement between those amounts would still fall within Telltale's own retention but would need CFO sign-off. The firm should send the General Counsel an assessment and recommended range first, and allow lead time for the CFO's approval.\n- **Reserve and coverage questions:** Raise these only with Thaddeus Wren (the insurance liaison) or the General Counsel. Copy Mr. Wren on communications touching exposure.\n- **Budget format:** Prepare phase-by-phase budgets, and explain any variance above 10%. Also explain any fee and cost estimate that exceeds Telltale's budget assumption.\n- **Staffing:** Telltale pays for no more than two timekeepers per deposition, which affects the deposition line items.\n\n**Next steps**\n1. Ask the General Counsel, with a copy to Mr. Wren, for Telltale's budget assumption for A-3.\n2. Ask for the current SIR erosion status and the excess carrier's reporting requirements.\n3. Check the firm's own billing records for prior Telltale matters, since those figures aren't in the stored knowledge I have.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:10:33+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "fd46bb0d-3b74-4cbb-9cb3-44ba41010ce6",
+    "input_tokens": 2,
+    "output_tokens": 986,
+    "cache_write_tokens": 1989,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.01782,
+    "latency_ms": 7433,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 986,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1989,
+      "webSearchRequests": 0,
+      "costUSD": 0.01782,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 174,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

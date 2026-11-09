@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-F1",
+  "prompt_hash": "40402b61ecc0a84b7ae6eab8f0176bf9df580ae69086dad355846cd7291c5664",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:00:03+00:00",
+  "session_id_in": null,
+  "session_id": "f1235fe0-7748-440c-af31-b11bc4126c69",
+  "text": "I can't give you those examples. The firm's stored knowledge on Telltale has no information about its earlier cases, so there are no names, code names, dates, or system names to cite for past discovery problems. Anything I offered would be invented, and you shouldn't rely on it for discovery planning.\n\n**What the file does show about likely risk areas**\n- **Next-generation lead inspection:** Telltale is in a regulatory inspection on its next-generation lead, and it wants filings to avoid characterizing failure rates beyond what is needed. In discovery, look for regulatory correspondence, inspection records, and internal failure-rate analyses touching that product. These could be requested as \"related model\" documents.\n- **Other incidents and claims:** The client expects prompt reporting of other incidents or claims involving the same or related models. Complaint files, adverse event reports, and similar-incident data are common discovery targets and should be identified early.\n- **Product documents and holds:** The client requires litigation holds on relevant product documents. Confirm that a hold is in place for A-3 and what it covers, including the systems where design, testing, complaint, and regulatory records are kept.\n- **Expert and regulatory review:** Regulatory affairs (Odalys Fennimore) must review every expert report, with ten business days allowed. Route comments through counsel and log what is sent, to protect the exchange as work product. Confirm that any draft-protection stipulation covers this review.\n\n**How to get the specifics**\n1. Ask Marguerite Salvesen (GC), copying Thaddeus Wren, for prior discovery problems, including any sanctions motions, privilege disputes, or document-retention issues, and for the names of the systems involved.\n2. Check the firm's own files for prior Telltale matters, including closing memos, discovery-dispute briefs, and ESI protocols.\n3. Ask the lawyers who worked those matters for a short debrief.\n\nI can draft the questions to the GC or a hold-confirmation checklist if that would help.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:00:03+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "f1235fe0-7748-440c-af31-b11bc4126c69",
+    "input_tokens": 2,
+    "output_tokens": 747,
+    "cache_write_tokens": 1936,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.015218,
+    "latency_ms": 6958,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 747,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1936,
+      "webSearchRequests": 0,
+      "costUSD": 0.015218,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 98,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1936,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

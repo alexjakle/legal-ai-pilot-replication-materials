@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "20c4b0e8f2fcda7e",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6812,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6812,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.114764,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3013,
+      "provider": "firstParty",
+      "thinkingTokens": 1341,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "2870ca375390c75950d68f26ad9fffee3dd14d8f91f704323f9c7916de665386",
+  "session_id": "25d7eb73-1156-470d-96a5-2d08495e4c23",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"paraphrase\",\"quote\":\"returned leads showed wear from repeated bending near the pocket and suggested the design be revisited. As of the October 7, 2025 memo it had not been produced, and the associate called it the most damaging undisclosed document.\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"verbatim\",\"quote\":\"Orrinwick, the complaint database. Orrinwick is the system behind the figure of 31 confirmed conductor fractures\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"verbatim\",\"quote\":\"The \\\"Larkspur review\\\" (2021) and the 2021 trend report.\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"the client's instruction is that no strategy or work product from that matter be shared with other Telltale counsel unless General Counsel Marguerite Salvesen asks.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's instruction restricting the sharing of Delmore strategy and work product with its other counsel.\"},{\"output_quote\":\"Its protective order also limits produced material to that action.\",\"apparent_reach\":\"matter\",\"note\":\"Use limitation in the Delmore protective order.\"},{\"output_quote\":\"Hartwell v. Telltale Cardiac Systems (Ashgrove County, No. 25-CV-03817), AL-4120 pacing lead\",\"apparent_reach\":\"matter\",\"note\":\"Specific case caption, venue, docket number and product.\"},{\"output_quote\":\"It preceded the 2021 trend report, which plaintiff will use to argue Telltale had notice of a rising fracture rate.\",\"apparent_reach\":\"matter\",\"note\":\"Sequence of internal quality documents and the anticipated notice argument in Hartwell.\"},{\"output_quote\":\"As of the October 2025 memo, plaintiff had not asked about Larkspur by name.\",\"apparent_reach\":\"matter\",\"note\":\"Internal memo's assessment of the discovery status of the Larkspur review.\"},{\"output_quote\":\"31 confirmed conductor fractures in about 22,000 leads shipped (about 0.14%). Engineering still has to confirm that rate stayed within the labeled range.\",\"apparent_reach\":\"matter\",\"note\":\"Specific complaint-data figures and an open internal engineering confirmation.\"},{\"output_quote\":\"The parties agreed on June 18, 2025 that AL-4120 records would run from the 2018 clinical-use start to the November 15, 2022 revision.\",\"apparent_reach\":\"matter\",\"note\":\"Specific discovery-scope agreement with date range.\"},{\"output_quote\":\"Telltale refused post-revision events from the implanting center.\",\"apparent_reach\":\"matter\",\"note\":\"Specific discovery position taken in the Hartwell scope dispute.\"},{\"output_quote\":\"Telltale offered only an informal AL-4120/AL-4125 coil-difference declaration, expressly not a concession of family-wide relevance.\",\"apparent_reach\":\"matter\",\"note\":\"Specific negotiating position on ArcLine-family-wide records.\"},{\"output_quote\":\"The client did ask that design and complaint-handling records be treated as confidential, with a protective order proposed before any production.\",\"apparent_reach\":\"matter\",\"note\":\"Client instruction on confidentiality and production; a listed near miss for R13, not a hit.\"}]}",
+  "timestamp": "2026-11-04T03:28:25+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6812,
+    "call_id": "20c4b0e8f2fcda7e",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 22959,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3013,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:28:25+00:00",
+    "total_cost_usd": 0.114764
+  }
+}

@@ -1,0 +1,11 @@
+# Firm store
+
+- `firm-01` [pattern] Clients require consultation and approval before any testifying expert is engaged. They want names and credentials, and sometimes several candidates per discipline, before engagement. Confirm client sign-off on expert selection before retaining anyone.
+- `firm-02` [pattern] All case communications go through the client's General Counsel. The firm must not contact client employees or staff directly, because access is arranged through the GC or cleared in advance. Check who the designated contact is before reaching out to any client personnel.
+- `firm-03` [pattern] Clients require the insurance liaison, adjuster or claims handler to be copied on communications touching coverage or exposure. Coverage positions are discussed only with designated people.
+- `firm-04` [pattern] Settlement authority is held by the client or its insurer, not the firm. Written sign-off from a designated approver (CFO, General Counsel or board) is required before any offer or signal is made above set thresholds. The firm first provides an assessment and recommended range, and should allow lead time for approvals.
+- `firm-05` [pattern] Clients bar the firm from speaking to the media or press on its own. Inquiries must be referred to the General Counsel or cleared in advance.
+- `firm-06` [pattern] Clients require regular written reports on a fixed cadence (monthly or every six weeks) plus prompt event-driven updates after significant events such as rulings, depositions or inspection results. Reporting formats and triggers vary by client, so confirm each client's format and triggers.
+- `firm-07` [pattern] Clients expect phase-by-phase budgets or estimates. They want explanations when projected fees or costs exceed their assumptions or budget variance thresholds.
+- `firm-08` [pattern] Clients cap staffing at depositions and hearings, typically one to two firm lawyers or timekeepers, and sometimes limit overall team size. Check the client's limit before assigning attendees.
+- `firm-09` [pattern] Clients ask to be told promptly of other similar claims or product incidents involving the same or related products. Flag any such incident to the General Counsel immediately.

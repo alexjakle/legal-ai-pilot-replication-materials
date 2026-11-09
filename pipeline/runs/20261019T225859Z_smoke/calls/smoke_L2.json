@@ -1,0 +1,45 @@
+{
+  "call_id": "smoke_L2",
+  "prompt_hash": "635538c73822dc3192d6909bcfd698b20b2a72fd2b1a97fecc7cce7c6fc527e6",
+  "stage": "smoke",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "smoke",
+  "timestamp": "2026-10-19T22:59:44+00:00",
+  "session_id_in": null,
+  "session_id": "4eab5b8e-d059-4d9c-9b4f-9d93a0ae9da7",
+  "text": "\"You are a Claude agent, built on Anthropic's Claude Agent SDK.\"\n\nok",
+  "usage": {
+    "run_id": "20261019T225859Z_smoke",
+    "timestamp": "2026-10-19T22:59:44+00:00",
+    "stage": "smoke",
+    "condition": "smoke",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "4eab5b8e-d059-4d9c-9b4f-9d93a0ae9da7",
+    "input_tokens": 2,
+    "output_tokens": 160,
+    "cache_write_tokens": 624,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.0041,
+    "latency_ms": 2785,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 160,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 624,
+      "webSearchRequests": 0,
+      "costUSD": 0.0041,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 127,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

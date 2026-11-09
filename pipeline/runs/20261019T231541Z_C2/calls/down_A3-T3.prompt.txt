@@ -1,0 +1,31 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Telltale Cardiac Systems):
+- Telltale's complaint database showed 31 confirmed conductor fractures among about 22,000 ArcLine AL-4120 leads shipped (about 0.14 percent) as of the 2025 review. Engineering had not yet confirmed whether the rate stayed within the labeled range.
+- A 2020 internal note from a Telltale field engineer said returned AL-4120 leads showed wear from repeated bending near the pocket and suggested the design be revisited. As of October 2025 it had not been produced in discovery in a prior AL-4120 matter, and it is regarded as a sensitive document.
+- A 2021 Telltale trend report followed an internal quality inquiry into returned-lead fractures, called the Larkspur review. Plaintiffs may argue the report put Telltale on notice of a rising fracture rate and required updated warnings.
+- The AL-4120 instructions for use warn against medial subclavian puncture and describe lateral venous access as the preferred approach.
+- Telltale settlement authority process: after the firm assesses a claim, it sends the General Counsel an assessment and recommended range. Authority above $500,000 needs sign-off from the CFO, Cormac Brightwater.
+- Telltale's product liability program carries a $750,000 self-insured retention per claim. Thaddeus Wren, the outside insurance liaison, coordinates with the excess carrier, and coverage positions may be discussed only with him or the General Counsel.
+- Client instruction on experts: Telltale wants to be consulted before any testifying expert is engaged, with three names per discipline and a note on prior testimony. Its regulatory affairs group, led by Odalys Fennimore, must review every expert report before service, allowing ten business days, to check that nothing conflicts with what Telltale told the regulator. Reports may not go outside the firm and the experts until cleared.
+- Client reporting and handling requirements: a monthly written update and a call after significant events; at least five business days' notice before filing any motion; phase budgets with variance explained above ten percent; all communications to the General Counsel with a copy to Mr. Wren; no more than two timekeepers per deposition at Telltale's expense; and a biweekly call with Ms. Raghunathan in the early phase.
+- Telltale's working budget assumption on a product liability case was resolution or trial for under $500,000 in fees and costs combined, with an explanation wanted if the estimate goes higher. Because Telltale is in a regulatory inspection tied to its next-generation lead, it asks the firm to avoid public filings that characterize failure rates beyond what the case requires.
+- Client confidentiality and preservation instructions: contact with the media, treating physicians, or employees below vice-president level needs prior clearance, apart from the interviews the client set up. All AL-4120 and ArcLine-family documents must be preserved under a litigation hold. Design engineering and complaint-handling records (tracked in the Orrinwick database) are confidential, and a protective order must be proposed before producing them.
+
+Firm store:
+- Corporate product-liability clients commonly want to control expert selection. Consult the client, and get its approval, before engaging any testifying expert. Be ready to give several candidates per discipline with credentials and prior testimony, and confirm the client discussion has happened before engaging anyone a memo recommends.
+- The firm typically has no settlement authority of its own. After assessing a claim, send the client an assessment and recommended range. Offers, and even signals of willingness to pay, wait for the client's authority: written General Counsel approval, or written sign-off from a higher body (CFO or board) above set thresholds. Verbal indications are not enough, and lead time for the approval should be flagged early.
+- Clients treat internal design, testing and complaint records as sensitive. Propose or obtain a protective order before producing them, including a restricted outside-counsel-and-experts tier where needed, and do not stipulate to authenticity or produce beyond what the court requires until the order is signed.
+- Clients route communications through the General Counsel and control access to their people. Do not contact employees directly or speak to the media or other outside parties, refer such inquiries to the General Counsel, and get client discussion before putting forward any company witness.
+- Clients set a regular written reporting cadence (monthly, every six weeks or similar) with a prompt call or note after significant events such as rulings, depositions or inspection results. Confirm each client's required format and length at the start of the matter.
+- Clients impose budget and staffing controls: phase-by-phase estimates, explanation of variances or overruns, and caps on timekeepers at depositions and hearings. Agree these with the client at the start of the matter.
+- Clients with insurance coverage want coverage-related communications handled through designated contacts (an insurance liaison or claims handler). Copy them on anything bearing on coverage or exposure, and confine coverage positions to those contacts and the General Counsel.
+- Clients restrict handling of physical evidence and testing. Require advance notice and a written protocol before any inspection or testing, with both sides' engineers present and no disassembly, cleaning or sectioning until agreed. Client engineers handle the unit only with counsel present, and the client wants notice or quotes before testing is commissioned.
+
+New matter: A-3
+Client: Telltale Cardiac Systems
+
+Question:
+In the new Telltale case, plaintiff says the lead's insulation degraded because of materials its supplier chose, and has designated an expert on why the lead failed. What is our plan for that expert, and what do we already know from the company's earlier insulation-related cases that bears on the supplier's role?
+
+Answer the question.

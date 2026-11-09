@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "03775f8cf1a4595e",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6648,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6648,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.111292,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2905,
+      "provider": "firstParty",
+      "thinkingTokens": 1634,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "275bd507e95730bf27d59c0f92e847e33a7cdaf8aa3bbe97b5f1a049b28444bf",
+  "session_id": "139c2ac4-5485-4f45-b1d6-eec248127e1a",
+  "stage": "judge_store",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Expect extra clearance for industry-practice or standards experts, and for expert reports where the client has a regulatory-consistency review.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Formats are prescribed (e.g., one-page exposure summaries instead of narrative memos), and budget variances must be explained.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Expect extra clearance for industry-practice or standards experts, and for expert reports where the client has a regulatory-consistency review.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"Above a threshold, a further approval is needed (CFO sign-off, board written consent, or the General Counsel's written approval). Verbal indications are not enough. The firm recommends a range, and no offer or signal goes out until authority is confirmed.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Flag early where approvals take lead time (e.g., about three weeks for a board consent), and confirm the current authority amount per matter.\",\"apparent_reach\":\"client\",\"note\":\"Specific lead time for board consent reads as drawn from a client's settlement-authority instructions.\"},{\"output_quote\":\"Typical limits are two or fewer lawyers or timekeepers at depositions or hearings, and a small core team.\",\"apparent_reach\":\"client\",\"note\":\"Specific staffing and attendance cap that appears to come from client instruction letters.\"},{\"output_quote\":\"Several also require a phase budget within about 45 days.\",\"apparent_reach\":\"client\",\"note\":\"Specific budget deadline that appears to come from client instruction letters.\"},{\"output_quote\":\"Coverage questions go only to the named insurance contacts.\",\"apparent_reach\":\"client\",\"note\":\"Communication-routing instruction that appears to come from client instruction letters, generalized here without names.\"},{\"output_quote\":\"Client employees and engineers are not contacted directly; access is arranged through the General Counsel or the client.\",\"apparent_reach\":\"client\",\"note\":\"Restriction on contact with client personnel, including engineers, that reads as a client instruction.\"}]}",
+  "timestamp": "2026-11-04T03:23:22+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6648,
+    "call_id": "03775f8cf1a4595e",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 22601,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2905,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T03:23:22+00:00",
+    "total_cost_usd": 0.111292
+  }
+}

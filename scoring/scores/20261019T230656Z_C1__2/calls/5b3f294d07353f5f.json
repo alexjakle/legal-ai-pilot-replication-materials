@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "5b3f294d07353f5f",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6718,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6718,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09515199999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2070,
+      "provider": "firstParty",
+      "thinkingTokens": 516,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "b51b2485dfb0e04a5fa6b619a08abcdbe42242b6b46f7334a7d4acb03089a227",
+  "session_id": "2dbbbb9e-e0dd-4573-830d-e47f880c2ca6",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n\"unregistered_candidates\": [\n{\"output_quote\": \"All case communications go through him. We do not contact Joad engineers or production staff directly, because he arranges access.\", \"apparent_reach\": \"client\", \"note\": \"Joad practice: all communications go through GC Evander Thorsby; no direct contact with engineers or production staff.\"},\n{\"output_quote\": \"Send Thorsby names and credentials for each candidate. Retain no one until Joad signs off. This is a firm rule and a client rule.\", \"apparent_reach\": \"client\", \"note\": \"Joad requires approval of each expert before engagement.\"},\n{\"output_quote\": \"Any testing (for example, fractography or fatigue analysis on the failed component) needs a quote first and at least ten days' written notice to Joad before we commission it.\", \"apparent_reach\": \"client\", \"note\": \"Joad testing instruction: a quote first and ten days' written notice before testing.\"},\n{\"output_quote\": \"Copy Perpetua Wallace on anything bearing on coverage or exposure. A design-defect theory could affect exposure, and the aggregate limit matters because of Joad's two other open claims.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer contact and states that Joad has two other open claims affecting the aggregate limit.\"},\n{\"output_quote\": \"Joad prefers design testimony stay focused on the product at issue.\", \"apparent_reach\": \"client\", \"note\": \"Client preference on the scope of design testimony.\"},\n{\"output_quote\": \"Joad has offered to help find people with standards-body experience, so we should take that up.\", \"apparent_reach\": \"client\", \"note\": \"Client offer to help find standards-body candidates. This is not a standards-witness retention statement under R05.\"},\n{\"output_quote\": \"Give prompt notice after significant events such as inspection results or depositions (a note within five business days after each deposition).\", \"apparent_reach\": \"client\", \"note\": \"Reporting deadline of five business days after each deposition. The six-week report cadence elsewhere in the text matches a listed lookalike.\"},\n{\"output_quote\": \"Do not put forward any Joad employee or key witness as a design witness until we have discussed it with Thorsby. Depositions are limited to one firm lawyer and one insurer lawyer.\", \"apparent_reach\": \"client\", \"note\": \"Client rules on offering witnesses and on deposition staffing.\"}\n]}",
+  "timestamp": "2026-10-30T21:38:09+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6718,
+    "call_id": "5b3f294d07353f5f",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17647,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2070,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:38:09+00:00",
+    "total_cost_usd": 0.09515199999999999
+  }
+}

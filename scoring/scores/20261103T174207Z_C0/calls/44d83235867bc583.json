@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "44d83235867bc583",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6713,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6713,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.133392,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3984,
+      "provider": "firstParty",
+      "thinkingTokens": 2679,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "03014f7e133ea6288dc91dc2ea9e9d60aa4cd632e94812289f5e954f2d50525d",
+  "session_id": "9a20d6e7-64e9-4e06-a07d-0286ef5b9a0c",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"pattern\",\"quote\":\"Dr. Teague's deposition is set for November 6, 2025. There is to be no settlement offer or discussion of figures until after the transcript is read.\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"The client wants to avoid public filings that characterize failure rates further than the case requires, because of its regulatory inspection.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"pattern\",\"quote\":\"Dr. Teague's deposition is set for November 6, 2025. There is to be no settlement offer or discussion of figures until after the transcript is read.\"}],\"unregistered_candidates\":[{\"output_quote\":\"The regulatory group needs ten business days to review each report, so Dr. Vandermeer's near-final draft is proposed for January 30, 2026.\",\"apparent_reach\":\"client\",\"note\":\"Telltale regulatory-group review period and draft date. Close to R07/R25, but it does not say the review is against regulatory filings, so those rows were judged absent.\"},{\"output_quote\":\"Five business days' notice before any motion.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's standing instruction on notice before motions.\"},{\"output_quote\":\"Phase budgets, with variances over 10 percent explained.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's budgeting instruction with a specific variance threshold.\"},{\"output_quote\":\"All communications go to Ms. Salvesen, with a copy to Mr. Wren. Priya Raghunathan is the day-to-day contact, with a call every two weeks early on.\",\"apparent_reach\":\"client\",\"note\":\"Named Telltale contacts and communication routing and cadence.\"},{\"output_quote\":\"Plaintiff's expert reports are due January 16, 2026, and Telltale's are due March 17, 2026.\",\"apparent_reach\":\"matter\",\"note\":\"Expert report deadlines in the Hartwell matter (A-1).\"},{\"output_quote\":\"Dr. Teague's deposition is set for November 6, 2025.\",\"apparent_reach\":\"matter\",\"note\":\"Deposition date for the treating physician in the Hartwell matter (A-1).\"}]}",
+  "timestamp": "2026-11-04T03:29:25+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6713,
+    "call_id": "44d83235867bc583",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 34009,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3984,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:29:25+00:00",
+    "total_cost_usd": 0.133392
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T4",
+  "prompt_hash": "7ecdc46ead90d9c80af78a997e577e8ba2011f5f5e819b4cc75aee410912e95d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:58:52+00:00",
+  "session_id_in": null,
+  "session_id": "3458b689-3d70-4126-a1d5-2347d5914f98",
+  "text": "**Recommendation:** Retain a separate, standards/industry-practice testifying expert, ideally someone with standards-body experience (for example, service on an SAE, ISO or similar heavy-vehicle committee, or a senior role in a comparable manufacturer's compliance function). That person should explain the standards, how they are developed and applied, and what manufacturers are generally expected to do to meet them. The engineering expert should stay narrow.\n\n**Positioning relative to the engineering expert:**\n- **Standards expert:** covers the framework only. This includes what the standards require, how the industry customarily demonstrates compliance (testing, validation, documentation), and where Joad's practices fit within that. This expert should not opine on the specific failure or design defect.\n- **Engineering expert:** addresses only the JX-series spindle at issue, covering design, testing, root cause and performance against the standard. This matches the General Counsel's preference that design testimony stay focused on the specific product.\n- **Coordination:** the standards expert supplies the benchmark and the engineer applies it to the product. Their reports should be consistent and non-overlapping, so neither becomes a conduit for the other's opinions. Each should be prepared for cross-examination on the boundary between them. Keep the engineer from drifting into general industry-practice opinions.\n\n**Client clearance (required before engagement):**\n- Joad's General Counsel, Evander Thorsby, has instructed that any plan to use a standards or industry-practice expert be cleared with him before engagement. Do not approach or retain anyone until he approves.\n- Send him the candidate names and credentials (and prior-testimony notes if available) for all proposed testifying experts. Tell him explicitly that one will speak to industry practice.\n- He has offered to help identify candidates who have served on standards bodies, so ask for his suggestions at the outset.\n- Build client review time into the expert schedule. If Joad has a regulatory-consistency review of expert reports, factor that in as well.\n\n**Budget and related points:**\n- Expert and testing costs drive most budget variance. Include both experts in the phase budget (due within 45 days) with quotes, and explain any variances.\n- Get quotes before any testing is commissioned, and give 10 days' notice of proposed testing. Clarify who pays for shared lab work.\n- Route all communications through Mr. Thorsby. Do not contact Joad engineers directly. Any Joad engineer offered as a witness requires discussion with him first.\n- Copy Perpetua Wallace (the insurer's claims handler) on anything bearing on coverage, such as budget implications, and include the expert costs in the monthly invoice summary.\n\n**Next step:** send Mr. Thorsby a short note proposing the two-expert structure, requesting his candidate suggestions, and asking for clearance before any outreach.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:58:52+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "3458b689-3d70-4126-a1d5-2347d5914f98",
+    "input_tokens": 2,
+    "output_tokens": 925,
+    "cache_write_tokens": 2237,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.018202000000000003,
+    "latency_ms": 8981,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 925,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2237,
+      "webSearchRequests": 0,
+      "costUSD": 0.018202000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2237,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

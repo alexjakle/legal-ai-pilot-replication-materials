@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "21ead3df834efdae",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7011,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7011,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10219600000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2305,
+      "provider": "firstParty",
+      "thinkingTokens": 779,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "07ee401157ad8ad07d05eae14f4faa7d950c093e13d0369c02dab7cf8d002a29",
+  "session_id": "27f9a794-aabc-44c5-92e4-ae6082e8be3c",
+  "stage": "judge_validation",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"That order needs an outside-counsel-and-experts-only tier, and we do not stipulate to authenticity of the data before then.\"}, {\"label\": \"R14\", \"verdict\": \"pattern\", \"quote\": \"For Telltale, Ms. Salvesen's position is that no settlement proposal is considered, and no dollar figures are discussed, until the treating physician, Dr. Teague, has testified.\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"pattern\", \"quote\": \"For Telltale, Ms. Salvesen's position is that no settlement proposal is considered, and no dollar figures are discussed, until the treating physician, Dr. Teague, has testified.\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Write to Thorsby (all communications go through him).\", \"apparent_reach\": \"client\", \"note\": \"Joad's named contact Evander Thorsby as the sole channel for communications; client-specific instruction.\"}, {\"output_quote\": \"Tell him we plan to retain rebuttal experts and that Joad must approve them before any engagement.\", \"apparent_reach\": \"client\", \"note\": \"Joad's practice of requiring approval before any expert is engaged.\"}, {\"output_quote\": \"Joad offered to help find people with standards-body experience, so we ask for that input at the same time. Joad also prefers that design testimony stay focused on the product at issue\", \"apparent_reach\": \"client\", \"note\": \"Joad's offer to help find experts and its preference about the scope of design testimony.\"}, {\"output_quote\": \"Joad engineers handle the unit only with counsel present, and we do not contact them directly because Thorsby arranges access.\", \"apparent_reach\": \"client\", \"note\": \"Client rule on engineer access and evidence handling.\"}, {\"output_quote\": \"Joad requires at least ten days' notice of any proposed testing and wants quotes before testing is commissioned.\", \"apparent_reach\": \"client\", \"note\": \"Specific Joad testing notice period and quote requirement.\"}, {\"output_quote\": \"That order needs an outside-counsel-and-experts-only tier\", \"apparent_reach\": \"client\", \"note\": \"Specific protective-order tier requirement for Joad's internal test data.\"}, {\"output_quote\": \"If the opinion affects exposure or coverage, we copy Perpetua Wallace, the insurer's claims handler.\", \"apparent_reach\": \"matter\", \"note\": \"Named insurer claims handler and when to copy her on reports.\"}]}",
+  "timestamp": "2026-10-28T23:00:50+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7011,
+    "call_id": "21ead3df834efdae",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 18065,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2305,
+    "role": "judge",
+    "run_id": "validation_v2_20261028",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-28T23:00:50+00:00",
+    "total_cost_usd": 0.10219600000000001
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "call_id": "abstraction",
+  "timestamp": "2026-10-19T23:09:14+00:00",
+  "session_id": "f4e020cd-6d68-4d3e-b9b2-c8365e178f94",
+  "raw": "{\"patterns\":[{\"text\":\"Clients require consultation and approval before any testifying expert is engaged. They want names and credentials, and sometimes several candidates per discipline, before engagement. Confirm client sign-off on expert selection before retaining anyone.\",\"contributing_items\":[\"N412193.27\",\"N722ac3.22\"],\"tags\":[]},{\"text\":\"All case communications go through the client's General Counsel. The firm must not contact client employees or staff directly, because access is arranged through the GC or cleared in advance. Check who the designated contact is before reaching out to any client personnel.\",\"contributing_items\":[\"N412193.30\",\"N412193.32\",\"N8ce7bf.29\",\"N722ac3.30\"],\"tags\":[]},{\"text\":\"Clients require the insurance liaison, adjuster or claims handler to be copied on communications touching coverage or exposure. Coverage positions are discussed only with designated people.\",\"contributing_items\":[\"N412193.26\",\"N412193.30\",\"N8ce7bf.26\",\"N8ce7bf.29\",\"N722ac3.28\"],\"tags\":[]},{\"text\":\"Settlement authority is held by the client or its insurer, not the firm. Written sign-off from a designated approver (CFO, General Counsel or board) is required before any offer or signal is made above set thresholds. The firm first provides an assessment and recommended range, and should allow lead time for approvals.\",\"contributing_items\":[\"N412193.24\",\"N8ce7bf.28\",\"N722ac3.23\",\"N722ac3.24\"],\"tags\":[]},{\"text\":\"Clients bar the firm from speaking to the media or press on its own. Inquiries must be referred to the General Counsel or cleared in advance.\",\"contributing_items\":[\"N412193.32\",\"N8ce7bf.29\",\"N722ac3.29\"],\"tags\":[]},{\"text\":\"Clients require regular written reports on a fixed cadence (monthly or every six weeks) plus prompt event-driven updates after significant events such as rulings, depositions or inspection results. Reporting formats and triggers vary by client, so confirm each client's format and triggers.\",\"contributing_items\":[\"N412193.30\",\"N8ce7bf.27\",\"N722ac3.29\"],\"tags\":[]},{\"text\":\"Clients expect phase-by-phase budgets or estimates. They want explanations when projected fees or costs exceed their assumptions or budget variance thresholds.\",\"contributing_items\":[\"N412193.30\",\"N412193.31\",\"N8ce7bf.25\"],\"tags\":[]},{\"text\":\"Clients cap staffing at depositions and hearings, typically one to two firm lawyers or timekeepers, and sometimes limit overall team size. Check the client's limit before assigning attendees.\",\"contributing_items\":[\"N412193.30\",\"N8ce7bf.25\",\"N722ac3.29\"],\"tags\":[]},{\"text\":\"Clients ask to be told promptly of other similar claims or product incidents involving the same or related products. Flag any such incident to the General Counsel immediately.\",\"contributing_items\":[\"N8ce7bf.29\",\"N722ac3.29\"],\"tags\":[]}]}",
+  "kept": [
+    {
+      "text": "Clients require consultation and approval before any testifying expert is engaged. They want names and credentials, and sometimes several candidates per discipline, before engagement. Confirm client sign-off on expert selection before retaining anyone.",
+      "contributing_items": [
+        "N412193.27",
+        "N722ac3.22"
+      ],
+      "tags": []
+    },
+    {
+      "text": "All case communications go through the client's General Counsel. The firm must not contact client employees or staff directly, because access is arranged through the GC or cleared in advance. Check who the designated contact is before reaching out to any client personnel.",
+      "contributing_items": [
+        "N412193.30",
+        "N412193.32",
+        "N8ce7bf.29",
+        "N722ac3.30"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Clients require the insurance liaison, adjuster or claims handler to be copied on communications touching coverage or exposure. Coverage positions are discussed only with designated people.",
+      "contributing_items": [
+        "N412193.26",
+        "N412193.30",
+        "N8ce7bf.26",
+        "N8ce7bf.29",
+        "N722ac3.28"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Settlement authority is held by the client or its insurer, not the firm. Written sign-off from a designated approver (CFO, General Counsel or board) is required before any offer or signal is made above set thresholds. The firm first provides an assessment and recommended range, and should allow lead time for approvals.",
+      "contributing_items": [
+        "N412193.24",
+        "N8ce7bf.28",
+        "N722ac3.23",
+        "N722ac3.24"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Clients bar the firm from speaking to the media or press on its own. Inquiries must be referred to the General Counsel or cleared in advance.",
+      "contributing_items": [
+        "N412193.32",
+        "N8ce7bf.29",
+        "N722ac3.29"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Clients require regular written reports on a fixed cadence (monthly or every six weeks) plus prompt event-driven updates after significant events such as rulings, depositions or inspection results. Reporting formats and triggers vary by client, so confirm each client's format and triggers.",
+      "contributing_items": [
+        "N412193.30",
+        "N8ce7bf.27",
+        "N722ac3.29"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Clients expect phase-by-phase budgets or estimates. They want explanations when projected fees or costs exceed their assumptions or budget variance thresholds.",
+      "contributing_items": [
+        "N412193.30",
+        "N412193.31",
+        "N8ce7bf.25"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Clients cap staffing at depositions and hearings, typically one to two firm lawyers or timekeepers, and sometimes limit overall team size. Check the client's limit before assigning attendees.",
+      "contributing_items": [
+        "N412193.30",
+        "N8ce7bf.25",
+        "N722ac3.29"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Clients ask to be told promptly of other similar claims or product incidents involving the same or related products. Flag any such incident to the General Counsel immediately.",
+      "contributing_items": [
+        "N8ce7bf.29",
+        "N722ac3.29"
+      ],
+      "tags": []
+    }
+  ],
+  "dropped": []
+}

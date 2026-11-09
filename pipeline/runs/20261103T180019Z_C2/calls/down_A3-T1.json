@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "3755ed09f4d5502e651df0594886fa569ef97af8ab8d2ba5fe42ed39724a11de",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:02:31+00:00",
+  "session_id_in": null,
+  "session_id": "936bbf3a-cb11-4b5d-97f4-5f5cb0b1264a",
+  "text": "# Expert reports: first draft to service\n\n**Check the deadline first.** You said plaintiff's expert disclosures are due in about ten weeks (roughly mid-January 2027). Confirm whether our own disclosure date is the same or later, and work backward from ours. The plan below assumes the worst case, that ten weeks is our own service date. That is tight, because the client's regulatory review alone takes two weeks.\n\n## 1. Before engagement: client consent (weeks 0-2)\n- Send General Counsel Marguerite Salvesen, with a copy to Thaddeus Wren, three candidates per discipline. For two experts, that is six names. Include credentials and notes on prior testimony.\n- Do not engage anyone until she approves. If either expert is a standards or industry-practice witness, clear that plan with her first.\n- Send fee and cost quotes for the experts with the phase budget. Expert and testing costs are likely the main budget driver, so flag any projected overrun early. Variances over 10% need a written explanation.\n- Raise the ten-week timeline with her now, including the regulatory review window, so the approval timing is realistic.\n\n## 2. Setting up the experts' access (weeks 1-3)\n- Get a protective order proposed or entered before anyone sends design engineering or complaint-handling records, including Orrinwick data, to the experts. It should have an outside-counsel-and-experts tier.\n- Route all requests for Telltale information, documents or people through Ms. Salvesen. Do not contact Telltale employees below vice president directly, and the experts shouldn't either.\n- Give the experts only what they need. Don't volunteer complaint history beyond what a served request requires.\n\n## 3. Drafting (weeks 2-6)\n- The expert prepares the draft. We review it for completeness, accuracy and the case's needs.\n- Keep the draft strictly within the firm and the expert. Under Telltale's rules, reports cannot go to anyone else until the regulatory group clears them.\n- Keep any discussion of failure rates to what the opinions actually require, because Telltale is in a regulatory inspection tied to its next-generation lead.\n- Build in a client-facing checkpoint, such as a short call on the expert's approach, so regulatory issues surface before the full draft exists.\n\n## 4. Regulatory review (about weeks 6-8)\n- Send the near-final draft to Ms. Salvesen, asking her to route it to Odalys Fennimore's regulatory affairs group. Their job is to check consistency with what Telltale told the regulator.\n- Allow ten full business days, which is two calendar weeks. Holidays in the window, such as Thanksgiving and year-end, will lengthen this. Ask for their calendar.\n- Copy Mr. Wren on the transmittal as a matter of routine. Because the report can't leave the firm and the experts until cleared, ask Ms. Salvesen whether he may receive the draft itself or only the cover note.\n- Have comments come back through us, not directly to the expert. That keeps the process orderly and protects the expert's independence. Corrections should be to facts or consistency, not to the expert's opinions. Check how your jurisdiction treats draft reports and communications with experts, since that affects what is discoverable.\n\n## 5. Revision and re-clearance (about weeks 8-9)\n- The expert revises, and we confirm every change is the expert's own judgment.\n- Ask up front whether Ms. Fennimore's group will do a shorter second review of only the changed portions. Don't assume it. If substantive changes are made, treat the revised report as needing clearance again.\n\n## 6. Sign-off and service (week 10)\n- Get written confirmation from Ms. Salvesen that the report is cleared. Confirm that the served version is the cleared version.\n- Serve on the due date, then send the client a short notice with the as-served reports.\n\n## Deadline risk\nIf the schedule can't absorb ten business days plus revisions, raise it with Ms. Salvesen immediately. If a stipulated extension or motion is needed, Telltale requires five business days' notice before any motion, so build that in as well. Cover the experts' progress, costs and timing in the monthly written update, and call her after any significant event, such as a regulatory concern surfacing in a draft.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:02:31+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "936bbf3a-cb11-4b5d-97f4-5f5cb0b1264a",
+    "input_tokens": 2,
+    "output_tokens": 2826,
+    "cache_write_tokens": 2523,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.038356,
+    "latency_ms": 24211,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2826,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2523,
+      "webSearchRequests": 0,
+      "costUSD": 0.038356,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1426,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2523,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

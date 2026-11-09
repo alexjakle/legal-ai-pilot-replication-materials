@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "987b73dbbe7633cd",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6651,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6651,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.088936,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1786,
+      "provider": "firstParty",
+      "thinkingTokens": 622,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "fc6219c46deac698a4b3d5b8d1fcca2db9186e973e5d077d0234293c12baaaf4",
+  "session_id": "3d328056-bbf4-488f-acdf-e21cc5854ede",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"pattern\",\"quote\":\"It won't stipulate to authenticity until a protective order with an outside-counsel-and-experts tier is signed, and it produces only what the court requires.\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Joad wants early interviews of key engineers and a tight circle around who sees test files. Don't offer key engineering or sales witnesses for testimony until the firm and Evander Thorsby have discussed it.\",\"apparent_reach\":\"client\",\"note\":\"Joad's standing witness-handling instructions, naming its contact Evander Thorsby.\"},{\"output_quote\":\"Thorsby wants names and credentials of all proposed testifying experts before engagement. Clear any standards or industry-practice witness with him first. He prefers design testimony stay on the specific product.\",\"apparent_reach\":\"client\",\"note\":\"Joad's standing instructions on pre-clearing experts and limiting the scope of design testimony.\"},{\"output_quote\":\"Report any other JX-series incidents to him immediately. Don't volunteer complaint history beyond what a served request requires.\",\"apparent_reach\":\"client\",\"note\":\"Joad's standing instruction on reporting JX-series incidents and limiting disclosure of complaint history.\"},{\"output_quote\":\"Ask Perpetua Wallace, the insurer's claims handler, whether Cobaltridge holds prior claim files on similar failures, and copy her on anything bearing on coverage.\",\"apparent_reach\":\"client\",\"note\":\"Names Joad's insurer and claims handler and reflects a practice of copying her on coverage matters.\"}]}",
+  "timestamp": "2026-11-04T02:56:57+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6651,
+    "call_id": "987b73dbbe7633cd",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 13278,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1786,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:56:57+00:00",
+    "total_cost_usd": 0.088936
+  }
+}

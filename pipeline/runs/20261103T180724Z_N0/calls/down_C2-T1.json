@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "45e3f40fa74d8f9468f0c1533f4be3d1fffbbec9b0cbbe10ca334928973acc39",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:10:45+00:00",
+  "session_id_in": null,
+  "session_id": "7f4f6651-89d7-440a-b84f-26f60d15c6e6",
+  "text": "# Response to plaintiff's counsel on a pre-agreed authenticity stipulation\n\nThe client and firm stores are empty, so I have no earlier Joad stipulations, protective orders, or testing history to check this against. This answer rests on general principles and assumes federal practice. I would confirm the forum's rules and any prior Joad positions before sending anything.\n\n## Recommended response\n\n**Don't agree to a blanket, up-front stipulation. Offer to meet and confer on a narrow one, tied to specific documents, once we've reviewed them.**\n\n1. **\"Fatigue testing documents\" is too vague.** The category could sweep in drafts, test protocols, raw data, supplier or third-party lab reports, emails summarizing results, and documents Joad didn't create. Joad can't vouch for what it hasn't seen or for what it didn't author. We haven't yet verified provenance, versions, or completeness.\n\n2. **Authenticity is not admissibility or accuracy.** Any stipulation should cover only that a document is what it purports to be (FRE 901) and, if we choose, the business-record foundation (902(11)/803(6)). It should expressly reserve:\n   - relevance and Rule 403\n   - hearsay beyond foundation, including multiple-hearsay layers\n   - substantial similarity (whether the tested design, material, or batch matches the axle at issue)\n   - completeness (Rule 106)\n   - privilege and work-product\n   - confidentiality and trade-secret treatment\n   - any argument about the weight or meaning of the contents\n\n   Joad's own documents may already come in as party-opponent statements (801(d)(2)), so a loose stipulation could do more damage than it appears to.\n\n3. **Reciprocity.** Any stipulation should run both ways, covering plaintiff's documents, expert materials, and third-party records.\n\n4. **Timing.** Authenticity is ordinarily handled after production, through a pretrial stipulation, or through Rule 36 requests for admission. There's no reason to concede it before discovery has defined the record.\n\n## What to ask for first\n\n1. **A specific, Bates-numbered list** of the documents plaintiff wants covered, or a precise description if production hasn't happened yet.\n2. **The purpose.** Which claims or issues is plaintiff using them for, and is plaintiff also seeking stipulations on admissibility or foundation?\n3. **Which test, product, and time period** the documents relate to, so we can assess similarity and scope.\n\n## Internal steps in parallel\n\n- **Confirm a protective order and a Rule 502(d) clawback order** are in place before producing sensitive testing material.\n- **Interview the client** on who ran the tests, the custodians, where the originals and raw data are kept, and whether versions or drafts exist.\n- **Review for completeness and privilege** before agreeing to anything.\n- **Check prior Joad cases** for earlier stipulations, protective orders, or testimony about these documents, so we stay consistent and avoid waiver or inconsistent positions. The stores are empty, so this needs a request to the client or firm records.\n\n## Suggested reply\n\n> Joad is willing to discuss a reciprocal stipulation on authenticity for specifically identified, Bates-numbered documents once they've been produced and reviewed. Please send the list and tell us what you intend to use the documents for. Any stipulation will be limited to authenticity, will reserve all other objections (including relevance, hearsay, Rule 403, substantial similarity, completeness, privilege, and confidentiality), and will not be an admission as to the accuracy or applicability of any document's contents.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:10:45+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7f4f6651-89d7-440a-b84f-26f60d15c6e6",
+    "input_tokens": 2,
+    "output_tokens": 1897,
+    "cache_write_tokens": 715,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.021834000000000003,
+    "latency_ms": 18096,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1897,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 715,
+      "webSearchRequests": 0,
+      "costUSD": 0.021834000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 717,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 715,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

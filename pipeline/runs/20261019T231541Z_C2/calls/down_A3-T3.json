@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T3",
+  "prompt_hash": "152ea0f0b694f2a4fa0fabefb9134ec4864c75e4c8b10a5a3676727572d70eef",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:18:09+00:00",
+  "session_id_in": null,
+  "session_id": "c001cb9c-18e2-48f8-ada0-bfb6da0b92a4",
+  "text": "**Short answer:** I can lay out a plan for the expert, but I can't tell you what the earlier insulation cases show about the supplier. Nothing in our stored knowledge covers that.\n\n## What we know about the earlier cases and the supplier\n\n- The client and firm records contain no insulation-related cases, no supplier identity, no material-selection history, and no supplier contract or indemnity terms.\n- The AL-4120 history we hold concerns **conductor fractures**:\n  - 31 confirmed fractures among about 22,000 leads (about 0.14%), with engineering not yet confirming whether that is within the labeled range.\n  - The 2020 field engineer note about bending wear near the pocket.\n  - The 2021 Larkspur trend report.\n  - The IFU warning on medial subclavian puncture.\n- These concern a different failure mechanism from insulation degradation, so I would not treat them as evidence on the supplier's role. They also carry risk: plaintiff could try to use the 2020 note and the Larkspur report to broaden the case, and the 2020 note is sensitive.\n- Next steps:\n  - Ask the General Counsel, with a copy to Mr. Wren, whether any prior AL-4120 or ArcLine-family matter involved insulation or supplier-material allegations.\n  - Pull the firm's files from those matters.\n  - Obtain the supplier agreement, specifications, and any indemnity or tender provisions, and ask whether the litigation hold reaches supplier-side material.\n  - Treat any supplier tender or indemnity issue that touches coverage as a matter for the General Counsel and Mr. Wren only.\n\n## Plan for plaintiff's failure-cause expert\n\n1. **Get the report and basis materials.** Review the designation, report, testing, and materials relied on. Identify whether the opinion rests on the actual explanted lead or on general literature.\n2. **Pin down the theory.** The opinion has to link insulation degradation to the supplier's material choice and then to the failure. Check whether it can be separated from the conductor fracture history and from any procedural factor such as access route.\n3. **Retain our own experts only with client approval.** Likely disciplines are materials and polymer science, and cardiac lead failure analysis or electrophysiology. Give the General Counsel three names per discipline, with credentials and prior testimony. Do not engage anyone until the client approves.\n4. **Handle physical evidence under a protocol.**\n   - Give advance notice and agree a written protocol before any inspection or testing, with both sides' engineers present.\n   - No disassembly, cleaning, or sectioning until the protocol is agreed.\n   - Telltale engineers handle the unit only with counsel present.\n   - Get notice or quotes to the client before commissioning testing.\n5. **Get a protective order first.** Any design, testing, supplier-selection, or Orrinwick complaint records we would need for rebuttal are confidential. Propose a protective order, with an outside-counsel-and-experts tier, before producing them, and do not stipulate to authenticity until it is signed.\n6. **Clear our expert's report with Telltale.**\n   - Allow ten business days for Odalys Fennimore's regulatory affairs review, to check consistency with what Telltale told the regulator.\n   - Keep the report within the firm and the experts until it is cleared.\n7. **Consider a challenge to plaintiff's expert.** Evaluate a Daubert or similar motion, and give Telltale at least five business days' notice before filing. Keep any public filing from characterizing failure rates beyond what the case requires, given the regulatory inspection.\n8. **Follow client handling rules.**\n   - Send communications to the General Counsel with a copy to Mr. Wren.\n   - Include this in the monthly update, plus a call after any significant event.\n   - Budget the expert phase and explain variances above 10%. Keep the total estimate in view against the $500,000 fee-and-cost assumption.\n   - Limit depositions of experts to two timekeepers.\n   - Do not contact employees below vice-president level, treating physicians, or the media without clearance.\n\nI'll hold off on any substantive assessment of the supplier's role until we have the prior-case files and supplier documents.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:18:09+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "c001cb9c-18e2-48f8-ada0-bfb6da0b92a4",
+    "input_tokens": 2,
+    "output_tokens": 1870,
+    "cache_write_tokens": 2480,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.028623999999999997,
+    "latency_ms": 16119,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1870,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2480,
+      "webSearchRequests": 0,
+      "costUSD": 0.028623999999999997,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 478,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "bd3bd8229acfc39f",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6946,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6946,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.090676,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1755,
+      "provider": "firstParty",
+      "thinkingTokens": 749,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "50eceaf8f97ea713ec12ed4475d3bed342d0c73bc9022a30e377054ef4629395",
+  "session_id": "afe4f91a-36d8-40a2-a4ad-6dd3d9c6c3df",
+  "stage": "judge_validation",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"verbatim\", \"quote\": \"On production logistics, Hollis Pruett is the person the vendor will want to hear from.\"},\n{\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"They should be able to explain how the standards are written, revised, and consensus-approved, what they cover and don't, how conformity is tested and certified, and how industry actually applies them to this product class.\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"They should be able to explain how the standards are written, revised, and consensus-approved, what they cover and don't, how conformity is tested and certified, and how industry actually applies them to this product class.\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"They should be able to explain how the standards are written, revised, and consensus-approved, what they cover and don't, how conformity is tested and certified, and how industry actually applies them to this product class.\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": []}\n```",
+  "timestamp": "2026-10-28T22:58:23+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6946,
+    "call_id": "bd3bd8229acfc39f",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 13851,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1755,
+    "role": "judge",
+    "run_id": "validation_v2_20261028",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-28T22:58:23+00:00",
+    "total_cost_usd": 0.090676
+  }
+}

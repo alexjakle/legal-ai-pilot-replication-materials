@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "d7f48198b6d98d7a",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 9866,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 9866,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.16083599999999998,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 4095,
+      "provider": "firstParty",
+      "thinkingTokens": 2127,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "6a3e51c71b3ef42ed2c6ed990ca847c619b9ef7e92ea611919a07e60a9039ba1",
+  "session_id": "98efb742-f375-4113-a891-729a89dd0e58",
+  "stage": "judge_store",
+  "text": "{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Toil & Trouble wants mediation before any testifying expert is disclosed or deposed, because expert discovery is expensive and hardens positions.\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"Test whether his sticking-pin theory is based on testing and fits the facts\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Test whether his sticking-pin theory is based on testing and fits the facts\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"Test whether his sticking-pin theory is based on testing and fits the facts\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"the General Counsel, Franklin Oyelaran, wants a one-page report with the current exposure range in dollars, a few lines of status, upcoming dates, and any decision needed from him. He does not want narrative memos.\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"the client has promised its largest retail partners advance warning before pulling any product from sale.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Engineering change notice ECN-6200-14 added a retention clip to the lockout pin on later production\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"The client's Ravenscar ticketing system tracks consumer complaints and can be searched on request.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"paraphrase\", \"quote\": \"a retail employee told the client's investigator that the box for this unit had been returned once and resold as new. If true, it could undercut plaintiff's account that she bought it new.\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Alteration lead: the client's service records show a replacement gasket was sent in July 2025 to a household at Ms. Okafor's address.\", \"apparent_reach\": \"matter\", \"note\": \"Specific fact from client service records supporting an alteration defense.\"},\n{\"output_quote\": \"likely exposure of $140,000 to $320,000, midpoint $230,000, with a modest chance of a defense verdict\", \"apparent_reach\": \"matter\", \"note\": \"Firm's internal exposure assessment for this matter.\"},\n{\"output_quote\": \"the Q3-2024 lot (Ms. Okafor's unit) has no field complaints about the lid. There were three complaints of \\\"lid hard to open\\\" on other lots in 2024.\", \"apparent_reach\": \"matter\", \"note\": \"Specific complaint history by production lot.\"},\n{\"output_quote\": \"For the TT-5500, which shares the lockout pin but has a different locking ring and lid seat, it will produce only complaints where the pin is described as the failing element.\", \"apparent_reach\": \"matter\", \"note\": \"Specific agreed limit on discovery scope for another model.\"},\n{\"output_quote\": \"There is a $100,000 insurance deductible on this claim, and the insurer has been notified.\", \"apparent_reach\": \"matter\", \"note\": \"Client's insurance deductible figure and notice status.\"},\n{\"output_quote\": \"The client does not expect to spend more than $150,000 through mediation and asked to hear early if that is unrealistic.\", \"apparent_reach\": \"matter\", \"note\": \"Client budget expectation for this matter.\"},\n{\"output_quote\": \"No settlement offer may be made in any form without Mr. Oyelaran's written approval.\", \"apparent_reach\": \"client\", \"note\": \"Client settlement approval instruction from the General Counsel; a listed lookalike for R29, not a hit.\"},\n{\"output_quote\": \"send communications to Mr. Oyelaran with a copy to Delphine Moorcroft in risk management.\", \"apparent_reach\": \"client\", \"note\": \"Client communication routing instruction naming specific personnel.\"},\n{\"output_quote\": \"Do not volunteer complaint history or other incidents until a request is served and scope is discussed.\", \"apparent_reach\": \"client\", \"note\": \"Standing client instruction on disclosing complaint history.\"},\n{\"output_quote\": \"use one associate and one partner for day-to-day work, with others only with approval. No more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing instructions.\"}\n]}",
+  "timestamp": "2026-11-04T03:37:00+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 9866,
+    "call_id": "d7f48198b6d98d7a",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 30531,
+    "model": "claude-opus-5-5",
+    "output_tokens": 4095,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T03:37:00+00:00",
+    "total_cost_usd": 0.16083599999999998
+  }
+}

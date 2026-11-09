@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "657ce32f84a0b574",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6605,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6605,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.098808,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2298,
+      "provider": "firstParty",
+      "thinkingTokens": 846,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "9c270cc504224dbf084621f57c1f75ec0aa780a31811d7ffc0917009235e1b88",
+  "session_id": "c7d2867d-d124-45bd-9312-fb0381fcf6eb",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"verbatim\", \"quote\": \"Its supplier-qualification program is called Corbelmark\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"There is to be no blanket stipulation to authenticity or business-record admissibility until a protective order is in place, and after that only document by document.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"paraphrase\", \"quote\": \"Joad changed its spindle forging supplier in 2020 after an internal audit. The reason is to stay within the case team.\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Joad wants to discuss with us before any employee is put forward, and wants key engineers interviewed early.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on clearing employee witnesses with Joad and interviewing engineers early.\"}, {\"output_quote\": \"the client wants us to understand it before any supplier discussion.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to understand the Corbelmark program before any supplier discussion.\"}, {\"output_quote\": \"Joad wants to know whether any expert will speak to industry practice, and it prefers design testimony focused on the product at issue.\", \"apparent_reach\": \"client\", \"note\": \"Client preference on the scope of expert and design testimony.\"}, {\"output_quote\": \"Joad wants immediate reporting of other incidents involving JX-series spindles, and a litigation hold should be confirmed.\", \"apparent_reach\": \"client\", \"note\": \"Client reporting instruction naming a specific product series, plus a litigation hold step.\"}, {\"output_quote\": \"Ask General Counsel Evander Thorsby for the prior-matter files: expert reports, test summaries, deposition transcripts, and any metallurgical analyses. All case communications go through him, and we shouldn't contact Joad engineers or production staff directly.\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's general counsel and states the client's rule on communications and no direct contact with engineers or production staff.\"}, {\"output_quote\": \"Give Joad 10 days' notice before proposing any testing, and get quotes first.\", \"apparent_reach\": \"client\", \"note\": \"Specific client requirement for a 10-day notice and quotes before proposing testing.\"}]}",
+  "timestamp": "2026-11-04T07:53:39+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6605,
+    "call_id": "657ce32f84a0b574",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16998,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2298,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:53:39+00:00",
+    "total_cost_usd": 0.098808
+  }
+}

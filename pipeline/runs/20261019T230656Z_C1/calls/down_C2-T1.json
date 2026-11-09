@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "45bd0d471543269bb5f72f8f0e28e088c6d58626bebd9c96869d424f79221c00",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:12:33+00:00",
+  "session_id_in": null,
+  "session_id": "8d23c1d5-f048-445e-bfa4-dc510ead0f67",
+  "text": "**Short answer:** Don't agree yet. Respond with a holding reply that doesn't stipulate, and first ask the client (through GC Thorsby) for the documents and the facts needed to evaluate the request.\n\n**How to respond to plaintiff's counsel**\n- Send a brief, courteous reply: we're open to discussing a stipulation on authenticity, but we can't agree to it until we've reviewed the specific documents and confirmed the facts with our client.\n- Don't concede anything in the interim. Authenticity is different from admissibility, and a blanket stipulation could be read to reach business-record foundation, hearsay, relevance, or the testing's reliability. If we later stipulate, limit it to authenticity of identified documents (by Bates number), expressly reserve all other objections, and make it reciprocal (we'd expect plaintiff to stipulate on their own documents).\n- Ask plaintiff's counsel which documents they mean, why they want this early, and what they'd offer in exchange. Make no statement about the testing's substance, and say nothing public or to media.\n\n**What to ask for first (internal, through General Counsel Thorsby)**\n1. **Route everything through Thorsby.** Don't contact Joad engineers or production staff directly. Ask Thorsby to arrange access to whoever created and maintained the fatigue test records, and to discuss before anyone is put forward as a witness or custodian.\n2. **The fatigue testing files themselves**, plus the facts on provenance: who ran the tests, when, under what protocol, where the records are kept, whether originals and native data exist, and whether anything has been edited, reformatted, or is incomplete. We can't responsibly say documents \"are what they purport to be\" until we know this. Keep the circle of people who see the test files tight.\n3. **Whether the testing is a problem.** Ask about any known gaps, drafts, superseded versions, or inconsistencies, and whether there are related incidents or similar product claims. Report any similar incidents to Thorsby immediately.\n4. **Authorization for the stipulation.** Get Thorsby's approval of the scope and terms before we commit to anything.\n\n**Other items to handle**\n- **Insurance:** This touches exposure, so copy Perpetua Wallace (the claims handler) on the communication to Thorsby about it. Also ask whether the carrier has reserved rights. If so, the client wants to hear the same day.\n- **Experts and testing:** If authenticating or evaluating the records requires new testing or an expert, don't commission it yet. The client requires at least ten days' notice and a quote before any testing, and approval of expert names and credentials before engagement.\n- **Reporting:** Include the request and our response in the next six-week written report, or send an earlier note if Thorsby wants one.\n\n**Sequence:** (1) send the holding reply to plaintiff; (2) send Thorsby, with Wallace copied, the request for the files, provenance facts, and authority; (3) review the documents; (4) only then offer a narrow, reciprocal, authenticity-only stipulation with all other objections reserved.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:12:33+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "8d23c1d5-f048-445e-bfa4-dc510ead0f67",
+    "input_tokens": 2,
+    "output_tokens": 1011,
+    "cache_write_tokens": 1932,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.017842,
+    "latency_ms": 8943,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1011,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1932,
+      "webSearchRequests": 0,
+      "costUSD": 0.017842,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

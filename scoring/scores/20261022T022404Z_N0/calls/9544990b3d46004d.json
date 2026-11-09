@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "9544990b3d46004d",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6921,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6921,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.084636,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1463,
+      "provider": "firstParty",
+      "thinkingTokens": 487,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "23d4a18e5c8d272153347597a4ebb4d2c8f605f6da3149b5dde59b47a5e8e106",
+  "session_id": "c19ee756-6f53-42ba-9dba-3e18408b32ea",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"They should be able to explain how the standards are written, revised, and consensus-approved, what they cover and don't, how conformity is tested and certified, and how industry actually applies them to this product class.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"They should be able to explain how the standards are written, revised, and consensus-approved, what they cover and don't, how conformity is tested and certified, and how industry actually applies them to this product class.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"They should be able to explain how the standards are written, revised, and consensus-approved, what they cover and don't, how conformity is tested and certified, and how industry actually applies them to this product class.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": []}\n```",
+  "timestamp": "2026-11-02T21:20:36+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6921,
+    "call_id": "9544990b3d46004d",
+    "condition": "N0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 11557,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1463,
+    "role": "judge",
+    "run_id": "20261022T022404Z_N0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-02T21:20:36+00:00",
+    "total_cost_usd": 0.084636
+  }
+}

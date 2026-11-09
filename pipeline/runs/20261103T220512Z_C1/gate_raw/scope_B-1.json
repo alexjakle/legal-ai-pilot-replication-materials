@@ -1,0 +1,181 @@
+{
+  "matter": "B-1",
+  "call_id": "scope_B-1",
+  "timestamp": "2026-11-03T22:06:19+00:00",
+  "session_id": "5e217517-be7e-4bad-bfae-4684c5edec6f",
+  "raw": "{\"items\":[\n{\"id\":\"N8ce7bf.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.04\",\"decision\":\"client_store\",\"text\":\"The TT-6200 is a six-quart electric pressure cooker with a rotating bayonet lid and a spring-loaded float valve with a lockout pin. The pin rises as pressure builds and blocks the locking ring from turning. Operating pressure is about 10 psi.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.05\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.09\",\"decision\":\"client_store\",\"text\":\"Client contacts: communications go to General Counsel Franklin Oyelaran, copied to Delphine Moorcroft in risk management.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.11\",\"decision\":\"client_store\",\"text\":\"Client reporting preference: reports must be one page showing the exposure range in dollars, status in a few lines, upcoming dates and any decision needed. No narrative memos. The client wants a page each month and after any event that changes the range. The client reports to its CEO and its insurer's claims group.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.12\",\"decision\":\"client_store\",\"text\":\"Client standing instructions: do not speak to the press or to retail partners; do not contact client employees directly; preserve all documents; allow no more than two lawyers at any deposition or hearing; use one associate and one partner for day-to-day work; bill monthly; and report promptly any other claims involving the TT-6200 or related models. The client has promised its largest retail partners advance warning before pulling any product, so counsel must tell the General Counsel at once if a case could lead to that.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.14\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.24\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.25\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.26\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.27\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.28\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.29\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.30\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.31\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.32\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.33\",\"decision\":\"client_store\",\"text\":\"Lesson: when the client prefers mediation before expert work, opposing counsel can be brought along by offering certainty on early production of key documents and fixed expert dates with a trigger if mediation fails, especially where the other side fears delay.\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N8ce7bf.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.04",
+        "decision": "client_store",
+        "tags": [],
+        "text": "The TT-6200 is a six-quart electric pressure cooker with a rotating bayonet lid and a spring-loaded float valve with a lockout pin. The pin rises as pressure builds and blocks the locking ring from turning. Operating pressure is about 10 psi."
+      },
+      {
+        "id": "N8ce7bf.05",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.06",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.07",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.08",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.09",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client contacts: communications go to General Counsel Franklin Oyelaran, copied to Delphine Moorcroft in risk management."
+      },
+      {
+        "id": "N8ce7bf.10",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.11",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client reporting preference: reports must be one page showing the exposure range in dollars, status in a few lines, upcoming dates and any decision needed. No narrative memos. The client wants a page each month and after any event that changes the range. The client reports to its CEO and its insurer's claims group."
+      },
+      {
+        "id": "N8ce7bf.12",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client standing instructions: do not speak to the press or to retail partners; do not contact client employees directly; preserve all documents; allow no more than two lawyers at any deposition or hearing; use one associate and one partner for day-to-day work; bill monthly; and report promptly any other claims involving the TT-6200 or related models. The client has promised its largest retail partners advance warning before pulling any product, so counsel must tell the General Counsel at once if a case could lead to that."
+      },
+      {
+        "id": "N8ce7bf.13",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.14",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.15",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.17",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.18",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.19",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.22",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.23",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.24",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.25",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.26",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.27",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.28",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.29",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.30",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.31",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.32",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.33",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Lesson: when the client prefers mediation before expert work, opposing counsel can be brought along by offering certainty on early production of key documents and fixed expert dates with a trigger if mediation fails, especially where the other side fears delay."
+      }
+    ]
+  }
+}

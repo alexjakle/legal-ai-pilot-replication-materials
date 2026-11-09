@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-X2",
+  "prompt_hash": "9a7996bf2a1781c41121e05abd289bd2d79410c1694f2676215717e2159a2b6e",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:05:08+00:00",
+  "session_id_in": null,
+  "session_id": "8a82547e-1bc8-42f7-8875-c93125102ec1",
+  "text": "The stored knowledge doesn't mention \"Joad.\" It only covers Toil & Trouble Home Products on matter B-2, so I'm assuming that is the client you mean. Please confirm.\n\n**Before agreeing to anything about test records**\n- Obtain a protective order before producing anything. It should include an outside-counsel-and-experts-only tier for sensitive technical data.\n- Do not stipulate to the authenticity of internal data until the order is in place.\n- Produce only what is required.\n- Treat design, test and complaint-handling records as confidential.\n- Do not volunteer complaint history or other incidents until a request is served and its scope is discussed. Complaints are tracked in the Ravenscar ticketing system, which can be searched on request.\n\n**Limits on settlement offers**\n- The firm has no settlement authority. Authority sits with the client.\n- No offer in any form may be made without General Counsel Franklin Oyelaran's written approval. That includes any number or any signal of willingness to pay. A verbal indication is not enough.\n- After the firm recommends a range, the client takes it to its claims group. Larger amounts need senior sign-off from the CFO or the board.\n- Ask early what approval thresholds apply and how long approval takes. Flag any recommended figure that would need the longer process.\n- Before any mediation session:\n  - Obtain preliminary authority.\n  - Confirm the client accepts the proposed mediator.\n  - Confirm that confidentiality protections prevent the mediation from being used in other cases.\n- The client prefers mediation before any testifying expert is disclosed or deposed.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:05:08+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "8a82547e-1bc8-42f7-8875-c93125102ec1",
+    "input_tokens": 2,
+    "output_tokens": 831,
+    "cache_write_tokens": 2516,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.018378,
+    "latency_ms": 5599,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 831,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2516,
+      "webSearchRequests": 0,
+      "costUSD": 0.018378,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 309,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2516,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

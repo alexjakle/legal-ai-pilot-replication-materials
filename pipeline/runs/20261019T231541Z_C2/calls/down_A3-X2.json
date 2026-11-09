@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-X2",
+  "prompt_hash": "b6dbfa44bdbef832bd2fca7ea18bbf218ea9763cdf07cad3e60eb391dc447118",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:19:05+00:00",
+  "session_id_in": null,
+  "session_id": "6fcad2a8-4de4-42ab-830c-1142295c3dbc",
+  "text": "I can't answer this as asked. Nothing in the client or firm knowledge mentions \"Joad,\" so I have no settlement approval requirements, supply chain changes, or test records for it. The client on matter A-3 is Telltale Cardiac Systems. If Joad is a different client or a mistaken name, I'd need the correct file before saying anything about it.\n\n**Telltale's settlement approval requirements (if that is what you meant)**\n- The firm has no settlement authority of its own. After assessing a claim, we send the General Counsel an assessment and recommended range.\n- Offers, and even signals of willingness to pay, must wait for the client's written authority. Verbal indications are not enough.\n- Authority above $500,000 also needs written sign-off from the CFO, Cormac Brightwater. We should flag the lead time for that approval early.\n- Telltale's self-insured retention is $750,000 per claim, and the excess carrier is involved above that. Thaddeus Wren, the outside insurance liaison, coordinates with the carrier. Coverage positions may be discussed only with him or the General Counsel. Communications to the General Counsel should be copied to Mr. Wren.\n\n**Supply chain changes**\nThe stored information says nothing about any supply chain changes, for Telltale or anyone else.\n\n**Test records**\nNothing in the store concerns test records. The closest related items are:\n- The complaint database showed 31 confirmed conductor fractures among about 22,000 AL-4120 leads shipped (about 0.14%). Engineering had not confirmed whether that stays within the labeled range.\n- A 2020 field engineer note described wear from repeated bending.\n- The 2021 Larkspur review trend report.\n- The design engineering and complaint-handling records tracked in the Orrinwick database, which are confidential. A protective order must be proposed before they are produced.\n\nPlease confirm whether you meant Telltale or a different client. If it is a different one, I'll need that client's file.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:19:05+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "6fcad2a8-4de4-42ab-830c-1142295c3dbc",
+    "input_tokens": 2,
+    "output_tokens": 815,
+    "cache_write_tokens": 2424,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.017849999999999998,
+    "latency_ms": 6607,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 815,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2424,
+      "webSearchRequests": 0,
+      "costUSD": 0.017849999999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 173,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

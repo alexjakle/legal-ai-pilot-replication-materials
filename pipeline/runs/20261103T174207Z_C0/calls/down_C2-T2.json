@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T2",
+  "prompt_hash": "2da78bf8de6c8e09440a457626d4fd78f4aa40af66367d2c9c40a905e9683168",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T17:47:51+00:00",
+  "session_id_in": null,
+  "session_id": "41916a45-53ad-4732-9c8e-cb6860408843",
+  "text": "**Short answer:** Nothing should be conveyed now. Joad needs the General Counsel's clearance for any figure and the board's written consent for anything above $1.5 million, and our recommendation is that no figure go out until the spindle has been examined.\n\n**Where things stand**\n- The Estate has made no formal demand beyond the $11.5 million in the complaint. We can say we aren't discussing numbers yet without signaling anything.\n- Our recommendation (Jan. 22 memo) is no settlement talks now. The sequence evidence, whether the spindle failed before or during the rollover, is too uncertain. The Estate would also price the case on the worst reading of the FT-77 data. Revisit after the joint spindle examination.\n- If the sequence picture turns favorable, a $1.2 million to $2 million range could be explored.\n\n**Who approves what**\n1. **Up to $1.5 million (insurer tier):** Cobaltridge Indemnity has pre-approved authority up to $1.5 million. Even within that tier, check with the General Counsel, Evander Thorsby, before conveying anything. Communications on this go through him.\n2. **Above $1.5 million:** This requires written sign-off from Joad's board of directors. A verbal indication from a director or officer is not enough. No offer above $1.5 million may be communicated, even as a signal, without that document.\n3. **Timing:** The client needs about three weeks to prepare a board consent. The upper half of the $1.2 million to $2 million range falls in this tier, so we should flag it to Thorsby early rather than wait until plaintiff presses.\n\n**What Joad needs before any figure goes out**\n- **Our assessment and range:** Joad needs our written recommendation. The current exposure view is a $3.5 million to $7 million gross verdict range if liability is established, with about a 35% chance of an adverse liability finding. We should update it after the examination.\n- **The examination result:** Joad's engineers don't believe the design failed, and the client wants the sequence question answered by proper examination before forming a view on liability.\n- **Insurer coordination:** Perpetua Wallace, the claims handler, must be copied on anything bearing on coverage. The policy has a $400,000 retention, and the client is watching the aggregate limit closely because of two other open claims. Joad wants to hear the same day if the carrier reserves its rights.\n- **Protective order:** The documents don't show it has been signed. Production of FT-77 and the design drawings, and any authenticity discussion, wait on it. A number shouldn't be discussed while Joad's test data is still unproduced.\n\n**Handling caution:** The privileged post-accident metallurgical review found a tool mark at the fracture origin that couldn't be ruled out as the initiation point. It is withheld as work product. Any figure or expert-reliance decision should be made with that risk in mind, and nothing said in negotiation should disclose or characterize it.\n\n**Next steps**\n- Tell Thorsby now that plaintiff is pressing for a number.\n- Give the three-week board lead time as a heads-up.\n- Respond to plaintiff's counsel only that we can't discuss figures yet.",
+  "usage": {
+    "run_id": "20261103T174207Z_C0",
+    "timestamp": "2026-11-03T17:47:51+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "41916a45-53ad-4732-9c8e-cb6860408843",
+    "input_tokens": 2,
+    "output_tokens": 1638,
+    "cache_write_tokens": 20824,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.09967999999999999,
+    "latency_ms": 18270,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1638,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20824,
+      "webSearchRequests": 0,
+      "costUSD": 0.09967999999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 603,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 20824,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

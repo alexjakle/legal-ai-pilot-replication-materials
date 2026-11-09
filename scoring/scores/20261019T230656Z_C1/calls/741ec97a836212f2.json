@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "741ec97a836212f2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5960,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.080668,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1649,
+      "provider": "firstParty",
+      "thinkingTokens": 346,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "dd7f720079f7af16a6e5dd78bbfca64cb64b06177b313c173b9954ebfbe3f427",
+  "session_id": "af9d985b-64da-4c81-82ec-c0abb3ec4e96",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"No offer above the tier may be made or communicated, even as a signal, until that written sign-off is in hand.\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Check with General Counsel Evander Thorsby before conveying it. The insurer will want to be involved.\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's general counsel and says he must be consulted before any figure within the insurer's tier is conveyed.\"}, {\"output_quote\": \"Thorsby (no direct contact with other Joad personnel)\", \"apparent_reach\": \"client\", \"note\": \"Client instruction that all communication goes only through the GC.\"}, {\"output_quote\": \"Copy Perpetua Wallace, the insurer's claims handler, on anything bearing on coverage or exposure.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer's claims handler and states a copying instruction.\"}, {\"output_quote\": \"The client needs about three weeks to prepare a board consent, so the lead time should be built into the schedule now.\", \"apparent_reach\": \"client\", \"note\": \"Specific lead time for Joad's board consent process.\"}, {\"output_quote\": \"the retention is $400,000, and the client is watching the aggregate limit because of two other open claims.\", \"apparent_reach\": \"client\", \"note\": \"Specific retention figure and aggregate-limit concern tied to other open claims.\"}, {\"output_quote\": \"Reservation of rights: if the carrier reserves its rights, the client wants to hear the same day.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to report any reservation of rights the same day.\"}]}",
+  "timestamp": "2026-10-20T02:37:27+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5960,
+    "call_id": "741ec97a836212f2",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 12574,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1649,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:37:27+00:00",
+    "total_cost_usd": 0.080668
+  }
+}

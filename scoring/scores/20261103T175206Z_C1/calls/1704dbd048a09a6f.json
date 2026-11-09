@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "1704dbd048a09a6f",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6977,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6977,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.113904,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2904,
+      "provider": "firstParty",
+      "thinkingTokens": 1424,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "35330f159c1dba83d39f14fb0dfb5ad0476d753babf67d5ff54d1530874d511d",
+  "session_id": "d895529c-5bcb-4af4-b98e-cbab74c3553e",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"verbatim\",\"quote\":\"The client's Ravenscar ticketing system tracks consumer complaints and can be searched on request.\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"If any item suggests a possible withdrawal of the product, tell Mr. Oyelaran at once, because of the commitments to retail partners.\",\"apparent_reach\":\"client\",\"note\":\"Alludes to the subject of R21 but does not state advance notice before a stop-sale, so R21 is marked absent. Flagged for review as a client instruction and possible partial match.\"},{\"output_quote\":\"A spring-loaded float valve has a lockout pin. The pin rises as pressure builds and blocks the locking ring from turning.\",\"apparent_reach\":\"client\",\"note\":\"Specific TT-6200 lid design detail from the client's file.\"},{\"output_quote\":\"The client says the lid system went through independent laboratory testing before launch.\",\"apparent_reach\":\"client\",\"note\":\"Client's statement about TT-6200 pre-launch testing.\"},{\"output_quote\":\"The Q3-2024 lot had no field complaints about the lid.\",\"apparent_reach\":\"matter\",\"note\":\"Specific complaint-history fact tied to the Okafor matter.\"},{\"output_quote\":\"Three \\\"lid hard to open\\\" complaints came in on other 2024 lots.\",\"apparent_reach\":\"matter\",\"note\":\"Specific complaint count and lot information from the file.\"},{\"output_quote\":\"Ask Mr. Oyelaran, with a copy to Delphine Moorcroft, whether B-2 involves the TT-6200 or a related model, and which lot.\",\"apparent_reach\":\"client\",\"note\":\"Names client contacts and a client communication routing practice.\"},{\"output_quote\":\"If other claims exist on the TT-6200 or related models, the client expects prompt notice.\",\"apparent_reach\":\"client\",\"note\":\"Client expectation of prompt notice of related claims.\"},{\"output_quote\":\"We don't volunteer complaint history until a request is served and scope is discussed.\",\"apparent_reach\":\"client\",\"note\":\"Discovery practice on disclosing complaint history.\"},{\"output_quote\":\"Technical access goes through Rennick Odell, arranged by the client. We shouldn't contact him or other employees directly.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction naming the technical contact and barring direct employee contact.\"},{\"output_quote\":\"Ask the client for retail return data. We don't contact retail partners.\",\"apparent_reach\":\"client\",\"note\":\"Client practice barring counsel from contacting retail partners.\"}]}",
+  "timestamp": "2026-11-04T03:18:24+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6977,
+    "call_id": "1704dbd048a09a6f",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23797,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2904,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:18:24+00:00",
+    "total_cost_usd": 0.113904
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "820e0acb4a98d9dccaa43d03f3a64acf6e67617a87c247ffb7e5c7c16b8ff72e",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:52:02+00:00",
+  "session_id_in": null,
+  "session_id": "b2034db6-c27f-4d73-8ca3-4cf90665442d",
+  "text": "# Expert report workflow, matter A-3 (Telltale Cardiac Systems)\n\n**Caveat on sources:** The client and firm stores are empty, so nothing here reflects Telltale's or the firm's own protocols. This is general practice. Please check it against the scheduling order, the governing jurisdiction's rules, and any firm expert-retention policy.\n\n**Threshold issue: whose deadline is this?** Telltale is presumably the defendant, so \"plaintiff's expert disclosures\" would be the other side's deadline, not ours. Defense disclosures usually come later, either staggered or after plaintiff's. Please confirm in the scheduling order which date governs our two experts. If ours is later, the ten weeks is a floor, and we can use plaintiff's reports to shape ours. If we are somehow on the plaintiff side, the plan below still applies.\n\n## Stage by stage\n\n**Weeks 0–1: Set up**\n- Confirm all deadlines: disclosure, rebuttal, expert depositions, and *Daubert* motions.\n- Run conflicts on each expert, and confirm their availability for the report, deposition, and trial.\n- Retain through the firm, not Telltale, with the engagement letter addressing scope, compensation, and confidentiality.\n- Make sure a protective order is in place and each expert signs it before seeing confidential Telltale material.\n- Give the experts a protocol on drafts and communications (see the next section).\n\n**Weeks 1–3: Materials and fact access**\n- Assemble the record: pleadings, medical records, the device exemplar and lot or explant, complaint files, and design and manufacturing records.\n- Pull regulatory materials: design history file, risk management file, premarket submission, labeling and IFU, CAPAs, and adverse event or MDR history.\n- Keep a running log of everything the expert receives. It becomes the \"facts or data considered\" list.\n- Preserve any device testing and expert inspections, and coordinate protocols with opposing counsel if testing is destructive.\n\n**Weeks 3–5: Analysis and outline**\n- The expert does testing and analysis and prepares an outline of opinions.\n- Counsel and expert discuss opinions orally. Early discussions are better kept oral.\n- Check each opinion against likely *Daubert* challenges, preemption or regulatory framing, and plaintiff's theories.\n\n**Weeks 5–7: First draft**\n- The expert writes the draft. Counsel should not draft substantive opinions.\n- Counsel reviews for completeness against Rule 26(a)(2)(B) or the state equivalent. That means all opinions and their bases, data considered, exhibits, qualifications, publications from the last ten years, prior testimony for four years, and compensation.\n- Check consistency between the two experts, since overlap or contradiction invites cross-examination.\n\n**Weeks 7–8: Telltale fact-check, through counsel**\n- Telltale personnel review the draft only for factual accuracy about the company, product, and history. They do not comment on opinions.\n- Check consistency with Telltale's prior positions: discovery responses, 30(b)(6) testimony, regulatory filings, and public statements.\n- Corrections should come back through counsel. The expert decides whether to change anything.\n\n**Weeks 8–9: Finalize**\n- Revise, finalize exhibits, have the expert sign, and do a cite-check against the record.\n- Do a final *Daubert* and cross-examination read-through.\n\n**Week 9–10: Client sign-off and service**\n- Send the near-final report to Telltale's designated contact for informed approval of service.\n- Serve by the deadline, with a few days of buffer. Confirm service and calendar expert deposition prep.\n\n## Draft protection and communications\n\nUnder Fed. R. Civ. P. 26(b)(4)(B)–(C), drafts and most attorney-expert communications are protected. Three categories are not: compensation, facts or data counsel provided that the expert considered, and assumptions counsel provided that the expert relied on. Some states protect less, so check the governing rules. Practical rules:\n- Keep substantive communications about opinions oral where possible.\n- Do not forward Telltale employees' emails or internal commentary to the experts. Anything the expert receives is likely discoverable.\n- Send everything to the expert through counsel.\n\n## Who at Telltale is involved, and when\n\n| Role | Involvement | Timing |\n|---|---|---|\n| General counsel or in-house counsel (point person) | Authorizes retention and budget, coordinates access, approves service | Weeks 0–1 and 9–10 |\n| Insurer or claims handler | Often must approve expert retention and fees, and may want to see reports | Weeks 0–1 and before service |\n| Records and IT custodians | Collect and produce documents and the exemplar or lot | Weeks 1–3 |\n| Engineering or R&D, quality, and regulatory affairs | Explain design, testing, and the regulatory file to the expert, in counsel-supervised interviews | Weeks 1–5 |\n| Clinical or medical affairs | Explain clinical data and complaint trends | Weeks 2–5 |\n| Same technical leads, plus anyone likely to be a fact witness | Fact-check the draft | Weeks 7–8 |\n| Communications or PR, if needed | Look for public-statement consistency | Week 8 |\n\nAnyone who will also testify as a fact witness, such as a design engineer, should be walled off from shaping the expert's opinions. Their interactions with the expert are discoverable and can blur the line between fact and expert testimony.\n\n## Immediate to-dos\n1. Pull the scheduling order and confirm the actual deadline.\n2. Identify Telltale's point person and the insurer contact.\n3. Confirm the protective order is in place.\n4. Send each expert the communications protocol with the engagement letter.\n5. Work backward from the real deadline and build in at least a week of buffer.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:52:02+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "b2034db6-c27f-4d73-8ca3-4cf90665442d",
+    "input_tokens": 2,
+    "output_tokens": 2732,
+    "cache_write_tokens": 805,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.030544,
+    "latency_ms": 23563,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2732,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 805,
+      "webSearchRequests": 0,
+      "costUSD": 0.030544,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 767,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 805,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

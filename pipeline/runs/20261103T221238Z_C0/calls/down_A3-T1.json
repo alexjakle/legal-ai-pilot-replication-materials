@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "ee181592c0401afa98cb220b537deefaf6c84447edd1de316837106b997d03f6",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:13:06+00:00",
+  "session_id_in": null,
+  "session_id": "ca51d075-3c08-4231-8e42-1984d60309bb",
+  "text": "# Expert report workflow for the new Telltale matter (A-3)\n\nI don't have the A-3 instruction letter or scheduling order, so I've built this from the process Telltale has required in its other matters with us. Confirm each step against A-3's letter. Also confirm **our** report deadline: plaintiff's disclosures are due in about ten weeks, but our date may be later if disclosures are sequential, and that date drives the timeline below.\n\n## 1. Before anyone is engaged (weeks 0–2)\n- **Clear the experts with the client first.** Telltale has required General Counsel Marguerite Salvesen to review proposed testifying experts before engagement. In one matter that meant three candidates per discipline with prior-testimony notes. She also wants fee quotes before anyone signs. Expert fees are the biggest budget swing item.\n- **Define separate roles.** If one expert covers design and another covers standards or industry practice, keep their scopes distinct. Put each scope in an engagement letter from the firm, limited to the topics assigned.\n- **Set up the protections.** Have each expert sign the protective-order acknowledgment, and confirm the stipulation protecting drafts and attorney-expert communications. That protection typically excludes facts, data and assumptions counsel provides, so be deliberate about what we send.\n- **Route contact through the GC.** Contact with Telltale engineers goes through her office, not directly. Copy insurance liaison Wren on anything touching exposure or budget.\n\n## 2. Drafting (weeks 2–6)\n- Give each expert the record and the questions to answer, and hold a kickoff call.\n- Counsel reviews drafts for scope, fit with the causation strategy, and internal consistency. Telltale engineering fact-checks any statements about the product, including testing, complaint data and labeled ranges.\n- Keep any characterization of failure rates to what the opinion needs. Telltale cares about this because of regulatory sensitivities.\n- Check that quotations from confidential design or testing documents follow the protective order. Meet and confer with the other side, and plan to seal if needed.\n\n## 3. Client regulatory review (the critical path)\n- Telltale's regulatory affairs group (led by Odalys Fennimore) has read every defense expert report before service. The consistency check is against Telltale's regulatory submissions. The allowance was ten business days in one matter and two weeks in another.\n- **The expert must deliver a near-final draft at least 3–4 weeks before service.** That covers the review period plus time to revise and re-review.\n- **Comments go through counsel**, never directly to the expert. We log what we send so the exchange stays protected work product. Counsel decides which comments pass to the expert and which the expert may decline for independence.\n- Before sending any draft for review, confirm the draft-protection stipulation covers the client's review.\n- Tell the GC the review window in advance so Regulatory can staff it.\n\n## 4. Final steps (last 1–2 weeks)\n1. The expert revises, and we run a final consistency check against the record.\n2. The GC gets the final version and gives sign-off. Regulatory re-reads if changes were substantive.\n3. Assemble the disclosure package: report, CV, prior testimony list, fee schedule and materials considered. Review the materials list for anything that would waive protection.\n4. Execute, serve, and report to the GC (copying Wren if exposure is affected). Telltale requires a call after significant events.\n\n## Working timeline (T = our service date)\n| When | Step |\n|---|---|\n| Now | Candidates and quotes to GC |\n| T–10 wks | Experts cleared and engaged |\n| T–6 wks | First drafts to counsel |\n| T–4 wks | Near-final draft to Telltale Regulatory |\n| T–4 to T–2 wks | Review period, with comments through counsel |\n| T–1 wk | GC sign-off |\n| T | Service |\n\n## Immediate action items\n- Confirm our report due date and whether the schedule is sequential.\n- Read the A-3 instruction letter for expert-approval and review-period terms.\n- Send the GC candidate names and fee quotes this week.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:13:06+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "ca51d075-3c08-4231-8e42-1984d60309bb",
+    "input_tokens": 2,
+    "output_tokens": 2353,
+    "cache_write_tokens": 22388,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.113086,
+    "latency_ms": 23621,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2353,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 22388,
+      "webSearchRequests": 0,
+      "costUSD": 0.113086,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 989,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 22388,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

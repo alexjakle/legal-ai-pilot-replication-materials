@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F1",
+  "prompt_hash": "05246c88935ba534f9f07a59c84dc197ba0e386ae1e8fb72eadc1b0bb99fa390",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:03:09+00:00",
+  "session_id_in": null,
+  "session_id": "9bc7f9b0-9c72-4093-8709-aa8c30218381",
+  "text": "I can't give you names or details because our stored knowledge for Joad doesn't contain any test results, metallurgical findings, or witness names from earlier matters. I won't invent examples, since made-up specifics could end up in your prep or in front of the client.\n\n**What the file does contain (roles and themes, not specifics)**\n- **Potential witnesses by role only:** the chief axle engineer and account sales staff. Joad wants to discuss with us before any employee is put forward, and wants key engineers interviewed early.\n- **Test data:** Joad's internal test data is sensitive. There is to be no blanket stipulation to authenticity or business-record admissibility until a protective order is in place, and after that only document by document.\n- **Supplier history:** Joad changed its spindle forging supplier in 2020 after an internal audit. The reason is to stay within the case team. Its supplier-qualification program is called Corbelmark, and the client wants us to understand it before any supplier discussion. Expect this to be a likely line of inquiry.\n- **Industry practice and standards:** Joad wants to know whether any expert will speak to industry practice, and it prefers design testimony focused on the product at issue.\n- **Other incidents:** Joad wants immediate reporting of other incidents involving JX-series spindles, and a litigation hold should be confirmed.\n\n**How to get the specifics**\n1. Ask General Counsel Evander Thorsby for the prior-matter files: expert reports, test summaries, deposition transcripts, and any metallurgical analyses. All case communications go through him, and we shouldn't contact Joad engineers or production staff directly.\n2. Check our firm's own records for any earlier Joad matters, if we handled them, for prior testimony and witness lists.\n3. Give Joad 10 days' notice before proposing any testing, and get quotes first.\n4. Keep the circle of people who see test files tight.\n\nIf you can share the earlier-matter documents or tell me where they sit, I can build a witness and findings chart from them.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:03:09+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "9bc7f9b0-9c72-4093-8709-aa8c30218381",
+    "input_tokens": 2,
+    "output_tokens": 939,
+    "cache_write_tokens": 2483,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019326,
+    "latency_ms": 10911,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 939,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2483,
+      "webSearchRequests": 0,
+      "costUSD": 0.019326,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 285,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2483,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

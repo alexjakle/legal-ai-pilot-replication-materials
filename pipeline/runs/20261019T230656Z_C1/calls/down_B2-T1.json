@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T1",
+  "prompt_hash": "def31c52927b902221b7293e032b70e262f14450d69d141cac6c7d675dfc5004",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:11:06+00:00",
+  "session_id_in": null,
+  "session_id": "f2901eb8-5335-4776-bd57-4114d92bde00",
+  "text": "# Proposed expert schedule and sequencing for B-2\n\n**Caveat:** The client file has no stated preference on whether settlement efforts come before or after expert work. What it gives are process constraints, and the sequencing below follows from them. Please confirm it with Mr. Oyelaran. I also don't have the product, lot or injury facts yet, so I'm proposing relative deadlines rather than calendar dates.\n\n## What to tell plaintiff's counsel now\nBe courteous and don't agree to dates yet. Say we will respond with a proposed schedule after consulting the client. We can't commit to expert dates before the client has approved the experts and the sequencing. We should not volunteer complaint history or other incidents, and should discuss scope with the client once a request is served.\n\n## Proposed schedule (relative sequence)\n\n1. **Intake and early assessment**\n   - Confirm through Mr. Oyelaran which model and lot is involved. A Q3-2024 TT-6200 has no lid complaints. A later unit may carry the ECN-6200-14 retention clip. The TT-5500 shares the lockout pin but has a different ring and lid seat.\n   - Request the quality records and Ravenscar complaint data through him. Do not contact Rennick Odell or other employees directly.\n   - Send the first one-page report with an exposure range, a few status lines, upcoming dates and any decisions needed.\n\n2. **Evidence preservation and joint inspection**\n   - If plaintiff requests an inspection, agree in principle and send a written protocol.\n   - After the inspection, send an event-driven one-page update if the exposure range changes.\n\n3. **Expert selection (client approval required)**\n   - Send Mr. Oyelaran, copying Ms. Moorcroft, names and credentials of candidates, with several per discipline where possible. These disciplines will likely include pressure-vessel or lid-mechanism engineering and, depending on the injury, medical or biomechanical experts.\n   - Do not retain any testifying expert until the client signs off in writing.\n   - Build this approval time into the schedule before any disclosure deadline.\n\n4. **Disclosure sequence**\n   - Plaintiff discloses first, since plaintiff bears the burden.\n   - Defense disclosures follow about 30 to 60 days later, then rebuttal reports, then expert depositions, then any motions to exclude.\n   - Seek enough time for the client approval step and the inspection to happen first.\n\n5. **Settlement window**\n   - After the inspection and preliminary expert views, give the client an assessment and recommended range. Allow lead time for the client's claims group and insurer to review it.\n   - The firm has no settlement authority. No offer or signal may go to plaintiff in any form without Mr. Oyelaran's written approval.\n   - Leave a gap after expert reports are exchanged, or before expert depositions, so the client can decide on mediation or negotiation.\n   - Don't let plaintiff's expert deadlines force a settlement posture.\n\n## Client-specific guardrails\n- Send all communications to Mr. Oyelaran with a copy to Delphine Moorcroft. Exposure and coverage items should also reach the insurer's adjuster, who is coordinated through Ms. Moorcroft.\n- Give a fee and cost estimate for each phase above. Explain any variance from the client's assumptions.\n- Staffing is one associate and one partner. No more than two lawyers may attend any deposition or hearing.\n- Tell Mr. Oyelaran at once if an expert opinion or inspection finding could lead to a product pull, for example a defect theory about the lockout pin that also affects the TT-5500. The client has promised its largest retail partners advance warning.\n- Tell him promptly of any other claims involving the TT-6200 or related models.\n- Refer any press or retail partner inquiries to him.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:11:06+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "f2901eb8-5335-4776-bd57-4114d92bde00",
+    "input_tokens": 2,
+    "output_tokens": 2182,
+    "cache_write_tokens": 2174,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.03052,
+    "latency_ms": 17555,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2182,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2174,
+      "webSearchRequests": 0,
+      "costUSD": 0.03052,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 919,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

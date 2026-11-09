@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T3",
+  "prompt_hash": "bb420f2c6df02c3c273c14d74517d48865a5b8c350b0ecb85fee1b7875116455",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:55:09+00:00",
+  "session_id_in": null,
+  "session_id": "e54ee870-3e2b-4791-a884-e759cb1ebff0",
+  "text": "**Short answer:** I can lay out the plan for the expert from what we know about Telltale's requirements. I can't tell you what the earlier insulation cases show about the supplier's role, because nothing in our stored knowledge covers them.\n\n## What we know from earlier insulation cases\n\nNothing in the client or firm records describes prior insulation matters. That covers their outcomes, positions taken, expert opinions, supplier contracts and testimony. I won't guess at it. Before we commit to a position on the supplier, we should:\n\n1. Ask Marguerite Salvesen, with a copy to Thaddeus Wren and a note to Priya Raghunathan, for the prior insulation case files. These include pleadings, expert reports and testimony, supplier correspondence and any indemnity or quality agreements.\n2. Pull the relevant Orrinwick complaint data, subject to the protective order and confidentiality limits below.\n3. Check what Telltale told the regulator about insulation and the supplier's materials. Odalys Fennimore's group can help, and our position and our experts' opinions must be consistent with it.\n4. Check for any other claims or incidents involving the same or related products. We must report these to the client promptly.\n\n## Plan for plaintiff's failure-cause expert\n\n**1. Rebuttal expert team**\n- We likely need a polymer/materials scientist and a lead failure-analysis or biomedical engineer.\n- An industry-practice or standards expert, for example on supplier selection and qualification, needs extra clearance.\n\n**2. Client consultation before engagement**\n- Send Marguerite Salvesen three names per discipline, with credentials and prior-testimony notes, and copy Thaddeus Wren.\n- No testifying expert is engaged until Telltale approves.\n\n**3. Regulatory-consistency review**\n- Every expert report goes to Fennimore's regulatory affairs group before service.\n- The group needs ten business days.\n- Reports can't leave the firm and the experts until cleared.\n- We build that review time into the expert schedule.\n\n**4. Handling plaintiff's expert**\n- Review the report and the materials it relies on, then decide whether to depose the expert or move to exclude the opinions.\n- The client gets five business days' notice before any motion.\n- No more than two timekeepers per deposition are billable.\n\n**5. The supplier theory**\n- We need to decide whether to blame the supplier, seek contribution or indemnity, or contest causation altogether.\n- Blaming the supplier may sit uneasily with earlier positions and with what the regulator was told, so that comparison comes first.\n- Any coverage or retention issue goes only to Thaddeus Wren or Marguerite Salvesen. The self-insured retention is $750,000 per claim.\n\n**6. Confidentiality and public statements**\n- Design engineering and complaint-handling records are confidential. We propose a protective order before producing anything, including to experts.\n- Telltale is in a regulatory inspection tied to its next-generation lead. That status is as of 2025, so we need to confirm it is still current.\n- Our filings should not characterize failure rates beyond what the case requires.\n\n**7. Access to Telltale personnel**\n- We don't contact Telltale employees below vice president level without clearing it with the General Counsel.\n- Engineers' input for the experts is arranged through her.\n\n**8. Reporting and budget**\n- The monthly update, a call after significant events and the initial assessment (due 45 days from the engagement letter) all cover the expert plan.\n- The phase budget must include expert costs, and we explain any variance over ten percent.\n- Confirm the litigation hold covers supplier and material-qualification records.\n\n**9. Settlement exposure**\n- If the expert's opinion changes our exposure view, our recommended range goes to Marguerite Salvesen.\n- Authority above $500,000 needs CFO Cormac Brightwater's sign-off. No offers or signals go out until authority is confirmed in writing.\n\n**Immediate next steps:** request the prior insulation files, send the expert candidate lists, and calendar the ten-business-day regulatory review and the motion-notice periods.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:55:09+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "e54ee870-3e2b-4791-a884-e759cb1ebff0",
+    "input_tokens": 2,
+    "output_tokens": 2039,
+    "cache_write_tokens": 2128,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.028906,
+    "latency_ms": 16043,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2039,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2128,
+      "webSearchRequests": 0,
+      "costUSD": 0.028906,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 687,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2128,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "aac8324199abc862",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7217,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7217,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.087244,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1475,
+      "provider": "firstParty",
+      "thinkingTokens": 521,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "f6cf77236290469f757e6df709186f84ff3f5a00a175e51ca96089ae9e105603",
+  "session_id": "8ee3f9a2-ff80-4e1c-81c7-a0f0322b0f1a",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Someone who can explain, from experience, how the standard was developed and what it covers, what it does not cover, how conformity is tested and certified, and how manufacturers actually apply it.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"The standards expert covers the framework: the origin, scope, and purpose of the standards, industry practice and its evolution, and what compliance means in practice.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Someone who can explain, from experience, how the standard was developed and what it covers, what it does not cover, how conformity is tested and certified, and how manufacturers actually apply it.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": []}",
+  "timestamp": "2026-11-04T02:47:28+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7217,
+    "call_id": "aac8324199abc862",
+    "condition": "N0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 11358,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1475,
+    "role": "judge",
+    "run_id": "20261103T180724Z_N0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:47:28+00:00",
+    "total_cost_usd": 0.087244
+  }
+}

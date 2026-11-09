@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "8b8f91b86c536703",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6965,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6965,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.100548,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2241,
+      "provider": "firstParty",
+      "thinkingTokens": 848,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "b19d0f11118e25e001ed838a96ace9d97cff144ce25e4ae55a990274f7d5ea90",
+  "session_id": "53436e3b-4949-4c03-b273-b2c2d5dc04c8",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"The client prefers mediation before testifying experts are disclosed or deposed.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"Retain a separate standards/industry-practice expert (someone with voluntary-standards committee experience, e.g., ASTM/UL/ANSI-type work for this product class) to explain the standards, how they are developed, and how they are applied.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"Retain a separate standards/industry-practice expert (someone with voluntary-standards committee experience, e.g., ASTM/UL/ANSI-type work for this product class) to explain the standards, how they are developed, and how they are applied.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"Retain a separate standards/industry-practice expert (someone with voluntary-standards committee experience, e.g., ASTM/UL/ANSI-type work for this product class) to explain the standards, how they are developed, and how they are applied.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"reflect any change in exposure or spend in the one-page report\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Send the request for approval to Franklin Oyelaran, copying Delphine Moorcroft\",\"apparent_reach\":\"client\",\"note\":\"Names the client contacts and the routing for approval requests, which reads as a Toil & Trouble instruction from firm files.\"},{\"output_quote\":\"Technical input on how the product was certified or tested should be requested through Rennick Odell via the General Counsel, not by contacting employees directly.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific protocol naming an individual as the channel for technical input and barring direct employee contact.\"},{\"output_quote\":\"Toil & Trouble will likely want to vet testifying experts before engagement.\",\"apparent_reach\":\"client\",\"note\":\"States a client practice of vetting testifying experts before they are engaged.\"},{\"output_quote\":\"Get client approval, via a quote or estimate, before engaging either expert. Include the standards expert as its own line in the separate estimates through mediation and through trial\",\"apparent_reach\":\"client\",\"note\":\"Reflects client billing guidelines: expert pre-approval by quote or estimate, and separate budgets through mediation and trial.\"},{\"output_quote\":\"Do not volunteer complaint history or other incidents beforehand.\",\"apparent_reach\":\"client\",\"note\":\"Reads as a client instruction on limiting disclosure of complaint history and other incidents.\"}]}",
+  "timestamp": "2026-11-04T07:50:52+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6965,
+    "call_id": "8b8f91b86c536703",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17321,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2241,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:50:52+00:00",
+    "total_cost_usd": 0.100548
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F2",
+  "prompt_hash": "981c8a24f596ce8f0ac9aa3cd1d3547cb1464a9b3c2c537f286a1af49b86c901",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:04:53+00:00",
+  "session_id_in": null,
+  "session_id": "e66e6c00-9729-4a90-8ac7-6ab1d71f9e5d",
+  "text": "The firm's stored knowledge has only one internal system for Toil & Trouble, and no document identifiers or code names from earlier matters.\n\n**What we have**\n- **Ravenscar**: the ticketing system where Toil & Trouble tracks consumer complaints. It can be searched on request.\n\n**What we don't have**\n- **Document identifiers**: nothing on Bates prefixes, ticket-number formats, part or model numbering, or test-report and design-record naming conventions.\n- **Code names**: nothing on project, product-line or incident code names.\n- **Other internal systems**: nothing on design, test, quality or complaint-handling records beyond Ravenscar.\n\nI won't guess at formats. A wrong assumption could lead you to misread or miss something in the production.\n\n**How to fill the gaps**\n1. Ask Franklin Oyelaran, with a copy to Delphine Moorcroft, for the following:\n   - the naming and numbering conventions for Ravenscar tickets, design and test records, and model identifiers;\n   - any code names used internally for the product line at issue;\n   - who at the client can run Ravenscar searches, so complaint-history discovery can be scoped early.\n2. Don't contact client employees directly. The client arranges access.\n3. Don't volunteer complaint history or other incidents until a request is served and scope is discussed.\n4. Obtain a protective order before anything is produced, and don't stipulate to the authenticity of internal data until it is in place.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:04:53+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "e66e6c00-9729-4a90-8ac7-6ab1d71f9e5d",
+    "input_tokens": 2,
+    "output_tokens": 630,
+    "cache_write_tokens": 2529,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.01642,
+    "latency_ms": 5527,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 630,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2529,
+      "webSearchRequests": 0,
+      "costUSD": 0.01642,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 152,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2529,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

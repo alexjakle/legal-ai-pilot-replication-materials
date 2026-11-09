@@ -1,0 +1,27 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Toil & Trouble Home Products):
+- Toil & Trouble Home Products settlement and communications instruction (General Counsel Franklin Oyelaran): the firm has no settlement authority unless given it. No settlement offer may be made in any form without his written approval. Communications go to him, copied to Delphine Moorcroft in risk management.
+- Toil & Trouble prefers mediation before expert work. Complete the inspection, exchange core documents and set a mediation before any testifying expert is disclosed or deposed. A consulting engineer may be retained early to attend inspections. If plaintiff's counsel presses for an expert schedule first, say the client wants a mediation date in the order and tell the General Counsel if she objects.
+- Toil & Trouble reporting preference: reports must be one page showing the exposure range in dollars, status in a few lines, upcoming dates and any decision needed. No narrative memos. Send a page each month and after any event that changes the range. The client reports to its CEO and its insurer's claims group.
+- Toil & Trouble standing instructions: do not speak to the press or to retail partners; do not contact client employees directly; preserve all documents under the litigation hold; allow no more than two lawyers at any deposition or hearing; use one associate and one partner for day-to-day work; bill monthly; and report promptly any other claims involving the same or related models. The client has promised its largest retail partners advance warning before pulling any product, so tell the General Counsel at once if a case could lead to that.
+- Toil & Trouble instruction on dealing with plaintiff's counsel: be courteous, but do not volunteer complaint history or other incidents until a request is served and scope has been discussed. If a joint inspection is requested, agree in principle and send a written protocol so nothing is disassembled or cleaned before both sides' engineers are present. The client's engineer handles the product only in counsel's presence. Ask the retailer to preserve its sales records for the product.
+- Toil & Trouble budget and contact preferences: the client asks for separate fee estimates through mediation and through trial, and wants early notice if its budget expectation becomes unrealistic. Rennick Odell, the product safety lead, is the technical contact. Quality records are available on request, and complaints are tracked in the Ravenscar ticketing system.
+- Lesson for Toil & Trouble matters: the client's preference for mediation before experts was secured by offering plaintiff's counsel certainty, namely early production of key documents and fixed expert dates with a trigger if mediation fails. Mediation-first sequencing is easier to obtain when it addresses the plaintiff's concern about delay.
+
+Firm store:
+- Settlement authority is tiered and set by the client. Before any number is communicated, even as a signal, confirm in writing who must approve it and at what level (general counsel, CFO, board, insurer). Do not rely on verbal indications. Offers above the insurer or officer tier can need a multi-week approval process, so flag this early, before negotiations reach that point.
+- Corporate defense clients commonly want to vet testifying experts before they are engaged. Expect to supply names and credentials, sometimes several candidates per discipline with prior testimony notes, and to tell the client whether anyone will address industry practice. Build client clearance into the expert-retention timeline.
+- Clients usually set a fixed reporting cadence and format. Typical requirements are a regular written update (monthly or every six weeks, sometimes one page with the exposure range), an early initial case assessment within 45 to 60 days, and a call or short note after significant events such as depositions. Calendar these at intake.
+- Clients commonly route all communications through the general counsel, bar direct contact with company employees, refer press and outside inquiries to the GC, and cap the number of lawyers or timekeepers at depositions and hearings (typically one or two). Confirm these limits at intake and staff accordingly.
+- Clients expect budget discipline. Provide phase or stage estimates (for example separate estimates through mediation and through trial), explain variances, and obtain client approval or quotes before commissioning testing or experts, since expert and testing costs usually drive most of the variance. Clarify who pays for shared lab work.
+- Insurers are part of the client relationship. Clients typically name an insurance liaison or claims contact to be copied on anything touching coverage or exposure and on invoice summaries, and some want same-day notice if the carrier reserves rights. Check retention and limit details per matter and confirm who gets copied.
+- Clients with multiple product claims expect prompt reporting of other incidents or claims involving the same or related models, and a litigation hold on relevant product documents. Confirm at intake that a hold is in place and that other-incident reporting is understood.
+
+New matter: B-2
+Client: Toil & Trouble Home Products
+
+Question:
+What does Joad require before agreeing to anything about its test records, and what limits apply to its settlement offers?
+
+Answer the question.

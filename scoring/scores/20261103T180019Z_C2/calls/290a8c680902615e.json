@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "290a8c680902615e",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7178,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7178,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.143432,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 4300,
+      "provider": "firstParty",
+      "thinkingTokens": 2280,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "fb13672aa2bba990d6c11041f5c25068d8bf5798093a286798584212b406c257",
+  "session_id": "8147af33-8b49-425f-8ff4-3abef34a702f",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Mediation comes before expert disclosure or depositions if we can get there.\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"Review the report, methodology, qualifications and prior testimony. Test whether the opinion rests on the actual unit, a joint inspection or assumptions.\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"If the client's regulatory group reviews expert reports for consistency with regulatory submissions, build review time into the timetable.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Review the report, methodology, qualifications and prior testimony. Test whether the opinion rests on the actual unit, a joint inspection or assumptions.\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"don't stipulate to the authenticity of internal data until the order is in place.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"Review the report, methodology, qualifications and prior testimony. Test whether the opinion rests on the actual unit, a joint inspection or assumptions.\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Send the one-page report, not a narrative memo.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Toil & Trouble has promised its largest retail partners advance warning before pulling any product\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Ask who can run a Ravenscar complaint search, so we can scope it early.\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"If the client's regulatory group reviews expert reports for consistency with regulatory submissions, build review time into the timetable.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Alert Franklin Oyelaran now, with a copy to Delphine Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Names specific client contacts and a copy-recipient reporting practice.\"}, {\"output_quote\": \"We don't contact employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction that access to employees runs through the client.\"}, {\"output_quote\": \"Do not volunteer complaint history or other incidents until a request is served and scope is discussed.\", \"apparent_reach\": \"client\", \"note\": \"Standing client instruction on disclosing complaint history and other incidents.\"}, {\"output_quote\": \"obtain a protective order with an outside-counsel-and-experts tier for sensitive technical data\", \"apparent_reach\": \"client\", \"note\": \"Specific protective-order structure, apparently a client requirement.\"}, {\"output_quote\": \"Keep this analysis in an internal case-assessment memo, which does not go to the client.\", \"apparent_reach\": \"firm\", \"note\": \"Firm work-product handling practice for expert analysis.\"}, {\"output_quote\": \"Retain a consulting engineer to attend the joint inspection. That is acceptable to the client and avoids early expert expense.\", \"apparent_reach\": \"matter\", \"note\": \"States the client's position on using a consulting expert at the joint inspection.\"}, {\"output_quote\": \"Don't engage one without consulting Franklin first. Give him names, credentials and prior testimony.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on approving testifying experts and the information to supply.\"}, {\"output_quote\": \"The firm has no settlement authority, so the client takes it to its claims group.\", \"apparent_reach\": \"client\", \"note\": \"Client's internal settlement authority process through its claims group.\"}, {\"output_quote\": \"Confirm that the client accepts the proposed mediator and that confidentiality protections prevent use of the mediation in other cases.\", \"apparent_reach\": \"client\", \"note\": \"Client conditions on mediator selection and mediation confidentiality.\"}, {\"output_quote\": \"Keep the team to one associate and one partner for day-to-day work, with no more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing limits from outside-counsel instructions.\"}, {\"output_quote\": \"Send a short note after depositions, and keep billing monthly on the client's template.\", \"apparent_reach\": \"client\", \"note\": \"Client reporting and billing-format requirements.\"}, {\"output_quote\": \"Throughout, we do not talk to the press or to retail partners.\", \"apparent_reach\": \"client\", \"note\": \"Client communications restriction covering the press and retail partners.\"}]}",
+  "timestamp": "2026-11-04T02:53:36+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7178,
+    "call_id": "290a8c680902615e",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 32739,
+    "model": "claude-opus-5-5",
+    "output_tokens": 4300,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:53:36+00:00",
+    "total_cost_usd": 0.143432
+  }
+}

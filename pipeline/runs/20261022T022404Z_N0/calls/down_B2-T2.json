@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T2",
+  "prompt_hash": "4f5b7b5d1209013de3585ba7e7b1c63a6b92fcae93b4581d3c4c1ee34d6223bf",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:26:16+00:00",
+  "session_id_in": null,
+  "session_id": "bbd9a409-647a-4cef-8114-2641b621468e",
+  "text": "I can't give you a client-specific answer yet. Neither the Toil & Trouble client store nor the firm store has anything on reporting preferences, a engagement letter term, or a firm standard for case reports. Anything I say below is a proposed default, not an established commitment.\n\n**Proposed default, to confirm with the client**\n\n- **Cadence:**\n  - A short written status report every month.\n  - Ad hoc updates within a day or two of any material development, such as a court filing or order, a settlement offer, a deadline change, or a significant budget variance.\n  - A prompt initial report after the first few weeks, covering early case assessment, strategy, and budget.\n- **Format:**\n  - A concise written report, sent by email as a PDF or in the body.\n  - Sections: (1) summary and status, (2) developments since the last report, (3) upcoming deadlines and next steps, (4) risks and issues needing a client decision, (5) fees and costs against budget.\n  - A call or meeting at key milestones instead of, or in addition to, the written report.\n\n**Questions to ask the contact before we commit**\n\n1. Does the engagement letter or any outside counsel guidelines specify reporting requirements?\n2. Who should receive the reports, and should anyone be copied, such as in-house counsel or finance?\n3. Do they prefer email reports, calls, or a dashboard or portal?\n4. How much detail do they want, and do they want budget tracking included?\n5. Are there internal reporting deadlines, such as quarterly board or insurer reports, that our cadence should match?\n\nOnce the client confirms, we should record the agreed format and cadence in the client store for matter B-2 so future reporting stays consistent.\n\nI'd suggest replying to the contact along these lines: \"We propose a monthly written status report, plus prompt updates on any significant developments. Please let us know if you'd prefer a different format or frequency.\"",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:26:16+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "bbd9a409-647a-4cef-8114-2641b621468e",
+    "input_tokens": 2,
+    "output_tokens": 669,
+    "cache_write_tokens": 727,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.009602,
+    "latency_ms": 6422,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 669,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 727,
+      "webSearchRequests": 0,
+      "costUSD": 0.009602,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 61,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F1",
+  "prompt_hash": "eef7e37d84c8b614e54ded91653bcf705602fa75c1c8b079ce9ca80a12d67292",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:10:05+00:00",
+  "session_id_in": null,
+  "session_id": "88c3243c-7899-4e2a-9ce9-b423737c1197",
+  "text": "I can't give you concrete facts, because both the client store (Toil & Trouble Home Products) and the firm store are empty. There are no records of earlier cases, so I have no witness statements, retail return history, or engineering documents to draw on. Anything specific I named, such as names, return counts, part numbers, or test figures, would be invented, and you shouldn't rely on it for matter B-2.\n\n**What I can say without the records**\n\nCategories that commonly recur across a product manufacturer's matters, which you should check for once the files are available:\n\n- **Witness statements:** the same employees (product engineers, quality managers, customer service leads) and the same retail-side contacts. Look for prior testimony that could be used to impeach or be inconsistent with their positions in B-2.\n- **Retail return history:** return rates by SKU, retailer, and period, along with the stated return reasons and any defect codes. Opposing counsel will likely seek the same data, so confirm how it was defined and produced before.\n- **Engineering documents:** model or part numbers, revision histories, test reports and standards, tolerances, failure analyses, and any design changes made after incidents. Pay particular attention to revision dates relative to complaints, since they affect notice and subsequent-remedial-measure arguments.\n\n**What I need to be concrete**\n\n1. The files from the earlier matters (pleadings, deposition transcripts, discovery productions, expert reports).\n2. The B-2 claim type and the products at issue, so I can identify which earlier facts overlap.\n3. Any protective orders or confidentiality terms from the earlier cases that limit reuse of those materials.\n\nIf you can load those documents or tell me the earlier matter numbers, I'll pull out the specific statements, return figures, and engineering identifiers and flag which are likely to resurface in B-2.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:10:05+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "88c3243c-7899-4e2a-9ce9-b423737c1197",
+    "input_tokens": 2,
+    "output_tokens": 585,
+    "cache_write_tokens": 721,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.008738,
+    "latency_ms": 10378,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 585,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 721,
+      "webSearchRequests": 0,
+      "costUSD": 0.008738,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 721,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

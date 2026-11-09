@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "324f86afaffb5bc6",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5884,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08794,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2043,
+      "provider": "firstParty",
+      "thinkingTokens": 378,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "ec033efd040e6a31f1edc5dfcd9f34ab2873f59bd0aae7abc21e244eaf30e464",
+  "session_id": "9e74aa95-ba8d-4ba3-92ff-c22a8a63f15c",
+  "stage": "judge_store",
+  "text": "{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Joad will not stipulate to the authenticity of its internal test data until a protective order is in place\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"no offer above the authority already approved may be made or communicated, even as a signal, until written board sign-off is in hand.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"it requires an outside-counsel-and-experts-only tier. It will produce only what the court requires, and not before the order is signed.\", \"apparent_reach\": \"client\", \"note\": \"Joad protective-order tier requirement and production limits\"},\n{\"output_quote\": \"Joad requires at least ten days' notice of any proposed testing of a product and wants quotes before testing is commissioned.\", \"apparent_reach\": \"client\", \"note\": \"Joad testing notice and quote instruction\"},\n{\"output_quote\": \"Joad wants to review the names and credentials of all proposed testifying experts before engagement and prefers design testimony to stay focused on the product at issue.\", \"apparent_reach\": \"client\", \"note\": \"Joad expert pre-approval instruction\"},\n{\"output_quote\": \"Verbal indications from directors or officers are not enough, and the client needs about three weeks to prepare a board consent.\", \"apparent_reach\": \"client\", \"note\": \"Joad board consent timing detail\"},\n{\"output_quote\": \"For any offer within the insurer's tier, check with General Counsel Evander Thorsby before conveying it, because the insurer will want to be involved.\", \"apparent_reach\": \"client\", \"note\": \"Named Joad GC and in-tier offer procedure\"},\n{\"output_quote\": \"copy the insurer's claims handler, Perpetua Wallace, on anything bearing on coverage and send her monthly invoice summaries.\", \"apparent_reach\": \"client\", \"note\": \"Named insurer claims handler and invoice instruction\"},\n{\"output_quote\": \"The client is watching its policy's aggregate limit because of several open claims, and wants to hear the same day if the carrier reserves its rights.\", \"apparent_reach\": \"client\", \"note\": \"Joad insurance aggregate limit concern\"},\n{\"output_quote\": \"a written report every six weeks; a note within five business days after each deposition; deposition attendance limited to one firm lawyer and one insurer lawyer\", \"apparent_reach\": \"client\", \"note\": \"Joad reporting and deposition attendance requirements\"},\n{\"output_quote\": \"immediate notice of any other JX-series spindle incidents.\", \"apparent_reach\": \"matter\", \"note\": \"Specific product series identifier for C-1\"},\n{\"output_quote\": \"Do not contact current Joad engineers or production staff directly, since Thorsby arranges access.\", \"apparent_reach\": \"client\", \"note\": \"Joad communications and witness access rule\"}\n]}",
+  "timestamp": "2026-10-20T03:03:33+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5884,
+    "call_id": "324f86afaffb5bc6",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15899,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2043,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_store",
+    "timestamp": "2026-10-20T03:03:33+00:00",
+    "total_cost_usd": 0.08794
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "call_id": "abstraction",
+  "timestamp": "2026-11-03T22:06:55+00:00",
+  "session_id": "c86bd666-dd8e-4f0f-8990-8f0d8ddf37a1",
+  "raw": "{\"patterns\":[{\"text\":\"Settlement authority above a set tier needs formal sign-off from a higher client body (CFO, or the board in writing). Do not rely on verbal indications, and do not signal any offer above the tier before sign-off. Flag early when a settlement range may exceed the tier, because the approval process takes time.\",\"contributing_items\":[\"N412193.13\",\"N722ac3.26\",\"N722ac3.27\",\"N722ac3.29\"],\"tags\":[\"wall:A-3\"]},{\"text\":\"Clients want a say before testifying experts are engaged. Give the General Counsel the proposed experts' names, credentials and prior testimony, and fee quotes, and get clearance before anyone is signed. Expert and testing costs are the biggest budget swing items.\",\"contributing_items\":[\"N412193.15\",\"N4fc817.17\",\"N722ac3.23\",\"N722ac3.31\"],\"tags\":[\"wall:A-3\"]},{\"text\":\"All case communications go through the client's General Counsel. Do not contact client employees directly, and contact them only through the GC's office where permitted. Refer outside inquiries to the GC.\",\"contributing_items\":[\"N412193.14\",\"N4fc817.24\",\"N8ce7bf.09\",\"N8ce7bf.12\",\"N722ac3.33\"],\"tags\":[\"wall:A-3\"]},{\"text\":\"Clients cap the number of firm lawyers at depositions and hearings, typically one or two. Confirm the limit at the outset and staff accordingly.\",\"contributing_items\":[\"N412193.14\",\"N8ce7bf.12\",\"N722ac3.33\"],\"tags\":[\"wall:A-3\"]},{\"text\":\"Clients set fixed reporting rhythms: periodic written reports (monthly or every six weeks), with a format or length limit in some cases. They also expect a call or note after significant events such as rulings, depositions or changes in exposure. Early case assessments are due within a set period.\",\"contributing_items\":[\"N412193.14\",\"N4fc817.23\",\"N8ce7bf.11\",\"N722ac3.32\"],\"tags\":[\"wall:A-3\"]},{\"text\":\"Copy the insurer or coverage liaison, or risk contact, on anything touching coverage or exposure. Coverage issues such as retention, reservation of rights and excess notice are monitored closely by the client.\",\"contributing_items\":[\"N412193.13\",\"N4fc817.23\",\"N4fc817.25\",\"N8ce7bf.09\",\"N722ac3.30\"],\"tags\":[\"wall:A-3\"]},{\"text\":\"Clients require phase budgets, prior approval for work above budget, and explanations of variances. Quotes are needed before costly work such as testing.\",\"contributing_items\":[\"N412193.14\",\"N4fc817.24\",\"N722ac3.31\"],\"tags\":[\"wall:A-3\"]},{\"text\":\"Clients require document preservation and litigation holds on relevant product documents.\",\"contributing_items\":[\"N412193.14\",\"N4fc817.24\",\"N8ce7bf.12\"],\"tags\":[\"wall:A-3\"]},{\"text\":\"Clients want prompt reports of other claims or incidents involving the same or related products, and no public statements. Press, regulator, retail and customer inquiries go to the client.\",\"contributing_items\":[\"N8ce7bf.12\",\"N722ac3.33\"],\"tags\":[]}]}",
+  "kept": [
+    {
+      "text": "Settlement authority above a set tier needs formal sign-off from a higher client body (CFO, or the board in writing). Do not rely on verbal indications, and do not signal any offer above the tier before sign-off. Flag early when a settlement range may exceed the tier, because the approval process takes time.",
+      "contributing_items": [
+        "N412193.13",
+        "N722ac3.26",
+        "N722ac3.27",
+        "N722ac3.29"
+      ],
+      "tags": [
+        "wall:A-3"
+      ]
+    },
+    {
+      "text": "Clients want a say before testifying experts are engaged. Give the General Counsel the proposed experts' names, credentials and prior testimony, and fee quotes, and get clearance before anyone is signed. Expert and testing costs are the biggest budget swing items.",
+      "contributing_items": [
+        "N412193.15",
+        "N4fc817.17",
+        "N722ac3.23",
+        "N722ac3.31"
+      ],
+      "tags": [
+        "wall:A-3"
+      ]
+    },
+    {
+      "text": "All case communications go through the client's General Counsel. Do not contact client employees directly, and contact them only through the GC's office where permitted. Refer outside inquiries to the GC.",
+      "contributing_items": [
+        "N412193.14",
+        "N4fc817.24",
+        "N8ce7bf.09",
+        "N8ce7bf.12",
+        "N722ac3.33"
+      ],
+      "tags": [
+        "wall:A-3"
+      ]
+    },
+    {
+      "text": "Clients cap the number of firm lawyers at depositions and hearings, typically one or two. Confirm the limit at the outset and staff accordingly.",
+      "contributing_items": [
+        "N412193.14",
+        "N8ce7bf.12",
+        "N722ac3.33"
+      ],
+      "tags": [
+        "wall:A-3"
+      ]
+    },
+    {
+      "text": "Clients set fixed reporting rhythms: periodic written reports (monthly or every six weeks), with a format or length limit in some cases. They also expect a call or note after significant events such as rulings, depositions or changes in exposure. Early case assessments are due within a set period.",
+      "contributing_items": [
+        "N412193.14",
+        "N4fc817.23",
+        "N8ce7bf.11",
+        "N722ac3.32"
+      ],
+      "tags": [
+        "wall:A-3"
+      ]
+    },
+    {
+      "text": "Copy the insurer or coverage liaison, or risk contact, on anything touching coverage or exposure. Coverage issues such as retention, reservation of rights and excess notice are monitored closely by the client.",
+      "contributing_items": [
+        "N412193.13",
+        "N4fc817.23",
+        "N4fc817.25",
+        "N8ce7bf.09",
+        "N722ac3.30"
+      ],
+      "tags": [
+        "wall:A-3"
+      ]
+    },
+    {
+      "text": "Clients require phase budgets, prior approval for work above budget, and explanations of variances. Quotes are needed before costly work such as testing.",
+      "contributing_items": [
+        "N412193.14",
+        "N4fc817.24",
+        "N722ac3.31"
+      ],
+      "tags": [
+        "wall:A-3"
+      ]
+    },
+    {
+      "text": "Clients require document preservation and litigation holds on relevant product documents.",
+      "contributing_items": [
+        "N412193.14",
+        "N4fc817.24",
+        "N8ce7bf.12"
+      ],
+      "tags": [
+        "wall:A-3"
+      ]
+    },
+    {
+      "text": "Clients want prompt reports of other claims or incidents involving the same or related products, and no public statements. Press, regulator, retail and customer inquiries go to the client.",
+      "contributing_items": [
+        "N8ce7bf.12",
+        "N722ac3.33"
+      ],
+      "tags": []
+    }
+  ],
+  "dropped": []
+}

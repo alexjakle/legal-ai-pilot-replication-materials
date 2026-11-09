@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F1",
+  "prompt_hash": "9ad71a9e84f1922c70f25e72b7e4cdaedf4f94ce9b88343d7b671938f8ca8daf",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:55:46+00:00",
+  "session_id_in": null,
+  "session_id": "90580817-23d4-4edb-a51d-d278d3622edd",
+  "text": "I can't give you specific examples, because the client store for Joad Axle Works and the firm store are both empty. There are no records of earlier matters, so I have no test results, metallurgical findings, or witness names to draw on. Anything I offered would be invented, and you shouldn't prepare around fabricated details.\n\n**How to get the information**\n- **Check other sources.** The prior matter files may be in the document management system, the billing records, or the files of the attorneys who handled Joad's earlier work. Conflict-check and closed-matter indexes can point you to them.\n- **Ask Joad directly.** Their quality, engineering, or legal contacts should have prior lab reports, expert reports, and deposition or witness lists.\n- **Check public records.** Past litigation involving Joad, such as dockets, expert disclosures, and *Daubert* rulings, may name witnesses and experts.\n\n**General areas to prepare for in an axle-failure matter (not drawn from Joad's history)**\n- **Failure mode:** fatigue, brittle fracture, overload, or torsional failure. Fracture surface features such as beach marks and the origin site matter here.\n- **Metallurgy:** steel grade and chemistry, heat treatment, hardness and case depth, grain structure, inclusions, and decarburization.\n- **Mechanical testing:** tensile, Charpy impact, and hardness traverse results against the specification.\n- **Process records:** forging and heat-treat records, lot traceability, and quality-control and inspection data such as magnetic particle or ultrasonic testing.\n- **Witnesses:** Joad's quality manager, metallurgist, and production personnel. Also the customer's engineers, the independent testing lab, and opposing experts.\n\nIf you can send me the earlier matter files, I can pull out the specific results, findings, and names. Or, if you tell me more about C-2, I can tailor the preparation list to it.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:55:46+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "90580817-23d4-4edb-a51d-d278d3622edd",
+    "input_tokens": 2,
+    "output_tokens": 621,
+    "cache_write_tokens": 746,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.009198,
+    "latency_ms": 6610,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 621,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 746,
+      "webSearchRequests": 0,
+      "costUSD": 0.009198,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 746,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "e9749b8574e9e6a5d618bb8fc0e40268693ecb3af445946589a0eae0ac1cbd58",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:18:27+00:00",
+  "session_id_in": null,
+  "session_id": "ef9bda37-57c9-4db7-b6ab-e46caa9c3d7f",
+  "text": "# Recommendation: a standards and regulatory expert, proposed to the client now and not engaged until it approves\n\n## Who\nWe need a standards and regulatory-compliance expert, separate from the design expert. The ideal candidate has:\n- hands-on experience with implantable lead standards (the ISO 14708 / CENELEC EN 45502 families and related lead mechanical-testing and fatigue standards, to be confirmed against what plaintiff actually cites);\n- FDA premarket and post-market experience for Class III leads, ideally including standards-committee work.\n\nTelltale controls expert selection, so I will not contact or retain anyone until it approves. The memo to the General Counsel, copied to Thaddeus Wren, should contain:\n- three candidates for this discipline;\n- credentials for each;\n- a note on each candidate's prior testimony, including any prior work against Telltale or in AL-4120 matters;\n- a conflicts check;\n- a fee estimate.\n\nI'll also confirm that the client discussion has happened before engaging whomever the memo recommends.\n\n## When\nStart now, because the timeline is tight:\n1. **Now:** Send the candidate memo and get the client's approval. Fold the cost into the phase budget. Our working target is under $500,000 for fees and costs combined, and any variance above ten percent needs an explanation.\n2. **Early in discovery, before the design expert's analysis hardens:** Once the standards expert is approved and retained, give them plaintiff's standards theories first. Have them map which standards apply, which edition was current at design and at shipment, and how Telltale's testing and design verification line up. The design expert can then build on that framework and the two opinions will be consistent.\n3. **Before any report is served:** Allow ten business days for Odalys Fennimore's regulatory affairs review. Reports cannot leave the firm and the experts until she clears them. This matters especially because Telltale is in a regulatory inspection on its next-generation lead, so nothing should conflict with what it told the regulator. I'd build that review window into the scheduling-order discussions and the expert disclosure deadline.\n\n## Role compared with the design expert\n- **Standards expert:** Addresses what the standards require and whether Telltale's conduct and testing conformed. They would also address how the standards relate to FDA requirements, and whether plaintiff overstates what the standards demand. They do not opine on why this particular lead fractured, and they do not analyze complaint data.\n- **Design expert (biomedical or mechanical engineer):** Addresses the AL-4120 design itself, fatigue and flex performance, risk analysis, and failure analysis of the explanted lead. The explant must be handled only under an agreed written protocol with both sides' engineers present and no disassembly or sectioning until then.\n- **Overlap to manage:** The design expert should rely on the standards expert for what the standards mean and should not opine on compliance independently. That keeps each opinion within one witness's expertise and reduces cross-examination exposure.\n- **Separate issues:** Warnings and the instructions for use (which warn against medial subclavian puncture and prefer lateral access) point to a clinical implanting-physician expert, not either of these two.\n\n## Cautions\n- Do not give the standards expert Orrinwick design or complaint records until a protective order is in place, preferably with an outside-counsel-and-experts tier.\n- The 2020 field-engineer note and the 2021 Larkspur review are sensitive. Whether the fracture rate (31 of about 22,000, roughly 0.14 percent) is within the labeled range is unconfirmed, so the expert should not opine on rates until engineering confirms. Any report should avoid characterizing failure rates beyond what the case requires.\n- All communications go to the General Counsel with a copy to Mr. Wren, and I will report the retention in the monthly update.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:18:27+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "ef9bda37-57c9-4db7-b6ab-e46caa9c3d7f",
+    "input_tokens": 2,
+    "output_tokens": 2045,
+    "cache_write_tokens": 2456,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.030278,
+    "latency_ms": 17817,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2045,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2456,
+      "webSearchRequests": 0,
+      "costUSD": 0.030278,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 786,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

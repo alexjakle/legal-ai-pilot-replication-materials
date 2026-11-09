@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "9aec0fd723e3e5e5f8bca3924f7a774af90381d2898ef30cf406f396a101bfa0",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T21:59:15+00:00",
+  "session_id_in": null,
+  "session_id": "36c3e302-3c6a-475f-ad49-c56ffcd9de1c",
+  "text": "# Expert report workflow for A-3\n\n**Confirm the deadline first.** You said *plaintiff's* expert disclosures are due in about ten weeks. Check the scheduling order for our own disclosure date, which is often later. Until it's confirmed, I'd treat ten weeks as our working deadline, since the schedule below is tight.\n\n## 1. Weeks 1-2: Client clearance and retention\n- Telltale must be consulted before we engage any testifying expert. For each of the two disciplines, send **three candidates with prior testimony notes**, and say whether anyone will address industry practice.\n- Send this to **GC Marguerite Salvesen, with insurance liaison Thaddeus Wren copied**.\n- Get budget approval or a quote before engaging experts or commissioning testing. Include this in the phase budget.\n- Don't engage anyone until Telltale clears them. Delay here comes straight out of the review window later.\n- Confirm that a litigation hold is in place on relevant product documents.\n- Confirm that any **draft-protection stipulation** with opposing counsel covers the client's regulatory review of drafts. If it needs to be filed or presented to the court, give Telltale **five business days' notice** first.\n\n## 2. Weeks 2-3: Engagement and instructions\n- Retain the experts through the firm and give them the scope and the schedule.\n- Tell them at the outset that the report will go through client regulatory review and that the review period is fixed.\n- Because Telltale is in a regulatory inspection on its next-generation lead, tell the experts to avoid characterizing failure rates beyond what their opinions actually require.\n\n## 3. Back-planned drafting schedule\nLet **D** be the service date. Telltale's regulatory affairs group, led by **Odalys Fennimore**, must review every expert report before service and is allowed **ten business days**.\n\n| Target | Step |\n|---|---|\n| About D minus 5 weeks | Experts deliver a **near-final draft** to us. Their work must be done early enough to fit the client review. |\n| D minus 5 to 4.5 weeks | We review the draft for substance, consistency between the two experts, and any failure-rate language. |\n| About D minus 4.5 weeks | We send the draft to Salvesen (Wren copied) for Fennimore's group. The ten-business-day clock starts. |\n| About D minus 2.5 weeks | Regulatory comments come back to us. |\n| D minus 2.5 to 1 week | We decide which comments go to the experts. The experts revise and finalize in their own words. |\n| D minus 1 week | We do a final check and the experts sign off. Telltale gets a heads-up if anything changed materially from the version it reviewed. |\n| D | Serve. |\n\nThis leaves about a week of slack. If the experts can't deliver near-final drafts by about D minus 5 weeks, raise it early. Don't compress Telltale's review.\n\n## 4. Who is involved and how\n- **Regulatory affairs (Fennimore):** reviews each report. Comments go through counsel, never directly to or from the expert.\n- **GC (Salvesen):** the channel for all communications. It also keeps us from contacting Telltale employees directly.\n- **Insurance liaison (Wren):** copied on communications as required, and on budget and exposure matters.\n- **Firm:** controls the flow. We send drafts, receive comments, and relay only what we choose to the expert.\n- **Experts:** make their own final judgments. Client comments should address accuracy and regulatory sensitivity, not dictate opinions.\n\n## 5. Protecting the exchange\n- Keep a **log of every draft and comment sent** in either direction, with dates and recipients, so the exchange stays protected work product.\n- Check that the draft-protection stipulation, or the applicable rules, cover communications with the client's regulatory staff. Confirm this before any draft goes out.\n- Keep the review within the team that needs it, and don't forward drafts around Telltale informally.\n\n## 6. Reporting along the way\n- Include expert status and the review calendar in the **monthly written update**.\n- Give Telltale a call after significant events, such as expert engagement or receipt of the near-final drafts.\n- Deliver the **initial assessment within 45 days**.\n- Explain any budget variance over 10%, since expert costs usually drive it.\n- Calendar all of this now, working back from D.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T21:59:15+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "36c3e302-3c6a-475f-ad49-c56ffcd9de1c",
+    "input_tokens": 2,
+    "output_tokens": 2382,
+    "cache_write_tokens": 1967,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.031692,
+    "latency_ms": 19562,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2382,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1967,
+      "webSearchRequests": 0,
+      "costUSD": 0.031692,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 939,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1967,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

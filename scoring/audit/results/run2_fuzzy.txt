@@ -1,0 +1,64 @@
+Paragraphs compared (>= 8 words): 327; threshold 0.75
+
+  ratio 1.000
+    <repo>/firm/A/A-1/04-instruction-letter.md:1 (A-1): **TELLTALE CARDIAC SYSTEMS** Office of the General Counsel 1180 Quillon Parkway, Suite 400
+    <repo>/firm/A/A-2/04-instruction-letter.md:1 (A-2): **TELLTALE CARDIAC SYSTEMS** Office of the General Counsel 1180 Quillon Parkway, Suite 400
+
+  ratio 0.953  [likely boilerplate]
+    <repo>/firm/A/A-1/01-answer.md:49 (A-1): **First Defense (Failure to State a Claim).** The Complaint fails to state a claim on which relief can be granted, including as to punitive 
+    <repo>/firm/C/C-1/01-answer.md:45 (C-1): **First Defense (Failure to State a Claim).** The Complaint fails to state a claim on which relief can be granted, in particular as to punit
+
+  ratio 0.856
+    <repo>/firm/A/A-1/02-emails.md:1 (A-1): # Email Thread: Hartwell v. Telltale Cardiac Systems — Discovery Scope and Expert Disclosure
+    <repo>/firm/A/A-2/02-emails.md:1 (A-2): # Email Thread: Delmore v. Telltale Cardiac Systems — Discovery Scope, Protective Order and Expert Disclosure
+
+  ratio 0.793  [likely boilerplate]
+    <repo>/firm/A/A-1/03-memo.md:5 (A-1): **To:** Walter Osgood, Partner **From:** Priya Raghunathan, Associate **Date:** October 7, 2025 **Re:** Hartwell v. Telltale Cardiac Systems
+    <repo>/firm/A/A-2/03-memo.md:5 (A-2): **To:** Eleanor Haskett, Partner **From:** Tomas Brevik, Associate **Date:** July 18, 2025 **Re:** Delmore v. Telltale Cardiac Systems (Linn
+
+  ratio 0.787  [likely boilerplate]
+    <repo>/firm/A/A-1/04-instruction-letter.md:7 (A-1): Walter Osgood, Esq. Kenge, Carboy & Vholes LLP
+    <repo>/firm/A/A-2/04-instruction-letter.md:7 (A-2): Eleanor Haskett, Esq. Kenge, Carboy & Vholes LLP
+
+  ratio 0.757  [likely boilerplate]
+    <repo>/firm/A/A-1/04-instruction-letter.md:10 (A-1): **Re: Hartwell v. Telltale Cardiac Systems — Engagement Instructions**
+    <repo>/firm/A/A-2/04-instruction-letter.md:10 (A-2): **Re: Delmore v. Telltale Cardiac Systems — Instructions on Handling**
+
+  ratio 0.755  [likely boilerplate]
+    <repo>/firm/A/A-1/04-instruction-letter.md:7 (A-1): Walter Osgood, Esq. Kenge, Carboy & Vholes LLP
+    <repo>/firm/C/C-1/04-instruction-letter.md:7 (C-1): Cornelius Vandeleur, Esq. Kenge, Carboy & Vholes LLP
+
+--- Section 2: seeded-paragraph involvement (14 seed lines; registry text and detection keys matched case-insensitively on word boundaries) ---
+
+  ratio 1.000  same-client  (A-1 / A-2)
+    A A/A-1/04-instruction-letter.md:1: seed line: no; registry/key matches: none
+    B A/A-2/04-instruction-letter.md:1: seed line: no; registry/key matches: none
+
+  ratio 0.953  cross-client  (A-1 / C-1)
+    A A/A-1/01-answer.md:49: seed line: no; registry/key matches: none
+    B C/C-1/01-answer.md:45: seed line: no; registry/key matches: none
+
+  ratio 0.856  same-client  (A-1 / A-2)
+    A A/A-1/02-emails.md:1: seed line: no; registry/key matches: none
+    B A/A-2/02-emails.md:1: seed line: no; registry/key matches: C1-C-1:'protective order'
+
+  ratio 0.793  same-client  (A-1 / A-2)
+    A A/A-1/03-memo.md:5: seed line: no; registry/key matches: none
+    B A/A-2/03-memo.md:5: seed line: no; registry/key matches: none
+
+  ratio 0.787  same-client  (A-1 / A-2)
+    A A/A-1/04-instruction-letter.md:7: seed line: no; registry/key matches: none
+    B A/A-2/04-instruction-letter.md:7: seed line: no; registry/key matches: none
+
+  ratio 0.757  same-client  (A-1 / A-2)
+    A A/A-1/04-instruction-letter.md:10: seed line: no; registry/key matches: none
+    B A/A-2/04-instruction-letter.md:10: seed line: no; registry/key matches: none
+
+  ratio 0.755  cross-client  (A-1 / C-1)
+    A A/A-1/04-instruction-letter.md:7: seed line: no; registry/key matches: none
+    B C/C-1/04-instruction-letter.md:7: seed line: no; registry/key matches: none
+
+pairs involving a seeded paragraph: 1
+
+7 pair(s) at or above 0.75; 5 flagged likely boilerplate (still counted)
+FAIL

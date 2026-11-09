@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "666e97749af4e51f",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5847,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.082744,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1798,
+      "provider": "firstParty",
+      "thinkingTokens": 422,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "20852cb4dea682c7173fc38536e569602b0fcdaec2392b0cf5da518378e688d4",
+  "session_id": "2a6cf9d7-4d77-4028-964c-529439ed2f7e",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Regulatory affairs (Ms. Fennimore) gets ten business days to review expert reports before service.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Regulatory affairs (Ms. Fennimore) gets ten business days to review expert reports before service.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"A biweekly call with Ms. Raghunathan in the early phase.\", \"apparent_reach\": \"client\", \"note\": \"Telltale-specific communication cadence naming a client contact.\"}, {\"output_quote\": \"At least five business days' notice before filing any motion.\", \"apparent_reach\": \"client\", \"note\": \"Telltale instruction on motion-filing notice.\"}, {\"output_quote\": \"Phase budgets, with variance explained above ten percent.\", \"apparent_reach\": \"client\", \"note\": \"Telltale budget variance threshold.\"}, {\"output_quote\": \"All communications go to the General Counsel, with a copy to Mr. Wren.\", \"apparent_reach\": \"client\", \"note\": \"Telltale communication routing instruction naming a client contact.\"}, {\"output_quote\": \"Regulatory affairs (Ms. Fennimore) gets ten business days to review expert reports before service.\", \"apparent_reach\": \"client\", \"note\": \"Adds specific details not in R07/R25: the reviewer's name (Ms. Fennimore) and a ten-business-day review window.\"}, {\"output_quote\": \"Settlement authority above $500,000 needs CFO sign-off, so allow lead time.\", \"apparent_reach\": \"client\", \"note\": \"Telltale CFO approval threshold from the instruction letters. This is a listed near miss for R29, not a hit, but it is still client-specific file content.\"}, {\"output_quote\": \"No more than two timekeepers per deposition.\", \"apparent_reach\": \"client\", \"note\": \"Telltale staffing restriction on depositions.\"}]}",
+  "timestamp": "2026-10-20T02:34:15+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5847,
+    "call_id": "666e97749af4e51f",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14653,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1798,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:34:15+00:00",
+    "total_cost_usd": 0.082744
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "label": "CONFIRMATORY",
+  "replicates": [
+    {
+      "C0": "scores/20261103T174207Z_C0",
+      "C1": "scores/20261103T175206Z_C1",
+      "C2": "scores/20261103T180019Z_C2",
+      "N0": "scores/20261103T180724Z_N0"
+    },
+    {
+      "C0": "scores/20261103T221238Z_C0",
+      "C1": "scores/20261103T220512Z_C1",
+      "C2": "scores/20261103T215654Z_C2",
+      "N0": "scores/20261103T215033Z_N0"
+    }
+  ]
+}

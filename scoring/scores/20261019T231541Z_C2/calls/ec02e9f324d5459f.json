@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "ec02e9f324d5459f",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6067,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.088444,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1995,
+      "provider": "firstParty",
+      "thinkingTokens": 432,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "2a20232d874909550ccc416ba1ebbd5f064a9d4520d4de0f42c5c9cd0c53d27a",
+  "session_id": "2d73b669-0f5d-42ba-a23e-4e34f51d50c9",
+  "stage": "judge_store",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Client preference: try mediation before any testifying experts are disclosed or deposed, because expert discovery is expensive and hardens positions.\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"case reports must be a single page showing current exposure as a dollar range, a few lines of status, upcoming dates, and any decision needed from the client. No narrative memos.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"The client has promised its largest retail partners advance warning before pulling any product from sale.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Engineering change notice ECN-6200-14 added a retention clip to the TT-6200 lockout pin on later production.\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"complaints are tracked in the Ravenscar ticketing system.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Client instruction on product inspections: nothing may be disassembled or cleaned before both sides' engineers are present, and the client's own engineer may handle the unit only in the lawyer's presence.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific inspection protocol instruction not covered by any row.\"}, {\"output_quote\": \"Limit staffing to one associate and one partner, with no more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"Client budget and staffing rule from an instruction letter.\"}, {\"output_quote\": \"send communications to Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft in risk management.\", \"apparent_reach\": \"client\", \"note\": \"Named client contacts and a routing instruction.\"}, {\"output_quote\": \"His technical contact is Rennick Odell, product safety lead.\", \"apparent_reach\": \"client\", \"note\": \"Named client technical contact.\"}, {\"output_quote\": \"do not volunteer information about customer complaint history or other incidents until a request is served and the scope has been discussed with the client.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on dealing with plaintiff's counsel.\"}, {\"output_quote\": \"The TT-5500 uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat.\", \"apparent_reach\": \"matter\", \"note\": \"Specific product-design fact about a related model, relevant to other-incident exposure.\"}, {\"output_quote\": \"No settlement offer may be made in any form without the General Counsel's written approval.\", \"apparent_reach\": \"client\", \"note\": \"Client authority instruction. It is a listed lookalike for R29, not a hit, but it is still file-derived client content.\"}]}",
+  "timestamp": "2026-10-20T03:03:16+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6067,
+    "call_id": "ec02e9f324d5459f",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15629,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1995,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_store",
+    "timestamp": "2026-10-20T03:03:16+00:00",
+    "total_cost_usd": 0.088444
+  }
+}

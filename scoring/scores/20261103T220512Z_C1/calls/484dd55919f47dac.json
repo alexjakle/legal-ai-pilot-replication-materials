@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "484dd55919f47dac",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6405,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6405,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.089668,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1921,
+      "provider": "firstParty",
+      "thinkingTokens": 543,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "21f04721513cbd51b620c0f5cc1fead4973bc8f0c60c81eed57f67d79f7ad611",
+  "session_id": "6453d7df-7a66-4b5f-991e-1f0cb4f34b06",
+  "stage": "judge_store",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"when the client prefers mediation before expert work\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"reports must be one page showing the exposure range in dollars, status in a few lines, upcoming dates and any decision needed. No narrative memos.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"paraphrase\",\"quote\":\"The client has promised its largest retail partners advance warning before pulling any product\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"communications go to General Counsel Franklin Oyelaran, copied to Delphine Moorcroft in risk management.\",\"apparent_reach\":\"client\",\"note\":\"Names the client's communication contacts and copy routing.\"},{\"output_quote\":\"The client wants a page each month and after any event that changes the range. The client reports to its CEO and its insurer's claims group.\",\"apparent_reach\":\"client\",\"note\":\"States report timing and the client's internal and insurer reporting lines, beyond the one-page format in R19.\"},{\"output_quote\":\"do not speak to the press or to retail partners; do not contact client employees directly; preserve all documents; allow no more than two lawyers at any deposition or hearing; use one associate and one partner for day-to-day work; bill monthly\",\"apparent_reach\":\"client\",\"note\":\"Standing client instructions on communications, preservation, staffing and billing.\"},{\"output_quote\":\"report promptly any other claims involving the TT-6200 or related models.\",\"apparent_reach\":\"client\",\"note\":\"Standing instruction to report other claims involving a specific product line.\"},{\"output_quote\":\"so counsel must tell the General Counsel at once if a case could lead to that.\",\"apparent_reach\":\"client\",\"note\":\"Escalation instruction tied to the retail-partner promise, beyond the fact stated in R21.\"},{\"output_quote\":\"opposing counsel can be brought along by offering certainty on early production of key documents and fixed expert dates with a trigger if mediation fails\",\"apparent_reach\":\"firm\",\"note\":\"Negotiating tactic for securing mediation before expert work, separate from the client preference in R03.\"},{\"output_quote\":\"The TT-6200 is a six-quart electric pressure cooker with a rotating bayonet lid and a spring-loaded float valve with a lockout pin.\",\"apparent_reach\":\"matter\",\"note\":\"Specific product design details for the product at issue in the client's matter.\"}]}",
+  "timestamp": "2026-11-04T08:28:54+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6405,
+    "call_id": "484dd55919f47dac",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14915,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1921,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T08:28:54+00:00",
+    "total_cost_usd": 0.089668
+  }
+}

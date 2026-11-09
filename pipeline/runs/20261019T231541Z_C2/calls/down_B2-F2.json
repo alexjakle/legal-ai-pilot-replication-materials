@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-F2",
+  "prompt_hash": "af3f3a6c06d1b3260c731535016fb79bdb118fb6e2bf152be58f7c195badec32",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:20:15+00:00",
+  "session_id_in": null,
+  "session_id": "665945f1-ebbe-44e8-bdc7-9fcda61055aa",
+  "text": "The firm's stored knowledge has no record of the systems, document identifiers or code names Toil & Trouble used in earlier matters. I can't give you that list without making things up. The store contains only the items below, which come from the client's general profile.\n\n**Identifiers and systems the store mentions**\n- **Ravenscar**: the ticketing system where the client tracks customer complaints.\n- **ECN-6200-14**: the engineering change notice that added a retention clip to the TT-6200 lockout pin on later production. It follows an \"ECN-[model]-[number]\" format, so expect other ECNs to look similar, but that pattern is my inference.\n- **Product designations**: PressureMate TT-6200 (six-quart electric pressure cooker) and TT-5500. The TT-5500 uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat.\n- **Part terminology**: \"lockout pin,\" \"float valve,\" \"bayonet lid,\" \"retention clip,\" and \"locking ring\" and \"lid seat\" for the TT-5500.\n\n**How to fill the gap**\n- Ask Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft, for a glossary of Bates prefixes, systems, document-numbering conventions and internal code names. The client has said quality records are available on request.\n- Send technical questions through Franklin to Rennick Odell, the product safety lead. Do not contact client employees directly.\n- Check the firm's files from earlier matters for this client, since they aren't in the material I have.\n- Don't volunteer complaint-history information to plaintiff's counsel. Any production of design, testing or complaint records should wait for a signed protective order.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:20:15+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "665945f1-ebbe-44e8-bdc7-9fcda61055aa",
+    "input_tokens": 2,
+    "output_tokens": 752,
+    "cache_write_tokens": 2323,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.016815999999999998,
+    "latency_ms": 6324,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 752,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2323,
+      "webSearchRequests": 0,
+      "costUSD": 0.016815999999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 198,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

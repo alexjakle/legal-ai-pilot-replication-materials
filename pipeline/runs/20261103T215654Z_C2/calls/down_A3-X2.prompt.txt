@@ -1,0 +1,24 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Telltale Cardiac Systems):
+- Telltale settlement and coverage structure: settlement authority above $500,000 requires sign-off from the CFO (Cormac Brightwater). The self-insured retention is $750,000 per claim. Insurance liaison Thaddeus Wren handles coverage. The GC is Marguerite Salvesen.
+- Telltale reporting and billing requirements: monthly written updates and a call after significant events; initial assessment within 45 days; five business days' notice before filing any motion; phase budgets with variance explanations for variances over 10%; no more than two timekeepers at depositions; communications go to the GC (Marguerite Salvesen) with the insurance liaison (Thaddeus Wren) copied; litigation holds are required on relevant product documents.
+- Telltale expert and regulatory requirements: consult the client before engaging any testifying expert, offering three names per discipline with prior testimony notes. The regulatory affairs group (led by Odalys Fennimore) must review every expert report before service, with ten business days allowed. The client was in a regulatory inspection on its next-generation lead and wants filings to avoid characterizing failure rates beyond what is needed.
+- Expert report process for Telltale: route regulatory-affairs comments on expert reports through counsel and log what is sent so the exchange stays protected work product. Have the expert deliver a near-final draft early enough to fit the client's ten-business-day review before the service deadline, and confirm that any draft-protection stipulation covers this review.
+
+Firm store:
+- Settlement authority is tiered and set by the client. Before any number is communicated, even as a signal, confirm in writing who must approve it and at what level (general counsel, CFO, board, insurer). Do not rely on verbal indications. Offers above the insurer or officer tier can need a multi-week approval process, so flag this early, before negotiations reach that point.
+- Corporate defense clients commonly want to vet testifying experts before they are engaged. Expect to supply names and credentials, sometimes several candidates per discipline with prior testimony notes, and to tell the client whether anyone will address industry practice. Build client clearance into the expert-retention timeline.
+- Clients usually set a fixed reporting cadence and format. Typical requirements are a regular written update (monthly or every six weeks, sometimes one page with the exposure range), an early initial case assessment within 45 to 60 days, and a call or short note after significant events such as depositions. Calendar these at intake.
+- Clients commonly route all communications through the general counsel, bar direct contact with company employees, refer press and outside inquiries to the GC, and cap the number of lawyers or timekeepers at depositions and hearings (typically one or two). Confirm these limits at intake and staff accordingly.
+- Clients expect budget discipline. Provide phase or stage estimates (for example separate estimates through mediation and through trial), explain variances, and obtain client approval or quotes before commissioning testing or experts, since expert and testing costs usually drive most of the variance. Clarify who pays for shared lab work.
+- Insurers are part of the client relationship. Clients typically name an insurance liaison or claims contact to be copied on anything touching coverage or exposure and on invoice summaries, and some want same-day notice if the carrier reserves rights. Check retention and limit details per matter and confirm who gets copied.
+- Clients with multiple product claims expect prompt reporting of other incidents or claims involving the same or related models, and a litigation hold on relevant product documents. Confirm at intake that a hold is in place and that other-incident reporting is understood.
+
+New matter: A-3
+Client: Telltale Cardiac Systems
+
+Question:
+What are Joad's settlement approval requirements, and what have we been told about changes in its supply chain or about its test records?
+
+Answer the question.

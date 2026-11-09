@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "0c347dd2398e55b4649d96ac73a2e0d3c9ad0d322ad2ddafb809c8548103d9cd",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-10-19T23:28:42+00:00",
+  "session_id_in": null,
+  "session_id": "941fd791-5816-49cf-8012-4d6a06bd8adf",
+  "text": "**Short answer:** Don't agree to a blanket authenticity stipulation now. Respond courteously, say we will address authenticity document by document once a protective order is signed, and make the protective order the first thing we ask for.\n\n**Caveat before sending anything.** My source for this approach is the client instruction and firm position in *Lindqvist v. Joad Axle Works* (TC-23-0459). Before we rely on it in C-2, confirm with General Counsel Evander Thorsby that the instruction is a standing Joad position rather than specific to Lindqvist. All case communications go through him anyway. I also don't have C-2's court, plaintiff's counsel, the axle model, or the specific test series at issue. Don't assume the FT-77 facts carry over, and don't mention Lindqvist or its details to C-2 counsel.\n\n**How to respond (after clearing it with Thorsby)**\n1. Say Joad is not refusing to deal with authenticity. It will not stipulate to the authenticity of internal test data, including fatigue testing, until a protective order is in place.\n2. Say the order must have an outside-counsel-and-experts-only tier covering the test data and design drawings, and that Joad will produce only what the court requires and only after the order is signed.\n3. Say that once the order is signed, we will take up authenticity document by document.\n4. Reserve all objections. Authenticity is separate from relevance, admissibility, completeness and accuracy. A stipulation that the documents are \"what they purport to be\" could concede more than authenticity.\n5. Keep the tone cooperative and avoid characterizing the documents. The test data will be central to plaintiff's affirmative case, so we have no reason to concede anything early. Acting reasonably on the protective order also helps us if the court has to rule.\n\n**What to ask for first**\n1. **The protective order.** Send our draft with:\n   - two tiers, with the outside-counsel-and-experts-only tier covering the test data and design drawings;\n   - a bar on using produced material outside this case;\n   - return or destruction at the end of the case;\n   - an acknowledgment that experts must sign before receiving anything.\n\n   The Lindqvist draft (sent October 17, 2023) is a workable template. Plaintiff's counsel there agreed to the top tier once it covered the test data and drawings.\n2. **A specific document list.** Ask plaintiff to identify exactly which documents and test series the stipulation would cover. A blanket request is too broad to evaluate.\n3. **Discovery scope.** Hold the line on scope by model and part, as we did in Lindqvist, where we limited warranty and failure reports to the affected spindle forging rather than the whole product line. Confirm with Thorsby which of that scope reasoning applies to C-2's axle.\n\n**Handling points**\n- Keep the circle of people who see the test files tight.\n- Don't contact Joad engineers directly, including the chief axle engineer. Thorsby arranges access.\n- Make sure nothing we say or produce here conflicts with positions Joad has taken in Lindqvist, since the same test program may be at issue in both cases. Also keep the Lindqvist privileged metallurgical review out of any C-2 discussion.\n- Copy Thorsby on all correspondence. Copy the insurer's claims handler only if coverage is implicated.",
+  "usage": {
+    "run_id": "20261019T232425Z_C0",
+    "timestamp": "2026-10-19T23:28:42+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "941fd791-5816-49cf-8012-4d6a06bd8adf",
+    "input_tokens": 2,
+    "output_tokens": 1833,
+    "cache_write_tokens": 20535,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.10047400000000001,
+    "latency_ms": 15519,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1833,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20535,
+      "webSearchRequests": 0,
+      "costUSD": 0.10047400000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 747,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

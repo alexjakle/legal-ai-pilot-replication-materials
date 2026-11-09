@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "4492ff5be7bdc9ca",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7098,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7098,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.120332,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3177,
+      "provider": "firstParty",
+      "thinkingTokens": 1508,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "f806e213ab4bf3dc3075778046e8d2f9d113b922c7b87a16fc76ed5648406e08",
+  "session_id": "0529e335-2839-4ff2-95fa-c2e1e4cee8ca",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"The design expert shows the design satisfies the standards, and the standards expert explains what those standards mean and how they're applied.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Odalys Fennimore's regulatory affairs group must review every expert report before service, to check consistency with what Telltale told the regulator.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"verbatim\",\"quote\":\"Propose one before sharing or producing any design-engineering or complaint-handling material (including Orrinwick data) with the expert.\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"The design expert shows the design satisfies the standards, and the standards expert explains what those standards mean and how they're applied.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"The design expert shows the design satisfies the standards, and the standards expert explains what those standards mean and how they're applied.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Odalys Fennimore's regulatory affairs group must review every expert report before service, to check consistency with what Telltale told the regulator.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Keep both reports from characterizing failure rates beyond what the case requires. Telltale asked us to avoid that because of its regulatory inspection tied to the next-generation lead.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Send General Counsel Marguerite Salvesen, with a copy to Thaddeus Wren, three candidates for this discipline, with credentials and prior-testimony notes.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's expert-candidate submission requirement, with named client contacts.\"},{\"output_quote\":\"Our general practice is to expect extra clearance for standards experts, so flag it as a priority.\",\"apparent_reach\":\"firm\",\"note\":\"Stated firm practice on client clearance of standards experts.\"},{\"output_quote\":\"We do not engage anyone until Telltale has been consulted.\",\"apparent_reach\":\"client\",\"note\":\"Client consultation required before an expert is engaged.\"},{\"output_quote\":\"This is due within 45 days of the engagement letter.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's deadline for the initial case assessment.\"},{\"output_quote\":\"The group needs ten business days. Reports can't go outside the firm and the experts until cleared.\",\"apparent_reach\":\"client\",\"note\":\"Specific review period and circulation limit for Telltale's regulatory affairs review, beyond the review requirement in R07 and R25.\"},{\"output_quote\":\"Propose one before sharing or producing any design-engineering or complaint-handling material (including Orrinwick data) with the expert.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's protective-order instruction; it does not support R13 because it is not tied to refusing an authenticity stipulation.\"},{\"output_quote\":\"Don't contact Telltale employees below vice president level to brief the expert. Route access through Marguerite.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's restriction on employee contact, with access routed through its general counsel.\"},{\"output_quote\":\"Only two timekeepers at a deposition are paid for, so plan who defends and who attends.\",\"apparent_reach\":\"client\",\"note\":\"Client billing limit on deposition attendance.\"},{\"output_quote\":\"Report anything the expert learns about related incidents to Telltale promptly.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction to report related incidents.\"}]}",
+  "timestamp": "2026-11-04T03:14:56+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7098,
+    "call_id": "4492ff5be7bdc9ca",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 24946,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3177,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:14:56+00:00",
+    "total_cost_usd": 0.120332
+  }
+}

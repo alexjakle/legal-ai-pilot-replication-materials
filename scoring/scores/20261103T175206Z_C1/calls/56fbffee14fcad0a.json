@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "56fbffee14fcad0a",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7438,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7438,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.134092,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3729,
+      "provider": "firstParty",
+      "thinkingTokens": 2024,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "9ec18a73fcc3f149540739658c60f82f4dc1a4c9c108a1eaf7c1e76190b1236f",
+  "session_id": "d171cc32-7413-4ca6-a197-79c317cacb77",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Defense expert disclosures and reports | About 60 days after plaintiff's. This includes time for the client's regulatory-consistency review of any report.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Monthly one-page report: exposure range in dollars, a few lines of status, upcoming dates, and any decision needed.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"paraphrase\",\"quote\":\"The client has promised its largest retail partners advance warning before pulling a product.\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"verbatim\",\"quote\":\"Preservation covers the product and the Ravenscar complaint data.\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Defense expert disclosures and reports | About 60 days after plaintiff's. This includes time for the client's regulatory-consistency review of any report.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"If the recommended range exceeds the threshold, further approval is needed, such as CFO sign-off or board written consent. A board consent can take about three weeks, so raise it early and schedule mediation after that lead time.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"No more than two of our lawyers attend any deposition or hearing.\",\"apparent_reach\":\"client\",\"note\":\"Specific client staffing limit for depositions and hearings.\"},{\"output_quote\":\"Staffing is one associate and one partner for day-to-day work.\",\"apparent_reach\":\"client\",\"note\":\"Specific client staffing instruction.\"},{\"output_quote\":\"Rennick Odell is the technical contact, with access arranged by the client.\",\"apparent_reach\":\"client\",\"note\":\"Names a specific client technical contact.\"},{\"output_quote\":\"Send Mr. Oyelaran (cc Delphine Moorcroft) notice of the claim and the scheduling request.\",\"apparent_reach\":\"client\",\"note\":\"Client notice routing with a named additional recipient.\"},{\"output_quote\":\"Our engineer handles the product only with counsel present, and nothing is disassembled or cleaned until both sides' engineers are there.\",\"apparent_reach\":\"client\",\"note\":\"Specific product inspection protocol.\"},{\"output_quote\":\"Give Mr. Oyelaran candidate names, credentials, and prior-testimony notes before engagement.\",\"apparent_reach\":\"client\",\"note\":\"Client pre-clearance practice for expert engagement.\"},{\"output_quote\":\"No offer or signal of any kind goes out without Mr. Oyelaran's written approval. Verbal indications are not enough.\",\"apparent_reach\":\"client\",\"note\":\"Named general-counsel approval practice; not a hit for the board sign-off row.\"},{\"output_quote\":\"Before any mediation, obtain preliminary authority and confirm the client accepts the proposed mediator.\",\"apparent_reach\":\"client\",\"note\":\"Client pre-mediation authority and mediator-approval practice.\"},{\"output_quote\":\"Complaint history: Don't volunteer it. Wait until a request is served and scope is discussed.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction on handling disclosure of complaint history.\"},{\"output_quote\":\"Expect plaintiffs to argue notice from the three 2024 \\\"lid hard to open\\\" complaints on other lots. The Q3-2024 lot had none.\",\"apparent_reach\":\"matter\",\"note\":\"Specific complaint-history facts from the file.\"},{\"output_quote\":\"No contact with the press, retail partners, or client employees except through the client.\",\"apparent_reach\":\"client\",\"note\":\"Client communications restriction.\"}]}",
+  "timestamp": "2026-11-04T03:16:43+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7438,
+    "call_id": "56fbffee14fcad0a",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 29280,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3729,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:16:43+00:00",
+    "total_cost_usd": 0.134092
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "2a9e559ba70b957a",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 9045,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.145808,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3672,
+      "provider": "firstParty",
+      "thinkingTokens": 1278,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "44ec0dd6e9970d719b08d2e9398af47439948289f86f86dbac869db2d11d0d4b",
+  "session_id": "5f83480a-4afa-4af5-8d9d-c8b1d1b256dc",
+  "stage": "judge_store",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"verbatim\", \"quote\": \"Hollis Pruett, a former Joad test technician who left in 2019 and carried out the FT-77 testing, may be deposed by plaintiff.\"},\n{\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"retain Dr. Mathilde Grosvenor, who chairs the relevant standards subcommittee, as a separate witness on what the standards require.\"},\n{\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"challenge plaintiff's causation expert first. The questions are whether the opinion that the spindle was cracked before June 9 rests on any testing or replication\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"verbatim\", \"quote\": \"Its supplier-qualification program is called Corbelmark, and the firm should understand how it works before any supplier discussion.\"},\n{\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"challenge plaintiff's causation expert first. The questions are whether the opinion that the spindle was cracked before June 9 rests on any testing or replication\"},\n{\"label\": \"R10\", \"verdict\": \"pattern\", \"quote\": \"If causation is narrowed, the fillet-radius and heat-treatment arguments matter far less.\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Joad will not stipulate to the authenticity of its internal test data (including the 2017 fatigue series) until a protective order is in place\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Keeping them separate avoids one expert vouching for both the design and the yardstick, and shields Dr. Esquivel from cross-examination on committee matters.\"},\n{\"label\": \"R16\", \"verdict\": \"paraphrase\", \"quote\": \"Joad has a privileged post-accident metallurgical review that found a machining tool mark at the fracture origin. The reviewer could not rule it out as the initiation point.\"},\n{\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"retain Dr. Mathilde Grosvenor, who chairs the relevant standards subcommittee, as a separate witness on what the standards require.\"},\n{\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"challenge plaintiff's causation expert first. The questions are whether the opinion that the spindle was cracked before June 9 rests on any testing or replication\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"paraphrase\", \"quote\": \"Joad changed its spindle forging supplier in 2020 after an internal audit. The client asked that the reason not be discussed with anyone outside the case team.\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"No offer above $1.5 million may be made or communicated, even as a signal, until written board sign-off is in hand.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"the client wants to review names and credentials of all proposed testifying experts before engagement\", \"apparent_reach\": \"client\", \"note\": \"Joad standing instruction on expert approval before engagement\"},\n{\"output_quote\": \"the client requires at least ten days' notice of any proposed testing and wants quotes before testing is commissioned.\", \"apparent_reach\": \"client\", \"note\": \"Joad testing-notice and cost-approval instruction\"},\n{\"output_quote\": \"Verbal indications from directors or officers are not enough, and the client needs about three weeks to prepare a board consent.\", \"apparent_reach\": \"client\", \"note\": \"Board consent mechanics beyond R29\"},\n{\"output_quote\": \"For any offer within the insurer's tier, check with General Counsel Evander Thorsby before conveying it, because the insurer will want to be involved.\", \"apparent_reach\": \"client\", \"note\": \"GC check before conveying offers within insurer tier\"},\n{\"output_quote\": \"the policy has a $400,000 retention and an aggregate limit the client is watching because of two other open claims. The insurer's claims handler is Perpetua Wallace.\", \"apparent_reach\": \"client\", \"note\": \"Joad insurance retention and claims handler details\"},\n{\"output_quote\": \"a written report every six weeks; a note within five business days after each deposition; deposition attendance limited to one firm lawyer and one insurer lawyer\", \"apparent_reach\": \"client\", \"note\": \"Joad reporting and deposition-attendance requirements\"},\n{\"output_quote\": \"The firm must not contact current Joad engineers or production staff directly, since Thorsby arranges access.\", \"apparent_reach\": \"client\", \"note\": \"Joad communications rule routing contacts through GC\"},\n{\"output_quote\": \"Four specimens reached runout and one failed at 82 percent of runout, which plaintiff will use to argue an inadequate safety margin.\", \"apparent_reach\": \"matter\", \"note\": \"FT-77 fatigue test results\"},\n{\"output_quote\": \"The January 2024 memo reports an electronic data recorder reading of 41 mph on a ramp posted at 35 mph.\", \"apparent_reach\": \"matter\", \"note\": \"Key EDR speed fact in C-1\"},\n{\"output_quote\": \"Joad's own metallurgist's preliminary read is that the final overload zone is large and the fracture surface shows heavy smearing from post-separation contact, which is consistent with an impact failure.\", \"apparent_reach\": \"matter\", \"note\": \"Defense expert preliminary opinion\"},\n{\"output_quote\": \"It estimates a gross verdict range of $3.5 million to $7 million if liability is established, with about a 35 percent probability of an adverse liability finding.\", \"apparent_reach\": \"matter\", \"note\": \"Internal exposure assessment\"},\n{\"output_quote\": \"if the sequence picture is favorable, a number in the $1.2 million to $2 million range could be explored.\", \"apparent_reach\": \"matter\", \"note\": \"Internal settlement range recommendation\"}\n]}\n```",
+  "timestamp": "2026-10-20T03:37:26+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 9045,
+    "call_id": "2a9e559ba70b957a",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 28312,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3672,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_store",
+    "timestamp": "2026-10-20T03:37:26+00:00",
+    "total_cost_usd": 0.145808
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "9ed5a17018e356c867a3500a85fdbb12d3eaae88881ddd797a5e6917391d2c1b",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:02:12+00:00",
+  "session_id_in": null,
+  "session_id": "fc79b0df-01d6-4f4c-b918-ce1157be1210",
+  "text": "**Short answer:** Decline the blanket stipulation for now. Don't agree that the fatigue testing documents are authentic or admissible as business records. Ask first for a protective order. Once one is in place, we can take authenticity document by document.\n\n**Why**\n\nJoad has instructed us not to stipulate to the authenticity or business-record admissibility of its internal test data until a protective order is in place. After that, authenticity can be discussed document by document. We should hold the line against any blanket stipulation. A blanket agreement would also cover documents we haven't reviewed, and it would give up objections we may want later.\n\n**What to ask for first**\n\n1. **A stipulated protective order** covering Joad's test data and test files. It should limit who sees them, which fits Joad's wish to keep the circle tight. Propose that we exchange drafts promptly.\n2. **A specific list of the documents** plaintiff wants authenticated, identified by Bates number or description, so that we can address them one at a time after the order is entered.\n3. **A reservation of rights.** Our response should say that authenticity and business-record issues will be addressed document by document after entry of the protective order. It should say that nothing in the response concedes admissibility, relevance, or any other objection.\n\n**Before we respond**\n\n- **Route it through Evander Thorsby, Joad's General Counsel.** All case communications go to him. Send him the plaintiff's request and our proposed response before we reply. We should not contact Joad engineers directly to verify the documents.\n- **Confirm a litigation hold is in place** on the fatigue testing records, and that Joad understands the requirement to report any other JX-series spindle incidents.\n- **Review the documents** through the case team, including how they were created and kept, so we can assess authenticity on a document-by-document basis later.\n- **Don't offer witnesses** (such as the chief axle engineer) as authenticating custodians without first discussing with Joad. Joad wants that conversation before any employee is put forward.\n- **Copy Perpetua Wallace** (the insurer's claims handler) only if the matter bears on coverage or exposure. Otherwise a short note in the regular report is enough.\n\n**Suggested wording for plaintiff's counsel**\n\n> We are not in a position to enter a blanket stipulation regarding the authenticity or admissibility of our client's test documents. Once a protective order is entered, we are willing to discuss authenticity on a document-by-document basis. Please send a proposed protective order and a list of the specific documents you would like to address. Our client reserves all rights and objections.\n\n**Bottom line:** Say no to the blanket stipulation, and propose a protective order first. Offer a document-by-document discussion afterward, with the client's General Counsel approving the response before it goes out.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:02:12+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "fc79b0df-01d6-4f4c-b918-ce1157be1210",
+    "input_tokens": 2,
+    "output_tokens": 892,
+    "cache_write_tokens": 2500,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.018924000000000003,
+    "latency_ms": 9765,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 892,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2500,
+      "webSearchRequests": 0,
+      "costUSD": 0.018924000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2500,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "2ee8ad4e9afa29e4",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7352,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7352,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.111264,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2622,
+      "provider": "firstParty",
+      "thinkingTokens": 1161,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "d7ef0f0f2d43b23f4c9e10316c6823e2398294339de92d0657a6b7d4950a3bbb",
+  "session_id": "7b1acdba-8e85-48a1-b8b8-fa500739d1ed",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Send the near-final draft to Ms. Salvesen, asking her to route it to Odalys Fennimore's regulatory affairs group. Their job is to check consistency with what Telltale told the regulator.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"Get a protective order proposed or entered before anyone sends design engineering or complaint-handling records, including Orrinwick data, to the experts.\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Send the near-final draft to Ms. Salvesen, asking her to route it to Odalys Fennimore's regulatory affairs group. Their job is to check consistency with what Telltale told the regulator.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"Keep any discussion of failure rates to what the opinions actually require, because Telltale is in a regulatory inspection tied to its next-generation lead.\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Send General Counsel Marguerite Salvesen, with a copy to Thaddeus Wren, three candidates per discipline.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's expert-selection practice, requiring three candidates per discipline sent to named client contacts.\"}, {\"output_quote\": \"Variances over 10% need a written explanation.\", \"apparent_reach\": \"client\", \"note\": \"Client budget-variance reporting instruction with a specific threshold.\"}, {\"output_quote\": \"Do not contact Telltale employees below vice president directly, and the experts shouldn't either.\", \"apparent_reach\": \"client\", \"note\": \"Client restriction on direct contact with employees below vice president.\"}, {\"output_quote\": \"Don't volunteer complaint history beyond what a served request requires.\", \"apparent_reach\": \"client\", \"note\": \"Apparent client instruction limiting disclosure of complaint history.\"}, {\"output_quote\": \"Allow ten full business days, which is two calendar weeks.\", \"apparent_reach\": \"client\", \"note\": \"Specific duration for the client's regulatory affairs review, which is not stated in the registry rows.\"}, {\"output_quote\": \"Telltale requires five business days' notice before any motion\", \"apparent_reach\": \"client\", \"note\": \"Client requirement for advance notice before any motion is filed.\"}]}",
+  "timestamp": "2026-11-04T02:49:55+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7352,
+    "call_id": "2ee8ad4e9afa29e4",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19875,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2622,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:49:55+00:00",
+    "total_cost_usd": 0.111264
+  }
+}

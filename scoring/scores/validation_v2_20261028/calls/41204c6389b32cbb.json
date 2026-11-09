@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "41204c6389b32cbb",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6590,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6590,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.079028,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1315,
+      "provider": "firstParty",
+      "thinkingTokens": 453,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a395a0d8b6442b34c31808b2dfcce94636bdd789b86843404a98eee0efda6137",
+  "session_id": "692f3c26-d87d-477b-84c2-15b46f049cae",
+  "stage": "judge_validation",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"we should scrutinize the other side's causation witness on whether his attribution of the failure to the lead's design, instead of to where it was placed, is scientifically reliable and fits the evidence.\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": []}\n```",
+  "timestamp": "2026-10-28T22:55:23+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6590,
+    "call_id": "41204c6389b32cbb",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 10916,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1315,
+    "role": "judge",
+    "run_id": "validation_v2_20261028",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-28T22:55:23+00:00",
+    "total_cost_usd": 0.079028
+  }
+}

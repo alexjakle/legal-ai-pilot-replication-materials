@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-X2",
+  "prompt_hash": "5dc0abcbcbbc9fdbab1453e2fafad7d509c6038da18e6c9fcb114d98a75c4a84",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:13:31+00:00",
+  "session_id_in": null,
+  "session_id": "db467006-25dc-49c2-a9d9-b8119c4255dc",
+  "text": "**I can't answer the Toil & Trouble part.** Nothing in the firm's stored knowledge or the Joad client store mentions Toil & Trouble, so I don't know what its case reports require or how it sequences mediation and expert work. If it is another client's matter, I also wouldn't use its confidential preferences as a template for Joad. Joad's own requirements should drive C-2 in any case. They are below.\n\n**Joad's reporting requirements**\n- A written report every six weeks.\n- A note within five business days after each deposition. Attendance is limited to one firm lawyer and one insurer lawyer.\n- Immediate notice of any other similar product incidents, flagged to General Counsel Evander Thorsby.\n- Same-day notice if the carrier reserves its rights.\n- Monthly invoice summaries to the insurer's claims handler, Perpetua Wallace. Copy her on anything bearing on coverage or exposure.\n- Keep an eye on the $400,000 retention and the aggregate limit, because of the two other open claims.\n- Explain any projected fees or costs that exceed the client's assumptions.\n- No public statements. Media, regulator and customer inquiries go to Thorsby.\n- All communications go through Thorsby. Do not contact Joad engineers or production staff directly.\n\n**Expert work**\n1. Before any testing, give at least ten days' notice and get quotes to the client.\n2. Before any engagement, send Thorsby the names and credentials of candidates, ideally several per discipline.\n3. Keep design testimony focused on the product at issue. The client offered to help identify candidates with standards-body experience.\n4. Get the client's approval before retaining anyone.\n5. Keep a tight circle around who sees test files.\n6. Discuss with Thorsby before putting any Joad employee or key witness forward for testimony.\n\n**Mediation and settlement**\n1. Give the client an assessment and a recommended range first.\n2. For any offer within the insurer's pre-approved tier, check with Thorsby before conveying it, because the insurer will want to be involved.\n3. Any offer above that tier needs written board of directors sign-off. Verbal indications from directors or officers are not enough.\n4. The client needs about three weeks to prepare a board consent, so request it early. Make no offer or signal above the tier until it is in hand.\n\n**Suggested sequence for C-2**\n1. Ask Thorsby for approval of expert candidates and testing quotes early. The ten-day notice and approval steps set the expert timeline.\n2. Complete the expert and testing work far enough to support a credible settlement assessment.\n3. Send the assessment and recommended range. If the range may exceed the insurer's tier, start the three-week board consent process at the same time.\n4. Mediate only once any above-tier authority is in writing, and copy Wallace throughout.\n\nThe sequencing in the last list is my recommendation. The stored requirements set the individual steps and lead times but don't fix an order. If you can tell me where Toil & Trouble's practices come from, I can help work out what is appropriate to borrow.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:13:31+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "db467006-25dc-49c2-a9d9-b8119c4255dc",
+    "input_tokens": 2,
+    "output_tokens": 1431,
+    "cache_write_tokens": 1916,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.021978,
+    "latency_ms": 11657,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1431,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1916,
+      "webSearchRequests": 0,
+      "costUSD": 0.021978,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 425,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

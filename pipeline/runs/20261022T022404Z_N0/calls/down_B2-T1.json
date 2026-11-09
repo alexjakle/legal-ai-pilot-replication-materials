@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T1",
+  "prompt_hash": "6f8cece74bc5f0ab9ae41a4d7bb84f92c525c06fdd8618c9249072fe1aac2cc1",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:26:09+00:00",
+  "session_id_in": null,
+  "session_id": "4db9bcbb-d010-4f2c-8093-467061527c36",
+  "text": "**Client preference on sequencing: I can't tell you.** Both the Toil & Trouble client store and the firm store are empty. I have no record of this client's preferences on whether to settle before or after expert work, its litigation guidelines, its budget constraints, or its past practice. I won't guess. Please confirm with the client's in-house contact or responsible partner before we commit to a position with plaintiff's counsel.\n\n**What to do now**\n\n1. **Don't agree to a schedule right away.** Tell plaintiff's counsel we'll respond after we have the client's input and have reviewed the complaint, the scheduling order, and any local rules. An expert schedule set before the pleadings, the claims, and the product issues are clear can lock in deadlines that hurt us.\n2. **Ask the client** these questions:\n   - Does it want early mediation or settlement talks before spending on experts, or does it prefer to retain experts first to evaluate exposure?\n   - Does it have budget or approval requirements for retaining experts?\n   - Are there insurer or carrier consent requirements, a tender, or a reservation of rights?\n   - Are there related claims, a recall, or regulatory (CPSC) concerns that affect expert strategy or timing?\n3. **Send preservation and consulting steps** in parallel, because they cost little. These include a litigation hold, preserving the exemplar product and the incident product, and possibly retaining a non-testifying consulting expert early.\n\n**Default proposed schedule (a placeholder to adjust once the client weighs in)**\n\nOffsets run from the court's trial date or the close of fact discovery, whichever the scheduling order uses:\n\n| Event | Proposed timing |\n|---|---|\n| Joint inspection and testing protocol for the product | Early in fact discovery, before any destructive testing |\n| Plaintiff's expert disclosures and reports | About 120 days before the close of discovery |\n| Defendant's expert disclosures and reports | About 45–60 days after plaintiff's (staggered, not simultaneous) |\n| Rebuttal reports | About 30 days after defendant's |\n| Expert depositions | About 45–60 days after rebuttals |\n| *Daubert* and dispositive motions | After expert depositions, per the court's deadlines |\n| Mediation | Placed per the client's preference (see below) |\n\n**Key points for our position**\n- Plaintiff should disclose first because it carries the burden of proof.\n- Expert discovery should follow fact discovery, so our experts can rely on the full record.\n- Testing protocols should be agreed in advance to avoid spoliation disputes.\n- Deadlines should be tied to events, such as completion of inspection, not fixed dates, so they can move.\n\n**Settlement sequencing options, pending the client's choice**\n- **Settlement first:** Mediate after the core fact discovery and a consulting expert's preliminary view, but before testifying-expert reports. This saves cost, but we must be able to assess exposure without full expert work.\n- **Experts first:** Complete expert reports before mediation. This costs more but gives a stronger negotiating position if our defense on causation or defect is good.\n\nOnce you tell me which approach the client prefers, or send the client's guidelines, I'll finalize the proposed schedule and the response to plaintiff's counsel.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:26:09+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "4db9bcbb-d010-4f2c-8093-467061527c36",
+    "input_tokens": 2,
+    "output_tokens": 1139,
+    "cache_write_tokens": 763,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.014446,
+    "latency_ms": 10273,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1139,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 763,
+      "webSearchRequests": 0,
+      "costUSD": 0.014446,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 60,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

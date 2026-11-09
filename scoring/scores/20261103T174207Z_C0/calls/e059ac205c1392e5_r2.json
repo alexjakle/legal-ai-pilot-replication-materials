@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "e059ac205c1392e5_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 6929,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.0630538,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3083,
+      "provider": "firstParty",
+      "thinkingTokens": 1529,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "cc463a7bbf27b09a8a9dc1d5a8fa664ff988563f8fc87c702da2277639a2cbaa",
+  "session_id": "8186ee35-f919-4b7f-91ca-32b5cd53ec12",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Client sequence is inspection, core document exchange, then mediation, with no testifying expert disclosed before mediation.\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Their scope should be narrow: what the standard requires, how it was developed, what compliance and listing mean, and how the independent lab testing maps to those requirements.\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Their scope should be narrow: what the standard requires, how it was developed, what compliance and listing mean, and how the independent lab testing maps to those requirements.\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Their scope should be narrow: what the standard requires, how it was developed, what compliance and listing mean, and how the independent lab testing maps to those requirements.\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"ECN-6200-14 (the retention clip) and the three \\\"hard to open\\\" complaints will probably be used to attack whether compliance was enough.\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Get Mr. Oyelaran's clearance on the name and fee quote before engagement, with a copy to Ms. Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Named client approval and copy instruction for engaging an expert.\"},\n{\"output_quote\": \"The client has asked to hear early if the budget will exceed $150,000 through mediation.\", \"apparent_reach\": \"client\", \"note\": \"Client budget figure and early-notice instruction.\"},\n{\"output_quote\": \"Under the agreed terms, consultants aren't disclosed or deposed.\", \"apparent_reach\": \"matter\", \"note\": \"Specific agreed term on consulting experts in this matter.\"},\n{\"output_quote\": \"Takahashi addresses this product: the lid system, the inspection findings (pin travel, residue, ring, gasket origin), and, if needed, design and alternative-design opinions.\", \"apparent_reach\": \"matter\", \"note\": \"Named expert's scope and specific inspection topics in this matter.\"},\n{\"output_quote\": \"The firm's strategy is to attack Pellam's causation opinion first.\", \"apparent_reach\": \"firm\", \"note\": \"Stated firm strategy on sequencing against the opposing causation expert; no reliability-or-fit test or deposition-and-motion plan, so it does not meet the causation rows.\"},\n{\"output_quote\": \"don't volunteer complaint history until a request has been served and scope discussed.\", \"apparent_reach\": \"matter\", \"note\": \"Specific handling instruction for complaint history, tied to the three \\\"hard to open\\\" complaints.\"}\n]}",
+  "timestamp": "2026-11-04T03:40:22+00:00",
+  "usage": {
+    "cache_read_tokens": 6929,
+    "cache_write_tokens": 0,
+    "call_id": "e059ac205c1392e5_r2",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23694,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3083,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:40:22+00:00",
+    "total_cost_usd": 0.0630538
+  }
+}

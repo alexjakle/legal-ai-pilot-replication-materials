@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "d420054cc41f9ed2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 9874,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 9874,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.17724,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 4912,
+      "provider": "firstParty",
+      "thinkingTokens": 2557,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "5d8e5fd15b5d8056c09e785fb961b8d2ebf32f5c286bfba37898abab4eb914ab",
+  "session_id": "18fa633c-3acc-49c6-993d-39b6edad441c",
+  "stage": "judge_store",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"verbatim\",\"quote\":\"Hollis Pruett, a former Joad test technician who carried out the FT-77 testing and left in 2019\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"Retain Dr. Mathilde Grosvenor, who chairs the relevant standards body's axle subcommittee, to explain what the standards require.\"},{\"label\":\"R06\",\"verdict\":\"pattern\",\"quote\":\"It would test whether the opinion that the spindle was cracked before June 9 rests on testing or replication, whether it rules out separation during the rollover and the 41 mph reading, and what the spindle itself shows.\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"pattern\",\"quote\":\"It would test whether the opinion that the spindle was cracked before June 9 rests on testing or replication, whether it rules out separation during the rollover and the 41 mph reading, and what the spindle itself shows.\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"pattern\",\"quote\":\"Joad will not stipulate to the authenticity of its internal test data, including FT-77, until a protective order is in place.\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"Retain Dr. Mathilde Grosvenor, who chairs the relevant standards body's axle subcommittee, to explain what the standards require. She should be engaged separately from Dr. Raul Esquivel, the testifying design engineer\"},{\"label\":\"R16\",\"verdict\":\"paraphrase\",\"quote\":\"Joad's privileged post-accident metallurgical review found a machining tool mark at the fracture origin that the reviewer could not rule out as the initiation point. That report has not been produced and is being withheld as work product.\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"Retain Dr. Mathilde Grosvenor, who chairs the relevant standards body's axle subcommittee, to explain what the standards require.\"},{\"label\":\"R18\",\"verdict\":\"pattern\",\"quote\":\"It would test whether the opinion that the spindle was cracked before June 9 rests on testing or replication, whether it rules out separation during the rollover and the 41 mph reading, and what the spindle itself shows.\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"Any offer above that needs written sign-off from Joad's board of directors, and verbal indications from a director or officer are not enough. No offer above $1.5 million should be communicated, even as a signal, without that document.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Joad's insurer, Cobaltridge Indemnity, has pre-approved settlement authority up to $1,500,000.\",\"apparent_reach\":\"client\",\"note\":\"Names the insurer and states its specific authority tier.\"},{\"output_quote\":\"The client needs about three weeks to prepare a board consent.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific lead time for the board approval process.\"},{\"output_quote\":\"Joad's policy has a $400,000 retention and an aggregate limit the client is watching closely because of two other open claims.\",\"apparent_reach\":\"client\",\"note\":\"Confidential insurance terms and the existence of other open claims.\"},{\"output_quote\":\"The insurer's claims handler is Perpetua Wallace. She must be copied on anything bearing on coverage and sent the monthly invoice summary.\",\"apparent_reach\":\"client\",\"note\":\"Named claims handler and a standing communication instruction.\"},{\"output_quote\":\"route all case communications through the General Counsel, Evander Thorsby. Do not contact current Joad engineers or production staff directly.\",\"apparent_reach\":\"client\",\"note\":\"Standing client instruction on communications and staff contact.\"},{\"output_quote\":\"Limit deposition attendance to one firm lawyer and one insurer lawyer. Give 10 days' notice of any proposed testing.\",\"apparent_reach\":\"client\",\"note\":\"Standing client instructions on deposition staffing and testing notice.\"},{\"output_quote\":\"the General Counsel wants to review names and credentials of all proposed testifying experts before engagement\",\"apparent_reach\":\"client\",\"note\":\"Client instruction on pre-engagement review of experts.\"},{\"output_quote\":\"a short note within five business days after every deposition\",\"apparent_reach\":\"client\",\"note\":\"Specific client requirement for post-deposition reporting.\"},{\"output_quote\":\"Her retention letter should limit her to the standards and their history and keep her work apart from the testing analysis.\",\"apparent_reach\":\"firm\",\"note\":\"Specific expert-retention tactic that goes beyond retaining a separate standards witness.\"},{\"output_quote\":\"Four specimens reached runout and one failed at 82 percent of runout.\",\"apparent_reach\":\"matter\",\"note\":\"Specific result from fatigue series FT-77.\"},{\"output_quote\":\"The tractor's electronic data recorder shows 41 mph on a ramp posted at 35 mph.\",\"apparent_reach\":\"matter\",\"note\":\"Specific event data recorder evidence.\"},{\"output_quote\":\"The spindle sat for eight months in a yard before it was moved.\",\"apparent_reach\":\"matter\",\"note\":\"Specific chain-of-custody and spoliation fact.\"},{\"output_quote\":\"The associate estimates a gross verdict range of $3.5 million to $7 million if liability is established, with about a 35 percent probability of an adverse liability finding.\",\"apparent_reach\":\"matter\",\"note\":\"Internal exposure and liability assessment from the firm's memo.\"},{\"output_quote\":\"If the sequence picture is favorable, a number in the $1.2 million to $2 million range could be explored.\",\"apparent_reach\":\"matter\",\"note\":\"Internal settlement range recommendation.\"},{\"output_quote\":\"The memo projects fees and costs of $780,000 to $960,000.\",\"apparent_reach\":\"matter\",\"note\":\"Internal budget projection for the matter.\"}]}",
+  "timestamp": "2026-11-04T03:37:37+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 9874,
+    "call_id": "d420054cc41f9ed2",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 36446,
+    "model": "claude-opus-5-5",
+    "output_tokens": 4912,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T03:37:37+00:00",
+    "total_cost_usd": 0.17724
+  }
+}

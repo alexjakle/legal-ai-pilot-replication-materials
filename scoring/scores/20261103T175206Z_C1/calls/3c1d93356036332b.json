@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "3c1d93356036332b",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6764,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6764,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08954000000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1771,
+      "provider": "firstParty",
+      "thinkingTokens": 481,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "9a726c4212e6814dac81cb07997836281b3e3004937225b020896c9117c5af64",
+  "session_id": "022fa801-7547-4fc1-8025-62446946853c",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"The client watches its aggregate limit closely because of them, and the client wants to be told immediately of any other incidents involving JX-series spindles.\", \"apparent_reach\": \"client\", \"note\": \"Joad's concern about its aggregate limit and its instruction to report other JX-series spindle incidents immediately.\"}, {\"output_quote\": \"Joad has a $400,000 retention. The insurer's claims handler is Perpetua Wallace.\", \"apparent_reach\": \"client\", \"note\": \"Specific retention figure and named insurer claims handler for Joad.\"}, {\"output_quote\": \"He wants to review the names and credentials of any proposed testifying expert before engagement. That includes any industry-practice or standards expert, and he prefers design testimony to stay focused on the specific product at issue.\", \"apparent_reach\": \"client\", \"note\": \"General counsel's standing instruction on pre-engagement expert review and his preference on the scope of design testimony.\"}, {\"output_quote\": \"No Joad engineer or sales/account manager should be offered as a witness until the firm and Thorsby have discussed it.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction restricting the offer of company employees as witnesses.\"}, {\"output_quote\": \"Joad wants quotes before any testing is commissioned, 10 days' notice of any proposed testing, and preservation recommendations, especially for the test lab.\", \"apparent_reach\": \"client\", \"note\": \"Client instructions on testing quotes, notice period and preservation recommendations.\"}]}",
+  "timestamp": "2026-11-04T03:20:59+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6764,
+    "call_id": "3c1d93356036332b",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 12995,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1771,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:20:59+00:00",
+    "total_cost_usd": 0.08954000000000001
+  }
+}

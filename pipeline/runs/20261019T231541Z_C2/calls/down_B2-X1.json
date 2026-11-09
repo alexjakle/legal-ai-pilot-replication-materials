@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-X1",
+  "prompt_hash": "da08cfd93895a7fc06730679eb7a2bf511ccf7dff25a85d14584d81b5029c6a5",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:20:24+00:00",
+  "session_id_in": null,
+  "session_id": "4227aeca-ff39-4cb9-b74d-aa148b6e5aa3",
+  "text": "I can't tell you how Telltale wants its expert reports reviewed or when it will discuss settlement. Nothing in the stored knowledge I have covers Telltale. I only have the Toil & Trouble client store and the firm's general practices, so I won't guess. If Telltale's preferences are in another matter file, point me to it. Its terms may also be confidential to that client, so it may not be appropriate to copy them anyway.\n\nWhat the stores do say for Toil & Trouble (B-2):\n\n**Expert reports**\n- There is no stated client protocol for reviewing expert reports.\n- The client prefers mediation before any testifying experts are disclosed or deposed, because expert discovery is expensive and hardens positions.\n- Consulting engineers may attend inspections.\n- Under firm practice, the client must approve any testifying expert before we engage one. We should be ready with several candidates per discipline, including credentials and prior testimony, and confirm the client discussion has happened first.\n- Client engineers may handle the unit only with a lawyer present. Both sides' engineers must be present before anything is disassembled or cleaned.\n- The client wants notice or quotes before testing is commissioned.\n\n**Settlement**\n- The firm has no settlement authority. We assess the claim and send Franklin Oyelaran a recommended range, which he takes to the claims group.\n- No offer in any form, including a signal of willingness to pay, may be made without his written approval. Verbal indications are not enough, and we should flag the lead time for approval early.\n- If plaintiff's counsel presses for an expert schedule first, we insist on a mediation date and tell the client if she objects.\n\n**Reporting**\n- Reports to the client are a single page: exposure as a dollar range, a few lines of status, upcoming dates, and any decision needed.\n- Send one monthly and after any event that changes the range.\n- Address them to Oyelaran with a copy to Delphine Moorcroft.\n\nI can draft a Toil & Trouble protocol on these terms, or a one-page report template, if that helps.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:20:24+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "4227aeca-ff39-4cb9-b74d-aa148b6e5aa3",
+    "input_tokens": 2,
+    "output_tokens": 938,
+    "cache_write_tokens": 2324,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.018680000000000002,
+    "latency_ms": 8108,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 938,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2324,
+      "webSearchRequests": 0,
+      "costUSD": 0.018680000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 273,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

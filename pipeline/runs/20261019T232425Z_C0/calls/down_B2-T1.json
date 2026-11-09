@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T1",
+  "prompt_hash": "6bd2a9cd68247a3216465ae32910041b94d87ebe6ee5bc27746c767284e45826",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-10-19T23:26:49+00:00",
+  "session_id_in": null,
+  "session_id": "6672c9af-892e-4915-a6aa-35a32daa1eb0",
+  "text": "# Proposed expert schedule and sequencing for Toil & Trouble (Okafor)\n\n## Client preference\nToil & Trouble wants **mediation first, with no testifying experts disclosed or deposed beforehand**. Its reasons are that expert discovery is expensive and hardens positions. If Ms. Trevisan pushes for an expert schedule first, we insist on a mediation date and tell Mr. Oyelaran if she objects. Consulting engineers may attend the inspection, and neither side discloses non-testifying consultants.\n\n## Proposed schedule\nThis is the framework agreed by email from April 20 to May 1, 2026:\n\n| Step | Date |\n|---|---|\n| Production of lid design file, safety-listing test reports and complaint reports | June 5, 2026 |\n| Joint non-destructive inspection finished | End of June 2026 |\n| Dr. Takahashi's preliminary read (oral or informal, not a formal report) | Before mediation |\n| Mediation | By July 17, 2026 |\n| Plaintiff designates experts (only if no settlement) | August 21 |\n| Defense designates experts | October 2 |\n| Expert depositions (testifying experts only) | November |\n\nMediation comes first, and the expert dates apply only if the case does not settle. The scheduling order Ms. Trevisan is drafting should say so expressly. She conditioned mediation on pre-mediation production and fixed expert dates, and we can give her both.\n\n## How the schedule fits the rest of the plan\n- **Pre-mediation fact work.** The depositions of Ms. Okafor and the product safety lead may occur before mediation, with other fact depositions held until afterward. Marcus also proposed a cap of 25 interrogatories per side. Plaintiff's response to both proposals is not in the file, so we must confirm it.\n- **Production scope.**\n  - Complaints cover lid incidents on the TT-6200 from launch through December 14, 2025.\n  - TT-5500 complaints are included only where the pin is the failing element.\n  - Lot data is limited to line inspection records for the week of manufacture of the Q3-2024 lot units, not the whole quarter.\n  - Before the June 5 production, we need to settle how to treat ECN-6200-14 and discuss the complaint scope with the client. We do not volunteer complaint history until a request is served.\n- **Expert focus.** When experts are designated, we go after Dr. Pellam's causation opinion first. We ask whether he tested it, replicated it, and ruled out the replacement gasket. We address design alternatives only after that.\n- **Client approvals and authority.**\n  - Mr. Oyelaran must confirm Judge Whitcombe as mediator, and we need preliminary mediation authority.\n  - The firm has no settlement authority. No offer in any form is made without the General Counsel's written approval.\n  - He gets a one-page report (exposure range, status, upcoming dates, decisions needed), copied to Delphine Moorcroft.\n  - We send one report after the inspection and another after any event that changes the range.\n\n## Caveat\nThe file reflects the May 2026 posture, and today is October 19, 2026. The mediation and expert dates above have likely passed, so before relying on this we need to confirm whether the order was entered and whether mediation occurred. Several items also remain open from the file: Whitcombe's confirmation, plaintiff's response to the deposition and interrogatory proposals, the July 2025 gasket records, and preservation.",
+  "usage": {
+    "run_id": "20261019T232425Z_C0",
+    "timestamp": "2026-10-19T23:26:49+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "6672c9af-892e-4915-a6aa-35a32daa1eb0",
+    "input_tokens": 2,
+    "output_tokens": 1877,
+    "cache_write_tokens": 20463,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.100626,
+    "latency_ms": 14034,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1877,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20463,
+      "webSearchRequests": 0,
+      "costUSD": 0.100626,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 725,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

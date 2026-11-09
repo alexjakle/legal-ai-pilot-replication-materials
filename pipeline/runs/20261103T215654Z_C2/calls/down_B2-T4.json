@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "cf685b4fa0c278c657f7b7c66ae368c037ad5a76ceb461d0da89e807230e7ab2",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:01:26+00:00",
+  "session_id_in": null,
+  "session_id": "f2e499a2-1468-4fe5-963f-ec2cc106bb1d",
+  "text": "**Recommendation:** Retain a separate standards/industry-practice expert (someone with voluntary-standards committee experience, e.g., ASTM/UL/ANSI-type work for this product class) to explain the standards, how they are developed, and how they are applied. Position that person as complementary to, not a substitute for, the engineering expert.\n\n**Division of roles**\n- **Engineering expert:** Product design, testing, failure analysis, causation, and whether the product met the technical requirements. This person applies the standard to the product's facts.\n- **Standards/industry-practice expert:** What the standards require, their history and purpose, how the industry and certification bodies apply them, and whether Toil & Trouble's compliance reflects accepted practice. This person avoids causation and product-specific failure opinions.\n- **Coordination:** Make the scopes distinct and non-overlapping so the opinions are consistent and neither is exposed to a \"beyond expertise\" challenge. The engineer can rely on the standards expert's framing, but should not need to opine on committee intent or industry-wide practice. Review all drafts for consistency before disclosure.\n\n**Why separate**\n- An engineer who also testifies about industry practice can be cross-examined on credentials outside their core field and may blur the causation and compliance opinions.\n- A standards expert with committee experience carries more credibility on intent and customary application.\n- Voluntary-standard compliance is generally relevant but not conclusive, so the framing matters. The expert should explain what the standards do and do not cover.\n\n**Process points specific to this client**\n1. **Client clearance:** Toil & Trouble will likely want to vet testifying experts before engagement. Prepare names, credentials, and prior-testimony notes, ideally several candidates per discipline, and tell the client explicitly that one expert will address industry practice. Build this approval time into the timeline.\n2. **Sequencing:** The client prefers mediation before testifying experts are disclosed or deposed. Do not disclose or schedule the standards expert ahead of mediation. A consulting engineer may be retained early for inspections, and a consulting standards advisor could be used privately for case assessment without disclosure.\n3. **Budget:** Get client approval, via a quote or estimate, before engaging either expert. Include the standards expert as its own line in the separate estimates through mediation and through trial, and flag early if this addition pushes the budget beyond expectations.\n4. **Communications:** Send the request for approval to Franklin Oyelaran, copying Delphine Moorcroft, and reflect any change in exposure or spend in the one-page report. Technical input on how the product was certified or tested should be requested through Rennick Odell via the General Counsel, not by contacting employees directly.\n5. **Documents and discovery:** Do not volunteer complaint history or other incidents beforehand. Confirm what certification and test records exist, and keep the litigation hold in place for them.\n\n**Next step:** Draft a short note to the General Counsel proposing the two-expert structure, with candidate names to follow, and ask for approval before any outreach to potential testifying experts.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:01:26+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "f2e499a2-1468-4fe5-963f-ec2cc106bb1d",
+    "input_tokens": 2,
+    "output_tokens": 1014,
+    "cache_write_tokens": 2296,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019327999999999998,
+    "latency_ms": 9201,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1014,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2296,
+      "webSearchRequests": 0,
+      "costUSD": 0.019327999999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2296,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

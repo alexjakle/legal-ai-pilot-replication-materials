@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "c6b1dfa1a6c66dcc",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6967,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6967,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08898400000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1662,
+      "provider": "firstParty",
+      "thinkingTokens": 824,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "7fd6b89d1572b47fef1973ddee6faeb06fb761d6caf265acc6d80dec65c1dd94",
+  "session_id": "635d2e4e-e23a-4c20-8386-b8b0cd05b37a",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"pattern\",\"quote\":\"Under Rule 702 or the state equivalent, the target is any opinion that is not based on reliable methods, or that outruns the data.\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"pattern\",\"quote\":\"Under Rule 702 or the state equivalent, the target is any opinion that is not based on reliable methods, or that outruns the data.\"},{\"label\":\"R10\",\"verdict\":\"pattern\",\"quote\":\"Counsel should consider a motion to limit or exclude the design opinion, not necessarily the metallurgy.\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"pattern\",\"quote\":\"Under Rule 702 or the state equivalent, the target is any opinion that is not based on reliable methods, or that outruns the data.\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[]}",
+  "timestamp": "2026-11-04T07:44:36+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6967,
+    "call_id": "c6b1dfa1a6c66dcc",
+    "condition": "N0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 13607,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1662,
+    "role": "judge",
+    "run_id": "20261103T215033Z_N0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:44:36+00:00",
+    "total_cost_usd": 0.08898400000000001
+  }
+}

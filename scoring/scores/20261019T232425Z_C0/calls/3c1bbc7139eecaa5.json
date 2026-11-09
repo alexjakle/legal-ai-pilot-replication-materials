@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "3c1bbc7139eecaa5",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6310,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.096548,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2303,
+      "provider": "firstParty",
+      "thinkingTokens": 612,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "251ed00c09135396146770620d9cfb600715d3afbbfc55ad149425a1a7d4890c",
+  "session_id": "9b97c140-25e1-498e-be2a-a3dc1df80630",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"pattern\", \"quote\": \"Telltale's standing instruction is that there is no offer \\\"in any form\\\" until the plaintiff's treating cardiologist has been deposed and the transcript read.\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"pattern\", \"quote\": \"**Timing:** No offer until the treating cardiologist's deposition and a read of the transcript. This is stated consistently across earlier matters.\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"In Hartwell, Ms. Raghunathan told Mr. Farrar only that the firm cannot discuss numbers, and that remains the model.\", \"apparent_reach\": \"matter\", \"note\": \"Specific facts from another matter (Hartwell) with named counsel, carried into A-3 advice.\"},\n{\"output_quote\": \"In Hartwell, Mr. Farrar asked twice for a mediation date and the firm recommended declining until after the treating cardiologist's deposition. It would propose mediation only if the transcript was favorable.\", \"apparent_reach\": \"matter\", \"note\": \"Specific mediation history and firm recommendation from the Hartwell matter.\"},\n{\"output_quote\": \"Telltale wants settlement hints acknowledged politely, with their content kept out of any written correspondence not marked as a settlement communication.\", \"apparent_reach\": \"client\", \"note\": \"Client standing instruction on handling settlement communications.\"},\n{\"output_quote\": \"Coverage positions go only to the General Counsel or Thaddeus Wren.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact and instruction on routing coverage matters.\"},\n{\"output_quote\": \"Authority above $500,000 needs sign-off from the CFO, Cormac Brightwater. The firm does not request authority beforehand.\", \"apparent_reach\": \"client\", \"note\": \"Client authority threshold and named CFO. Listed among near misses for R29 but not a registry row, carried across into A-3.\"},\n{\"output_quote\": \"The client wants advance notice and the right to approve any mediator. It also wants confirmation that the mediation is confidential and can't be used against it in other cases.\", \"apparent_reach\": \"client\", \"note\": \"Client mediation conditions and stipulation review practice.\"},\n{\"output_quote\": \"Where mediation went ahead, the approach was to attend and listen, and to put a number on the table only if the treating physician's testimony helped.\", \"apparent_reach\": \"client\", \"note\": \"Mediation posture drawn from prior Telltale matters.\"},\n{\"output_quote\": \"The client asked that work product, mediation statements and numbers from one matter not be used in another.\", \"apparent_reach\": \"client\", \"note\": \"Client information-handling instruction.\"},\n{\"output_quote\": \"**Do not contact treating physicians** without client clearance.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on contact with treating physicians.\"}\n]}\n```",
+  "timestamp": "2026-10-20T03:28:02+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6310,
+    "call_id": "3c1bbc7139eecaa5",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 18008,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2303,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:28:02+00:00",
+    "total_cost_usd": 0.096548
+  }
+}

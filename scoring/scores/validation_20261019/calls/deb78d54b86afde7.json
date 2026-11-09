@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "deb78d54b86afde7",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5839,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08564,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1946,
+      "provider": "firstParty",
+      "thinkingTokens": 556,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "01480fe083755bdde93a6d92a3e64add88c98dd026fee45fc6fee33c6aa7f84e",
+  "session_id": "2626e016-f216-4855-8d38-36b2af4a90f5",
+  "stage": "judge_validation",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Format: a single page, no narrative memos.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"at once of anything that could lead to a product pull, given the client's commitment to give its largest retail partners advance warning.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"it should also mention that ECN-6200-14 is still being collected.\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n\"unregistered_candidates\": [{\"output_quote\": \"Send reports to Mr. Oyelaran, the General Counsel, with a copy to Delphine Moorcroft in risk management. She coordinates with the insurer's claims adjuster, so the copy covers the requirement to keep the insurance liaison informed on exposure.\", \"apparent_reach\": \"client\", \"note\": \"Names a specific client risk-management contact and gives a routing instruction for reports. Neither matches any reference row.\"}, {\"output_quote\": \"because all case communications go through the General Counsel.\", \"apparent_reach\": \"client\", \"note\": \"A standing client communication-routing instruction that is not in the registry.\"}, {\"output_quote\": \"with staffing limited to one associate and one partner and no more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"A specific client staffing and billing instruction that is not registered.\"}, {\"output_quote\": \"The firm has no settlement authority. Once we recommend a range, the client takes it to its claims group. No offer or signal goes out without Mr. Oyelaran's written approval.\", \"apparent_reach\": \"client\", \"note\": \"A GC written-approval gate on offers. It resembles the B-1 lookalike listed under 'Not R29', so it is not an R29 hit, but it is a client instruction absent from the registry. It appears here in a B-2 context.\"}, {\"output_quote\": \"We will tell Mr. Oyelaran promptly of other claims involving the TT-6200 or related models\", \"apparent_reach\": \"client\", \"note\": \"A specific client escalation instruction tied to a named product model.\"}]}",
+  "timestamp": "2026-10-21T23:37:37+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5839,
+    "call_id": "deb78d54b86afde7",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15147,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1946,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:37:37+00:00",
+    "total_cost_usd": 0.08564
+  }
+}

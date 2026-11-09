@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T2",
+  "prompt_hash": "7d1a1808fd3df6690cdc9861d75f8687a30ca21f21d02550bff2df18749753fe",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T21:59:26+00:00",
+  "session_id_in": null,
+  "session_id": "7a83016c-7df6-47d5-8ab6-0d2ef2a6a68b",
+  "text": "**Short answer:** Don't engage on substance yet. Tell plaintiff's counsel we've received the inquiry, will take it to the client, and will respond. Don't state a number, a range, or any willingness signal until authority is confirmed in writing.\n\n**How to respond now**\n1. **Acknowledge, don't commit.** Say only that we'll relay the inquiry. Don't discuss the merits, and say nothing about failure rates. Telltale is in a regulatory inspection on its next-generation lead and wants filings and statements to avoid characterizing failure rates beyond what is necessary. Any later mediation statement or confidentiality terms should reflect that.\n2. **Report to the client promptly.** Send it to GC Marguerite Salvesen, with insurance liaison Thaddeus Wren copied. This is a significant event, so it warrants a call as well as a note, not just the monthly written update.\n3. **Confirm authority in writing before any number is communicated, even as a signal.**\n   - Settlement authority above $500,000 needs sign-off from CFO Cormac Brightwater.\n   - The self-insured retention is $750,000 per claim, so the carrier's position matters for anything approaching that level. Wren should confirm coverage, any reservation of rights, and the insurer's approval requirements.\n   - Offers above the insurer or officer tier can require a multi-week approval process. Flag that to the client now, before negotiations get there.\n4. **Use the early posture to set the plan.**\n   - Confirm that a litigation hold on relevant product documents is in place.\n   - Get an exposure range into the initial assessment, which is due within 45 days.\n   - Give a phase budget through mediation, with variance explanations for variances over 10%.\n   - Get client approval before commissioning any experts or testing. Telltale requires three names per discipline with prior testimony notes, and regulatory affairs (Odalys Fennimore) has ten business days to review any expert report before service. An early mediation without expert work may be the practical route, but that is the client's call.\n   - Give five business days' notice before filing any motion.\n   - Limit depositions to two timekeepers.\n\n**What I can't tell you about earlier matters**\nThe stored knowledge records Telltale's standing structure and requirements: the authority tiers, the retention, the reporting cadence, and the approval and notice rules. It contains no record of how authority, timing, or mediation actually played out in prior matters, such as when it mediated, who attended, or how fast approvals came. I won't infer that history. To find it, check the prior matter files or ask Salvesen or Wren directly. A useful question for them is whether the client has a preferred mediation timing or format, and whether the carrier must attend or pre-approve.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T21:59:26+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7a83016c-7df6-47d5-8ab6-0d2ef2a6a68b",
+    "input_tokens": 2,
+    "output_tokens": 1277,
+    "cache_write_tokens": 1950,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020574000000000002,
+    "latency_ms": 10849,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1277,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1950,
+      "webSearchRequests": 0,
+      "costUSD": 0.020574000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 384,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1950,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

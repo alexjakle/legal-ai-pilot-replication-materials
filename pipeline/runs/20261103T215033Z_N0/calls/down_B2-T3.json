@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "c7cb767f4de5961416527da2555ea27d6d311d2540a61442695155003aa9d95d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:53:48+00:00",
+  "session_id_in": null,
+  "session_id": "94028208-c29e-42ce-92f9-c097083154c1",
+  "text": "**Caveat:** The client store and firm store are both empty, so I have no firm precedent, no facts about the unit, the jurisdiction, or the scheduling order. What follows is a general framework to confirm against the facts and local rules, not firm-specific guidance.\n\n## Approach\n\nThe expert says the unit failed \"because of how it was made,\" which is a **manufacturing defect** theory. That theory requires the unit to have deviated from its intended design or specification. Our approach is to test whether the expert can show a specific deviation and tie it causally to the failure, using methodology that holds up under Rule 702/*Daubert* (or the state equivalent). Likely weak points:\n\n- The expert conflates a manufacturing defect with a design defect.\n- The expert gives no comparison to specifications or exemplar units.\n- The expert doesn't rule out alternative causes such as misuse, modification, installation, wear, or post-sale handling.\n- The testing was not reliable, or the unit was altered or its chain of custody is unclear.\n\n## Order of Operations\n\n1. **Preserve and secure.** Issue or confirm a litigation hold at the client. Locate the failed unit, exemplars, and the manufacturing, QC, and supplier records. Lock down chain of custody and send a preservation demand to plaintiff. No destructive testing without an agreed protocol.\n2. **Get the facts from the client.** Collect design specs, bills of materials, the production lot and batch records, QA and inspection data, similar-incident and complaint history, and warnings and instructions.\n3. **Retain our own consulting expert first.** Keep this expert non-testifying and privileged (Rule 26(b)(4)(D) or the local equivalent). Have them review the unit, the specs, and the plaintiff's theory before we commit to a position. Then decide whether to designate a testifying expert or keep the consultant behind the scenes.\n4. **Negotiate a joint inspection and testing protocol.** Cover who attends, the methods, the sequence, and documentation. Make sure destructive testing happens only once, with both sides present. This protects us against spoliation claims and locks plaintiff's expert into stated methods.\n5. **Obtain the expert's disclosure and file.** Get the report, materials considered, test data, notes, photos, CV, prior testimony, publications, and fee records. Move to compel if the disclosure is deficient.\n6. **Depose the expert.** Pin down:\n   - the specific manufacturing deviation alleged;\n   - the standard or spec they measured against;\n   - the testing and error rates;\n   - the alternative causes they ruled out;\n   - what they did *not* examine.\n7. **File a Rule 702/*Daubert* motion** (and a related summary judgment motion) if the deposition exposes an unreliable methodology, a gap between the data and the conclusion, or a theory that doesn't match the pleaded claim. Mind the motion deadlines in the scheduling order.\n8. **Disclose our rebuttal or testifying expert** on the schedule the court sets, covering causation, compliance with spec, and alternative causes.\n\n## Immediate Next Steps\n\n- Confirm the jurisdiction, the governing expert rules, and the scheduling order.\n- Confirm what claims are actually pleaded (manufacturing defect, design defect, warnings).\n- Find out whether the unit has been tested or altered.\n- Once the client's documents come in, add them to the client store and I can refine this plan.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:53:48+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "94028208-c29e-42ce-92f9-c097083154c1",
+    "input_tokens": 2,
+    "output_tokens": 1517,
+    "cache_write_tokens": 767,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.018242,
+    "latency_ms": 14634,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1517,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 767,
+      "webSearchRequests": 0,
+      "costUSD": 0.018242,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 384,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 767,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

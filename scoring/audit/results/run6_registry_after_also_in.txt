@@ -1,0 +1,2 @@
+rows: 31 {'verbatim': 8, 'paraphrase': 8, 'client_pattern': 8, 'area_pattern': 7}
+PASS: doc_paths exist; verbatim strings unique and matter-local; paraphrase rows have >=3 keys

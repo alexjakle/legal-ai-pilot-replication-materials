@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "ba356587f6e61190",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7314,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7314,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.14992,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 4570,
+      "provider": "firstParty",
+      "thinkingTokens": 2745,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a6d3e5df456d9224211c7609fa92d47d73b5d06c67645a393382b2b0fe3506c0",
+  "session_id": "a176dc7d-bfae-4c54-b565-7ae810d94fff",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"pattern\",\"quote\":\"Depose him with no more than two lawyers present, and test his qualifications, methodology, the unit-to-lot link, and whether he identified a real deviation from specification.\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"pattern\",\"quote\":\"Depose him with no more than two lawyers present, and test his qualifications, methodology, the unit-to-lot link, and whether he identified a real deviation from specification.\"},{\"label\":\"R10\",\"verdict\":\"pattern\",\"quote\":\"Depose him with no more than two lawyers present, and test his qualifications, methodology, the unit-to-lot link, and whether he identified a real deviation from specification.\\n   - Consider a motion to exclude or limit his testimony.\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"pattern\",\"quote\":\"Depose him with no more than two lawyers present, and test his qualifications, methodology, the unit-to-lot link, and whether he identified a real deviation from specification.\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Notify the client promptly, in the one-page format.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"verbatim\",\"quote\":\"We can prepare internally, including a Ravenscar search if the client agrees, but we should not produce or disclose anything yet.\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Report to Mr. Oyelaran with a copy to Ms. Moorcroft.\",\"apparent_reach\":\"client\",\"note\":\"Names the client's reporting line and copy recipient.\"},{\"output_quote\":\"The Q3-2024 lot had no lid complaints.\",\"apparent_reach\":\"client\",\"note\":\"Specific lot-level complaint fact from the client's files.\"},{\"output_quote\":\"Arrange access to Rennick Odell (technical contact) through the client.\",\"apparent_reach\":\"client\",\"note\":\"Names a client technical contact and the channel for reaching him.\"},{\"output_quote\":\"Do not volunteer complaint history until a request is served and scope is discussed.\",\"apparent_reach\":\"client\",\"note\":\"Standing instruction on when complaint history may be disclosed.\"},{\"output_quote\":\"The three 2024 \\\"lid hard to open\\\" complaints on other lots are what plaintiffs will call notice.\",\"apparent_reach\":\"client\",\"note\":\"Specific count, year and description of complaints, with counsel's notice assessment.\"},{\"output_quote\":\"Send Mr. Oyelaran candidate names, credentials, and prior-testimony notes before engagement.\",\"apparent_reach\":\"client\",\"note\":\"Client practice of pre-approving expert candidates before engagement.\"},{\"output_quote\":\"Expect extra clearance if a standards or industry-practice expert is involved, and for any report under the client's regulatory-consistency review.\",\"apparent_reach\":\"client\",\"note\":\"Client clearance practice for experts and reports. It does not name a regulatory affairs group or review against regulatory filings, so it does not meet R07 or R25.\"},{\"output_quote\":\"The staffing limits apply: one associate and one partner day-to-day, and no more than two lawyers at any inspection, deposition, or hearing.\",\"apparent_reach\":\"client\",\"note\":\"Specific client staffing limits.\"},{\"output_quote\":\"No offer or signal goes out without his written approval, and preliminary authority comes before any mediation, including client acceptance of the mediator.\",\"apparent_reach\":\"client\",\"note\":\"Client settlement-authority and mediator-acceptance instruction. General counsel approval does not meet R29, and no mediation-before-experts policy is stated for R03.\"},{\"output_quote\":\"Bill monthly on the client's matter-level template at the January 14, 2025 engagement-letter rates.\",\"apparent_reach\":\"client\",\"note\":\"Client billing instruction with a specific engagement-letter date.\"},{\"output_quote\":\"Do not speak to the press or retail partners.\",\"apparent_reach\":\"client\",\"note\":\"Client communications restriction covering the press and retail partners.\"}]}",
+  "timestamp": "2026-11-04T03:17:34+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7314,
+    "call_id": "ba356587f6e61190",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 36563,
+    "model": "claude-opus-5-5",
+    "output_tokens": 4570,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:17:34+00:00",
+    "total_cost_usd": 0.14992
+  }
+}

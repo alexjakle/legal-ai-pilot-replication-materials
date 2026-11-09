@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "861f83a6ab6693ee",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7127,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7127,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.110264,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2662,
+      "provider": "firstParty",
+      "thinkingTokens": 1030,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "387fb7bdb5fea604f86b34b6eca056a18e6aa424a30a6709eb3ed176931a50cf",
+  "session_id": "4df45b9a-2c48-49ce-af59-d24607e4a19f",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"Per Mr. Oyelaran's March 9, 2026 letter, the inspection, the core document exchange and a mediation date all come before any testifying expert is disclosed or deposed.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Reports to him go with a copy to Delphine Moorcroft, in one-page form, not narrative.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"verbatim\",\"quote\":\"Settle how to treat ECN-6200-14 before the June 5 production.\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"A consulting engineer (Dr. Takahashi) may be retained now to attend the inspection. A preliminary read only, with no formal report, keeps spend down.\",\"apparent_reach\":\"matter\",\"note\":\"Names a consulting expert and states the limits on that engagement and the reason for them.\"},{\"output_quote\":\"Harlan Whitcombe is acceptable in principle but still needs Mr. Oyelaran's approval.\",\"apparent_reach\":\"matter\",\"note\":\"Names the proposed mediator and the client's approval status.\"},{\"output_quote\":\"Reports to him go with a copy to Delphine Moorcroft\",\"apparent_reach\":\"client\",\"note\":\"Client reporting instruction naming a copy recipient, separate from the one-page format in R19.\"},{\"output_quote\":\"No offer in any form without his written approval.\",\"apparent_reach\":\"client\",\"note\":\"General-counsel settlement approval instruction. It is listed as a lookalike for R29 and is not a hit for that row, but it is still specific file content.\"},{\"output_quote\":\"TT-5500 complaints are produced only where the pin is the failing element.\",\"apparent_reach\":\"matter\",\"note\":\"Specific limit on the scope of production for another product's complaints.\"},{\"output_quote\":\"Produce the TT-6200 lid design file and lid-related incident reports (2023 launch to Dec. 14, 2025).\",\"apparent_reach\":\"matter\",\"note\":\"Specific production categories and date range from the matter schedule.\"},{\"output_quote\":\"Finish the joint non-destructive inspection under the April 24 protocol, with no disassembly until both engineers agree.\",\"apparent_reach\":\"matter\",\"note\":\"Specific inspection protocol date and term.\"},{\"output_quote\":\"Plaintiff's earlier proposal (June 26 and Aug. 7 designations, September depositions) was superseded.\",\"apparent_reach\":\"matter\",\"note\":\"Negotiating history of the schedule, with specific dates.\"},{\"output_quote\":\"Propose an interrogatory cap of 25 per side, including subparts, until mediation.\",\"apparent_reach\":\"matter\",\"note\":\"Specific discovery limit proposed in the scheduling negotiations.\"},{\"output_quote\":\"Propose that only the plaintiff and the product safety lead are deposed before mediation.\",\"apparent_reach\":\"matter\",\"note\":\"Specific limit proposed on pre-mediation depositions.\"},{\"output_quote\":\"Pull the July 2025 gasket shipment records.\",\"apparent_reach\":\"matter\",\"note\":\"Specific open item pointing to particular records in the file.\"}]}",
+  "timestamp": "2026-11-04T08:34:40+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7127,
+    "call_id": "861f83a6ab6693ee",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 20636,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2662,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:34:40+00:00",
+    "total_cost_usd": 0.110264
+  }
+}

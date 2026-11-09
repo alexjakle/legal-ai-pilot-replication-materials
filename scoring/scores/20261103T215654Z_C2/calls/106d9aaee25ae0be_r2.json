@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "106d9aaee25ae0be_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 336,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 336,
+      "cacheReadInputTokens": 6264,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.0548288,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2544,
+      "provider": "firstParty",
+      "thinkingTokens": 1470,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "475ef9b132c459b94a8fadcde421301151decf475e42ff303d53a6119fe40375",
+  "session_id": "4780e263-67d4-4144-92e4-47e6ee009954",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Telltale is in a regulatory inspection on its next-generation lead, and it wants filings to avoid characterizing failure rates beyond what is needed.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Regulatory affairs (Odalys Fennimore) must review every expert report, with ten business days allowed.\",\"apparent_reach\":\"client\",\"note\":\"Names the reviewer and a ten-business-day review period. Close to R07/R25, but it does not state review against regulatory filings or expressly before service, so it was not scored as a hit on those rows.\"},{\"output_quote\":\"The client expects prompt reporting of other incidents or claims involving the same or related models.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's standing reporting instruction to counsel; matches no reference row.\"},{\"output_quote\":\"The client requires litigation holds on relevant product documents.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's standing instruction on litigation holds; matches no reference row.\"},{\"output_quote\":\"Ask Marguerite Salvesen (GC), copying Thaddeus Wren, for prior discovery problems\",\"apparent_reach\":\"client\",\"note\":\"Names the client's general counsel and a second client contact to copy, which appears to come from the firm's files.\"}]}",
+  "timestamp": "2026-11-04T08:18:23+00:00",
+  "usage": {
+    "cache_read_tokens": 6264,
+    "cache_write_tokens": 336,
+    "call_id": "106d9aaee25ae0be_r2",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 21832,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2544,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:18:23+00:00",
+    "total_cost_usd": 0.0548288
+  }
+}

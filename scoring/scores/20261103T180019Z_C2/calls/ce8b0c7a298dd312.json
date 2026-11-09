@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "ce8b0c7a298dd312",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7333,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7333,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.12459199999999998,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3296,
+      "provider": "firstParty",
+      "thinkingTokens": 1663,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "0ec79cf3f420be976896631dd0f421f672840117e9e83aeed1d6275f725f6c9c",
+  "session_id": "4c3d3e85-2cd6-4c84-b735-0df35091d9c5",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"Addresses what the standards require, which standards apply, whether Telltale's testing, validation and design process conformed to them, and what the industry practice was at the time.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Telltale's regulatory affairs group (Odalys Fennimore) must review every expert report for consistency with what Telltale told the regulator, and it needs ten business days.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"Plan on a standards/industry-practice expert, separate from the design (engineering) expert.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"Plan on a standards/industry-practice expert, separate from the design (engineering) expert.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Telltale's regulatory affairs group (Odalys Fennimore) must review every expert report for consistency with what Telltale told the regulator, and it needs ten business days.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Telltale is in a regulatory inspection tied to its next-generation lead. The expert's opinions on standards must not characterize device failure rates beyond what the case requires, since reports may become public through filings.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"I'd propose three names for the standards discipline, each with credentials and prior testimony notes, as Telltale requires.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's requirement that counsel propose three expert candidates per discipline, with credentials and prior testimony notes.\"},{\"output_quote\":\"Raise the plan with General Counsel Marguerite Salvesen (copy insurance liaison Thaddeus Wren). Telltale expects to control expert selection, and a standards witness is specifically something to clear in advance.\",\"apparent_reach\":\"client\",\"note\":\"Named client contacts and Telltale's practice of controlling expert selection and clearing a standards witness in advance.\"},{\"output_quote\":\"It belongs in the phase budget, with any variance over ten percent explained.\",\"apparent_reach\":\"client\",\"note\":\"Client billing instruction requiring phase budgets and an explanation of variances over ten percent.\"},{\"output_quote\":\"The report cannot be shared outside the firm and the expert until cleared.\",\"apparent_reach\":\"client\",\"note\":\"Specific restriction attached to the regulatory review, beyond the review requirement in R07 and R25; the same passage also gives a ten-business-day review window.\"},{\"output_quote\":\"If the standards analysis shows a gap that could trigger a recall, withdrawal or regulatory consequence, alert the General Counsel at once.\",\"apparent_reach\":\"client\",\"note\":\"Client escalation instruction for potential recall, withdrawal or regulatory consequences.\"},{\"output_quote\":\"Experts should not contact Telltale employees. Access goes through the General Counsel.\",\"apparent_reach\":\"client\",\"note\":\"Client rule routing expert access to employees through the General Counsel.\"},{\"output_quote\":\"Give the expert access only after a protective order is in place, with an outside-counsel-and-experts tier for sensitive technical data.\",\"apparent_reach\":\"client\",\"note\":\"Instruction gating expert access to confidential design and complaint-handling records on a tiered protective order; it does not concern authenticity stipulations.\"}]}",
+  "timestamp": "2026-11-04T02:51:09+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7333,
+    "call_id": "ce8b0c7a298dd312",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 24773,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3296,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:51:09+00:00",
+    "total_cost_usd": 0.12459199999999998
+  }
+}

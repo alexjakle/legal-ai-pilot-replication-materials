@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-X1",
+  "prompt_hash": "48d25d5dc7b79ade2f28e8e96d4589a99f368fce817a7dd0616e0e1b705de4a8",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:53:09+00:00",
+  "session_id_in": null,
+  "session_id": "0b04dec9-a750-4d3b-a7a8-3ae52f61539a",
+  "text": "I can't answer this from what's in the firm's records. The client store for Telltale Cardiac Systems and the firm store are both empty, so I have nothing on what Toil & Trouble has told us about handling reports and schedules, or on what it has promised its retail partners. I won't guess at it.\n\nEven if those records existed, what Toil & Trouble told us would be confidential client information. We couldn't use it or disclose it to advise Telltale unless Toil & Trouble consented or the information were public. Conflicts and confidentiality rules would apply. A medical device company and a retail-facing client are also unlikely to be comparable on regulatory reporting or scheduling obligations.\n\nHere are some ways to move forward:\n\n- **Check other sources.** If a Toil & Trouble matter file exists, someone with proper access, such as the responsible partner or conflicts/records staff, can tell you whether anything can be shared and in what form.\n- **Use anonymized know-how.** If the firm has generalized, non-identifying precedents or templates for reporting and scheduling provisions, I can work from those.\n- **Start from Telltale's facts.** Send me its contracts, regulatory posture (e.g., FDA reporting such as MDRs, recalls, and corrections), and distribution or retail arrangements. I can then outline the reporting and scheduling issues and the commitments it should consider.\n\nWhich would you like me to do?",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:53:09+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "0b04dec9-a750-4d3b-a7a8-3ae52f61539a",
+    "input_tokens": 2,
+    "output_tokens": 575,
+    "cache_write_tokens": 769,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.00883,
+    "latency_ms": 10964,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 575,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 769,
+      "webSearchRequests": 0,
+      "costUSD": 0.00883,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 121,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 769,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "b42597c4ba267a4f",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6246,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.087296,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1866,
+      "provider": "firstParty",
+      "thinkingTokens": 435,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "35927b2e44e5d3b7a2e82bf146064abd560447d500060a47a370c5ff8c02f443",
+  "session_id": "40ef9a14-8eae-49c5-b9c3-9ba61b4e66bc",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"That order needs an outside-counsel-and-experts-only tier, and we do not stipulate to authenticity of the data before then.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"The first step is to go to Evander Thorsby, not to retain an expert.\", \"apparent_reach\": \"client\", \"note\": \"Names a specific Joad client contact and says all communications must go through him.\"}, {\"output_quote\": \"Tell him we plan to retain rebuttal experts and that Joad must approve them before any engagement.\", \"apparent_reach\": \"client\", \"note\": \"Joad standing instruction that it must approve experts before they are engaged.\"}, {\"output_quote\": \"Joad offered to help find people with standards-body experience, so we ask for that input at the same time. Joad also prefers that design testimony stay focused on the product at issue\", \"apparent_reach\": \"client\", \"note\": \"Joad's offer to help find candidates and its preference about the scope of design testimony.\"}, {\"output_quote\": \"Joad engineers handle the unit only with counsel present, and we do not contact them directly because Thorsby arranges access.\", \"apparent_reach\": \"client\", \"note\": \"Client protocol for engineer access and a bar on contacting Joad engineers directly.\"}, {\"output_quote\": \"Joad requires at least ten days' notice of any proposed testing and wants quotes before testing is commissioned.\", \"apparent_reach\": \"client\", \"note\": \"Specific Joad instruction on notice and quotes before testing.\"}, {\"output_quote\": \"If the opinion affects exposure or coverage, we copy Perpetua Wallace, the insurer's claims handler.\", \"apparent_reach\": \"matter\", \"note\": \"Names a specific insurer claims handler for the C-1 matter.\"}, {\"output_quote\": \"We note the plaintiff's expert opinion and our response plan in the next six-week report.\", \"apparent_reach\": \"client\", \"note\": \"Six-week reporting cadence matching the C-1 instruction letter; not a registry row.\"}]}",
+  "timestamp": "2026-10-20T03:01:11+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6246,
+    "call_id": "b42597c4ba267a4f",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15060,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1866,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:01:11+00:00",
+    "total_cost_usd": 0.087296
+  }
+}

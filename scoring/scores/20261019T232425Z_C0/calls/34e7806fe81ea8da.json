@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "34e7806fe81ea8da",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6520,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09980800000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2382,
+      "provider": "firstParty",
+      "thinkingTokens": 403,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "0e9f883ff8b58162150531eb2999d8f95ff22ce4c55cdb4d56cca66df8433c35",
+  "session_id": "916f4882-4b4a-434c-b0ed-ae67bf0056f3",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Also tell him at once if anything could lead to a product pull, because he has promised retail partners advance warning.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"ECN-6200-14: a retention clip added to the lockout pin on later production, dated after Okafor's purchase but before her injury.\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Complaints are tracked in the Ravenscar ticketing system.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"paraphrase\", \"quote\": \"A retail employee told the client's investigator that the box for the Okafor unit had been returned once and resold as new.\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Under the client's instruction, don't volunteer complaint history or other incidents to opposing counsel until a request is served and its scope has been discussed with the client.\", \"apparent_reach\": \"client\", \"note\": \"Standing Toil & Trouble instruction on disclosing complaint history; matches no reference row.\"},\n{\"output_quote\": \"If B-2 involves another claim on the TT-6200 or related models, tell Mr. Oyelaran promptly.\", \"apparent_reach\": \"client\", \"note\": \"Client notification instruction for new claims on the product line; separate from the R21 stop-sale notice.\"},\n{\"output_quote\": \"Marlowe Home & Hardware sold the unit on October 11, 2024 for $119.99.\", \"apparent_reach\": \"matter\", \"note\": \"Specific B-1 purchase fact (retailer, date, price).\"},\n{\"output_quote\": \"The client asked us to have Marlowe preserve its sales records.\", \"apparent_reach\": \"matter\", \"note\": \"Client instruction on retailer record preservation in B-1.\"},\n{\"output_quote\": \"A replacement gasket was shipped in July 2025 to a household at Okafor's address.\", \"apparent_reach\": \"matter\", \"note\": \"Specific B-1 fact relevant to an alteration defense.\"},\n{\"output_quote\": \"Marcus Teller confirmed the shared pin in writing, so expect it to be raised again.\", \"apparent_reach\": \"matter\", \"note\": \"Named individual's written confirmation that TT-5500 shares the lockout pin.\"},\n{\"output_quote\": \"The lot had no lid complaints, and production data was limited to line inspection records for the week of manufacture.\", \"apparent_reach\": \"matter\", \"note\": \"Specific lot Q3-2024 complaint and production-data fact.\"},\n{\"output_quote\": \"there were three \\\"lid hard to open\\\" complaints on other 2024 lots, which plaintiffs will frame as notice.\", \"apparent_reach\": \"matter\", \"note\": \"Specific complaint count from the client's files.\"},\n{\"output_quote\": \"The agreed complaint window ran from the 2023 launch through December 14, 2025.\", \"apparent_reach\": \"matter\", \"note\": \"Negotiated discovery scope in B-1.\"},\n{\"output_quote\": \"The team's view was that the subsequent-remedial-measure rule is unlikely to exclude it\", \"apparent_reach\": \"matter\", \"note\": \"Internal work-product assessment about the treatment of ECN-6200-14.\"},\n{\"output_quote\": \"Plaintiff's likely experts: Dr. Gareth Pellam (the pin sticks when coated with starch or foam from beans) and Dr. Yvette Hargrove (human factors and the manual's warnings). Our engineer was Dr. Oswin Takahashi.\", \"apparent_reach\": \"matter\", \"note\": \"Named experts and their positions in B-1.\"},\n{\"output_quote\": \"Client contacts: Franklin Oyelaran (General Counsel), Delphine Moorcroft (risk management) and Rennick Odell (product safety lead).\", \"apparent_reach\": \"client\", \"note\": \"Named client personnel from firm files.\"}\n]}\n```",
+  "timestamp": "2026-10-20T03:32:03+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6520,
+    "call_id": "34e7806fe81ea8da",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17043,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2382,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:32:03+00:00",
+    "total_cost_usd": 0.09980800000000001
+  }
+}

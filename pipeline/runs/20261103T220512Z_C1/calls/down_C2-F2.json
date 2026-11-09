@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F2",
+  "prompt_hash": "72de5abcd4328cb34228c805562325fc9246463edebe4a2b53c16beb7e27cc8d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:11:39+00:00",
+  "session_id_in": null,
+  "session_id": "49a1ad0f-f7fe-43f3-a5d1-b24701b83936",
+  "text": "Nothing in the firm's stored knowledge or the Joad Axle Works client store addresses Joad's supplier history, supplier audits, or any supplier-qualification program. The stored material covers only the client's reporting, budget, settlement-authority, insurance, expert, and communication requirements, so I can't say anything about Joad's suppliers without guessing.\n\n**What this means for the matter**\n- We have no information on who supplied components, materials, or sub-assemblies for the JX-series spindles or other Joad products.\n- We have no information on whether Joad audits its suppliers, how often, or what the audits found.\n- We have no information on whether Joad runs a formal supplier-qualification program, or on its criteria and records.\n\n**How to get it**\n- **Route requests through General Counsel Evander Thorsby.** Under the standing instructions, all case communications go to him, and we should not contact Joad engineers, quality staff, or production staff directly. Any request for supplier files, audit reports, or qualification procedures should go to him, and he can arrange access to the right people where appropriate.\n- **Issue or confirm a litigation hold.** The firm's practice is to require preservation of relevant product documents. Supplier contracts, specifications, audit and qualification records, incoming-inspection data, and supplier corrective-action files should be included if they bear on the product at issue.\n- **Keep distribution tight.** Joad wants a small circle of people to see test files, so we should limit who sees any supplier-related technical material.\n- **Consider the effect on testing and experts.** If supplier issues bear on causation or design, that may drive testing or expert needs. Joad requires ten days' notice of any proposed testing and quotes before testing is commissioned. It also wants to review the names and credentials of proposed experts before engagement, and it prefers that design testimony stay focused on the specific product at issue.\n- **Check for related incidents.** Joad wants immediate reports of other incidents involving JX-series spindles. Supplier-related findings could point to such incidents, so we should flag them promptly.\n- **Copy the insurer where coverage is affected.** If supplier information bears on exposure or coverage, we should copy Perpetua Wallace.\n\nI can draft a document and information request to Mr. Thorsby covering supplier identities, contracts, audit history, and the qualification program, along with the litigation-hold language.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:11:39+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "49a1ad0f-f7fe-43f3-a5d1-b24701b83936",
+    "input_tokens": 2,
+    "output_tokens": 771,
+    "cache_write_tokens": 2039,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.01587,
+    "latency_ms": 8561,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 771,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2039,
+      "webSearchRequests": 0,
+      "costUSD": 0.01587,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2039,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

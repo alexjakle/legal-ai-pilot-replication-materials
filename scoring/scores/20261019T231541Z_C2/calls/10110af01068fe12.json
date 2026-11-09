@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "10110af01068fe12",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5916,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.077396,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1503,
+      "provider": "firstParty",
+      "thinkingTokens": 574,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "354c7b4cfd4721bb7e1df9b1a977959fe3e2824fe0727e239b19d97def3c89c1",
+  "session_id": "2ee2f509-5e35-4a72-9b59-3ed100040083",
+  "stage": "judge_store",
+  "text": "```json\n{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Propose or obtain a protective order before producing them, including a restricted outside-counsel-and-experts tier where needed, and do not stipulate to authenticity or produce beyond what the court requires until the order is signed.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Offers, and even signals of willingness to pay, wait for the client's authority: written General Counsel approval, or written sign-off from a higher body (CFO or board) above set thresholds.\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": []}\n```",
+  "timestamp": "2026-10-20T03:03:46+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5916,
+    "call_id": "10110af01068fe12",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 12407,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1503,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_store",
+    "timestamp": "2026-10-20T03:03:46+00:00",
+    "total_cost_usd": 0.077396
+  }
+}

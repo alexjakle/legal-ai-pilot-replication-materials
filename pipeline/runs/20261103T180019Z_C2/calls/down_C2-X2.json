@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-X2",
+  "prompt_hash": "97b3b0b84e00a7f240862dd35a51d36a1e9ef290038e835c10e69c9e690b87e3",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:06:34+00:00",
+  "session_id_in": null,
+  "session_id": "f614f80a-83a5-43e3-b30a-a57cd4e1b1e0",
+  "text": "I have nothing on Toil & Trouble in the firm's stored knowledge, so I can't say what they want in case reports or how they sequence mediation and expert work. I won't guess at it. Joad's own requirements are in the file and should drive the approach anyway. If Toil & Trouble is another client, its practices shouldn't be used as a template for Joad without checking confidentiality. If you have their requirements, send them and I can compare.\n\n**Joad's reporting requirements**\n- **Routing:** All communications go through General Counsel Evander Thorsby. Perpetua Wallace (Cobaltridge) is copied on anything bearing on coverage or exposure and gets the monthly invoice summary.\n- **Written report:** Every six weeks, plus a call after significant events. Write for Thorsby's decision needs, not as narrative memos.\n- **Early deliverables:**\n  - A phase budget within 45 days.\n  - A first case assessment within 60 days, with an exposure range and probability of an adverse result.\n- **Depositions:** A short note within five business days of each one. Attendance is limited to one firm lawyer and one insurer lawyer.\n- **Budget:** Written explanation wherever projections exceed Joad's budget assumption. Expect expert and testing costs to be the main driver.\n- **Immediate or same-day notice:**\n  - Any other incident involving JX-series products.\n  - Any reservation of rights by the carrier (same day).\n\n**Mediation sequencing**\n- Before agreeing, confirm that Joad accepts the mediator and that confidentiality protections prevent use of the mediation in other cases.\n- Obtain preliminary authority before the session.\n- The firm makes no offer, number or signal of willingness to pay without Joad's written approval.\n- Cobaltridge has pre-approved up to $1.5M. For an offer in that tier, check with Thorsby before conveying it.\n- Anything above $1.5M needs written board sign-off, not a verbal indication, and nothing may be signaled without it. The board consent takes about three weeks, so flag early any recommended range that would need it.\n- Ask about the $400k retention and the aggregate-limit concern when framing the range.\n\n**Expert sequencing**\n- Before engaging any testifying expert, give Thorsby names, credentials and prior testimony. He also wants to know whether anyone will address industry practice.\n- Clear any standards or industry-practice expert plan with him first. He prefers design testimony to stay focused on the specific product, and he can help identify candidates with standards-body experience.\n- Get quotes before commissioning any testing, and settle who pays for shared lab work.\n- Give 10 days' notice of any proposed testing.\n- Ask whether Joad's regulatory group reviews expert reports, and build in review time if it does.\n- Do not offer key engineering or sales witnesses until the firm and Thorsby have discussed it. Interview key engineers early, through Thorsby, and keep the circle tight around test files.\n- Hold the line on authenticity stipulations for internal test data until a protective order with an outside-counsel-and-experts tier is in place.\n\n**Suggested order (my inference, not a Joad instruction)**\n1. Protective order.\n2. Expert clearance and budget quotes.\n3. Case assessment with an exposure range.\n4. Client authority, allowing three weeks if above $1.5M.\n5. Mediation.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:06:34+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "f614f80a-83a5-43e3-b30a-a57cd4e1b1e0",
+    "input_tokens": 2,
+    "output_tokens": 1731,
+    "cache_write_tokens": 2762,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.028362,
+    "latency_ms": 12991,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1731,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2762,
+      "webSearchRequests": 0,
+      "costUSD": 0.028362,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 615,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2762,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

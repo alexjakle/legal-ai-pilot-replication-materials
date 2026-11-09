@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "e490a166b816d083",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7167,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7167,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.094004,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1833,
+      "provider": "firstParty",
+      "thinkingTokens": 426,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "be7f7d3256c96128a86ebd821dcc0ac06dc048808e2c721d8ea0a4d3a0908095",
+  "session_id": "129b09c0-d95b-452d-8b9f-8cd04d3f0b46",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Send the first one-page report with an exposure range, a few status lines, upcoming dates and any decisions needed.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Tell Mr. Oyelaran at once if an expert opinion or inspection finding could lead to a product pull, for example a defect theory about the lockout pin that also affects the TT-5500. The client has promised its largest retail partners advance warning.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"A later unit may carry the ECN-6200-14 retention clip.\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Request the quality records and Ravenscar complaint data through him.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"A Q3-2024 TT-6200 has no lid complaints.\", \"apparent_reach\": \"client\", \"note\": \"Specific complaint-history fact about the client's product by model and production period.\"}, {\"output_quote\": \"The TT-5500 shares the lockout pin but has a different ring and lid seat.\", \"apparent_reach\": \"client\", \"note\": \"Specific product design detail linking client models.\"}, {\"output_quote\": \"Do not contact Rennick Odell or other employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction naming a specific employee and routing contact through the GC.\"}, {\"output_quote\": \"Do not retain any testifying expert until the client signs off in writing.\", \"apparent_reach\": \"client\", \"note\": \"Client practice requiring written approval before retaining experts.\"}, {\"output_quote\": \"Staffing is one associate and one partner. No more than two lawyers may attend any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing and attendance limits.\"}, {\"output_quote\": \"Send all communications to Mr. Oyelaran with a copy to Delphine Moorcroft. Exposure and coverage items should also reach the insurer's adjuster, who is coordinated through Ms. Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Client communication routing instruction with named individuals.\"}]}",
+  "timestamp": "2026-10-30T21:35:17+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7167,
+    "call_id": "e490a166b816d083",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 13549,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1833,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:35:17+00:00",
+    "total_cost_usd": 0.094004
+  }
+}

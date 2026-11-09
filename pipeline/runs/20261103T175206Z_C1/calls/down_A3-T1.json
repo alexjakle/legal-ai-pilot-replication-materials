@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "3b1131162e83eef2ba157df4d3b28d875541fa598f8d2fa4fca93ff06ec1c10a",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:54:38+00:00",
+  "session_id_in": null,
+  "session_id": "f9a7063f-9ed8-416b-bc98-e2925ac89dee",
+  "text": "# Expert report workflow for matter A-3 (Telltale)\n\n**Two things to confirm first**\n- Which deadline are we working against? You said *plaintiff's* expert disclosures are due in about ten weeks. Defense disclosures are often staggered later. Check the scheduling order. If ours is also ten weeks out, the schedule below is tight, because Telltale's review alone takes ten business days.\n- Telltale's regulatory inspection tied to its next-generation lead is noted \"as of 2025.\" Confirm with Marguerite Salvesen that it is still current, since it shapes how we word reports.\n\n## Step 1: Clear the experts with Telltale before engaging anyone\n- Send Marguerite Salvesen (General Counsel), cc Thaddeus Wren, **three candidates per discipline**. Include credentials and **prior-testimony notes**. For two experts in different disciplines, that is six names.\n- **Do not engage or retain anyone, even informally, until Telltale approves.**\n- If either expert is an industry-practice or standards expert, expect extra clearance and allow more time.\n- Do this in week 1. Build the client's response time into the schedule.\n\n## Step 2: Set up the expert's access to materials\n- Confirm the litigation hold has been issued.\n- Design engineering and complaint-handling records (including Orrinwick data) are confidential. **Propose a protective order before producing anything**, and don't give the experts these materials until it is in place or Telltale agrees otherwise.\n- If an expert needs to talk to Telltale personnel, arrange it through Marguerite. The experts do not contact engineers or anyone below VP level directly.\n\n## Step 3: Draft, with the regulatory review in mind\n- The first draft stays **inside the firm and with the expert**. Nothing goes to the other side, co-defendants, or anyone else.\n- Keep failure-rate characterizations to what the opinions actually require. Telltale wants to avoid public statements that go further than the case needs, and reports can end up attached to filings.\n- Check the draft against what Telltale has told the regulator, since that is what the review will test.\n\n## Step 4: Telltale regulatory review (the critical path)\n- **Every** report goes to Telltale's regulatory affairs group, led by **Odalys Fennimore**, before service. The review checks consistency with Telltale's statements to the regulator.\n- The group needs **ten business days**, about two calendar weeks, and the report cannot be shared outside the firm and the experts until it is cleared.\n- Route the submission through Marguerite (cc Thaddeus Wren, per the communications rule). Before sending, confirm with Marguerite how the draft should reach Fennimore's group. Also confirm whether the cc to Wren is acceptable for an uncleared draft, since the restriction on sharing is strict.\n- Comments need care. The opinions must remain the expert's own. Have the firm handle any comments, and flag inconsistencies to the expert rather than letting client edits rewrite opinions. Check whether draft reports and communications are protected in our jurisdiction, because client-driven changes could be used to attack credibility.\n- If the comments require substantive revisions, ask Fennimore's group at the outset whether they will re-review quickly or need another full ten business days. Plan for that possibility.\n\n## Step 5: Final sign-off and service\n- After clearance, address any comments with the expert and have the expert finalize and sign.\n- Serve on or before the deadline, with a few days of cushion.\n- If the schedule can't hold, an extension may be needed. **Telltale requires five business days' notice before any motion**, so build that in. Alert Marguerite early rather than late.\n\n## Illustrative timeline, assuming a ten-week deadline\n| Week | Milestone |\n|---|---|\n| 1 | Candidate names to Marguerite |\n| 2 | Telltale approves, experts engaged, protective order proposed |\n| 2–5 | Experts review materials and draft |\n| about 5–6 | Firm review, then **draft to Fennimore's group** (latest) |\n| about 7–8 | Regulatory review completes (ten business days) |\n| 8–9 | Revisions, and re-review if needed |\n| 9–10 | Final report signed and served, with cushion |\n\nIf client approval of the experts slips even a week or two, this schedule leaves almost no margin, so decide early whether to seek an extension.\n\n## Reporting and billing items to calendar\n- Mention the expert status in the monthly written update, and call after significant events such as clearance problems.\n- Include expert fees in the phase budget, and explain any variance over 10%.\n- The initial case assessment is due within 45 days of the engagement letter.\n- Only two timekeepers at each deposition are billable, which matters for later expert depositions.\n- Priya Raghunathan remains the day-to-day contact. Formal communications go to Marguerite with a copy to Thaddeus Wren.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:54:38+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "f9a7063f-9ed8-416b-bc98-e2925ac89dee",
+    "input_tokens": 2,
+    "output_tokens": 3155,
+    "cache_write_tokens": 2134,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.040089999999999994,
+    "latency_ms": 28132,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 3155,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2134,
+      "webSearchRequests": 0,
+      "costUSD": 0.040089999999999994,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1533,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2134,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "1d418cc439616feb",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6798,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6798,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.12975199999999998,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3768,
+      "provider": "firstParty",
+      "thinkingTokens": 2263,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "0928af7c50bc3066b85dbbfe39c55136a156729db257ef6d44bcd4fad9ab5a7a",
+  "session_id": "bb8517c3-9477-4f16-a351-414de848030c",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"ten business days for regulatory affairs review of every expert report.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"a regular written update (monthly or every six weeks, sometimes one page with the exposure range)\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"ten business days for regulatory affairs review of every expert report.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"avoid characterizing failure rates beyond what is needed, because of the inspection on its next-generation lead.\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"five business days' notice before filing any motion, and phase budgets with variance explanations for variances over 10%.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's specific motion-notice and budget-variance instructions.\"}, {\"output_quote\": \"no more than two timekeepers at depositions.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's staffing cap for depositions.\"}, {\"output_quote\": \"sent to Marguerite Salvesen with Thaddeus Wren copied.\", \"apparent_reach\": \"client\", \"note\": \"Named Telltale communication routing instruction.\"}, {\"output_quote\": \"three candidates per discipline with prior testimony notes\", \"apparent_reach\": \"client\", \"note\": \"Telltale's expert-candidate vetting requirement.\"}, {\"output_quote\": \"monthly written updates, a call after significant events, and an initial assessment within 45 days.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's reporting requirements; related language appears in the R19 lookalikes, but it is not a one-page format.\"}, {\"output_quote\": \"CFO sign-off above $500,000, and a $750,000 self-insured retention per claim.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's authority threshold and retention figure; both appear in the lookalike list and match no reference row. The $750,000 retention is from A-1, and A-2 has a different figure.\"}, {\"output_quote\": \"the insurance liaison copied on anything touching coverage or exposure.\", \"apparent_reach\": \"firm\", \"note\": \"Presented as an anonymized firm practice note on insurer communications.\"}, {\"output_quote\": \"a cap of one or two timekeepers at depositions and hearings.\", \"apparent_reach\": \"firm\", \"note\": \"Presented as an anonymized firm practice note on client staffing limits.\"}]}",
+  "timestamp": "2026-11-04T07:49:17+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6798,
+    "call_id": "1d418cc439616feb",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 31505,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3768,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:49:17+00:00",
+    "total_cost_usd": 0.12975199999999998
+  }
+}

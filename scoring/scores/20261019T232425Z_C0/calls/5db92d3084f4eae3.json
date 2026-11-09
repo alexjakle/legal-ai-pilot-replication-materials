@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "5db92d3084f4eae3",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6512,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.116544,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3222,
+      "provider": "firstParty",
+      "thinkingTokens": 1328,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "31b357741380b5aaa827e4de0d47cced9e75eb53ff9871a21b5f08930397e9c9",
+  "session_id": "7e1d34f9-6594-4840-a21a-9cc9e60d4d62",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"We need a design or materials expert, and possibly a separate standards witness so the design expert stays out of committee questions.\"}, {\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"Attack causation and reliability before design.** Test whether the \\\"supplier-chosen material degraded\\\" opinion rests on testing or replication. Also test whether it fits the explant condition and ruled out other causes\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Route expert drafts through Odalys Fennimore's regulatory review, and allow two weeks.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Attack causation and reliability before design.** Test whether the \\\"supplier-chosen material degraded\\\" opinion rests on testing or replication. Also test whether it fits the explant condition and ruled out other causes\"}, {\"label\": \"R10\", \"verdict\": \"pattern\", \"quote\": \"Attack causation and reliability before design.** Test whether the \\\"supplier-chosen material degraded\\\" opinion rests on testing or replication.\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"We need a design or materials expert, and possibly a separate standards witness so the design expert stays out of committee questions.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"We need a design or materials expert, and possibly a separate standards witness so the design expert stays out of committee questions.\"}, {\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"Also test whether it fits the explant condition and ruled out other causes, such as implant technique, handling, or pre-existing conditions. If it is narrowed, the design and supplier arguments matter less.\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Route expert drafts through Odalys Fennimore's regulatory review, and allow two weeks.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n\"unregistered_candidates\": [{\"output_quote\": \"Delmore's protective order (Nov. 12, 2024) limits produced materials to that action.\", \"apparent_reach\": \"matter\", \"note\": \"A-2 protective order date and scope carried into an A-3 discussion.\"}, {\"output_quote\": \"The client's instruction is that no Delmore strategy or work product be shared with other Telltale counsel unless the client asks.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's standing instruction restricting cross-matter use of work product.\"}, {\"output_quote\": \"Brevik's memo recommends that nobody on the team use anything from Delmore in another matter, and that the supplier file stay in a restricted folder.\", \"apparent_reach\": \"matter\", \"note\": \"Internal A-2 memo recommendation on file segregation.\"}, {\"output_quote\": \"Delmore's draft Answer pleads that the risk was not known or knowable in 2020, and Telltale conceded the AL-4130 only as a non-admission.\", \"apparent_reach\": \"matter\", \"note\": \"A-2 pleading positions from a draft Answer, used in another matter.\"}, {\"output_quote\": \"the supplier's formula change and how we learned of it;\", \"apparent_reach\": \"matter\", \"note\": \"Points to the A-2 supplier formulation-change fact (R27 subject) without the specifics. Borderline.\"}, {\"output_quote\": \"In Delmore that question was a top risk that engineering never answered.\", \"apparent_reach\": \"matter\", \"note\": \"A-2 internal risk assessment on the open lot-membership question.\"}, {\"output_quote\": \"Plaintiff's expert there points to a coil pitch and insulation sleeve stress concentration, but nothing in that file concerns supplier material choices.\", \"apparent_reach\": \"matter\", \"note\": \"A-1 (Hartwell) expert theory detail.\"}, {\"output_quote\": \"Agree a joint, non-destructive protocol, with no sectioning or cleaning unless both sides' engineers are present.\", \"apparent_reach\": \"firm\", \"note\": \"Explant examination protocol practice that may come from firm files.\"}]}",
+  "timestamp": "2026-10-20T03:28:30+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6512,
+    "call_id": "5db92d3084f4eae3",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 26666,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3222,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:28:30+00:00",
+    "total_cost_usd": 0.116544
+  }
+}

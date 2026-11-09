@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "981e3cefe73d256e1c1058b1dea8a401796ee21bc5cb749f604cc4246cb952ab",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:57:08+00:00",
+  "session_id_in": null,
+  "session_id": "e1e4ef3d-867e-47dc-b88e-b1736d215a10",
+  "text": "**Recommendation:** Retain a separate standards and industry-practice expert (someone with experience on the relevant voluntary standards committee or in a certification or testing role, such as UL 1026/UL 60335-type standards for pressure cookers) to explain the standards and how they are applied. Keep that person distinct from the engineering expert.\n\n**Why separate**\n- The engineering expert should address the TT-6200's design and performance: the bayonet lid, the float valve and lockout pin, the roughly 10 psi operating pressure, and causation. Any inspection findings belong to that expert as well.\n- The standards expert should address what the standards require, how the industry interprets and applies them, and how the lid system fits within them. Different qualifications and a different foundation are needed, and each expert stays within their own lane.\n- Separation limits cross-examination exposure. An engineer who strays into industry custom or standards interpretation invites a challenge on qualifications. A standards witness who opines on causation invites the same.\n\n**Positioning**\n- The two should be complementary and consistent. The engineer testifies to how the product performs. The standards expert testifies that the design meets, or is consistent with, accepted industry practice. Their opinions should not overlap or conflict.\n- The engineer may rely on the standards, and the standards expert may rely on the engineer's test data. Be careful about what each is given, since materials supplied to testifying experts may be discoverable.\n- The independent laboratory testing the client says the lid system underwent before launch is a key fact. We have not yet verified it. We need the test reports and the standards they were run against before deciding how either expert uses them. The lab itself may be a fact witness. Access to the lab and to Rennick Odell goes through the client.\n- Compliance with a voluntary standard is generally evidence of reasonable care, not a safe harbor. Frame the standards expert's opinion accordingly, and confirm how the governing jurisdiction treats it.\n\n**Client clearance (build into the schedule)**\n- Mr. Oyelaran expects to approve testifying experts before engagement. Send him candidate names and credentials, and prior-testimony notes where available, with a copy to Delphine Moorcroft.\n- Standards and industry-practice experts need extra clearance, and the client may have a regulatory-consistency review of any expert report. Allow review time for both.\n- Staffing stays at one associate and one partner on day-to-day expert work, and extra lawyers require approval.\n\n**Cautions**\n- Check each candidate for conflicts and for prior testimony that could contradict our position, including any work for or against the client's competitors or on other pressure-cooker cases.\n- Do not volunteer complaint history to the experts or anyone else beyond what is needed and consistent with the client's instruction. Be aware that the three 2024 \"lid hard to open\" complaints on other lots will likely be characterized as notice, and a standards expert may be asked about them. We should know what the Ravenscar search shows before we decide what each expert sees.\n- If either expert's work could point toward a design change or product withdrawal, tell Mr. Oyelaran immediately, given the client's commitment to give its largest retail partners advance warning.\n\n**Next steps:** (1) Identify two or three candidates in each discipline. (2) Obtain the pre-launch lab reports through the client. (3) Send the candidate list to Mr. Oyelaran for approval. (4) Set the expert schedule with client review time built in.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:57:08+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "e1e4ef3d-867e-47dc-b88e-b1736d215a10",
+    "input_tokens": 2,
+    "output_tokens": 1125,
+    "cache_write_tokens": 2252,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020262000000000002,
+    "latency_ms": 19241,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1125,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2252,
+      "webSearchRequests": 0,
+      "costUSD": 0.020262000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2252,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "c7cb767f4de5961416527da2555ea27d6d311d2540a61442695155003aa9d95d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:26:30+00:00",
+  "session_id_in": null,
+  "session_id": "436bad1f-fd93-43fa-b890-fe2ccf41759c",
+  "text": "**Caveat:** The client and firm stores are empty, so I have no Toil & Trouble facts, no firm playbook, and no prior work on this expert. What follows is a general approach, not firm precedent. Confirm it against the jurisdiction's rules and the scheduling order once we have them.\n\n## Approach\nTreat the expert's manufacturing-defect opinion as something to test and, where warranted, exclude. We should not simply rebut it. Our goals are to understand exactly what the expert did, find the weaknesses in the methodology, and build our own causation story. The main lines of attack are:\n- Qualifications\n- Reliability of method (Rule 702/Daubert or the state equivalent)\n- Whether the opinion fits the facts\n- Failure to rule out alternative causes such as misuse, wear, installation, or a design theory repackaged as a manufacturing defect\n- Chain of custody and spoliation\n\n## Order of operations\n1. **Lock down the evidence.** Issue or confirm a litigation hold at Toil & Trouble. Secure the failed unit and its chain of custody. Do not allow destructive testing without a written joint protocol. Collect the manufacturing, QC, batch, and complaint records for the unit.\n2. **Get the procedural framework.** Review the complaint, the scheduling order, and the expert disclosure and Daubert motion deadlines. Identify the governing law on defect theories.\n3. **Retain our own consulting expert early.** Use a mechanical or materials engineer under privilege, so work product and consulting-expert protection apply. Have them help with everything that follows, and decide later whether to designate them to testify.\n4. **Interview the client's engineers and review internally under privilege.** Learn how the unit is made, what tolerances and tests apply, and whether there are similar incidents. We need to know our bad facts before the deposition.\n5. **Obtain the plaintiff expert's complete file.** This means the report, CV, materials relied on, test data, photos, notes, communications to the extent discoverable, fee records, and prior testimony and exclusions. Review any inspection or testing for protocol and documentation problems.\n6. **Inspect and test.** Hold a joint, documented inspection of the unit, and examine exemplar units. Have our consultant replicate or critique the expert's testing.\n7. **Depose the expert after steps 5 and 6.** Lock in the basis for the opinion, the alternatives considered and ruled out, error rates, the standards applied, and the gaps between the data and the conclusions. Aim to build the Daubert record.\n8. **Designate our rebuttal expert** by the deadline, with a report grounded in the testing.\n9. **File the motion to exclude or limit** on a complete record, and use the same record for summary judgment on defect and causation.\n\nPlease send the complaint, expert report, and scheduling order, and I can tailor this and put dates against each step.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:26:30+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "436bad1f-fd93-43fa-b890-fe2ccf41759c",
+    "input_tokens": 2,
+    "output_tokens": 1411,
+    "cache_write_tokens": 744,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.01709,
+    "latency_ms": 12396,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1411,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 744,
+      "webSearchRequests": 0,
+      "costUSD": 0.01709,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 462,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

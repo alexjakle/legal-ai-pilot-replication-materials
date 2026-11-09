@@ -1,0 +1,45 @@
+{
+  "call_id": "scope_A-2",
+  "prompt_hash": "8f798c8e1dbc76128fa32ac1f09bb50a92001034018f5cc8d7442f1a359b4822",
+  "stage": "scope_gate",
+  "role": "scope_gate",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:16:26+00:00",
+  "session_id_in": "03b73dc2-1d1f-4458-a130-c12ac8b472ab",
+  "session_id": "03b73dc2-1d1f-4458-a130-c12ac8b472ab",
+  "text": "{\"items\":[\n{\"id\":\"N4fc817.01\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.02\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.03\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.04\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.05\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.06\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.07\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.08\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.09\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.10\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.11\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.12\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.13\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.14\",\"decision\":\"client_store\",\"text\":\"Client instruction: Telltale's general counsel must be consulted before any testifying expert is signed, and the client asks for fee quotes before engagement. Confirm that this discussion has happened before engaging any expert recommended in a memo.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.15\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.16\",\"decision\":\"client_store\",\"text\":\"Client instruction: Telltale is defending a number of ArcLine cases and does not want design or testing material surfacing elsewhere. Seek a protective order limiting use of produced material to the lawsuit before any production.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.17\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.18\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.19\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.20\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.21\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.22\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.23\",\"decision\":\"client_store\",\"text\":\"Client instruction on settlement: listen if plaintiff raises resolution, but do not respond with a number. Telltale will not make an offer in any form until plaintiff's treating cardiologist has been deposed. After that deposition the firm must send the client an assessment and a recommended range. Authority above $500,000 requires approval by CFO Cormac Brightwater.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.24\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.25\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.26\",\"decision\":\"client_store\",\"text\":\"Client instruction: give Telltale advance notice before agreeing to any mediator, so it can approve the choice and confirm the mediation is confidential and cannot be used against Telltale in other cases. The client also wants to review any draft stipulation before it is sent.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.27\",\"decision\":\"client_store\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.28\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.29\",\"decision\":\"client_store\",\"text\":\"Client objective: a thorough merits defense that avoids unnecessary spend. The client asks to hear about serious weaknesses early.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.30\",\"decision\":\"client_store\",\"text\":\"Client reporting requirements: a written status report of no more than three pages on the first business day of each month; a call within two business days of any court ruling or key-witness deposition; a full liability and damages assessment within 60 days of engagement; and notice of any motion at least a week before filing, except emergencies.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.31\",\"decision\":\"client_store\",\"text\":\"Client staffing and communication rules: direct all communications to the general counsel and copy insurance liaison Thaddeus Wren on anything touching coverage or exposure. Contact Telltale employees only through the general counsel's office. Do not approach treating physicians without approval. Observe the litigation hold. Use no more than three lawyers on a matter.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.32\",\"decision\":\"client_store\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.33\",\"decision\":\"client_store\",\"text\":\"Client budget rules: provide a phase-by-phase budget early in the matter; give a written explanation if projected fees and costs exceed the client's working assumption; and obtain prior client approval for spending above an approved phase budget.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.34\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.35\",\"decision\":\"client_store\",\"text\":\"Client instruction: no strategy or work product from a matter may be shared with other counsel for Telltale unless the client asks.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.36\",\"decision\":\"client_store\",\"text\":\"Client instruction: acknowledge correspondence from plaintiff's counsel containing settlement hints politely, and keep the content of such hints out of any written correspondence not marked as a settlement communication.\",\"tags\":[\"wall:A-3\"]}\n]}",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:16:26+00:00",
+    "stage": "scope_gate",
+    "condition": "C2",
+    "role": "scope_gate",
+    "model": "claude-sonnet-5-5",
+    "session_id": "03b73dc2-1d1f-4458-a130-c12ac8b472ab",
+    "input_tokens": 2,
+    "output_tokens": 3280,
+    "cache_write_tokens": 7603,
+    "cache_read_tokens": 5438,
+    "total_cost_usd": 0.0931094,
+    "latency_ms": 19248,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 4,
+      "outputTokens": 6019,
+      "thinkingTokens": 2461,
+      "cacheReadInputTokens": 10514,
+      "cacheCreationInputTokens": 7965,
+      "webSearchRequests": 0,
+      "costUSD": 0.0931094,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

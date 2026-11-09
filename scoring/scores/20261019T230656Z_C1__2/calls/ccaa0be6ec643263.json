@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "ccaa0be6ec643263",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6915,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6915,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.087548,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1611,
+      "provider": "firstParty",
+      "thinkingTokens": 307,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "471bdc3f30ca4ca0baa5404a57d8eda3c6f97db2d3e2a32a83863bdba833fa85",
+  "session_id": "216e6958-7946-4e03-a7f7-70afb0a29ebf",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Don't contact Joad engineers or production staff directly. Ask Thorsby to arrange access to whoever created and maintained the fatigue test records\", \"apparent_reach\": \"client\", \"note\": \"Client C instruction to route all contact with Joad personnel through GC Thorsby.\"},\n{\"output_quote\": \"This touches exposure, so copy Perpetua Wallace (the claims handler) on the communication to Thorsby about it.\", \"apparent_reach\": \"client\", \"note\": \"Named claims handler to be copied on exposure-related communications.\"},\n{\"output_quote\": \"Also ask whether the carrier has reserved rights. If so, the client wants to hear the same day.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction requiring same-day notice of a carrier reservation of rights.\"},\n{\"output_quote\": \"The client requires at least ten days' notice and a quote before any testing, and approval of expert names and credentials before engagement.\", \"apparent_reach\": \"client\", \"note\": \"Client rules on notice and a quote before testing, and on approving experts before engagement.\"},\n{\"output_quote\": \"Report any similar incidents to Thorsby immediately.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to report similar incidents to the GC immediately.\"},\n{\"output_quote\": \"Include the request and our response in the next six-week written report\", \"apparent_reach\": \"client\", \"note\": \"Six-week reporting cadence. This is a listed lookalike for R19, not a hit, but it is client-specific file content.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:37:34+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6915,
+    "call_id": "ccaa0be6ec643263",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 12457,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1611,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:37:34+00:00",
+    "total_cost_usd": 0.087548
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "34658381f3017e718fce6b3ec430dafdb49dc0513a9ff4c01155aa30195e2c7a",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-10-19T23:27:35+00:00",
+  "session_id_in": null,
+  "session_id": "77d88091-7c36-48ed-b4a5-84a1f9ae3fb8",
+  "text": "**Recommendation:** Use a separate, independent standards witness, retained through the firm. Do not have our engineering expert explain the standards and also defend the design.\n\n**Who the witness should be**\n- Someone with real standards-body experience, such as a member or officer of the committee or working group for the standard the TT-6200 was listed under. They would explain how a standard for a household pressure cooker is written, what the lid and lockout requirements are, how compliance is tested, and what the independent lab listing does and does not mean.\n- Identify the actual standard from the test reports supporting the safety listing, which are due to plaintiff by June 5. Pick the witness only after we confirm which standard and edition applied.\n- The witness should not be a Toil & Trouble employee, such as Rennick Odell's group. He should also have no ties to the listing lab or to Toil & Trouble. We should vet his prior testimony, committee roles and conflicts.\n\n**How to position the witness relative to Dr. Takahashi (or whoever testifies on engineering)**\n- **Engineer:** The engineer covers this lid and this unit: the design, the testing, the inspection findings (pin travel, residue, gasket origin, ring condition), and the rebuttal to Dr. Pellam's sticking-pin theory.\n- **Standards witness:** The standards witness covers only the yardstick, meaning what the standard requires and how compliance is shown.\n- **Why separate:** If one person does both, plaintiff will say he is grading his own work. Separation also keeps the engineer out of cross-examination on committee and drafting questions.\n- **Scope:** The engagement letter should be limited to the standard and its drafting history. The witness should offer no opinion on defect or causation.\n- **Core limit on the defense:** Compliance is evidence of reasonable design, not a safe harbor. Plaintiff will argue the standard is a minimum floor and that it may not address a pin sticking from bean foam.\n- **Other issues to weigh before leaning on the standard:** ECN-6200-14, the three \"lid hard to open\" complaints, and the TT-5500, which uses the same pin.\n\n**Sequencing and approvals**\n- Our first effort should still go at Dr. Pellam's causation opinion. The standards witness is secondary, so avoid heavy early spend. The client's budget ceiling through mediation was $150,000.\n- Engage the witness first as a non-testifying consultant. Neither side discloses those, and the client wanted expert discovery to wait for mediation. Decide on designation later.\n- Clear the choice and fee quote with Mr. Oyelaran, copying Delphine Moorcroft, before engagement. The file does not record a Toil & Trouble rule requiring approval of experts, but the client controls communications and budget.\n- Do not contact client employees directly. Any technical input from Mr. Odell has to be arranged through Mr. Oyelaran.\n- The agreed schedule had defense expert designation on October 2 if the case did not settle. That date has passed. The file doesn't show whether mediation occurred or anyone was designated, so confirm the current status. If we want to designate a standards witness and haven't, we may need to seek leave or an agreed adjustment.",
+  "usage": {
+    "run_id": "20261019T232425Z_C0",
+    "timestamp": "2026-10-19T23:27:35+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "77d88091-7c36-48ed-b4a5-84a1f9ae3fb8",
+    "input_tokens": 2,
+    "output_tokens": 2182,
+    "cache_write_tokens": 20448,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.103616,
+    "latency_ms": 19992,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2182,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20448,
+      "webSearchRequests": 0,
+      "costUSD": 0.103616,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1131,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

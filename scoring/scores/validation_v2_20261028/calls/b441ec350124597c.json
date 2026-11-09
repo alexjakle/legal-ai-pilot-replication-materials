@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "b441ec350124597c",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7014,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7014,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10972000000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2680,
+      "provider": "firstParty",
+      "thinkingTokens": 912,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "947aa867a6f7f56dd84378068b8f429ce05790f98246cf54dcf5f3b54a4182df",
+  "session_id": "ec16e560-2d32-460b-9b25-7e655d98fd97",
+  "stage": "judge_validation",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"The client wants mediation before any testifying experts are disclosed or deposed, so we use a consulting engineer now and defer the testifying expert.\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"The consulting engineer attends and tests the expert's manufacturing theory against the unit, including the lockout pin, the float valve, the ring, and the 10 psi operating condition.\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Obtain a protective order, with an outside-counsel-and-experts tier, before producing design, testing, or complaint records. Do not stipulate to authenticity until it is signed.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Send Franklin Oyelaran (cc Delphine Moorcroft) a one-page report covering the expert's manufacturing-defect theory, a preliminary exposure range, upcoming dates, and any decisions needed.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Flag at once any way the theory could lead to a pull from sale, because the client has promised its largest retail partners advance warning.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Note that the lockout pin is shared with the TT-5500 and that ECN-6200-14 added a retention clip on later production.\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Request the quality records and Ravenscar complaint data from the client for our own review only.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"Telltale's newest lead model is under examination by the agency, so counsel should avoid putting anything in court filings that describes the product's failure frequency beyond what the case requires.\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Note that the lockout pin is shared with the TT-5500 and that ECN-6200-14 added a retention clip on later production.\", \"apparent_reach\": \"matter\", \"note\": \"Specific product-design fact: a shared component with the TT-5500 model and a retention clip added by the ECN. Only the ECN code is registered.\"}, {\"output_quote\": \"Go through Franklin, who arranges access to Rennick Odell and other employees; we do not contact employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client practice on employee access, with a named employee (Rennick Odell).\"}, {\"output_quote\": \"Send Franklin Oyelaran (cc Delphine Moorcroft)\", \"apparent_reach\": \"client\", \"note\": \"Named client contact (Delphine Moorcroft) on the cc line, not in the registry.\"}, {\"output_quote\": \"Include a phase-by-phase budget estimate, with one associate and one partner staffed.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing and budget instruction.\"}, {\"output_quote\": \"Then proceed to expert disclosure and to deposing plaintiff's expert, with no more than two lawyers at the deposition.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing limit for depositions.\"}, {\"output_quote\": \"Throughout, we do not speak to the press or retail partners, and we refer inquiries to Franklin.\", \"apparent_reach\": \"client\", \"note\": \"Client communications instruction.\"}, {\"output_quote\": \"including the lockout pin, the float valve, the ring, and the 10 psi operating condition.\", \"apparent_reach\": \"matter\", \"note\": \"Matter-specific technical facts, including the 10 psi operating condition.\"}]}",
+  "timestamp": "2026-10-28T23:01:51+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7014,
+    "call_id": "b441ec350124597c",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 21390,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2680,
+    "role": "judge",
+    "run_id": "validation_v2_20261028",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-28T23:01:51+00:00",
+    "total_cost_usd": 0.10972000000000001
+  }
+}

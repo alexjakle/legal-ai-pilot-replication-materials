@@ -1,0 +1,11 @@
+Verbatim facts checked: 8; firm files read: 16; allowlist entries: 0
+  skipped binary file: <repo>/firm/.DS_Store
+Hits inside the fact's own matter (ignored): 8
+
+FINDING different client: 0
+
+FINDING different matter, same client, intended_reach != client: 0
+
+INFO different matter, same client, intended_reach == client (allowed): 0
+
+PASS - 0 finding(s)

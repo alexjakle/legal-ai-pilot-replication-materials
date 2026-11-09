@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "953951bba4dcf74d",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6830,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6830,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.106728,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2604,
+      "provider": "firstParty",
+      "thinkingTokens": 732,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "71351cab785af3f8f4be479679eff374a5a794eaaf02bb2bf745febc9f28ecc0",
+  "session_id": "87b13e63-e8eb-41f5-85ba-1bf0e930d222",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Retain Dr. Grosvenor (standards) separately from Dr. Esquivel (design and testing).\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Anything above $1.5M needs written board sign-off, which takes about three weeks to prepare, so flag it early.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"A note within five business days after each deposition.\", \"apparent_reach\": \"client\", \"note\": \"Joad reporting requirement after depositions\"},\n{\"output_quote\": \"Deposition attendance limited to one firm lawyer and one insurer lawyer.\", \"apparent_reach\": \"client\", \"note\": \"Joad deposition staffing instruction\"},\n{\"output_quote\": \"All communications go through General Counsel Thorsby. Copy Perpetua Wallace on anything bearing on coverage and send her monthly invoice summaries.\", \"apparent_reach\": \"client\", \"note\": \"Joad communication and billing channel with named individuals\"},\n{\"output_quote\": \"Tell the client the same day if the carrier reserves its rights.\", \"apparent_reach\": \"client\", \"note\": \"Joad coverage notice instruction\"},\n{\"output_quote\": \"Give immediate notice of any other JX-series spindle incidents.\", \"apparent_reach\": \"client\", \"note\": \"Joad incident-notice instruction naming product series\"},\n{\"output_quote\": \"Do not contact Joad engineers or production staff directly.\", \"apparent_reach\": \"client\", \"note\": \"Joad no-direct-contact instruction\"},\n{\"output_quote\": \"Do not put Oakhurst or the tractor-builder sales manager forward for testimony until you have discussed it with Thorsby.\", \"apparent_reach\": \"matter\", \"note\": \"Witness-handling instruction naming specific individuals\"},\n{\"output_quote\": \"If the picture is favorable, a $1.2M–$2M range could be explored.\", \"apparent_reach\": \"matter\", \"note\": \"Specific settlement range for C-1\"},\n{\"output_quote\": \"Any offer within the insurer's tier must be checked with Thorsby first.\", \"apparent_reach\": \"client\", \"note\": \"Joad GC check on offers within insurer authority\"},\n{\"output_quote\": \"The agreed schedule is plaintiff's reports March 8, 2024, defense reports June 14, 2024, and plaintiff's rebuttal July 8, 2024.\", \"apparent_reach\": \"matter\", \"note\": \"C-1 expert schedule dates\"},\n{\"output_quote\": \"Get client approval of names and credentials before engaging either.\", \"apparent_reach\": \"client\", \"note\": \"Joad expert-approval requirement\"},\n{\"output_quote\": \"Share a protocol 21 days ahead.\", \"apparent_reach\": \"matter\", \"note\": \"Testing protocol notice period\"},\n{\"output_quote\": \"Give the client at least ten days' notice and get quotes first.\", \"apparent_reach\": \"client\", \"note\": \"Joad testing notice and cost instruction\"},\n{\"output_quote\": \"Do not section the spindle without both sides' engineers present.\", \"apparent_reach\": \"matter\", \"note\": \"Destructive testing condition for C-1 spindle\"},\n{\"output_quote\": \"whether the Answer was amended, given the 41 mph recorder reading.\", \"apparent_reach\": \"matter\", \"note\": \"Specific matter fact: recorder speed reading\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:57:05+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6830,
+    "call_id": "953951bba4dcf74d",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 20295,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2604,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:57:05+00:00",
+    "total_cost_usd": 0.106728
+  }
+}

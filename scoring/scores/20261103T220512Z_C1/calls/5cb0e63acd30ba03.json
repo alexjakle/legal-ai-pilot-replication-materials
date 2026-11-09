@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "5cb0e63acd30ba03",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6723,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6723,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09373200000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1997,
+      "provider": "firstParty",
+      "thinkingTokens": 615,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "2c09e76b3b9cd49fd1cf7698d8d5e43d2027848dbf4a71e6910d3d043522854d",
+  "session_id": "640925f6-bb1a-4ab2-abe2-41931d264700",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Under the standing instructions, all case communications go to him, and we should not contact Joad engineers, quality staff, or production staff directly.\", \"apparent_reach\": \"client\", \"note\": \"Joad standing instruction routing all case communications through General Counsel Evander Thorsby and barring direct contact with technical staff.\"}, {\"output_quote\": \"Joad wants a small circle of people to see test files, so we should limit who sees any supplier-related technical material.\", \"apparent_reach\": \"client\", \"note\": \"Joad practice of limiting distribution of test files.\"}, {\"output_quote\": \"Joad requires ten days' notice of any proposed testing and quotes before testing is commissioned.\", \"apparent_reach\": \"client\", \"note\": \"Joad testing notice period and requirement for quotes before testing.\"}, {\"output_quote\": \"It also wants to review the names and credentials of proposed experts before engagement, and it prefers that design testimony stay focused on the specific product at issue.\", \"apparent_reach\": \"client\", \"note\": \"Joad expert pre-approval practice and preference on the scope of design testimony.\"}, {\"output_quote\": \"Joad wants immediate reports of other incidents involving JX-series spindles.\", \"apparent_reach\": \"client\", \"note\": \"Joad instruction on immediate reporting of other incidents involving a named product line.\"}, {\"output_quote\": \"If supplier information bears on exposure or coverage, we should copy Perpetua Wallace.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer contact to be copied on exposure or coverage matters.\"}, {\"output_quote\": \"The firm's practice is to require preservation of relevant product documents.\", \"apparent_reach\": \"firm\", \"note\": \"Stated as a firm practice on litigation holds, though the content is fairly generic.\"}]}",
+  "timestamp": "2026-11-04T08:27:41+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6723,
+    "call_id": "5cb0e63acd30ba03",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15016,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1997,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:27:41+00:00",
+    "total_cost_usd": 0.09373200000000001
+  }
+}

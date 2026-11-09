@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-X2",
+  "prompt_hash": "20dcf5f6de61b9c57860c5fe11f559b7d050e80ca32b98884dc113c70f88f9c8",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:08:44+00:00",
+  "session_id_in": null,
+  "session_id": "e227f1f5-8241-48b4-8087-7cba43338b15",
+  "text": "I can't answer the Joad questions from what the firm has on file. Nothing in the client or firm stores mentions Joad, so I have no settlement approval rules, supply chain changes, or test-record information for it. I won't guess at who Joad is or what it has told us.\n\n**What the file does say about Telltale Cardiac Systems' settlement approvals**\n- Settlement authority above $500,000 requires sign-off from the CFO, Cormac Brightwater.\n- The self-insured retention is $750,000 per claim. Insurance liaison Thaddeus Wren handles coverage.\n- Instructions come from the General Counsel, Marguerite Salvesen. Communications go to her, copying Thaddeus Wren.\n\nIf Joad is Telltale itself, a related entity, or a party whose approvals track Telltale's, these would be the relevant requirements. I'd want that confirmed first.\n\n**Supply chain changes and test records**\n- Nothing in the file records any report from the client on supply chain changes or on its test records.\n- The client requires litigation holds on relevant product documents. Supply chain and test records should be covered by the hold.\n\n**Next steps**\n1. Confirm with Marguerite Salvesen, copying Thaddeus Wren, who Joad is and how it relates to matter A-3.\n2. Ask the client directly about any supply chain changes and the status and location of test records.\n3. Confirm the litigation hold covers those categories.\n\nIf there are intake notes, emails, or a complaint that mention Joad, send them and I'll update the answer.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:08:44+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "e227f1f5-8241-48b4-8087-7cba43338b15",
+    "input_tokens": 2,
+    "output_tokens": 805,
+    "cache_write_tokens": 1294,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.01323,
+    "latency_ms": 9185,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 805,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1294,
+      "webSearchRequests": 0,
+      "costUSD": 0.01323,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 301,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1294,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

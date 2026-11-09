@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "84855708c0b6bd4a",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6457,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6457,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.082344,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1534,
+      "provider": "firstParty",
+      "thinkingTokens": 285,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "d618837059ef578bf0816c646ae48de9ea0f5bbbaa9bef3941220c129a1eeee9",
+  "session_id": "95a58e8b-4519-4d95-8436-100258192870",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"**ECN-6200-14**: the engineering change notice that added a retention clip to the TT-6200 lockout pin on later production.\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"**Ravenscar**: the ticketing system where the client tracks customer complaints.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"The TT-5500 uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat.\", \"apparent_reach\": \"client\", \"note\": \"Specific product-design fact about Toil & Trouble's product line, drawn from client files.\"},\n{\"output_quote\": \"Send technical questions through Franklin to Rennick Odell, the product safety lead. Do not contact client employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client communication protocol naming specific client personnel.\"},\n{\"output_quote\": \"Ask Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft,\", \"apparent_reach\": \"client\", \"note\": \"Client contact and copy instruction naming specific individuals.\"},\n{\"output_quote\": \"The client has said quality records are available on request.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific statement about the availability of records.\"},\n{\"output_quote\": \"Don't volunteer complaint-history information to plaintiff's counsel.\", \"apparent_reach\": \"client\", \"note\": \"Apparent client instruction on complaint-history disclosure.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:45:15+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6457,
+    "call_id": "84855708c0b6bd4a",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 13059,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1534,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:45:15+00:00",
+    "total_cost_usd": 0.082344
+  }
+}

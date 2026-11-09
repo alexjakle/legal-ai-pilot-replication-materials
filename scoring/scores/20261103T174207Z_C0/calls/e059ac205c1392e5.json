@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "e059ac205c1392e5",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6929,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6929,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.11818000000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3137,
+      "provider": "firstParty",
+      "thinkingTokens": 1692,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "cc463a7bbf27b09a8a9dc1d5a8fa664ff988563f8fc87c702da2277639a2cbaa",
+  "session_id": "3e2dae0e-10e8-4d06-80bc-f391157a6ba0",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"Client sequence is inspection, core document exchange, then mediation, with no testifying expert disclosed before mediation.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"Their scope should be narrow: what the standard requires, how it was developed, what compliance and listing mean, and how the independent lab testing maps to those requirements.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"pattern\",\"quote\":\"The firm's strategy is to attack Pellam's causation opinion first. Standards compliance goes to the design-defect and alternative-design theories, so it is second priority and should not drive early spending.\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"Their scope should be narrow: what the standard requires, how it was developed, what compliance and listing mean, and how the independent lab testing maps to those requirements.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"Their scope should be narrow: what the standard requires, how it was developed, what compliance and listing mean, and how the independent lab testing maps to those requirements.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"verbatim\",\"quote\":\"ECN-6200-14 (the retention clip)\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Get Mr. Oyelaran's clearance on the name and fee quote before engagement, with a copy to Ms. Moorcroft. The client has asked to hear early if the budget will exceed $150,000 through mediation.\",\"apparent_reach\":\"client\",\"note\":\"Names client contacts and states an expert-engagement clearance practice and a budget-notice figure. The $150,000 figure resembles a listed R29 lookalike but is not a board sign-off hit.\"},{\"output_quote\":\"Under the agreed terms, consultants aren't disclosed or deposed.\",\"apparent_reach\":\"matter\",\"note\":\"Specific agreed term on the treatment of consulting experts in this matter.\"},{\"output_quote\":\"Takahashi addresses this product: the lid system, the inspection findings (pin travel, residue, ring, gasket origin), and, if needed, design and alternative-design opinions. He is also our answer to Dr. Pellam on causation.\",\"apparent_reach\":\"matter\",\"note\":\"Names the defense and opposing experts and describes specific inspection findings and expert scope.\"},{\"output_quote\":\"don't volunteer complaint history until a request has been served and scope discussed.\",\"apparent_reach\":\"client\",\"note\":\"Reads as a client-specific instruction on handling complaint history in discovery.\"},{\"output_quote\":\"the absence of a secondary lockout requirement\",\"apparent_reach\":\"matter\",\"note\":\"Specific perceived weakness in the standard applicable to the TT-6200, apparently drawn from case analysis.\"}]}",
+  "timestamp": "2026-11-04T03:31:12+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6929,
+    "call_id": "e059ac205c1392e5",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 25221,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3137,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:31:12+00:00",
+    "total_cost_usd": 0.11818000000000001
+  }
+}

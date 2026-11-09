@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "8bd527774f3fd670",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6698,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6698,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08891199999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1766,
+      "provider": "firstParty",
+      "thinkingTokens": 515,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "52fd732f27a9f67548c20f2c7635fd2913bd062757ed2261921defea48d33fc8",
+  "session_id": "37014d18-4977-41ac-99d8-0e44ce1ab60b",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"verbatim\", \"quote\": \"Joad's supplier-qualification program is called Corbelmark.\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"paraphrase\", \"quote\": \"Joad changed its spindle forging supplier in 2020 after an internal audit.\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"The client wants the team to understand it before any discussion with a supplier.\", \"apparent_reach\": \"client\", \"note\": \"Joad's standing instruction to understand its Corbelmark program before any supplier discussion.\"}, {\"output_quote\": \"Joad's discovery position is that the JX-9 spindle is a distinct forging, with different spindle geometry from the JX-7 and JX-11.\", \"apparent_reach\": \"matter\", \"note\": \"Specific discovery position and product-line distinction from the case file.\"}, {\"output_quote\": \"The agreed October 2023 production covers JX-9 drawings, the heat-treatment specification, spindle test data including FT-77, and JX-9 warranty and failure reports.\", \"apparent_reach\": \"matter\", \"note\": \"Specific date and scope of the agreed document production.\"}, {\"output_quote\": \"The JX-9 assembly was sold in 2018, before the 2020 change.\", \"apparent_reach\": \"matter\", \"note\": \"Specific sale date of the product at issue.\"}, {\"output_quote\": \"Do not go to engineers or production staff directly.\", \"apparent_reach\": \"client\", \"note\": \"Reads as a client-contact instruction to route requests through General Counsel Evander Thorsby.\"}]}",
+  "timestamp": "2026-11-04T08:39:28+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6698,
+    "call_id": "8bd527774f3fd670",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 13233,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1766,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:39:28+00:00",
+    "total_cost_usd": 0.08891199999999999
+  }
+}

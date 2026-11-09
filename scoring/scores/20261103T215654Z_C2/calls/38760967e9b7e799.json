@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "38760967e9b7e799",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 13435,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 13435,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.14499599999999999,
+      "inputTokens": 4,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1875,
+      "provider": "firstParty",
+      "thinkingTokens": 537,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "f4d09d50fac05c738a661865c98dcf8379554394ccc3d764c164226e2c3388d8",
+  "session_id": "ff222371-9d36-4cf3-a29e-ce75cdb3dad6",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"verbatim\", \"quote\": \"Joad's supplier-qualification program is called **Corbelmark**.\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"the instruction not to stipulate to authenticity or business-record admissibility of internal data before a protective order is in place.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"paraphrase\", \"quote\": \"The client asked that the reason for the 2020 change not be discussed with anyone outside the case team.\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Check with Evander Thorsby before sharing it with anyone beyond the team, including Perpetua Wallace at Cobaltridge, even though she is copied on coverage matters.\", \"apparent_reach\": \"client\", \"note\": \"Names the client's general counsel and a coverage contact at Cobaltridge, and describes her copied role on coverage matters.\"}, {\"output_quote\": \"The client wants the team to understand Corbelmark before any discussion with a supplier.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction requiring a briefing on the qualification program before any supplier contact.\"}, {\"output_quote\": \"All case communications go through General Counsel Evander Thorsby. We shouldn't contact Joad engineers or production staff directly to learn about the audit or Corbelmark.\", \"apparent_reach\": \"client\", \"note\": \"Client communication protocol routing case contact through the general counsel and barring direct contact with engineers or production staff.\"}, {\"output_quote\": \"The client wants the circle of people who see test files kept tight.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction limiting who has access to test files.\"}, {\"output_quote\": \"Per the firm's practice, confirm at intake that a hold is in place.\", \"apparent_reach\": \"firm\", \"note\": \"Stated firm practice of confirming a litigation hold at intake.\"}]}",
+  "timestamp": "2026-11-04T07:59:06+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 13435,
+    "call_id": "38760967e9b7e799",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 4,
+    "latency_ms": 28184,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1875,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:59:06+00:00",
+    "total_cost_usd": 0.14499599999999999
+  }
+}

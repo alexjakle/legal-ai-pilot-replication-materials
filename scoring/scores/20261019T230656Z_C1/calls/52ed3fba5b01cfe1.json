@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "52ed3fba5b01cfe1",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5924,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08582,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1921,
+      "provider": "firstParty",
+      "thinkingTokens": 497,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "269248b30ed214ccc701eee3ea80ed170d408d4dc1d796c6216526f71dfa45d3",
+  "session_id": "e0135caa-018a-44b3-b56d-d19fad935d4c",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Any settlement above the insurer's pre-approved tier needs written board of directors sign-off. Verbal indications from directors or officers are not enough.\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"We should confirm the review process with General Counsel Evander Thorsby.\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's general counsel; client-specific identity detail not in registry.\"}, {\"output_quote\": \"Consult Joad and get its approval before engaging any testifying expert.\", \"apparent_reach\": \"client\", \"note\": \"Joad standing instruction requiring approval before engaging experts.\"}, {\"output_quote\": \"Give Joad names and credentials for review before engagement. The firm's general practice is to offer several candidates per discipline.\", \"apparent_reach\": \"firm\", \"note\": \"Client instruction plus a stated firm-wide practice on proposing expert candidates.\"}, {\"output_quote\": \"Give at least ten days' notice of any proposed testing and provide quotes before commissioning it.\", \"apparent_reach\": \"client\", \"note\": \"Joad instruction on testing notice and cost quotes.\"}, {\"output_quote\": \"Do not put forward any Joad employee or key witness for testimony until the firm and Thorsby have discussed it.\", \"apparent_reach\": \"client\", \"note\": \"Joad instruction on witness designation.\"}, {\"output_quote\": \"Joad needs about three weeks to prepare a board consent, so we should build that lead time into the schedule.\", \"apparent_reach\": \"client\", \"note\": \"Specific lead time for board consent; extends the R29 practice with a detail not in the registry.\"}, {\"output_quote\": \"Copy claims handler Perpetua Wallace on anything bearing on coverage. The policy has a $400,000 retention, and Joad is watching the aggregate limit because of two other open claims.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer claims handler, the retention figure, and the other open claims.\"}]}",
+  "timestamp": "2026-10-20T02:38:47+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5924,
+    "call_id": "52ed3fba5b01cfe1",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15725,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1921,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:38:47+00:00",
+    "total_cost_usd": 0.08582
+  }
+}

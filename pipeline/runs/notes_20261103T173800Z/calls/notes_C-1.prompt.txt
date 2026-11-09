@@ -1,0 +1,317 @@
+You are a legal assistant at a law firm. Below are the four documents for one matter. Write the matter notes: a numbered list of short items that a lawyer at the firm could consult later without opening the documents.
+
+Each item has a type:
+- fact: something established in the documents
+- position: a stance taken by a party or by the firm
+- lesson: something the team learned or would do differently
+
+Write each item so that it makes sense on its own. Do not add anything that is not in the documents. Use as many items as the documents warrant.
+
+Matter: C-1
+Client: Joad Axle Works
+
+=== 01-answer.md ===
+**DRAFT — PRIVILEGED — FOR PARTNER REVIEW BEFORE FILING**
+
+SUPERIOR COURT OF TAMARACK COUNTY
+
+ESTATE OF SVEN LINDQVIST, by and through KARIN LINDQVIST, Personal Representative, Plaintiff,
+
+v.
+
+JOAD AXLE WORKS, Defendant.
+
+No. TC-23-0459
+
+# DEFENDANT JOAD AXLE WORKS' ANSWER AND AFFIRMATIVE DEFENSES TO COMPLAINT FOR WRONGFUL DEATH
+
+Defendant Joad Axle Works ("Joad") answers the Complaint filed May 30, 2023, by the Estate of Sven Lindqvist (the "Estate") as follows.
+
+## Introduction
+
+Joad extends its condolences to the family of Mr. Lindqvist. It denies, however, that the JX-9 tandem drive axle assembly installed on the tractor Mr. Lindqvist was driving was defectively designed or manufactured, and denies that any act or omission of Joad caused the rollover of June 9, 2022.
+
+## Responses to Allegations
+
+1. Joad admits that it is a manufacturer of heavy-truck axle assemblies and that it is subject to personal jurisdiction in this State. Joad denies the remaining allegations of Paragraph 1.
+
+2. Joad lacks knowledge or information sufficient to admit or deny the allegations of Paragraphs 2 and 3 concerning the decedent's age, residence and family, and the appointment of Karin Lindqvist as personal representative, and on that basis denies them.
+
+3. Joad admits that it manufactured a JX-9 tandem drive axle assembly that was sold in 2018 to a tractor builder and installed in a tractor later operated by Redfern Freight. Joad denies that it sold the assembly to the decedent or to Redfern Freight directly.
+
+4. Joad lacks knowledge sufficient to admit or deny the allegations in Paragraphs 5 through 9 regarding the route, speed, load and driving conduct on June 9, 2022, including the allegation that the tractor-trailer overturned on the State Route 114 exit ramp, and therefore denies them.
+
+5. Joad admits, on information and belief, that after the incident the drive axle's left spindle was found separated at or near the inboard bearing shoulder. Joad denies the allegation that the separation preceded and caused the loss of control, and denies that the separation was the result of a defect in design or manufacture.
+
+6. Joad denies the allegations of Paragraphs 10 through 18 concerning design defect, including that the spindle fillet radius and heat treatment were inadequate, that Joad's fatigue testing was deficient, and that an economically feasible alternative design existed.
+
+7. Joad denies the allegations of Paragraphs 19 through 24 concerning negligence and failure to warn, including that Joad failed to provide adequate inspection and maintenance guidance.
+
+8. Joad lacks knowledge or information sufficient to admit or deny the allegations of Paragraphs 25 through 31 concerning the decedent's earnings, the Estate's economic losses alleged to exceed $2,400,000, and the survivors' loss of companionship, and denies them. Joad denies that the Estate is entitled to $11,500,000 or to any punitive damages.
+
+9. Joad denies each allegation not expressly admitted.
+
+## Affirmative and Other Defenses
+
+Joad pleads the following defenses in the alternative without taking on any burden that the law places on the Estate.
+
+**First Defense (Failure to State a Claim).** The Complaint fails to state a claim on which relief can be granted, in particular as to punitive damages.
+
+**Second Defense (No Defect).** The JX-9 was reasonably safe for its intended and reasonably foreseeable uses when it left Joad's control.
+
+**Third Defense (Industry Standards and State of the Art).** The JX-9 was designed, tested and manufactured in conformity with applicable industry standards and the state of the art in 2018.
+
+**Fourth Defense (Substantial Change or Alteration).** The assembly was changed after it left Joad's control. Any wear, repair, re-greasing, bearing replacement, overloading or modification occurring after sale may have contributed to the separation, and Joad is not responsible for those changes.
+
+**Fifth Defense (Inadequate Maintenance).** The assembly was subject to a recommended inspection and lubrication schedule. To the extent the tractor's owner and operator failed to follow it, their conduct was the sole or a contributing cause.
+
+**Sixth Defense (Intervening and Superseding Cause).** The conduct of third parties, including the employer, the tractor builder and the maintenance providers, was an independent cause of the rollover.
+
+**Seventh Defense (Comparative Fault).** To the extent the decedent drove at an excessive speed for the ramp curvature, exceeded the permitted hours of service, or failed to conduct a pre-trip inspection, the Estate's recovery is barred or reduced.
+
+**Eighth Defense (Apportionment).** Any liability of Joad must be several only and apportioned among all persons responsible, whether or not parties to this action.
+
+**Ninth Defense (Causation).** The condition of the spindle after the rollover may result from the rollover's impact forces rather than precede them. The Estate cannot show the separation caused the rollover.
+
+**Tenth Defense (Adequate Warnings).** The product literature adequately warned of the need for periodic inspection of spindle and bearing components.
+
+**Eleventh Defense (Limitations and Repose).** The claims are barred to the extent they are untimely under the applicable limitation and repose periods.
+
+**Twelfth Defense (Setoff).** Joad is entitled to a credit for amounts paid by other persons in satisfaction of damages for the same injury.
+
+**Thirteenth Defense (Punitive Damages).** The Complaint alleges no facts showing willful or reckless conduct, and an award would violate due process.
+
+**Fourteenth Defense (Preservation).** The Estate must preserve the tractor, the fractured spindle, bearings, wheel-end components and maintenance records. Joad requests a joint inspection protocol before any testing.
+
+**Fifteenth Defense (Reservation).** Joad reserves the right to amend this Answer.
+
+WHEREFORE, Joad asks that the Complaint be dismissed, that judgment be entered in its favor, and that it be awarded its costs.
+
+Dated: July 14, 2023
+
+KENGE, CARBOY & VHOLES LLP
+Imani Rutherford, Associate
+Cornelius Vandeleur, Partner
+Counsel for Defendant Joad Axle Works
+
+=== 02-emails.md ===
+# Email Thread: Estate of Lindqvist v. Joad Axle Works — Discovery Scope and Expert Disclosure
+
+---
+
+**From:** Octavia Brandvold <obrandvold@brandvoldsutter.example>
+**To:** Imani Rutherford <irutherford@kengecarboyvholes.example>
+**Date:** October 5, 2023, 9:20 AM
+**Subject:** Lindqvist — First requests and expert timetable
+
+Imani,
+
+Our first requests are on their way. In summary: the JX-9 design drawings and heat-treatment specifications; all fatigue and bench test data for the spindle, including the test series Joad ran before the 2018 release; warranty and failure reports for any JX-9 spindle; and communications with the tractor builder about spindle loads.
+
+I would also like a stipulation that Joad's test reports and engineering records are authentic and admissible as business records, to save both of us the cost of custodian depositions.
+
+On experts, I suggest plaintiff's reports on March 8, 2024 and defense reports on May 6, 2024. We will disclose a metallurgist, Dr. Fenwick Ashdown, and an accident reconstructionist, Dr. Lorraine Pettibone.
+
+Octavia
+
+---
+
+**From:** Imani Rutherford
+**To:** Octavia Brandvold
+**Date:** October 9, 2023, 3:45 PM
+**Subject:** RE: Lindqvist — First requests and expert timetable
+
+Octavia,
+
+Thanks. Starting with scope: Joad will produce the JX-9 drawings, the heat-treatment specification and the test data for the spindle, including fatigue series FT-77. We will not agree to produce warranty and failure reports for the entire JX line. The JX-9 spindle is a distinct forging, and the JX-7 and JX-11 have different spindle geometry. We can offer JX-9 spindle reports from 2018 through June 9, 2022.
+
+On the stipulation, I need to be direct. Joad's internal test data are among its most sensitive engineering records and the client will not stipulate to authenticity of any internal test data until a protective order is in place. Once there is one, we can talk about authenticity of specific documents. A blanket stipulation is not something I am authorized to give. I will send our form protective order today.
+
+On the expert dates, a May 6 defense date follows too close to the March reports. I would like defense reports to follow plaintiff's by four months, so July 8, 2024.
+
+Imani
+
+---
+
+**From:** Octavia Brandvold
+**To:** Imani Rutherford
+**Date:** October 12, 2023, 10:02 AM
+**Subject:** RE: Lindqvist — First requests and expert timetable
+
+Imani,
+
+I will review the protective order and revert quickly. Please do not hold production hostage to our negotiation of its terms; I will agree to an attorneys'-eyes-only tier for the test data.
+
+On the JX line, I will accept JX-9 spindle reports and will add reports for the JX-9 wheel-end bearing shoulder, because the fracture surface appears to start at the shoulder. I will agree not to seek JX-7 or JX-11 data unless discovery shows the JX-9 spindle shares a part with them.
+
+Four months is too long. Let me propose June 14 for defense reports, giving you roughly 98 days from March 8, and a plaintiff's rebuttal on July 8.
+
+Octavia
+
+---
+
+**From:** Imani Rutherford
+**To:** Octavia Brandvold
+**Date:** October 13, 2023, 1:30 PM
+**Subject:** RE: Lindqvist — First requests and expert timetable
+
+Octavia,
+
+June 14 works for defense reports and July 8 for a rebuttal. We agree on adding bearing-shoulder reports to the JX-9 spindle scope.
+
+We would like each side to produce a full list of the materials its experts considered and, for any physical testing of the spindle, a protocol shared 21 days before the testing so that both sides can attend. The fractured spindle must not be sectioned without our engineer present. I propose an inspection date at the storage facility the week of November 13.
+
+Regarding Mr. Lindqvist's employer, Redfern Freight, we plan to subpoena maintenance records for the tractor, including the last three bearing services. Please let us know if you intend to seek the same records so we can coordinate.
+
+Imani
+
+---
+
+**From:** Octavia Brandvold
+**To:** Imani Rutherford
+**Date:** October 17, 2023, 8:48 AM
+**Subject:** RE: Lindqvist — First requests and expert timetable
+
+Imani,
+
+Agreed on protocols, 21 days' notice, and no sectioning without both engineers. The week of November 13 is fine; I will confirm the day. I will send my own subpoena to Redfern Freight and we can share what comes back.
+
+I will sign the protective order if the AEO tier covers the FT-77 data and the design drawings. Please send the draft.
+
+Octavia
+
+---
+
+**From:** Imani Rutherford
+**To:** Octavia Brandvold
+**Cc:** Cornelius Vandeleur
+**Date:** October 17, 2023, 4:12 PM
+**Subject:** RE: Lindqvist — First requests and expert timetable
+
+Octavia,
+
+Draft protective order attached. Both tiers are in. Once it is signed, we will start producing on a rolling basis, beginning with the drawings.
+
+Two further points. We would like the order to bar use of produced material outside this case and to require return or destruction at the end. And so we avoid disputes later, please let us know now whether the Estate plans to depose Joad's chief axle engineer before the expert reports are due. If so, we would ask for the deposition to take place after the bearing-shoulder reports have been produced, since his testimony will concern them.
+
+Imani
+
+=== 03-memo.md ===
+**PRIVILEGED AND CONFIDENTIAL — ATTORNEY WORK PRODUCT**
+
+# MEMORANDUM
+
+**To:** Cornelius Vandeleur, Partner
+**From:** Imani Rutherford, Associate
+**Date:** January 22, 2024
+**Re:** Estate of Lindqvist v. Joad Axle Works (Tamarack County Superior Court, No. TC-23-0459) — Case Assessment and Strategy
+
+## 1. Overview
+
+On June 9, 2022, Sven Lindqvist, 47, was driving a Redfern Freight tractor-trailer down the State Route 114 exit ramp when the rig rolled onto its side. He died at the scene. The left spindle of the JX-9 tandem drive axle was found separated at the inboard bearing shoulder. The Estate, through Karin Lindqvist, claims the spindle fractured first, causing the loss of control, because of an inadequate fillet radius and heat treatment, and that Joad's pre-release fatigue testing was inadequate. The Estate claims economic loss above $2.4 million and demands $11.5 million.
+
+My assessment is that this is the most serious exposure in our docket for Joad. The injury is a death, the plaintiff is sympathetic, and the physical evidence of a fractured axle part is easy for a jury to understand. On the other hand, the sequence of events, whether the spindle failed before the rollover or in it, is genuinely contested and could decide the case. I estimate a gross verdict range if liability is established of $3.5 million to $7 million, with a probability of an adverse liability finding of about 35 percent.
+
+## 2. The Central Question: Sequence
+
+Plaintiff's metallurgist, Dr. Fenwick Ashdown, will argue that beach marks on the fracture surface show fatigue progression over many months and that the spindle was already cracked before June 9. Our metallurgist's preliminary read is that the final overload zone is large and the fracture surface shows heavy smearing from post-separation contact, which is consistent with an impact failure. Separately, Joad's privileged post-accident metallurgical review identified a tool mark from machining at the fracture origin that the reviewer could not rule out as the initiation point. That report has not been produced and is being withheld as work product. This is the first fight in the case. If the spindle separated because of the rollover, the design-defect theory collapses.
+
+Plaintiff's reconstruction witness, Dr. Lorraine Pettibone, will say the ramp speed was within the legal limit and that the driver had no reasonable explanation for the loss of control except an axle failure. We have a speed estimate from the tractor's electronic data recorder showing 41 miles per hour on a ramp posted at 35, which supports comparative fault and an alternative cause.
+
+## 3. Test Data and the FT-77 Series
+
+Joad's fatigue series FT-77, run in 2017, is the center of discovery. Four specimens in the series reached the runout; one failed at 82 percent of the runout. Plaintiff will argue that the failure shows an inadequate margin. Plaintiff may also seek to depose Hollis Pruett, a former Joad test technician who carried out the testing in the FT-77 fatigue series and left the company in 2019, about how it was conducted. The data will be produced only under the protective order, and consistent with Mr. Thorsby's direction, we will not stipulate to the authenticity of the internal test data until the order is in place. We have said so to Ms. Brandvold, and she has been reasonable, agreeing to an attorneys'-eyes-only tier. After the order is signed we can discuss authenticity document by document, and I recommend that we hold the line on any blanket stipulation, since that data will be a core part of plaintiff's affirmative case.
+
+## 4. Strategy: Standards Defense
+
+I recommend that we develop the industry-standards defense early and not wait for the design expert's report. The JX-9 spindle geometry and the fatigue protocol were designed to the consensus standards for heavy-vehicle axle components. To explain those to a jury, we should retain Dr. Mathilde Grosvenor, who chairs the axle subcommittee of the relevant heavy-vehicle standards body, as a witness on how the standards are written and how manufacturers are expected to satisfy them. She should be a separate engagement from our testifying design engineer, Dr. Raul Esquivel. Dr. Esquivel will address this axle's design and the testing; Dr. Grosvenor will address what the standards require. Keeping them apart avoids having one expert vouch for both the design and the yardstick used to judge it, and it shields Dr. Esquivel from cross-examination on committee matters. Dr. Grosvenor's retention letter should limit her to the standards and their history, and her work should be kept apart from the testing analysis.
+
+Our first target, though, should be plaintiff's causation expert. Before we engage on the merits of the design-defect theory, I want to find out whether that expert's opinion that the spindle was already cracked before June 9 is reliable and fits the facts of this case. Specifically, does it rest on any testing or replication of the failure? Does it rule out the alternative explanations, including separation during the rollover and the 41 mile-per-hour recorder reading? And what does the spindle itself show, given the smearing our metallurgist has described and the eight months it sat in a yard? I would mount that challenge first. If the causation case is narrowed, the fillet radius and heat treatment arguments matter far less, and the design dispute becomes less relevant.
+
+## 5. Settlement
+
+Mr. Thorsby has told us that Joad's insurer, Cobaltridge Indemnity, has pre-approved settlement authority up to $1.5 million. Anything beyond that tier needs the written sign-off of Joad's board of directors. No offer above $1.5 million should be communicated, even as a signal, until we have that document in hand. The Estate has not made a formal opening demand beyond the complaint figure. I do not recommend settlement talks now. The sequence evidence is too uncertain, and the Estate will price the case on the worst version of our test data. After the spindle examination, we should revisit, and if the sequence picture is favorable, a number in the $1.2 million to $2 million range could be explored. A figure in the upper half of that range would require the board process, which takes about three weeks, so we must flag it early.
+
+## 6. Risks
+
+- **FT-77.** A specimen that failed short of runout.
+- **Jury sympathy.** A widow with two teenage children.
+- **Maintenance records.** If Redfern's last bearing service did not follow the schedule, our alteration and maintenance defenses improve, but plaintiff may try to blame Joad's manual.
+- **Spoliation.** The spindle was stored for eight months in a yard before it was moved. We must establish the chain of custody.
+- **Punitive claim.** The Estate pleads it but alleges no specific facts.
+
+## 7. Next Steps and Budget
+
+Inspection protocol and joint lab examination (February); engage Dr. Esquivel and Dr. Grosvenor; subpoena Redfern's maintenance records; prepare for Dr. Ashdown's deposition. Projected fees and costs through trial: $780,000 to $960,000.
+
+=== 04-instruction-letter.md ===
+**JOAD AXLE WORKS**
+Office of the General Counsel
+2250 Foundry Lane, Brackenridge
+
+June 22, 2023
+
+Cornelius Vandeleur, Esq.
+Kenge, Carboy & Vholes LLP
+
+**Re: Estate of Lindqvist v. Joad Axle Works — Instructions to Counsel**
+
+Dear Cornelius,
+
+Thank you for agreeing to represent Joad in this wrongful death action. The suit arrived last week. Please treat this letter as our instructions for the defense, and share it with the team that will be working on the file.
+
+## Background
+
+Mr. Lindqvist's death in the June 2022 rollover is a tragedy, and we do not take it lightly. Our engineering department has reviewed the information available so far and does not believe the JX-9 axle failed because of its design. We do not yet know whether the spindle separated before or during the rollover, and we want that question answered by proper examination before we form a view on liability. Our engineers will cooperate with your team. One background point: Joad changed its spindle forging supplier in 2020 after an internal audit, and I ask that you not discuss the reason with anyone outside your case team.
+
+## Handling Our Test Data
+
+Joad's internal test data, including the fatigue series from 2017, represent years of work and are valuable to our competitors. If the plaintiff asks us to agree that these records are genuine as a matter of course, the answer is no, unless there is a protective order in place first. We will not stipulate to the authenticity of our internal test data without one. Insist on a protective order with a tier limiting access to outside counsel and experts. We will produce what the court requires, but not before the order is signed.
+
+## Settlement and Authority
+
+Our insurer, Cobaltridge Indemnity, has pre-approved authority for settlement up to $1,500,000. If discussions ever go beyond that point, you may not make or accept any offer without written sign-off from our board of directors, which meets monthly and can act in writing between meetings if the chair approves. Please give me enough notice. I need about three weeks to get a board consent properly prepared. Do not rely on a verbal indication from any director or officer. If an offer would fall within the insurer's tier, check with me before you convey it, because the insurer will want to be involved.
+
+## Experts
+
+I want to review the names and credentials of all proposed testifying experts before you engage them. Please also tell me whether you plan to use anyone to speak to industry practice. I would prefer that our design testimony stays focused on this axle. Joad has people who have served on standards bodies, and I am glad to help you identify candidates.
+
+## Reporting
+
+- A written report every six weeks, with a call after significant events.
+- A first case assessment within 60 days, including a range of exposure and a probability of an adverse result.
+- Copy the insurer's claims handler, Perpetua Wallace, on anything that bears on coverage, and send her the monthly invoice summary.
+- A short note after every deposition within five business days.
+
+## Standing Guidelines
+
+1. All case communications should come to me. Do not contact current Joad engineers or production staff directly; I will arrange access and preparation. Our supplier-qualification program is called Corbelmark, and you should understand how it works before any discussion with a supplier.
+2. A litigation hold went to our departments on June 15, 2023. Please send me your own preservation recommendations, especially for the 2017 test lab.
+3. The fractured spindle and the tractor are in a storage facility not under our control. Move quickly to secure a joint inspection protocol, and send me notice of any proposed testing at least ten days in advance.
+4. No public statements. Refer any inquiry from the media, from regulators or from customers to me.
+5. Limit attendance at depositions to one lawyer from your firm and one from the insurer.
+6. Invoices go to my office monthly and to Ms. Wallace in summary. Rates follow the master services agreement of March 2022.
+7. Alert me immediately if you learn of other incidents involving JX-series spindles.
+
+## Witnesses and Facts
+
+Our chief axle engineer, Bertil Oakhurst, ran the 2017 test program and will be a central witness. I would like your team to interview him early and to keep a tight circle around who sees the test files. Our sales manager for the tractor-builder account can discuss how the JX-9 was specified and sold. Neither should be put forward for testimony until you and I have discussed it.
+
+## Budget
+
+Please prepare a phase budget within 45 days. I expect that a wrongful death case with a metallurgical dispute will cost in the range of $700,000 to $1,000,000 through trial, and I would like to know where you think we will land. Expert and testing costs will be most of the variance. I would like quotes for any testing before it is commissioned, and I would like to know who is paying for the shared lab work.
+
+## Insurance Coverage
+
+Our policy has a retention of $400,000 and an aggregate limit that we are watching closely because of two other open claims. Ms. Wallace will tell you if the carrier reserves its rights, and I will want to hear the same day.
+
+Please confirm receipt.
+
+Sincerely,
+
+Evander Thorsby
+General Counsel
+Joad Axle Works
+
+Reply with JSON only, no other text, in this form:
+{"items": [{"type": "fact", "text": "..."}, {"type": "position", "text": "..."}]}

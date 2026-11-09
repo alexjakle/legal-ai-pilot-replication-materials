@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "45e3f40fa74d8f9468f0c1533f4be3d1fffbbec9b0cbbe10ca334928973acc39",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:27:30+00:00",
+  "session_id_in": null,
+  "session_id": "91b7d5f2-6460-457c-8513-571bd641208c",
+  "text": "# Response to plaintiff's counsel on a stipulation to authenticity of Joad's fatigue testing documents\n\n**Caveat:** The client and firm stores are empty, so I have no record of Joad's prior positions, earlier stipulations, protective orders, or the documents themselves. This is based on general principles and should be checked against Joad's litigation history and the governing jurisdiction's rules.\n\n## Recommended response\n\n**Don't agree to a blanket, up-front stipulation. Decline for now, but stay cooperative.** Say that Joad is willing to discuss a document-by-document authenticity stipulation once we know exactly which documents are at issue and have reviewed them.\n\nReasons for caution:\n\n1. **We haven't verified anything.** \"Are what they purport to be\" is a representation about provenance, authorship, date, and completeness. We can't make it before collecting and reviewing the documents, including versions, drafts, and whether any were prepared by third-party labs or others.\n2. **The category is vague.** \"Fatigue testing documents\" may sweep in test protocols, raw data, summaries, internal emails, draft reports, and superseded or abandoned testing. Authenticity can differ for each.\n3. **Stipulations tend to expand.** Plaintiff may later argue that authenticity also covers business-record status, accuracy, or authorship, or that it waives foundation and hearsay objections. We should state that it doesn't.\n4. **The documents may matter on notice, knowledge, defect, and design.** We shouldn't concede anything about them casually, including that they relate to the axle at issue.\n5. **There may be protective-order, confidentiality, trade-secret, or privilege issues.** Some documents may have been produced in other cases under restrictions, or may include privileged or work-product material.\n6. **There is no deadline.** Authenticity stipulations are normally handled through Rule 26(f) discussions, pretrial stipulations, or Rule 36 requests for admission, not as a precondition to discovery.\n\n## What to ask for first\n\n**Ask plaintiff's counsel for a specific list, by Bates number or other description, of the documents they want us to stipulate to.** Also ask:\n\n- Where they got them: Joad's production in another case, a public source, or a third party.\n- Which authenticity grounds they rely on, such as FRE 901 or 902, and whether they are also seeking business-record treatment under FRE 803(6).\n- Whether they will make the stipulation reciprocal, covering authenticity of their own key documents.\n\n## Reply terms\n\nAny stipulation we offer later should be:\n\n- Limited to **authenticity only**.\n- Expressly **reserving** objections on relevance, hearsay, foundation, completeness (FRE 106), FRE 403, privilege, confidentiality, and the \"substantial similarity\" of the tests or product to the one at issue.\n- **Mutual**.\n- Subject to the protective order.\n\n## Internal steps in parallel\n\n- Collect the fatigue testing files and confirm custodians, versions, dates, and who generated them.\n- Check Joad's prior cases for earlier authenticity stipulations or admissions, to stay consistent and avoid inconsistent positions.\n- Confirm that a litigation hold is in place.\n- Check whether a protective order or confidentiality agreement is needed before production.\n- Check the scheduling order and local rules for stipulation and admission deadlines.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:27:30+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "91b7d5f2-6460-457c-8513-571bd641208c",
+    "input_tokens": 2,
+    "output_tokens": 1758,
+    "cache_write_tokens": 740,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020544,
+    "latency_ms": 16499,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1758,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 740,
+      "webSearchRequests": 0,
+      "costUSD": 0.020544,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 647,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

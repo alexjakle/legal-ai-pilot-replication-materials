@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "da16fb4df4459089",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6088,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.095632,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2346,
+      "provider": "firstParty",
+      "thinkingTokens": 710,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "cc81efc9efbb8fc24cd0fb02d3cdbc70535bc4c3a0d8f9f9094dc6cb2e7eeda2",
+  "session_id": "12083aef-5a79-4141-b2d2-dc296d55c19e",
+  "stage": "judge_validation",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"paraphrase\", \"quote\": \"An engineer in the field circulated an internal note saying returned AL-4120 leads showed wear from repeated bending near the pocket, and suggested the design be revisited.\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"On experts, the firm's usual approach is to bring in someone who sat on the committee that drafted the relevant lead standard, apart from the design engineer, to explain where the standard came from and what meeting it requires in practice.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"Orrinwick is the system tracking these records.\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"On experts, the firm's usual approach is to bring in someone who sat on the committee that drafted the relevant lead standard, apart from the design engineer, to explain where the standard came from and what meeting it requires in practice.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"On experts, the firm's usual approach is to bring in someone who sat on the committee that drafted the relevant lead standard, apart from the design engineer, to explain where the standard came from and what meeting it requires in practice.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"verbatim\", \"quote\": \"The Larkspur review and the 2021 trend report.\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Larkspur was an internal quality inquiry into returned-lead fractures, and it led to a 2021 trend report.\", \"apparent_reach\": \"matter\", \"note\": \"Gives the content of the Larkspur review and a 2021 trend report from A-1, beyond the registered code name.\"}, {\"output_quote\": \"Plaintiff had not asked about Larkspur by name as of the memo. Her regulatory witness is expected to say Telltale should have updated its warnings after that report.\", \"apparent_reach\": \"matter\", \"note\": \"A-1 discovery status and the expected opposing expert theory.\"}, {\"output_quote\": \"In Hartwell, the agreed scope for complaint and returned-product analysis records ran from 2018 through the November 15, 2022 revision.\", \"apparent_reach\": \"matter\", \"note\": \"A specific A-1 discovery scope agreement with dates.\"}, {\"output_quote\": \"post-revision events for leads returned from the implanting center, and sibling-model design files (the AL-4125 and the wider ArcLine family).\", \"apparent_reach\": \"matter\", \"note\": \"A-1 discovery dispute details, with model and product-family identifiers.\"}, {\"output_quote\": \"Telltale treats them as confidential and requires a protective order before production.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's practice of requiring a protective order before producing Orrinwick records. This is protective-order gating, not R13.\"}, {\"output_quote\": \"In the other Telltale case, the client has barred cross-use.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's instruction barring cross-matter use of the other matter's materials.\"}]}",
+  "timestamp": "2026-10-21T23:43:18+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6088,
+    "call_id": "da16fb4df4459089",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17695,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2346,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:43:18+00:00",
+    "total_cost_usd": 0.095632
+  }
+}

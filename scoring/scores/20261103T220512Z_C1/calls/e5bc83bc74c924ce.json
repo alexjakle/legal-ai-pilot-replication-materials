@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "e5bc83bc74c924ce",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6627,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6627,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.098804,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2289,
+      "provider": "firstParty",
+      "thinkingTokens": 894,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "806694b3324dab513119670f6f672b93fc49cc098c33c17fda354cdc196625ec",
+  "session_id": "52159a20-623c-441f-bb0d-054d870d1305",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Toil & Trouble prefers mediation before expert work.\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"keep any report to the one-page format the client requires.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Tell the GC at once if the case could lead to pulling the TT-6200, because the client has promised its largest retail partners advance warning.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Settlement authority above the set tier needs formal sign-off from the CFO, or from the board in writing. Verbal indications aren't enough, and we must not signal any offer above the tier before sign-off.\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Before engaging any testifying expert, send General Counsel Franklin Oyelaran each proposed expert's name, credentials, prior testimony and fee quote. Get his clearance before anyone is signed.\", \"apparent_reach\": \"client\", \"note\": \"Toil & Trouble practice requiring GC clearance of testifying experts, naming the GC.\"}, {\"output_quote\": \"Get quotes before any costly testing. Expert and testing costs are the biggest budget swing items.\", \"apparent_reach\": \"client\", \"note\": \"Budget instruction on expert and testing costs, presented as client-specific guidance.\"}, {\"output_quote\": \"The lesson on file is to bring opposing counsel along by offering early production of key documents and fixed expert dates, with a trigger if mediation fails.\", \"apparent_reach\": \"firm\", \"note\": \"Negotiation tactic for securing early mediation, described as a lesson from the firm's files.\"}, {\"output_quote\": \"Copy Delphine Moorcroft in risk management on anything touching exposure or coverage.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact and a standing instruction on exposure and coverage communications.\"}, {\"output_quote\": \"Staff no more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"Staffing cap presented as a Toil & Trouble instruction.\"}]}",
+  "timestamp": "2026-11-04T08:25:28+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6627,
+    "call_id": "e5bc83bc74c924ce",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17288,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2289,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:25:28+00:00",
+    "total_cost_usd": 0.098804
+  }
+}

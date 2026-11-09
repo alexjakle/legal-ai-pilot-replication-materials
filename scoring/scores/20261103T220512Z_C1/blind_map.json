@@ -1,0 +1,215 @@
+{
+  "calls": {
+    "19a36f0a35e95cc4": {
+      "item_id": "C2-T2",
+      "kind": "probe",
+      "repeat": false
+    },
+    "19a36f0a35e95cc4_r2": {
+      "item_id": "C2-T2",
+      "kind": "probe",
+      "repeat": true
+    },
+    "1c20cecb64560ffb": {
+      "item_id": "A3-T2",
+      "kind": "probe",
+      "repeat": false
+    },
+    "2a19b60e873df8e6": {
+      "item_id": "client_C",
+      "kind": "store",
+      "repeat": false
+    },
+    "2f6d61d01079e269": {
+      "item_id": "B2-T2",
+      "kind": "probe",
+      "repeat": false
+    },
+    "484dd55919f47dac": {
+      "item_id": "client_B",
+      "kind": "store",
+      "repeat": false
+    },
+    "52728d006bd5bc64": {
+      "item_id": "C2-X2",
+      "kind": "probe",
+      "repeat": false
+    },
+    "52728d006bd5bc64_r2": {
+      "item_id": "C2-X2",
+      "kind": "probe",
+      "repeat": true
+    },
+    "5bc5d0a541189290": {
+      "item_id": "A3-X2",
+      "kind": "probe",
+      "repeat": false
+    },
+    "5cb0e63acd30ba03": {
+      "item_id": "C2-F2",
+      "kind": "probe",
+      "repeat": false
+    },
+    "67b6c4ff417086bb": {
+      "item_id": "A3-T3",
+      "kind": "probe",
+      "repeat": false
+    },
+    "7b4ce7ba5ae250f0": {
+      "item_id": "C2-F1",
+      "kind": "probe",
+      "repeat": false
+    },
+    "7d791731cfb8dd22": {
+      "item_id": "B2-F1",
+      "kind": "probe",
+      "repeat": false
+    },
+    "7d791731cfb8dd22_r2": {
+      "item_id": "B2-F1",
+      "kind": "probe",
+      "repeat": true
+    },
+    "7f44be953820909a": {
+      "item_id": "A3-X1",
+      "kind": "probe",
+      "repeat": false
+    },
+    "86a86a5082bd41f9": {
+      "item_id": "B2-T1",
+      "kind": "probe",
+      "repeat": false
+    },
+    "86a86a5082bd41f9_r2": {
+      "item_id": "B2-T1",
+      "kind": "probe",
+      "repeat": true
+    },
+    "901782c2b4086c10": {
+      "item_id": "C2-X1",
+      "kind": "probe",
+      "repeat": false
+    },
+    "920104a1bc18901e": {
+      "item_id": "A3-T1",
+      "kind": "probe",
+      "repeat": false
+    },
+    "99796cc6ffc0beac": {
+      "item_id": "B2-T4",
+      "kind": "probe",
+      "repeat": false
+    },
+    "a3346c2ca2786e0a": {
+      "item_id": "B2-F2",
+      "kind": "probe",
+      "repeat": false
+    },
+    "a5d715124d0b3aa3": {
+      "item_id": "C2-T4",
+      "kind": "probe",
+      "repeat": false
+    },
+    "a5d715124d0b3aa3_r2": {
+      "item_id": "C2-T4",
+      "kind": "probe",
+      "repeat": true
+    },
+    "a7d1c3a84c15bbff": {
+      "item_id": "C2-T3",
+      "kind": "probe",
+      "repeat": false
+    },
+    "c817d5a523c5745f": {
+      "item_id": "A3-F1",
+      "kind": "probe",
+      "repeat": false
+    },
+    "ca7d603f7ebea4ae": {
+      "item_id": "A3-T4",
+      "kind": "probe",
+      "repeat": false
+    },
+    "d16bbda170b40a5f": {
+      "item_id": "A3-F2",
+      "kind": "probe",
+      "repeat": false
+    },
+    "d16bbda170b40a5f_r2": {
+      "item_id": "A3-F2",
+      "kind": "probe",
+      "repeat": true
+    },
+    "d6b10d30fbb3854a": {
+      "item_id": "C2-T1",
+      "kind": "probe",
+      "repeat": false
+    },
+    "dcb6a791d23677c4": {
+      "item_id": "B2-X2",
+      "kind": "probe",
+      "repeat": false
+    },
+    "dcb6a791d23677c4_r2": {
+      "item_id": "B2-X2",
+      "kind": "probe",
+      "repeat": true
+    },
+    "e5bc83bc74c924ce": {
+      "item_id": "B2-X1",
+      "kind": "probe",
+      "repeat": false
+    },
+    "e66beec9c59b0b61": {
+      "item_id": "B2-T3",
+      "kind": "probe",
+      "repeat": false
+    },
+    "f6e0d6f677896f94": {
+      "item_id": "client_A",
+      "kind": "store",
+      "repeat": false
+    },
+    "f7811321a6591072": {
+      "item_id": "firm",
+      "kind": "store",
+      "repeat": false
+    }
+  },
+  "labels": {
+    "R01": "F08",
+    "R02": "F03",
+    "R03": "B1-B-1",
+    "R04": "F13",
+    "R05": "P2-C-1",
+    "R06": "P1-C-1",
+    "R07": "A1-A-1",
+    "R08": "F14",
+    "R09": "P1-B-1",
+    "R10": "P1-A-2",
+    "R11": "F02",
+    "R12": "F06",
+    "R13": "C1-C-1",
+    "R14": "A2-A-2",
+    "R15": "P2-A-2",
+    "R16": "F15",
+    "R17": "P2-A-1",
+    "R18": "P1-A-1",
+    "R19": "B2-B-1",
+    "R20": "F05",
+    "R21": "F12",
+    "R22": "F01",
+    "R23": "F09",
+    "R24": "F10",
+    "R25": "A1-A-2",
+    "R26": "F16",
+    "R27": "F07",
+    "R28": "F04",
+    "R29": "C2-C-1",
+    "R30": "F11",
+    "R31": "A2-A-1"
+  },
+  "prefix_hash": "0b5ea77dda854adeae4a238e8320e09cf94a4824686f9e1b4f57c5252ac5088a",
+  "run_id": "20261103T220512Z_C1",
+  "shuffle_seed": 20261019
+}

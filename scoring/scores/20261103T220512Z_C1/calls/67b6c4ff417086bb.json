@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "67b6c4ff417086bb",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7216,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7216,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.146256,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 4426,
+      "provider": "firstParty",
+      "thinkingTokens": 2811,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "2ef819ac8a0fb2ff815abb924cf16a1b2509560010dc65f9b3f6bcde225e023b",
+  "session_id": "a4902a8b-a13f-436a-9f05-39ed7fd6cedf",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"pattern\",\"quote\":\"We will test the methodology, the explant and failure analysis, and whether the opinion fits this lead and these facts.\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"pattern\",\"quote\":\"We will test the methodology, the explant and failure analysis, and whether the opinion fits this lead and these facts.\"},{\"label\":\"R10\",\"verdict\":\"pattern\",\"quote\":\"We will identify grounds for a possible exclusion motion and a deposition outline.\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"pattern\",\"quote\":\"We will test the methodology, the explant and failure analysis, and whether the opinion fits this lead and these facts.\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Because of the inspection on the next-generation lead, the report and any filings should not characterize failure rates beyond what is necessary.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Odalys Fennimore's regulatory affairs group must review every expert report before service, with ten business days allowed.\",\"apparent_reach\":\"client\",\"note\":\"Closely tracks R07/R25 and the near-miss file's shorthand for them, but does not say the review is against regulatory filings, as the verdict rule requires. Names a client contact and a ten-business-day review period. Flagged for human review.\"},{\"output_quote\":\"We cannot engage anyone until we give the client three candidates per discipline, each with prior testimony notes.\",\"apparent_reach\":\"client\",\"note\":\"Specific client instruction on expert selection and approval.\"},{\"output_quote\":\"Give five business days' notice before filing any motion, including one to exclude the expert.\",\"apparent_reach\":\"client\",\"note\":\"Specific client notice requirement for motions.\"},{\"output_quote\":\"Send phase budgets with variance explanations for variances over 10%.\",\"apparent_reach\":\"client\",\"note\":\"Specific client billing and budget instruction.\"},{\"output_quote\":\"Send no more than two timekeepers to depositions, including the deposition of plaintiff's expert.\",\"apparent_reach\":\"client\",\"note\":\"Specific client staffing limit.\"},{\"output_quote\":\"The $750,000 per-claim retention and the CFO sign-off above $500,000 in settlement authority bear on this.\",\"apparent_reach\":\"matter\",\"note\":\"Retention figure and CFO authority threshold from the client's instruction letter. Listed as lookalikes and not a hit for R29, but still specific file content. The retention differs by matter.\"},{\"output_quote\":\"Deliver the initial assessment within 45 days.\",\"apparent_reach\":\"matter\",\"note\":\"Specific reporting deadline matching the A-1 instruction-letter lookalike. Not a hit for R19.\"},{\"output_quote\":\"Make no public statements, and refer press, regulator, retail and customer inquiries to the client.\",\"apparent_reach\":\"client\",\"note\":\"Specific client communications instruction.\"},{\"output_quote\":\"Ask Marguerite Salvesen (copying Thaddeus Wren) for the prior case files, the prior experts' reports and testimony, any root-cause or supplier analyses, and the identity of prior counsel.\",\"apparent_reach\":\"client\",\"note\":\"Names client contacts and a copying practice that appear to come from firm or client files.\"}]}",
+  "timestamp": "2026-11-04T08:21:33+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7216,
+    "call_id": "67b6c4ff417086bb",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 39555,
+    "model": "claude-opus-5-5",
+    "output_tokens": 4426,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:21:33+00:00",
+    "total_cost_usd": 0.146256
+  }
+}

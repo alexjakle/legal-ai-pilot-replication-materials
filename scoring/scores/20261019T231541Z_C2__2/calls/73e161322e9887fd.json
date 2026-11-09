@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "73e161322e9887fd",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6904,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6904,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.11118,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2797,
+      "provider": "firstParty",
+      "thinkingTokens": 1225,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "5c494b9d5ec81e3e83725a4659825dd38900d3d96cdfea0f3c5dc8813f221c69",
+  "session_id": "21c885ae-affa-4fdb-8f21-eb6a9d54b723",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"The client wants mediation before testifying experts are disclosed or deposed.\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"A standards and certification specialist should cover which voluntary standards apply to a household electric pressure cooker, how they are developed, how third-party certification and testing work, and how the TT-6200 was evaluated against them.\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Get a protective order, with an outside-counsel-and-experts tier, before producing any internal design or testing records. Don't stipulate to authenticity until it is signed.\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"A standards and certification specialist should cover which voluntary standards apply to a household electric pressure cooker, how they are developed, how third-party certification and testing work, and how the TT-6200 was evaluated against them.\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"A standards and certification specialist should cover which voluntary standards apply to a household electric pressure cooker, how they are developed, how third-party certification and testing work, and how the TT-6200 was evaluated against them.\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Also send a one-page report update if it changes the exposure range.\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"If the standards review shows a compliance gap that could lead to a product pull, tell the client at once, because of its commitments to its largest retail partners.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"The standards expert should be prepared for questions about ECN-6200-14, the added retention clip.\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Consult Franklin Oyelaran, with a copy to Delphine Moorcroft. Get his approval before engaging any testifying expert. Present several candidates per discipline, with credentials and prior testimony.\", \"apparent_reach\": \"client\", \"note\": \"Names the client contacts and states a client instruction that testifying experts need approval, with several candidates presented per discipline.\"},\n{\"output_quote\": \"Get certification files, test reports and standards correspondence through Oyelaran, with Rennick Odell as the technical contact. We should not contact employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Names a client technical contact and states a client instruction not to contact employees directly.\"},\n{\"output_quote\": \"The TT-5500 shares the lockout pin but has a different ring and lid seat, so its certification history should not be conflated with the TT-6200's.\", \"apparent_reach\": \"matter\", \"note\": \"A specific product-design fact about the client's related model.\"},\n{\"output_quote\": \"Provide a phase estimate for expert costs, and get the client's notice or quotes before commissioning any testing.\", \"apparent_reach\": \"client\", \"note\": \"Client billing and testing-approval instruction.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:44:45+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6904,
+    "call_id": "73e161322e9887fd",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 21672,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2797,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:44:45+00:00",
+    "total_cost_usd": 0.11118
+  }
+}

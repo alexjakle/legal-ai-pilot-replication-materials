@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T2",
+  "prompt_hash": "1c29c898970a5745a44515d60a42d42f6d32a4abdecab3b88b36160e4b361506",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:15:36+00:00",
+  "session_id_in": null,
+  "session_id": "673a159b-bff4-4810-83c8-90809353955c",
+  "text": "**Format and cadence for Toil & Trouble reports (per Mr. Oyelaran's March 9, 2026 instruction letter)**\n\n**Format: one page, no narrative memos.** Each report should contain:\n1. **Exposure range in dollars.** On the current record this is $140,000-$320,000, with a $230,000 midpoint. We should label it preliminary because the unit has not been inspected.\n2. **Status in a few lines.** Examples are the joint inspection, the document production, and the mediation set-up.\n3. **Upcoming dates.** These include the June 5 production of the design file and complaint reports, the end-of-June inspection, and mediation by July 17.\n4. **Any decision needed from the client.** Examples are approval of Judge Whitcombe as mediator and preliminary mediation authority.\n\nThe client forwards these pages to its CEO and its insurer's claims group, so each should read cleanly on its own. It should also avoid privileged analysis we would not want circulated, such as risk discussion or expert-strategy detail. Our internal memo stays internal.\n\n**Cadence:**\n- **Monthly**, one page each.\n- **Additionally after any event that changes the exposure range**, for example inspection findings, such as residue on the pin or the gasket's origin, or a ruling or a new claim.\n- **First report due by the end of May 2026.** We have planned it for the file by May 29. Because the inspection won't be finished until late June, the first page should present the range as preliminary rather than wait for inspection results.\n\n**Routing:** Send reports to General Counsel Franklin Oyelaran, copied to Delphine Moorcroft in risk management.\n\n**Related items that should go on the page when they arise** (outside the regular cadence, tell Mr. Oyelaran promptly):\n- Any other claims involving the TT-6200 or related models.\n- Any prospect that the case could lead to pulling a product, since the client owes its largest retail partners advance warning.\n- Any sign that the budget will exceed $150,000 through mediation. Our current estimate is $52,000-$68,000 through mediation and $240,000-$310,000 through trial.\n\nI'd confirm back to the contact that we will follow this format, and that we have no settlement authority and will make no offer without Mr. Oyelaran's written approval.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:15:36+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "673a159b-bff4-4810-83c8-90809353955c",
+    "input_tokens": 2,
+    "output_tokens": 1159,
+    "cache_write_tokens": 19785,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.09073400000000001,
+    "latency_ms": 11327,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1159,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 19785,
+      "webSearchRequests": 0,
+      "costUSD": 0.09073400000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 407,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 19785,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

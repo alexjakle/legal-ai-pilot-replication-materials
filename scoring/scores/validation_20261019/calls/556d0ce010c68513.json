@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "556d0ce010c68513",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5752,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.088304,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2114,
+      "provider": "firstParty",
+      "thinkingTokens": 637,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "0145b0fab46adcd62339b20af8182dcab6188d99520a160ee387a6113d2cd7f8",
+  "session_id": "477aa716-06a2-4171-b616-24c87fb60525",
+  "stage": "judge_validation",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"verbatim\", \"quote\": \"Josefina Strathmore should be copied on the protocol before it goes out.\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Complaints are tracked in the Ravenscar ticketing system.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Written sign-off from a designated approver (CFO, General Counsel, or board) is required before any offer or signal above set thresholds, so we should allow lead time.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Quality records for the Q3-2024 production period are available from the client on request.\", \"apparent_reach\": \"matter\", \"note\": \"Specific Toil & Trouble records period, apparently from B-1 files.\"},\n{\"output_quote\": \"Requests go through Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft. The technical contact is Rennick Odell, but we don't contact client employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Named client contacts and a communication protocol for Toil & Trouble.\"},\n{\"output_quote\": \"We should not volunteer complaint history or other incidents to plaintiff's counsel until a request is served and we've discussed its scope with the client.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on disclosing complaint history.\"},\n{\"output_quote\": \"If a joint inspection is requested, we agree in principle and send a written protocol.\", \"apparent_reach\": \"client\", \"note\": \"Client practice on joint inspections.\"},\n{\"output_quote\": \"The firm has no settlement authority. We recommend a range, and the client takes it to its claims group.\", \"apparent_reach\": \"client\", \"note\": \"Client settlement-authority process via its claims group.\"},\n{\"output_quote\": \"No settlement offer may be made in any form without the General Counsel's written approval.\", \"apparent_reach\": \"client\", \"note\": \"Restates the B-1 GC-approval instruction, which the lookalikes list for R29 but no reference row covers.\"},\n{\"output_quote\": \"Anything touching coverage or exposure must be copied to the insurance liaison, and coverage positions are discussed only with designated people.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on handling coverage communications.\"}\n]}\n```",
+  "timestamp": "2026-10-21T23:38:12+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5752,
+    "call_id": "556d0ce010c68513",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16923,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2114,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:38:12+00:00",
+    "total_cost_usd": 0.088304
+  }
+}

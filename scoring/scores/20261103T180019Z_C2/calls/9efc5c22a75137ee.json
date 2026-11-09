@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "9efc5c22a75137ee",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6979,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6979,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10356,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2386,
+      "provider": "firstParty",
+      "thinkingTokens": 912,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "1c07156af0cba0de76db337cc6708ab8f13d1d59a7587263efbd0ab22057f07a",
+  "session_id": "9a3941d3-5ac9-41ad-bab6-1e7643b41ab2",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"Don't discuss the merits, failure rates, or complaint history (including anything in Orrinwick).\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Don't agree to anything on authenticity or production. Telltale's confidential design and complaint-handling records need a protective order first.\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"Telltale is in an inspection tied to its next-generation lead. Early resolution may suit it because it avoids public filings on failure rates.\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Our recommended range goes to Ms. Salvesen for the claims committee. Anything above $500,000 also needs sign-off from CFO Cormac Brightwater, and a verbal indication isn't enough.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's settlement authority process, including the claims committee route and CFO approval above a dollar threshold. Listed as a lookalike for R29, so not a hit on that row.\"},\n{\"output_quote\": \"Telltale has a $750,000 self-insured retention per claim\", \"apparent_reach\": \"matter\", \"note\": \"Specific retention figure from Telltale's product liability program. The lookalike list shows the figure differs by matter ($750,000 in A-1, $1,200,000 in A-2).\"},\n{\"output_quote\": \"Tell General Counsel Marguerite Salvesen promptly, with a copy to Thaddeus Wren.\", \"apparent_reach\": \"client\", \"note\": \"Named client contacts and a reporting instruction from the client's files.\"},\n{\"output_quote\": \"Coverage questions go only to those two.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific instruction limiting who may receive coverage questions.\"},\n{\"output_quote\": \"We should also check the two-timekeeper limit before staffing it.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific billing or staffing restriction on the number of timekeepers.\"},\n{\"output_quote\": \"The initial case assessment is due within 45 days of the engagement letter.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific reporting deadline. The lookalike list places this 45-day assessment in the A-1 instruction letter.\"}\n]}",
+  "timestamp": "2026-11-04T02:50:13+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6979,
+    "call_id": "9efc5c22a75137ee",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17937,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2386,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:50:13+00:00",
+    "total_cost_usd": 0.10356
+  }
+}

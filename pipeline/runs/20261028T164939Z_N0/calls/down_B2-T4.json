@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "680f6fd1332c75c72c2369eae124ce7da810129ea8e74235528253304f78b032",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:53:04+00:00",
+  "session_id_in": null,
+  "session_id": "0de319d2-a10f-4e61-a812-77697bc91833",
+  "text": "**Short answer:** Retain a separate standards expert, distinct from the engineering expert. Position the two as complementary witnesses with clearly divided roles.\n\nThe client and firm stores are empty, so I have no prior matter files, existing expert relationships, or firm positions on this. This is general practice guidance, and I'm assuming we are defending Toil & Trouble as the manufacturer. If we are on the other side, the logic is the same but the emphasis shifts.\n\n**Who the standards expert should be**\n- Someone with direct experience in the relevant standards body for this product class (for example, UL, ASTM, ANSI, or an IEC-type committee). Committee membership, drafting or voting history, or a role in certification or conformity assessment all help.\n- Someone who can speak to why the standards exist, how they were developed, what they cover, and how manufacturers and test labs apply them in practice.\n- Someone with a clean record on prior testimony, no conflicts with the plaintiff or competitors, and no adverse prior statements about these standards.\n\n**How to position them relative to the engineering expert**\n- **Standards expert:** Explains the framework: scope, edition history, which version applied at the time of manufacture, how the standards are applied, and what conformity means. They also explain the standards' limits, such as being voluntary consensus minimums and not a complete safety guarantee.\n- **Engineering expert:** Covers the product's design, testing, failure analysis, and causation. They apply the standards' test protocols to this product and the facts, but they do not serve as the general authority on the standards.\n- **Sequence:** The standards expert sets the framework, and the engineering expert's testing and conclusions build on it. This lets the engineer focus on the product, and it shields them from cross-examination on standards-body practice outside their expertise.\n- **Consistency:** Align their opinions before disclosure so they don't contradict each other on which standard applies, how it is read, or whether the product conforms. Keep their reports and communications structured with disclosure and work-product rules in mind (for example, FRCP 26(a)(2) and 26(b)(4)(C), or the state equivalents).\n- **Admissibility:** Compliance with voluntary standards is generally relevant but not dispositive, and it varies by jurisdiction. Prepare for challenges to the standards expert's qualifications and methodology, and confirm the governing law on how standards compliance is treated.\n\n**Next steps**\n1. Run conflicts checks on candidate experts.\n2. Confirm which standards and editions apply, and the applicable jurisdiction's rules on their admissibility.\n3. Check whether our engineering expert has any standards-committee ties or prior statements that could overlap or conflict.\n4. Define each expert's scope in their engagement letters.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:53:04+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "0de319d2-a10f-4e61-a812-77697bc91833",
+    "input_tokens": 2,
+    "output_tokens": 1356,
+    "cache_write_tokens": 722,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.016452,
+    "latency_ms": 13447,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1356,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 722,
+      "webSearchRequests": 0,
+      "costUSD": 0.016452,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 455,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

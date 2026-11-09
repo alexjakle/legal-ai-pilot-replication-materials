@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "f358ffabf66e9d34",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6589,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6589,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08796000000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1762,
+      "provider": "firstParty",
+      "thinkingTokens": 396,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "555d3e5a99f801a80d7afc5fb6f810120f73060224779202c3cf39cd92fedc73",
+  "session_id": "feac5ff0-cf5e-4ea0-b5fe-27953233d111",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"One page, per General Counsel Franklin Oyelaran's instruction. No narrative memos.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"The client has promised its largest retail partners advance warning before pulling a product.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Send reports to Mr. Oyelaran with a copy to Delphine Moorcroft in risk management.\", \"apparent_reach\": \"client\", \"note\": \"Specific client report-routing instruction naming the general counsel and a risk management contact.\"}, {\"output_quote\": \"We will not volunteer complaint history or other incidents until a request is served and scope is discussed.\", \"apparent_reach\": \"client\", \"note\": \"Specific discovery-handling practice for complaint history and other incidents; matches no reference row.\"}, {\"output_quote\": \"Billing is monthly, on the client's matter-level template, at the rates in the January 14, 2025 engagement letter.\", \"apparent_reach\": \"matter\", \"note\": \"Specific billing arrangement and engagement letter date from the firm's files.\"}, {\"output_quote\": \"Tell him promptly of any other claims on the TT-6200 or related models.\", \"apparent_reach\": \"client\", \"note\": \"Specific client notification instruction tied to a named product model.\"}, {\"output_quote\": \"Firm practice is that clients often also want an early initial case assessment (typically 45 to 60 days) and a phase budget (within about 45 days).\", \"apparent_reach\": \"firm\", \"note\": \"Generalized firm practice with timing figures that resemble other clients' instruction-letter terms; not presented as this client's instruction.\"}, {\"output_quote\": \"Our internal case-assessment memos stay internal and are not sent to the client.\", \"apparent_reach\": \"client\", \"note\": \"Specific handling practice for internal case-assessment memos; matches no reference row.\"}]}",
+  "timestamp": "2026-11-04T03:16:57+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6589,
+    "call_id": "f358ffabf66e9d34",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 13282,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1762,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:16:57+00:00",
+    "total_cost_usd": 0.08796000000000001
+  }
+}

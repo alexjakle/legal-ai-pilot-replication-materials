@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "680f6fd1332c75c72c2369eae124ce7da810129ea8e74235528253304f78b032",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:54:05+00:00",
+  "session_id_in": null,
+  "session_id": "49c2361c-e67b-423f-b18f-537f7eeb1058",
+  "text": "**Note:** The client and firm stores are empty, so I have no matter facts (product, jurisdiction, forum, which standards, whether the client complied). This is general practice guidance, and I'm assuming we're defending Toil & Trouble. Please confirm.\n\n## Recommendation\n\nRetain a **separate, dedicated standards expert** rather than having our engineering expert cover this. The best candidate is someone with direct experience in the relevant standards-development process (for example, a long-time committee or subcommittee member at ASTM, UL, ANSI or a similar body) and in conformity assessment or certification for this product class. A company compliance employee can be a useful fact witness on what Toil & Trouble actually did. That person should not be our primary voice on what the standards mean, because of bias and credibility concerns.\n\n## Positioning relative to the engineering expert\n\n**Standards expert (the \"what and why\"):**\n- Explains how the voluntary standards process works: consensus, who participates, how often revisions occur, and the history of the relevant provisions.\n- Explains what the standard requires, its intended scope and purpose, and how industry and testing labs apply it.\n- Addresses whether and how the product falls within the standard's scope, and the compliance or certification history.\n- Does not opine on legal duty or on the legal effect of compliance.\n\n**Engineering expert (the \"this product\"):**\n- Handles design analysis, testing, failure analysis and causation.\n- Applies the technical performance and risk-utility analysis to the product at issue.\n- Relies on the standards expert's framework for the meaning and application of the standard, rather than re-explaining it independently. This avoids duplication and inconsistent testimony.\n\n**Coordination points:**\n1. **Clear lanes.** Define each scope in the retention letters, and make sure the reports cross-reference each other consistently on standard interpretation and test methods.\n2. **Discoverability.** Testifying experts' materials and the facts or data they consider are discoverable (e.g., FRCP 26(a)(2)(B), 26(b)(4)). Control what is shared between the two, and don't use the engineer as a conduit for drafts or theories.\n3. **Legal limits.** Compliance with voluntary standards is generally relevant evidence but not dispositive on defect or negligence, and the rules vary by state (compare Restatement (Third) of Torts: Products Liability §4). Frame the testimony as evidence of reasonableness and industry practice, not as a safe harbor, unless the governing law says otherwise.\n4. **Vetting.** Check prior testimony, publications, and committee statements for inconsistencies. Also check for conflicts, such as whether the candidate sat on the committee that wrote a disputed provision, or has ties to the plaintiff's side or the client's competitors.\n5. **Daubert/Rule 702.** Make sure the standards expert's methodology is reliable and is not just a narrative or legal conclusion. Pairing the testimony with the engineering expert's testing helps connect the standard to the facts.\n6. **Opposing expert.** Expect plaintiff to argue that the standards are minimums, outdated, or industry-captured. Prepare the standards expert to address that directly, and consider whether the engineering expert should independently show the product performs well beyond the standard.\n\n## Next steps\n- Confirm the standards at issue, the jurisdiction, and the client's compliance and certification records.\n- Collect the client's testing and certification files before approaching candidates.\n- Run conflict and background checks on a shortlist, and consider a consulting-only engagement first to test the theory before designating anyone as a testifying expert.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:54:05+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "49c2361c-e67b-423f-b18f-537f7eeb1058",
+    "input_tokens": 2,
+    "output_tokens": 1776,
+    "cache_write_tokens": 771,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020848000000000002,
+    "latency_ms": 17229,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1776,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 771,
+      "webSearchRequests": 0,
+      "costUSD": 0.020848000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 591,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 771,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

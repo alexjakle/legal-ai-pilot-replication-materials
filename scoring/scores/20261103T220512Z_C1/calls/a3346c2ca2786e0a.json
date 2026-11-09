@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "a3346c2ca2786e0a",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6482,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6482,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.079064,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1360,
+      "provider": "firstParty",
+      "thinkingTokens": 301,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "561c2c142cd982df3a73014e9b445286fa9360db487eecfde6414ec866e00f5a",
+  "session_id": "ecb2d020-db1d-4bbc-916e-c092b764426c",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"All case communications go through his office, so don't approach client employees directly.\", \"apparent_reach\": \"client\", \"note\": \"States a standing Toil & Trouble instruction routing case communications through the General Counsel's office.\"}, {\"output_quote\": \"Franklin Oyelaran (copy Delphine Moorcroft in risk management)\", \"apparent_reach\": \"client\", \"note\": \"Names the client's General Counsel and a risk management contact to copy, which reads like a detail from the client's instructions.\"}, {\"output_quote\": \"the TT-6200 (six-quart electric pressure cooker) and the \\\"related models\\\" the client refers to in its reporting instructions\", \"apparent_reach\": \"matter\", \"note\": \"Gives the product model and description at issue, and refers to related models in the client's reporting instructions.\"}]}",
+  "timestamp": "2026-11-04T08:25:10+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6482,
+    "call_id": "a3346c2ca2786e0a",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 10455,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1360,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:25:10+00:00",
+    "total_cost_usd": 0.079064
+  }
+}

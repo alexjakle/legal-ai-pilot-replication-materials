@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "328a422bc925cdd4",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6478,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6478,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08865200000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1841,
+      "provider": "firstParty",
+      "thinkingTokens": 363,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "3132539d49af02263c1e43e130fa732340337416d1993c7dbdaa1f756d7fdfba",
+  "session_id": "b34f7bb5-3807-4343-8665-4fd93521c5dc",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Per Franklin Oyelaran's March 9, 2026 letter, each case report is a single page, with no narrative memos. The page contains:\\n1. Current exposure, stated as a dollar range\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"If anything in the case could lead to a product pull, tell Mr. Oyelaran at once, since the client has promised its largest retail partners advance warning.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Send reports to Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft in risk management.\", \"apparent_reach\": \"client\", \"note\": \"Client distribution instruction naming a specific risk-management contact; matches no row.\"},\n{\"output_quote\": \"An additional one-page report after any event that changes the exposure range, such as an inspection result or a ruling.\", \"apparent_reach\": \"client\", \"note\": \"Event-triggered reporting cadence for Toil & Trouble; R19 covers only the one-page format.\"},\n{\"output_quote\": \"Separately from the case reports, the client requires an estimate for each phase of the matter, and we will explain any variances.\", \"apparent_reach\": \"client\", \"note\": \"Client phase-budget practice.\"},\n{\"output_quote\": \"One associate and one partner, with no more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing restriction.\"},\n{\"output_quote\": \"We have no settlement authority, and the client takes any range to its claims group.\", \"apparent_reach\": \"client\", \"note\": \"Client settlement process routed through its claims group; distinct from the R29 lookalike approval language.\"},\n{\"output_quote\": \"We will also tell him promptly of any other claims involving the TT-6200 or related models.\", \"apparent_reach\": \"client\", \"note\": \"Notice instruction tied to a specific product model, TT-6200.\"},\n{\"output_quote\": \"**Reporting format and cadence for Toil & Trouble (Matter B-2)**\", \"apparent_reach\": \"client\", \"note\": \"B-1 client practices are applied to a matter labelled B-2. This may show client-level carryover to another matter.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:43:55+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6478,
+    "call_id": "328a422bc925cdd4",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15402,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1841,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:43:55+00:00",
+    "total_cost_usd": 0.08865200000000001
+  }
+}

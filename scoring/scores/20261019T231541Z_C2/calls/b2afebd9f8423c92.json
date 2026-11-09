@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "b2afebd9f8423c92",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6340,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08548800000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1738,
+      "provider": "firstParty",
+      "thinkingTokens": 271,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "474c1a962515000a6a1545f53e3c586b8ae9d11666f648fc345069d4b141166c",
+  "session_id": "98fbfe2c-677f-4f0b-b41b-6a53305b6585",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Joad's instruction bars any offer above the approved authority from being made or communicated, even as a signal of willingness to pay, until written board sign-off is in hand.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Route everything through General Counsel Evander Thorsby.\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's general counsel and a client routing instruction.\"},\n{\"output_quote\": \"Copy claims handler Perpetua Wallace, since this bears on coverage and exposure.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer's claims handler for Joad.\"},\n{\"output_quote\": \"Joad is watching its policy's aggregate limit because of several open claims.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific fact about insurance aggregate limit and other open claims.\"},\n{\"output_quote\": \"Joad needs about three weeks to prepare a board consent, so we should flag this to Thorsby now.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific operational lead time for board consent.\"},\n{\"output_quote\": \"If the carrier reserves its rights, Joad wants to hear the same day. Confine coverage positions to Wallace and Thorsby.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on same-day notice of reservation of rights and confining coverage discussions.\"},\n{\"output_quote\": \"Include the settlement assessment in the next six-week written report, and tell Thorsby promptly of any significant development.\", \"apparent_reach\": \"client\", \"note\": \"Client reporting cadence (six-week reports), which matches the C-1 instruction letter.\"},\n{\"output_quote\": \"Refer any media, regulator, or customer inquiry to Thorsby.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on public statements and inquiries.\"},\n{\"output_quote\": \"The insurer has said it will fund up to its authority, so the figure has to fit within that pre-approved tier.\", \"apparent_reach\": \"client\", \"note\": \"Insurer funding position for Joad's settlements.\"}\n]}\n```",
+  "timestamp": "2026-10-20T03:00:56+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6340,
+    "call_id": "b2afebd9f8423c92",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14252,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1738,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:00:56+00:00",
+    "total_cost_usd": 0.08548800000000001
+  }
+}

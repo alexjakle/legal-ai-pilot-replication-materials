@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "4379b50c4eeecf7f2593bade0fa001b35046c14acaf5d7839572a3106b296de5",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:09:35+00:00",
+  "session_id_in": null,
+  "session_id": "a77b2c1b-6b3d-41e7-a83c-0d5c6fd6535d",
+  "text": "**Recommendation: retain a separate standards expert, distinct from the engineering expert.**\n\n**Who:** A standards-process specialist, such as a former or current member of the relevant voluntary standards committee (for example, the UL/ASTM-type committee covering household pressure cookers). That person can explain how the standards were developed, what they require for lid-lock and pressure-release mechanisms, how compliance is tested and certified, and how the industry applies them. Look for committee experience, certification or testing-lab background, and no ties to the opposing side.\n\n**Positioning relative to the engineering expert:**\n- **Divide the roles.** The standards expert covers what the standards require, how they are applied and how the TT-6200 was evaluated against them. The engineering expert covers how the TT-6200 actually works and performs: the bayonet lid, the float valve, the lockout pin, the roughly 10 psi operating pressure, the failure analysis and the testing.\n- **Keep the lanes distinct.** The engineer should rely on the standards expert's account of the requirements rather than offering an independent view of what the standards mean. The standards expert should not give opinions on causation or design defects. This limits overlap, protects against a Daubert-type challenge to either witness, and avoids a single witness being attacked on both fronts.\n- **Sequence them.** The standards expert's account of the requirements should come first in the narrative, and the engineer then applies it to the product. Their reports should be consistent but should not be coordinated in a way that makes one look like an echo of the other.\n- **Be realistic about the value.** Compliance with voluntary standards is generally relevant but not conclusive on defect. The standards expert supports the point that the design met or exceeded industry practice, and the engineer supports the point that it worked safely.\n\n**Client steps required before anyone is engaged:**\n- Expert and testing costs are the largest budget swing items, so a second testifying expert needs the client's input. Send General Counsel Franklin Oyelaran, copying Delphine Moorcroft in risk management, each candidate's name, credentials and prior testimony, plus a fee quote.\n- Obtain his clearance before anyone is signed, and do not contact client employees directly. Any technical input from the client, such as certification records, should be requested through the GC's office.\n- Reflect the added cost in the phase budget, with prior approval if it exceeds budget. Since exposure is affected, include it in the one-page monthly report format (exposure range in dollars, status in a few lines, upcoming dates and decisions needed), which goes on to the CEO and the insurer's claims group.\n- Preserve all documents on standards compliance, testing and certification under the litigation hold.\n\n**Open points to check:** whether the client prefers mediation before expert work, in which case this retention might be deferred and the early document production and fixed expert dates approach used with opposing counsel; and whether the standards analysis reveals any gap that could affect other TT-6200 claims or a retail-partner recall warning, which would need to go to the GC at once.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:09:35+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a77b2c1b-6b3d-41e7-a83c-0d5c6fd6535d",
+    "input_tokens": 2,
+    "output_tokens": 985,
+    "cache_write_tokens": 1788,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.017006,
+    "latency_ms": 9685,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 985,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1788,
+      "webSearchRequests": 0,
+      "costUSD": 0.017006,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1788,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

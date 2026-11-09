@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F1",
+  "prompt_hash": "4142a61c0c82832bcb0a9cbd633482b4e19cb6ab808609313e4aee4c46fe97a8",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:11:29+00:00",
+  "session_id_in": null,
+  "session_id": "c943b7d6-2b75-4390-b12a-b137e49b2b0d",
+  "text": "I can't give you names or details because the firm's stored knowledge has nothing on Joad's earlier matters. It holds no test results, metallurgical findings, or witness names from prior cases, and I won't invent any. The materials I have are Joad's standing instructions and the firm's general practice points.\n\n**Where to get the earlier-matter detail**\n- Ask General Counsel Evander Thorsby for prior test files, expert reports, and deposition transcripts from earlier JX-series spindle claims. Go through him, not Joad's engineers or production staff.\n- Check the firm's own closed-matter files and conflicts database for prior work for Joad.\n- Ask Perpetua Wallace (the insurer's claims handler) whether the carrier has files from earlier claims. Copy her only on anything bearing on coverage.\n- Ask Joad to keep the circle of people who see test files tight, so decide who needs the earlier files before circulating them.\n\n**Points from the stored knowledge that bear on preparing for expert and testing issues**\n- **Experts:** Before engaging any testifying expert, give Thorsby their names, credentials, prior testimony, and fee quotes, and get clearance. Tell him whether anyone will speak to industry practice. Joad prefers design testimony focused on the specific product at issue, and it has offered to help identify candidates who have served on standards bodies.\n- **Testing:** Get quotes before commissioning any testing, clarify who pays for shared lab work, and give Joad ten days' notice of any proposed testing.\n- **Other incidents:** Report immediately any other incidents involving JX-series spindles. Prior claims may be relevant to this one.\n- **Preservation:** Confirm that litigation holds cover relevant product documents.\n- **Reporting:** The first case assessment is due within 60 days and must include an exposure range and a probability of an adverse result. If the range may exceed the insurer's pre-approved tier, flag it early. Board written consent takes about three weeks.\n\nIf you can send me the earlier-matter files, I can summarize the test results, metallurgical findings, and witnesses from them.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:11:29+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "c943b7d6-2b75-4390-b12a-b137e49b2b0d",
+    "input_tokens": 2,
+    "output_tokens": 772,
+    "cache_write_tokens": 2053,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.015936,
+    "latency_ms": 6191,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 772,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2053,
+      "webSearchRequests": 0,
+      "costUSD": 0.015936,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 81,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2053,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

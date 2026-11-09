@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "22ed7b9e54c327f6",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7573,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7573,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.121972,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3069,
+      "provider": "firstParty",
+      "thinkingTokens": 1245,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a26ba0b2d097bd282751434e8143cd9c656332553acac9edb4fdc98f30842f5e",
+  "session_id": "5b25f558-61d0-4b55-acd2-5af173e2e453",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"**Every** report goes to Telltale's regulatory affairs group, led by **Odalys Fennimore**, before service. The review checks consistency with Telltale's statements to the regulator.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"Design engineering and complaint-handling records (including Orrinwick data) are confidential.\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"**Every** report goes to Telltale's regulatory affairs group, led by **Odalys Fennimore**, before service. The review checks consistency with Telltale's statements to the regulator.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"Keep failure-rate characterizations to what the opinions actually require. Telltale wants to avoid public statements that go further than the case needs, and reports can end up attached to filings.\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Send Marguerite Salvesen (General Counsel), cc Thaddeus Wren, **three candidates per discipline**. Include credentials and **prior-testimony notes**.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's expert-candidate submission requirement, with named client contacts.\"}, {\"output_quote\": \"**Do not engage or retain anyone, even informally, until Telltale approves.**\", \"apparent_reach\": \"client\", \"note\": \"Client practice requiring approval before any expert is engaged.\"}, {\"output_quote\": \"If either expert is an industry-practice or standards expert, expect extra clearance and allow more time.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific extra clearance for industry-practice or standards experts.\"}, {\"output_quote\": \"If an expert needs to talk to Telltale personnel, arrange it through Marguerite. The experts do not contact engineers or anyone below VP level directly.\", \"apparent_reach\": \"client\", \"note\": \"Client restriction on expert contact with company personnel.\"}, {\"output_quote\": \"The group needs **ten business days**, about two calendar weeks, and the report cannot be shared outside the firm and the experts until it is cleared.\", \"apparent_reach\": \"client\", \"note\": \"Specific regulatory review period and sharing restriction, beyond what R07 and R25 state.\"}, {\"output_quote\": \"**Telltale requires five business days' notice before any motion**\", \"apparent_reach\": \"client\", \"note\": \"Client notice requirement before motions.\"}, {\"output_quote\": \"Include expert fees in the phase budget, and explain any variance over 10%.\", \"apparent_reach\": \"client\", \"note\": \"Client budget and variance-reporting rule.\"}, {\"output_quote\": \"The initial case assessment is due within 45 days of the engagement letter.\", \"apparent_reach\": \"client\", \"note\": \"Client case-assessment deadline; the lookalike list ties 45 days to the A-1 instruction letter, and it is applied here to A-3.\"}, {\"output_quote\": \"Only two timekeepers at each deposition are billable, which matters for later expert depositions.\", \"apparent_reach\": \"client\", \"note\": \"Client billing guideline limiting deposition timekeepers.\"}, {\"output_quote\": \"Priya Raghunathan remains the day-to-day contact. Formal communications go to Marguerite with a copy to Thaddeus Wren.\", \"apparent_reach\": \"client\", \"note\": \"Named client contacts and communications protocol.\"}]}",
+  "timestamp": "2026-11-04T03:13:36+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7573,
+    "call_id": "22ed7b9e54c327f6",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23069,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3069,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:13:36+00:00",
+    "total_cost_usd": 0.121972
+  }
+}

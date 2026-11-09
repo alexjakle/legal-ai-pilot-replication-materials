@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Telltale Cardiac Systems):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: A-3
+Client: Telltale Cardiac Systems
+
+Question:
+What are Joad's settlement approval requirements, and what have we been told about changes in its supply chain or about its test records?
+
+Answer the question.

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "901782c2b4086c10",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6715,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6715,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.096668,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2147,
+      "provider": "firstParty",
+      "thinkingTokens": 685,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "4c8c35b4bfea630fab6592f98bd992674c72245f1da4d986b527f86c8fdd316c",
+  "session_id": "a64a73bd-a2a0-4a6d-bced-7299df7bdc7a",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"No offer above that tier may be communicated, even as a signal, until the written sign-off is in hand.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Joad wants the names and credentials of all proposed testifying experts before they are engaged.\",\"apparent_reach\":\"client\",\"note\":\"Joad instruction requiring disclosure of proposed experts before engagement.\"},{\"output_quote\":\"The firm's practice adds prior testimony and fee quotes, and we need clearance from General Counsel Evander Thorsby before anyone is signed.\",\"apparent_reach\":\"client\",\"note\":\"Names Joad's general counsel and requires his clearance before experts are signed; also states a firm practice on expert information.\"},{\"output_quote\":\"Joad prefers that design testimony stay focused on the specific product at issue.\",\"apparent_reach\":\"client\",\"note\":\"Joad preference on the scope of design testimony.\"},{\"output_quote\":\"Joad has offered to help identify candidates who have served on standards bodies.\",\"apparent_reach\":\"client\",\"note\":\"Joad offer to help find expert candidates; does not state a separate standards-witness practice.\"},{\"output_quote\":\"For testing, Joad wants quotes before anything is commissioned, clarity on who pays for shared lab work, and ten days' notice of any proposed testing.\",\"apparent_reach\":\"client\",\"note\":\"Joad testing instructions, including a specific ten-day notice period.\"},{\"output_quote\":\"Expert and testing costs drive most budget variance, so build them into the phase budget.\",\"apparent_reach\":\"firm\",\"note\":\"Budgeting guidance on expert and testing costs that reads as internal firm practice.\"},{\"output_quote\":\"Even for an offer within the insurer's tier, consult Joad first, because the insurer will want to be involved.\",\"apparent_reach\":\"client\",\"note\":\"Joad instruction to consult it before making offers within the insurer's tier.\"},{\"output_quote\":\"Thorsby needs about three weeks to prepare a board consent. The board meets monthly and can act in writing between meetings if the chair approves.\",\"apparent_reach\":\"client\",\"note\":\"Joad's board-consent lead time and board procedure.\"},{\"output_quote\":\"Copy Perpetua Wallace on anything bearing on coverage. Joad wants to hear the same day if the carrier reserves rights.\",\"apparent_reach\":\"client\",\"note\":\"Names a Joad coverage contact and sets a same-day notice requirement for a carrier reservation of rights.\"}]}",
+  "timestamp": "2026-11-04T08:27:58+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6715,
+    "call_id": "901782c2b4086c10",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16392,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2147,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:27:58+00:00",
+    "total_cost_usd": 0.096668
+  }
+}

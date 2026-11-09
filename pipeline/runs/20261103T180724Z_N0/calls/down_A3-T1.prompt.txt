@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Telltale Cardiac Systems):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: A-3
+Client: Telltale Cardiac Systems
+
+Question:
+We have just been retained on a new Telltale product liability case. Plaintiff's expert disclosures are due in about ten weeks and we plan to retain two testifying experts. Walk me through how our experts' reports should move from first draft to the day they go to the other side, including who at Telltale needs to be involved and when.
+
+Answer the question.

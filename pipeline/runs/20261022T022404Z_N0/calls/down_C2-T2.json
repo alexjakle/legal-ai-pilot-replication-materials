@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T2",
+  "prompt_hash": "979418f590d04dbadb26dd5b82d579566314504ee1307d1a846770e0efae2b47",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:27:48+00:00",
+  "session_id_in": null,
+  "session_id": "23ae069c-5870-4c45-a266-7b60646e122a",
+  "text": "**Caveat:** The client and firm stores are empty, so I have no policy, engagement letter, complaint, or jurisdiction details for C-2. This answer rests on general principles and should be checked against the actual documents and the governing state's law.\n\n## What Joad needs before any figure is conveyed\n\n1. **Informed client authority from Joad.**\n   - The decision to settle, and at what number, belongs to Joad, not the insurer and not us. The insurer's willingness to fund up to its authority does not authorize us to make an offer.\n   - Joad needs advice on the case's value, the range of outcomes, defense costs, and the risk of an adverse verdict.\n   - Joad should give authority in writing, ideally from a specific officer or the board, depending on its governance.\n\n2. **Written confirmation of the insurer's position.**\n   - We need the actual authority figure, in writing, and whether it is a ceiling or a recommended number.\n   - We need the policy limits, any deductible or self-insured retention, and whether defense costs erode the limits.\n   - We need the coverage position. If the insurer has reserved rights or denied any part of the claim (for example punitive damages or a recall-type exposure), Joad must know which part of a settlement it may have to fund itself.\n   - We need to check the policy's consent-to-settle and any \"hammer\" clause, so that Joad's choices and their financial consequences are understood.\n\n3. **An exposure analysis for Joad.**\n   - If the demand or realistic verdict range could exceed the available coverage, Joad needs a written excess-exposure advisory.\n   - Joad should be told it may consult personal or independent counsel on the coverage issue.\n   - Joad should also be told of any conflict between its interests and the insurer's.\n\n4. **Clarity on who our client is.** In a tripartite insurer–insured–defense counsel relationship, the rules differ by state. We should confirm that our engagement and the insurer's guidelines do not compromise our duty to Joad.\n\n5. **Third-party and structural issues.**\n   - Check for indemnity or contribution rights against suppliers, component makers, or customers, and for tenders already made or needed.\n   - Check whether co-defendants are involved and whether the settlement should be global.\n   - Identify liens (Medicare/Medicaid, health insurers, workers' compensation).\n   - Settle the key terms: full release, no admission of liability, confidentiality, and any non-monetary terms such as product-related commitments.\n   - Consider whether the settlement triggers any regulatory or reporting obligations.\n\n## Who approves what\n\n| Party | Approves |\n|---|---|\n| **Joad** (through an authorized officer or board) | Whether to settle, the amount and terms, any contribution above insurer funds, non-monetary terms, and any admission or confidentiality language |\n| **Insurer** | Funding up to its authority, consent under the policy, and its coverage position and any reservation of rights |\n| **Defense counsel (us)** | Only conveys a figure after both approvals are documented, and advises Joad throughout |\n| **Co-defendants and indemnitors** | Their share and participation, if the settlement is global or indemnity rights are in play |\n| **Court** | Approval if required, for example for a minor, a wrongful-death claim, or a class or representative action |\n\n## Practical next step\n\nBefore responding to plaintiff's counsel, send Joad and the insurer a short letter or email that asks for the following:\n- The insurer's authority and coverage position in writing.\n- Joad's written authority and the name of the approving officer.\n- Joad's acknowledgment of the excess-exposure advice.\n\nThen convey a figure only once those are in hand.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:27:48+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "23ae069c-5870-4c45-a266-7b60646e122a",
+    "input_tokens": 2,
+    "output_tokens": 1807,
+    "cache_write_tokens": 748,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.021066,
+    "latency_ms": 16903,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1807,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 748,
+      "webSearchRequests": 0,
+      "costUSD": 0.021066,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 607,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "f6e0d6f677896f94",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7320,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7320,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.124148,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3279,
+      "provider": "firstParty",
+      "thinkingTokens": 1291,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "953e3f4f6deb5caa3ee5135f660ef1a9b9b68175415f077608412ab38f6320b5",
+  "session_id": "e88ea209-6c20-4b73-8ad7-41ba10985d53",
+  "stage": "judge_store",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Telltale's regulatory affairs group (under Odalys Fennimore) must read every defense expert report before service to check consistency with regulatory submissions.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Telltale's regulatory affairs group (under Odalys Fennimore) must read every defense expert report before service to check consistency with regulatory submissions.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"The client is in a regulatory inspection on its next-generation lead and wants filings to avoid characterizing failure rates beyond what is needed.\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"settlement authority above $500,000 requires sign-off from the CFO (Cormac Brightwater).\", \"apparent_reach\": \"client\", \"note\": \"Client settlement-authority threshold with a named officer; listed as a lookalike for R29, not a hit.\"}, {\"output_quote\": \"Self-insured retention is $750,000 per claim; insurance liaison Thaddeus Wren handles coverage.\", \"apparent_reach\": \"matter\", \"note\": \"Specific retention figure and named insurance liaison; the near-miss notes say this figure belongs to A-1.\"}, {\"output_quote\": \"Telltale's self-insured retention is $1,200,000 per claim, and the excess carrier must be notified above that.\", \"apparent_reach\": \"matter\", \"note\": \"Specific retention figure and notice trigger; the near-miss notes say this figure belongs to A-2. The text gives both figures without separating them by matter.\"}, {\"output_quote\": \"five business days' notice before filing any motion; phase budgets with variance explanations for variances over 10%; no more than two timekeepers at depositions\", \"apparent_reach\": \"client\", \"note\": \"Specific client billing and motion-notice requirements.\"}, {\"output_quote\": \"consult the client before engaging any testifying expert (provide three names per discipline with prior testimony notes).\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on the expert-selection process.\"}, {\"output_quote\": \"route regulatory-affairs comments on expert reports through counsel and log what is sent so the exchange stays protected work product.\", \"apparent_reach\": \"client\", \"note\": \"Handling instruction for comments from the client's regulatory review, beyond the review requirement in R07 and R25.\"}, {\"output_quote\": \"Telltale wants nothing about its settlement thinking or claims reserve to reach a mediator or anyone outside the case team.\", \"apparent_reach\": \"client\", \"note\": \"Client confidentiality instruction on settlement thinking and reserves; it lacks the specific fact in R01.\"}, {\"output_quote\": \"Telltale defends several ArcLine cases and wants no material from one case to appear in any other.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to keep materials separate across its ArcLine matters.\"}, {\"output_quote\": \"a monthly written status report of no more than three pages on the first business day of each month\", \"apparent_reach\": \"matter\", \"note\": \"Specific reporting requirement; listed as a lookalike for R19, not a hit.\"}, {\"output_quote\": \"do not approach treating physicians or other providers without her approval.\", \"apparent_reach\": \"client\", \"note\": \"Client restriction on contact with treating physicians and other providers.\"}, {\"output_quote\": \"Plan two-hour preparation sessions with field clinical engineers and the reliability group before depositions.\", \"apparent_reach\": \"client\", \"note\": \"Specific client practice for deposition preparation.\"}, {\"output_quote\": \"Telltale asked that settlement hints from opposing counsel be acknowledged politely and kept out of any correspondence not marked as a settlement communication.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on handling settlement overtures from opposing counsel.\"}]}",
+  "timestamp": "2026-11-04T08:28:38+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7320,
+    "call_id": "f6e0d6f677896f94",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 24294,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3279,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T08:28:38+00:00",
+    "total_cost_usd": 0.124148
+  }
+}

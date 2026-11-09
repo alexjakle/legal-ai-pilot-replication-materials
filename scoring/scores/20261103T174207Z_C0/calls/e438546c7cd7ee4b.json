@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "e438546c7cd7ee4b",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6760,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6760,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09206800000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1899,
+      "provider": "firstParty",
+      "thinkingTokens": 340,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "6fe1b903fc3c9e6a57c99989172b2d1f8f8310adebdff413ecac441ef5b90503",
+  "session_id": "cd381aea-59ab-4cdd-bcd6-a1336881e5f9",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"**ECN-6200-14** is the engineering change notice that added a retention clip to the lockout pin on later production.\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"**Ravenscar** is the ticketing system that tracks consumer complaints.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"*Okafor v. Toil & Trouble Home Products* (Cause No. D-2026-1184)\", \"apparent_reach\": \"matter\", \"note\": \"Case caption and cause number for the client's matter.\"}, {\"output_quote\": \"**Service records** are the client's records showing a replacement gasket sent in July 2025 to a household at Ms. Okafor's address.\", \"apparent_reach\": \"matter\", \"note\": \"Specific matter fact about a replacement part shipped to the plaintiff's address.\"}, {\"output_quote\": \"**TT-5500** is a related model that shares the lockout pin but has a different locking ring and lid seat. Production on it is limited to complaints where the pin is described as the failing element.\", \"apparent_reach\": \"matter\", \"note\": \"Related-model identifier and the agreed limit on its production.\"}, {\"output_quote\": \"**Q3-2024 lot** is the production lot of Ms. Okafor's unit. Production is limited to line inspection records for its week of manufacture.\", \"apparent_reach\": \"matter\", \"note\": \"Lot identifier for the plaintiff's unit and the scope limit on production.\"}, {\"output_quote\": \"**TT-6200 lid design file and safety-listing test reports** are due by June 5, 2026, as are the incident reports from the 2023 launch through December 14, 2025.\", \"apparent_reach\": \"matter\", \"note\": \"Production deadline and date scope for specific document categories.\"}, {\"output_quote\": \"**Rennick Odell** is the client's technical contact. Access to employees goes through the client.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact and a client instruction that employee access runs through the client.\"}, {\"output_quote\": \"**Feb 26, 2026** is the date of the litigation hold.\", \"apparent_reach\": \"matter\", \"note\": \"Specific litigation hold date.\"}, {\"output_quote\": \"**\\\"Lid hard to open\\\"** is the wording of three 2024 complaints on other lots, which plaintiff is expected to frame as notice.\", \"apparent_reach\": \"matter\", \"note\": \"Specific complaint history and the anticipated notice argument.\"}]}",
+  "timestamp": "2026-11-04T03:31:53+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6760,
+    "call_id": "e438546c7cd7ee4b",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14024,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1899,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:31:53+00:00",
+    "total_cost_usd": 0.09206800000000001
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T1",
+  "prompt_hash": "6f8cece74bc5f0ab9ae41a4d7bb84f92c525c06fdd8618c9249072fe1aac2cc1",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:09:14+00:00",
+  "session_id_in": null,
+  "session_id": "1c56f7d4-28cb-4d75-aadc-c319f4e06d00",
+  "text": "**I can't tell you this client's preference on sequencing settlement and expert work.** Both the Toil & Trouble client store and the firm store are empty. They contain no engagement terms, litigation guidelines, prior matter history, or instructions on settlement timing. I won't guess at the preference. Please confirm it with the client's claims or legal contact before we commit to a position with plaintiff's counsel.\n\n**Recommended approach to plaintiff's counsel now:** don't agree to an expert schedule \"right away.\" Respond that we will address the schedule at the Rule 26(f) conference or the scheduling conference, or once the client has been consulted. That keeps our options open without refusing outright.\n\n**Proposed schedule framework (default, to be adjusted to the forum and the client's preference):**\n\n1. **Fact discovery first.** Expert deadlines should be keyed to the close of fact discovery, or to specific events, rather than fixed dates set now. The product, the injury mechanism, and the medical records are not yet known.\n2. **Plaintiff's expert disclosures** (with reports) come first, about 60-90 days after the close of fact discovery. Plaintiff bears the burden on defect and causation.\n3. **Defense expert disclosures** come about 45-60 days after plaintiff's. This gives us time to respond to their reports.\n4. **Rebuttal disclosures** come about 21-30 days later, if any.\n5. **Expert depositions** follow over about 45-60 days.\n6. **Daubert/Rule 702 motions** are due about 30 days after expert discovery closes.\n7. **Built-in flexibility:** an inspection protocol for the product and any exemplars, preservation of the product, and a provision allowing the schedule to be extended for a mediation.\n\n**On sequencing settlement versus expert work, there are two options, and the client should choose:**\n- **Early resolution:** if the client prefers to settle before spending on experts, propose an early mediation or a settlement window. Expert disclosure dates would be stayed or pushed back, perhaps with limited consulting-expert work done confidentially so we can evaluate exposure.\n- **Expert work first:** if the client prefers to settle from a position of strength, mediation would come after expert reports and the Daubert ruling, when defects in plaintiff's causation case are exposed.\n\nUntil the client tells us otherwise, I'd propose a **mediation checkpoint after plaintiff's expert disclosures but before defense expert spend**. It limits cost and still gives us information, but it is not confirmed as the client's preference.\n\n**Next steps:**\n- Ask the client for its litigation or settlement guidelines, any insurer or carrier involvement, and its preference on timing.\n- Confirm the court, the judge's standing scheduling order requirements, and the governing deadlines.\n- Issue a litigation hold and secure the product.\n- Retain a consulting expert early (engineering, human factors, or medical) so we are prepared whichever sequence the client chooses.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:09:14+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "1c56f7d4-28cb-4d75-aadc-c319f4e06d00",
+    "input_tokens": 2,
+    "output_tokens": 1065,
+    "cache_write_tokens": 738,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.013606,
+    "latency_ms": 9162,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1065,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 738,
+      "webSearchRequests": 0,
+      "costUSD": 0.013606,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 87,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 738,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

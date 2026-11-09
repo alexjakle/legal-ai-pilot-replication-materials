@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Joad Axle Works):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: C-2
+Client: Joad Axle Works
+
+Question:
+In the new Joad axle case, plaintiff's counsel is pressing for a number and Joad's insurer says it will fund settlement up to its authority. What does Joad need before any figure is conveyed, and who has to approve what?
+
+Answer the question.

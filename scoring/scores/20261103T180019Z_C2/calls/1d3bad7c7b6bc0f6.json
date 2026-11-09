@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "1d3bad7c7b6bc0f6",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7073,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7073,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.122032,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3272,
+      "provider": "firstParty",
+      "thinkingTokens": 1848,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "5947f73f6a97b9a3964db8de141d48a93b5ec96a0d0ff0c3d27d8f127cd9ff85",
+  "session_id": "7f3d3531-8742-4c7c-8bb1-46ebf4c9ab07",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"Toil & Trouble prefers mediation before any testifying expert is disclosed or deposed\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"A dedicated standards and industry-practice witness (for example, someone with committee experience on the relevant voluntary standards body and knowledge of how manufacturers in this product class apply the standards in design, testing and certification).\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Ask whether the client's regulatory group reviews expert reports for consistency with regulatory submissions. If so, build that review into the expert timetable\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"The standards witness explains what the standards require, how the industry applies them, and how the product measures against them.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"A dedicated standards and industry-practice witness (for example, someone with committee experience on the relevant voluntary standards body and knowledge of how manufacturers in this product class apply the standards in design, testing and certification).\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Any such result also changes the exposure range, which triggers a one-page report.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Ask whether the client's regulatory group reviews expert reports for consistency with regulatory submissions. If so, build that review into the expert timetable\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"The client expects to control expert selection, and a standards or industry-practice witness specifically must be cleared before any outreach.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction requiring its approval of expert selection and clearance before contacting a standards witness.\"},{\"output_quote\":\"Send to Franklin with a copy to Delphine Moorcroft. Do not contact client employees directly to gather information on standards compliance. The client arranges access.\",\"apparent_reach\":\"client\",\"note\":\"Client communication protocol with named recipients and a bar on direct contact with employees.\"},{\"output_quote\":\"Do not give any expert the client's internal design, test or complaint-handling records until a protective order with an outside-counsel-and-experts tier is in place.\",\"apparent_reach\":\"client\",\"note\":\"Instruction gating expert access to internal records on a tiered protective order; it does not concern authenticity stipulations.\"},{\"output_quote\":\"he must be told at once if anything points toward a possible product withdrawal\",\"apparent_reach\":\"client\",\"note\":\"Client escalation instruction tied to commitments to retail partners; it does not state the advance-notice fact in R21.\"},{\"output_quote\":\"Raise any projected overrun early and in writing.\",\"apparent_reach\":\"client\",\"note\":\"Apparent client budget-reporting instruction.\"}]}",
+  "timestamp": "2026-11-04T02:54:03+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7073,
+    "call_id": "1d3bad7c7b6bc0f6",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 26052,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3272,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:54:03+00:00",
+    "total_cost_usd": 0.122032
+  }
+}

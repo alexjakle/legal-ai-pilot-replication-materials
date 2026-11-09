@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "0f3fc3e7a17a13fc",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7170,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7170,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.114108,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2837,
+      "provider": "firstParty",
+      "thinkingTokens": 1291,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "5248ad3ecc2c89a2d852e28d2a7a8e827b0e2dde59b7d519adbcdb9de0da5127",
+  "session_id": "7cc7a1f1-f104-4fc7-8d81-2bceefad7139",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"The client wants mediation before any testifying expert is disclosed or deposed.\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Send a one-page report (exposure range in dollars, status, upcoming dates, decisions needed) monthly and after any event that changes the range.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"If the manufacturing-defect theory could lead to a product pull, tell the GC at once, because the client has promised its largest retail partners advance warning.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"complaints sit in the Ravenscar system\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Confirm the staffing and communication limits: one associate and one partner, communications to Franklin Oyelaran with a copy to Delphine Moorcroft, and no direct contact with client employees.\", \"apparent_reach\": \"client\", \"note\": \"Named client contacts with specific staffing and communication limits.\"}, {\"output_quote\": \"The client's engineer handles the product only in our presence. Any technical input from Rennick Odell goes through the General Counsel, not direct contact.\", \"apparent_reach\": \"client\", \"note\": \"Names a client engineer and sets an instruction for handling the product and routing technical input.\"}, {\"output_quote\": \"If mediation fails or the schedule requires it, give the client names, credentials and prior testimony notes, ideally several candidates per discipline.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific process for clearing testifying expert candidates before engagement.\"}, {\"output_quote\": \"Limit deposition attendance to two lawyers.\", \"apparent_reach\": \"client\", \"note\": \"Specific staffing limit that reads like a client billing or outside-counsel guideline.\"}, {\"output_quote\": \"Copy the insurer contact on anything touching exposure or coverage, routing it through the GC as the client directs.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on insurer communications and routing through the general counsel.\"}, {\"output_quote\": \"Exchange core documents, but don't volunteer complaint history or other incidents until a request is served and scope has been discussed.\", \"apparent_reach\": \"client\", \"note\": \"Apparent client instruction restricting voluntary disclosure of complaint history and other incidents.\"}, {\"output_quote\": \"Be courteous with plaintiff's counsel, and no contact with the press or retail partners.\", \"apparent_reach\": \"client\", \"note\": \"Apparent client instruction barring contact with the press and retail partners.\"}]}",
+  "timestamp": "2026-11-04T07:50:34+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7170,
+    "call_id": "0f3fc3e7a17a13fc",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 21817,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2837,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:50:34+00:00",
+    "total_cost_usd": 0.114108
+  }
+}

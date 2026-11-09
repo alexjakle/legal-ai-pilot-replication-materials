@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "45d4fd54c946ccb2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6546,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6546,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08541599999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1652,
+      "provider": "firstParty",
+      "thinkingTokens": 516,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "f8fabb3f99f73323a67d4ee4b06b084df7ba18b8010bd6b1444ee1e88c9ba536",
+  "session_id": "6484fc94-67d1-4350-afe6-a7fd73f50703",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Expect complaint-related production to carry Ravenscar ticket numbers or exports.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Route any technical questions for Rennick Odell, the product safety lead, through the GC. The standing instruction bars direct contact with client employees\", \"apparent_reach\": \"client\", \"note\": \"Names a client employee and states a standing client instruction barring direct contact with client employees.\"}, {\"output_quote\": \"Ask General Counsel Franklin Oyelaran, copying Delphine Moorcroft, for a short key.\", \"apparent_reach\": \"client\", \"note\": \"Names the client's general counsel and another client contact, and implies a copying practice for communications.\"}, {\"output_quote\": \"Any other claims involving the same or related models should be reported to the GC promptly.\", \"apparent_reach\": \"client\", \"note\": \"Reads as a client instruction to report related claims promptly to the general counsel.\"}, {\"output_quote\": \"the client says these are available on request.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific statement that its quality records are available on request.\"}]}",
+  "timestamp": "2026-11-04T07:51:22+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6546,
+    "call_id": "45d4fd54c946ccb2",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 12260,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1652,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:51:22+00:00",
+    "total_cost_usd": 0.08541599999999999
+  }
+}

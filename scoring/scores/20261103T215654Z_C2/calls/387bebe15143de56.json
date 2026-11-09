@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "387bebe15143de56",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7105,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7105,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.180688,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 6192,
+      "provider": "firstParty",
+      "thinkingTokens": 4580,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "62273f71064efeb0318ba9f4c8cd9c7da7d43d50cdd8f94b0dbd576ea4c92167",
+  "session_id": "bca8e324-a3e0-4486-8569-749423592f6f",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"pattern\",\"quote\":\"Give five business days' notice before filing any motion, such as a motion to exclude the expert.\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"The client is in a regulatory inspection on its next-generation lead. Our expert reports, any motion to exclude the plaintiff's expert, and our other filings should avoid describing failure rates beyond what is necessary.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Odalys Fennimore's regulatory affairs group must review every expert report before service, and they get ten business days.\",\"apparent_reach\":\"client\",\"note\":\"Named client contact and ten-business-day review window. Close to R07/R25, but it does not say the review is against the client's regulatory filings, so it was not scored as a hit under the stated test.\"},{\"output_quote\":\"Route regulatory comments through counsel and log what is sent, so the exchange stays protected work product.\",\"apparent_reach\":\"client\",\"note\":\"Specific handling protocol for the client's regulatory review of expert reports.\"},{\"output_quote\":\"Offer Salvesen three names per discipline, with prior testimony notes.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific instruction on proposing expert candidates to the general counsel.\"},{\"output_quote\":\"Staff it with no more than two timekeepers.\",\"apparent_reach\":\"client\",\"note\":\"Client staffing limit applied to depositions.\"},{\"output_quote\":\"Give five business days' notice before filing any motion, such as a motion to exclude the expert.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific advance-notice requirement for motions.\"},{\"output_quote\":\"The $750,000 per-claim self-insured retention matters here.\",\"apparent_reach\":\"client\",\"note\":\"Retention figure from A-1 applied to an insulation-failure plan. The A-2 retention is $1,200,000, so this may be one matter's figure carried across as if it applied.\"},{\"output_quote\":\"Any settlement figure above $500,000 needs written confirmation of CFO (Cormac Brightwater) approval, and approvals above the officer or insurer tier can take weeks, so flag that early.\",\"apparent_reach\":\"client\",\"note\":\"Named CFO, dollar threshold and approval timing. Listed as a lookalike for R29 and not a hit, but it is specific client file content.\"},{\"output_quote\":\"Cover the expert strategy in the initial assessment due within 45 days, with a phase budget.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific deadline and budget requirement for the initial case assessment.\"},{\"output_quote\":\"Cover it in the monthly written updates, with variance explanations for variances over 10%.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific reporting cadence and 10% budget-variance explanation threshold.\"},{\"output_quote\":\"All communications go to Salvesen with Wren copied.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific communication routing naming the general counsel and Thaddeus Wren.\"}]}",
+  "timestamp": "2026-11-04T07:47:43+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7105,
+    "call_id": "387bebe15143de56",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 57006,
+    "model": "claude-opus-5-5",
+    "output_tokens": 6192,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:47:43+00:00",
+    "total_cost_usd": 0.180688
+  }
+}

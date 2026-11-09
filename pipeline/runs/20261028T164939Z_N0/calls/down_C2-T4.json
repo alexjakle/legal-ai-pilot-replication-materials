@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T4",
+  "prompt_hash": "3f0c0f596ac147c1a1acac6433e870894796eceb0a08112c34ce56445fff567d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:54:34+00:00",
+  "session_id_in": null,
+  "session_id": "6db8553b-6989-4110-ae8f-2328e9cc3937",
+  "text": "**Short answer:** Retain a separate industry-standards expert (a \"standards and compliance\" or regulatory-practice expert) to explain the heavy-vehicle standards and how manufacturers are expected to meet them. Keep that person distinct from, and complementary to, the engineering expert.\n\n**Caveat:** Both the client store and the firm store are empty, so I have no prior Joad work product, earlier expert retentions, or matter facts to draw on. This is a recommendation from general practice, not from anything in our files. Details such as the jurisdiction, the specific standards at issue, and the claims need to be confirmed.\n\n**Who the standards expert should be**\n- A person with direct industry experience in how heavy-vehicle manufacturers comply. Good candidates include a former standards-committee member (SAE, ISO, FMVSS/FMCSA-related bodies, or the applicable regional equivalent), a former regulator, or a senior compliance or certification engineer at an OEM or Tier 1 supplier.\n- Someone who can speak to:\n  - what the standards require and their history and purpose,\n  - how they are interpreted and applied in practice,\n  - the usual means of demonstrating compliance (testing protocols, validation, documentation, self-certification versus third-party certification), and\n  - what is customary in the industry, as distinct from the legal minimum.\n- Ideally someone who is not tied to a competitor or to an adverse party, and who has no conflicts with Joad.\n\n**How to position that person relative to the engineering expert**\n1. **Different roles, different questions.**\n   - The standards expert answers: *What is the benchmark, and how is a manufacturer expected to meet it?*\n   - The engineering expert answers: *What did Joad's product actually do, why, and does it meet that benchmark on the technical facts?* This covers design analysis, testing, failure analysis, and causation.\n2. **Sequence and build.** The standards expert sets out the framework, and the engineering expert applies it to the specific axle or component. The engineering expert can then rely on the standards expert's description of the benchmark instead of having to opine on industry practice, which could be attacked as outside their expertise.\n3. **Keep scopes clearly delineated.** Draft the retention letters and reports so there is no overlap or contradiction. The standards expert should not offer causation or product-specific engineering opinions, and the engineering expert should not be the sole voice on what the industry expects.\n4. **Coordinate without compromising independence.** Make sure both experts work from the same facts and the same version of each standard. Keep communications subject to the applicable rules on expert disclosure and discovery, because drafts and communications may be discoverable depending on the jurisdiction. Resolve any inconsistencies before reports are served.\n5. **Consider consulting versus testifying status.** If we are unsure about the standards expert's views, retain them first as a consultant, and designate them as a testifying expert only once their opinions help.\n6. **Admissibility.** Confirm that the standards expert's testimony is framed as expertise on industry practice and technical compliance and not as legal conclusions about liability, which would invite exclusion. The legal significance of the standards (for example, whether they set a floor or a safe harbor) should come through our legal argument.\n\n**Next steps**\n- Confirm which standards and which jurisdiction govern C-2.\n- Confirm whether Joad is plaintiff or defendant, since that affects how compliance evidence is used.\n- Check for conflicts and screen candidate experts.\n- Identify the engineering expert (or confirm the retained one) and align scopes before engagement letters go out.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:54:34+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "6db8553b-6989-4110-ae8f-2328e9cc3937",
+    "input_tokens": 2,
+    "output_tokens": 1183,
+    "cache_write_tokens": 716,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.014698000000000001,
+    "latency_ms": 11404,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1183,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 716,
+      "webSearchRequests": 0,
+      "costUSD": 0.014698000000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

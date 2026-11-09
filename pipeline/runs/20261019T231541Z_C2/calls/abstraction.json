@@ -1,0 +1,45 @@
+{
+  "call_id": "abstraction",
+  "prompt_hash": "2aede9bcdecbae898997512355ece9ed425f814750c5dad91eee266848632376",
+  "stage": "abstraction_gate",
+  "role": "abstraction_gate",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:17:16+00:00",
+  "session_id_in": "03b73dc2-1d1f-4458-a130-c12ac8b472ab",
+  "session_id": "03b73dc2-1d1f-4458-a130-c12ac8b472ab",
+  "text": "{\"patterns\":[\n{\"text\":\"Corporate product-liability clients commonly want to control expert selection. Consult the client, and get its approval, before engaging any testifying expert. Be ready to give several candidates per discipline with credentials and prior testimony, and confirm the client discussion has happened before engaging anyone a memo recommends.\",\"contributing_items\":[\"N412193.27\",\"N722ac3.22\"],\"tags\":[]},\n{\"text\":\"The firm typically has no settlement authority of its own. After assessing a claim, send the client an assessment and recommended range. Offers, and even signals of willingness to pay, wait for the client's authority: written General Counsel approval, or written sign-off from a higher body (CFO or board) above set thresholds. Verbal indications are not enough, and lead time for the approval should be flagged early.\",\"contributing_items\":[\"N412193.24\",\"N8ce7bf.28\",\"N722ac3.23\",\"N722ac3.24\"],\"tags\":[]},\n{\"text\":\"Clients treat internal design, testing and complaint records as sensitive. Propose or obtain a protective order before producing them, including a restricted outside-counsel-and-experts tier where needed, and do not stipulate to authenticity or produce beyond what the court requires until the order is signed.\",\"contributing_items\":[\"N412193.32\",\"N722ac3.13\"],\"tags\":[]},\n{\"text\":\"Clients route communications through the General Counsel and control access to their people. Do not contact employees directly or speak to the media or other outside parties, refer such inquiries to the General Counsel, and get client discussion before putting forward any company witness.\",\"contributing_items\":[\"N412193.30\",\"N412193.32\",\"N8ce7bf.29\",\"N722ac3.30\",\"N722ac3.29\"],\"tags\":[]},\n{\"text\":\"Clients set a regular written reporting cadence (monthly, every six weeks or similar) with a prompt call or note after significant events such as rulings, depositions or inspection results. Confirm each client's required format and length at the start of the matter.\",\"contributing_items\":[\"N412193.30\",\"N8ce7bf.27\",\"N722ac3.29\"],\"tags\":[]},\n{\"text\":\"Clients impose budget and staffing controls: phase-by-phase estimates, explanation of variances or overruns, and caps on timekeepers at depositions and hearings. Agree these with the client at the start of the matter.\",\"contributing_items\":[\"N412193.30\",\"N8ce7bf.25\",\"N722ac3.29\"],\"tags\":[]},\n{\"text\":\"Clients with insurance coverage want coverage-related communications handled through designated contacts (an insurance liaison or claims handler). Copy them on anything bearing on coverage or exposure, and confine coverage positions to those contacts and the General Counsel.\",\"contributing_items\":[\"N412193.26\",\"N722ac3.28\"],\"tags\":[]},\n{\"text\":\"Clients restrict handling of physical evidence and testing. Require advance notice and a written protocol before any inspection or testing, with both sides' engineers present and no disassembly, cleaning or sectioning until agreed. Client engineers handle the unit only with counsel present, and the client wants notice or quotes before testing is commissioned.\",\"contributing_items\":[\"N8ce7bf.19\",\"N722ac3.18\"],\"tags\":[]}\n]}",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:17:16+00:00",
+    "stage": "abstraction_gate",
+    "condition": "C2",
+    "role": "abstraction_gate",
+    "model": "claude-sonnet-5-5",
+    "session_id": "03b73dc2-1d1f-4458-a130-c12ac8b472ab",
+    "input_tokens": 2,
+    "output_tokens": 1883,
+    "cache_write_tokens": 7069,
+    "cache_read_tokens": 28105,
+    "total_cost_usd": 0.2596485,
+    "latency_ms": 14996,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 10,
+      "outputTokens": 13198,
+      "thinkingTokens": 5280,
+      "cacheReadInputTokens": 72565,
+      "cacheCreationInputTokens": 30098,
+      "webSearchRequests": 0,
+      "costUSD": 0.2596485,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

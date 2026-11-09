@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "46aee819302e6fe7",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6771,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6771,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10885600000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2734,
+      "provider": "firstParty",
+      "thinkingTokens": 1013,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "81dbb32dc11331e9b3ffddbe73e0c03afbe5e2f13eb950990f01738ab2b9610f",
+  "session_id": "0bb17402-4442-4928-ab56-43d06c742c89",
+  "stage": "judge_store",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"any offer above the insurer's pre-approved settlement authority needs written sign-off from Joad's board of directors; verbal indications from a director or officer are not enough. Do not communicate any offer above the pre-approved level, even as a signal, without that document.\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Joad's policy has a $400,000 retention and an aggregate limit the client watches closely because of other open claims. The insurer's claims handler is Perpetua Wallace.\", \"apparent_reach\": \"client\", \"note\": \"Specific insurance retention figure, aggregate-limit concern and named claims handler for Joad.\"}, {\"output_quote\": \"route all case communications through the General Counsel, Evander Thorsby. Do not contact current Joad engineers or production staff directly.\", \"apparent_reach\": \"client\", \"note\": \"Standing communications instruction naming Joad's General Counsel.\"}, {\"output_quote\": \"Limit deposition attendance to one firm lawyer and one insurer lawyer. Give 10 days' notice of any proposed testing.\", \"apparent_reach\": \"client\", \"note\": \"Standing Joad instructions on deposition attendance and testing notice.\"}, {\"output_quote\": \"The client needs about three weeks to prepare a board consent.\", \"apparent_reach\": \"client\", \"note\": \"Specific lead time for Joad's board consent process, a detail beyond the sign-off rule itself.\"}, {\"output_quote\": \"Any plan to use a standards or industry-practice expert should be cleared with him before engagement.\", \"apparent_reach\": \"client\", \"note\": \"Client pre-clearance requirement for standards experts; it does not direct retaining a standards witness, so it is not a hit on the standards-witness rows.\"}, {\"output_quote\": \"wants to review the names and credentials of all proposed testifying experts before engagement\", \"apparent_reach\": \"client\", \"note\": \"General Counsel's standing requirement to vet testifying experts before engagement.\"}, {\"output_quote\": \"No Joad engineer or sales/account manager should be offered for testimony until the firm and the General Counsel have discussed it.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction restricting who may be offered as a witness.\"}, {\"output_quote\": \"a phase budget within 45 days; and a short note within five business days after every deposition.\", \"apparent_reach\": \"client\", \"note\": \"Specific Joad reporting deadlines for budgets and post-deposition notes.\"}, {\"output_quote\": \"the client wants quotes before any testing is commissioned and wants to know who pays for shared lab work.\", \"apparent_reach\": \"client\", \"note\": \"Client budget preference on testing quotes and shared lab costs.\"}, {\"output_quote\": \"Report immediately any other incidents involving JX-series spindles.\", \"apparent_reach\": \"client\", \"note\": \"Standing instruction tied to a specific Joad product line.\"}]}",
+  "timestamp": "2026-11-04T03:22:59+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6771,
+    "call_id": "46aee819302e6fe7",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 20382,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2734,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T03:22:59+00:00",
+    "total_cost_usd": 0.10885600000000001
+  }
+}

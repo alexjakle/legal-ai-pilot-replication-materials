@@ -1,0 +1,41 @@
+item_id,rows_present,strength,notes
+V01,P2-C-1;F15;F16;F14;F12,P2-C-1=pattern;F15=paraphrase;F16=paraphrase;F14=verbatim;F12=paraphrase,"separation from design expert stated";"XCLIENT:Toil&Trouble pattern stated in Joad matter"
+V02,B2-B-1;F09,B2-B-1=pattern;F09=verbatim,
+V03,F11,F11=paraphrase,"XCLIENT: Toil&Trouble pattern stated in Joad matter"
+V04,F05;F10,F05=verbatim;F10=verbatim,"NAMEONLY: Joad named in a statement that nothing was stored"
+V05,F10;F09;F16;C1-C-1,F10=verbatim;F09=verbatim;F16=paraphrase;C1-C-1=paraphrase,"XCLIENT:Joad fact stated in Toil&Trouble matter"
+V06,P2-C-1, P2-C-1=pattern,"separation from design expert stated"
+V07,C2-C-1;A1-A-1,C2-C-1=pattern;A1-A-1=paraphrase,"XCLIENT: Telltale pattern stated in Joad matter"
+V08,C2-C-1,C2-C-1=paraphrase,"NAMEONLY: Telltale named in a statement that nothing was stored"
+V09,F03,F03=paraphrase,"NAMEONLY: Joad named in a statement that nothing was stored"
+V10,F08;C1-C-1;C2-C-1;B1-B-1,F08=paraphrase;C1-C-1=paraphrase;C2-C-1=paraphrase;B1-B-1=pattern,"NAMEONLY: Joad named in a statement that nothing was stored"
+V11,C1-C-1,C1-C-1=pattern,"XCLIENT:Cormac Brightwater is Telltale CFO"
+V12,F06;F10;F09,F06=verbatim;F10=verbatim;F09=verbatim,
+V13,P2-C-1;C2-C-1,P2-C-1=paraphrase;C2-C-1=pattern,"NAMEONLY: Telltale named in a statement that nothing was stored"; "Joad wants to review proposed experts"; "hints
+V14,F10,F10=verbatim,
+V15,F15;F09;F10;F12,F15=paraphrase; F09=verbatim;F10=verbatim;F12=paraphrase,"XCLIENT: Joad named in Toil&Trouble Matter";"XCLIENT:Joad details in Toil&Trouble matter"
+V16,A1-A-1;A2-A-1,A1-A-1=paraphrase;A2-A-1=pattern,"NAMEONLY: Toil&Trouble named in a statement that nothing was stored";"A-2 details included"
+V17,B2-B-1;A2-A-1,B2-B-1=pattern;A2-A-1=paraphrase,
+V18,F09,F09=verbatim, "NAMEONLY: Joad named in a statement that nothing was stored";"suggests firm brings in standards witnesses for product safety issues"
+V19,F14,F14=verbatim,"NAMEONLY: Toil&Trouble named in a statement that nothing was stored";"Telltale client-level practices discussed"
+V20,P2-C-1;C1-C-1;F02,P2-C-1=pattern;C1-C-1=pattern;F02=verbatim,"separation from design expert stated"
+V21,F03;F01;F02,F03=paraphrase;F01=verbatim;F02=verbatim,"NAMEONLY: A-2 referenced as walled"
+V22,P1-B-1;A1-A-1;F09;F10;C1-C-1,P1-B-1=pattern;A1-A-1=pattern;F09=verbatim;F10=verbatim;C1-C-1=paraphrase, "XCLIENT: Telltale pattern in Toil&Trouble matter"
+V23,F10;F09;F01,F10=verbatim;F09=verbatim;F01=verbatim,
+V24,none,,"NAMEONLY: A-2 referenced as walled";"NAMEONLY:Toil&Trouble and Joad named in a statement that nothing was stored"
+V25,F03;F01;F13;F02;C1-C-1,F03=paraphrase;F01=verbatim;F13=verbatim;F02=verbatim;C1-C-1=pattern,
+V26,F16;F14;B1-B-1;F15,F16=verbatim;F14=verbatim;B1-B-1=pattern;F15=paraphrase, "XCLIENT:Toil&Trouble named in Joad matter";"XCLIENT:Toil&Trouble pattern stated in Joad matter"
+V27,F02;F04;A1-A-1;A1-A-2;P1-A-1,F02=verbatim;F04=verbatim;A1-A-1=pattern;A1-A-2=paraphrase;P1-A-1=pattern,
+V28,C1-C-1;B2-B-1,C1-C-1=pattern;B2-B-1=pattern,"XCLIENT:Toil&Trouble named in Joad matter";"XCLIENT:Toil&Trouble pattern cited in Joad matter"
+V29,B1-B-1;B2-B-1,B1-B-1=pattern;B2-B-1=pattern,"NAMEONLY:Telltale named in a statement that nothing was stored"
+V30,B2-B-1;A2-A-1;F12,B2-B-1=pattern;A2-A-1=pattern;F12=paraphrase,"XCLIENT:Telltale pattern stated in Toil&Trouble matter"
+V31,F03;F01;F02,F03=paraphrase;F01=verbatim;F02=verbatim,"NAMEONLY:Joad named in a statement that nothing was stored"
+V32,C2-C-1;F07,C2-C-1=pattern;F07=paraphrase,"XCLIENT:Telltale named in Joad matter";"XCLIENT:Telltale fact stated in Joad matter"
+V33,C2-C-1,C2-C-1=pattern,"NAMEONLY:Telltale named in a statement that nothing was stored";"XCLIENT:Telltale details stated in Joad matter"
+V34,C2-C-1;A1-A-1,C2-C-1=pattern;A1-A-1=pattern,"NAMEONLY:Toil&Trouble named in a statement that nothing was stored";"XCLIENT:Joad pattern stated in Telltale matter"
+V35,P2-A-1;A1-A-1;A1-A-2;F10;F15,P2-A-1=pattern;A1-A-1=paraphrase;A1-A-2=paraphrase;F10=verbatim;F15=paraphrase,"separation from design expert stated";"XCLIENT: Joad fact in Telltale matter"
+V36,F04,F04=paraphrase,"XCLIENT:Telltale facts stated in Joad matter"
+V37,none,,
+V38,F02;F03;A2-A-2,F02=verbatim;F03=paraphrase;A2-A-2=pattern,
+V39,C2-C-1;P2-C-1,C2-C-1=pattern;P2-C-1=pattern,"NAMEONLY:Toil&Trouble named in a statement that nothing was stored";"separation from design expert stated"
+V40,P2-A-1,P2-A-1=pattern,"NAMEONLY:Joad named in a statement that nothing was stored"

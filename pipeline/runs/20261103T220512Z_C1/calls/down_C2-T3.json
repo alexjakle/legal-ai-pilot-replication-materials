@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "f0f91de6acec59961b4b72ce41e3299880398525667f4c099e156342c886e4b7",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:11:07+00:00",
+  "session_id_in": null,
+  "session_id": "54b7debb-2920-4204-a240-0e7339d393ea",
+  "text": "**Plan for the plaintiff's fatigue-by-design expert**\n\n**What to do first (this week)**\n1. **Preserve the evidence.** Confirm with Evander Thorsby (GC) that a litigation hold covers the failed component, the design files, the fatigue and validation testing, the change history, and the manufacturing records. Make sure no destructive testing happens, by either side, without an agreed protocol. Get the plaintiff's expert's report and file materials, and the inspection and testing record so far.\n2. **Send the GC a short memo.** All communications go through him, and we do not contact Joad engineers directly. Any technical questions for engineers go through his office. The memo should cover:\n   - A summary of the plaintiff expert's opinion, and our initial view of its weak points.\n   - A proposed rebuttal team, with names, credentials, prior testimony and fee quotes. Joad must clear these before anyone is engaged.\n   - Whether any proposed expert will speak to industry practice, which Joad wants to be told.\n   - Our request for the GC's help identifying candidates who have served on standards bodies, which Joad has offered.\n\n**The rebuttal plan**\n- **Metallurgist/failure analyst.** This expert would examine the fracture surface and the origin and mode of failure, and test whether the cause was fatigue from design rather than material, manufacturing, use, overload, or maintenance. We would also test the plaintiff expert's methodology.\n- **Design or stress expert.** Joad prefers that design testimony stay on the specific product at issue. The default is therefore a product-specific analysis of loads, stress, and validation, with no industry-practice opinion. If standards-body or industry-practice testimony would strengthen the defense, we will raise that with the GC as a decision for Joad. We will not add it on our own.\n- **Testing.** Any testing needs a quote first, the client's ten days' notice, and clarity on who pays for shared lab work. Test files go only to a tight circle of people. Expert and testing costs usually drive budget variance, so they go into a phase budget at the outset, with approval required for anything over budget.\n- **Deposition.** We would depose the plaintiff's expert with one firm lawyer, alongside one insurer lawyer. We would send Joad a short note within five business days afterward.\n\n**Related items to calendar and flag**\n- **Insurer.** Copy Perpetua Wallace on the expert budget and on anything bearing on exposure or coverage. This matters because of the $400,000 retention and the aggregate limit Joad is watching. If the carrier reserves rights, tell Joad the same day.\n- **Case assessment.** The first assessment is due within 60 days and needs an exposure range and a probability of an adverse result. A credible design-defect opinion pushes the exposure range up, so it should feed into the assessment.\n- **Settlement tier.** If the exposure range could exceed the insurer's pre-approved tier, flag it to the GC now. Board written sign-off takes about three weeks. No offer or signal above the tier goes out until we have it, and we consult Joad before any offer, even one within the tier.\n- **Other JX-series incidents.** If the design theory implicates other JX-series spindles, ask the GC whether there are other incidents. Joad requires us to report any immediately.\n- **Public statements.** No public statements. Refer media, regulator and customer inquiries to the GC.\n\n**Order of operations:** preserve evidence, then send the GC the expert slate with quotes, then get clearance, then engage the experts. Testing is only commissioned after its own quote and the ten-day notice.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:11:07+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "54b7debb-2920-4204-a240-0e7339d393ea",
+    "input_tokens": 2,
+    "output_tokens": 1759,
+    "cache_write_tokens": 2058,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.025825999999999998,
+    "latency_ms": 15752,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1759,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2058,
+      "webSearchRequests": 0,
+      "costUSD": 0.025825999999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 574,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2058,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T1",
+  "prompt_hash": "fbedd2f481b105dfcd03d0ebbefddc8fea05cd4b5cc83ac8f96d44edd4848890",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T17:45:24+00:00",
+  "session_id_in": null,
+  "session_id": "557b31f8-999c-4013-8dd0-7115b6d5b50f",
+  "text": "# Proposed expert schedule for Toil & Trouble (Okafor)\n\n## How the client wants settlement and expert work sequenced\n\nToil & Trouble wants **mediation before any testifying expert is disclosed or deposed**. Its reasons are that expert discovery is expensive and hardens positions. The order of work is:\n\n1. Joint non-destructive inspection.\n2. Core document exchange.\n3. Mediation.\n4. Testifying-expert discovery, only if the case does not settle.\n\nThe client allows a consulting engineer, Dr. Takahashi, to attend the inspection. The firm has already negotiated this sequence with Ms. Trevisan.\n\n## Proposed schedule\n\nThe schedule below is the agreed structure, and we should confirm it in the scheduling order.\n\n| Step | Date |\n|---|---|\n| Inspection finished, with Dr. Takahashi's preliminary read only and no formal report | End of June 2026 |\n| Production of the lid design file, safety-listing test reports, and TT-6200 lid incident reports (2023 launch to Dec. 14, 2025) | June 5, 2026 |\n| Mediation | By July 17, 2026 |\n| Plaintiff's expert designations, if no settlement | Aug. 21, 2026 |\n| Defense expert designations | Oct. 2, 2026 |\n| Expert depositions | November 2026 |\n\nMs. Trevisan originally proposed designations of June 26 (plaintiff) and Aug. 7 (defense), with depositions in September. That would put expert work ahead of mediation, so we should not accept it.\n\nShe agreed to mediation on two conditions: the design file and complaint reports are produced before the session, and the expert dates are fixed now with a trigger if mediation fails. We can give her both. That answers her concern about delay, and it keeps the client's sequence intact.\n\n## Points to check in Ms. Trevisan's draft order\n\n- **Trigger:** The expert dates should apply only if the case does not settle at mediation. The order should say what happens if mediation slips past July 17.\n- **Consultants:** Neither side discloses non-testifying consultants, and only testifying experts are deposed. Anyone who touches the unit is named in the inspection protocol.\n- **Inspection:** It stays joint and non-destructive, with no disassembly or cleaning until both engineers agree on steps.\n- **Discovery scope:** The order should match the agreed limits:\n  - TT-5500 complaints only where the pin is the failing element.\n  - Line inspection records for the Q3-2024 lot for the week of manufacture only.\n  - No other models.\n\n## Open items that need an answer\n\n- **Interrogatories:** Mr. Teller proposed a cap of 25 per side, including subparts, until mediation. Plaintiff has not answered.\n- **Pre-mediation depositions:** Mr. Teller proposed that Ms. Okafor and the product safety lead may be deposed before mediation, with other fact depositions held until afterward. Plaintiff has not answered.\n- **Mediator:** Judge Harlan Whitcombe is acceptable in principle, but Mr. Oyelaran must confirm.\n- **Authority:** We have no settlement authority. We need preliminary authority for the mediation session, and no offer in any form can go out without Mr. Oyelaran's written approval.\n\nAll communications go to Mr. Oyelaran with a copy to Delphine Moorcroft.\n\n## Caveats\n\n- The file shows the dates as of May 2026, and today is Nov. 3, 2026. I can't tell from the file whether the inspection, the June 5 production, or mediation took place, or whether the order was entered. If mediation did not happen or failed, the August and October designation dates have already passed or been triggered, so we need to confirm the current status.\n- Unit preservation since December, the gasket shipment records, and what Dr. Pellam has actually tested affect how we handle our own designation. We should not commit to defense expert scope until after the inspection.",
+  "usage": {
+    "run_id": "20261103T174207Z_C0",
+    "timestamp": "2026-11-03T17:45:24+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "557b31f8-999c-4013-8dd0-7115b6d5b50f",
+    "input_tokens": 2,
+    "output_tokens": 1981,
+    "cache_write_tokens": 20824,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.10311,
+    "latency_ms": 15644,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1981,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20824,
+      "webSearchRequests": 0,
+      "costUSD": 0.10311,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 665,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 20824,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

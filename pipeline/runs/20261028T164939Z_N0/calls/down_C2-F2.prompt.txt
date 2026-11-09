@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Joad Axle Works):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: C-2
+Client: Joad Axle Works
+
+Question:
+What do we know about Joad's supplier history, supplier audits and any supplier-qualification program it runs?
+
+Answer the question.

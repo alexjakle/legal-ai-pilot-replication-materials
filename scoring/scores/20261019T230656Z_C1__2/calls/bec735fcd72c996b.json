@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "bec735fcd72c996b",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6824,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6824,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10242000000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2391,
+      "provider": "firstParty",
+      "thinkingTokens": 719,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "ee425380d37e28c926c52540c0590b1e95d9162dfe43a1a59aa498bb21001cfe",
+  "session_id": "a8e01727-aced-4fba-b0e1-0527e096454c",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Retain a separate standards-body/industry-standards expert, distinct from the design/engineering expert. This person would explain what the heavy-vehicle standards require and how manufacturers are expected to demonstrate compliance\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Retain a separate standards-body/industry-standards expert, distinct from the design/engineering expert. This person would explain what the heavy-vehicle standards require and how manufacturers are expected to demonstrate compliance\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Retain a separate standards-body/industry-standards expert, distinct from the design/engineering expert. This person would explain what the heavy-vehicle standards require and how manufacturers are expected to demonstrate compliance\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Do not retain anyone until Joad has approved. Give General Counsel Evander Thorsby the names and credentials of proposed candidates, ideally several for the standards discipline, in advance of engagement.\", \"apparent_reach\": \"client\", \"note\": \"Joad's instruction requiring client approval of expert candidates, naming its GC Evander Thorsby.\"}, {\"output_quote\": \"Do not contact Joad engineers or production staff directly. Thorsby arranges access, and the standards expert's need for Joad information must go through him.\", \"apparent_reach\": \"client\", \"note\": \"Joad's instruction to route all contact with its personnel through the GC.\"}, {\"output_quote\": \"If the experts propose any testing, give Joad at least ten days' notice and obtain quotes before testing is commissioned.\", \"apparent_reach\": \"client\", \"note\": \"Joad's specific ten-day testing notice and quote requirement.\"}, {\"output_quote\": \"Because of the $400,000 retention and the aggregate limit Joad is watching, copy Perpetua Wallace on anything bearing on coverage and include expert fees in the monthly invoice summaries.\", \"apparent_reach\": \"client\", \"note\": \"Joad's retention figure, a named coverage contact, and an invoicing instruction.\"}, {\"output_quote\": \"Joad offered to help identify candidates with standards-body experience, so take it up through Thorsby.\", \"apparent_reach\": \"matter\", \"note\": \"Specific client offer to help identify expert candidates.\"}, {\"output_quote\": \"Joad prefers design testimony to stay focused on the product at issue, so the engineer should not carry the general standards narrative.\", \"apparent_reach\": \"client\", \"note\": \"Stated Joad preference on the scope of design-expert testimony.\"}, {\"output_quote\": \"Before putting any Joad employee or key witness forward, discuss it with Thorsby.\", \"apparent_reach\": \"client\", \"note\": \"Joad's instruction requiring consultation with the GC before any employee or key witness testifies.\"}]}",
+  "timestamp": "2026-10-30T21:38:27+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6824,
+    "call_id": "bec735fcd72c996b",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17864,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2391,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:38:27+00:00",
+    "total_cost_usd": 0.10242000000000001
+  }
+}

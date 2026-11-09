@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "9d4388b02e5ffd13",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6580,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6580,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.084548,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1595,
+      "provider": "firstParty",
+      "thinkingTokens": 179,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "37a5a2d027547e1b0f8f278ad0075296737d9bce54ecefccea3da67fa172fd7a",
+  "session_id": "db4769b1-37a7-4e96-a710-0e472a8d9637",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"**ECN-6200-14**: the engineering change notice that added a retention clip to the lockout pin on later TT-6200 production.\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"**Ravenscar**: the ticketing system where Toil & Trouble tracks customer complaints.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"**TT-5500**: a related model that uses the same lockout pin but has a different locking ring and lid seat.\", \"apparent_reach\": \"client\", \"note\": \"Client product fact: a related model shares the lockout pin with the model at issue.\"}, {\"output_quote\": \"Because TT-5500 shares the lockout pin, any production documents mentioning it may point to a related-model issue. Tell Mr. Oyelaran promptly if they do.\", \"apparent_reach\": \"client\", \"note\": \"Instruction to escalate related-model issues to the GC promptly.\"}, {\"output_quote\": \"Expect complaint tickets, such as the three 2024 \\\"lid hard to open\\\" complaints, to come from here.\", \"apparent_reach\": \"matter\", \"note\": \"Specific complaint-history fact for matter B-1.\"}, {\"output_quote\": \"**Q3-2024 lot**: the production period tied to this matter, which has no field complaints about the lid.\", \"apparent_reach\": \"matter\", \"note\": \"Matter fact about the production lot and its complaint history.\"}, {\"output_quote\": \"ask Franklin Oyelaran, the General Counsel, and copy Delphine Moorcroft. He can route technical questions to Rennick Odell, the product safety lead. Don't contact client employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client communication protocol: route through the GC, copy a named contact, and make no direct employee contact.\"}, {\"output_quote\": \"Quality records for the Q3-2024 production period**: not a named system, but the client says they are available on request.\", \"apparent_reach\": \"matter\", \"note\": \"Client representation that quality records are available on request.\"}]}",
+  "timestamp": "2026-10-30T21:36:43+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6580,
+    "call_id": "9d4388b02e5ffd13",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 12671,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1595,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:36:43+00:00",
+    "total_cost_usd": 0.084548
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "8642d3bbebcbe020",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6550,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6550,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.097388,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2249,
+      "provider": "firstParty",
+      "thinkingTokens": 951,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "1e5bdd3cc80ffb18714cc04ebef54aef14b74c4f0cfbdb1954365981de99b2ed",
+  "session_id": "172d5d95-9911-4882-85e7-b54103d7a6c5",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"the client's regulatory inspection on its next-generation lead. Because of that inspection, filings should avoid characterizing failure rates beyond what is needed.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Before any number is communicated, even as a signal, confirm in writing who must approve it and at what level (GC, CFO, board, insurer). Don't rely on verbal indications.\",\"apparent_reach\":\"firm\",\"note\":\"Presented as a firm practice on confirming the approval level before communicating a figure. It does not require board sign-off at a named tier, so it is not an R29 hit, though the wording resembles R29.\"},{\"output_quote\":\"Offers above the officer or insurer tier can need a multi-week approval process, so flag that early.\",\"apparent_reach\":\"firm\",\"note\":\"Firm-level practice on approval timing for offers above the officer or insurer tier. It may generalize R29-type content but does not make board approval a precondition.\"},{\"output_quote\":\"Authority above $500,000 requires written sign-off from the CFO, Cormac Brightwater.\",\"apparent_reach\":\"client\",\"note\":\"Telltale CFO approval threshold with a named officer. Listed as an R29 lookalike, so not a hit; it is stated here as a client-wide term and applied to matter A-3.\"},{\"output_quote\":\"The self-insured retention is $750,000 per claim. Insurance liaison Thaddeus Wren handles coverage\",\"apparent_reach\":\"client\",\"note\":\"Telltale's retention figure from the A-1 instruction letter, stated as applying to the client on A-3. The A-2 letter gives $1,200,000, so check whether the figure was carried across matters. Also names the insurance liaison.\"},{\"output_quote\":\"These go to the GC, Marguerite Salvesen, with Thaddeus Wren copied.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's standing communications instruction, with the named GC and insurance liaison.\"}]}",
+  "timestamp": "2026-11-04T07:49:36+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6550,
+    "call_id": "8642d3bbebcbe020",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 18159,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2249,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:49:36+00:00",
+    "total_cost_usd": 0.097388
+  }
+}

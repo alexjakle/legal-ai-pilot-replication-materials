@@ -1,0 +1,56 @@
+{
+  "run_id": "20261019T225859Z_smoke",
+  "kind": "smoke",
+  "condition": null,
+  "created": "2026-10-19T22:58:59+00:00",
+  "live": true,
+  "config_hash": "7714a0b01514c7d40b50020df0403c77d72e0d9323ba6bcb4d81fe6ebe477f0c",
+  "prompts_hash": "d953c674bf56e10f625b41708300151b0b1f1fd766bbedba56fea855e4090328",
+  "pipeline_git": {
+    "commit": "978da3dfe941ee38cbb831126cc4c58a00c6a053",
+    "dirty": false
+  },
+  "firm": {
+    "tag": "firm-lock-v1",
+    "commit": "dc5b317",
+    "data_hash": "5db1a19a3671117a7d5e4a7b429a0631823c1c8b7b649b2b9b337d108eb8d50b"
+  },
+  "probes_hash": "481541529c0c745d7a233a9fb44cd94ad2ecad8bd8da6b0ab9c03818fc50ae5d",
+  "backend": "claude_cli",
+  "roles": {
+    "notes": {
+      "backend": "claude_cli",
+      "model": "claude-sonnet-5-5"
+    },
+    "scope_gate": {
+      "backend": "claude_cli",
+      "model": "claude-sonnet-5-5"
+    },
+    "abstraction_gate": {
+      "backend": "claude_cli",
+      "model": "claude-sonnet-5-5"
+    },
+    "downstream": {
+      "backend": "claude_cli",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "models": [
+    "claude-sonnet-5-5"
+  ],
+  "temperature": "default",
+  "temperature_note": "claude -p exposes no temperature setting; the CLI default applies.",
+  "effort": "default",
+  "claude_overhead_level": "L2",
+  "claude_version": "2.1.304 (Claude Code)",
+  "versions": {
+    "python": "3.9.6",
+    "pyyaml": "6.0.3",
+    "pytest": "8.4.2",
+    "macos": "26.5.2",
+    "platform": "macOS-26.5.2-arm64-arm-64bit"
+  },
+  "notes_dir": null,
+  "k": 2,
+  "rejected_calls": 0
+}

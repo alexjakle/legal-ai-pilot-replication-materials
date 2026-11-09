@@ -1,0 +1,180 @@
+{
+  "matter": "B-1",
+  "call_id": "scope_B-1",
+  "timestamp": "2026-10-19T23:16:43+00:00",
+  "session_id": "03b73dc2-1d1f-4458-a130-c12ac8b472ab",
+  "raw": "{\"items\":[\n{\"id\":\"N8ce7bf.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.05\",\"decision\":\"client_store\",\"text\":\"The PressureMate TT-6200 (six-quart electric pressure cooker) has a rotating bayonet lid with a spring-loaded float valve. Its lockout pin rises as pressure builds and blocks the ring from turning. Operating pressure is about 10 psi.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.11\",\"decision\":\"client_store\",\"text\":\"Engineering change notice ECN-6200-14 added a retention clip to the TT-6200 lockout pin on later production.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.14\",\"decision\":\"client_store\",\"text\":\"Client preference: try mediation before any testifying experts are disclosed or deposed, because expert discovery is expensive and hardens positions. Consulting engineers may attend inspections. If plaintiff's counsel presses for an expert schedule first, insist on a mediation date and tell the client if she objects.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.17\",\"decision\":\"client_store\",\"text\":\"The TT-5500 uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.19\",\"decision\":\"client_store\",\"text\":\"Client instruction on product inspections: nothing may be disassembled or cleaned before both sides' engineers are present, and the client's own engineer may handle the unit only in the lawyer's presence.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.24\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.25\",\"decision\":\"client_store\",\"text\":\"Client budget and staffing rules: provide an estimate for each phase of a matter. Limit staffing to one associate and one partner, with no more than two lawyers at any deposition or hearing.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.26\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.27\",\"decision\":\"client_store\",\"text\":\"Client reporting requirement (Franklin Oyelaran, General Counsel, letter of March 9, 2026): case reports must be a single page showing current exposure as a dollar range, a few lines of status, upcoming dates, and any decision needed from the client. No narrative memos. Send a page monthly and after any event that changes the range, such as an inspection result or a ruling.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.28\",\"decision\":\"client_store\",\"text\":\"Authority limits: the firm has no settlement authority. Once it recommends a range, the client takes it to its claims group. No settlement offer may be made in any form without the General Counsel's written approval.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.29\",\"decision\":\"client_store\",\"text\":\"Client communication rules: send communications to Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft in risk management. Do not speak to the press or to retail partners, and refer inquiries to him. Do not contact client employees directly, as he arranges access. His technical contact is Rennick Odell, product safety lead. Quality records are available on request, and complaints are tracked in the Ravenscar ticketing system. Tell him promptly of other claims involving the TT-6200 or related models.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.30\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N8ce7bf.31\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N8ce7bf.32\",\"decision\":\"matter_only\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N8ce7bf.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.04",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.05",
+        "decision": "client_store",
+        "tags": [],
+        "text": "The PressureMate TT-6200 (six-quart electric pressure cooker) has a rotating bayonet lid with a spring-loaded float valve. Its lockout pin rises as pressure builds and blocks the ring from turning. Operating pressure is about 10 psi."
+      },
+      {
+        "id": "N8ce7bf.06",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.07",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.08",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.09",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.10",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.11",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Engineering change notice ECN-6200-14 added a retention clip to the TT-6200 lockout pin on later production."
+      },
+      {
+        "id": "N8ce7bf.12",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.13",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.14",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client preference: try mediation before any testifying experts are disclosed or deposed, because expert discovery is expensive and hardens positions. Consulting engineers may attend inspections. If plaintiff's counsel presses for an expert schedule first, insist on a mediation date and tell the client if she objects."
+      },
+      {
+        "id": "N8ce7bf.15",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.17",
+        "decision": "client_store",
+        "tags": [],
+        "text": "The TT-5500 uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat."
+      },
+      {
+        "id": "N8ce7bf.18",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.19",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client instruction on product inspections: nothing may be disassembled or cleaned before both sides' engineers are present, and the client's own engineer may handle the unit only in the lawyer's presence."
+      },
+      {
+        "id": "N8ce7bf.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.22",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.23",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.24",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.25",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client budget and staffing rules: provide an estimate for each phase of a matter. Limit staffing to one associate and one partner, with no more than two lawyers at any deposition or hearing."
+      },
+      {
+        "id": "N8ce7bf.26",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.27",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client reporting requirement (Franklin Oyelaran, General Counsel, letter of March 9, 2026): case reports must be a single page showing current exposure as a dollar range, a few lines of status, upcoming dates, and any decision needed from the client. No narrative memos. Send a page monthly and after any event that changes the range, such as an inspection result or a ruling."
+      },
+      {
+        "id": "N8ce7bf.28",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Authority limits: the firm has no settlement authority. Once it recommends a range, the client takes it to its claims group. No settlement offer may be made in any form without the General Counsel's written approval."
+      },
+      {
+        "id": "N8ce7bf.29",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client communication rules: send communications to Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft in risk management. Do not speak to the press or to retail partners, and refer inquiries to him. Do not contact client employees directly, as he arranges access. His technical contact is Rennick Odell, product safety lead. Quality records are available on request, and complaints are tracked in the Ravenscar ticketing system. Tell him promptly of other claims involving the TT-6200 or related models."
+      },
+      {
+        "id": "N8ce7bf.30",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.31",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.32",
+        "decision": "matter_only",
+        "tags": []
+      }
+    ]
+  }
+}

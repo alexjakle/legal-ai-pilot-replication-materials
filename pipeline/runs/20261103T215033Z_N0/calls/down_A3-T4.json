@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "f0b7e8499200681865086fa72a2d2aed38de2ba6bd3832c06588c971cb37634d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:52:42+00:00",
+  "session_id_in": null,
+  "session_id": "00909991-ba58-4675-91fc-08f80f439d40",
+  "text": "Neither the client store nor the firm store has anything on Telltale or this matter, so this is based on general practice. I haven't seen the complaint, the scheduling order, the device's regulatory pathway, or any prior Telltale experts. Please confirm those points before acting.\n\n## Who\nRetain a **standards and regulatory expert**, separate from the design expert. The ideal candidate has:\n- Hands-on experience on a standards committee or working group for implantable cardiac devices (AAMI, ISO TC 150 / IEC SC 62D, or the relevant lead-connector and active implantable device standards).\n- Experience with the conformity process, meaning how a manufacturer tests to, declares conformity with, and documents compliance with these standards, including FDA recognition of consensus standards and the design controls and risk management framework (21 CFR 820, ISO 14971, ISO 13485).\n- Prior testimony experience, with a clean record on Daubert and prior-inconsistent-statement risks.\n\nIf the lead is a PMA device, consider whether a separate FDA regulatory expert is also needed. Preemption is a legal argument, but a regulatory expert can support the factual record on PMA conditions of approval.\n\n## When\n- **Now, as a consulting (non-testifying) expert.** Do this before we finalize defense themes, draft discovery, or prepare Telltale's Rule 30(b)(6) witnesses. Plaintiff's reliance on standards will drive what we ask for and what we produce.\n- **Before the design expert locks in opinions**, so the two work from the same framework.\n- **Before we depose plaintiff's experts**, so we can test their use of the standards, including version and date applicability, normative versus informative sections, and whether the standard actually covers the failure mode alleged.\n- **Decide on testifying designation later**, once we see plaintiff's expert disclosures and the scheduling order deadlines. Keeping the person in a consulting role first protects work product.\n\n## Role compared with the design expert\n**Standards expert:**\n- Identifies which standards exist and which applied at the time of design and manufacture.\n- Explains how they are developed: voluntary consensus, generally a minimum baseline rather than a ceiling or a statement of the standard of care.\n- Addresses whether Telltale's testing and documentation met them, and rebuts plaintiff's misreadings, such as treating aspirational or informative text as mandatory, applying later versions, or applying standards for a different device type.\n- Does not opine on whether the design was good or on what caused the failure.\n\n**Design expert (biomedical, materials, or electrical engineering, plus failure analysis):**\n- Explains the engineering choices, the testing and validation, the risk-benefit analysis, and the feasibility of alternative designs.\n- Opines on failure mode and causation.\n- Can rely on the standards expert for the standards framework but should not take over that role.\n\nKeeping these lanes distinct limits overlap, reduces Daubert and cross-examination exposure, and lets each witness stay within their expertise.\n\n## Related steps\n- Identify Telltale employees who sit on standards committees. They may be fact witnesses and are not a substitute for an independent expert.\n- Collect the design history file, test reports, and declarations of conformity now, so the expert can assess compliance early.\n- Run conflicts checks on any candidate, including work for plaintiff-side firms or competitors.\n\nOnce I can see the complaint and scheduling order, I can tighten the timing and identify which specific standards to prioritize.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:52:42+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "00909991-ba58-4675-91fc-08f80f439d40",
+    "input_tokens": 2,
+    "output_tokens": 2144,
+    "cache_write_tokens": 775,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.024544,
+    "latency_ms": 20090,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2144,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 775,
+      "webSearchRequests": 0,
+      "costUSD": 0.024544,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 994,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 775,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

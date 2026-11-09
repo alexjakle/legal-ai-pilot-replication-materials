@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "e4c0ed778bb6dccb",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5904,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08432,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1854,
+      "provider": "firstParty",
+      "thinkingTokens": 481,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "414d95faf5bf88105ac1d6b083fe6e767413efde37e72570a779f0d2020f30ee",
+  "session_id": "16939b41-8e0c-4f9d-b260-e4ce8e331aae",
+  "stage": "judge_validation",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"verbatim\", \"quote\": \"Another label that may turn up in the production is the Larkspur review, so the glossary request should cover that as well.\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"**ECN-6200-14**: the engineering change notice that added a retention clip to the lockout pin on later TT-6200 production.\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"**Ravenscar**: the ticketing system where Toil & Trouble tracks customer complaints.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Expect complaint tickets, such as the three 2024 \\\"lid hard to open\\\" complaints, to come from here.\", \"apparent_reach\": \"matter\", \"note\": \"Specific B-1 complaint history: three 2024 lid complaints.\"},\n{\"output_quote\": \"**TT-5500**: a related model that uses the same lockout pin but has a different locking ring and lid seat.\", \"apparent_reach\": \"client\", \"note\": \"Toil & Trouble product detail about a related model that shares the lockout pin.\"},\n{\"output_quote\": \"**Q3-2024 lot**: the production period tied to this matter, which has no field complaints about the lid.\", \"apparent_reach\": \"matter\", \"note\": \"B-1 production-lot fact.\"},\n{\"output_quote\": \"ask Franklin Oyelaran, the General Counsel, and copy Delphine Moorcroft. He can route technical questions to Rennick Odell, the product safety lead. Don't contact client employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Toil & Trouble communication protocol and named contacts.\"},\n{\"output_quote\": \"Because TT-5500 shares the lockout pin, any production documents mentioning it may point to a related-model issue. Tell Mr. Oyelaran promptly if they do.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to report promptly on related-model issues.\"}\n]}\n```",
+  "timestamp": "2026-10-21T23:43:56+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5904,
+    "call_id": "e4c0ed778bb6dccb",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14759,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1854,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:43:56+00:00",
+    "total_cost_usd": 0.08432
+  }
+}

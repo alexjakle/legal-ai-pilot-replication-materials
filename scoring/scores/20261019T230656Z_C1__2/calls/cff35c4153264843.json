@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "cff35c4153264843",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6458,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6458,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.080412,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1437,
+      "provider": "firstParty",
+      "thinkingTokens": 139,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "10e09134207af7e4c633d03b2509827937a5062371f8655e7ab8ea14c5a4f72f",
+  "session_id": "4bd622f5-77be-489b-a793-7dfe9a0ce2d8",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Route requests through General Counsel Evander Thorsby.** All case communications go through him. We should not contact Joad engineers, production staff, or procurement and quality personnel directly, because Thorsby arranges access.\", \"apparent_reach\": \"client\", \"note\": \"Joad instruction that all case communications and personnel access go through its named GC.\"}, {\"output_quote\": \"The client wants a small circle around who sees test files.\", \"apparent_reach\": \"client\", \"note\": \"Joad practice of limiting distribution of test files.\"}, {\"output_quote\": \"If quality or supply-chain personnel may need to testify or be interviewed, we must discuss it with Thorsby before putting anyone forward.\", \"apparent_reach\": \"client\", \"note\": \"Joad practice of GC clearance before any witness contact or witness designation.\"}, {\"output_quote\": \"the client requires at least ten days' notice and quotes before it is commissioned.\", \"apparent_reach\": \"client\", \"note\": \"Joad instruction requiring ten days' notice and quotes before testing is commissioned.\"}, {\"output_quote\": \"copy Perpetua Wallace, the insurer's claims handler.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer's claims handler for Joad and requires copying her on coverage or exposure issues.\"}, {\"output_quote\": \"If the supplier records show other similar product incidents, notify Thorsby immediately.\", \"apparent_reach\": \"client\", \"note\": \"Joad instruction to notify the GC immediately of other similar incidents.\"}]}",
+  "timestamp": "2026-10-30T21:38:52+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6458,
+    "call_id": "cff35c4153264843",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 11233,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1437,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:38:52+00:00",
+    "total_cost_usd": 0.080412
+  }
+}

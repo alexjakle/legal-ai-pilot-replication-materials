@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T1",
+  "prompt_hash": "f0906a8d181fc8464719b531560dc2d6cb84256ea7a4fc41e52aaf41eb81efec",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:19:20+00:00",
+  "session_id_in": null,
+  "session_id": "70b30d39-2880-4b3e-bcce-faf183ec4518",
+  "text": "# Proposed Expert Schedule and Sequencing for B-2\n\n## Client preference\nToil & Trouble wants **mediation before any testifying expert is disclosed or deposed**. Expert discovery is expensive and hardens positions. If plaintiff's counsel presses for an expert schedule first, we should insist on a mediation date. If she objects, we tell the client.\n\nConsulting (non-testifying) engineers are fine, and they may attend inspections.\n\n## Proposed schedule\nI would propose relative deadlines rather than fixed dates, so they can be adjusted once the client weighs in.\n\n1. **Now: preservation and joint inspection.**\n   - Agree in principle to a joint inspection and send a written protocol.\n   - Both sides' engineers must be present, and nothing may be disassembled, cleaned or sectioned until the protocol is agreed.\n   - The client's engineer may handle the unit only with a lawyer present.\n   - The client wants notice or quotes before any testing is commissioned.\n2. **Early: protective order.**\n   - Propose or obtain one before producing any design, testing or complaint records, including an outside-counsel-and-experts tier.\n   - Do not stipulate to authenticity or produce beyond what the court requires until it is signed.\n3. **Fact discovery and informal exchange.**\n   - Do not volunteer complaint history or other incidents until a request is served and we have discussed its scope with the client.\n4. **Mediation.**\n   - Set a date after the inspection results and core document production, and before any testifying expert disclosure.\n   - Make it a fixed milestone in the scheduling order.\n5. **Expert disclosures and depositions.**\n   - Tie these to dates *after* mediation, for example plaintiff's disclosures a set number of days after the mediation date, then defense disclosures, then depositions.\n   - Build in a clause that the dates move if mediation is continued.\n   - We do not need to name defense testifying experts at the outset.\n6. **Dispositive motions and trial.** Set these after expert discovery.\n\n## Expert work and client approval\n- Do not engage any testifying expert without the client's approval.\n- Prepare several candidates per discipline, with credentials and prior testimony, for the client to review.\n- Confirm the client discussion has happened before engaging anyone a memo recommends.\n- In the meantime, a consulting engineer can support the inspection.\n\n## Settlement\n- The firm has **no settlement authority**.\n- After assessing the claim, send the client an assessment and recommended range. The client takes it to its claims group.\n- No offer, or even a signal of willingness to pay, may go out without **written approval from General Counsel Franklin Oyelaran**. Verbal indications are not enough.\n- Flag early that the approval will take lead time, so it is in place before the mediation date.\n\n## Housekeeping\n- **Reporting:**\n  - Send a one-page report with the exposure range, status, upcoming dates and any decisions needed.\n  - Send it monthly and after events that change the range, such as an inspection result or a ruling.\n  - Address it to Mr. Oyelaran with a copy to Delphine Moorcroft.\n- **Budget and staffing:**\n  - Give the client an estimate for each phase, including the inspection, mediation and expert phases.\n  - Staff the matter with one associate and one partner, with no more than two lawyers at any deposition or hearing.\n- **Outside contacts:**\n  - Don't contact client employees directly. Technical access, such as Rennick Odell, goes through Mr. Oyelaran.\n  - Refer any press or retail inquiries to him.\n- **Retail partners:** If the case could lead to a product pull, tell the client at once, since it has promised its largest retail partners advance warning.\n- **Other claims:** If other claims involving the TT-6200 or related models come to light, tell the client promptly.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:19:20+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "70b30d39-2880-4b3e-bcce-faf183ec4518",
+    "input_tokens": 2,
+    "output_tokens": 1871,
+    "cache_write_tokens": 2356,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.028138000000000003,
+    "latency_ms": 14044,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1871,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2356,
+      "webSearchRequests": 0,
+      "costUSD": 0.028138000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 600,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

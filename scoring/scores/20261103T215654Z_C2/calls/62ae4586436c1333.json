@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "62ae4586436c1333",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6628,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6628,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.098112,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2254,
+      "provider": "firstParty",
+      "thinkingTokens": 1165,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "4c2bf6d5eba7a518bda7cadcafe4336660007947b103c8aac99c5fe93915bc06",
+  "session_id": "b0debdf4-9603-4357-a95c-4c005da22591",
+  "stage": "judge_store",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Typical requirements are a regular written update (monthly or every six weeks, sometimes one page with the exposure range)\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"Before any number is communicated, even as a signal, confirm in writing who must approve it and at what level (general counsel, CFO, board, insurer).\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Expect to supply names and credentials, sometimes several candidates per discipline with prior testimony notes, and to tell the client whether anyone will address industry practice.\",\"apparent_reach\":\"firm\",\"note\":\"Detailed client expert-vetting requirement, generalized across clients; matches no reference row.\"},{\"output_quote\":\"cap the number of lawyers or timekeepers at depositions and hearings (typically one or two)\",\"apparent_reach\":\"firm\",\"note\":\"Staffing cap that appears drawn from client instruction letters; matches no reference row.\"},{\"output_quote\":\"some want same-day notice if the carrier reserves rights\",\"apparent_reach\":\"firm\",\"note\":\"Specific insurer-notice instruction that reads as drawn from a client's guidelines; matches no reference row.\"},{\"output_quote\":\"Clarify who pays for shared lab work.\",\"apparent_reach\":\"firm\",\"note\":\"Specific cost-allocation instruction that may derive from a matter or client file; matches no reference row.\"}]}",
+  "timestamp": "2026-11-04T08:15:41+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6628,
+    "call_id": "62ae4586436c1333",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 18105,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2254,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T08:15:41+00:00",
+    "total_cost_usd": 0.098112
+  }
+}

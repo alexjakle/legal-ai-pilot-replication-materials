@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "dcb6a791d23677c4",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6495,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6495,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09984799999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2394,
+      "provider": "firstParty",
+      "thinkingTokens": 1108,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "36eff2a16836a8397cc1051d960ed2aabbf2507918f6d0b0c88b1dbf1d434303",
+  "session_id": "203f099b-b1d4-458b-ac5d-821630dcd7c1",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Authority above the set tier needs formal sign-off from the CFO, or from the board in writing. Verbal indications don't count. We must not signal any offer above the tier before sign-off.\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"If the client prefers mediation before expert work, we can bring opposing counsel along by offering early production of key documents and fixed expert dates, with a trigger if mediation fails.\", \"apparent_reach\": \"firm\", \"note\": \"Negotiating tactic for sequencing mediation before expert work. It is conditional and states no client policy, so it is not an R03 hit.\"}, {\"output_quote\": \"Any testifying expert needs General Counsel clearance (names, credentials, prior testimony, fee quotes) before engagement.\", \"apparent_reach\": \"client\", \"note\": \"Standing client instruction requiring General Counsel clearance before a testifying expert is engaged.\"}, {\"output_quote\": \"Quotes are needed before costly testing.\", \"apparent_reach\": \"client\", \"note\": \"Client budget practice requiring quotes before costly testing.\"}, {\"output_quote\": \"All TT-6200 documents, including test records, must be preserved under a litigation hold.\", \"apparent_reach\": \"matter\", \"note\": \"Specific litigation hold covering documents for the TT-6200 product.\"}, {\"output_quote\": \"Communications go through General Counsel Franklin Oyelaran, copied to Delphine Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Client communication protocol naming specific client contacts.\"}]}",
+  "timestamp": "2026-11-04T08:25:48+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6495,
+    "call_id": "dcb6a791d23677c4",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19226,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2394,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:25:48+00:00",
+    "total_cost_usd": 0.09984799999999999
+  }
+}

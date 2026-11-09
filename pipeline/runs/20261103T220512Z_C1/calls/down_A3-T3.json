@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T3",
+  "prompt_hash": "c6dfff54f9bfc7d0764d14abbfa5db0d1a07045ce145a564c8a8a62ef0f2842a",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:07:48+00:00",
+  "session_id_in": null,
+  "session_id": "8216818a-9b8b-4283-969a-b54515bdab21",
+  "text": "# Plan for plaintiff's failure-cause expert, and what we know about earlier insulation cases\n\n## What we know from earlier insulation-related cases\n\n**Nothing yet.** The firm and client records I have contain no information on Telltale's earlier insulation cases. That includes the supplier's identity, what materials were chosen, prior expert opinions, findings, or outcomes. I won't infer or characterize any of that.\n\nTo fill the gap, I would:\n- Ask Marguerite Salvesen (copying Thaddeus Wren) for the prior case files, the prior experts' reports and testimony, any root-cause or supplier analyses, and the identity of prior counsel.\n- Check whether protective orders or confidentiality terms in those cases limit our use of the materials.\n- Treat the prior material as double-edged. It could show the supplier's role, but it could also support plaintiff's \"same or related products\" and notice theories, and it could be discoverable. It also touches the pending regulatory inspection.\n\n## Plan for the expert\n\n1. **Retain our own testifying expert, after consulting the client.** We cannot engage anyone until we give the client three candidates per discipline, each with prior testimony notes. The likely disciplines are polymer and insulation materials degradation and lead failure analysis (biomedical or reliability engineering). A clinical electrophysiology expert may be needed depending on plaintiff's theory. The names go to Salvesen, copying Wren.\n2. **Analyze plaintiff's expert.** We will review the designation and report for how the opinion attributes the degradation to supplier-selected materials. We will test the methodology, the explant and failure analysis, and whether the opinion fits this lead and these facts. We will identify grounds for a possible exclusion motion and a deposition outline.\n3. **Preserve evidence.** Confirm a litigation hold covers relevant product documents, including materials specifications, supplier selection and qualification records, and device history and returned-product analyses. Preserve the explanted lead under a documented chain of custody.\n4. **Client regulatory review of our expert's reports.**\n   - Odalys Fennimore's regulatory affairs group must review every expert report before service, with ten business days allowed.\n   - We will require a near-final draft from our expert well ahead of the deadline and build the review into the schedule.\n   - Regulatory comments go through counsel, and we will log what is sent so the exchange stays protected work product.\n   - We will confirm any draft-protection stipulation covers the client review.\n   - Because of the inspection on the next-generation lead, the report and any filings should not characterize failure rates beyond what is necessary.\n5. **Supplier role.** Whether the supplier is a third-party defendant or indemnitor, and how that affects our defense position, are strategy and coverage questions. I would raise them with Salvesen and Wren once we have the prior case information and the supply contract. The $750,000 per-claim retention and the CFO sign-off above $500,000 in settlement authority bear on this.\n6. **Process requirements.**\n   - Give five business days' notice before filing any motion, including one to exclude the expert.\n   - Send phase budgets with variance explanations for variances over 10%.\n   - Send monthly written updates, plus a call after significant events.\n   - Deliver the initial assessment within 45 days.\n   - Send no more than two timekeepers to depositions, including the deposition of plaintiff's expert.\n   - Report promptly any other claims or incidents involving this or related products.\n   - Make no public statements, and refer press, regulator, retail and customer inquiries to the client.\n\n## Immediate next steps\n- Request the prior insulation case files and supplier documents from Salvesen.\n- Send the expert candidate lists for client approval.\n- Confirm the litigation hold.\n- Calendar the expert deadlines backward from the ten-business-day client review.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:07:48+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "8216818a-9b8b-4283-969a-b54515bdab21",
+    "input_tokens": 2,
+    "output_tokens": 1886,
+    "cache_write_tokens": 1350,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.024264,
+    "latency_ms": 16054,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1886,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1350,
+      "webSearchRequests": 0,
+      "costUSD": 0.024264,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 622,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1350,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

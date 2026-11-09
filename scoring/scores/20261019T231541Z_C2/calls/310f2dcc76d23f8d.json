@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "310f2dcc76d23f8d",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6255,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.109008,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2948,
+      "provider": "firstParty",
+      "thinkingTokens": 943,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "62a7ecba72efeee26d6933e58e91b37814b473f9e7992ed8fc79b600fc74e5b0",
+  "session_id": "df66f6da-e1ad-4deb-9a54-bc9172cba64d",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"The client wants mediation before any testifying experts are disclosed or deposed, so we use a consulting engineer now and defer the testifying expert.\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Obtain a protective order, with an outside-counsel-and-experts tier, before producing design, testing, or complaint records. Do not stipulate to authenticity until it is signed.\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Send Franklin Oyelaran (cc Delphine Moorcroft) a one-page report covering the expert's manufacturing-defect theory, a preliminary exposure range, upcoming dates, and any decisions needed.\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Flag at once any way the theory could lead to a pull from sale, because the client has promised its largest retail partners advance warning.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Note that the lockout pin is shared with the TT-5500 and that ECN-6200-14 added a retention clip on later production.\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Request the quality records and Ravenscar complaint data from the client for our own review only.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Note that the lockout pin is shared with the TT-5500 and that ECN-6200-14 added a retention clip on later production. A manufacturing theory could reach those, so ask whether other claims exist.\", \"apparent_reach\": \"matter\", \"note\": \"Specific product fact: the lockout pin is shared with the TT-5500 model, and a retention clip was added by engineering change.\"},\n{\"output_quote\": \"Go through Franklin, who arranges access to Rennick Odell and other employees; we do not contact employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on employee contact, naming a specific employee (Rennick Odell).\"},\n{\"output_quote\": \"Send Franklin Oyelaran (cc Delphine Moorcroft)\", \"apparent_reach\": \"client\", \"note\": \"Names an additional client contact, Delphine Moorcroft, as a cc on reports.\"},\n{\"output_quote\": \"The firm has no settlement authority, and no offer or signal of willingness to pay goes out without the General Counsel's written approval.\", \"apparent_reach\": \"client\", \"note\": \"Client settlement-approval instruction. It is listed as a near miss for R29 but matches no registry row.\"},\n{\"output_quote\": \"Include a phase-by-phase budget estimate, with one associate and one partner staffed.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing and budgeting instruction.\"},\n{\"output_quote\": \"Get notice or quotes to the client before any testing is commissioned.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction requiring approval before testing spend.\"},\n{\"output_quote\": \"Then proceed to expert disclosure and to deposing plaintiff's expert, with no more than two lawyers at the deposition.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing limit for depositions.\"},\n{\"output_quote\": \"Give the client several candidates per discipline, with credentials and prior testimony.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on how expert candidates are to be selected.\"},\n{\"output_quote\": \"Do not volunteer complaint history or other incidents to plaintiff's counsel. Wait for a served request and discuss its scope with the client first.\", \"apparent_reach\": \"client\", \"note\": \"Client discovery instruction on complaint history.\"},\n{\"output_quote\": \"including the lockout pin, the float valve, the ring, and the 10 psi operating condition.\", \"apparent_reach\": \"matter\", \"note\": \"Specific technical facts about the unit at issue, including the 10 psi operating condition.\"},\n{\"output_quote\": \"Throughout, we do not speak to the press or retail partners, and we refer inquiries to Franklin.\", \"apparent_reach\": \"client\", \"note\": \"Client communications instruction.\"}\n]}\n```",
+  "timestamp": "2026-10-20T02:58:58+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6255,
+    "call_id": "310f2dcc76d23f8d",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 22313,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2948,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:58:58+00:00",
+    "total_cost_usd": 0.109008
+  }
+}

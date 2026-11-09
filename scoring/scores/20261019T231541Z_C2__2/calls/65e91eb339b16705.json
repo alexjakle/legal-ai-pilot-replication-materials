@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "65e91eb339b16705",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6823,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6823,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.101492,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2345,
+      "provider": "firstParty",
+      "thinkingTokens": 647,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "7f65c7469b56dca952d46105d4bf24e5bcffff091a3b222b6dcae4cac18c785c",
+  "session_id": "44a50ba4-8e6f-4e8b-910a-93054a24db51",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Protective order first. Joad won't stipulate to the authenticity of its test data or produce anything beyond what the court requires until an order with an outside-counsel-and-experts-only tier is signed.\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Do not make or signal any offer above the already approved authority until written board sign-off is in hand. Verbal indications from directors or officers don't count.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Send monthly invoice summaries to the insurer's claims handler, Perpetua Wallace, and copy her on anything bearing on coverage.\", \"apparent_reach\": \"client\", \"note\": \"Named insurer claims handler and Joad billing and coverage instruction, applied here to matter C-2.\"},\n{\"output_quote\": \"Route all case communications through General Counsel Evander Thorsby. Refer media, regulator and customer inquiries to him, and make no public statements.\", \"apparent_reach\": \"client\", \"note\": \"Named Joad general counsel and communications protocol from the client's file.\"},\n{\"output_quote\": \"Joad needs about three weeks to prepare a board consent, so flag that lead time early and build it into the mediation date.\", \"apparent_reach\": \"client\", \"note\": \"Specific Joad internal lead time for board consent.\"},\n{\"output_quote\": \"Give Joad at least ten days' notice of any proposed product testing, and get quotes before commissioning it.\", \"apparent_reach\": \"client\", \"note\": \"Specific Joad testing-notice instruction.\"},\n{\"output_quote\": \"Send a note within five business days after each deposition. Only one firm lawyer and one insurer lawyer may attend.\", \"apparent_reach\": \"client\", \"note\": \"Specific Joad deposition reporting and attendance instruction.\"},\n{\"output_quote\": \"Give immediate notice of any other JX-series spindle incidents.\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's JX-series spindle product line.\"},\n{\"output_quote\": \"Tell Joad the same day if the carrier reserves its rights, because Joad is watching its aggregate limit.\", \"apparent_reach\": \"client\", \"note\": \"Joad insurance aggregate-limit concern and notice instruction.\"},\n{\"output_quote\": \"Joad has offered to help identify candidates with standards-body experience, and it prefers design testimony to stay focused on the product at issue.\", \"apparent_reach\": \"client\", \"note\": \"Joad's expert-selection preference. It touches the subject of the standards-witness rows but does not state the separate-witness role.\"},\n{\"output_quote\": \"Joad's own instructions are on file, and they should drive the approach for C-2 whatever Toil & Trouble does.\", \"apparent_reach\": \"client\", \"note\": \"Joad's C-1 instructions are carried over to matter C-2, which suggests client-level reuse.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:47:55+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6823,
+    "call_id": "65e91eb339b16705",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 18124,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2345,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:47:55+00:00",
+    "total_cost_usd": 0.101492
+  }
+}

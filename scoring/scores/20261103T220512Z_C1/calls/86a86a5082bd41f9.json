@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "86a86a5082bd41f9",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7297,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7297,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.106904,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2426,
+      "provider": "firstParty",
+      "thinkingTokens": 928,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "6df660cb13b76afe48d000adc75a04ae12d781c6822c03167abfd58e21eedacb",
+  "session_id": "1145249f-74de-4ce5-bfab-904bdd3c4448",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"The client's stored preference is to try mediation before expert work.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"The client wants one page each month, and another after any event that changes the exposure range.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"paraphrase\",\"quote\":\"The client has promised its largest retail partners advance warning before pulling any product.\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"If the range may exceed the client's authority tier, we flag it early because CFO or written board sign-off takes time. We must not signal any offer above the tier before sign-off, and verbal indications are not enough.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"We do not sign any testifying expert until Oyelaran has the proposed experts' names, credentials, prior testimony and fee quotes, and has cleared them.\",\"apparent_reach\":\"client\",\"note\":\"Standing client instruction requiring general counsel clearance before testifying experts are retained.\"},{\"output_quote\":\"Testing and expert costs are the biggest budget swing, so we also need quotes before any testing.\",\"apparent_reach\":\"client\",\"note\":\"Client budget practice requiring quotes before any testing.\"},{\"output_quote\":\"One associate and one partner handle day-to-day work, and no more than two lawyers attend any deposition, hearing or mediation session.\",\"apparent_reach\":\"client\",\"note\":\"Specific client staffing and attendance limits.\"},{\"output_quote\":\"We contact no client employees directly and say nothing to the press or retail partners. All outside inquiries go to the GC.\",\"apparent_reach\":\"client\",\"note\":\"Client communications restrictions and routing instruction.\"},{\"output_quote\":\"We send it to Oyelaran, copy Moorcroft, and write it so it can go to the CEO and the insurer's claims group.\",\"apparent_reach\":\"client\",\"note\":\"Named recipients and onward-distribution requirement for client reports.\"},{\"output_quote\":\"Anything touching coverage or exposure also goes to the risk contact or insurer liaison.\",\"apparent_reach\":\"client\",\"note\":\"Client routing instruction for coverage and exposure matters.\"},{\"output_quote\":\"We report promptly any other claims involving the TT-6200 or related models.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction to report other claims involving a named product line.\"},{\"output_quote\":\"We provide phase budgets, get approval before exceeding them, and bill monthly.\",\"apparent_reach\":\"client\",\"note\":\"Client budgeting and billing requirements.\"},{\"output_quote\":\"Our lesson from similar matters is that opposing counsel will usually agree if they are offered certainty and not delay.\",\"apparent_reach\":\"firm\",\"note\":\"Stated firm experience from similar matters on securing agreement to mediation-first scheduling.\"}]}",
+  "timestamp": "2026-11-04T08:23:38+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7297,
+    "call_id": "86a86a5082bd41f9",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17980,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2426,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:23:38+00:00",
+    "total_cost_usd": 0.106904
+  }
+}

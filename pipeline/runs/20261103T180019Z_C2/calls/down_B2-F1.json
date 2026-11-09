@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F1",
+  "prompt_hash": "656f1f33108c2a2c1fd8cd43070ab641ae1e8dab42da9fad03d5ef0c01d58ab2",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:04:47+00:00",
+  "session_id_in": null,
+  "session_id": "1f603f3d-c62f-45ea-afe6-210344cc8a1b",
+  "text": "I can't give you specific facts from the earlier cases, because the firm's stored knowledge doesn't contain any. It has no witness statements, retail return figures, or engineering documents (part numbers, test values, drawing or revision identifiers). Anything I named would be invented, and I won't put made-up numbers or names into a matter file.\n\n**What the file does tell us**\n- Toil & Trouble tracks consumer complaints in its **Ravenscar** ticketing system, which can be searched on request. This is the likely source for complaint and incident history on B-2's product and related models.\n- The client treats design, test and complaint-handling records as confidential.\n- The client wants prompt notice of other claims on the same or related models.\n\n**What to expect to recur (categories, not facts)**\n- **Complaint and incident history:** Ravenscar tickets on the same or related models, with ticket IDs, dates, failure mode and injury or damage claimed. Plaintiffs will almost certainly request these.\n- **Retail return data:** return rates and reason codes by model and period. These come from the client, since we don't contact its retail partners.\n- **Engineering and test records:** design specs, test reports, model numbers, revision histories, and any change orders after earlier incidents.\n- **Witness testimony:** prior depositions or statements from the client's engineers, quality staff and complaint handlers. Expect plaintiffs to seek transcripts from earlier cases.\n- **Prior experts:** earlier experts' reports and testimony, which opposing counsel will use for impeachment or consistency checks.\n\n**How to get the real facts**\n1. Pull the earlier case files and any transcripts from the firm's own records. I don't have access to them here.\n2. Ask Franklin Oyelaran, copying Delphine Moorcroft, to identify who can run a Ravenscar search and to run it for B-2's model and related models. Do not contact employees directly.\n3. Don't volunteer complaint history or other incidents until a request is served and scope is discussed. Do tell the client promptly if the search reveals other claims on the same or related models.\n4. Get a protective order, with an outside-counsel-and-experts tier, before producing technical or complaint data. Don't stipulate to the authenticity of internal data until it is in place.\n5. Tell Oyelaran at once if anything surfaced, such as a pattern of failures, could lead to a product withdrawal. The client has promised its largest retail partners advance warning before pulling any product.\n\nIf you share the earlier case files or the B-2 product details, I can build a concrete list of the specific names, numbers and identifiers to prepare for.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:04:47+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "1f603f3d-c62f-45ea-afe6-210344cc8a1b",
+    "input_tokens": 2,
+    "output_tokens": 1013,
+    "cache_write_tokens": 2545,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020314,
+    "latency_ms": 9002,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1013,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2545,
+      "webSearchRequests": 0,
+      "costUSD": 0.020314,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 163,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2545,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

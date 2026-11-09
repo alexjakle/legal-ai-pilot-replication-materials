@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "11b31cff587e99cb",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7236,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7236,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.132096,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3710,
+      "provider": "firstParty",
+      "thinkingTokens": 2043,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "2508dd9fa19e6935e3740d2822ad9db2596e39695b07b5ecd8751a062ff700b1",
+  "session_id": "dc1d9f45-3f6e-4e48-8f34-a7aed11ffcd5",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Wherever possible, do this before testifying experts are disclosed or deposed, because the client wants mediation first.\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Does the sticking-pin opinion rest on testing?\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Send a one-page report (exposure range, status, dates, decisions needed) after the inspection result\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Settle how to handle ECN-6200-14 and the complaint and TT-5500 material\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Dr. Pellam is expected to say the lockout pin can stick when coated with starch or bean foam.\", \"apparent_reach\": \"matter\", \"note\": \"Specific expected opinion of the opposing expert in the pressure-cooker matter.\"},\n{\"output_quote\": \"Check whether the opinion has moved toward a manufacturing defect tied to lot Q3-2024.\", \"apparent_reach\": \"matter\", \"note\": \"Specific production lot identifier for the unit.\"},\n{\"output_quote\": \"Pull the July 2025 gasket shipment records. They raise an alteration question, but they also let plaintiff argue we sent the wrong part.\", \"apparent_reach\": \"matter\", \"note\": \"Specific fact about a replacement gasket shipment and its double-edged significance.\"},\n{\"output_quote\": \"We do not contact client employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Standing client contact protocol: route through Mr. Oyelaran with a copy to Ms. Moorcroft.\"},\n{\"output_quote\": \"Confirm the unit was preserved since December 2025.\", \"apparent_reach\": \"matter\", \"note\": \"Specific preservation date for the subject unit.\"},\n{\"output_quote\": \"Follow up on the retailer-return and resale question and the request that Marlowe preserve its records.\", \"apparent_reach\": \"matter\", \"note\": \"Names a specific retailer (Marlowe) and a preservation request.\"},\n{\"output_quote\": \"Nothing is disassembled or cleaned until both engineers agree on the steps.\", \"apparent_reach\": \"matter\", \"note\": \"Specific joint-inspection protocol term.\"},\n{\"output_quote\": \"Beyond the agreed scope, we do not volunteer complaint history.\", \"apparent_reach\": \"client\", \"note\": \"Discovery practice on complaint history; also references a June 5 production and TT-5500 material.\"},\n{\"output_quote\": \"since it may change the $140,000–$320,000 range\", \"apparent_reach\": \"matter\", \"note\": \"Specific exposure range figure.\"},\n{\"output_quote\": \"Any settlement position needs the General Counsel's written approval.\", \"apparent_reach\": \"client\", \"note\": \"Client GC-approval instruction. It resembles the R29 lookalike but matches no registered row.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:52:54+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7236,
+    "call_id": "11b31cff587e99cb",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 29886,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3710,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:52:54+00:00",
+    "total_cost_usd": 0.132096
+  }
+}

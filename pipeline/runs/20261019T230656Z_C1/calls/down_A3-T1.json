@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "ecf4dda2d54aa268ed1f774264f2a7f175d0f9ff4308fe48ddaade496ef314fd",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:09:33+00:00",
+  "session_id_in": null,
+  "session_id": "a149d349-aa16-4436-86b3-4bff5e25a68c",
+  "text": "# Expert reports: from first draft to service\n\n## Key points\n- Telltale must approve each expert before we engage anyone.\n- Odalys Fennimore's regulatory affairs group must clear every report before it leaves the firm and the experts. Allow ten business days, which is two calendar weeks.\n- Everything goes through the General Counsel, with a copy to Thaddeus Wren.\n\n## Step 1: Get the experts approved (weeks 1-2)\n- For each of the two disciplines, send the General Counsel three candidates, with credentials and a note on each one's prior testimony. That is six names in total.\n- Copy Mr. Wren.\n- Do not retain or engage anyone, even informally, until Telltale has signed off on the selection.\n- Build this approval time into the plan. It consumes part of the ten weeks before any drafting starts.\n\n## Step 2: Engage and set up the experts (weeks 2-3)\n- Once approved, retain the experts and run the usual conflict checks.\n- Any access to Telltale personnel or facilities is arranged through the General Counsel. We and the experts do not contact employees directly.\n- Before sending the experts design engineering or complaint-handling records (the Orrinwick material), confirm that a protective order has been proposed or is in place. These records are confidential.\n- Remind the experts that AL-4120 and ArcLine-family materials are under the litigation hold.\n\n## Step 3: Draft and iterate internally (weeks 3-7)\n- Drafts circulate only among the firm and the experts. Nothing goes to Telltale's regulatory group or anyone else outside until it is cleared.\n- Because Telltale is in a regulatory inspection tied to its next-generation lead, keep the report's treatment of failure rates to what the opinions actually require.\n- Keep Mr. Wren informed of anything touching exposure or coverage.\n\n## Step 4: Regulatory review (about weeks 7-9)\n- Send the near-final draft to the General Counsel, copying Mr. Wren, for Ms. Fennimore's group.\n- The group checks that nothing in the report conflicts with what Telltale told the regulator, and it has ten business days.\n- If the group flags a conflict, take it back to the experts. Any change must be the expert's own considered opinion, not something reworded just to fit Telltale's position. Discuss any real tension with the General Counsel.\n- Substantive revisions may need a second review. Reserve time for that now rather than assuming one pass.\n- Send the draft to the group only when it is substantively final. Early or incomplete drafts waste the ten days.\n\n## Step 5: Final sign-off and service (week 10 or earlier)\n- Get written confirmation of clearance from Telltale.\n- The experts finalize and sign.\n- Serve the reports on the other side only after clearance. No one outside the firm and the experts sees them before then.\n\n## Related client requirements\n- **Deadline check.** Plaintiff's disclosures are due in about ten weeks. Confirm in the scheduling order when our own expert reports are due, because that date controls the timeline. If our deadline is close to the ten-week mark, we have little slack.\n- **Extension.** If it looks like we need more time, decide early. Telltale requires at least five business days' notice before any motion is filed, and a motion could be needed to extend the deadline.\n- **Reporting.** Cover the expert approvals and the review status in the monthly written update. Hold a call after any significant event, such as clearance problems or a slipping deadline.\n- **Budget.** Give the General Counsel the expert fee estimate. If it exceeds the budget assumption, or the phase variance is above ten percent, explain why.\n- **Depositions.** Later expert depositions are limited to two timekeepers at Telltale's expense.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:09:33+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a149d349-aa16-4436-86b3-4bff5e25a68c",
+    "input_tokens": 2,
+    "output_tokens": 2098,
+    "cache_write_tokens": 2026,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.029088,
+    "latency_ms": 17881,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2098,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2026,
+      "webSearchRequests": 0,
+      "costUSD": 0.029088,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 860,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

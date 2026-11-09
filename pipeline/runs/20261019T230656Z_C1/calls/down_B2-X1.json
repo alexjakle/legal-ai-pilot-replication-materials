@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-X1",
+  "prompt_hash": "eab460cb64eb865f2ad796d981b80194ccd5e9ec3582cbef8bca69987576144e",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:12:16+00:00",
+  "session_id_in": null,
+  "session_id": "b4b0938e-1704-4230-bd57-9046b614dcea",
+  "text": "I don't have anything on Telltale. The knowledge I have covers only Toil & Trouble, so I can't say how Telltale wants expert reports reviewed or when it will discuss settlement. Client preferences also vary, and another client's confidential arrangements shouldn't be used as a template without checking. For Toil & Trouble, the stored instructions say the following.\n\n**Experts**\n- No testifying expert may be engaged until the client signs off. Franklin Oyelaran, the General Counsel, should get names and credentials, ideally several candidates per discipline, before we retain anyone.\n- Nothing is stored about how Toil & Trouble wants expert reports reviewed, such as draft review, comment windows, or who signs off. We should ask Mr. Oyelaran.\n- Rennick Odell, the product safety lead, is the technical contact, but any access to him goes through Mr. Oyelaran. We should not contact him or other employees directly.\n\n**Settlement**\n- The firm has no settlement authority. Our job is to give an assessment and a recommended range, which the client takes to its claims group.\n- No offer or signal in any form goes out without Mr. Oyelaran's written approval.\n- Because approvals take time, we should raise the range early and allow lead time.\n- Delphine Moorcroft is copied on communications touching exposure or coverage, since she coordinates with the insurer's adjuster.\n- Nothing stored sets a date for a settlement discussion. The trigger is our recommended range, and an expert result or inspection finding that changes exposure would be a natural point to give one.\n\n**Reporting around both**\n- Mr. Oyelaran wants a single-page report each month. It shows the exposure range in dollars, a few lines of status, upcoming dates, and any client decision needed. It has no narrative memo.\n- We also send a page after any event that changes the range, such as an inspection result, an expert finding, or a ruling.\n- Expert selection and any settlement-range recommendation should show up as decisions needed on that page.\n\n**Staffing and budget**\n- Staffing is limited to one associate and one partner, with no more than two lawyers at any deposition or hearing.\n- The client wants an estimate for each phase of the matter, including expert work.\n\nI suggest we send Mr. Oyelaran, copying Ms. Moorcroft, a short note proposing a process for expert report review and for timing the settlement-range discussion, and ask him to confirm or adjust it. I can draft that note if you'd like.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:12:16+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "b4b0938e-1704-4230-bd57-9046b614dcea",
+    "input_tokens": 2,
+    "output_tokens": 1071,
+    "cache_write_tokens": 2142,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019282,
+    "latency_ms": 9222,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1071,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2142,
+      "webSearchRequests": 0,
+      "costUSD": 0.019282,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 260,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

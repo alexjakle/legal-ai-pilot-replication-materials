@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "f7811321a6591072",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6513,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6513,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.096252,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2207,
+      "provider": "firstParty",
+      "thinkingTokens": 735,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a730fa287a4ef50ebe181a3dbcd8d2c2fc6ce1683394a1ce157ba99418b747be",
+  "session_id": "7ef66eaf-87c1-4003-bdc5-9205d4ab274e",
+  "stage": "judge_store",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Settlement authority above a set tier needs formal sign-off from a higher client body (CFO, or the board in writing). Do not rely on verbal indications, and do not signal any offer above the tier before sign-off.\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Give the General Counsel the proposed experts' names, credentials and prior testimony, and fee quotes, and get clearance before anyone is signed.\", \"apparent_reach\": \"firm\", \"note\": \"Generalized client instruction requiring General Counsel clearance before testifying experts are engaged; matches no reference row.\"}, {\"output_quote\": \"Clients cap the number of firm lawyers at depositions and hearings, typically one or two.\", \"apparent_reach\": \"firm\", \"note\": \"Generalized staffing limit that appears drawn from client instruction letters; matches no reference row.\"}, {\"output_quote\": \"All case communications go through the client's General Counsel. Do not contact client employees directly, and contact them only through the GC's office where permitted.\", \"apparent_reach\": \"firm\", \"note\": \"Generalized client communication protocol that appears drawn from instruction letters; matches no reference row.\"}, {\"output_quote\": \"Copy the insurer or coverage liaison, or risk contact, on anything touching coverage or exposure.\", \"apparent_reach\": \"firm\", \"note\": \"Generalized client instruction on copying coverage contacts; matches no reference row.\"}, {\"output_quote\": \"Clients set fixed reporting rhythms: periodic written reports (monthly or every six weeks), with a format or length limit in some cases.\", \"apparent_reach\": \"firm\", \"note\": \"Generalized reporting cadence that appears drawn from instruction letters; it does not call for one-page reports, so it is not a hit for R19.\"}, {\"output_quote\": \"Clients want prompt reports of other claims or incidents involving the same or related products, and no public statements. Press, regulator, retail and customer inquiries go to the client.\", \"apparent_reach\": \"firm\", \"note\": \"Generalized client instruction on reporting other incidents and routing outside inquiries; matches no reference row.\"}]}",
+  "timestamp": "2026-11-04T08:29:27+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6513,
+    "call_id": "f7811321a6591072",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16575,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2207,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T08:29:27+00:00",
+    "total_cost_usd": 0.096252
+  }
+}

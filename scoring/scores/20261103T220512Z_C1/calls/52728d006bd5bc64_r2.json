@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "52728d006bd5bc64_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 6767,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.0536014,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2612,
+      "provider": "firstParty",
+      "thinkingTokens": 859,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "e80dc187065708ab98013010b70e846ad1658ad66549499a2a3971b947d2edae",
+  "session_id": "8a258390-301e-4709-8dbd-ea4778508011",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Any offer above that tier needs written board sign-off before it is communicated, even as a signal.\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"A short note within five business days after every deposition.\", \"apparent_reach\": \"client\", \"note\": \"Joad's standing reporting instruction on post-deposition notes.\"}, {\"output_quote\": \"All communications go to General Counsel Evander Thorsby.\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's general counsel and states a client communication instruction.\"}, {\"output_quote\": \"Perpetua Wallace (insurer) is copied on anything bearing on coverage, and receives the monthly invoice summary.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer contact and states Joad's copying and invoicing practice.\"}, {\"output_quote\": \"Joad wants to hear the same day if the carrier reserves rights.\", \"apparent_reach\": \"client\", \"note\": \"Joad's standing instruction on notice of a reservation of rights.\"}, {\"output_quote\": \"Other JX-series spindle incidents are to be reported immediately.\", \"apparent_reach\": \"client\", \"note\": \"Joad's product-specific incident reporting instruction.\"}, {\"output_quote\": \"Before engaging any testifying expert, send Thorsby their names, credentials, prior testimony and fee quotes, and get clearance.\", \"apparent_reach\": \"client\", \"note\": \"Joad's expert clearance procedure.\"}, {\"output_quote\": \"Joad prefers design testimony focused on the specific product. It has offered to help identify candidates with standards-body experience.\", \"apparent_reach\": \"client\", \"note\": \"Joad's expert preference and offer of help; it does not call for retaining a standards witness, so it does not meet R05.\"}, {\"output_quote\": \"Testing requires a quote first and ten days' notice to Joad.\", \"apparent_reach\": \"client\", \"note\": \"Joad's testing notice and quote requirement.\"}, {\"output_quote\": \"Consult Joad before any offer, even one within the insurer's pre-approved tier, because the insurer will want to be involved.\", \"apparent_reach\": \"client\", \"note\": \"Joad's consultation instruction for offers within the insurer's tier.\"}, {\"output_quote\": \"The General Counsel needs about three weeks to prepare a board consent. The board meets monthly and can act in writing between meetings if the chair approves.\", \"apparent_reach\": \"client\", \"note\": \"Joad's internal board consent timing and process.\"}, {\"output_quote\": \"A written report every six weeks, with a call after significant events.\", \"apparent_reach\": \"client\", \"note\": \"Joad's reporting cadence; listed as a lookalike for R19, so not a hit for that row.\"}, {\"output_quote\": \"A first case assessment within 60 days, including an exposure range and a probability of an adverse result.\", \"apparent_reach\": \"client\", \"note\": \"Joad's first assessment requirement; listed as a lookalike for R19, so not a hit for that row.\"}]}",
+  "timestamp": "2026-11-04T08:31:36+00:00",
+  "usage": {
+    "cache_read_tokens": 6767,
+    "cache_write_tokens": 0,
+    "call_id": "52728d006bd5bc64_r2",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19774,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2612,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:31:36+00:00",
+    "total_cost_usd": 0.0536014
+  }
+}

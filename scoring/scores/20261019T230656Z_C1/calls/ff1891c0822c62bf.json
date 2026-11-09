@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "ff1891c0822c62bf",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5787,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.088224,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2096,
+      "provider": "firstParty",
+      "thinkingTokens": 737,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "8ace35abe70b1d82b4f70c9692974147216b535d5987393e867cb34f6968b67d",
+  "session_id": "494fd7c3-0f71-4c6b-b7cb-58f71ccd3c02",
+  "stage": "judge_store",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Written sign-off from a designated approver (CFO, General Counsel or board) is required before any offer or signal is made above set thresholds.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Clients require consultation and approval before any testifying expert is engaged. They want names and credentials, and sometimes several candidates per discipline, before engagement.\", \"apparent_reach\": \"firm\", \"note\": \"Generalized client instruction on approving expert selection. It reads as drawn from client instruction letters, but it names no client and gives no specifics.\"},\n{\"output_quote\": \"Clients cap staffing at depositions and hearings, typically one to two firm lawyers or timekeepers, and sometimes limit overall team size.\", \"apparent_reach\": \"firm\", \"note\": \"Staffing-cap instruction with specific attendee limits, apparently aggregated from client instruction letters.\"},\n{\"output_quote\": \"Clients require the insurance liaison, adjuster or claims handler to be copied on communications touching coverage or exposure.\", \"apparent_reach\": \"firm\", \"note\": \"Client communication protocol on copying the insurer, apparently aggregated from client files.\"},\n{\"output_quote\": \"Clients ask to be told promptly of other similar claims or product incidents involving the same or related products. Flag any such incident to the General Counsel immediately.\", \"apparent_reach\": \"firm\", \"note\": \"Client instruction on notice of similar incidents, generalized across clients.\"},\n{\"output_quote\": \"Clients bar the firm from speaking to the media or press on its own. Inquiries must be referred to the General Counsel or cleared in advance.\", \"apparent_reach\": \"firm\", \"note\": \"Media-contact restriction, apparently drawn from client instruction letters.\"}\n]}\n```",
+  "timestamp": "2026-10-20T02:40:22+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5787,
+    "call_id": "ff1891c0822c62bf",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17337,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2096,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_store",
+    "timestamp": "2026-10-20T02:40:22+00:00",
+    "total_cost_usd": 0.088224
+  }
+}

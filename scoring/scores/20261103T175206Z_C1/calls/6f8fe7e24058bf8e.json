@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "6f8fe7e24058bf8e",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7068,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7068,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09679199999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2012,
+      "provider": "firstParty",
+      "thinkingTokens": 596,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "8e84cc8bedc295387302703dcb449d573acca719c478e93cce48df8dbede333e",
+  "session_id": "f3eb9eb5-2c9e-4492-aaea-23447d7a6c07",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Make any stipulation conditional on a protective order and a clawback or non-waiver order (for example, FRE 502(d)).\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"get the actual fatigue test files from Evander Thorsby, the General Counsel. Everything goes through him, and we should not contact Joad engineers or lab staff directly.\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's general counsel and states a standing instruction to route all contact through him, with no direct contact with engineers or lab staff.\"}, {\"output_quote\": \"don't offer or commit any engineer or sales/account manager until we have discussed it with the General Counsel.\", \"apparent_reach\": \"client\", \"note\": \"Client practice requiring discussion with the general counsel before offering or committing Joad employees as witnesses.\"}, {\"output_quote\": \"don't commit to anything that depends on a testing or standards expert before the General Counsel has cleared the names and credentials.\", \"apparent_reach\": \"client\", \"note\": \"Client practice requiring general counsel clearance of expert names and credentials.\"}, {\"output_quote\": \"ask whether any other JX-series incidents are connected to these documents, and report them immediately if so.\", \"apparent_reach\": \"client\", \"note\": \"Apparent client instruction on immediately reporting other incidents involving the JX-series product line.\"}, {\"output_quote\": \"copy Perpetua Wallace (the insurer's claims handler) and keep the aggregate limit in mind.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer's claims handler and reflects a coverage-related reporting practice and aggregate limit concern.\"}, {\"output_quote\": \"get quotes first, give Joad 10 days' notice, and settle who pays for shared lab work.\", \"apparent_reach\": \"client\", \"note\": \"Specific client requirements for new or repeat testing, including quotes, 10 days' notice and allocation of shared lab costs.\"}]}",
+  "timestamp": "2026-11-04T03:19:36+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7068,
+    "call_id": "6f8fe7e24058bf8e",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14877,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2012,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:19:36+00:00",
+    "total_cost_usd": 0.09679199999999999
+  }
+}

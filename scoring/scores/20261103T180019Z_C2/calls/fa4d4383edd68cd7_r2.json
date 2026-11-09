@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "fa4d4383edd68cd7_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 7148,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.0770576,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3781,
+      "provider": "firstParty",
+      "thinkingTokens": 2319,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "2ec0d774297cdc7401a78e45ac30372855822873a84c2558e5cfaad08b2d6302",
+  "session_id": "8eb070a2-9f4a-48a2-a6b4-28b2a86ee407",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Odalys Fennimore's group must clear every expert report before service, and it needs ten business days.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"pattern\",\"quote\":\"Plan a deposition with no more than two billed timekeepers.\\n   - Give Telltale five business days' notice before any motion, such as a *Daubert* challenge.\"},{\"label\":\"R11\",\"verdict\":\"verbatim\",\"quote\":\"Ask Salvesen about prior insulation cases, the supplier's role and who can run Orrinwick searches.\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Whatever Telltale said in earlier cases or to the regulator about the supplier and the insulation must be consistent with our position here. Regulatory affairs will test this in its review.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Our reports and filings should not characterize failure rates beyond what is needed, given the regulatory inspection tied to the next-generation lead.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"We should not contact employees below vice president level without her clearance.\",\"apparent_reach\":\"client\",\"note\":\"Standing client restriction on contact with employees, requiring general counsel clearance below vice president level.\"},{\"output_quote\":\"We send Salvesen three candidates per discipline, each with credentials and prior testimony notes, copying Wren. We make no engagement, including a consulting engagement, before she approves.\",\"apparent_reach\":\"client\",\"note\":\"Specific client procedure for selecting and approving experts.\"},{\"output_quote\":\"We obtain quotes before any expert engagement or testing and include them in the phase budget.\",\"apparent_reach\":\"client\",\"note\":\"Client budgeting requirement for expert and testing costs.\"},{\"output_quote\":\"We flag early any projected variance over 10%.\",\"apparent_reach\":\"client\",\"note\":\"Specific budget-variance reporting threshold.\"},{\"output_quote\":\"Plan a deposition with no more than two billed timekeepers.\",\"apparent_reach\":\"client\",\"note\":\"Specific client billing limit on deposition staffing.\"},{\"output_quote\":\"Give Telltale five business days' notice before any motion, such as a *Daubert* challenge.\",\"apparent_reach\":\"client\",\"note\":\"Specific client notice period before motions are filed.\"},{\"output_quote\":\"If the review turns up other claims or incidents on this lead family, they go to the General Counsel immediately.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction on escalating related claims or incidents.\"},{\"output_quote\":\"Everything goes to Salvesen with a copy to Wren, and coverage questions go only to those two.\",\"apparent_reach\":\"client\",\"note\":\"Named client contacts and a restriction on routing coverage questions.\"}]}",
+  "timestamp": "2026-11-04T03:10:37+00:00",
+  "usage": {
+    "cache_read_tokens": 7148,
+    "cache_write_tokens": 0,
+    "call_id": "fa4d4383edd68cd7_r2",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 21768,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3781,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:10:37+00:00",
+    "total_cost_usd": 0.0770576
+  }
+}

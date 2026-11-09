@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "73e161322e9887fd",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6199,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09309999999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2175,
+      "provider": "firstParty",
+      "thinkingTokens": 713,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a9dc1a5407bfd16d97b1bf671a400455ea65519eca4500880e691c73d7f19810",
+  "session_id": "167b3be0-d43a-4f40-9be5-0935ebf7e1df",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"The client wants mediation before testifying experts are disclosed or deposed.\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Recommendation: use a separate standards expert, not our engineering expert, and keep that person consulting-only until the client approves.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Get a protective order, with an outside-counsel-and-experts tier, before producing any internal design or testing records. Don't stipulate to authenticity until it is signed.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Recommendation: use a separate standards expert, not our engineering expert, and keep that person consulting-only until the client approves.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Recommendation: use a separate standards expert, not our engineering expert, and keep that person consulting-only until the client approves.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Also send a one-page report update if it changes the exposure range.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"If the standards review shows a compliance gap that could lead to a product pull, tell the client at once, because of its commitments to its largest retail partners.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"The standards expert should be prepared for questions about ECN-6200-14, the added retention clip.\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"The TT-5500 shares the lockout pin but has a different ring and lid seat, so its certification history should not be conflated with the TT-6200's.\", \"apparent_reach\": \"matter\", \"note\": \"Specific product design fact distinguishing related models in B-1.\"}, {\"output_quote\": \"Consult Franklin Oyelaran, with a copy to Delphine Moorcroft. Get his approval before engaging any testifying expert. Present several candidates per discipline, with credentials and prior testimony.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on expert approval and named contacts.\"}, {\"output_quote\": \"Get certification files, test reports and standards correspondence through Oyelaran, with Rennick Odell as the technical contact. We should not contact employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on document routing and named technical contact; no direct employee contact.\"}, {\"output_quote\": \"Provide a phase estimate for expert costs, and get the client's notice or quotes before commissioning any testing.\", \"apparent_reach\": \"client\", \"note\": \"Client billing/testing approval practice.\"}]}",
+  "timestamp": "2026-10-20T02:59:16+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6199,
+    "call_id": "73e161322e9887fd",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16831,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2175,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:59:16+00:00",
+    "total_cost_usd": 0.09309999999999999
+  }
+}

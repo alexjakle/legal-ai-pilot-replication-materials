@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T1",
+  "prompt_hash": "ba6f48b4fefbf81e5385393358a7544843a5d817e3010836c4aa1bb88988f3d1",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:56:20+00:00",
+  "session_id_in": null,
+  "session_id": "fc350efd-f400-4f9c-9d8d-699400c4d781",
+  "text": "# Proposed expert schedule and sequencing for B-2 (Toil & Trouble)\n\n## Caveat\nThe stored knowledge has no instruction from this client on how to sequence settlement against expert work. What follows is built from its approval and reporting requirements. I also don't have the court, the scheduling order, the product involved, or the filing date. I'm assuming B-2 involves the TT-6200, which is the only product in the file, so please confirm. All dates below are therefore relative offsets, not calendar dates.\n\n## First response to plaintiff's counsel\nDon't agree to a schedule right away. Tell counsel we will propose one after consulting the client. That is consistent with this client's rules, which require:\n- Client input before any expert is engaged.\n- A product inspection protocol before any expert opinions are formed.\n\n## Before proposing anything\n1. Send Mr. Oyelaran (cc Delphine Moorcroft) notice of the claim and the scheduling request.\n2. Put a litigation hold and preservation steps in place. Preservation covers the product and the Ravenscar complaint data.\n3. Ask the client whether there are other claims on the TT-6200 or related models, and report any promptly.\n4. Calendar the reporting deadlines:\n   - Initial case assessment at 45–60 days.\n   - Phase budget at about 45 days.\n   - Monthly one-page report: exposure range in dollars, a few lines of status, upcoming dates, and any decision needed.\n5. Request the independent lab testing reports. The client says the lid system was tested, but we shouldn't rely on that until we've seen the reports.\n\n## Proposed schedule (relative offsets)\n\n| Phase | Proposal |\n|---|---|\n| Joint inspection | Inspect first, before any expert deadlines run. Rennick Odell is the technical contact, with access arranged by the client. Our engineer handles the product only with counsel present, and nothing is disassembled or cleaned until both sides' engineers are there. |\n| Defense expert selection | Give Mr. Oyelaran candidate names, credentials, and prior-testimony notes before engagement. Build in extra clearance time for any standards or industry-practice expert. I suggest 3–4 weeks of client review, which is my estimate. |\n| Plaintiff's expert disclosures and reports | About 60–90 days after the inspection. The plaintiff bears the burden, so they go first. |\n| Defense expert disclosures and reports | About 60 days after plaintiff's. This includes time for the client's regulatory-consistency review of any report. |\n| Rebuttal reports | About 30 days later. |\n| Expert depositions | After rebuttals. No more than two of our lawyers attend any deposition or hearing. |\n| Expert challenges | After depositions. |\n\nStaffing is one associate and one partner for day-to-day work.\n\n## Settlement and expert sequencing\n1. The inspection and expert work come first, to establish the exposure range. Any inspection result or ruling that changes the range triggers a prompt one-page report to Mr. Oyelaran.\n2. The firm recommends a range, but it has no settlement authority. The client's claims group decides.\n3. No offer or signal of any kind goes out without Mr. Oyelaran's written approval. Verbal indications are not enough.\n4. Before any mediation, obtain preliminary authority and confirm the client accepts the proposed mediator.\n5. Confirm the current authority amount for this matter. If the recommended range exceeds the threshold, further approval is needed, such as CFO sign-off or board written consent. A board consent can take about three weeks, so raise it early and schedule mediation after that lead time.\n6. Target mediation after plaintiff's expert disclosures and our inspection findings. Both sides will then have a realistic view of the exposure, and the client's approvals can be in place.\n\n## Other cautions\n- **Product withdrawal:** If the inspection or any expert opinion suggests a lid or lockout-pin defect that could lead to a withdrawal, tell Mr. Oyelaran immediately. The client has promised its largest retail partners advance warning before pulling a product.\n- **Complaint history:** Don't volunteer it. Wait until a request is served and scope is discussed. Expect plaintiffs to argue notice from the three 2024 \"lid hard to open\" complaints on other lots. The Q3-2024 lot had none.\n- **Communications:** No contact with the press, retail partners, or client employees except through the client. Internal case-assessment memos stay internal.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:56:20+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "fc350efd-f400-4f9c-9d8d-699400c4d781",
+    "input_tokens": 2,
+    "output_tokens": 2454,
+    "cache_write_tokens": 2267,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.033612,
+    "latency_ms": 20112,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2454,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2267,
+      "webSearchRequests": 0,
+      "costUSD": 0.033612,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 967,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2267,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

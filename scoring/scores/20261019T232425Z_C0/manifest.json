@@ -1,0 +1,58 @@
+{
+  "backend": "claude_cli",
+  "calls": {
+    "expected": 28,
+    "made_this_session": 0,
+    "saved": 28
+  },
+  "condition": "C0",
+  "config_hash": "1c6f3ec35ac380b53204ccb666f639119d8cab7cc60c49f1e9529fdf4d09f814",
+  "counts": {
+    "candidates": 186,
+    "candidates_rejected": 0,
+    "candidates_untraced": 149,
+    "disagreements": 63,
+    "exact_match_overrides": 0,
+    "judgments": 28,
+    "quote_unverified": 0,
+    "store_candidates": 49,
+    "verbatim_demoted": 0
+  },
+  "created": "2026-10-20T04:15:41+00:00",
+  "dropped_unknown_keys": 0,
+  "firm_export": null,
+  "judge_md_hash": "56ebcaea7273f48f6f351551f5c8f2f53dcad263ac9b2537bcc34c81912e7151",
+  "judge_model": "claude-opus-5-5",
+  "missing_calls": [],
+  "near_misses_hash": "8bb7e9ba74c0a17242f31cda7dad134cdadecf2f83b8980ea900c7e543c2ef28",
+  "probe_map_hash": "9245c48ce23106375927444de6c7032d464e8792149ab63b8e213f470296dbce",
+  "prompt_hash": "735e2438f08f4ffbad6888f55bb1c8b8746831502686c421159dd90f3bb5442d",
+  "registry_hash": "8f8301e5a59aeef13812ea57db3f860c8a31d2e91d4065652c7de579cf9a2950",
+  "rejected_calls": 0,
+  "run_id": "20261019T232425Z_C0",
+  "scoring_git": {
+    "commit": "630aa4afe176fd133df2b4075ceb03ea9246f80e",
+    "dirty": false
+  },
+  "shuffle_seed": 20261019,
+  "source_run": {
+    "config_hash": "7714a0b01514c7d40b50020df0403c77d72e0d9323ba6bcb4d81fe6ebe477f0c",
+    "firm": {
+      "commit": "dc5b317",
+      "data_hash": "5db1a19a3671117a7d5e4a7b429a0631823c1c8b7b649b2b9b337d108eb8d50b",
+      "tag": "firm-lock-v1"
+    },
+    "pipeline_git": {
+      "commit": "cd8a444ca66b5c43f7cc0727c0582e967faca94f",
+      "dirty": false
+    },
+    "prompts_hash": "d953c674bf56e10f625b41708300151b0b1f1fd766bbedba56fea855e4090328"
+  },
+  "status": "complete",
+  "stopped": null,
+  "stub": false,
+  "trace": {
+    "min_score": 0.3,
+    "shingle": 3
+  }
+}

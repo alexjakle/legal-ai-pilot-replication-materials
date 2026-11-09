@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "316524af09a4f6af",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7026,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7026,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.11107600000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2743,
+      "provider": "firstParty",
+      "thinkingTokens": 1156,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "2d7ecd573ed4977d21692b218314f87a82c86adccd2d537947c634ce48720b3b",
+  "session_id": "e06f6c10-ebe3-450b-ba6e-435eb6d5ee9f",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"The client wants mediation before any testifying expert is disclosed or deposed, so don't designate anyone yet.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"The witness should be someone with real standing in the standards community, ideally a member of the working group or committee that wrote the pressure-cooker or appliance lid-safety provisions the TT-6200 was tested against.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"Recommendation: use a separate, independent standards witness, positioned apart from the engineer who addresses this cooker.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"Recommendation: use a separate, independent standards witness, positioned apart from the engineer who addresses this cooker.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"verbatim\",\"quote\":\"Prepare the standards witness for questions on ECN-6200-14, the retention clip added after the plaintiff's purchase.\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"The client expects no more than $150,000 through mediation and wants early notice if that is unrealistic, so tell Mr. Oyelaran, copying Ms. Moorcroft, if standards work changes the estimate.\",\"apparent_reach\":\"matter\",\"note\":\"Specific client budget figure and reporting instruction with named client contacts. Listed as a lookalike for R29, but it is not a registered row.\"},{\"output_quote\":\"Also prepare the witness for questions on the three \\\"hard to open\\\" complaints and the TT-5500 pin reports.\",\"apparent_reach\":\"matter\",\"note\":\"Specific matter facts about prior complaints and pin reports on another product model.\"},{\"output_quote\":\"Mr. Odell can be the fact witness on how Toil & Trouble applied the standard and obtained the listing.\",\"apparent_reach\":\"matter\",\"note\":\"Names a client witness and his planned role on standards compliance and the lab listing.\"},{\"output_quote\":\"Any early contact should be as a non-testifying consultant, which is protected under the agreement not to disclose consultants.\",\"apparent_reach\":\"matter\",\"note\":\"Refers to a matter-specific agreement between the parties not to disclose consultants.\"},{\"output_quote\":\"The engineer, Dr. Takahashi or a successor, should stay on this unit. That means the pin, the ring, the gasket, residue, and a rebuttal of Dr. Pellam's sticking-pin theory.\",\"apparent_reach\":\"matter\",\"note\":\"Names the defense engineer and opposing expert, and states the opposing causation theory and the defense engineer's scope.\"},{\"output_quote\":\"Compliance and the lab listing support the defense but aren't a safe harbor. Dr. Hargrove and Dr. Pellam will say a standard is a floor.\",\"apparent_reach\":\"matter\",\"note\":\"Names opposing experts and their expected position on standards compliance.\"},{\"output_quote\":\"The file doesn't require his pre-approval for experts, but the client is closely managing expert spend.\",\"apparent_reach\":\"client\",\"note\":\"Describes the client's practice on expert approval and management of expert spend.\"}]}",
+  "timestamp": "2026-11-04T08:35:50+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7026,
+    "call_id": "316524af09a4f6af",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 21378,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2743,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:35:50+00:00",
+    "total_cost_usd": 0.11107600000000001
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "375b2e90fdf85b7e",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6430,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6430,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.080168,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1436,
+      "provider": "firstParty",
+      "thinkingTokens": 350,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "95a98e73c3f6de7e2b9c5731a517e3e6157c40f9b63875518bc1078e32ef795e",
+  "session_id": "77539b2d-ef07-45a3-808c-23fdf7f0613a",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Obtain a protective order before anything is produced, and don't stipulate to the authenticity of internal data until it is in place.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"the ticketing system where Toil & Trouble tracks consumer complaints\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Ask Franklin Oyelaran, with a copy to Delphine Moorcroft, for the following:\", \"apparent_reach\": \"client\", \"note\": \"Names specific client contacts and a copying practice for information requests.\"}, {\"output_quote\": \"Don't contact client employees directly. The client arranges access.\", \"apparent_reach\": \"client\", \"note\": \"Standing client instruction on how counsel may reach client employees.\"}, {\"output_quote\": \"Don't volunteer complaint history or other incidents until a request is served and scope is discussed.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific discovery instruction on withholding complaint history and other incidents until a request is served.\"}]}",
+  "timestamp": "2026-11-04T02:54:28+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6430,
+    "call_id": "375b2e90fdf85b7e",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 10761,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1436,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:54:28+00:00",
+    "total_cost_usd": 0.080168
+  }
+}

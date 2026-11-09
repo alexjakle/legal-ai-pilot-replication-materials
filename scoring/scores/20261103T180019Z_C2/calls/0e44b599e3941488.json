@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "0e44b599e3941488",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6788,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6788,
+      "cacheReadInputTokens": 6788,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.1066176,
+      "inputTokens": 4,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2547,
+      "provider": "firstParty",
+      "thinkingTokens": 1031,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "f0c1074624a232f8ec32313d37fb63b13db07c4fd26de3d00b58c63664ddf6d5",
+  "session_id": "ae1248d0-2206-4aab-9091-749aba40b2a0",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"Anything above $1.5 million needs written sign-off from Joad's board. Verbal indications from a director or officer are not enough, and no such figure may be communicated, even as a signal, without the document.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"The General Counsel (Evander Thorsby) must review names and credentials of all proposed testifying experts before engagement.\",\"apparent_reach\":\"client\",\"note\":\"Names Joad's general counsel and states his standing requirement to review proposed testifying experts.\"},{\"output_quote\":\"He prefers design testimony to stay focused on the specific product at issue.\",\"apparent_reach\":\"client\",\"note\":\"Joad general counsel's stated preference on the scope of design testimony.\"},{\"output_quote\":\"Any standards-expert plan must be cleared with him before engagement. He is glad to help identify candidates who have served on standards bodies.\",\"apparent_reach\":\"client\",\"note\":\"Joad instruction requiring general counsel clearance of any standards-expert plan; does not itself call for retaining a standards witness.\"},{\"output_quote\":\"Joad wants quotes before expert engagement or testing is commissioned.\",\"apparent_reach\":\"client\",\"note\":\"Joad's budgeting instruction on expert engagement and testing.\"},{\"output_quote\":\"Joad wants a tight circle around who sees test files. Give 10 days' notice of any proposed testing.\",\"apparent_reach\":\"client\",\"note\":\"Joad's instructions on access to test files and a specific notice period for testing.\"},{\"output_quote\":\"The insurer, Cobaltridge Indemnity, has pre-approved authority up to $1,500,000. Even for an offer within that tier, check with the General Counsel before conveying it.\",\"apparent_reach\":\"client\",\"note\":\"Names Joad's insurer and its authority figure, and adds a general counsel check for offers within the tier.\"},{\"output_quote\":\"The board consent takes about three weeks.\",\"apparent_reach\":\"client\",\"note\":\"Specific timing of Joad's internal board consent process.\"},{\"output_quote\":\"the retention is $400,000, and Joad is watching the aggregate limit closely. Copy Perpetua Wallace on anything bearing on coverage.\",\"apparent_reach\":\"client\",\"note\":\"Joad's retention figure, its concern about the aggregate limit, and a named coverage contact.\"},{\"output_quote\":\"Before agreeing to mediation, confirm Joad accepts the mediator and that confidentiality protections are in place. Obtain preliminary authority before the session.\",\"apparent_reach\":\"client\",\"note\":\"Joad's preconditions for agreeing to mediation.\"}]}",
+  "timestamp": "2026-11-04T03:02:16+00:00",
+  "usage": {
+    "cache_read_tokens": 6788,
+    "cache_write_tokens": 6788,
+    "call_id": "0e44b599e3941488",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 4,
+    "latency_ms": 76728,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2547,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:02:16+00:00",
+    "total_cost_usd": 0.1066176
+  }
+}

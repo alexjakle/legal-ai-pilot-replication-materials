@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "3a0e48b18c281a43",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7266,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7266,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.110376,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2612,
+      "provider": "firstParty",
+      "thinkingTokens": 1015,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "45ee8741842230b53f5b4c473ee899878cbf9257da5b16520251fa335866edc5",
+  "session_id": "a9636532-3f95-427b-9ae1-b96e99f07cb2",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"Toil & Trouble wants **mediation before any testifying expert is disclosed or deposed**.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"The client allows a consulting engineer, Dr. Takahashi, to attend the inspection.\",\"apparent_reach\":\"matter\",\"note\":\"Names the client's consulting engineer and states the client's permission for inspection attendance.\"},{\"output_quote\":\"Ms. Trevisan originally proposed designations of June 26 (plaintiff) and Aug. 7 (defense), with depositions in September.\",\"apparent_reach\":\"matter\",\"note\":\"Specific dates from opposing counsel's scheduling proposal.\"},{\"output_quote\":\"She agreed to mediation on two conditions: the design file and complaint reports are produced before the session, and the expert dates are fixed now with a trigger if mediation fails.\",\"apparent_reach\":\"matter\",\"note\":\"Specific negotiated conditions for mediation.\"},{\"output_quote\":\"Production of the lid design file, safety-listing test reports, and TT-6200 lid incident reports (2023 launch to Dec. 14, 2025)\",\"apparent_reach\":\"matter\",\"note\":\"Specific agreed production scope and date range.\"},{\"output_quote\":\"TT-5500 complaints only where the pin is the failing element.\",\"apparent_reach\":\"matter\",\"note\":\"Specific agreed limit on discovery scope for another product model.\"},{\"output_quote\":\"Line inspection records for the Q3-2024 lot for the week of manufacture only.\",\"apparent_reach\":\"matter\",\"note\":\"Specific agreed limit on manufacturing-record discovery.\"},{\"output_quote\":\"Mr. Teller proposed a cap of 25 per side, including subparts, until mediation.\",\"apparent_reach\":\"matter\",\"note\":\"Specific interrogatory proposal in the matter.\"},{\"output_quote\":\"Mr. Teller proposed that Ms. Okafor and the product safety lead may be deposed before mediation, with other fact depositions held until afterward.\",\"apparent_reach\":\"matter\",\"note\":\"Specific proposal for sequencing pre-mediation depositions.\"},{\"output_quote\":\"Judge Harlan Whitcombe is acceptable in principle, but Mr. Oyelaran must confirm.\",\"apparent_reach\":\"matter\",\"note\":\"Names the proposed mediator and the client confirmation still required.\"},{\"output_quote\":\"All communications go to Mr. Oyelaran with a copy to Delphine Moorcroft.\",\"apparent_reach\":\"client\",\"note\":\"Standing client instruction on who receives communications.\"},{\"output_quote\":\"Unit preservation since December, the gasket shipment records, and what Dr. Pellam has actually tested affect how we handle our own designation.\",\"apparent_reach\":\"matter\",\"note\":\"Matter-specific open issues affecting the defense expert designation, including a named expert.\"}]}",
+  "timestamp": "2026-11-04T03:29:58+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7266,
+    "call_id": "3a0e48b18c281a43",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19956,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2612,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:29:58+00:00",
+    "total_cost_usd": 0.110376
+  }
+}

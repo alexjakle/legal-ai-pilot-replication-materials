@@ -1,0 +1,33 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Toil & Trouble Home Products):
+- The TT-6200 has a rotating bayonet lid with a spring-loaded float valve. Its lockout pin rises as pressure builds and blocks the ring from turning. Operating pressure is about 10 psi.
+- Complaint history: the TT-6200 Q3-2024 lot has no field complaints about the lid. There were three complaints of "lid hard to open" on other lots in 2024. Complaints are tracked in the Ravenscar ticketing system.
+- Engineering change notice ECN-6200-14 added a retention clip to the lockout pin on later TT-6200 production.
+- The TT-5500 uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat.
+- Client staffing and budget preferences: wants an estimate for each phase of a matter, staffing limited to one associate and one partner, and no more than two lawyers at any deposition or hearing.
+- Delphine Moorcroft in risk management coordinates with the insurer's claims adjuster on claims.
+- Client reporting requirement (Franklin Oyelaran, General Counsel, letter of March 9, 2026): case reports must be a single page. Each page should show the current exposure as a range in dollars, a few lines of status, upcoming dates, and any decision needed from the client. No narrative memos. Send a page monthly and after any event that changes the range, such as an inspection result or a ruling.
+- Authority limits: the firm has no settlement authority. Once it recommends a range, the client will take it to its claims group. No settlement offer may be made in any form without the General Counsel's written approval.
+- Client communication rules: send communications to Mr. Oyelaran with a copy to Delphine Moorcroft. Do not speak to the press or to retail partners, and refer inquiries to him. Do not contact client employees directly, as he arranges access. His technical contact is Rennick Odell, product safety lead. Quality records for the Q3-2024 production period are available on request, and complaints are tracked in the Ravenscar ticketing system. Tell him promptly of other claims involving the TT-6200 or related models.
+- The client has promised its largest retail partners advance warning before pulling any product from sale. It asked to be told at once if anything in the case could lead there.
+- Client instruction on plaintiff's counsel: be courteous, but do not volunteer information about customer complaint history or other incidents until a request is served and the scope has been discussed with the client. If a joint inspection is requested, agree in principle and send a written protocol.
+
+Firm store:
+- Clients require consultation and approval before any testifying expert is engaged. They want names and credentials, and sometimes several candidates per discipline, before engagement. Confirm client sign-off on expert selection before retaining anyone.
+- All case communications go through the client's General Counsel. The firm must not contact client employees or staff directly, because access is arranged through the GC or cleared in advance. Check who the designated contact is before reaching out to any client personnel.
+- Clients require the insurance liaison, adjuster or claims handler to be copied on communications touching coverage or exposure. Coverage positions are discussed only with designated people.
+- Settlement authority is held by the client or its insurer, not the firm. Written sign-off from a designated approver (CFO, General Counsel or board) is required before any offer or signal is made above set thresholds. The firm first provides an assessment and recommended range, and should allow lead time for approvals.
+- Clients bar the firm from speaking to the media or press on its own. Inquiries must be referred to the General Counsel or cleared in advance.
+- Clients require regular written reports on a fixed cadence (monthly or every six weeks) plus prompt event-driven updates after significant events such as rulings, depositions or inspection results. Reporting formats and triggers vary by client, so confirm each client's format and triggers.
+- Clients expect phase-by-phase budgets or estimates. They want explanations when projected fees or costs exceed their assumptions or budget variance thresholds.
+- Clients cap staffing at depositions and hearings, typically one to two firm lawyers or timekeepers, and sometimes limit overall team size. Check the client's limit before assigning attendees.
+- Clients ask to be told promptly of other similar claims or product incidents involving the same or related products. Flag any such incident to the General Counsel immediately.
+
+New matter: B-2
+Client: Toil & Trouble Home Products
+
+Question:
+What does Joad require before agreeing to anything about its test records, and what limits apply to its settlement offers?
+
+Answer the question.

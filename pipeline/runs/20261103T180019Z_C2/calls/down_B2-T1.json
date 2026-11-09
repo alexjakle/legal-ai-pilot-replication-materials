@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T1",
+  "prompt_hash": "cc4a159a22451f341cd41c15d8496c8573212674417c7578cd4a42f66ae38e44",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:04:09+00:00",
+  "session_id_in": null,
+  "session_id": "d80048bb-38d8-4560-a399-ad032d7336de",
+  "text": "**Short answer:** Don't agree to a full expert schedule right away. Propose a sequenced schedule that puts mediation and a joint inspection ahead of any testifying expert disclosure or deposition, and build in client-control steps before any expert is retained.\n\n## How the client wants settlement and expert work sequenced\n\n- **Mediation first.** Toil & Trouble prefers mediation before any testifying expert is disclosed or deposed. Expert discovery is expensive and hardens positions.\n- **Consulting engineer is fine early.** A consulting engineer attending a joint inspection is acceptable. It is not a testifying expert and doesn't trigger the client's concern.\n- **Client controls expert selection.** Before engaging any testifying expert, consult Franklin Oyelaran with names, credentials and prior testimony. If we plan a standards or industry-practice witness, clear that plan with him first.\n- **Regulatory review time.** If the client's regulatory group reviews expert reports for consistency with regulatory submissions, build that time into the timetable. Confirm with Franklin whether it applies.\n- **Settlement authority is the client's.** We have none. We recommend a range, and the client takes it to its claims group. No offer, number or signal of willingness to pay goes out without Franklin's written approval. Get preliminary authority before the mediation session, and ask what thresholds apply and how long approval takes. Flag any figure that would need the longer senior-sign-off process, because that affects how early the mediation date can be.\n- **Mediator and confidentiality.** Confirm Franklin accepts the proposed mediator, and that confidentiality protections prevent the mediation from being used in other cases, before agreeing to mediate.\n\n## Proposed schedule (for our counter to plaintiff's counsel)\n\nUse event-based sequencing with dates to be filled in once Franklin approves:\n\n1. **Protective order** entered before any production, with an outside-counsel-and-experts tier for sensitive design, test and complaint-handling data. No stipulation to authenticity of internal data until it is in place.\n2. **Joint inspection** of the product, attended by our consulting engineer only.\n3. **Initial written discovery and document production**, limited to what is required. Do not volunteer complaint history or other incidents until a request is served and scope is discussed. Ravenscar can be searched on request, so ask Franklin who runs searches so scoping can begin early.\n4. **Mediation window** after the inspection and preliminary authority, with a mediator approved by the client.\n5. **Expert disclosure deadlines set after the mediation window.** Propose that plaintiff's expert disclosure and ours come only after mediation, with a built-in extension if mediation is still pending. Allow time for client approval of our expert and any regulatory review.\n6. **Expert depositions** after disclosures, limited to two lawyers per deposition.\n\nIf plaintiff's counsel insists on fixed dates, propose staged ones with the expert deadlines tied to a set number of days after the mediation session or its cancellation, rather than agreeing to early calendar dates.\n\n## What to do now\n\n- **Don't commit to dates before talking to Franklin.** Send him a one-page note (copy Delphine Moorcroft) with the proposed sequence, the exposure range if we have one, and the decisions we need: approval of the schedule approach, the mediator, the consulting engineer, and the authority process and timing.\n- **Ask about commercial sensitivities.** The client has promised its largest retail partners advance warning before pulling any product. If the inspection or expert work could point toward a defect that might lead to a withdrawal, tell Franklin at once.\n- **Check for related claims.** Tell the client promptly of any other claims on the same or related models.\n- **Budget.** Expert and testing costs are the main driver. Get quotes before any major spend and provide a phase budget early. Explain any projected overrun in writing.\n- **Staffing.** Keep to one associate and one partner for day-to-day work, with no more than two lawyers at any deposition or hearing.\n- **Communications.** Everything goes through Franklin, with a copy to Delphine. Do not contact client employees directly, and do not talk to the press or retail partners.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:04:09+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "d80048bb-38d8-4560-a399-ad032d7336de",
+    "input_tokens": 2,
+    "output_tokens": 1385,
+    "cache_write_tokens": 2562,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.024102,
+    "latency_ms": 10927,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1385,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2562,
+      "webSearchRequests": 0,
+      "costUSD": 0.024102,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2562,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

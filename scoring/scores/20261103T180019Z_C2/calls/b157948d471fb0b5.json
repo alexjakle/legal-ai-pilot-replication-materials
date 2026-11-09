@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "b157948d471fb0b5",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7518,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7518,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.148412,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 4413,
+      "provider": "firstParty",
+      "thinkingTokens": 2754,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "2784e658db8bbe310ac2b869fe1683a7572f1ca15b3172e524474b9671ef69c0",
+  "session_id": "d4b109ca-dff3-405b-92c9-a32d9f8838d9",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"whether he tested the actual part or proposed a feasible alternative design\"},\n{\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"build in time for any Joad regulatory-group review of expert reports for consistency with regulatory submissions.\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"whether he tested the actual part or proposed a feasible alternative design\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"whether he tested the actual part or proposed a feasible alternative design\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"build in time for any Joad regulatory-group review of expert reports for consistency with regulatory submissions.\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Any figure above $1.5M needs written board consent, which takes about three weeks, so we flag that early.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"We go through Thorsby only and do not contact Joad engineers or production staff directly.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact and a standing instruction restricting direct contact with client staff.\"},\n{\"output_quote\": \"We do not stipulate to the authenticity of Joad's internal test data, and we resist any blanket stipulation.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific refusal to stipulate, not tied to a protective order being in place, so it does not meet R13.\"},\n{\"output_quote\": \"Before anything goes out, we need a protective order with an outside-counsel-and-experts-only tier for technical data.\", \"apparent_reach\": \"client\", \"note\": \"Specific protective-order tier required before producing technical data.\"},\n{\"output_quote\": \"We do not engage anyone until Thorsby has seen names, credentials, and prior testimony, and has approved.\", \"apparent_reach\": \"client\", \"note\": \"Client pre-approval required before any expert is engaged.\"},\n{\"output_quote\": \"Thorsby wants to know whether anyone will speak to industry practice, and he prefers design testimony stay focused on the specific product.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact's preference on the scope of design testimony.\"},\n{\"output_quote\": \"give 10 days' notice of any proposed testing\", \"apparent_reach\": \"client\", \"note\": \"Specific notice period for proposed testing.\"},\n{\"output_quote\": \"A deposition of the expert is limited to one firm lawyer and one insurer lawyer, followed by a short note to Thorsby within five business days.\", \"apparent_reach\": \"client\", \"note\": \"Specific deposition staffing limit and post-deposition reporting deadline.\"},\n{\"output_quote\": \"send Wallace the monthly invoice summary\", \"apparent_reach\": \"client\", \"note\": \"Billing instruction naming the insurer contact.\"},\n{\"output_quote\": \"Joad wants to hear the same day if the carrier reserves its rights.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific instruction on reporting a carrier reservation of rights.\"}\n]}",
+  "timestamp": "2026-11-04T02:56:18+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7518,
+    "call_id": "b157948d471fb0b5",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 24774,
+    "model": "claude-opus-5-5",
+    "output_tokens": 4413,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:56:18+00:00",
+    "total_cost_usd": 0.148412
+  }
+}

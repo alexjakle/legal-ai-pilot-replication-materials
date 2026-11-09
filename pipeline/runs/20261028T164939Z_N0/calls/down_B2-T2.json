@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T2",
+  "prompt_hash": "4f5b7b5d1209013de3585ba7e7b1c63a6b92fcae93b4581d3c4c1ee34d6223bf",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:52:35+00:00",
+  "session_id_in": null,
+  "session_id": "0e5f5ca3-9ba8-4fab-93b7-28e24d76d37b",
+  "text": "I can't give you a client-specific answer on this, because both the client store and the firm store are empty. They contain no reporting preferences for Toil & Trouble Home Products, no engagement letter terms, and no firm policy on case reports. Anything I named as their required format or cadence would be a guess, not something grounded in their instructions.\n\n**What I'd recommend instead**\n\n1. **Check for existing terms first.** Look at the engagement letter for matter B-2 and any outside counsel guidelines the client has issued. Those often fix reporting format, frequency, and budget-update requirements.\n\n2. **Ask the client contact directly.** Since they raised the question, we can put it back to them with a proposed default and invite changes.\n\n3. **Propose a default if they have no preference.**\n   - **Cadence:** A short written status update every two weeks, or monthly if activity is light. Additional ad hoc updates would go out promptly after any significant development, such as a filing, a ruling, a settlement overture, or a deadline change.\n   - **Format:** A concise written report, emailed, covering:\n     - Status summary and key developments since the last report\n     - Upcoming deadlines and next steps\n     - Open issues or decisions needed from the client\n     - Budget versus fees incurred, and any forecast changes\n     - A brief risk or outcome assessment, once there's enough to say\n   - **Calls:** A call at major milestones, or when the client wants to talk through strategy.\n\n4. **Confirm and record the agreement.** Once the client confirms, we should note the agreed format, cadence, recipients, and any preferred delivery method (email, portal, or call) in the client file, so the choice is documented for the matter team and for future matters.\n\nI'd suggest replying to the contact with the proposed default and asking whether they have internal reporting requirements, such as a template or a particular recipient list, that we should follow. If you can share the engagement letter or any client guidelines, I can tailor the answer to them.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:52:35+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "0e5f5ca3-9ba8-4fab-93b7-28e24d76d37b",
+    "input_tokens": 2,
+    "output_tokens": 632,
+    "cache_write_tokens": 701,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.009127999999999999,
+    "latency_ms": 7592,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 632,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 701,
+      "webSearchRequests": 0,
+      "costUSD": 0.009127999999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

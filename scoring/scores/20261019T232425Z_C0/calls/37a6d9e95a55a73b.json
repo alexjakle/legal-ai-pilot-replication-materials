@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "37a6d9e95a55a73b",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6248,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10839199999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2920,
+      "provider": "firstParty",
+      "thinkingTokens": 1176,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "86b390bf89dec3617f68dd6235fd1fdaf6ef8ce61ae869453358675388bc4456",
+  "session_id": "2728f725-9f8d-4b78-9c7d-6463ae130e4f",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Engage the witness first as a non-testifying consultant. Neither side discloses those, and the client wanted expert discovery to wait for mediation.\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Use a separate, independent standards witness, retained through the firm. Do not have our engineering expert explain the standards and also defend the design.\"},\n{\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"Our first effort should still go at Dr. Pellam's causation opinion. The standards witness is secondary, so avoid heavy early spend.\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Our first effort should still go at Dr. Pellam's causation opinion. The standards witness is secondary, so avoid heavy early spend.\"},\n{\"label\": \"R10\", \"verdict\": \"pattern\", \"quote\": \"Our first effort should still go at Dr. Pellam's causation opinion. The standards witness is secondary, so avoid heavy early spend.\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Use a separate, independent standards witness, retained through the firm. Do not have our engineering expert explain the standards and also defend the design.\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Someone with real standards-body experience, such as a member or officer of the committee or working group for the standard the TT-6200 was listed under.\"},\n{\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"Our first effort should still go at Dr. Pellam's causation opinion. The standards witness is secondary, so avoid heavy early spend.\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Other issues to weigh before leaning on the standard:** ECN-6200-14, the three \\\"lid hard to open\\\" complaints, and the TT-5500, which uses the same pin.\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"The client's budget ceiling through mediation was $150,000.\", \"apparent_reach\": \"matter\", \"note\": \"Specific B-1 budget figure from the client instruction letter. It is listed as a near miss for R29 but matches no registered row.\"},\n{\"output_quote\": \"Identify the actual standard from the test reports supporting the safety listing, which are due to plaintiff by June 5.\", \"apparent_reach\": \"matter\", \"note\": \"Specific B-1 production deadline.\"},\n{\"output_quote\": \"the three \\\"lid hard to open\\\" complaints, and the TT-5500, which uses the same pin.\", \"apparent_reach\": \"matter\", \"note\": \"Specific B-1 facts about prior complaints and a sister product sharing the pin.\"},\n{\"output_quote\": \"the inspection findings (pin travel, residue, gasket origin, ring condition), and the rebuttal to Dr. Pellam's sticking-pin theory.\", \"apparent_reach\": \"matter\", \"note\": \"Specific B-1 inspection findings and the opposing expert's identity.\"},\n{\"output_quote\": \"Clear the choice and fee quote with Mr. Oyelaran, copying Delphine Moorcroft, before engagement.\", \"apparent_reach\": \"client\", \"note\": \"Client contact and approval routing for Toil & Trouble.\"},\n{\"output_quote\": \"Do not contact client employees directly. Any technical input from Mr. Odell has to be arranged through Mr. Oyelaran.\", \"apparent_reach\": \"client\", \"note\": \"Toil & Trouble communication-control instruction naming internal personnel.\"}\n]}\n```",
+  "timestamp": "2026-10-20T03:31:45+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6248,
+    "call_id": "37a6d9e95a55a73b",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23215,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2920,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:31:45+00:00",
+    "total_cost_usd": 0.10839199999999999
+  }
+}

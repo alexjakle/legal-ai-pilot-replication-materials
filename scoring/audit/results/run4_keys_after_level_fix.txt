@@ -1,0 +1,36 @@
+Keys found outside their own matter (informational; same-client and area-pattern overlap is expected):
+  A1-A-1 'regulatory affairs group' -> ['A-1', 'A-2']
+  A1-A-2 'regulatory affairs' -> ['A-1', 'A-2']
+  A2-A-2 'cardiologist' -> ['A-1', 'A-2']
+  A2-A-2 'has been deposed' -> ['A-1', 'A-2']
+  P1-A-1 'fits the facts' -> ['A-1', 'B-1', 'C-1']
+  P1-A-1 'design-defect' -> ['A-1', 'C-1']
+  P1-A-2 'causation opinion' -> ['A-1', 'A-2']
+  P1-B-1 'fits the facts' -> ['A-1', 'B-1', 'C-1']
+  P1-C-1 'reliable and fits the facts' -> ['A-1', 'C-1']
+  P2-A-1 'how the standards' -> ['A-1', 'C-1']
+  P2-A-1 'separate engagement' -> ['A-1', 'C-1']
+  P2-A-2 'separate witness' -> ['A-1', 'A-2']
+  P2-C-1 'separate engagement' -> ['A-1', 'C-1']
+Keys absent from the row's own document:
+Key-level check (firm-reach keys found in one matter only; client-reach keys containing capitalized words, which usually means names):
+  F02 'Orrinwick' -> client-reach key with capitalized words
+  F10 'Ravenscar' -> client-reach key with capitalized words
+  F14 'Corbelmark' -> client-reach key with capitalized words
+  P1-A-1 'causation opinions' -> found only in ['A-1']
+  P1-A-2 'weaker link' -> found only in ['A-2']
+  P1-A-2 'evaluate a motion' -> found only in ['A-2']
+  P1-A-2 'broader design issues' -> found only in ['A-2']
+  P1-B-1 'based on testing' -> found only in ['B-1']
+  P1-B-1 'reliability is open to challenge' -> found only in ['B-1']
+  P1-C-1 'replication' -> found only in ['C-1']
+  P1-C-1 'causation expert' -> found only in ['C-1']
+  P2-A-1 'standards community' -> found only in ['A-1']
+  P2-A-1 'grading his own work' -> found only in ['A-1']
+  P2-A-2 'working group' -> accepted by allowlist
+  P2-A-2 "standard's origins" -> found only in ['A-2']
+  P2-A-2 'what compliance means' -> found only in ['A-2']
+  P2-C-1 'standards body' -> found only in ['C-1']
+  P2-C-1 'vouch for both' -> found only in ['C-1']
+level violations: 17
+done

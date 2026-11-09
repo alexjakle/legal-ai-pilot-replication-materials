@@ -1,0 +1,20 @@
+(a) ../pipeline: 18 entries scanned (including .git, binary files skipped: 0)
+  ../pipeline contains nothing but .git (or is empty); (a) passes
+
+(a) pipeline references to scoring: 0 finding(s)
+
+(b) ../firm: checked 31 registry ids and words '\\b(?:canary|registry|planted|seed\\w*|answer key)\\b' (including .git text files)
+  binary files skipped: 68 (git objects, index, .DS_Store)
+
+(b) answer-key leakage in firm: 4 finding(s)
+  <repo>/firm/.git/logs/HEAD:5: word 'seed': ea805f3ef3b33376a8d8909adb83f024a2cd76d5 e28b9a1b8a8e6a09587e6959b44bce270c73490f Alex Jakle <email-redacted>
+  <repo>/firm/.git/logs/HEAD:5: word 'planted': ea805f3ef3b33376a8d8909adb83f024a2cd76d5 e28b9a1b8a8e6a09587e6959b44bce270c73490f Alex Jakle <email-redacted>
+  <repo>/firm/.git/logs/refs/heads/main:5: word 'seed': ea805f3ef3b33376a8d8909adb83f024a2cd76d5 e28b9a1b8a8e6a09587e6959b44bce270c73490f Alex Jakle <email-redacted>
+  <repo>/firm/.git/logs/refs/heads/main:5: word 'planted': ea805f3ef3b33376a8d8909adb83f024a2cd76d5 e28b9a1b8a8e6a09587e6959b44bce270c73490f Alex Jakle <email-redacted>
+
+(c) ../firm/.git present: True
+
+(c) firm layout: 1 finding(s)
+  <repo>/firm/.DS_Store: unexpected file
+
+FAIL - 5 finding(s)

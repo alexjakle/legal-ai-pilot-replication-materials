@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-X2",
+  "prompt_hash": "108f871bc6d506b00608a77c1d6caa1a92dd5a21055d1ba02a5c4c1b7489cf7f",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:12:23+00:00",
+  "session_id_in": null,
+  "session_id": "b0fa865f-c822-48c3-bcbe-4c99c24a9da0",
+  "text": "The stored knowledge doesn't mention \"Joad,\" so I can't say what Joad requires for test records or what limits apply to its settlement offers. I won't guess. Joad may be a party, insurer, or expert I have no record of, or the name may be a mistake. Please tell me who Joad is and which document or source the question comes from.\n\nThe store does cover the client's side of both topics, in case that's what you meant.\n\n**Test and quality records (Toil & Trouble)**\n- Quality records for the Q3-2024 production period are available from the client on request.\n- Complaints are tracked in the Ravenscar ticketing system.\n- Requests go through Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft. The technical contact is Rennick Odell, but we don't contact client employees directly.\n- We should not volunteer complaint history or other incidents to plaintiff's counsel until a request is served and we've discussed its scope with the client.\n- If a joint inspection is requested, we agree in principle and send a written protocol.\n\n**Settlement limits**\n- The firm has no settlement authority. We recommend a range, and the client takes it to its claims group.\n- No settlement offer may be made in any form without the General Counsel's written approval.\n- Written sign-off from a designated approver (CFO, General Counsel, or board) is required before any offer or signal above set thresholds, so we should allow lead time.\n- Anything touching coverage or exposure must be copied to the insurance liaison, and coverage positions are discussed only with designated people.\n\nIf Joad is the insurer or another party with its own requirements, I'd need the source document to answer for it.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:12:23+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "b0fa865f-c822-48c3-bcbe-4c99c24a9da0",
+    "input_tokens": 2,
+    "output_tokens": 723,
+    "cache_write_tokens": 2128,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.015746,
+    "latency_ms": 6384,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 723,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2128,
+      "webSearchRequests": 0,
+      "costUSD": 0.015746,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 190,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

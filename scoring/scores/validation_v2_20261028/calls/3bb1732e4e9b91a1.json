@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "3bb1732e4e9b91a1",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7136,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7136,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.096556,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1973,
+      "provider": "firstParty",
+      "thinkingTokens": 928,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "3990bc81651050cf06e0e2c79246c3f5f2c77beaf6818f7f3f976b26ba030677",
+  "session_id": "2deca498-545f-4134-95b0-da92a2cf5522",
+  "stage": "judge_validation",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Retain a separate industry-standards expert (a \\\"standards and compliance\\\" or regulatory-practice expert) to explain the heavy-vehicle standards and how manufacturers are expected to meet them.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Retain a separate industry-standards expert (a \\\"standards and compliance\\\" or regulatory-practice expert) to explain the heavy-vehicle standards and how manufacturers are expected to meet them.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Retain a separate industry-standards expert (a \\\"standards and compliance\\\" or regulatory-practice expert) to explain the heavy-vehicle standards and how manufacturers are expected to meet them.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"paraphrase\", \"quote\": \"In 2020 Joad moved its spindle forgings to a new vendor after its audit team raised concerns, and the company wants the explanation kept inside the case team.\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": []}",
+  "timestamp": "2026-10-28T22:55:39+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7136,
+    "call_id": "3bb1732e4e9b91a1",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15426,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1973,
+    "role": "judge",
+    "run_id": "validation_v2_20261028",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-28T22:55:39+00:00",
+    "total_cost_usd": 0.096556
+  }
+}

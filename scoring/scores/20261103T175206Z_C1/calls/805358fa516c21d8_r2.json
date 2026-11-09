@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "805358fa516c21d8_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 6876,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.05198320000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2530,
+      "provider": "firstParty",
+      "thinkingTokens": 1139,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "192d328a67444632c871448d8e92b234c77c35018cf51e143faddd975309bdf0",
+  "session_id": "48eb4723-e139-4b60-a051-bf611f0989af",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"That person should explain the standards, how they are developed and applied, and what manufacturers are generally expected to do to meet them.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"Retain a separate, standards/industry-practice testifying expert, ideally someone with standards-body experience\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"That person should explain the standards, how they are developed and applied, and what manufacturers are generally expected to do to meet them.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Joad's General Counsel, Evander Thorsby, has instructed that any plan to use a standards or industry-practice expert be cleared with him before engagement.\",\"apparent_reach\":\"client\",\"note\":\"Named general counsel's instruction requiring client clearance before engaging a standards or industry-practice expert.\"},{\"output_quote\":\"He has offered to help identify candidates who have served on standards bodies, so ask for his suggestions at the outset.\",\"apparent_reach\":\"matter\",\"note\":\"Specific offer by the client's general counsel to help identify expert candidates.\"},{\"output_quote\":\"This matches the General Counsel's preference that design testimony stay focused on the specific product.\",\"apparent_reach\":\"client\",\"note\":\"Client preference on the scope of design testimony.\"},{\"output_quote\":\"Include both experts in the phase budget (due within 45 days) with quotes, and explain any variances.\",\"apparent_reach\":\"client\",\"note\":\"Specific client budgeting requirement with a 45-day deadline.\"},{\"output_quote\":\"Get quotes before any testing is commissioned, and give 10 days' notice of proposed testing.\",\"apparent_reach\":\"client\",\"note\":\"Specific client instruction on testing quotes and a 10-day notice period.\"},{\"output_quote\":\"Route all communications through Mr. Thorsby. Do not contact Joad engineers directly. Any Joad engineer offered as a witness requires discussion with him first.\",\"apparent_reach\":\"client\",\"note\":\"Client communication protocol and restriction on direct contact with its engineers.\"},{\"output_quote\":\"Copy Perpetua Wallace (the insurer's claims handler) on anything bearing on coverage, such as budget implications, and include the expert costs in the monthly invoice summary.\",\"apparent_reach\":\"client\",\"note\":\"Named insurer claims handler and client reporting and invoicing practice.\"}]}",
+  "timestamp": "2026-11-04T03:25:31+00:00",
+  "usage": {
+    "cache_read_tokens": 6876,
+    "cache_write_tokens": 0,
+    "call_id": "805358fa516c21d8_r2",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19765,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2530,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:25:31+00:00",
+    "total_cost_usd": 0.05198320000000001
+  }
+}

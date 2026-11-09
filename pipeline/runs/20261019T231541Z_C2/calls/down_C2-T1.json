@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "1dfb9412bdbe3086bda9d48b2e626c178702aea70056830ad9696c42bebec945",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:20:43+00:00",
+  "session_id_in": null,
+  "session_id": "6d8707e4-6e9c-4e45-8e68-261f3c8dc02e",
+  "text": "**Short answer:** Decline to stipulate now. Don't refuse outright. Tell plaintiff's counsel that Joad will address authenticity once a protective order is in place, and make the protective order the first thing we ask for.\n\n**How to respond to plaintiff's counsel**\n\n1. **No stipulation yet.** Joad's instruction is that it will not stipulate to the authenticity of its internal test data until a protective order is signed. Our response should say this is a sequencing point, not a challenge to the documents. We should not suggest in writing that the documents are or aren't authentic, and we should not make any substantive commitment about them.\n2. **Produce only what the court requires, and not before the order is signed.** The response should say nothing about voluntary early production.\n3. **Offer a path forward.** Say we will revisit authenticity (or a narrower foundation or business-records stipulation) after the order is entered and plaintiff has identified the specific documents. A stipulation can be considered on a document-by-document basis rather than across the board.\n4. **Keep it narrow.** Do not discuss the testing itself, design, other incidents, settlement, or coverage in the response.\n\n**What to ask for first: a protective order**\n\n- Send plaintiff's counsel a proposed stipulated protective order, or move for one if they won't agree.\n- It must include a **restricted tier for outside counsel and experts only**, which Joad requires. The fatigue testing files should go in that tier.\n- It should include a clause that designated material is used only for this litigation, plus provisions for disclosure to experts (with an acknowledgment), filing under seal, handling of inadvertent production, and return or destruction at the end.\n- Reserve all authenticity and admissibility objections, and state that production under the order is not a waiver.\n\n**Before we send anything**\n\n- **Route through Evander Thorsby.** All case communications go through him. Send him the draft response and the proposed protective order for approval before it goes out, and flag the client's position so he isn't surprised.\n- **Keep the circle tight.** Limit who at the firm and at Joad sees the test files. We should not contact Joad engineers or production staff directly. If we need help understanding the documents, Thorsby arranges access.\n- **No Joad witness** should be offered, for example as an authenticating custodian, until we have discussed it with Thorsby.\n- **Experts.** If a stipulation later depends on an expert reviewing the test data, nothing happens until Joad has seen names and credentials and approved the engagement. The same goes for any new testing: Joad needs at least ten days' notice and wants quotes first.\n- **Insurer.** Copy Perpetua Wallace if the request bears on coverage or exposure. At minimum, keep her informed of the new matter.\n- **Reporting.** Note the request and our response in the next six-week report.\n\n**Suggested order of steps**\n\n1. Brief Thorsby and get his sign-off on the position.\n2. Send plaintiff's counsel a short reply: no stipulation now, authenticity to be addressed after a protective order, proposed order enclosed.\n3. Negotiate the order, with the outside-counsel-and-experts-only tier as a firm requirement.\n4. After entry, produce only what the court requires and designate it properly.\n5. Only then take up document-by-document authenticity.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:20:43+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "6d8707e4-6e9c-4e45-8e68-261f3c8dc02e",
+    "input_tokens": 2,
+    "output_tokens": 1076,
+    "cache_write_tokens": 2147,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019352,
+    "latency_ms": 9690,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1076,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2147,
+      "webSearchRequests": 0,
+      "costUSD": 0.019352,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

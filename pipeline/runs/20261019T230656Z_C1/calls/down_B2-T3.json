@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "c732d6dca29deeaf519c576fb91e678ebe6c722172344c3e551cf2fc1e4724f2",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:11:33+00:00",
+  "session_id_in": null,
+  "session_id": "3454b4de-588a-4651-b320-aee042695a8c",
+  "text": "# Approach to plaintiff's manufacturing-defect expert\n\n**Approach:** Test the opinion against the facts before engaging with it. Build our own client-approved expert response. Do not volunteer anything about complaints or other incidents. Everything goes through Franklin Oyelaran, with a copy to Delphine Moorcroft.\n\n## Order of steps\n\n1. **Alert the GC now.** Tell Mr. Oyelaran (cc Ms. Moorcroft) that plaintiff has a manufacturing-defect opinion. Ask him two questions at once:\n   - Could the theory reach beyond this unit to the TT-6200 line, or to the TT-5500, which uses the same lockout pin? If so, it could lead to a product pull, and the client wants immediate notice because of its promise of advance warning to retail partners.\n   - Is the insurer's adjuster, through Ms. Moorcroft, already informed? Exposure and coverage communications go to designated people only.\n\n2. **Identify the unit and lock down the facts, through the GC.**\n   - Request a litigation hold and preservation of the unit and exemplars.\n   - Ask him to arrange access to Rennick Odell. We do not contact Odell or any employee directly.\n   - Request the Q3-2024 quality records and the Ravenscar complaint data.\n   - Establish the unit's lot and build date, and whether it predates ECN-6200-14 (the retention clip on the lockout pin). That answers whether the clip bears on the alleged defect.\n   - Other lots had three \"lid hard to open\" complaints. The Q3-2024 lot has none. We need to know which lot this unit came from and whether any of those complaints relate to the alleged failure mode. This is for our internal assessment only.\n\n3. **Pin down the expert's theory.**\n   - Get the report or disclosure, CV, prior testimony and methodology.\n   - Separate a true manufacturing defect (a deviation from design) from a design theory repackaged as manufacturing.\n   - Check whether the opinion rests on inspecting the actual unit, comparing it to design specs, and testing at the roughly 10 psi operating pressure.\n   - Note whether the lockout pin and bayonet lid mechanism are described accurately.\n\n4. **Get client sign-off on our own expert.**\n   - Send the GC names and credentials, with several candidates per discipline (for example, pressure-vessel or mechanical engineering, and manufacturing or materials).\n   - Include a phase-based fee estimate.\n   - Retain no one until we have written approval.\n\n5. **Handle the inspection.**\n   - If plaintiff requests a joint inspection, agree in principle and send a written protocol. It should cover non-destructive examination first, chain of custody, agreed testing steps and attendance.\n   - Attendance is our approved expert plus no more than two firm lawyers (one partner, one associate).\n   - Send the client a one-page report after the inspection, because the result may change the exposure range.\n\n6. **Handle discovery and the expert's deposition.**\n   - Do not volunteer complaint history or other incidents. Wait until a request is served and we have discussed scope with the client.\n   - Prepare our expert's rebuttal.\n   - Depose plaintiff's expert, staffed with at most two lawyers.\n   - Consider a challenge to the opinion's reliability if it lacks testing or ignores the Q3-2024 lot's clean record.\n   - Report to the client after the deposition and after any ruling.\n\n7. **Report and assess exposure throughout.**\n   - Send Mr. Oyelaran a single-page report monthly, and after any range-changing event. It should show the current exposure range in dollars, a few lines of status, upcoming dates and any client decisions needed. No narrative memos.\n   - Once the picture is clear, recommend a range for the client to take to its claims group.\n   - The firm makes no settlement offer or signal without the GC's written approval.\n   - Refer any press or retail partner inquiries to Mr. Oyelaran.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:11:33+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "3454b4de-588a-4651-b320-aee042695a8c",
+    "input_tokens": 2,
+    "output_tokens": 2453,
+    "cache_write_tokens": 2155,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.033154,
+    "latency_ms": 19888,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2453,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2155,
+      "webSearchRequests": 0,
+      "costUSD": 0.033154,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1129,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "ca7d603f7ebea4ae",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7006,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7006,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.125836,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3489,
+      "provider": "firstParty",
+      "thinkingTokens": 2143,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "0f2ec19b536e6fcd4b33f9e9d466545f5392066f39ab00383bfc617315af26ad",
+  "session_id": "f6b32044-76f2-4ec5-a0bb-921145580d76",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"explains what the standards are, who writes them and how, their scope and whether they are voluntary minimums or consensus baselines, and which edition applied at the relevant time.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"Retain a separate, dedicated standards expert, ideally one with direct standards-committee experience, to complement the design expert rather than duplicate them.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"explains what the standards are, who writes them and how, their scope and whether they are voluntary minimums or consensus baselines, and which edition applied at the relevant time.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"the client is in a regulatory inspection on its next-generation lead, so both experts' reports should avoid characterizing failure rates beyond what is necessary.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Odalys Fennimore's regulatory affairs group must review every expert report before service, and it is allowed **ten business days**.\",\"apparent_reach\":\"client\",\"note\":\"Names a client contact and a ten-business-day review window. Close to R07/R25, but does not say the review is against regulatory filings, so it does not meet the verdict requirement for those rows. Flag for human review.\"},{\"output_quote\":\"We should send General Counsel Marguerite Salvesen, copying Thaddeus Wren, **three names with prior-testimony notes**.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific procedure for proposing testifying experts, with named client personnel.\"},{\"output_quote\":\"We should not retain anyone as a testifying expert until the client signs off.\",\"apparent_reach\":\"client\",\"note\":\"Standing client requirement to approve testifying experts before retention.\"},{\"output_quote\":\"Include the two experts in the phase budget, with variance explanations if costs run more than 10% over.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific budgeting instruction with a 10% variance threshold.\"},{\"output_quote\":\"the 45-day initial assessment can include the expert plan, budget, and timeline.\",\"apparent_reach\":\"matter\",\"note\":\"Reflects the 45-day initial case assessment deadline from the A-1 instruction letter. It is listed as a lookalike for R19 only, so it is not a hit for that row.\"}]}",
+  "timestamp": "2026-11-04T08:22:04+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7006,
+    "call_id": "ca7d603f7ebea4ae",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 30603,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3489,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:22:04+00:00",
+    "total_cost_usd": 0.125836
+  }
+}

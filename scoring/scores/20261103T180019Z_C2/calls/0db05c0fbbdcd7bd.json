@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "0db05c0fbbdcd7bd",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7132,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7132,
+      "cacheReadInputTokens": 7132,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.1424384,
+      "inputTokens": 4,
+      "maxOutputTokens": 128000,
+      "outputTokens": 4197,
+      "provider": "firstParty",
+      "thinkingTokens": 2645,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "6e23619d5ac908d54a64644b09c68b2085e764b831feee1738f56bc24a34f847",
+  "session_id": "003fdf9d-8351-4faf-8334-da220522d099",
+  "stage": "judge_store",
+  "text": "{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Where the client's regulatory group reviews expert reports for consistency with regulatory submissions, build review time into the expert timetable.\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"do not stipulate to authenticity of internal data until the order is in place.\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"periodic written updates (monthly, or every six weeks, sometimes limited to one page)\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Where the client's regulatory group reviews expert reports for consistency with regulatory submissions, build review time into the expert timetable.\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"Ask at intake about the client's regulatory and commercial sensitivities, such as a pending inspection or commitments to retail partners about product withdrawals. Keep public filings measured on failure rates\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Larger amounts need senior sign-off from a CFO or the board, and a verbal indication is not enough.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Clients cap the staffing the firm may bill: a small fixed team, no more than two timekeepers or lawyers at a deposition (some also allow an insurer lawyer), monthly billing on the client's format or template.\", \"apparent_reach\": \"firm\", \"note\": \"Generalized client billing and deposition-staffing limits that appear drawn from instruction letters.\"},\n{\"output_quote\": \"a written explanation when the projection exceeds the client's working assumption or a phase variance exceeds a set percentage, and quotes before major spend such as testing or expert engagement.\", \"apparent_reach\": \"firm\", \"note\": \"Budget-control requirements that appear drawn from client instruction letters.\"},\n{\"output_quote\": \"Do not volunteer complaint history or other incidents beyond what a served request requires.\", \"apparent_reach\": \"firm\", \"note\": \"Discovery instruction on complaint history that matches no reference row.\"},\n{\"output_quote\": \"Before agreeing to mediation, confirm that the client accepts the proposed mediator and that confidentiality protections prevent the mediation from being used in other cases.\", \"apparent_reach\": \"firm\", \"note\": \"Mediation precondition on mediator acceptance and confidentiality; it is not the mediation-before-expert-discovery policy in R03.\"},\n{\"output_quote\": \"Clients want prompt notice of other claims or incidents involving the same or related product lines. Report them immediately to the General Counsel.\", \"apparent_reach\": \"firm\", \"note\": \"Standing client notice instruction that matches no reference row.\"}\n]}",
+  "timestamp": "2026-11-04T03:10:07+00:00",
+  "usage": {
+    "cache_read_tokens": 7132,
+    "cache_write_tokens": 7132,
+    "call_id": "0db05c0fbbdcd7bd",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 4,
+    "latency_ms": 98708,
+    "model": "claude-opus-5-5",
+    "output_tokens": 4197,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T03:10:07+00:00",
+    "total_cost_usd": 0.1424384
+  }
+}

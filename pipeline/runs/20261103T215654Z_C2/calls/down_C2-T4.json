@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T4",
+  "prompt_hash": "2a199b271082919500583495744c276881140cb4df0a7469fc2971eadeb343ba",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:02:57+00:00",
+  "session_id_in": null,
+  "session_id": "f688dd26-121c-41c9-a343-fb79b16ae972",
+  "text": "**Recommendation: retain a separate, independent standards/industry-practice expert, distinct from the engineering (design) expert, with client clearance built into the timeline.**\n\n**Who and why**\n- Engineering expert: keep this person focused on the JX-series product at issue, which is what Joad prefers for design testimony. That means design, testing, failure analysis and causation.\n- Standards expert: someone who can explain the heavy-vehicle standards, how they are developed and applied, and what manufacturers are expected to do to comply, including how that works in practice for spindles and axle components. An ideal candidate has served on a standards body (SAE, ASTM, or similar committees) or has equivalent industry-practice experience. Joad has offered to help identify candidates with standards-body service. Accept that help, but vet each candidate independently so the expert is not seen as client-selected or as a conduit for Joad's views.\n\n**Positioning relative to the engineering expert**\n- Divide the lanes clearly. The standards expert covers what the standards require and what the industry customarily does. The engineering expert covers whether the JX product's design and testing met that benchmark and whether anything caused the failure.\n- Have the engineering expert rely on, rather than duplicate, the standards expert's framework. This avoids a design expert straying into industry-practice opinions, which also keeps design testimony narrow as Joad wants.\n- Keep the two consistent but independent. Share only what is needed, and be careful about what drafts and communications pass between them. Limit exposure of internal test files to the people who need them.\n- Avoid having the standards expert opine on Joad's specific test data unless needed. That reduces the circle of people seeing test files and avoids authenticity issues before a protective order is in place. Do not stipulate to authenticity or business-record status of Joad's data until a protective order exists, and then address it document by document.\n\n**Client steps before engaging**\n1. Send Joad (through General Counsel Evander Thorsby, since all communications go through him) the names and credentials of proposed candidates, ideally several per discipline with prior testimony notes. Expressly state that one candidate will address industry practice, since Joad wants to be told.\n2. Get Joad's clearance before engagement, and build that time into the retention schedule.\n3. Get a quote and client approval before commissioning any expert work or testing, and note who pays for shared lab work. Expert and testing costs are the main budget variance driver, so include them in the phase budget. Copy Perpetua Wallace on anything bearing on coverage and on the invoice summary.\n4. Give ten days' notice of any proposed testing.\n\n**Cautions**\n- Do not contact Joad engineers or production staff directly. Go through Thorsby, who will set up any interviews. Joad also wants to discuss the firm's plans before any employee (such as the chief axle engineer) is put forward as a witness, so the standards expert should not be a substitute for that discussion.\n- Do not discuss the 2020 forging supplier change or its reasons with outside experts or anyone outside the case team. Make sure the standards expert is not briefed on Corbelmark or the supplier change without the client's agreement. The client wants the team to understand Corbelmark first, before any discussion with a supplier.\n- Confirm that a litigation hold is in place on relevant product documents.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:02:57+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "f688dd26-121c-41c9-a343-fb79b16ae972",
+    "input_tokens": 2,
+    "output_tokens": 1081,
+    "cache_write_tokens": 2502,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020822,
+    "latency_ms": 10681,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1081,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2502,
+      "webSearchRequests": 0,
+      "costUSD": 0.020822,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2502,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

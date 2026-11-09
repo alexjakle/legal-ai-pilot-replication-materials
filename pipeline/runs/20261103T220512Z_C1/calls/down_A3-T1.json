@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "fe94475b0184b37b3b4d2d31e815959fc69ea6773606618757d13e466b418bf4",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:07:18+00:00",
+  "session_id_in": null,
+  "session_id": "cfae9679-86ef-460d-b6b1-b1792d1367f7",
+  "text": "# Expert report workflow: first draft to service\n\n**Assumption to confirm:** you wrote \"Plaintiff's expert disclosures,\" but Telltale is presumably the defendant. Check the scheduling order for *our* expert disclosure date. I've used about ten weeks out (roughly January 12, 2027) as the service date. If ours is later, the schedule loosens, but the sequence stays the same.\n\n## 1. Weeks 1-2 (now to mid-November): clear the client before engaging anyone\n\n- **Issue the litigation hold** on relevant product documents, if the client hasn't already.\n- **Identify the two disciplines** and shortlist **three candidates per discipline** (six names), each with prior testimony notes.\n- **Send the shortlist to Marguerite Salvesen (GC), copying Thaddeus Wren.** Do not retain or have substantive contact with any testifying expert until the client has weighed in.\n- **Ask for a quick turnaround.** Every week this slips comes out of drafting time.\n- **Include the expert plan and a phase budget** in the 45-day initial assessment (due about mid-December) and in the first monthly update. Flag any variance over 10% with an explanation.\n\n## 2. Weeks 2-3: engage and instruct\n\n- **Engage the approved experts through the firm** so communications stay within work product.\n- **Give each expert the client's constraints:**\n  - Filings should not characterize failure rates beyond what the opinion requires, because Telltale is in a regulatory inspection on its next-generation lead.\n  - Their draft will go to the client's regulatory affairs group for review before service.\n  - Their reports won't go out until that review is done.\n- **Confirm the draft-protection stipulation.** Check whether a stipulation or rule protects draft reports, and whether it covers sharing drafts with the client's regulatory affairs group. If it doesn't, get that fixed before any draft leaves the firm.\n- **Keep the experts cost-conscious,** with staffing and hours aligned to the budget.\n\n## 3. Weeks 3-6: drafting\n\n- **Experts prepare the first drafts,** and we review them for scope, consistency with each other, and the failure-rate language.\n- **Require a near-final draft from each expert by about December 11.** The client's ten-business-day review is a fixed block, so the experts' deadline is really this one, not the service date.\n\n## 4. About December 11 to January 1: client regulatory review (ten business days)\n\n- **Send each near-final draft through counsel** to Ms. Salvesen, cc Mr. Wren, for Odalys Fennimore's regulatory affairs group. The group never communicates with the experts directly.\n- **Log every transmission:** what was sent, when, and to whom. The log supports work-product protection.\n- **Allow for the holidays.** Business days around Christmas and New Year's may not all be working days for the client, so confirm the review window with Ms. Salvesen up front.\n- **Keep the stipulation in view.** Don't send drafts until you've confirmed it covers this review.\n\n## 5. About January 1-8: comments, revisions, finalization\n\n- **Route comments back through counsel,** log them, and pass them to the experts.\n- **The experts keep control of their opinions.** Regulatory comments on tone, characterizations, and sensitivity are fine. Substantive changes must be the expert's own judgment, and we shouldn't ghost-edit.\n- **Experts revise, and we run a final check** for consistency, rule compliance, and exhibits.\n- **Get the client's final sign-off** if the revisions are material.\n\n## 6. By January 12: service\n\n- **Serve the reports** on the other side and confirm receipt.\n- **Report to Ms. Salvesen (cc Mr. Wren)** and cover it in the monthly update. Hold a call if anything significant happened.\n\n## Contingencies\n\n- **If the schedule slips,** for example from a slow expert selection or the holiday window, consider an extension early. The client requires **five business days' notice before filing any motion**, so build that into the plan.\n- **Settlement authority and coverage** (the CFO's sign-off above $500,000 and the $750,000 retention) don't affect the report process. Report any new incidents involving the same or related products to the client promptly.\n- **No public statements.** Press, regulator, and customer inquiries go to the client.\n- **Depositions later:** no more than two timekeepers per deposition.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:07:18+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "cfae9679-86ef-460d-b6b1-b1792d1367f7",
+    "input_tokens": 2,
+    "output_tokens": 2527,
+    "cache_write_tokens": 1356,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.030698000000000003,
+    "latency_ms": 21027,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2527,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1356,
+      "webSearchRequests": 0,
+      "costUSD": 0.030698000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1074,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1356,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

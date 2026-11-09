@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T2",
+  "prompt_hash": "3b73042febcdb09765ba5f112a1ed04643755b7c0263eea25c2a035c8eb856eb",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:02:28+00:00",
+  "session_id_in": null,
+  "session_id": "aa2de8bc-1f8f-44c2-bfb5-4a51e9247bba",
+  "text": "# Before any figure goes to plaintiff's counsel\n\n**Short answer:** Don't convey a number, even as a signal, until the authority for C-2 is confirmed in writing. The insurer saying it will fund \"up to its authority\" is only a verbal indication, and the $1.5M figure comes from an earlier matter.\n\n## What Joad needs first\n\n1. **Written confirmation of the tiers on C-2.** Get in writing who must approve a figure and at what level (general counsel, CFO, board, insurer). The only figure on file is that Cobaltridge Indemnity pre-approved up to **$1,500,000** on an earlier matter. Confirm that number applies here, and get the insurer's authority in writing rather than by phone.\n2. **Client consultation, even for an in-tier number.** Joad's instruction is to consult the client first, because the insurer will want to be involved. All communications go to General Counsel **Evander Thorsby**, not to other officers or employees.\n3. **Coverage facts.** Confirm whether the carrier has reserved rights. Joad wants to hear the same day if it does. Confirm the $400,000 retention applies and where the aggregate limit stands, since Joad watches it because of other open claims. Copy claims handler **Perpetua Wallace** on anything bearing on coverage.\n\n## Who approves what\n\n| Settlement figure | Approval needed |\n|---|---|\n| Up to the insurer's pre-approved tier ($1.5M, to be confirmed for C-2) | Cobaltridge's written authority, after consulting Joad (Thorsby) first. The insurer will want to be involved. |\n| Above the insurer's tier | **Written sign-off from Joad's board of directors.** Verbal indications from directors or officers don't count. |\n\nNo offer above the insurer-approved tier may be communicated, even as a signal, until the board's written sign-off is in hand.\n\n## Timing\n\n- The General Counsel needs about **three weeks** to prepare a board consent.\n- The board meets monthly. It can act in writing between meetings if the chair approves.\n- Flag this to Thorsby **now**, before negotiations reach the point where a figure above $1.5M is plausible. If there's a realistic chance of exceeding the tier, the consent process should start early.\n\n## Practical steps now\n\n- Tell plaintiff's counsel nothing numerical for the moment. Say only that the matter is under evaluation.\n- Send Thorsby a short written note covering:\n  - the pressure from plaintiff's counsel;\n  - a request to confirm the tiers and approvers for C-2;\n  - the three-week lead time for board action;\n  - a request to confirm the carrier's coverage position.\n- Copy Wallace on the coverage-related parts.\n- Fold the exposure range into the first case assessment, due within 60 days, so any proposed figure rests on that analysis.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:02:28+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "aa2de8bc-1f8f-44c2-bfb5-4a51e9247bba",
+    "input_tokens": 2,
+    "output_tokens": 1359,
+    "cache_write_tokens": 2508,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.023626,
+    "latency_ms": 15905,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1359,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2508,
+      "webSearchRequests": 0,
+      "costUSD": 0.023626,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 420,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2508,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

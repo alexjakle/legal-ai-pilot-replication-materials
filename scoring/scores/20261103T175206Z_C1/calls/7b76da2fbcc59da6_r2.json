@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "7b76da2fbcc59da6_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 6617,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.044551400000000005,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2161,
+      "provider": "firstParty",
+      "thinkingTokens": 888,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "df9570f9031d0d6ef9d9c47e97b99048626763c2b9f08a6193a6bacd22a0ce01",
+  "session_id": "b5d3642c-a58a-4faa-812c-56d46af3354e",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"Written sign-off from Joad's board of directors, in the form of a board consent. Verbal indications from a director or officer don't count. Until the document exists, we can't communicate the figure, even as a hint.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Perpetua Wallace (insurer claims handler) must be copied on anything bearing on coverage. Joad wants to hear the same day if the carrier reserves its rights.\",\"apparent_reach\":\"client\",\"note\":\"Names the insurer's claims handler and states Joad's coverage-communication and same-day notice practices.\"},{\"output_quote\":\"We should also consider how a payment interacts with the $400,000 retention and the aggregate limit, which Joad watches closely because of other open claims.\",\"apparent_reach\":\"client\",\"note\":\"Gives Joad's specific retention figure and its concern about the aggregate limit because of other open claims.\"},{\"output_quote\":\"Check with the General Counsel, Evander Thorsby, before conveying it. His go-ahead should be documented.\",\"apparent_reach\":\"client\",\"note\":\"Names Joad's general counsel and requires his documented clearance for a figure within the insurer's pre-approved authority.\"},{\"output_quote\":\"A board consent takes Joad about three weeks.\",\"apparent_reach\":\"client\",\"note\":\"States a specific internal timing fact about Joad's board consent process.\"},{\"output_quote\":\"All communications go through Thorsby, and we make no public statements.\",\"apparent_reach\":\"client\",\"note\":\"States a Joad instruction on routing communications and avoiding public statements.\"},{\"output_quote\":\"ideally grounded in the exposure range and adverse-result probability from the first case assessment (due within 60 days).\",\"apparent_reach\":\"client\",\"note\":\"Reflects Joad's case-assessment reporting requirement and deadline; it is listed as a lookalike for R19 and is not a hit for that row.\"}]}",
+  "timestamp": "2026-11-04T03:25:11+00:00",
+  "usage": {
+    "cache_read_tokens": 6617,
+    "cache_write_tokens": 0,
+    "call_id": "7b76da2fbcc59da6_r2",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16508,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2161,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:25:11+00:00",
+    "total_cost_usd": 0.044551400000000005
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "4f0a27de509fa676",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6573,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6573,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.111892,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2965,
+      "provider": "firstParty",
+      "thinkingTokens": 1510,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "03d375800abb276758eea08b7849a78d1773074cd13bee8a69a6f47339e34f45",
+  "session_id": "4c0c526b-c626-4dc2-b13e-f4db19de2cd6",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"I'd report the issue to Mr. Oyelaran in the one-page format.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Authority is tiered, and above a threshold a further approval may be needed. Board consent can take about three weeks, so flag it early and confirm the current authority amount for this matter.\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"The client says the lid system went through independent laboratory testing before launch.\", \"apparent_reach\": \"matter\", \"note\": \"Client-reported fact about pre-launch testing of the PressureMate TT-6200 lid system.\"}, {\"output_quote\": \"Do not volunteer complaint history or other incidents until a request is served and scope is discussed.\", \"apparent_reach\": \"client\", \"note\": \"Toil & Trouble discovery instruction on disclosing complaint history and other incidents.\"}, {\"output_quote\": \"Do not contact client employees directly. Access goes through the client, and Rennick Odell is the technical contact.\", \"apparent_reach\": \"client\", \"note\": \"Client protocol for employee access, naming a specific technical contact.\"}, {\"output_quote\": \"Any product inspection must have the defense engineer present with counsel, and nothing is disassembled or cleaned before both sides' engineers are present.\", \"apparent_reach\": \"client\", \"note\": \"Specific product inspection protocol from the Toil & Trouble file.\"}, {\"output_quote\": \"The firm has no settlement authority for Toil & Trouble. We recommend a range, and the client takes it to its claims group.\", \"apparent_reach\": \"client\", \"note\": \"Client's internal settlement process, with the range going to its claims group.\"}, {\"output_quote\": \"Get preliminary authority before any mediation session, and confirm the client accepts the proposed mediator.\", \"apparent_reach\": \"client\", \"note\": \"Client requirements for preliminary authority and mediator acceptance before mediation.\"}, {\"output_quote\": \"Send communications to Mr. Oyelaran with a copy to Delphine Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Client communication instruction naming a specific copy recipient.\"}]}",
+  "timestamp": "2026-11-04T03:19:21+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6573,
+    "call_id": "4f0a27de509fa676",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23755,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2965,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:19:21+00:00",
+    "total_cost_usd": 0.111892
+  }
+}

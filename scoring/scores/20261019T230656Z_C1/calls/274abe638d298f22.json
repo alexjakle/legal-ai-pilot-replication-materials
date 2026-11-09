@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "274abe638d298f22",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6009,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09192,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2192,
+      "provider": "firstParty",
+      "thinkingTokens": 650,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "52c163d6d2d4173eb08f52ab5e1cdbac5311514789a764c664aea277248c54e5",
+  "session_id": "521df153-625b-41f1-b00b-1dbe31d5b536",
+  "stage": "judge_store",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"case reports must be a single page. Each page should show the current exposure as a range in dollars, a few lines of status, upcoming dates, and any decision needed from the client. No narrative memos.\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"The client has promised its largest retail partners advance warning before pulling any product from sale.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Engineering change notice ECN-6200-14 added a retention clip to the lockout pin on later TT-6200 production.\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Complaints are tracked in the Ravenscar ticketing system.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Complaint history: the TT-6200 Q3-2024 lot has no field complaints about the lid. There were three complaints of \\\"lid hard to open\\\" on other lots in 2024.\", \"apparent_reach\": \"matter\", \"note\": \"Specific complaint-history figures for the client's product lots.\"},\n{\"output_quote\": \"The TT-5500 uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat.\", \"apparent_reach\": \"client\", \"note\": \"Internal product design detail linking the models.\"},\n{\"output_quote\": \"wants an estimate for each phase of a matter, staffing limited to one associate and one partner, and no more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing and budget instructions.\"},\n{\"output_quote\": \"Delphine Moorcroft in risk management coordinates with the insurer's claims adjuster on claims.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact and claims-handling arrangement.\"},\n{\"output_quote\": \"His technical contact is Rennick Odell, product safety lead.\", \"apparent_reach\": \"client\", \"note\": \"Named client technical contact.\"},\n{\"output_quote\": \"No settlement offer may be made in any form without the General Counsel's written approval.\", \"apparent_reach\": \"client\", \"note\": \"GC-approval rule for settlement offers. The lookalike list says this is not R29, but no other row covers it.\"},\n{\"output_quote\": \"do not volunteer information about customer complaint history or other incidents until a request is served and the scope has been discussed with the client. If a joint inspection is requested, agree in principle and send a written protocol.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on dealings with plaintiff's counsel.\"}\n]}\n```",
+  "timestamp": "2026-10-20T02:39:47+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6009,
+    "call_id": "274abe638d298f22",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 18874,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2192,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_store",
+    "timestamp": "2026-10-20T02:39:47+00:00",
+    "total_cost_usd": 0.09192
+  }
+}

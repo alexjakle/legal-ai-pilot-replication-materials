@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Toil & Trouble Home Products):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: B-2
+Client: Toil & Trouble Home Products
+
+Question:
+The client's contact at Toil & Trouble has asked how we will report on the new matter. What format and cadence should our case reports to this client take?
+
+Answer the question.

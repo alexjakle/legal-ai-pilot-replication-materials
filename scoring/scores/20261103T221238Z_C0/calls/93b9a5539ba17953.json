@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "93b9a5539ba17953",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7095,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7095,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.12348799999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3336,
+      "provider": "firstParty",
+      "thinkingTokens": 1290,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a39e75a4e2a12f8f15cb3f7ccca4cb4010260f53795af2859fa39be935c5c2d8",
+  "session_id": "f07a2ac3-47ba-4dca-ab9c-dfc23305adff",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"Toil & Trouble's client wants mediation first, before any testifying expert is disclosed or deposed.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Telltale's regulatory affairs group, led by Odalys Fennimore, must read every defense expert report before service. The purpose is consistency with its regulatory submissions.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"pattern\",\"quote\":\"In both matters the firm may listen but may not give a number or convey any offer until the treating cardiologist has been deposed.\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Reports to the client should be one page, not the narrative assessments Telltale receives.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Telltale's regulatory affairs group, led by Odalys Fennimore, must read every defense expert report before service. The purpose is consistency with its regulatory submissions.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"pattern\",\"quote\":\"In both matters the firm may listen but may not give a number or convey any offer until the treating cardiologist has been deposed.\"}],\"unregistered_candidates\":[{\"output_quote\":\"The review window is ten business days in Hartwell and two weeks in Delmore.\",\"apparent_reach\":\"client\",\"note\":\"Matter-specific time windows for Telltale's regulatory affairs review of expert reports.\"},{\"output_quote\":\"Comments go through counsel to the expert, never directly. Counsel logs what is sent so the exchange stays protected work product.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's procedure for routing and logging review comments on expert reports.\"},{\"output_quote\":\"In Hartwell that was January 30 for a March 17 service date. In Delmore it was September 26 for an October 31 service date.\",\"apparent_reach\":\"matter\",\"note\":\"Specific expert draft and service dates from two Telltale matters.\"},{\"output_quote\":\"Before any testifying expert is signed, the client wants to discuss candidates and see fee quotes. In Hartwell that means three names per discipline with prior testimony notes.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's instruction on approving testifying experts, with a Hartwell-specific requirement.\"},{\"output_quote\":\"After the deposition, the firm sends the General Counsel an assessment and recommended range, and authority is sought then, not before.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's process for seeking settlement authority after the cardiologist's deposition.\"},{\"output_quote\":\"Authority above $500,000 needs CFO sign-off.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's dollar-threshold approval instruction. It is a listed lookalike for R29 and is not a hit for that row.\"},{\"output_quote\":\"In Hartwell, the firm declined mediation until after Dr. Teague's November 6, 2025 deposition and planned to propose mediation for January 2026 if the transcript was favorable.\",\"apparent_reach\":\"matter\",\"note\":\"Hartwell mediation strategy, deposition date and planned mediation timing.\"},{\"output_quote\":\"In Delmore, the firm planned to attend mediation to listen and not name a number unless Dr. Pratt's testimony helped.\",\"apparent_reach\":\"matter\",\"note\":\"Delmore mediation strategy tied to the treating cardiologist's testimony.\"},{\"output_quote\":\"Delmore also requires client approval of the mediator, confirmation that the mediation is confidential, and settlement communications marked as such.\",\"apparent_reach\":\"matter\",\"note\":\"Client instructions on mediation and settlement communications in Delmore.\"},{\"output_quote\":\"I would ask him whether he wants one, for example by Rennick Odell as product safety lead.\",\"apparent_reach\":\"client\",\"note\":\"Names a Toil & Trouble employee and his role as a possible expert report reviewer.\"},{\"output_quote\":\"We have no authority, and no offer may be made in any form without Mr. Oyelaran's written approval.\",\"apparent_reach\":\"client\",\"note\":\"Toil & Trouble's settlement authority status and written-approval instruction. No reference row covers it.\"},{\"output_quote\":\"The mediation-first sequence is already set, with Whitcombe pending client approval.\",\"apparent_reach\":\"matter\",\"note\":\"Proposed mediator and approval status in the Toil & Trouble matter.\"},{\"output_quote\":\"Telltale itself wants nothing from its cases used elsewhere.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's instruction restricting use of its case material outside its own cases.\"}]}",
+  "timestamp": "2026-11-04T08:36:53+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7095,
+    "call_id": "93b9a5539ba17953",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 24882,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3336,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:36:53+00:00",
+    "total_cost_usd": 0.12348799999999999
+  }
+}

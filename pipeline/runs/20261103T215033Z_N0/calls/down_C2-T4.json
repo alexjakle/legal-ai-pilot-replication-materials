@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T4",
+  "prompt_hash": "3f0c0f596ac147c1a1acac6433e870894796eceb0a08112c34ce56445fff567d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:55:39+00:00",
+  "session_id_in": null,
+  "session_id": "cd6fc929-6078-42c0-bf1c-7716525d0f36",
+  "text": "**Recommendation:** Retain a separate, independent industry-standards expert, preferably someone with regulatory or standards-body experience in heavy-vehicle components. Don't have the engineering expert, or a Joad employee, carry this testimony.\n\nBoth the client store and the firm store are empty, so I have no prior experts, positions, or Joad facts to draw on. This is general practice advice and should be checked against the specifics of C-2.\n\n**Who the standards expert should be**\n- Someone who has served on or worked closely with the relevant bodies, such as a former regulator (NHTSA or FMCSA), an SAE, ISO, or ASTM committee participant, or a long-time compliance or certification professional for heavy-vehicle drivetrain components.\n- They should know how the standards are written and what they require. They should also know how manufacturers are expected to comply in practice: design validation, testing protocols, self-certification versus third-party certification, documentation, and quality systems.\n- They should have no employment or financial tie to Joad. An employee would be a fact witness whose credibility and bias are easy to attack, and their communications would be harder to protect.\n\n**How to position them relative to the engineering expert**\n- **Different lanes.** The standards expert explains the framework: what the standards are, whether they are mandatory or voluntary, what industry custom is, and what a compliant manufacturer does. The engineering expert applies that framework to Joad's axle, covering design, testing, failure analysis, and causation.\n- **Sequence.** The standards expert's opinion sets the benchmark, and the engineering expert measures the facts against it. The engineering expert may rely on the standards expert's framework but should not offer their own opinion on regulatory or industry expectations beyond their expertise. Doing so invites a *Daubert* challenge.\n- **Consistency without contamination.** Make sure the two reports use the same understanding of the standards and the same facts. Coordinate through counsel, and remember that what each expert considered and communicated may be discoverable. Confirm the rules in the forum, such as Rule 26 protections for drafts and attorney communications.\n- **Independence.** Each expert should reach conclusions on their own. If one expert appears to be echoing the other, that undermines both.\n\n**Before retaining, confirm**\n1. Which side Joad is on and what the claims or defenses are, since that determines whether the standards expert is proving compliance or the lack of it.\n2. Which specific standards are at issue and whether they are binding regulations or voluntary consensus standards.\n3. The forum's expert admissibility rules and disclosure deadlines.\n4. That there are no conflicts with the candidate, including prior work for Joad's competitors or adversaries.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:55:39+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "cd6fc929-6078-42c0-bf1c-7716525d0f36",
+    "input_tokens": 2,
+    "output_tokens": 1338,
+    "cache_write_tokens": 765,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.016444,
+    "latency_ms": 14469,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1338,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 765,
+      "webSearchRequests": 0,
+      "costUSD": 0.016444,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 457,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 765,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

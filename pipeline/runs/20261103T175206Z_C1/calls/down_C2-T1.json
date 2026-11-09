@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "9289b3dd9d9a3d204b50e13941819c3579be34698dc5810bab838457bbc4ad72",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:58:18+00:00",
+  "session_id_in": null,
+  "session_id": "d1229c88-17a6-4db5-bcb1-bf3f29d2f9cf",
+  "text": "**Recommended response: don't agree to a blanket stipulation now. Tell plaintiff's counsel we will consider a document-by-document authenticity stipulation once we have identified and reviewed the documents.**\n\n**What to say to plaintiff's counsel**\n- We are not refusing. Authenticity is often a reasonable thing to stipulate to, but we can't agree to \"what they purport to be\" for an undefined set of documents.\n- Ask them to identify the documents by Bates number or a list, and to say where each came from (production, subpoena to a lab, or other source).\n- Ask what each document is said to be, such as a test report, raw data, a protocol, or an email summary.\n- Propose a reciprocal, document-specific stipulation limited to authenticity, and any business-records foundation we later agree to. Reserve all other objections: relevance, hearsay beyond the business-records point, completeness, privilege and work product, confidentiality, and the weight or meaning of the tests. Also state that agreeing to authenticity is not an admission that the tests show a defect or are representative of the product at issue.\n- Make any stipulation conditional on a protective order and a clawback or non-waiver order (for example, FRE 502(d)). That covers sensitive test files and any inadvertently produced privileged material.\n\n**What to ask for first**\n1. **From plaintiff's counsel:** the specific list of documents and their source. We can't evaluate the request without it.\n2. **From our side, before replying substantively:** get the actual fatigue test files from Evander Thorsby, the General Counsel. Everything goes through him, and we should not contact Joad engineers or lab staff directly. Ask him to arrange early access to the key engineers who ran or understand the testing. Then confirm the following:\n   - Who created the documents, and whether Joad's own lab or a third-party lab did the testing.\n   - Whether the documents are complete, final or draft, and whether any versions or raw data are missing.\n   - Whether any of them are privileged.\n   - Whether the testing was on the same JX-series or axle design as the one at issue.\n\n**Related steps**\n- **Preservation:** send the General Counsel a written recommendation to preserve the test lab's files, raw data, equipment records, and drafts. Authenticity disputes often turn on gaps in preservation.\n- **Control over the files:** keep a tight circle on who sees the test files.\n- **Witnesses:** a custodian declaration or foundation testimony would require a Joad witness, so don't offer or commit any engineer or sales/account manager until we have discussed it with the General Counsel.\n- **Experts:** don't commit to anything that depends on a testing or standards expert before the General Counsel has cleared the names and credentials.\n- **Related incidents:** ask whether any other JX-series incidents are connected to these documents, and report them immediately if so.\n- **Coverage:** if the stipulation could affect liability or exposure, copy Perpetua Wallace (the insurer's claims handler) and keep the aggregate limit in mind.\n- **New testing:** if verifying the documents needs new or repeat testing, get quotes first, give Joad 10 days' notice, and settle who pays for shared lab work.\n\n**Timing:** respond to plaintiff's counsel promptly with the \"identify the documents, then we'll consider a limited stipulation\" position. Give the General Counsel a short note first so he knows what we are proposing and why.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:58:18+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "d1229c88-17a6-4db5-bcb1-bf3f29d2f9cf",
+    "input_tokens": 2,
+    "output_tokens": 1584,
+    "cache_write_tokens": 2235,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.024784,
+    "latency_ms": 14108,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1584,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2235,
+      "webSearchRequests": 0,
+      "costUSD": 0.024784,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 467,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2235,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

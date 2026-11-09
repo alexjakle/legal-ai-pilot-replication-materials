@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "29f4de5dd4fe630ec278c5d6f87fe41b836552f89518e30476018300b1713305",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T17:44:15+00:00",
+  "session_id_in": null,
+  "session_id": "ad198647-54db-4909-93b8-1a27a6c70367",
+  "text": "# Recommendation: retain a separate standards witness now, with a narrow role\n\n**Who.** Retain a witness from the cardiac-lead standards community, such as a member of the working group or committee that drafted the consensus lead standard. This person should be independent of our design engineer. Our past Telltale matters took the same approach: Delmore recommends Dr. Marchetti and Hartwell recommends an unnamed standards-community witness.\n\nI would not simply carry Dr. Marchetti over to A-3. Her Delmore retention was itself still waiting on client clearance. Telltale is defending several ArcLine cases and does not want material from one case appearing in another. A witness shared across cases creates cross-matter testimony and transcript exposure. Before settling on anyone, we should:\n\n- Check A-3's own facts (which lead, which standard, what plaintiff says the standard requires). I don't have the A-3 file, so this answer rests on the pattern in the other matters.\n- Run conflict and bias checks. These cover ties to Telltale or its employees on the committee, prior testimony, and any published positions.\n- Follow Telltale's expert-consultation rule. Under the Hartwell and Delmore instructions, that means giving the General Counsel three candidates with prior-testimony notes and fee quotes before anyone is engaged. I need to confirm that A-3 carries the same requirement.\n\n**When.** Start now. We should not wait for plaintiff's expert reports, since the plaintiff's case leans on the standards from the outset. Starting early lets the witness shape our understanding of what compliance means and of what the standard's drafting history shows. In practice, that means getting client sign-off first, then retaining the witness through the firm. I would consider starting as a consulting expert and deciding on designation later.\n\n**Role compared with the design expert.**\n\n| | Standards witness | Design expert (as Vandermeer or Ouellette in the other matters) |\n|---|---|---|\n| Scope | The standard's origins, its drafting history, what compliance requires and what it does not | This lead's design, validation and testing |\n| Does not address | Design validation, test data or failure analysis | Committee history or standards politics |\n\nKeeping the roles separate does three things:\n- It avoids the \"grading his own work\" attack, in which one expert vouches for both the design and the yardstick.\n- It keeps the design engineer out of cross-examination on committee matters.\n- It lets us limit the standards witness's retention letter to the standard and its history, kept apart from the testing analysis.\n\n**Cautions.**\n- Frame compliance with the standard as evidence, not a complete defense. Plaintiff will argue the standard is a floor.\n- Route any report through Telltale's regulatory affairs review before service. Hartwell allows ten business days and Delmore two weeks. I need to confirm the A-3 requirement. Comments should go through counsel and be logged.\n- Keep the witness away from public characterizations of failure rates beyond what the case needs, given the pending regulatory inspection.\n- Control access to confidential Telltale material. It should be shared with the witness only under a protective order, and only as the scope requires.\n\n**Next steps.**\n1. Pull the A-3 file for the standard at issue and any client instruction letter.\n2. Identify three candidates and gather their testimony history and fee quotes.\n3. Send them to the General Counsel for clearance, then issue the scope letter.",
+  "usage": {
+    "run_id": "20261103T174207Z_C0",
+    "timestamp": "2026-11-03T17:44:15+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "ad198647-54db-4909-93b8-1a27a6c70367",
+    "input_tokens": 2,
+    "output_tokens": 1942,
+    "cache_write_tokens": 25116,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.119888,
+    "latency_ms": 18267,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1942,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 25116,
+      "webSearchRequests": 0,
+      "costUSD": 0.119888,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 831,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 25116,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Joad Axle Works):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: C-2
+Client: Joad Axle Works
+
+Question:
+The new Joad matter will depend on heavy-vehicle industry standards. Who should explain the standards and how manufacturers are expected to meet them, and how should that person be positioned relative to our engineering expert?
+
+Answer the question.

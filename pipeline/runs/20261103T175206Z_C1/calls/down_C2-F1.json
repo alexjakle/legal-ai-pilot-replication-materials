@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F1",
+  "prompt_hash": "1569899816ec861bba1965d794118c9fd856df858f9fe3b209da0acb5a8607e8",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:59:01+00:00",
+  "session_id_in": null,
+  "session_id": "75bd7ed4-b06c-45fe-b7b3-e176bd842be8",
+  "text": "I can't give you names or details from Joad's earlier matters, because the stored knowledge has none. It has no test results, metallurgical findings, or witness names from prior cases, and I won't invent any. Anything I offered would be fabricated, and in a spindle-failure matter a made-up finding or witness name could do real harm if you prepared around it.\n\n**What the file does tell us**\n- Joad has other open claims. The client watches its aggregate limit closely because of them, and the client wants to be told immediately of any other incidents involving JX-series spindles. The file doesn't say which claims, which products, or who the witnesses are.\n- Joad has a $400,000 retention. The insurer's claims handler is Perpetua Wallace.\n- The General Counsel is Evander Thorsby. He wants to review the names and credentials of any proposed testifying expert before engagement. That includes any industry-practice or standards expert, and he prefers design testimony to stay focused on the specific product at issue.\n- No Joad engineer or sales/account manager should be offered as a witness until the firm and Thorsby have discussed it.\n- Joad wants quotes before any testing is commissioned, 10 days' notice of any proposed testing, and preservation recommendations, especially for the test lab.\n\n**How to get the prior-matter information**\n1. **Firm records.** Check the firm's own files for prior Joad matters, including expert reports, deposition transcripts, test protocols, and lab reports. I haven't seen them, so I can't summarize them.\n2. **Ask Thorsby.** Request a summary of prior JX-series claims, and ask which prior test results, metallurgical analyses, and witnesses he considers relevant to C-2. Route all of this through him and don't contact Joad engineers or production staff directly.\n3. **Check for related incidents.** Ask whether any prior claims involve the same or a related spindle. If so, they trigger the immediate-reporting instruction. They may also bear on coverage, in which case Wallace must be copied.\n4. **Prior-testimony notes.** For any expert who testified in earlier Joad matters, prepare notes for Thorsby's review. Consistency of past testimony is exactly what opposing counsel will probe.\n5. **Preservation.** Recommend a hold now covering the test lab, test files, and any prior-matter materials, keeping the circle of people who see test files tight.\n\nIf you can share the prior-matter documents or any case notes, I can pull out the specific findings and names to prepare for.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:59:01+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "75bd7ed4-b06c-45fe-b7b3-e176bd842be8",
+    "input_tokens": 2,
+    "output_tokens": 920,
+    "cache_write_tokens": 2218,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.018076000000000002,
+    "latency_ms": 8362,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 920,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2218,
+      "webSearchRequests": 0,
+      "costUSD": 0.018076000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 107,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2218,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

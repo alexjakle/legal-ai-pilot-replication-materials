@@ -1,0 +1,73 @@
+{
+  "call_id": "abstraction",
+  "timestamp": "2026-11-03T21:58:55+00:00",
+  "session_id": "315d7b69-4a5c-4ecc-a67b-2cb31b54af62",
+  "raw": "{\"patterns\":[\n{\"text\":\"Settlement authority is tiered and set by the client. Before any number is communicated, even as a signal, confirm in writing who must approve it and at what level (general counsel, CFO, board, insurer). Do not rely on verbal indications. Offers above the insurer or officer tier can need a multi-week approval process, so flag this early, before negotiations reach that point.\",\"contributing_items\":[\"N412193.13\",\"N8ce7bf.09\",\"N722ac3.26\",\"N722ac3.27\",\"N722ac3.29\"],\"tags\":[]},\n{\"text\":\"Corporate defense clients commonly want to vet testifying experts before they are engaged. Expect to supply names and credentials, sometimes several candidates per discipline with prior testimony notes, and to tell the client whether anyone will address industry practice. Build client clearance into the expert-retention timeline.\",\"contributing_items\":[\"N412193.15\",\"N722ac3.23\"],\"tags\":[]},\n{\"text\":\"Clients usually set a fixed reporting cadence and format. Typical requirements are a regular written update (monthly or every six weeks, sometimes one page with the exposure range), an early initial case assessment within 45 to 60 days, and a call or short note after significant events such as depositions. Calendar these at intake.\",\"contributing_items\":[\"N412193.14\",\"N8ce7bf.11\",\"N722ac3.32\"],\"tags\":[]},\n{\"text\":\"Clients commonly route all communications through the general counsel, bar direct contact with company employees, refer press and outside inquiries to the GC, and cap the number of lawyers or timekeepers at depositions and hearings (typically one or two). Confirm these limits at intake and staff accordingly.\",\"contributing_items\":[\"N412193.14\",\"N8ce7bf.12\",\"N722ac3.33\"],\"tags\":[]},\n{\"text\":\"Clients expect budget discipline. Provide phase or stage estimates (for example separate estimates through mediation and through trial), explain variances, and obtain client approval or quotes before commissioning testing or experts, since expert and testing costs usually drive most of the variance. Clarify who pays for shared lab work.\",\"contributing_items\":[\"N412193.14\",\"N8ce7bf.14\",\"N722ac3.31\"],\"tags\":[]},\n{\"text\":\"Insurers are part of the client relationship. Clients typically name an insurance liaison or claims contact to be copied on anything touching coverage or exposure and on invoice summaries, and some want same-day notice if the carrier reserves rights. Check retention and limit details per matter and confirm who gets copied.\",\"contributing_items\":[\"N412193.14\",\"N722ac3.30\",\"N8ce7bf.11\"],\"tags\":[]},\n{\"text\":\"Clients with multiple product claims expect prompt reporting of other incidents or claims involving the same or related models, and a litigation hold on relevant product documents. Confirm at intake that a hold is in place and that other-incident reporting is understood.\",\"contributing_items\":[\"N412193.14\",\"N8ce7bf.12\",\"N722ac3.33\"],\"tags\":[]}\n]}",
+  "kept": [
+    {
+      "text": "Settlement authority is tiered and set by the client. Before any number is communicated, even as a signal, confirm in writing who must approve it and at what level (general counsel, CFO, board, insurer). Do not rely on verbal indications. Offers above the insurer or officer tier can need a multi-week approval process, so flag this early, before negotiations reach that point.",
+      "contributing_items": [
+        "N412193.13",
+        "N8ce7bf.09",
+        "N722ac3.26",
+        "N722ac3.27",
+        "N722ac3.29"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Corporate defense clients commonly want to vet testifying experts before they are engaged. Expect to supply names and credentials, sometimes several candidates per discipline with prior testimony notes, and to tell the client whether anyone will address industry practice. Build client clearance into the expert-retention timeline.",
+      "contributing_items": [
+        "N412193.15",
+        "N722ac3.23"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Clients usually set a fixed reporting cadence and format. Typical requirements are a regular written update (monthly or every six weeks, sometimes one page with the exposure range), an early initial case assessment within 45 to 60 days, and a call or short note after significant events such as depositions. Calendar these at intake.",
+      "contributing_items": [
+        "N412193.14",
+        "N8ce7bf.11",
+        "N722ac3.32"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Clients commonly route all communications through the general counsel, bar direct contact with company employees, refer press and outside inquiries to the GC, and cap the number of lawyers or timekeepers at depositions and hearings (typically one or two). Confirm these limits at intake and staff accordingly.",
+      "contributing_items": [
+        "N412193.14",
+        "N8ce7bf.12",
+        "N722ac3.33"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Clients expect budget discipline. Provide phase or stage estimates (for example separate estimates through mediation and through trial), explain variances, and obtain client approval or quotes before commissioning testing or experts, since expert and testing costs usually drive most of the variance. Clarify who pays for shared lab work.",
+      "contributing_items": [
+        "N412193.14",
+        "N8ce7bf.14",
+        "N722ac3.31"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Insurers are part of the client relationship. Clients typically name an insurance liaison or claims contact to be copied on anything touching coverage or exposure and on invoice summaries, and some want same-day notice if the carrier reserves rights. Check retention and limit details per matter and confirm who gets copied.",
+      "contributing_items": [
+        "N412193.14",
+        "N722ac3.30",
+        "N8ce7bf.11"
+      ],
+      "tags": []
+    },
+    {
+      "text": "Clients with multiple product claims expect prompt reporting of other incidents or claims involving the same or related models, and a litigation hold on relevant product documents. Confirm at intake that a hold is in place and that other-incident reporting is understood.",
+      "contributing_items": [
+        "N412193.14",
+        "N8ce7bf.12",
+        "N722ac3.33"
+      ],
+      "tags": []
+    }
+  ],
+  "dropped": []
+}

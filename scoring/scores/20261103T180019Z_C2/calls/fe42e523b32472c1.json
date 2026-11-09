@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "fe42e523b32472c1",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6648,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6648,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.092912,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1986,
+      "provider": "firstParty",
+      "thinkingTokens": 593,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "46919b58e68267d63af1947352a16d26010e00188f1906c5eda564166adf36f7",
+  "session_id": "5543d421-0453-466f-8326-16432169b380",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"We should produce only what is required and not stipulate to authenticity of internal data before the order is signed.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"We can't contact Joad engineers or production staff directly, and all communications go through General Counsel Evander Thorsby.\", \"apparent_reach\": \"client\", \"note\": \"Joad's standing instruction routing all contact through its named general counsel.\"}, {\"output_quote\": \"Joad treats design, test, and complaint-handling records as confidential.\", \"apparent_reach\": \"client\", \"note\": \"Joad's confidentiality practice for categories of internal records.\"}, {\"output_quote\": \"If they are called for in discovery, we need a protective order with an outside-counsel-and-experts tier in place before producing anything.\", \"apparent_reach\": \"client\", \"note\": \"Specific protective-order tier required before production; separate from the authenticity stipulation in R13.\"}, {\"output_quote\": \"Joad wants limited circulation of test files.\", \"apparent_reach\": \"client\", \"note\": \"Joad's instruction restricting circulation of test files.\"}, {\"output_quote\": \"If supplier issues surface other incidents involving JX-series products, we must report them to Mr. Thorsby immediately. We should not volunteer complaint history or other incidents beyond what a served request requires.\", \"apparent_reach\": \"client\", \"note\": \"Joad's instructions on reporting other JX-series incidents and limiting disclosure of complaint history.\"}, {\"output_quote\": \"If we ever plan an industry-practice or standards witness on supplier qualification, we must clear that plan with Mr. Thorsby before engagement. He prefers design testimony to stay on the specific product.\", \"apparent_reach\": \"client\", \"note\": \"Joad's GC pre-clearance requirement for industry-practice or standards witnesses and his preference on design testimony; does not call for retaining a standards witness.\"}]}",
+  "timestamp": "2026-11-04T02:58:53+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6648,
+    "call_id": "fe42e523b32472c1",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 44639,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1986,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:58:53+00:00",
+    "total_cost_usd": 0.092912
+  }
+}

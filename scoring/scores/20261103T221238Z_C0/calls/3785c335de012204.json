@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "3785c335de012204",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7331,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7331,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.127056,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3420,
+      "provider": "firstParty",
+      "thinkingTokens": 1600,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "c08d37fcdba667b98a41e1ce974ac8bf08ef2aa3f07bea429743a8adea863ab4",
+  "session_id": "5a9009a8-edd7-40c3-bf47-1809f9630ded",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Develop the standards defense early** through a separate standards witness, as in *Lindqvist*, with client review of names first.\"}, {\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"Build a reliability and fit challenge** (*Daubert*-type motion) around any gap found, and prepare cross on the expert's prior testimony.\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Build a reliability and fit challenge** (*Daubert*-type motion) around any gap found, and prepare cross on the expert's prior testimony.\"}, {\"label\": \"R10\", \"verdict\": \"pattern\", \"quote\": \"Build a reliability and fit challenge** (*Daubert*-type motion) around any gap found, and prepare cross on the expert's prior testimony.\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Do not stipulate to the authenticity or business-record admissibility of Joad's internal test data** until a protective order is in place.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Develop the standards defense early** through a separate standards witness, as in *Lindqvist*, with client review of names first.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Develop the standards defense early** through a separate standards witness, as in *Lindqvist*, with client review of names first.\"}, {\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"Build a reliability and fit challenge** (*Daubert*-type motion) around any gap found, and prepare cross on the expert's prior testimony.\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Everything goes to him, with the claims handler copied on coverage-related items.\", \"apparent_reach\": \"client\", \"note\": \"Joad reporting line: everything goes to General Counsel Evander Thorsby, with the claims handler copied on coverage items.\"}, {\"output_quote\": \"He gets the proposed approach, the consulting-expert name and credentials, and a fee quote before anyone is engaged.\", \"apparent_reach\": \"client\", \"note\": \"Client requirement for pre-engagement submission of expert details and fees to the General Counsel.\"}, {\"output_quote\": \"He also gets ten days' notice of any testing, because the client requires prior review of experts and testing.\", \"apparent_reach\": \"client\", \"note\": \"Specific Joad instruction on notice period and prior review of experts and testing.\"}, {\"output_quote\": \"tell Thorsby immediately under the client's standing instruction to report other JX-spindle incidents.\", \"apparent_reach\": \"client\", \"note\": \"Standing Joad instruction to report other JX-spindle incidents to the General Counsel.\"}, {\"output_quote\": \"It also bears on the *Lindqvist* discovery scope, which is limited to the JX-9.\", \"apparent_reach\": \"matter\", \"note\": \"Specific fact about the discovery scope in the Lindqvist matter.\"}, {\"output_quote\": \"The protective order should cover the test data and drawings at the attorneys'-eyes-only tier, and bar use outside the case.\", \"apparent_reach\": \"client\", \"note\": \"Specific protective-order terms sought for Joad's test data and drawings, beyond the authenticity stipulation position.\"}, {\"output_quote\": \"The client asked for our preservation recommendations in *Lindqvist*\", \"apparent_reach\": \"matter\", \"note\": \"Client request made in the Lindqvist matter about preservation recommendations.\"}, {\"output_quote\": \"don't contact current Joad engineers except through Thorsby.\", \"apparent_reach\": \"client\", \"note\": \"Apparent client-specific restriction routing contact with current Joad engineers through the General Counsel.\"}]}",
+  "timestamp": "2026-11-04T08:38:17+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7331,
+    "call_id": "3785c335de012204",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 25807,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3420,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:38:17+00:00",
+    "total_cost_usd": 0.127056
+  }
+}

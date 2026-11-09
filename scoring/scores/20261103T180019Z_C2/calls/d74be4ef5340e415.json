@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "d74be4ef5340e415",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6792,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6792,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.095964,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2081,
+      "provider": "firstParty",
+      "thinkingTokens": 1000,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "c8d6887634754eeb4a5c6d56e1f21e8264a7a62b4ca88ac23c4037e6323847e4",
+  "session_id": "3c9351a3-d515-4025-9b12-f6c730f2526d",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Build in the ten business days that Odalys Fennimore's regulatory group needs to review reports.\",\"apparent_reach\":\"client\",\"note\":\"Names a client regulatory contact and a ten-business-day review period. It is close to R07/R25 but does not say the review is against regulatory filings or occurs before service, so it does not meet those rows.\"},{\"output_quote\":\"| Budget variance requiring written explanation | **More than 10%** per phase | Client store |\",\"apparent_reach\":\"client\",\"note\":\"Client billing instruction requiring written explanation of phase budget variances over 10%.\"},{\"output_quote\":\"| Deposition staffing cap | 2 timekeepers | Client store |\",\"apparent_reach\":\"client\",\"note\":\"Client staffing limit for depositions.\"},{\"output_quote\":\"That is a coverage question, so it goes only to Thaddeus Wren or Marguerite Salvesen.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction restricting coverage questions to two named people.\"},{\"output_quote\":\"We need client quotes and consultation, with three names per discipline, before engaging experts.\",\"apparent_reach\":\"client\",\"note\":\"Client expert-retention procedure requiring quotes, consultation and three candidates per discipline.\"}]}",
+  "timestamp": "2026-11-04T02:51:48+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6792,
+    "call_id": "d74be4ef5340e415",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17121,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2081,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:51:48+00:00",
+    "total_cost_usd": 0.095964
+  }
+}

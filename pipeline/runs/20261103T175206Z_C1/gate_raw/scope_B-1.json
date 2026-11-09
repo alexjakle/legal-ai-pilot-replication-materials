@@ -1,0 +1,163 @@
+{
+  "matter": "B-1",
+  "call_id": "scope_B-1",
+  "timestamp": "2026-11-03T17:53:34+00:00",
+  "session_id": "2efac041-5979-4ecf-b066-28177135a92f",
+  "raw": "{\"items\":[\n{\"id\":\"N8ce7bf.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.04\",\"decision\":\"client_store\",\"text\":\"PressureMate TT-6200 (six-quart electric pressure cooker) lid design: a rotating bayonet lid and a spring-loaded float valve with a lockout pin. The pin rises as pressure builds and blocks the locking ring from turning. Operating pressure is about 10 psi. The client says the lid system went through independent laboratory testing before launch.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.05\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.09\",\"decision\":\"client_store\",\"text\":\"TT-6200 complaint history as of the Okafor matter (2026): the Q3-2024 lot had no field complaints about the lid. Three complaints of \\\"lid hard to open\\\" were received on other lots in 2024. Expect claimants to characterize these as notice. The client's Ravenscar ticketing system tracks consumer complaints and can be searched on request.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.11\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.14\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.24\",\"decision\":\"client_store\",\"text\":\"Client reporting instruction (General Counsel Franklin Oyelaran): send a one-page report containing the current exposure range in dollars, a few lines of status, upcoming dates, and any decision needed from him. No narrative memos. Report monthly and after any event that changes the exposure range, such as an inspection result or a ruling. Internal case-assessment memos stay internal and are not sent to the client.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.25\",\"decision\":\"client_store\",\"text\":\"Settlement authority: the firm has no settlement authority for Toil & Trouble. After recommending a range, the client takes it to its claims group. No settlement offer may be made in any form without Mr. Oyelaran's written approval. Obtain preliminary authority before any mediation session and confirm the client accepts the proposed mediator.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.26\",\"decision\":\"client_store\",\"text\":\"Client communication instructions: send communications to Mr. Oyelaran with a copy to Delphine Moorcroft in risk management. Do not talk to the press or to the client's retail partners. Do not contact client employees directly; the client arranges access (Rennick Odell is the technical contact). Do not volunteer complaint history or other incidents until a request is served and scope is discussed. Tell the client promptly of other claims on the TT-6200 or related models.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.27\",\"decision\":\"client_store\",\"text\":\"Client sensitivity: the client has promised its largest retail partners advance warning before pulling any product from sale. Counsel must tell Mr. Oyelaran at once if anything in a case could lead to a product withdrawal.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.28\",\"decision\":\"client_store\",\"text\":\"Client staffing and billing instructions: use one associate and one partner for day-to-day work, with others only with approval. No more than two lawyers at any deposition or hearing. Bill monthly on the client's matter-level template at the rates in the January 14, 2025 engagement letter. Where a product is inspected, the defense engineer handles it only in counsel's presence, and nothing is disassembled or cleaned before both sides' engineers are present.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.29\",\"decision\":\"matter_only\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N8ce7bf.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.04",
+        "decision": "client_store",
+        "tags": [],
+        "text": "PressureMate TT-6200 (six-quart electric pressure cooker) lid design: a rotating bayonet lid and a spring-loaded float valve with a lockout pin. The pin rises as pressure builds and blocks the locking ring from turning. Operating pressure is about 10 psi. The client says the lid system went through independent laboratory testing before launch."
+      },
+      {
+        "id": "N8ce7bf.05",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.06",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.07",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.08",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.09",
+        "decision": "client_store",
+        "tags": [],
+        "text": "TT-6200 complaint history as of the Okafor matter (2026): the Q3-2024 lot had no field complaints about the lid. Three complaints of \"lid hard to open\" were received on other lots in 2024. Expect claimants to characterize these as notice. The client's Ravenscar ticketing system tracks consumer complaints and can be searched on request."
+      },
+      {
+        "id": "N8ce7bf.10",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.11",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.12",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.13",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.14",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.15",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.17",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.18",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.19",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.22",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.23",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N8ce7bf.24",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client reporting instruction (General Counsel Franklin Oyelaran): send a one-page report containing the current exposure range in dollars, a few lines of status, upcoming dates, and any decision needed from him. No narrative memos. Report monthly and after any event that changes the exposure range, such as an inspection result or a ruling. Internal case-assessment memos stay internal and are not sent to the client."
+      },
+      {
+        "id": "N8ce7bf.25",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Settlement authority: the firm has no settlement authority for Toil & Trouble. After recommending a range, the client takes it to its claims group. No settlement offer may be made in any form without Mr. Oyelaran's written approval. Obtain preliminary authority before any mediation session and confirm the client accepts the proposed mediator."
+      },
+      {
+        "id": "N8ce7bf.26",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client communication instructions: send communications to Mr. Oyelaran with a copy to Delphine Moorcroft in risk management. Do not talk to the press or to the client's retail partners. Do not contact client employees directly; the client arranges access (Rennick Odell is the technical contact). Do not volunteer complaint history or other incidents until a request is served and scope is discussed. Tell the client promptly of other claims on the TT-6200 or related models."
+      },
+      {
+        "id": "N8ce7bf.27",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client sensitivity: the client has promised its largest retail partners advance warning before pulling any product from sale. Counsel must tell Mr. Oyelaran at once if anything in a case could lead to a product withdrawal."
+      },
+      {
+        "id": "N8ce7bf.28",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client staffing and billing instructions: use one associate and one partner for day-to-day work, with others only with approval. No more than two lawyers at any deposition or hearing. Bill monthly on the client's matter-level template at the rates in the January 14, 2025 engagement letter. Where a product is inspected, the defense engineer handles it only in counsel's presence, and nothing is disassembled or cleaned before both sides' engineers are present."
+      },
+      {
+        "id": "N8ce7bf.29",
+        "decision": "matter_only",
+        "tags": []
+      }
+    ]
+  }
+}

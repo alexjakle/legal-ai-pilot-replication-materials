@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-X2",
+  "prompt_hash": "9d7e90f9eb92c3f0561186fde486a9e08eeec39ad02871c3a6bc5bea496244c3",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:56:22+00:00",
+  "session_id_in": null,
+  "session_id": "10187cc7-8937-477d-af61-a272b23e8c47",
+  "text": "I can't answer this from what the firm has on file. Both the Joad Axle Works client store and the firm store are empty, so there is nothing on Toil & Trouble's case report requirements or on how it sequences mediation and expert work. I'd rather not guess at a third party's practices, and anything I offered would be invented.\n\n**What I need to answer this**\n- Toil & Trouble's outside counsel guidelines, or any litigation management or reporting protocol it has issued.\n- Past case reports the firm has sent Toil & Trouble, or its feedback on them.\n- Any engagement letter, matter-planning memo, or email in which Toil & Trouble sets out its preferences on early case assessment, budgets, mediation timing, or expert retention.\n- The name of the firm lawyer who handled Toil & Trouble work, if there is one. That person could tell us directly.\n\n**Questions to settle before modeling Joad on Toil & Trouble**\n- Is Toil & Trouble a client, an adversary, or a third party? If it is not a client, its approach may only be inferable from public sources or past dealings.\n- Is its approach a documented requirement, or an informal practice we have observed?\n- Does Toil & Trouble's profile resemble Joad's? Matter type, exposure, and insurer involvement all affect whether the same sequencing makes sense.\n\n**Generic framework for Joad (not Toil & Trouble's approach)**\nThese are common practices, not a statement of what Toil & Trouble does.\n- **Case reports:** an initial assessment, then periodic updates covering key facts, claims and defenses, exposure range, budget against actuals, next steps, and settlement posture.\n- **Sequencing:** consulting experts are often retained early to test liability and damages. Mediation tends to come after core discovery and preliminary expert views, so each side can value the case. Testifying experts are usually designated later, according to the scheduling order.\n\nIf you can send the Toil & Trouble materials, or tell me where they are, I'll draft a specific comparison and a proposed protocol for Joad.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:56:22+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "10187cc7-8937-477d-af61-a272b23e8c47",
+    "input_tokens": 2,
+    "output_tokens": 716,
+    "cache_write_tokens": 747,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.010152,
+    "latency_ms": 21702,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 716,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 747,
+      "webSearchRequests": 0,
+      "costUSD": 0.010152,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 44,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 747,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

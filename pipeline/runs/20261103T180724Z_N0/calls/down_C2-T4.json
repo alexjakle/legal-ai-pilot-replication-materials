@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T4",
+  "prompt_hash": "3f0c0f596ac147c1a1acac6433e870894796eceb0a08112c34ce56445fff567d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:11:29+00:00",
+  "session_id_in": null,
+  "session_id": "69bcf5a8-b1da-4d8c-a120-5ac034b51807",
+  "text": "**Short answer:** Retain a separate standards and regulatory-compliance expert. Do not rely on our engineering expert to cover this. Position the two as complementary witnesses with distinct roles. The standards expert sets out the framework, and the engineering expert applies it to the facts.\n\nOur client and firm stores are empty, so I have no prior Joad work product, expert roster, or matter facts. This is based on general practice and should be checked against the specifics of C-2.\n\n**Who the standards expert should be**\n- Someone with direct experience in how heavy-vehicle standards are written and applied. Examples are a former regulator (such as NHTSA or FMCSA), a long-time member of SAE, ISO, or TMC committees, or a senior compliance or homologation engineer from a manufacturer or Tier 1 supplier.\n- Credibility with the industry matters, because they will explain what manufacturers are expected to do. That covers design validation, testing protocols, certification and self-certification, quality systems, and documentation.\n- They must be free of conflicts with Joad's counterparties, OEM customers, and standards bodies.\n\n**How to position them relative to the engineering expert**\n1. **Divide the roles.**\n   - The standards expert covers what the standards are, which ones apply, what they require, how manufacturers demonstrate compliance, and what industry custom and practice look like.\n   - The engineering expert covers the technical facts: testing, failure analysis, causation, and whether Joad's design, materials, and processes met the standards in practice.\n2. **Sequence them.** The standards expert's framework should come first, and the engineering expert should build on it. This keeps the engineering expert from straying into regulatory interpretation, which invites a Rule 702 or *Daubert* challenge.\n3. **Keep them consistent.** They should work from the same assumptions and the same versions of the standards, and their reports should cross-reference each other without duplicating each other. Any gap between them is a cross-examination target.\n4. **Manage privilege and discovery.** Decide early who is a testifying expert and who is consulting only. Route communications through counsel, and keep in mind the discovery rules on drafts and attorney-expert communications.\n\n**Facts to confirm before retaining**\n- Is Joad the component supplier (axle maker) or the vehicle manufacturer? That determines how compliance responsibility is allocated between Joad and the OEM, and so which standards experience matters most.\n- Which jurisdiction and which standards (federal, state, or voluntary industry standards) are at issue.\n- Whether we are on the plaintiff or defense side, since that affects how the standards expert's testimony is framed.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:11:29+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "69bcf5a8-b1da-4d8c-a120-5ac034b51807",
+    "input_tokens": 2,
+    "output_tokens": 1400,
+    "cache_write_tokens": 717,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.016872,
+    "latency_ms": 12977,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1400,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 717,
+      "webSearchRequests": 0,
+      "costUSD": 0.016872,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 535,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 717,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

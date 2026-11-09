@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "45bec7ffb3d9b905",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7055,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7055,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.107408,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2548,
+      "provider": "firstParty",
+      "thinkingTokens": 746,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "f703bf904ce5e1392bfe1975a51e8f85a85ca3cda0923182290dc09c39556aa4",
+  "session_id": "90865996-0982-41d0-aa47-d999c96f2c41",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Toil & Trouble wants **mediation first, with no testifying experts disclosed or deposed beforehand**. Its reasons are that expert discovery is expensive and hardens positions.\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"we go after Dr. Pellam's causation opinion first. We ask whether he tested it, replicated it, and ruled out the replacement gasket.\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"He gets a one-page report (exposure range, status, upcoming dates, decisions needed), copied to Delphine Moorcroft.\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Before the June 5 production, we need to settle how to treat ECN-6200-14 and discuss the complaint scope with the client.\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"We do not volunteer complaint history until a request is served.\", \"apparent_reach\": \"client\", \"note\": \"Standing discovery instruction for Toil & Trouble about withholding complaint history until it is formally requested.\"},\n{\"output_quote\": \"TT-5500 complaints are included only where the pin is the failing element.\", \"apparent_reach\": \"matter\", \"note\": \"Negotiated limit on the scope of complaint production in B-1, with a specific model number.\"},\n{\"output_quote\": \"Lot data is limited to line inspection records for the week of manufacture of the Q3-2024 lot units, not the whole quarter.\", \"apparent_reach\": \"matter\", \"note\": \"Specific limit on lot-data production in B-1.\"},\n{\"output_quote\": \"Complaints cover lid incidents on the TT-6200 from launch through December 14, 2025.\", \"apparent_reach\": \"matter\", \"note\": \"Specific complaint production window in B-1.\"},\n{\"output_quote\": \"Mr. Oyelaran must confirm Judge Whitcombe as mediator, and we need preliminary mediation authority.\", \"apparent_reach\": \"matter\", \"note\": \"Named mediator candidate and an open client approval item in B-1.\"},\n{\"output_quote\": \"He gets a one-page report (exposure range, status, upcoming dates, decisions needed), copied to Delphine Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Named copy recipient (Delphine Moorcroft) for client reports. This detail is not in R19.\"},\n{\"output_quote\": \"Marcus also proposed a cap of 25 interrogatories per side.\", \"apparent_reach\": \"matter\", \"note\": \"Specific discovery proposal in B-1.\"},\n{\"output_quote\": \"The depositions of Ms. Okafor and the product safety lead may occur before mediation, with other fact depositions held until afterward.\", \"apparent_reach\": \"matter\", \"note\": \"Agreed sequencing of fact depositions around mediation in B-1.\"},\n{\"output_quote\": \"Consulting engineers may attend the inspection, and neither side discloses non-testifying consultants.\", \"apparent_reach\": \"matter\", \"note\": \"Specific agreement on consultants and the joint inspection in B-1.\"},\n{\"output_quote\": \"the July 2025 gasket records, and preservation.\", \"apparent_reach\": \"matter\", \"note\": \"Reference to specific July 2025 gasket records, an open item in the B-1 file.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:52:08+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7055,
+    "call_id": "45bec7ffb3d9b905",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 18844,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2548,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:52:08+00:00",
+    "total_cost_usd": 0.107408
+  }
+}

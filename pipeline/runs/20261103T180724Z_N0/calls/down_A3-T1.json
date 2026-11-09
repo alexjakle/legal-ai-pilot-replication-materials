@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "820e0acb4a98d9dccaa43d03f3a64acf6e67617a87c247ffb7e5c7c16b8ff72e",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:07:58+00:00",
+  "session_id_in": null,
+  "session_id": "1b1a6c3c-7c36-4b58-b7c6-bbf4c44a516d",
+  "text": "# Expert report workflow: first draft to service\n\n**Caveat:** The client and firm stores are empty. I have no Telltale-specific information, firm protocol, scheduling order, or governing rules, so this is general practice to be adjusted once we confirm those.\n\n**Confirm the deadline first.** We represent Telltale, which in a product liability case is almost certainly the defendant. If so, the date ten weeks out is the *plaintiff's* disclosure deadline, and ours would normally come later, either as a separate date or 30 to 60 days after. Check the scheduling order. If we owe disclosures at ten weeks, the timeline below applies. If ours come later, we get more time and can see plaintiff's reports first. Also check whether the governing rule (FRCP 26(a)(2)(B) or the state equivalent) requires a full signed report or a lesser disclosure.\n\n## Timeline (assuming a 10-week runway)\n\n**Weeks 0-1: Set-up**\n- Select the two experts and run conflict checks. Confirm neither has a past consulting relationship with Telltale or its competitors, and review their prior testimony, exclusions, and publications for inconsistencies (Daubert/Rule 702 vetting).\n- Decide whether each expert is testifying only or also consulting. Keep the two roles separate where possible.\n- Execute engagement letters through the firm, not Telltale.\n- Confirm a protective order is in place and have each expert sign it before receiving confidential Telltale material.\n- Confirm the litigation hold is in place at Telltale.\n- Define each expert's scope so the two don't overlap or contradict each other (for example, engineering/design and clinical/causation).\n\n**Weeks 1-4: Information gathering (heaviest Telltale involvement)**\n- Telltale contacts are routed through counsel. The likely people are:\n  - **In-house legal/GC:** the main point of contact, who approves document production and the privilege review.\n  - **Regulatory/Quality (RA/QA):** design history file, risk management files, 510(k)/PMA submissions, CAPAs, and complaint and MDR records.\n  - **Engineering/R&D:** design specs, testing and validation data, and exemplar devices and lot records.\n  - **Clinical affairs:** clinical data, IFU and labeling history, and post-market surveillance.\n  - **Risk management/insurance:** the carrier may need to approve expert budgets.\n- Counsel collects and Bates-numbers materials, and the expert receives them from counsel. Keep a log of everything provided, since \"facts or data considered\" is disclosable.\n- Arrange device inspection or testing with chain-of-custody protocols. Notice the other side if the testing is potentially destructive.\n\n**Weeks 4-6: Analysis and preliminary opinions**\n- Hold oral discussions on preliminary opinions. Avoid creating written drafts or exchanging emails that are not protected.\n- Surface any unfavorable facts now, while there is time to address them.\n\n**Weeks 6-7: First draft**\n- The expert writes the draft, with counsel limited to structural, formatting, and legal-standard input. Opinions and their bases must be the expert's own.\n- Counsel's edits should not substitute for the expert's views.\n\n**Weeks 7-8: Telltale fact-check, through counsel**\n- A small group (legal, plus one technical lead and one regulatory lead) reviews for factual accuracy only, such as product specs, dates, and regulatory history. They do not review the opinions or suggest edits to them.\n- Telltale reviewers' comments go to counsel, not to the expert. Counsel decides what to pass on, because direct client-expert communications may be discoverable.\n- Check the draft against Telltale's regulatory submissions, labeling, public statements, and other litigation positions. Inconsistencies are impeachment material.\n\n**Weeks 8-9: Revision and internal review**\n- Revise the draft and cross-read the two reports for consistency, including their assumptions and the facts each relies on.\n- Hold a mock-Daubert and cross-examination review: is the methodology reliable, are the opinions within the expert's qualifications, and is each opinion supported by the data?\n- Confirm the report includes everything the rule requires: all opinions and their bases, facts and data considered, exhibits, qualifications and publications from the last ten years, prior testimony from the last four years, and the compensation statement.\n\n**Week 9 to early week 10: Finalize**\n- The expert reviews every line, signs, and confirms the report is their own.\n- Telltale's GC gets a final heads-up and a confidentiality designation check, since the report may need to be designated or filed under seal.\n- Assemble the exhibits, CV, materials list, and fee schedule.\n\n**Service: at least 2 to 3 business days before the deadline**\n- Serve in the manner the order requires, and keep proof of service.\n- Calendar the follow-on events: rebuttal reports, expert depositions, and supplementation duties.\n\n## Key points\n- **Privilege/work product:** In federal court, Rule 26(b)(4)(B)-(C) protects drafts and most attorney-expert communications, except compensation, facts or data counsel supplied, and assumptions counsel supplied. State rules vary, so confirm.\n- **Telltale's role is fact verification, not opinion.** Their review should never shape the opinions, or the expert's independence and credibility suffer.\n- **Budget for slippage.** Device testing and document collection are the usual bottlenecks, so start collection immediately and ask Telltale for a named point person this week.\n\nIf you can send the scheduling order, the jurisdiction, and which side's disclosures are due, I can turn this into a dated calendar.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:07:58+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "1b1a6c3c-7c36-4b58-b7c6-bbf4c44a516d",
+    "input_tokens": 2,
+    "output_tokens": 2729,
+    "cache_write_tokens": 757,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.030322,
+    "latency_ms": 24143,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2729,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 757,
+      "webSearchRequests": 0,
+      "costUSD": 0.030322,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 842,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 757,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

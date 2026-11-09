@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "dcafc3d25840605fdd480b1d06574214895a9804093d630156d6f82ce2ebce79",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:03:20+00:00",
+  "session_id_in": null,
+  "session_id": "c774336a-5941-422a-9e86-6ac49fdfd620",
+  "text": "**Short answer:** Plan on a standards/industry-practice expert, separate from the design (engineering) expert. But don't pick or engage anyone until Telltale has signed off on the plan and the candidates. The timetable must also include Telltale's regulatory review of the report.\n\n**Who**\n\nLook for someone with real credentials in cardiac lead standards. That means experience with the standards bodies and the regulatory framework behind them (for example ISO/AAMI/FDA-recognized lead standards and testing requirements), plus a clean record as a testifying witness. We should not name an individual to Telltale until we've vetted candidates. I'd propose three names for the standards discipline, each with credentials and prior testimony notes, as Telltale requires.\n\n**When**\n\n1. **Now, before engaging anyone.** Raise the plan with General Counsel Marguerite Salvesen (copy insurance liaison Thaddeus Wren). Telltale expects to control expert selection, and a standards witness is specifically something to clear in advance. Send the three names, credentials and prior testimony notes. Do not contact candidates about retention until she approves. Initial conversations should be limited to conflict checks and availability, and should not disclose the matter's substance.\n2. **Send a quote and a budget line.** Expert cost is the likely main budget driver. It belongs in the phase budget, with any variance over ten percent explained.\n3. **Build the schedule backward from the expert disclosure deadline.** Telltale's regulatory affairs group (Odalys Fennimore) must review every expert report for consistency with what Telltale told the regulator, and it needs ten business days. The report cannot be shared outside the firm and the expert until cleared. That is especially important for a standards witness, whose opinions on compliance and testing could overlap with regulatory submissions. Allow for drafts, the review window and revisions after comments. A realistic plan is to have the draft ready well before the deadline, with the review window and a revision buffer after it.\n4. **Retain early enough to help shape the case.** The standards expert can help with discovery, the protective order scope and deposition preparation, and can confirm the design expert's testing assumptions before reports are drafted.\n\n**Role compared with the design expert**\n\n- **Standards expert:** Addresses what the standards require, which standards apply, whether Telltale's testing, validation and design process conformed to them, and what the industry practice was at the time. This witness answers the plaintiff's theme that the lead fell short of industry standards. They would also rebut the plaintiff's standards witness, if there is one, on whether the standards are mandatory or voluntary and how they are properly applied.\n- **Design expert:** Addresses engineering. That covers how the lead was designed, why it performs as it does, failure mode analysis, whether the design was reasonable and safe, and causation for the specific failure at issue.\n- **Keep them distinct but consistent.** The standards expert should not become a second design witness. The design expert should rely on the standards expert for what the standards mean, and the standards expert should rely on the design expert for engineering facts. Their opinions should not conflict, and both must be consistent with Telltale's regulatory submissions.\n\n**Cautions**\n\n- **Confidentiality:** Design and complaint-handling records are confidential. Give the expert access only after a protective order is in place, with an outside-counsel-and-experts tier for sensitive technical data.\n- **Public failure-rate statements:** Telltale is in a regulatory inspection tied to its next-generation lead. The expert's opinions on standards must not characterize device failure rates beyond what the case requires, since reports may become public through filings.\n- **Possible regulatory consequences:** If the standards analysis shows a gap that could trigger a recall, withdrawal or regulatory consequence, alert the General Counsel at once.\n- **Communications:** Experts should not contact Telltale employees. Access goes through the General Counsel.\n\n**Next steps:** (1) Identify three candidates, (2) send Ms. Salvesen a short recommendation memo with the names and the proposed role split, (3) ask for her decision and Telltale's expert-related timing preferences, and (4) set the expert timetable with the ten business day regulatory review built in.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:03:20+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "c774336a-5941-422a-9e86-6ac49fdfd620",
+    "input_tokens": 2,
+    "output_tokens": 1381,
+    "cache_write_tokens": 2493,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.023786,
+    "latency_ms": 14764,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1381,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2493,
+      "webSearchRequests": 0,
+      "costUSD": 0.023786,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2493,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

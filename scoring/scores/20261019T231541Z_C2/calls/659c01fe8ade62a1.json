@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "659c01fe8ade62a1",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6457,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10866400000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2850,
+      "provider": "firstParty",
+      "thinkingTokens": 1213,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "0d42c5cdefbcb1cca7fca45f0c455ca19bcb293efbae40d96007bab77ea1e54d",
+  "session_id": "9e54956e-6b6e-453f-8979-88cbab14e85e",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"paraphrase\", \"quote\": \"The 2020 field-engineer note and the 2021 Larkspur review are sensitive.\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"We need a standards and regulatory-compliance expert, separate from the design expert.\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Allow ten business days for Odalys Fennimore's regulatory affairs review. Reports cannot leave the firm and the experts until she clears them.\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"Do not give the standards expert Orrinwick design or complaint records until a protective order is in place\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"We need a standards and regulatory-compliance expert, separate from the design expert.\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Standards expert: Addresses what the standards require and whether Telltale's conduct and testing conformed.\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"verbatim\", \"quote\": \"The 2020 field-engineer note and the 2021 Larkspur review are sensitive.\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"This matters especially because Telltale is in a regulatory inspection on its next-generation lead, so nothing should conflict with what it told the regulator.\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"Any report should avoid characterizing failure rates beyond what the case requires.\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Whether the fracture rate (31 of about 22,000, roughly 0.14 percent) is within the labeled range is unconfirmed\", \"apparent_reach\": \"matter\", \"note\": \"Specific AL-4120 fracture-rate figures from matter files.\"},\n{\"output_quote\": \"Our working target is under $500,000 for fees and costs combined, and any variance above ten percent needs an explanation.\", \"apparent_reach\": \"client\", \"note\": \"Client budget target and variance-reporting instruction.\"},\n{\"output_quote\": \"Telltale controls expert selection, so I will not contact or retain anyone until it approves.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction that it approves expert retention.\"},\n{\"output_quote\": \"The memo to the General Counsel, copied to Thaddeus Wren, should contain:\", \"apparent_reach\": \"client\", \"note\": \"Named client contact and communication routing instruction.\"},\n{\"output_quote\": \"All communications go to the General Counsel with a copy to Mr. Wren, and I will report the retention in the monthly update.\", \"apparent_reach\": \"client\", \"note\": \"Client communication and reporting practice.\"},\n{\"output_quote\": \"The explant must be handled only under an agreed written protocol with both sides' engineers present and no disassembly or sectioning until then.\", \"apparent_reach\": \"matter\", \"note\": \"Matter-specific explant handling protocol.\"},\n{\"output_quote\": \"the instructions for use (which warn against medial subclavian puncture and prefer lateral access)\", \"apparent_reach\": \"matter\", \"note\": \"Specific IFU content for the AL-4120 lead.\"}\n]}\n```",
+  "timestamp": "2026-10-20T02:56:45+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6457,
+    "call_id": "659c01fe8ade62a1",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23098,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2850,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:56:45+00:00",
+    "total_cost_usd": 0.10866400000000001
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "a728d907e4fa15ca",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6917,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6917,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10006400000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2236,
+      "provider": "firstParty",
+      "thinkingTokens": 1117,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "8fb6fe78a10c8c0a26f3514e0f75d0970d96eab5e66c4fdd5cf1155e048b48a9",
+  "session_id": "e3fc494d-928e-44ac-9aff-d60116ced275",
+  "stage": "judge_validation",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"We should test whether this expert is qualified to give it, and whether it rests on reliable methodology, such as stress analysis, load history, and alternative designs, rather than inference from the fracture alone.\"},\n{\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Telltale's in-house regulatory staff insist on seeing every expert report ahead of service so they can confirm it squares with the company's statements to the agency.\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Prepare a Rule 702/Daubert-type challenge.** The grounds would be qualifications, fit, a lack of testing or design-standard analysis, and an unsupported leap from fatigue to defect.\"},\n{\"label\": \"R10\", \"verdict\": \"pattern\", \"quote\": \"We would also develop a cross-examination outline and take the expert's deposition after our own testing.\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"We should test whether this expert is qualified to give it, and whether it rests on reliable methodology, such as stress analysis, load history, and alternative designs, rather than inference from the fracture alone.\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Telltale's in-house regulatory staff insist on seeing every expert report ahead of service so they can confirm it squares with the company's statements to the agency.\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": []}\n```",
+  "timestamp": "2026-10-28T22:55:02+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6917,
+    "call_id": "a728d907e4fa15ca",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19011,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2236,
+    "role": "judge",
+    "run_id": "validation_v2_20261028",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-28T22:55:02+00:00",
+    "total_cost_usd": 0.10006400000000001
+  }
+}

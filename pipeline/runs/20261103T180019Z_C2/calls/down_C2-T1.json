@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "6efdf47d8893be80588b9efd8ec8a58fc485fffd0302c4b40e234f343c1edc00",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:05:17+00:00",
+  "session_id_in": null,
+  "session_id": "1b892e0f-55c3-4a51-ab80-90b0c78870ba",
+  "text": "**Short answer:** Decline the blanket authenticity stipulation for now, and make a protective order the first thing we ask for. Don't produce anything or stipulate to anything until the order is signed.\n\n**How to respond to plaintiff's counsel**\n\n1. **Decline for now, without a flat refusal.** Say Joad will address authenticity once a protective order is entered. Joad's internal test data is confidential, and we can't stipulate to documents that haven't been produced or reviewed under appropriate protections. Hold the line on any blanket stipulation, including one limited to \"fatigue testing documents.\"\n2. **Propose a stipulated protective order.** It must include a tier limiting access to outside counsel and experts (an \"outside counsel and experts only\" tier) for sensitive technical data such as fatigue test records.\n3. **State the sequence.** Joad will produce only what the court requires, and not before the order is signed. After production, we can discuss authenticity on a document-by-document basis, or by a targeted stipulation for specific documents once we've verified them. Nothing in the response should concede that the documents are what they purport to be, or that they are complete or representative.\n4. **Avoid volunteering anything else.** Don't mention other tests, complaint history, or other incidents beyond what a served request requires.\n\n**What to ask for first**\n\n- **From plaintiff's counsel:** agreement to a protective order with the outside-counsel-and-experts tier. Send a draft promptly so this doesn't stall.\n- **From the client (before we respond in substance):** since all communications run through General Counsel Evander Thorsby, send him a short note that:\n  - reports the request and our proposed response (decline now, protective order first);\n  - asks him to confirm the approach;\n  - asks who maintains the fatigue testing records and how access can be arranged through him, since we don't contact engineers or production staff directly;\n  - recommends preserving those records under the litigation hold, and keeps the circle of people who see the test files tight.\n\n**Related points to flag to Thorsby**\n\n- If the fatigue data will need expert interpretation, he wants names and credentials before any engagement. He also wants to know whether anyone will speak to industry practice, and a standards-expert plan must be cleared with him first.\n- Any testing we commission needs a quote first, and 10 days' notice to Joad.\n- Copy Perpetua Wallace if the request bears on coverage or exposure.\n- Treat this as a new matter: confirm the reporting cadence (a written report every six weeks, a phase budget within 45 days, and a first case assessment within 60 days).",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:05:17+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "1b892e0f-55c3-4a51-ab80-90b0c78870ba",
+    "input_tokens": 2,
+    "output_tokens": 841,
+    "cache_write_tokens": 2778,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019526,
+    "latency_ms": 8251,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 841,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2778,
+      "webSearchRequests": 0,
+      "costUSD": 0.019526,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2778,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

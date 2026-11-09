@@ -1,0 +1,199 @@
+{
+  "matter": "C-1",
+  "call_id": "scope_C-1",
+  "timestamp": "2026-11-03T17:53:53+00:00",
+  "session_id": "71019bb7-a198-4089-b7a3-52b06873d35a",
+  "raw": "{\"items\":[\n{\"id\":\"N722ac3.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.05\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.11\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.14\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.24\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.25\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.26\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.27\",\"decision\":\"client_store\",\"text\":\"Client instruction on experts: the General Counsel wants to review the names and credentials of all proposed testifying experts before engagement, wants to know whether anyone will speak to industry practice, and prefers that design testimony stay focused on the specific product at issue. He is glad to help identify candidates who have served on standards bodies. Any plan to use a standards or industry-practice expert should be cleared with him before engagement.\",\"tags\":[]},\n{\"id\":\"N722ac3.28\",\"decision\":\"client_store\",\"text\":\"Settlement authority: any offer above the insurer's pre-approved settlement authority needs written sign-off from Joad's board of directors; verbal indications from a director or officer are not enough. Do not communicate any offer above the pre-approved level, even as a signal, without that document. The client needs about three weeks to prepare a board consent. If an offer would fall within the insurer's tier, check with the General Counsel before conveying it. Confirm the current pre-approved authority amount for each matter.\",\"tags\":[]},\n{\"id\":\"N722ac3.29\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.30\",\"decision\":\"client_store\",\"text\":\"Lesson: any settlement figure above the insurer's pre-approved authority requires the board consent process, which takes about three weeks, so flag it to the client early.\",\"tags\":[]},\n{\"id\":\"N722ac3.31\",\"decision\":\"client_store\",\"text\":\"Budget preferences: the client wants quotes before any testing is commissioned and wants to know who pays for shared lab work. Expert and testing costs tend to drive most budget variance.\",\"tags\":[]},\n{\"id\":\"N722ac3.32\",\"decision\":\"client_store\",\"text\":\"Insurance: Joad's policy has a $400,000 retention and an aggregate limit the client watches closely because of other open claims. The insurer's claims handler is Perpetua Wallace. She must be copied on anything bearing on coverage and sent the monthly invoice summary. The client wants to hear the same day if the carrier reserves its rights.\",\"tags\":[]},\n{\"id\":\"N722ac3.33\",\"decision\":\"client_store\",\"tags\":[],\"text\":\"Client reporting requirements: a written report every six weeks, with a call after significant events; a first case assessment within 60 days with an exposure range and probability of an adverse result; a phase budget within 45 days; and a short note within five business days after every deposition.\"},\n{\"id\":\"N722ac3.34\",\"decision\":\"client_store\",\"text\":\"Client standing instructions: route all case communications through the General Counsel, Evander Thorsby. Do not contact current Joad engineers or production staff directly. Make no public statements and refer media, regulator or customer inquiries to him. Limit deposition attendance to one firm lawyer and one insurer lawyer. Give 10 days' notice of any proposed testing. Report immediately any other incidents involving JX-series spindles. Send preservation recommendations, especially for the test lab.\",\"tags\":[]},\n{\"id\":\"N722ac3.35\",\"decision\":\"client_store\",\"text\":\"Client instruction on witnesses: interview key Joad engineers early and keep a tight circle around who sees test files. No Joad engineer or sales/account manager should be offered for testimony until the firm and the General Counsel have discussed it.\",\"tags\":[]},\n{\"id\":\"N722ac3.36\",\"decision\":\"matter_only\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N722ac3.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.04",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.05",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.06",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.07",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.08",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.09",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.10",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.11",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.12",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.13",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.14",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.15",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.17",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.18",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.19",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.22",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.23",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.24",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.25",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.26",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.27",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client instruction on experts: the General Counsel wants to review the names and credentials of all proposed testifying experts before engagement, wants to know whether anyone will speak to industry practice, and prefers that design testimony stay focused on the specific product at issue. He is glad to help identify candidates who have served on standards bodies. Any plan to use a standards or industry-practice expert should be cleared with him before engagement."
+      },
+      {
+        "id": "N722ac3.28",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Settlement authority: any offer above the insurer's pre-approved settlement authority needs written sign-off from Joad's board of directors; verbal indications from a director or officer are not enough. Do not communicate any offer above the pre-approved level, even as a signal, without that document. The client needs about three weeks to prepare a board consent. If an offer would fall within the insurer's tier, check with the General Counsel before conveying it. Confirm the current pre-approved authority amount for each matter."
+      },
+      {
+        "id": "N722ac3.29",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.30",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Lesson: any settlement figure above the insurer's pre-approved authority requires the board consent process, which takes about three weeks, so flag it to the client early."
+      },
+      {
+        "id": "N722ac3.31",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Budget preferences: the client wants quotes before any testing is commissioned and wants to know who pays for shared lab work. Expert and testing costs tend to drive most budget variance."
+      },
+      {
+        "id": "N722ac3.32",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Insurance: Joad's policy has a $400,000 retention and an aggregate limit the client watches closely because of other open claims. The insurer's claims handler is Perpetua Wallace. She must be copied on anything bearing on coverage and sent the monthly invoice summary. The client wants to hear the same day if the carrier reserves its rights."
+      },
+      {
+        "id": "N722ac3.33",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client reporting requirements: a written report every six weeks, with a call after significant events; a first case assessment within 60 days with an exposure range and probability of an adverse result; a phase budget within 45 days; and a short note within five business days after every deposition."
+      },
+      {
+        "id": "N722ac3.34",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client standing instructions: route all case communications through the General Counsel, Evander Thorsby. Do not contact current Joad engineers or production staff directly. Make no public statements and refer media, regulator or customer inquiries to him. Limit deposition attendance to one firm lawyer and one insurer lawyer. Give 10 days' notice of any proposed testing. Report immediately any other incidents involving JX-series spindles. Send preservation recommendations, especially for the test lab."
+      },
+      {
+        "id": "N722ac3.35",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client instruction on witnesses: interview key Joad engineers early and keep a tight circle around who sees test files. No Joad engineer or sales/account manager should be offered for testimony until the firm and the General Counsel have discussed it."
+      },
+      {
+        "id": "N722ac3.36",
+        "decision": "matter_only",
+        "tags": []
+      }
+    ]
+  }
+}

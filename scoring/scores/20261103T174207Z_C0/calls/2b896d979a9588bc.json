@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "2b896d979a9588bc",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7467,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7467,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.13424399999999997,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3725,
+      "provider": "firstParty",
+      "thinkingTokens": 2145,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a173209684a5ff26cb8124d0d62c6ceac23f3477cb08a426535047e42fce7db6",
+  "session_id": "3ab4dcab-aed6-40c8-a1b3-c50ee0c82b27",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"On the other Telltale matters the firm separated the design expert from a standards-community witness, so the design expert is not cross-examined on committee issues. Consider the same split for A-3.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Send the near-final draft to the regulatory affairs group, led by Odalys Fennimore. They compare it with what Telltale told the regulator, looking for inconsistency.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"On the other Telltale matters the firm separated the design expert from a standards-community witness, so the design expert is not cross-examined on committee issues. Consider the same split for A-3.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"On the other Telltale matters the firm separated the design expert from a standards-community witness, so the design expert is not cross-examined on committee issues. Consider the same split for A-3.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Send the near-final draft to the regulatory affairs group, led by Odalys Fennimore. They compare it with what Telltale told the regulator, looking for inconsistency.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"It does not volunteer failure-rate characterizations beyond what the case requires, since the client is wary of those.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Send the General Counsel three candidates per discipline, with prior testimony notes, credentials and fee quotes. Copy the insurance liaison (Thaddeus Wren) on cost and coverage points.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's expert-selection instruction, with a named insurance liaison.\"},{\"output_quote\":\"Allow ten business days, which is more than two calendar weeks once holidays are counted.\",\"apparent_reach\":\"client\",\"note\":\"Specific lead time for Telltale's regulatory review, drawn from other matters' instructions.\"},{\"output_quote\":\"Contact with Telltale employees (for example, engineers who supply data) goes through the General Counsel's office, not directly.\",\"apparent_reach\":\"client\",\"note\":\"Standing Telltale instruction on how counsel and experts contact employees.\"},{\"output_quote\":\"Comments come back through counsel and are logged, not sent directly to the expert.\",\"apparent_reach\":\"client\",\"note\":\"Specific handling procedure for Telltale's regulatory review comments.\"},{\"output_quote\":\"in Hartwell we asked the design expert for a near-final draft about six and a half weeks before service. In Delmore it was about five weeks.\",\"apparent_reach\":\"matter\",\"note\":\"Matter-specific drafting timelines from the Hartwell and Delmore files.\"},{\"output_quote\":\"The client does not want design and complaint records produced before one is in place.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's protective-order gating of production; this is not an authenticity-stipulation refusal, so it is not an R13 hit.\"},{\"output_quote\":\"It was Marguerite Salvesen in both of the others.\",\"apparent_reach\":\"client\",\"note\":\"Identifies Telltale's General Counsel on its other matters.\"}]}",
+  "timestamp": "2026-11-04T03:26:27+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7467,
+    "call_id": "2b896d979a9588bc",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 30375,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3725,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:26:27+00:00",
+    "total_cost_usd": 0.13424399999999997
+  }
+}

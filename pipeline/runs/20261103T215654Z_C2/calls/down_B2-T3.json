@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "07158877763d3922b79f750935b33175082fe006efddbe9794d17adcf2f773b3",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:01:16+00:00",
+  "session_id_in": null,
+  "session_id": "7ac726dd-2a4d-4c7b-99e6-f800e12c40d2",
+  "text": "**Approach: don't engage the plaintiff's expert on the merits yet. Secure the inspection and documents first, push for mediation before expert work, and hold our own testifying expert until the client clears one.**\n\n**Order of steps**\n\n1. **Preservation and intake (now).**\n   - Confirm the litigation hold is in place.\n   - Ask the retailer to preserve its sales records for the product.\n   - Confirm the staffing and communication limits: one associate and one partner, communications to Franklin Oyelaran with a copy to Delphine Moorcroft, and no direct contact with client employees.\n   - Calendar the initial case assessment (45 to 60 days) and the monthly one-page report.\n\n2. **Joint inspection protocol.**\n   - If plaintiff requests a joint inspection, agree in principle and send a written protocol right away.\n   - The protocol should bar disassembly, testing or cleaning until both sides' engineers are present.\n   - Nothing should happen to the unit before the plaintiff's expert's manufacturing-defect theory can be tested against it.\n\n3. **Retain a consulting (non-testifying) engineer early.**\n   - The engineer attends the inspection and helps us understand the manufacturing-defect theory.\n   - Get client approval of the cost before retaining, and clarify who pays for any shared lab work.\n   - The client's engineer handles the product only in our presence. Any technical input from Rennick Odell goes through the General Counsel, not direct contact.\n\n4. **Core document exchange, with restraint.**\n   - Exchange core documents, but don't volunteer complaint history or other incidents until a request is served and scope has been discussed.\n   - Quality records are available from the client on request, and complaints sit in the Ravenscar system. Check them internally through the GC, so we know what is there.\n   - If we find other claims involving the same or related models, report them to the GC promptly.\n   - If the manufacturing-defect theory could lead to a product pull, tell the GC at once, because the client has promised its largest retail partners advance warning.\n\n5. **Propose mediation before expert schedules.**\n   - The client wants mediation before any testifying expert is disclosed or deposed.\n   - If plaintiff's counsel presses for an expert schedule first, say the client wants a mediation date in the order, and tell the GC if counsel objects.\n   - Make it easier for plaintiff to accept by addressing delay: offer early production of key documents and fixed expert dates that take effect if mediation fails.\n\n6. **Testifying expert, only after clearance.**\n   - If mediation fails or the schedule requires it, give the client names, credentials and prior testimony notes, ideally several candidates per discipline.\n   - Tell the client whether anyone will address industry practice, and get approval before engaging.\n   - Include the clearance time in the timeline.\n   - Only then do we disclose our expert, and depose or respond to the plaintiff's expert.\n   - Limit deposition attendance to two lawyers.\n\n**Throughout**\n- No settlement number or signal in any form without Franklin's written approval. Confirm early who must approve at what level (GC, CFO, board or insurer), since higher tiers can take weeks.\n- Send a one-page report (exposure range in dollars, status, upcoming dates, decisions needed) monthly and after any event that changes the range. A significant development in the plaintiff's expert's opinion could qualify.\n- Give separate fee estimates through mediation and through trial, and warn early if the budget becomes unrealistic.\n- Copy the insurer contact on anything touching exposure or coverage, routing it through the GC as the client directs.\n- Be courteous with plaintiff's counsel, and no contact with the press or retail partners.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:01:16+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7ac726dd-2a4d-4c7b-99e6-f800e12c40d2",
+    "input_tokens": 2,
+    "output_tokens": 1219,
+    "cache_write_tokens": 2292,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.021362,
+    "latency_ms": 25906,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1219,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2292,
+      "webSearchRequests": 0,
+      "costUSD": 0.021362,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2292,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

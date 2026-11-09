@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F1",
+  "prompt_hash": "81f646a3074666f42396c080c2c63a4b9444332f5ef5b722091eef8e75a55a8c",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:01:34+00:00",
+  "session_id_in": null,
+  "session_id": "31b50aaa-d723-431d-9ba9-2f80640ed419",
+  "text": "I can't give you specific facts, because the firm's stored knowledge for Toil & Trouble has no witness statements, return figures, or engineering documents from earlier cases. It holds only the client's instructions and general practice lessons. Anything I named, such as a model number, return rate, or witness name, would be invented, and you shouldn't rely on it or repeat it to anyone.\n\n**What the store does tell us**\n- Complaints are tracked in the client's Ravenscar ticketing system.\n- Quality records are available on request.\n- Rennick Odell, the product safety lead, is the technical contact.\n- The client wants prompt reporting of other claims involving the same or related models.\n- A litigation hold must be in place.\n\n**Where B-2 is likely to touch earlier matters** (these are categories to check, not facts)\n- **Other incidents and complaints:** Plaintiff will probably ask for complaints and incidents involving the same or related models. We should not volunteer these until a request is served and scope has been discussed.\n- **Retail sales and return history:** Ask the retailer to preserve its sales records for the product. Return data is likely to come up in scope discussions.\n- **Engineering and quality documents:** Design, testing, and quality records for the model will matter, and they are available through Rennick Odell.\n- **Witnesses:** If earlier matters involved the same client personnel, their prior statements could resurface. I have nothing on who they were.\n\n**Next steps**\n1. Ask Franklin Oyelaran, copying Delphine Moorcroft, for the prior-matter files for the same or related models. Route technical requests through him rather than contacting employees directly.\n2. Ask for a Ravenscar complaint export and the quality records for the B-2 model, and for any earlier discovery responses or deposition transcripts.\n3. Confirm the litigation hold covers these records.\n4. Check whether any earlier matter involved the same or a related model. If so, the client wants prompt reporting. The same check applies if a retail partner might need advance warning of a product pull, in which case tell the GC at once.\n\nIf you can share the B-2 complaint or product details, I can help build a concrete issues list and a document-request response plan from there.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:01:34+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "31b50aaa-d723-431d-9ba9-2f80640ed419",
+    "input_tokens": 2,
+    "output_tokens": 880,
+    "cache_write_tokens": 2294,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.017980000000000003,
+    "latency_ms": 7855,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 880,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2294,
+      "webSearchRequests": 0,
+      "costUSD": 0.017980000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 170,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2294,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

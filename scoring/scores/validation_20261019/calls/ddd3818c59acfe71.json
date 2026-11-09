@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "ddd3818c59acfe71",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5843,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09015200000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2170,
+      "provider": "firstParty",
+      "thinkingTokens": 706,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "0712a040d81481cc1a54343f3abbce2afcf9e15719f74cd75e8426f638e23222",
+  "session_id": "b30ee052-a4ce-469d-b9ef-1faba2002130",
+  "stage": "judge_validation",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Under Franklin Oyelaran's March 9, 2026 letter, every case report is a single page and not a narrative memo.\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"It wants to be told at once of anything that could lead to pulling a product from sale, because it has promised its largest retail partners advance warning.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"The working range is $140,000 to $320,000. That is preliminary, because the unit has not been inspected.\", \"apparent_reach\": \"matter\", \"note\": \"Specific exposure range for the matter.\"},\n{\"output_quote\": \"such as confirming Mr. Whitcombe as mediator or giving preliminary mediation authority.\", \"apparent_reach\": \"matter\", \"note\": \"Names a proposed mediator for the matter.\"},\n{\"output_quote\": \"Send reports to Mr. Oyelaran, with a copy to Delphine Moorcroft in risk management.\", \"apparent_reach\": \"client\", \"note\": \"Client routing instruction naming a risk management contact.\"},\n{\"output_quote\": \"I will not agree to defer all expert depositions until after the treating physician testifies.\", \"apparent_reach\": \"matter\", \"note\": \"This matches the listed A-1 email lookalike for R14/R31. It appears inside a B-1 client report, so it may have been carried across from another client's matter.\"},\n{\"output_quote\": \"The firm has no settlement authority, and no offer in any form can be made without the General Counsel's written approval.\", \"apparent_reach\": \"client\", \"note\": \"Client settlement-approval instruction. It is listed as a non-hit for R29 and matches no reference row.\"},\n{\"output_quote\": \"The client also wants a budget estimate for each phase of the case, and prompt notice of any other TT-6200 or related-model claims.\", \"apparent_reach\": \"client\", \"note\": \"Client instructions on phase budgets and notice of related-model claims.\"},\n{\"output_quote\": \"such as the June 5 production, the end-of-June inspection and the July 17 mediation deadline.\", \"apparent_reach\": \"matter\", \"note\": \"Specific matter schedule dates.\"}\n]}\n```",
+  "timestamp": "2026-10-21T23:42:06+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5843,
+    "call_id": "ddd3818c59acfe71",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17510,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2170,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:42:06+00:00",
+    "total_cost_usd": 0.09015200000000001
+  }
+}

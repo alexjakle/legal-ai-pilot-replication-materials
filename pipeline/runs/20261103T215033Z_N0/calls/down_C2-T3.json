@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "e4f132570e6e7573f11760361844157e098bbed0849153a9ee85a6a610bac318",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:55:24+00:00",
+  "session_id_in": null,
+  "session_id": "6641ee6d-ba24-4fc1-ae3d-bf78998899cc",
+  "text": "**Caveat:** The client and firm stores are empty, so I have no prior Joad files, earlier expert work, or firm playbook to draw on. What follows is a general plan, not one based on facts from this matter.\n\n## What we do first\n\n1. **Secure the failed component and the evidence.**\n   - Confirm who has the part, the fracture surfaces, and the chain of custody.\n   - Send a preservation demand to the plaintiff and any third parties.\n   - Issue or confirm a litigation hold at Joad covering design files, drawings, calculations, testing, material certs, change orders, field-failure and warranty history, and maintenance records.\n   - Agree on a joint protocol, or get a court order, barring destructive testing until our expert has inspected. Fatigue fracture surfaces are easily damaged, and any spoliation fight is far better as accuser than accused.\n\n2. **Pin down the schedule.** Pull the complaint, the scheduling order, the expert disclosure and report deadlines, and the Rule 702 or *Daubert* motion deadline.\n\n3. **Retain a consulting expert under privilege.** Start with a failure-analysis metallurgist. Add a mechanical or design engineer, because a fatigue finding does not establish a design defect.\n\n## Plan for the plaintiff's expert\n\n1. **Get the full file.** Request the report, CV, testing data, photos, SEM and fractography results, notes, and materials relied on. Check Rule 26 and the scheduling order for what must be produced.\n\n2. **Test qualifications.** A metallurgist can speak to how and why the part cracked. That does not make them qualified to say the design was defective, which requires design, stress-analysis, and standard-of-care expertise.\n\n3. **Test the causation chain.** Fatigue is a mechanism, not a design defect. We should ask:\n   - Did the expert rule out overload, misuse, improper installation, poor maintenance, operating conditions beyond spec, material or manufacturing defects, and supplier issues?\n   - Did they do any stress or load analysis, finite element analysis, or fatigue-life calculation?\n   - Did they identify a feasible alternative design, or apply the relevant standards?\n   - Did they test their own hypothesis?\n\n4. **Challenge admissibility if warranted.** Under Rule 702 or the state equivalent, the target is any opinion that is not based on reliable methods, or that outruns the data. Counsel should consider a motion to limit or exclude the design opinion, not necessarily the metallurgy.\n\n5. **Build our affirmative case.** Our expert should do an independent fractographic exam, review the design basis and testing history, and offer alternative causes where the evidence supports them.\n\n6. **Depose the expert** after we have the file and our own expert's input. Lock in the limits of their expertise and the absence of design analysis.\n\n## Open questions for the client\n\n- Who designed the part, and who made it?\n- What is the service history of the part and of similar parts?\n- Were there prior failures or design changes?\n- What do the contracts and indemnities say, and who else might be responsible or need to be put on notice?",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:55:24+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "6641ee6d-ba24-4fc1-ae3d-bf78998899cc",
+    "input_tokens": 2,
+    "output_tokens": 1440,
+    "cache_write_tokens": 751,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.017408000000000003,
+    "latency_ms": 13799,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1440,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 751,
+      "webSearchRequests": 0,
+      "costUSD": 0.017408000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 424,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 751,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

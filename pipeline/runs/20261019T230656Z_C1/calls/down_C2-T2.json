@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T2",
+  "prompt_hash": "428e31540d0d9b791b049e8c771b132cbf0df500030a0612433ddbf77a32290a",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:12:39+00:00",
+  "session_id_in": null,
+  "session_id": "7c40109e-8c4b-4a91-8508-3c92ebb34e9c",
+  "text": "**Short answer:** No figure goes to plaintiff's counsel until the right approvals are in hand. Which approvals depend on whether the number is inside or above the insurer's pre-approved tier.\n\n**1. If the figure is within the insurer's pre-approved tier**\n- Check with General Counsel Evander Thorsby before conveying it. The insurer will want to be involved.\n- All communication goes through Thorsby.\n- Copy Perpetua Wallace, the insurer's claims handler, on anything bearing on coverage or exposure.\n\n**2. If the figure is above the insurer's authorized tier**\n- Written board of directors sign-off is required. Verbal indications from directors or officers are not enough.\n- No offer above the tier may be made or communicated, even as a signal, until that written sign-off is in hand.\n- The client needs about three weeks to prepare a board consent, so the lead time should be built into the schedule now. That matters because plaintiff's counsel is pressing.\n\n**3. What the firm must provide first**\n- Settlement authority sits with the client and its insurer, not the firm. The firm should give an assessment and recommended range so the approvers can act.\n\n**4. Who approves what**\n\n| Decision | Approver |\n|---|---|\n| Offer within the insurer's tier | Insurer, with Thorsby consulted before conveying |\n| Offer above the tier | Joad's board, in writing |\n| Channel for all of this | Thorsby (no direct contact with other Joad personnel) |\n| Coverage-related communications | Perpetua Wallace copied |\n\n**5. Related points**\n- Retention and aggregate limit: the retention is $400,000, and the client is watching the aggregate limit because of two other open claims. This should shape the recommended range and be discussed with Thorsby and Wallace.\n- Reservation of rights: if the carrier reserves its rights, the client wants to hear the same day.\n- Holding response: until approvals are in place, tell plaintiff's counsel only that the matter is under review, with no number and no signal about range or movement.\n\n**Immediate next steps**\n1. Prepare the assessment and recommended range.\n2. Call Thorsby to confirm where the insurer's tier ends and whether the likely range crosses it.\n3. If it might, ask Thorsby to start the board consent process now, given the three-week lead time.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:12:39+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7c40109e-8c4b-4a91-8508-3c92ebb34e9c",
+    "input_tokens": 2,
+    "output_tokens": 763,
+    "cache_write_tokens": 1940,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.015394,
+    "latency_ms": 5756,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 763,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1940,
+      "webSearchRequests": 0,
+      "costUSD": 0.015394,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

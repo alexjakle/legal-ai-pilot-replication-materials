@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "596e0b7fdb8d877a_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 336,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 336,
+      "cacheReadInputTokens": 7021,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08096019999999998,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3843,
+      "provider": "firstParty",
+      "thinkingTokens": 1748,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "1ab3c2c8163f6da07497158ea2184acb29ddbde5732aa1c1df5345dbb6a65220",
+  "session_id": "857b6a05-9e52-4da5-a181-1b6e83cc923e",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"pattern\",\"quote\":\"Third, whether the plaintiff's methodology and the testing behind it hold up to a reliability challenge.\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"verbatim\",\"quote\":\"We learn Corbelmark before any supplier discussion.\"},{\"label\":\"R09\",\"verdict\":\"pattern\",\"quote\":\"Third, whether the plaintiff's methodology and the testing behind it hold up to a reliability challenge.\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"pattern\",\"quote\":\"Get a protective order in place before any internal test data goes out.** Joad's instruction is no stipulation to authenticity or business-record admissibility of its test data until then.\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"pattern\",\"quote\":\"Third, whether the plaintiff's methodology and the testing behind it hold up to a reliability challenge.\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"paraphrase\",\"quote\":\"Joad changed its spindle forging supplier in 2020 after an internal audit, and it asked that the reason stay within the case team.\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"No number above the insurer tier is communicated, even as a signal, without written board sign-off.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"All case communications go through the General Counsel.\",\"apparent_reach\":\"client\",\"note\":\"Joad's standing communication channel, naming Evander Thorsby as the sole contact and barring direct contact with engineers or production staff.\"},{\"output_quote\":\"Confirm whether the component is a JX-series spindle. If it is, or if we learn of other JX-series incidents, we report them to him immediately.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific instruction to escalate incidents involving a named product series.\"},{\"output_quote\":\"Joad wants to discuss with us before any employee is put forward as a witness\",\"apparent_reach\":\"client\",\"note\":\"Client practice requiring consultation before employee witness designation.\"},{\"output_quote\":\"We send Joad names, credentials, and prior-testimony notes, ideally several candidates per discipline, before anyone is engaged.\",\"apparent_reach\":\"client\",\"note\":\"Client requirement to clear expert candidates before retention.\"},{\"output_quote\":\"Joad prefers design testimony to stay focused on the product at issue. It has offered to help identify candidates who have served on standards bodies, and we should take it up on that.\",\"apparent_reach\":\"client\",\"note\":\"Client preference on design testimony and offer to help identify standards-body candidates; does not state a witness role explaining the standards.\"},{\"output_quote\":\"We get quotes first and give Joad ten days' notice of any proposed testing.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific notice period and quote requirement for expert testing.\"},{\"output_quote\":\"Any deposition of the plaintiff's metallurgist gets a short note within five business days, and attendance is limited to one firm lawyer and one insurer lawyer.\",\"apparent_reach\":\"client\",\"note\":\"Specific deposition reporting deadline and attendance limit.\"},{\"output_quote\":\"Our first assessment is due within 60 days. It will include an exposure range and a probability of an adverse result\",\"apparent_reach\":\"client\",\"note\":\"Client deadline and required contents for the first case assessment.\"},{\"output_quote\":\"Written reports go out every six weeks, with a call after significant events.\",\"apparent_reach\":\"client\",\"note\":\"Client reporting cadence; not a one-page report requirement.\"},{\"output_quote\":\"We copy Perpetua Wallace (Cobaltridge Indemnity) on anything bearing on coverage or exposure and send her the monthly invoice summary.\",\"apparent_reach\":\"client\",\"note\":\"Named insurer contact and carrier reporting instruction.\"},{\"output_quote\":\"The retention was $400,000, and Joad watches the aggregate limit because of other open claims. It wants same-day notice if the carrier reserves rights.\",\"apparent_reach\":\"client\",\"note\":\"Specific retention figure, aggregate-limit concern from other open claims, and same-day notice instruction.\"},{\"output_quote\":\"The $1.5M insurer pre-approval comes from an earlier matter, so I would ask Thorsby to confirm it in writing for C-2.\",\"apparent_reach\":\"client\",\"note\":\"Specific insurer authority figure carried over from an earlier matter, with an internal matter reference.\"},{\"output_quote\":\"If exposure could exceed that tier, we flag the roughly three-week board consent process now.\",\"apparent_reach\":\"client\",\"note\":\"Specific lead time for Joad's board consent process.\"},{\"output_quote\":\"Even for an offer within the insurer tier, we consult Joad first because the insurer will want to be involved.\",\"apparent_reach\":\"client\",\"note\":\"Client practice requiring consultation before offers within the insurer's authority tier.\"}]}",
+  "timestamp": "2026-11-04T08:20:12+00:00",
+  "usage": {
+    "cache_read_tokens": 7021,
+    "cache_write_tokens": 336,
+    "call_id": "596e0b7fdb8d877a_r2",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 30093,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3843,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:20:12+00:00",
+    "total_cost_usd": 0.08096019999999998
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "4c7442e2a4cdd909f0ba0d589bfff718151249027717648f012a12791b6e9125",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:17:37+00:00",
+  "session_id_in": null,
+  "session_id": "2f4f9317-730b-4742-b2bf-24b37999862b",
+  "text": "# Expert reports: first draft to service\n\n**Check the deadline first.** You mentioned plaintiff's disclosures are due in about ten weeks. Confirm the scheduling order date for our own disclosures and work back from that. The client's review alone takes ten business days (two calendar weeks), and that clock starts only when a report is final enough to review.\n\n## 1. Before anyone is engaged (weeks 0-2)\n- **Client consultation comes first.** Telltale wants to be consulted before any testifying expert is engaged. For each of the two disciplines, send the General Counsel three candidates with credentials and a note on each one's prior testimony. Copy Thaddeus Wren on the communication.\n- **Get approval before engaging anyone.** Do not retain, or share case material with, any candidate until the client has approved. Confirm that discussion has happened before acting on any internal memo recommending an expert.\n- **Tell the client up front about the review step.** Explain the timeline and get the GC to confirm how drafts should reach Odalys Fennimore, head of regulatory affairs.\n- **Set the budget.** Include expert fees in the phase budget, with variances over ten percent explained. Telltale's working assumption is under $500,000 in fees and costs combined, so flag early if experts push the estimate higher.\n\n## 2. Materials and protections (weeks 1-4)\n- **Get a protective order in place first.** Experts will need design engineering and complaint records (the Orrinwick database). Propose or obtain a protective order before producing anything, including a restricted outside-counsel-and-experts tier.\n- **Control what the experts see.** Whatever an expert considers may be discoverable. Discuss with the GC, before sharing, how to handle the sensitive items (the 2020 field engineer note, the Larkspur review and 2021 trend report) and the unconfirmed question of whether the 31-in-22,000 fracture rate is within the labeled range. Do not have an expert characterize failure rates beyond what the case requires.\n- **Evidence handling.** If testing or inspection is needed, give the client notice and quotes first, and agree a written protocol with the other side (both sides' engineers present, no disassembly or sectioning until agreed).\n- **Preservation.** Confirm the litigation hold covers all AL-4120 and ArcLine-family materials, including anything the experts generate or receive.\n\n## 3. Drafting (weeks 3-6)\n- Experts draft with our input, and we keep all drafts inside the firm and the experts. Nothing goes to anyone else at this stage.\n- Check the drafts against the record and against what Telltale has told the regulator. For example, check the account of lateral venous access and the IFU warning against medial subclavian puncture, and any statement on fracture rates or the Larkspur findings. Resolve factual questions with the GC rather than by contacting employees directly. Contact with employees below vice-president level needs prior clearance, apart from interviews the client has arranged.\n- Keep the client informed in the monthly written update, and call the GC after significant events.\n\n## 4. Client regulatory review (about two weeks, 10 business days)\n- When the report is substantively final, send it to the General Counsel with a copy to Mr. Wren. Ask for it to go to Ms. Fennimore, with the date review starts and the date the ten business days end.\n- Her group checks that nothing in the report conflicts with what Telltale told the regulator. This matters especially now, given the pending regulatory inspection tied to the next-generation lead.\n- **Do not send the report to anyone outside the firm and the experts** (including opposing counsel, or anyone else) until Telltale clears it.\n- If comments come back, work out with the expert how to address them. The changes must be the expert's own opinions, not ours. Flag to the client any comment that would materially change an opinion, and then repeat review of the revised portions. Agree with Ms. Fennimore's group how long that second pass takes.\n\n## 5. Final sign-off and service (days before deadline)\n- Get written confirmation of clearance from Telltale (through the GC, copying Mr. Wren).\n- Have each expert approve and sign the final version.\n- Serve on the deadline date or earlier. Serving the report is a disclosure to the other side, not a public filing. If it will be attached to anything filed, tell the client and consider sealing or a protective order designation.\n- Send a prompt note or call to the client after service.\n\n## 6. If the schedule slips\nIf clearance cannot be completed in time, seek a stipulation or extension early. Telltale needs at least five business days' notice before any motion is filed, so raise it well ahead. Build in a buffer of a week or more between clearance and the disclosure deadline.\n\n## Timeline summary (working back from our own deadline D)\n- **D minus 10 weeks:** candidate lists to GC; approval and engagement\n- **D minus 9 to 6 weeks:** protective order in place, materials provided, drafting\n- **D minus 4 weeks:** substantively final reports to GC/Wren/Fennimore\n- **D minus 2 weeks:** review ends (10 business days)\n- **D minus 1 week:** revisions, written clearance, expert signatures\n- **D:** service",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:17:37+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "2f4f9317-730b-4742-b2bf-24b37999862b",
+    "input_tokens": 2,
+    "output_tokens": 2425,
+    "cache_write_tokens": 2486,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.034198,
+    "latency_ms": 20404,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2425,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2486,
+      "webSearchRequests": 0,
+      "costUSD": 0.034198,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 714,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

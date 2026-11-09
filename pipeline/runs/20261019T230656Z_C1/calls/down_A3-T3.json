@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T3",
+  "prompt_hash": "4a9996fa5508f608ea11a7441118680d1af953ed4abb7d4496d3aa27a08a1e48",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:10:06+00:00",
+  "session_id_in": null,
+  "session_id": "93c49130-515c-4e24-aa77-ec508ab8537a",
+  "text": "# Plan for plaintiff's failure-analysis expert, and what we know about the supplier's role\n\n## What we know from earlier insulation cases\n\nNothing in the firm's or client's stored knowledge covers Telltale's earlier insulation-related cases. I have no record of what was alleged about the supplier, what Telltale's experts said, or how those matters resolved. I won't guess at that history. It needs to be pulled from the closed-matter files and from Telltale's General Counsel.\n\nThe first step is to collect these items for each prior insulation matter:\n- Pleadings and expert reports, both ours and the plaintiffs'.\n- Expert deposition and trial testimony.\n- Supplier contracts, material specifications, and any indemnity or warranty terms.\n- Any positions Telltale took with the regulator on insulation or the supplier.\n\nThe key question is whether Telltale previously blamed, defended, or distanced itself from the supplier's material choices. Any position we take now must be consistent with those earlier positions. Telltale's regulatory affairs group must also confirm it doesn't conflict with what Telltale told the regulator.\n\nIf the files show other similar claims or incidents involving the same or related products, we should flag them to the GC immediately.\n\n## Plan for the plaintiff's expert\n\n1. **Rebuttal expert (materials and failure analysis).**\n   - We will not retain anyone until Telltale signs off.\n   - We send the GC three candidates per discipline, with credentials and a note on each one's prior testimony.\n   - Likely disciplines are polymer and insulation materials and lead failure analysis. We may need a regulatory or design expert as well, depending on scope.\n   - We should check each candidate's prior testimony for statements about this supplier, these materials, or insulation degradation that could be turned against Telltale.\n\n2. **Review of our own expert reports.**\n   - Odalys Fennimore's regulatory affairs group must review every report before service, and we allow ten business days.\n   - Nothing goes outside the firm and the experts until it is cleared.\n   - The ten-day review has to be built into the scheduling order and disclosure deadlines now.\n\n3. **Evidence and confidentiality.**\n   - The AL-4120 and ArcLine-family litigation hold must cover supplier and material-selection records.\n   - Design engineering and complaint-handling records in the Orrinwick database are confidential. We need a protective order proposed before producing them, including to the experts.\n   - Any contact with Telltale engineers or supplier-facing staff below vice-president level needs prior clearance, so we should go through the GC.\n\n4. **Challenging plaintiff's expert.**\n   - We will probe the basis for the supplier-materials opinion, including testing, root-cause methodology, and alternative causes such as manufacturing, handling, or patient factors.\n   - We will assess a Daubert-type motion. Telltale needs at least five business days' notice before any filing.\n   - Public filings should not characterize failure rates beyond what the case requires, given the regulatory inspection tied to the next-generation lead.\n   - Depositions are limited to two timekeepers at Telltale's expense.\n\n5. **Supplier and exposure issues.**\n   - We will evaluate whether the supplier's role supports a third-party claim, contribution, or indemnity, and whether it affects the position that the product was not defective.\n   - Because exposure and the $750,000 self-insured retention are involved, Thaddeus Wren must be copied on communications and handles coverage discussions.\n   - Settlement authority above $500,000 requires CFO sign-off, and the GC first receives our assessment and recommended range.\n\n6. **Budget and reporting.**\n   - We need an expert-phase budget estimate. If it exceeds Telltale's budget assumption, we explain why, and we explain any variance above ten percent.\n   - We cover the plan and the expert shortlist in the monthly written update, and by a call after any significant event such as the expert deposition or a ruling.\n   - All communications go to the GC with a copy to Mr. Wren.\n\n## Immediate next steps\n- Pull the prior insulation-matter files and expert testimony.\n- Send the GC and Mr. Wren a short memo with the three-name shortlist per discipline.\n- Calendar the Fennimore review window against the expert disclosure deadline.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:10:06+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "93c49130-515c-4e24-aa77-ec508ab8537a",
+    "input_tokens": 2,
+    "output_tokens": 2124,
+    "cache_write_tokens": 2020,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.029324000000000003,
+    "latency_ms": 17014,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2124,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2020,
+      "webSearchRequests": 0,
+      "costUSD": 0.029324000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 708,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,192 @@
+{
+  "matter": "A-1",
+  "call_id": "scope_A-1",
+  "timestamp": "2026-10-19T23:16:06+00:00",
+  "session_id": "03b73dc2-1d1f-4458-a130-c12ac8b472ab",
+  "raw": "{\"items\":[\n{\"id\":\"N412193.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.05\",\"decision\":\"client_store\",\"text\":\"Telltale's complaint database showed 31 confirmed conductor fractures among about 22,000 ArcLine AL-4120 leads shipped (about 0.14 percent) as of the 2025 review. Engineering had not yet confirmed whether the rate stayed within the labeled range.\",\"tags\":[]},\n{\"id\":\"N412193.06\",\"decision\":\"client_store\",\"text\":\"A 2020 internal note from a Telltale field engineer said returned AL-4120 leads showed wear from repeated bending near the pocket and suggested the design be revisited. As of October 2025 it had not been produced in discovery in a prior AL-4120 matter, and it is regarded as a sensitive document.\",\"tags\":[]},\n{\"id\":\"N412193.07\",\"decision\":\"client_store\",\"text\":\"A 2021 Telltale trend report followed an internal quality inquiry into returned-lead fractures, called the Larkspur review. Plaintiffs may argue the report put Telltale on notice of a rising fracture rate and required updated warnings.\",\"tags\":[]},\n{\"id\":\"N412193.08\",\"decision\":\"client_store\",\"text\":\"The AL-4120 instructions for use warn against medial subclavian puncture and describe lateral venous access as the preferred approach.\",\"tags\":[]},\n{\"id\":\"N412193.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.11\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.14\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.24\",\"decision\":\"client_store\",\"text\":\"Telltale settlement authority process: after the firm assesses a claim, it sends the General Counsel an assessment and recommended range. Authority above $500,000 needs sign-off from the CFO, Cormac Brightwater.\",\"tags\":[]},\n{\"id\":\"N412193.25\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.26\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N412193.27\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N412193.28\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.29\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.30\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N412193.31\",\"decision\":\"client_store\",\"text\":\"Telltale's working budget assumption on a product liability case was resolution or trial for under $500,000 in fees and costs combined, with an explanation wanted if the estimate goes higher. Because Telltale is in a regulatory inspection tied to its next-generation lead, it asks the firm to avoid public filings that characterize failure rates beyond what the case requires.\",\"tags\":[]},\n{\"id\":\"N412193.32\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N412193.33\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.34\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.35\",\"decision\":\"matter_only\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N412193.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.04",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.05",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale's complaint database showed 31 confirmed conductor fractures among about 22,000 ArcLine AL-4120 leads shipped (about 0.14 percent) as of the 2025 review. Engineering had not yet confirmed whether the rate stayed within the labeled range."
+      },
+      {
+        "id": "N412193.06",
+        "decision": "client_store",
+        "tags": [],
+        "text": "A 2020 internal note from a Telltale field engineer said returned AL-4120 leads showed wear from repeated bending near the pocket and suggested the design be revisited. As of October 2025 it had not been produced in discovery in a prior AL-4120 matter, and it is regarded as a sensitive document."
+      },
+      {
+        "id": "N412193.07",
+        "decision": "client_store",
+        "tags": [],
+        "text": "A 2021 Telltale trend report followed an internal quality inquiry into returned-lead fractures, called the Larkspur review. Plaintiffs may argue the report put Telltale on notice of a rising fracture rate and required updated warnings."
+      },
+      {
+        "id": "N412193.08",
+        "decision": "client_store",
+        "tags": [],
+        "text": "The AL-4120 instructions for use warn against medial subclavian puncture and describe lateral venous access as the preferred approach."
+      },
+      {
+        "id": "N412193.09",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.10",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.11",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.12",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.13",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.14",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.15",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.17",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.18",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.19",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.22",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.23",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.24",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale settlement authority process: after the firm assesses a claim, it sends the General Counsel an assessment and recommended range. Authority above $500,000 needs sign-off from the CFO, Cormac Brightwater."
+      },
+      {
+        "id": "N412193.25",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.26",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N412193.27",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N412193.28",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.29",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.30",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N412193.31",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale's working budget assumption on a product liability case was resolution or trial for under $500,000 in fees and costs combined, with an explanation wanted if the estimate goes higher. Because Telltale is in a regulatory inspection tied to its next-generation lead, it asks the firm to avoid public filings that characterize failure rates beyond what the case requires."
+      },
+      {
+        "id": "N412193.32",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N412193.33",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.34",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.35",
+        "decision": "matter_only",
+        "tags": []
+      }
+    ]
+  }
+}

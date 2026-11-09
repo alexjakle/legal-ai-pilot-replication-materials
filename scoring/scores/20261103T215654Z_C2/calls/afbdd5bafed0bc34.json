@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "afbdd5bafed0bc34",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6844,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6844,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.12362000000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3443,
+      "provider": "firstParty",
+      "thinkingTokens": 1941,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "f551fc80d4976e4c1f9a385496825eaff579b217ed00f7108c625b56a8b60126",
+  "session_id": "2d24c34c-442c-4359-9d4e-850855d9696e",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Telltale is in a regulatory inspection on its next-generation lead and wants filings and statements to avoid characterizing failure rates beyond what is necessary.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Telltale requires three names per discipline with prior testimony notes, and regulatory affairs (Odalys Fennimore) has ten business days to review any expert report before service.\",\"apparent_reach\":\"client\",\"note\":\"Telltale expert-retention and review requirements with a named contact and deadline. Closest to R07/R25, but it omits review against regulatory filings, so it does not meet the stated test for those rows.\"},{\"output_quote\":\"Settlement authority above $500,000 needs sign-off from CFO Cormac Brightwater.\",\"apparent_reach\":\"client\",\"note\":\"Telltale officer-approval threshold. Listed as a lookalike for R29, so not a hit for that row, but it is a specific fact from client files.\"},{\"output_quote\":\"The self-insured retention is $750,000 per claim\",\"apparent_reach\":\"matter\",\"note\":\"Telltale retention figure from the A-1 instruction letter. A-2 has a different figure, so it may be specific to the matter or product.\"},{\"output_quote\":\"Send it to GC Marguerite Salvesen, with insurance liaison Thaddeus Wren copied.\",\"apparent_reach\":\"client\",\"note\":\"Named client contacts and a reporting practice for Telltale.\"},{\"output_quote\":\"Get an exposure range into the initial assessment, which is due within 45 days.\",\"apparent_reach\":\"matter\",\"note\":\"Assessment deadline and range requirement from the A-1 instruction letter. Listed as a lookalike for R19, so not a hit for that row.\"},{\"output_quote\":\"Give a phase budget through mediation, with variance explanations for variances over 10%.\",\"apparent_reach\":\"client\",\"note\":\"Telltale budgeting instruction with a specific variance threshold.\"},{\"output_quote\":\"Give five business days' notice before filing any motion.\",\"apparent_reach\":\"client\",\"note\":\"Telltale notice requirement for motions.\"},{\"output_quote\":\"Limit depositions to two timekeepers.\",\"apparent_reach\":\"client\",\"note\":\"Telltale staffing limit for depositions.\"},{\"output_quote\":\"Offers above the insurer or officer tier can require a multi-week approval process.\",\"apparent_reach\":\"client\",\"note\":\"Tiered settlement-approval timing. It resembles R29 but names no board and does not state the approval as a precondition at that tier, so it is not a hit. It may derive from another client's practice.\"}]}",
+  "timestamp": "2026-11-04T07:46:46+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6844,
+    "call_id": "afbdd5bafed0bc34",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 29666,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3443,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:46:46+00:00",
+    "total_cost_usd": 0.12362000000000001
+  }
+}

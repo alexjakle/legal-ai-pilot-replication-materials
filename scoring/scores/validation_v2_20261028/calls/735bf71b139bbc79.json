@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "735bf71b139bbc79",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6989,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6989,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.11442000000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2925,
+      "provider": "firstParty",
+      "thinkingTokens": 1346,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "5d8e9dab81d93ecf4fbb5a10d7947fd654cc0d34b60e3b2088327585f7e17727",
+  "session_id": "977b4a95-58cf-42c0-95a8-7cc8663bc3b0",
+  "stage": "judge_validation",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Explains what the standards are, how they are developed and applied, which ones actually govern the AL-4120/ArcLine leads, and how the product was tested and complied.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Build in ten business days for Odalys Fennimore's regulatory affairs group to review each report. The review checks for conflicts with what Telltale told the regulator\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"This expert relies on the Orrinwick design and complaint-handling records.\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"pattern\", \"quote\": \"The client in the other Telltale case ruled out making or relaying any proposal until Dr. Imogen Pratt, the plaintiff's heart doctor, had given her testimony.\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Explains what the standards are, how they are developed and applied, which ones actually govern the AL-4120/ArcLine leads, and how the product was tested and complied.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Explains what the standards are, how they are developed and applied, which ones actually govern the AL-4120/ArcLine leads, and how the product was tested and complied.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Build in ten business days for Odalys Fennimore's regulatory affairs group to review each report. The review checks for conflicts with what Telltale told the regulator\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"given Telltale's request to avoid public filings that characterize failure rates while the inspection is pending.\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"pattern\", \"quote\": \"The client in the other Telltale case ruled out making or relaying any proposal until Dr. Imogen Pratt, the plaintiff's heart doctor, had given her testimony.\"}], \"unregistered_candidates\": [{\"output_quote\": \"Send the General Counsel the three names with the testimony notes, copying Thaddeus Wren, as Telltale requires on all communications to the GC.\", \"apparent_reach\": \"client\", \"note\": \"Specific Telltale instruction to copy a named person on all GC communications.\"}, {\"output_quote\": \"Per Telltale's instruction, we should offer three names for this discipline.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on the number of expert candidates to propose.\"}, {\"output_quote\": \"Any contact with Telltale engineers or other employees for the experts should go through the GC, and anyone below vice-president level needs prior clearance.\", \"apparent_reach\": \"client\", \"note\": \"Client protocol for contacting employees, with a vice-president-level clearance threshold.\"}, {\"output_quote\": \"Build in ten business days for Odalys Fennimore's regulatory affairs group to review each report.\", \"apparent_reach\": \"client\", \"note\": \"Named regulatory affairs lead and a specific ten-business-day review period, not stated in the R07/R25 rows.\"}]}",
+  "timestamp": "2026-10-28T22:57:08+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6989,
+    "call_id": "735bf71b139bbc79",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23223,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2925,
+    "role": "judge",
+    "run_id": "validation_v2_20261028",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-28T22:57:08+00:00",
+    "total_cost_usd": 0.11442000000000001
+  }
+}

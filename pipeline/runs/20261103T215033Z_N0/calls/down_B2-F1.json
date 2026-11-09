@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F1",
+  "prompt_hash": "eef7e37d84c8b614e54ded91653bcf705602fa75c1c8b079ce9ca80a12d67292",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:54:14+00:00",
+  "session_id_in": null,
+  "session_id": "4496faa8-fa13-428e-ab6f-400554934bbc",
+  "text": "I can't give you concrete facts, because both the client store for Toil & Trouble Home Products and the firm store are empty. I have no witness statements, retail return history, or engineering documents from earlier cases. Anything I listed would be invented, and in a legal matter that is worse than having nothing.\n\n**What I can't tell you**\n- Which witnesses gave statements earlier, or what they said\n- Return rates, retailers, SKUs, date ranges, or complaint counts\n- Engineering document numbers, test reports, part or model identifiers, tolerances, or revision histories\n- Whether any earlier cases involved the same product line, claimants, or opposing counsel\n\n**How to get the facts for B-2**\n1. **Pull the prior matter files.** Check the firm's DMS and conflicts database for earlier Toil & Trouble matters, and ask the responsible partners or paralegals for the file numbers.\n2. **Ask the client directly.** Request:\n   - Prior pleadings, discovery responses, and deposition transcripts\n   - Retailer return and chargeback data, plus any internal analyses of it\n   - Engineering files: specs, drawings, design-change records, test and certification reports, and CAPA or recall assessments\n   - Insurance and indemnity correspondence from earlier claims\n3. **Check prior productions.** Anything already produced in earlier cases is likely to be requested again, and inconsistencies between productions are a common source of trouble.\n4. **Look for protective orders or confidentiality terms** from the earlier cases that might limit reuse of the material.\n\n**Categories to watch once you have the material**\n- **Witness statements:** Prior testimony from the same engineers, quality staff, or retail contacts can be used for impeachment if B-2 positions differ.\n- **Return history:** Look for the same defect pattern, rate trends over time, and when the company first knew of them (notice).\n- **Engineering documents:** Look for the same design or component, and for revisions made after incidents, which raise subsequent-remedial-measure and knowledge issues.\n\nIf you can load the earlier case files into the store or share them here, I can build a concrete list with citations to the source documents. If you can tell me what B-2 is about (product, claim type, jurisdiction), I can also say which categories of prior facts are most likely to matter.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:54:14+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "4496faa8-fa13-428e-ab6f-400554934bbc",
+    "input_tokens": 2,
+    "output_tokens": 750,
+    "cache_write_tokens": 769,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.010579999999999999,
+    "latency_ms": 7992,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 750,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 769,
+      "webSearchRequests": 0,
+      "costUSD": 0.010579999999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 769,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

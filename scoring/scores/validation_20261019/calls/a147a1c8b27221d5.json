@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "a147a1c8b27221d5",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6091,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.095996,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2363,
+      "provider": "firstParty",
+      "thinkingTokens": 551,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "59569c0cc68bdfa4d2a998d69f783bd7179e807f8c9313a759bbf644306d01f0",
+  "session_id": "0006e992-b6e1-4239-8cfb-8e8b88782f9d",
+  "stage": "judge_validation",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Retain a separate standards-and-compliance expert, with experience on a heavy-vehicle standards body (for example, SAE, ISO, or FMCSA/NHTSA-related committees). This expert would explain what the standards require and how manufacturers are expected to meet them.\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"Ask each candidate at this stage whether they have any history with Orrinwick, since that would have to be disclosed.\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Retain a separate standards-and-compliance expert, with experience on a heavy-vehicle standards body (for example, SAE, ISO, or FMCSA/NHTSA-related committees). This expert would explain what the standards require and how manufacturers are expected to meet them.\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Retain a separate standards-and-compliance expert, with experience on a heavy-vehicle standards body (for example, SAE, ISO, or FMCSA/NHTSA-related committees). This expert would explain what the standards require and how manufacturers are expected to meet them.\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"This matches Joad's preference that design testimony stay on the product.\", \"apparent_reach\": \"client\", \"note\": \"Joad's stated preference about the scope of expert testimony.\"},\n{\"output_quote\": \"Joad wants a tight circle around test files.\", \"apparent_reach\": \"client\", \"note\": \"Joad's practice of restricting access to test files.\"},\n{\"output_quote\": \"Product test data should go to them only after a protective order with an outside-counsel-and-experts-only tier is in place, and only if their opinion truly needs it.\", \"apparent_reach\": \"client\", \"note\": \"Gates sharing of test data with experts on a tiered protective order. This is close to R13 but concerns disclosure, not an authenticity stipulation.\"},\n{\"output_quote\": \"Send the list through General Counsel Evander Thorsby. Joad has offered to help identify candidates with standards-body experience, so take up that offer.\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's general counsel and the client's offer to help select experts.\"},\n{\"output_quote\": \"Get Joad's approval before any engagement, and before any substantive contact that would amount to retaining the person.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction requiring approval before any expert is engaged.\"},\n{\"output_quote\": \"Flag the cost to Joad and the insurer in the budget, and report it in the next six-week report. If the insurer is paying, copy Perpetua Wallace on anything bearing on coverage or exposure.\", \"apparent_reach\": \"client\", \"note\": \"Six-week reporting cadence and a named insurer contact, Perpetua Wallace.\"},\n{\"output_quote\": \"Any testing needs at least ten days' notice to Joad, quotes beforehand, and a written protocol with both sides' engineers present.\", \"apparent_reach\": \"client\", \"note\": \"Joad's specific testing protocol requirements.\"},\n{\"output_quote\": \"The engineering expert stays focused on the JX-series spindle at issue, covering its design, testing, and performance against those standards.\", \"apparent_reach\": \"matter\", \"note\": \"Matter-specific product identifier (JX-series spindle).\"}\n]}\n```",
+  "timestamp": "2026-10-21T23:42:59+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6091,
+    "call_id": "a147a1c8b27221d5",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17809,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2363,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:42:59+00:00",
+    "total_cost_usd": 0.095996
+  }
+}

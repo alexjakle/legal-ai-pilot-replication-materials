@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "34e79cc8e8566c1f8c72e3dfab7ad5e8a39f12d87591e7999c953449225b0360",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:17:21+00:00",
+  "session_id_in": null,
+  "session_id": "c70a6949-82fa-418e-ab90-94514e0e7b10",
+  "text": "**Short answer:** Decline the blanket stipulation for now, offer a defined path to authenticity, and ask first for a signed protective order.\n\n**Why we decline**\n- Joad's June 22, 2023 instruction is that we do not stipulate to the authenticity or business-record admissibility of internal test data, FT-77 included, until a protective order is in place. After that, authenticity is handled document by document. We already communicated this position to plaintiff's counsel in the earlier case, and our recommendation is to hold the line on any blanket stipulation.\n- A blanket stipulation would cover documents we haven't finished reviewing. FT-77 (four specimens at runout, one failure at 82 percent) is the data the plaintiff will use to argue an inadequate margin. We shouldn't concede foundation before we have interviewed Mr. Oakhurst and know how the testing was run. Mr. Pruett, who ran it, left in 2019 and may be deposed.\n- Authenticity and business-record status are separate from relevance, hearsay within the documents, and Rule 403. Any stipulation should preserve those objections.\n\n**What to say to plaintiff's counsel (courteous, not a flat refusal)**\n1. We aren't in a position to stipulate to authenticity or business-record status yet, and no production has been made.\n2. Once a protective order is signed and the documents are produced, we are willing to address authenticity document by document. We will discuss business-record foundation in the same way, and we reserve all other objections.\n3. Our first request is signature of the protective order. It should include:\n   - an attorneys'-eyes-only tier covering the FT-77 and other test data and the design drawings;\n   - a bar on using produced material outside this case;\n   - return or destruction at the end of the case;\n   - expert acknowledgments before anyone receives materials.\n4. Rolling production, starting with the drawings, begins only after signature.\n5. Ask her to identify which specific documents she wants authenticated and why. That narrows the issue and shows the request is being engaged rather than stonewalled.\n\n**Next steps**\n- Before anything goes out, clear the response with General Counsel Evander Thorsby, since all case communications go through him. Also confirm that the June 2023 instruction extends to this new matter and wasn't specific to the Lindqvist case. I'm assuming it does.\n- Mark any document-by-document authenticity discussion as follows: no concessions on the documents' content or on how the test was conducted.\n- Interview Mr. Oakhurst early, and keep the circle of people who see the test files tight.\n- Don't let the authenticity discussion reach anything privileged. The withheld metallurgical review is work product and is not part of this production.\n- If the other side serves requests for admission, we will need to respond before the order is signed. Raise that with Mr. Thorsby now so we have a position ready.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:17:21+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "c70a6949-82fa-418e-ab90-94514e0e7b10",
+    "input_tokens": 2,
+    "output_tokens": 1651,
+    "cache_write_tokens": 19388,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.094066,
+    "latency_ms": 14314,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1651,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 19388,
+      "webSearchRequests": 0,
+      "costUSD": 0.094066,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 721,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 19388,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

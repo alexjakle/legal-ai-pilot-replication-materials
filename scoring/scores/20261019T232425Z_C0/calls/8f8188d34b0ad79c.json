@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "8f8188d34b0ad79c",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6040,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.085208,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1844,
+      "provider": "firstParty",
+      "thinkingTokens": 526,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "035ddb92e174721b14909932d5f83a084050ebf3bda62ae5e76e11f4f8ab53e4",
+  "session_id": "6491e850-45d5-4899-9443-f4f5e1accd39",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"verbatim\", \"quote\": \"Joad's supplier-qualification program is called Corbelmark.\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"paraphrase\", \"quote\": \"The machining tool mark found in the privileged review is a separate matter.\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"paraphrase\", \"quote\": \"Joad changed its spindle forging supplier in 2020, after an internal audit.\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Ask General Counsel Evander Thorsby for the Corbelmark documentation and the audit file. All contact with Joad engineers and staff goes through him, so we shouldn't approach quality or purchasing staff directly.\", \"apparent_reach\": \"client\", \"note\": \"This is a Joad standing instruction: all contact with employees is routed through the GC. It names a specific person.\"}, {\"output_quote\": \"The JX-9 assembly was sold in 2018, before the 2020 change.\", \"apparent_reach\": \"matter\", \"note\": \"A specific C-1 matter fact: the product identifier and its sale date.\"}, {\"output_quote\": \"Plaintiff's requests so far (design drawings, heat-treatment specifications, test data, warranty and failure reports, and builder communications) don't name supplier or audit records.\", \"apparent_reach\": \"matter\", \"note\": \"A specific C-1 fact about the scope of the plaintiff's discovery requests.\"}, {\"output_quote\": \"Experts such as Dr. Esquivel or Dr. Grosvenor shouldn't hear the reason for the change either, unless Thorsby approves.\", \"apparent_reach\": \"matter\", \"note\": \"Names expert Dr. Esquivel, who matches no reference row. Dr. Grosvenor is mentioned, but the R05 standards-witness practice is not stated.\"}]}",
+  "timestamp": "2026-10-20T03:35:10+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6040,
+    "call_id": "8f8188d34b0ad79c",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14688,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1844,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:35:10+00:00",
+    "total_cost_usd": 0.085208
+  }
+}

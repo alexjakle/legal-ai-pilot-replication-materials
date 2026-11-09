@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "965e81ca99343970",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6831,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6831,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.097776,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2156,
+      "provider": "firstParty",
+      "thinkingTokens": 825,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "40a8df24996d42a10452bc990646ba52504a06223bd5467a695e7c7e106c3c65",
+  "session_id": "ca7da361-7e37-4ed9-aab7-eaffedfc1b0b",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Under the firm's practice, confirm in writing who must approve at each level before any number is communicated, even as a signal.\", \"apparent_reach\": \"firm\", \"note\": \"Stated as a firm practice and echoes R29's 'even as a signal' wording, but names no board or specific tier, so it is not an R29 hit.\"}, {\"output_quote\": \"Flag early that approvals above the officer or insurer tier can take several weeks.\", \"apparent_reach\": \"firm\", \"note\": \"Practice point on approval timing above the officer or insurer tier. It names no approving body and does not make approval a precondition, so it is not an R29 hit.\"}, {\"output_quote\": \"Anything above $500,000 needs CFO approval, and the SIR is $750,000.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's CFO threshold and A-1 retention figure, both listed lookalikes, are applied to A-3 as standing client terms. A-2's retention is $1,200,000, so check the carry-across.\"}, {\"output_quote\": \"Telltale requires phase budgets, such as through mediation and through trial, with a written variance explanation for any variance over 10%.\", \"apparent_reach\": \"client\", \"note\": \"Specific Telltale budgeting and variance-reporting requirement that matches no reference row.\"}, {\"output_quote\": \"Monthly written updates go to Marguerite Salvesen with Thaddeus Wren copied, since they touch coverage and exposure.\", \"apparent_reach\": \"client\", \"note\": \"Named Telltale reporting recipients and monthly cadence. No one-page requirement, so it is not an R19 hit.\"}]}",
+  "timestamp": "2026-11-04T07:48:45+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6831,
+    "call_id": "965e81ca99343970",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17041,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2156,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:48:45+00:00",
+    "total_cost_usd": 0.097776
+  }
+}

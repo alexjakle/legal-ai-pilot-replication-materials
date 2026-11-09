@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "f0b7e8499200681865086fa72a2d2aed38de2ba6bd3832c06588c971cb37634d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:25:27+00:00",
+  "session_id_in": null,
+  "session_id": "d0bd5e1e-f67a-4a25-ab88-9ccba13b561d",
+  "text": "**Note:** The client and firm stores are empty, so I have no prior Telltale work product, expert roster, or plaintiff's disclosures to draw on. This is general guidance and should be tailored once we have the complaint, the lead's regulatory pathway, and the standards plaintiff cites.\n\n## Who\nRetain a **dedicated standards expert**, separate from the design expert. The ideal candidate:\n- Has served on the relevant standards bodies (e.g., ISO/TC 150, AAMI, IEC/CENELEC working groups on active implantable devices and lead connectors) and knows how those standards are drafted, revised, and applied.\n- Knows the FDA's treatment of consensus standards (recognition, declarations of conformity, premarket review).\n- Has no ties to Telltale's competitors or to plaintiff's experts, and has no published statements that cut against our position.\n\nIf the regulatory pathway (PMA, 510(k), or a PMA supplement) raises FDA-compliance issues beyond the standards, consider a separate regulatory expert. One person can cover both only if their qualifications are solid on each.\n\n## When\n- **Now, as a consulting (non-testifying) expert.** This protects work product while we assess the standards plaintiff relies on. Early input will:\n  - Identify which standards and which versions are actually in play, and whether they apply to this lead.\n  - Shape document requests and 30(b)(6) topics, including the design history file, risk management file, test reports, and conformity declarations.\n  - Prepare our witnesses on how Telltale used the standards.\n- **Before the design expert finalizes opinions.** The design expert's testing and compliance analysis should be consistent with the standards framework.\n- **Designate as testifying only when the scheduling order requires.** Decide then whether to convert the consultant or use a fresh testifying expert. Keep rebuttal timing in mind if plaintiff's standards expert discloses first.\n\n## Role compared with the design expert\n**Standards expert:**\n- Explains what the standards are, their scope and version history, and whether they are voluntary, FDA-recognized, or mandatory.\n- Addresses whether the lead met them, and whether plaintiff's expert misapplies, cherry-picks, or overstates them. Examples include treating a minimum-safety benchmark as the standard of care, or using a superseded or inapplicable standard.\n- Explains how standards fit within the FDA regulatory framework and the industry's risk-management process (e.g., ISO 14971).\n\n**Design expert:**\n- Addresses the engineering: design choices, materials, testing, the failure mode and its cause, risk-benefit tradeoffs, and the feasibility of plaintiff's proposed alternative design.\n- Relies on the standards expert for the standards framework rather than becoming the sole voice on it. That keeps the design expert's opinions from being attacked as outside their expertise.\n\n**Boundaries:**\n- Neither expert should give legal conclusions, such as preemption or the legal effect of FDA approval. Counsel will brief those.\n- Coordinate the reports to avoid inconsistencies and overlap, which invite Rule 702/Daubert challenges and cross-examination.\n- Compliance with standards is usually relevant but not dispositive, so the standards expert should frame it as evidence supporting reasonable design, not as a complete defense.\n\n## Next steps\n1. Get plaintiff's complaint and any expert disclosures to list the standards they cite.\n2. Confirm the lead model, its regulatory pathway, and the governing law.\n3. Pull Telltale's design history and testing files showing which standards were used.\n4. Run conflict checks and interview 2–3 standards candidates.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:25:27+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "d0bd5e1e-f67a-4a25-ab88-9ccba13b561d",
+    "input_tokens": 2,
+    "output_tokens": 2061,
+    "cache_write_tokens": 752,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.023622,
+    "latency_ms": 17756,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2061,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 752,
+      "webSearchRequests": 0,
+      "costUSD": 0.023622,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 845,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-F1",
+  "prompt_hash": "93e6524884213cd0cc7921600de32f36d9d2bdd47bd0a43d2a89154066840fba",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:08:16+00:00",
+  "session_id_in": null,
+  "session_id": "ce35b208-5cc5-41b7-af44-19d5866d0ab8",
+  "text": "I can't give you those examples. The stored knowledge for Telltale Cardiac Systems has no record of earlier cases, discovery problems, or specific internal documents, code names, dates, or system names. Anything I named would be invented, and you shouldn't build a collection plan on that.\n\n**What the file does show about Telltale**\n- The client is in a regulatory inspection on its next-generation lead. Internal documents and inquiries about that product, and about failure rates generally, are likely to be sensitive in discovery.\n- Litigation holds are required on relevant product documents, so custodians and systems for the product and related products need to be identified early.\n- The firm's standing guidance says clients want prompt reports of other claims or incidents involving the same or related products. Prior complaints and incidents are therefore a likely discovery target.\n\n**Where to get the real history**\n1. Ask Marguerite Salvesen (General Counsel), copying Thaddeus Wren, for prior discovery problems, including sanctions motions, privilege disputes, and spoliation or hold issues.\n2. Ask the lawyers who handled Telltale's earlier matters for lessons learned and for the client's data map, if one exists.\n3. Check the firm's document management system for earlier Telltale matters, including discovery responses, privilege logs, and meet-and-confer correspondence.\n4. Ask Odalys Fennimore's regulatory affairs group which internal systems and workstreams (complaint handling, field-performance tracking, and the next-generation lead program) could produce responsive or sensitive material.\n\n**Categories to look for until you have specifics** (these are generic, not drawn from Telltale's history)\n- Complaint, adverse-event, and field-failure data, and any internal failure-rate analyses.\n- Regulatory correspondence and inspection materials touching the same or related products.\n- Design-change, risk-analysis, and corrective-action records.\n- Internal communications that characterize failure rates, since the client wants to avoid that beyond what is needed.\n\nI can draft the request to Ms. Salvesen and Mr. Wren, or a hold and custodian checklist for A-3, if that would help.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:08:16+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "ce35b208-5cc5-41b7-af44-19d5866d0ab8",
+    "input_tokens": 2,
+    "output_tokens": 760,
+    "cache_write_tokens": 1325,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.012904,
+    "latency_ms": 8617,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 760,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1325,
+      "webSearchRequests": 0,
+      "costUSD": 0.012904,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 62,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1325,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

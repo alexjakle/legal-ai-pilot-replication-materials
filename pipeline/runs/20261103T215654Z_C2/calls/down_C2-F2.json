@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F2",
+  "prompt_hash": "093bb06a4787c7c8219551ff5ff2ac60daa53f483b4fb3800f4b76bcca005c09",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:03:38+00:00",
+  "session_id_in": null,
+  "session_id": "a64e8357-f9e1-4dd1-b6e2-8f5e467d9a58",
+  "text": "**What we know**\n\n- **Supplier history:** Joad changed its spindle forging supplier in 2020. The store doesn't name the old or new supplier.\n- **Audit:** The change followed an internal audit. The store doesn't record the audit's findings, scope, or the specific reason for the switch.\n- **Qualification program:** Joad's supplier-qualification program is called **Corbelmark**. The store has no detail on its criteria, history, or documentation.\n\n**Handling restrictions**\n\n- The client asked that the reason for the 2020 change not be discussed with anyone outside the case team. That covers experts, suppliers, insurers, and others, unless the client says otherwise. Check with Evander Thorsby before sharing it with anyone beyond the team, including Perpetua Wallace at Cobaltridge, even though she is copied on coverage matters.\n- The client wants the team to understand Corbelmark before any discussion with a supplier. Don't contact the old or new forging supplier until we've been briefed on it.\n- All case communications go through General Counsel Evander Thorsby. We shouldn't contact Joad engineers or production staff directly to learn about the audit or Corbelmark.\n- The client wants the circle of people who see test files kept tight. Audit and supplier-qualification materials likely deserve similar care.\n\n**Gaps and next steps**\n\n1. Ask Thorsby for the 2020 audit report, the Corbelmark program documents, and the supplier identities and dates. Make sure the request is framed to protect privilege.\n2. Confirm that the litigation hold covers audit, supplier-qualification, and forging-supplier records. Per the firm's practice, confirm at intake that a hold is in place.\n3. Find out whether the audit was done under privilege or in the ordinary course of business. This affects discoverability and how we handle it in this matter (C-2).\n4. Work out whether the 2020 change bears on the spindles at issue in C-2, for example whether the affected JX-series units were made before or after the switch. The store doesn't say.\n5. Raise the discovery risk with the client early. If the audit or Corbelmark is requested, we need a plan consistent with the instruction not to stipulate to authenticity or business-record admissibility of internal data before a protective order is in place.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:03:38+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a64e8357-f9e1-4dd1-b6e2-8f5e467d9a58",
+    "input_tokens": 2,
+    "output_tokens": 904,
+    "cache_write_tokens": 2469,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.01892,
+    "latency_ms": 28347,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 904,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2469,
+      "webSearchRequests": 0,
+      "costUSD": 0.01892,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 162,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2469,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

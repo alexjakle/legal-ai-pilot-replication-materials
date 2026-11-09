@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-F2",
+  "prompt_hash": "861c6042d6286b4a3e22d26ce4078d9bbe78d85d69a88a9877d7c7b3cfd59076",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:18:49+00:00",
+  "session_id_in": null,
+  "session_id": "e766a70e-b0ce-4f38-80ba-05b44dca8638",
+  "text": "**The stored knowledge has no dollar figures, reserves, or settlement amounts from Telltale's earlier matters.** The prior AL-4120 matter appears only in connection with a 2020 field-engineer note, and no amounts are tied to it. I won't infer or invent reserve or settlement history.\n\nThe file does contain these program-level figures and thresholds. They are Telltale's standing terms, not numbers from past cases.\n\n| Item | Figure | Source/meaning |\n|---|---|---|\n| Self-insured retention | **$750,000 per claim** | Telltale's product liability program. Excess carrier coverage sits above it. |\n| CFO sign-off threshold | **Above $500,000** | Settlement authority above this needs written sign-off from the CFO, Cormac Brightwater, beyond General Counsel approval. |\n| Working budget assumption | **Under $500,000**, fees and costs combined, for resolution or trial | Telltale wants an explanation if our estimate goes higher. |\n| Budget variance trigger | **Over 10%** per phase | Phase budgets are required, and variances above 10% must be explained. |\n\n**Implications for the budget and reserve picture**\n\n- **Retention:** The $750,000 retention is per claim. Defense costs and any indemnity may both erode it, but the file doesn't say which. Confirm this with Mr. Wren or the General Counsel.\n- **Authority timing:** The $500,000 CFO threshold is lower than the retention. Any recommended range that reaches above $500,000 needs the CFO's written sign-off, so flag that lead time early.\n- **Budget threshold:** The budget assumption is $500,000 total for fees and costs. Expert work, the Orrinwick database production, and the protective order process could push the estimate past it, which would require an explanation.\n- **Staffing cost control:** Deposition staffing is capped at two timekeepers at Telltale's expense. Build that into the phase budgets.\n- **Reserves:** No reserve figure is on file. Reserve and coverage positions may be discussed only with the General Counsel or Mr. Wren. Send the assessment and recommended range to the General Counsel with a copy to Mr. Wren.\n\n**Next steps**\n\n1. Ask the General Counsel or Mr. Wren for any prior-matter settlement, defense-cost, and reserve history, plus how defense costs interact with the retention.\n2. Check our own billing and matter records for the earlier AL-4120 matter.\n3. Draft phase budgets against the $500,000 assumption, with explained variances.\n\nThe 31 confirmed fractures among about 22,000 leads (about 0.14%) are exposure data, not dollar figures. Engineering also hasn't yet confirmed that the rate is within the labeled range. Any exposure estimate should therefore be treated as provisional.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:18:49+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "e766a70e-b0ce-4f38-80ba-05b44dca8638",
+    "input_tokens": 2,
+    "output_tokens": 1212,
+    "cache_write_tokens": 2449,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.02192,
+    "latency_ms": 9588,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1212,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2449,
+      "webSearchRequests": 0,
+      "costUSD": 0.02192,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 277,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

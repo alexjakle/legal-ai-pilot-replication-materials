@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "820e0acb4a98d9dccaa43d03f3a64acf6e67617a87c247ffb7e5c7c16b8ff72e",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:50:24+00:00",
+  "session_id_in": null,
+  "session_id": "dde49092-0d4e-44e2-8401-b2c37d4c51ad",
+  "text": "# Expert Report Workflow (Matter A-3, Telltale Cardiac Systems)\n\n**Caveat:** The client and firm stores are empty, so I have no Telltale-specific protocols, prior expert work, or scheduling order. What follows is a general framework to check against the scheduling order, the governing jurisdiction's rules, and any firm or client guidelines.\n\n## Threshold issue to confirm first\nYou describe \"plaintiff's expert disclosures\" as due in ten weeks, but \"our\" experts. If we represent Telltale as the defendant, our disclosure date is usually later, or the same date only if the order says so. Check the scheduling order to confirm which date governs us, whether rebuttal disclosures are separate, and whether Telltale is in fact the plaintiff. Everything below works backward from our actual deadline.\n\n## Ground rules that shape the process\n- **Federal Rule 26(a)(2)(B):** The report must contain the opinions and their basis, the facts or data considered, exhibits, qualifications with publications from the last 10 years, testimony from the last 4 years, and compensation. State rules vary, so check them.\n- **Rule 26(b)(4)(B)–(C):** Drafts and attorney-expert communications are generally protected, except for communications about compensation, facts or data we provided that the expert considered, and assumptions we provided that the expert relied on. Some states protect less. Draft and communicate on the assumption that anything we give the expert may be produced.\n- **Telltale personnel and the expert:** Communications between Telltale employees and a testifying expert are likely not protected. Route them through counsel.\n\n## Timeline (working back from a 10-week deadline)\n\n**Weeks 0–1: Setup**\n- Confirm deadlines, the protective order, and any ESI or expert protocols.\n- Issue or confirm a litigation hold at Telltale.\n- Run conflicts checks on the candidate experts, including against Telltale competitors, suppliers, and prior adverse work.\n- Execute engagement letters through the firm, with compensation terms and a clear statement of the testifying role.\n- Decide each expert's scope (for example, device design and engineering versus cardiology or causation), and avoid overlap.\n\n**Weeks 1–3: Materials and fact gathering**\n- Collect the core materials: design history file, risk management file, testing and validation, complaint and MDR records, CAPAs, labeling and IFU, FDA correspondence and clearance or approval files, and the plaintiff's medical records.\n- Produce confidential materials to the experts only under the protective order.\n- Hold kickoff calls with each expert.\n\n**Weeks 3–6: Analysis and testing**\n- Experts do their testing, literature review, and analysis, and may inspect exemplars or the explanted device. Preserve the device chain of custody and notify opposing counsel of any destructive testing.\n- Hold oral check-ins. Avoid written preliminary opinions unless needed.\n- Coordinate the two experts so their opinions are consistent and neither relies on the other's field.\n\n**Weeks 6–8: First draft**\n- The expert drafts the report. Counsel may comment on structure, Rule 26 compliance, clarity, and legal standards, but the opinions and words must be the expert's own.\n- Run a Daubert/reliability review: methodology, error rates, fit, sufficiency of facts, and whether each opinion is within the expert's qualifications.\n- Test the report for inconsistencies with the record and with Telltale's documents and witnesses.\n\n**Week 8–9: Telltale review**\n- Limited review (see below), then the expert's revisions.\n- Cite-check every record reference and exhibit, and compare the two reports against each other.\n\n**Week 9–10: Finalize and serve**\n- Collect the signed report, CV, publication and testimony lists, compensation schedule, and the facts-or-data list.\n- Do a final Rule 26 checklist review.\n- Serve a day or two early, with confirmation of delivery.\n\n## Who at Telltale is involved, and when\n\n| Person | Role | When |\n|---|---|---|\n| In-house counsel or GC | Single point of contact; approves expert retention, scope, and confidentiality | Weeks 0–1, and through the final review |\n| Regulatory/quality | Locates and explains FDA files, design controls, complaint handling, and MDRs | Weeks 1–3, and for fact checks |\n| Engineering/R&D | Technical background on the device and records, ideally through a fact-witness channel | Weeks 1–6 |\n| Clinical/medical affairs | Clinical data and adverse event background | Weeks 1–6 |\n| IT/records custodians | Collection and production of files | Weeks 1–3 |\n| Insurer/risk management | Approval of expert budget, status reports, settlement implications | Weeks 0–1, and at the draft and final stages |\n| Executive sponsor | Final awareness of the opinions and risk | Week 8–9 |\n\n**Guardrails on Telltale's role:**\n- Telltale personnel should not edit the report, send their own materials directly to the expert, or comment on drafts by email.\n- Telltale's review should be limited to factual accuracy and confidentiality (trade secrets, PHI, and privileged content), conveyed through counsel.\n- Telltale should not control or appear to control the expert's conclusions.\n- Employees who explain the product to the expert risk becoming fact witnesses. Prepare them and keep their input factual.\n- Before service, confirm that the report does not disclose privileged or unnecessary confidential information.\n\n## Next steps\n1. Confirm the actual disclosure date and governing rules.\n2. Identify the two experts and their scopes.\n3. Send the litigation hold and protective order request this week.\n4. Set an internal deadline for the final report about a week before the service date.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:50:24+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "dde49092-0d4e-44e2-8401-b2c37d4c51ad",
+    "input_tokens": 2,
+    "output_tokens": 2813,
+    "cache_write_tokens": 756,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.031157999999999998,
+    "latency_ms": 25145,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2813,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 756,
+      "webSearchRequests": 0,
+      "costUSD": 0.031157999999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 887,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

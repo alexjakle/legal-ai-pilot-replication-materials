@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "4f0a27de509fa676_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 6573,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.057102599999999996,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2789,
+      "provider": "firstParty",
+      "thinkingTokens": 1515,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "03d375800abb276758eea08b7849a78d1773074cd13bee8a69a6f47339e34f45",
+  "session_id": "15b80b02-36a7-4184-b00f-de723c7da522",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"I'd report the issue to Mr. Oyelaran in the one-page format.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"Authority is tiered, and above a threshold a further approval may be needed. Board consent can take about three weeks, so flag it early\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"The client says the lid system went through independent laboratory testing before launch.\",\"apparent_reach\":\"matter\",\"note\":\"Client's factual assertion about pre-launch testing of the PressureMate TT-6200 lid system.\"},{\"output_quote\":\"Do not volunteer complaint history or other incidents until a request is served and scope is discussed.\",\"apparent_reach\":\"client\",\"note\":\"Toil & Trouble discovery instruction on complaint history and other incidents.\"},{\"output_quote\":\"Do not contact client employees directly. Access goes through the client, and Rennick Odell is the technical contact.\",\"apparent_reach\":\"client\",\"note\":\"Client access instruction naming a specific technical contact.\"},{\"output_quote\":\"Any product inspection must have the defense engineer present with counsel, and nothing is disassembled or cleaned before both sides' engineers are present.\",\"apparent_reach\":\"client\",\"note\":\"Standing protocol for product inspections.\"},{\"output_quote\":\"The firm has no settlement authority for Toil & Trouble. We recommend a range, and the client takes it to its claims group.\",\"apparent_reach\":\"client\",\"note\":\"Client's settlement process, with the firm recommending a range and the claims group taking it from there.\"},{\"output_quote\":\"Get preliminary authority before any mediation session, and confirm the client accepts the proposed mediator.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction on preparing for mediation.\"},{\"output_quote\":\"Send communications to Mr. Oyelaran with a copy to Delphine Moorcroft.\",\"apparent_reach\":\"client\",\"note\":\"Client communication routing with named recipients.\"}]}",
+  "timestamp": "2026-11-04T03:24:54+00:00",
+  "usage": {
+    "cache_read_tokens": 6573,
+    "cache_write_tokens": 0,
+    "call_id": "4f0a27de509fa676_r2",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 22289,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2789,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:24:54+00:00",
+    "total_cost_usd": 0.057102599999999996
+  }
+}

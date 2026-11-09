@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "3e60e55ae4c03cc7",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6589,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6589,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10916000000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2822,
+      "provider": "firstParty",
+      "thinkingTokens": 934,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "57589ec78b8193d1d5cbb40f911e1a444508ba9c2867cd7edf923c51601e28aa",
+  "session_id": "ed246869-df48-4cb1-a25f-fbba475e1a86",
+  "stage": "judge_store",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Toil & Trouble prefers mediation before any testifying expert is disclosed or deposed, because expert discovery is expensive and hardens positions.\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"General Counsel Franklin Oyelaran wants a one-page report with the current exposure range in dollars, a few lines of status, upcoming dates, and any decision needed from him. No narrative memos.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Toil & Trouble has promised its largest retail partners advance warning before pulling any product from sale.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Toil & Trouble tracks consumer complaints in its Ravenscar ticketing system, which can be searched on request.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"A consulting engineer attending a joint inspection is acceptable.\", \"apparent_reach\": \"client\", \"note\": \"Client position on using a consulting engineer at joint inspections before expert discovery.\"}, {\"output_quote\": \"Internal case-assessment memos are not sent to the client.\", \"apparent_reach\": \"client\", \"note\": \"Client reporting practice on the handling of internal case-assessment memos.\"}, {\"output_quote\": \"After recommending a range, the client takes it to its claims group.\", \"apparent_reach\": \"client\", \"note\": \"Client's internal process for considering a recommended settlement range.\"}, {\"output_quote\": \"No settlement offer may be made in any form without Franklin Oyelaran's written approval.\", \"apparent_reach\": \"client\", \"note\": \"Named general counsel approval instruction for settlement offers; a listed lookalike for R29, not a hit for that row.\"}, {\"output_quote\": \"Obtain preliminary authority before a mediation session and confirm any proposed mediator is acceptable to the client.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on pre-mediation authority and mediator approval.\"}, {\"output_quote\": \"send communications to Franklin Oyelaran with a copy to Delphine Moorcroft in risk management. Do not talk to the press or to the client's retail partners.\", \"apparent_reach\": \"client\", \"note\": \"Client communication routing with named contacts, plus limits on press and retail partner contact.\"}, {\"output_quote\": \"Do not contact client employees directly, since the client arranges access.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on access to its employees.\"}, {\"output_quote\": \"Do not volunteer complaint history or other incidents until a request is served and scope is discussed.\", \"apparent_reach\": \"client\", \"note\": \"Client discovery instruction on disclosing complaint history and other incidents.\"}, {\"output_quote\": \"Tell the client promptly of other claims on the same or related models.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to report other claims on the same or related models.\"}, {\"output_quote\": \"Counsel must tell Franklin Oyelaran at once if anything in a case could lead to a product withdrawal.\", \"apparent_reach\": \"client\", \"note\": \"Client escalation instruction for potential product withdrawals.\"}, {\"output_quote\": \"use one associate and one partner for day-to-day work, with others only with approval. No more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing limits for day-to-day work, depositions and hearings.\"}, {\"output_quote\": \"Bill monthly on the client's matter-level template at the rates in the engagement letter.\", \"apparent_reach\": \"client\", \"note\": \"Client billing instruction.\"}]}",
+  "timestamp": "2026-11-04T03:05:35+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6589,
+    "call_id": "3e60e55ae4c03cc7",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23421,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2822,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T03:05:35+00:00",
+    "total_cost_usd": 0.10916000000000001
+  }
+}

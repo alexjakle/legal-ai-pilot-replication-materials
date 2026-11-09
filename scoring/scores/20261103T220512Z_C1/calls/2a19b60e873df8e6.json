@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "2a19b60e873df8e6",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6692,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6692,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09346399999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1996,
+      "provider": "firstParty",
+      "thinkingTokens": 687,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "3a42d40ee50646fbb8c4b3be695fec58208d31806559e8054b03b295ba12ed5b",
+  "session_id": "62b3a7d5-eaa8-486c-bf21-45c6789a7ec1",
+  "stage": "judge_store",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"No offer above the insurer's pre-approved tier may be communicated, even as a signal, until the board's written sign-off is in hand.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Joad wants to review the names and credentials of all proposed testifying experts before they are engaged.\",\"apparent_reach\":\"client\",\"note\":\"Standing client instruction requiring pre-engagement review of testifying experts.\"},{\"output_quote\":\"The General Counsel needs about three weeks to prepare a board consent. The board meets monthly and can act in writing between meetings if the chair approves.\",\"apparent_reach\":\"client\",\"note\":\"Specific internal timing and procedure for Joad's board consent.\"},{\"output_quote\":\"Joad's policy has a $400,000 retention and an aggregate limit that the client is watching because of two other open claims.\",\"apparent_reach\":\"client\",\"note\":\"Specific insurance retention figure and client concern about the aggregate limit and other open claims.\"},{\"output_quote\":\"Insurer claims handler Perpetua Wallace is to be copied on anything bearing on coverage and receives the monthly invoice summary.\",\"apparent_reach\":\"client\",\"note\":\"Named insurer contact and a client-specific communication and billing practice.\"},{\"output_quote\":\"a short note within five business days after every deposition. The client also requires ten days' notice of any proposed testing.\",\"apparent_reach\":\"client\",\"note\":\"Specific client reporting and testing-notice deadlines.\"},{\"output_quote\":\"all case communications go to General Counsel Evander Thorsby. Do not contact current Joad engineers or production staff directly.\",\"apparent_reach\":\"client\",\"note\":\"Named general counsel and standing client communication instructions.\"},{\"output_quote\":\"Limit deposition attendance to one firm lawyer and one insurer lawyer. Report immediately any other incidents involving JX-series spindles.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific deposition attendance limit and incident-reporting instruction naming a product line.\"}]}",
+  "timestamp": "2026-11-04T08:29:10+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6692,
+    "call_id": "2a19b60e873df8e6",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15451,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1996,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T08:29:10+00:00",
+    "total_cost_usd": 0.09346399999999999
+  }
+}

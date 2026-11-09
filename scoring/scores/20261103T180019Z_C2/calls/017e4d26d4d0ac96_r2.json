@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "017e4d26d4d0ac96_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 6614,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.0415108,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2009,
+      "provider": "firstParty",
+      "thinkingTokens": 937,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "c24ee8577f86db7c82556cb9620e65d134eaf3da4be351ff60bda0550d0e581f",
+  "session_id": "fe55dda5-1b50-4b19-aa4d-7e90f58e9cd9",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Clients typically want a periodic written update (monthly, every six weeks, or sometimes one page)\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Telltale's regulatory inspection tied to its next-generation lead is its main sensitivity.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Five business days' notice before any motion.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's standing requirement for advance notice before motions.\"},{\"output_quote\":\"Phase budgets, with variances over ten percent explained.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's budgeting requirement with a specific variance threshold.\"},{\"output_quote\":\"All communications to Marguerite Salvesen, copied to Thaddeus Wren.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's communication instruction naming specific client contacts.\"},{\"output_quote\":\"A day-to-day contact at the firm, with a call every two weeks early on.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's staffing and early-case call cadence requirement.\"},{\"output_quote\":\"An initial assessment within 45 days of the engagement letter.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's deadline for an initial case assessment; listed as an R19 lookalike but matches no reference row.\"}]}",
+  "timestamp": "2026-11-04T03:11:17+00:00",
+  "usage": {
+    "cache_read_tokens": 6614,
+    "cache_write_tokens": 0,
+    "call_id": "017e4d26d4d0ac96_r2",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15937,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2009,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:11:17+00:00",
+    "total_cost_usd": 0.0415108
+  }
+}

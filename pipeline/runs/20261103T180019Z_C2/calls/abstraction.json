@@ -1,0 +1,47 @@
+{
+  "call_id": "abstraction",
+  "prompt_hash": "cc7ef694bb7f0033a333f0adc7072aefc60a0c8290b6e535f9e0fce0532b3185",
+  "stage": "abstraction_gate",
+  "role": "abstraction_gate",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:02:05+00:00",
+  "session_id_in": "8a5af791-7479-4b20-81f2-c1791da991b7",
+  "session_id": "8a5af791-7479-4b20-81f2-c1791da991b7",
+  "text": "{\"patterns\":[\n{\"text\":\"Settlement authority sits with the client, not the firm. Make no offer, number or signal of willingness to pay without the client's written approval. After the firm recommends a range, the client takes it through its own channel (claims committee or claims group, insurer, or board). Larger amounts need senior sign-off from a CFO or the board, and a verbal indication is not enough. Ask early what thresholds apply and how long the approval takes, and flag any recommended figure that would need the longer process.\",\"contributing_items\":[\"N412193.24\",\"N8ce7bf.25\",\"N722ac3.28\"],\"tags\":[]},\n{\"text\":\"Corporate product-liability clients expect to control expert selection. Consult the General Counsel before engaging any testifying expert and provide names, credentials and prior testimony. Where a standards or industry-practice witness is planned, clear that plan with the client first. Where the client's regulatory group reviews expert reports for consistency with regulatory submissions, build review time into the expert timetable.\",\"contributing_items\":[\"N412193.26\",\"N722ac3.27\"],\"tags\":[]},\n{\"text\":\"Clients set a fixed reporting rhythm: periodic written updates (monthly, or every six weeks, sometimes limited to one page), a call after significant events, an early case assessment with an exposure range, and a short note after depositions. Confirm the format and cadence at intake. Write for the General Counsel's decision needs rather than as narrative memos, and keep internal assessment memos internal unless the client asks.\",\"contributing_items\":[\"N412193.28\",\"N8ce7bf.24\",\"N722ac3.33\"],\"tags\":[]},\n{\"text\":\"Route all communications through the client's General Counsel, with copies to the designated insurance or risk contact. Do not contact client employees directly, because the client arranges access. Do not talk to the press, and refer media, regulator or customer inquiries to the client. Do not volunteer complaint history or other incidents beyond what a served request requires.\",\"contributing_items\":[\"N412193.28\",\"N412193.29\",\"N8ce7bf.26\",\"N722ac3.34\"],\"tags\":[]},\n{\"text\":\"Product clients treat design, test and complaint-handling records as confidential. Obtain a protective order before producing anything, with an outside-counsel-and-experts tier for sensitive technical data. Produce only what is required, and do not stipulate to authenticity of internal data until the order is in place.\",\"contributing_items\":[\"N412193.29\",\"N722ac3.14\"],\"tags\":[]},\n{\"text\":\"Clients cap the staffing the firm may bill: a small fixed team, no more than two timekeepers or lawyers at a deposition (some also allow an insurer lawyer), monthly billing on the client's format or template. Check these limits before staffing depositions and hearings.\",\"contributing_items\":[\"N412193.29\",\"N8ce7bf.28\",\"N722ac3.34\"],\"tags\":[]},\n{\"text\":\"Budget discipline: clients require a phase budget early, a written explanation when the projection exceeds the client's working assumption or a phase variance exceeds a set percentage, and quotes before major spend such as testing or expert engagement. Raise a likely overrun with the General Counsel early, and identify expert and testing costs as the main driver.\",\"contributing_items\":[\"N412193.28\",\"N722ac3.31\",\"N722ac3.33\"],\"tags\":[]},\n{\"text\":\"Clients want prompt notice of other claims or incidents involving the same or related product lines. Report them immediately to the General Counsel.\",\"contributing_items\":[\"N8ce7bf.26\",\"N722ac3.34\"],\"tags\":[]},\n{\"text\":\"Coverage and insurance matters are routed to designated client or insurer contacts only. Copy the insurer or insurance liaison on anything bearing on coverage or exposure, and send invoice summaries as required. Ask at intake about the retention or deductible and any aggregate-limit concerns, and tell the client promptly of any reservation of rights.\",\"contributing_items\":[\"N412193.31\",\"N722ac3.32\"],\"tags\":[]},\n{\"text\":\"Ask at intake about the client's regulatory and commercial sensitivities, such as a pending inspection or commitments to retail partners about product withdrawals. Keep public filings measured on failure rates, and alert the General Counsel at once if anything in the case could trigger a withdrawal, recall or regulatory consequence.\",\"contributing_items\":[\"N412193.30\",\"N8ce7bf.27\"],\"tags\":[]},\n{\"text\":\"Product clients track complaints in internal databases or ticketing systems that can be searched on request. At intake, identify the system and who can run searches, so complaint-history discovery responses can be scoped early.\",\"contributing_items\":[\"N412193.32\",\"N8ce7bf.29\"],\"tags\":[]},\n{\"text\":\"Before agreeing to mediation, confirm that the client accepts the proposed mediator and that confidentiality protections prevent the mediation from being used in other cases. Obtain preliminary authority before the session.\",\"contributing_items\":[\"N4fc817.28\",\"N8ce7bf.25\"],\"tags\":[\"wall:A-3\"]}\n]}",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:02:05+00:00",
+    "stage": "abstraction_gate",
+    "condition": "C2",
+    "role": "abstraction_gate",
+    "model": "claude-sonnet-5-5",
+    "session_id": "8a5af791-7479-4b20-81f2-c1791da991b7",
+    "input_tokens": 4,
+    "output_tokens": 3095,
+    "cache_write_tokens": 6271,
+    "cache_read_tokens": 27835,
+    "total_cost_usd": 0.26407139999999996,
+    "latency_ms": 25765,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 18,
+      "outputTokens": 13966,
+      "thinkingTokens": 5122,
+      "cacheReadInputTokens": 71714,
+      "cacheCreationInputTokens": 29301,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 29301,
+      "webSearchRequests": 0,
+      "costUSD": 0.26407139999999996,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

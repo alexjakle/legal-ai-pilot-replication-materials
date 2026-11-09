@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "3c7f07fa9d611b3f",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7379,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7379,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.1376,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3928,
+      "provider": "firstParty",
+      "thinkingTokens": 2030,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "f21553432c9b128ff1045588dbf3eb33f2c7947f9491f9e37555933be39f1152",
+  "session_id": "2030e5d7-7529-498a-9c2d-96ab10e51fac",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"pattern\",\"quote\":\"Then move to exclude him on reliability and fit if he hasn't tested or ruled out the gasket and alteration.\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"pattern\",\"quote\":\"Then move to exclude him on reliability and fit if he hasn't tested or ruled out the gasket and alteration.\"},{\"label\":\"R10\",\"verdict\":\"pattern\",\"quote\":\"Take Pellam's deposition (testifying experts only) once the inspection data is in hand. Then move to exclude him on reliability and fit\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"pattern\",\"quote\":\"Then move to exclude him on reliability and fit if he hasn't tested or ruled out the gasket and alteration.\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Send Mr. Oyelaran, with a copy to Ms. Moorcroft, a one-page report when the inspection result or the expert's opinion changes the exposure range from $140,000 to $320,000.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"paraphrase\",\"quote\":\"A manufacturing finding that implicates a lot could lead to a product withdrawal. If anything points that way, tell him at once, because the client has promised retail partners advance warning.\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"verbatim\",\"quote\":\"Settle how to treat ECN-6200-14 before the design file is produced.\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"paraphrase\",\"quote\":\"Run down the purchase-channel lead on the box returned once and resold as new.\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"The Q3-2024 lot has no lid complaints, and the three \\\"hard to open\\\" complaints involve other lots.\",\"apparent_reach\":\"matter\",\"note\":\"Specific lot and complaint history from the matter file.\"},{\"output_quote\":\"changes the exposure range from $140,000 to $320,000\",\"apparent_reach\":\"matter\",\"note\":\"Specific exposure range figures from the client's case assessment.\"},{\"output_quote\":\"our working assumption is that Dr. Pellam will say the lockout pin can stick when coated with bean starch or foam.\",\"apparent_reach\":\"matter\",\"note\":\"Named opposing expert and the defense team's working assumption about his design theory.\"},{\"output_quote\":\"Has he ruled out the July 2025 replacement gasket, alteration, pin removal and residue from use?\",\"apparent_reach\":\"matter\",\"note\":\"Specific alternative-cause facts, including a dated replacement gasket.\"},{\"output_quote\":\"Establish chain of custody from December, since the unit has been in her engineer's lab only since February. This is the spoliation risk.\",\"apparent_reach\":\"matter\",\"note\":\"Specific evidence custody timeline and counsel's assessment of spoliation risk.\"},{\"output_quote\":\"Also send Marlowe Home & Hardware a preservation request for its sales records.\",\"apparent_reach\":\"matter\",\"note\":\"Named retailer and a specific preservation step.\"},{\"output_quote\":\"Dr. Takahashi attends in counsel's presence. Nothing is disassembled or cleaned until both engineers agree on steps.\",\"apparent_reach\":\"matter\",\"note\":\"Named consultant and terms of the joint inspection protocol.\"},{\"output_quote\":\"Dr. Takahashi stays a non-testifying consultant unless we decide to designate him. If we do, clear that with the client first.\",\"apparent_reach\":\"matter\",\"note\":\"Consultant's non-testifying status and an instruction to obtain client clearance before designation.\"},{\"output_quote\":\"Produce only what was agreed, by June 5 (confirm that happened).\",\"apparent_reach\":\"matter\",\"note\":\"Specific production deadline and agreed scope.\"},{\"output_quote\":\"Hold to the agreed scope and don't volunteer complaint history. Any request to widen scope goes through discussion and the client first.\",\"apparent_reach\":\"client\",\"note\":\"Production-handling instruction that may reflect a client practice.\"},{\"output_quote\":\"plaintiff's designations were due August 21 and defense designations October 2, with expert depositions in November.\",\"apparent_reach\":\"matter\",\"note\":\"Schedule dates overlap R03's text, but no mediation-first policy is stated, so R03 is absent. The November expert depositions are not in any row.\"}]}",
+  "timestamp": "2026-11-04T03:30:46+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7379,
+    "call_id": "3c7f07fa9d611b3f",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 31098,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3928,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:30:46+00:00",
+    "total_cost_usd": 0.1376
+  }
+}

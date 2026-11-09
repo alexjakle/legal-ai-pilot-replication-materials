@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T2",
+  "prompt_hash": "96ec9f71c38f9a195a8711f39d7274086bfae816db3e56f474957fbe24f856f4",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-10-19T23:26:55+00:00",
+  "session_id_in": null,
+  "session_id": "b29e4d05-3f8a-4b4f-9bfa-8a9e2c6f3543",
+  "text": "**Format.** Under Franklin Oyelaran's March 9, 2026 letter, every case report is a single page and not a narrative memo. Each page shows:\n\n1. **Current exposure** as a dollar range. The working range is $140,000 to $320,000. That is preliminary, because the unit has not been inspected.\n2. **Status**, in a few lines.\n3. **Upcoming dates**, such as the June 5 production, the end-of-June inspection and the July 17 mediation deadline.\n4. **Any decision needed from the client**, such as confirming Mr. Whitcombe as mediator or giving preliminary mediation authority.\n\n**Cadence.**\n- A monthly page.\n- An additional page after any event that changes the exposure range, such as the inspection result or a ruling.\n- The first page was due by the end of May. The plan was to send it by May 29, with a second after the inspection.\n\n**Routing.**\n- Send reports to Mr. Oyelaran, with a copy to Delphine Moorcroft in risk management.\n- Reports do not carry settlement offers. The firm has no settlement authority, and no offer in any form can be made without the General Counsel's written approval.\n- Once we recommend a range, the client takes it to its claims group.\n\n**Related items.** The client also wants a budget estimate for each phase of the case, and prompt notice of any other TT-6200 or related-model claims. It wants to be told at once of anything that could lead to pulling a product from sale, because it has promised its largest retail partners advance warning. These can go on the one-page report as decisions or flags, or be raised separately as they arise.\n\n**Date check.** Today is October 19, 2026, which is well past the May 29 first-report date and the July mediation deadline. Before replying to the client contact, I would confirm which reports have actually gone out and what has happened since. The matter file I have only runs through the May 12 memo.",
+  "usage": {
+    "run_id": "20261019T232425Z_C0",
+    "timestamp": "2026-10-19T23:26:55+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "b29e4d05-3f8a-4b4f-9bfa-8a9e2c6f3543",
+    "input_tokens": 2,
+    "output_tokens": 612,
+    "cache_write_tokens": 20427,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.08783200000000001,
+    "latency_ms": 6016,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 612,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20427,
+      "webSearchRequests": 0,
+      "costUSD": 0.08783200000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

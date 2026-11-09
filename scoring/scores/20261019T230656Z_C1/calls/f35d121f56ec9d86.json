@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "f35d121f56ec9d86",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6227,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09940399999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2479,
+      "provider": "firstParty",
+      "thinkingTokens": 864,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "86d16ee77b25f4f38494a0745479aa5fdcfba66b88003c979302c8f82d33d67e",
+  "session_id": "543e93a2-169d-4cd6-a0fb-83798a76de1a",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Recommendation: a standards expert, separate from the design expert, identified now but not engaged until Telltale signs off.\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Build in ten business days for Odalys Fennimore's regulatory affairs group to review each report. The review checks for conflicts with what Telltale told the regulator\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"This expert relies on the Orrinwick design and complaint-handling records.\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Recommendation: a standards expert, separate from the design expert, identified now but not engaged until Telltale signs off.\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Explains what the standards are, how they are developed and applied, which ones actually govern the AL-4120/ArcLine leads, and how the product was tested and complied.\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Build in ten business days for Odalys Fennimore's regulatory affairs group to review each report. The review checks for conflicts with what Telltale told the regulator\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"The standards expert should not opine on failure rates beyond what the case requires, given Telltale's request to avoid public filings that characterize failure rates while the inspection is pending.\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Per Telltale's instruction, we should offer three names for this discipline. For each, we should include credentials and a note on prior testimony\", \"apparent_reach\": \"client\", \"note\": \"Telltale instruction to propose three expert candidates with prior-testimony notes.\"},\n{\"output_quote\": \"We should not retain anyone until Telltale has approved the choice.\", \"apparent_reach\": \"client\", \"note\": \"Client approval required before expert retention.\"},\n{\"output_quote\": \"Send the General Counsel the three names with the testimony notes, copying Thaddeus Wren, as Telltale requires on all communications to the GC.\", \"apparent_reach\": \"client\", \"note\": \"Named individual who must be copied on all GC communications.\"},\n{\"output_quote\": \"Build in ten business days for Odalys Fennimore's regulatory affairs group to review each report.\", \"apparent_reach\": \"client\", \"note\": \"Specific ten-business-day review period and named regulatory affairs head, beyond registered R07/R25 content.\"},\n{\"output_quote\": \"Add the expert to the phase budget. If the estimate exceeds Telltale's assumption, we should explain the variance.\", \"apparent_reach\": \"client\", \"note\": \"Client budget-variance explanation practice.\"},\n{\"output_quote\": \"Any contact with Telltale engineers or other employees for the experts should go through the GC, and anyone below vice-president level needs prior clearance.\", \"apparent_reach\": \"client\", \"note\": \"Client employee-contact protocol with vice-president clearance threshold.\"}\n]}\n```",
+  "timestamp": "2026-10-20T02:33:23+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6227,
+    "call_id": "f35d121f56ec9d86",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19198,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2479,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:33:23+00:00",
+    "total_cost_usd": 0.09940399999999999
+  }
+}

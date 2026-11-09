@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T2",
+  "prompt_hash": "6869c47933eb00e9b7911e6bdfda7248093ac0cc2ce7d81939c925fe56715b45",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:56:26+00:00",
+  "session_id_in": null,
+  "session_id": "85e1ef86-2f7c-4c06-a2d9-88ee9713c95d",
+  "text": "**Format:** One page, per General Counsel Franklin Oyelaran's instruction. No narrative memos. Each report contains:\n1. The current exposure range in dollars.\n2. A few lines of status.\n3. Upcoming dates.\n4. Any decision needed from Mr. Oyelaran.\n\n**Cadence:**\n- A report every month.\n- An additional report after any event that changes the exposure range, such as an inspection result or a ruling.\n- Separately, tell Mr. Oyelaran at once if anything in the case could lead to a product withdrawal. The client has promised its largest retail partners advance warning before pulling a product.\n- Tell him promptly of any other claims on the TT-6200 or related models.\n\n**Routing:** Send reports to Mr. Oyelaran with a copy to Delphine Moorcroft in risk management.\n\n**What stays out of the reports:**\n- Our internal case-assessment memos stay internal and are not sent to the client.\n- We will not volunteer complaint history or other incidents until a request is served and scope is discussed.\n- Any settlement range we recommend is only a recommendation. The firm has no settlement authority, and no offer goes out in any form without Mr. Oyelaran's written approval.\n\n**Related points for the intake calendar:**\n- Billing is monthly, on the client's matter-level template, at the rates in the January 14, 2025 engagement letter. It can go out on the same monthly cycle as the report.\n- Firm practice is that clients often also want an early initial case assessment (typically 45 to 60 days) and a phase budget (within about 45 days). Ask Mr. Oyelaran whether he wants these. If so, calendar them now, and explain any budget variances.\n\n**Caveat:** Mr. Oyelaran's instruction doesn't specify a day of the month for the monthly report, or whether he wants an initial assessment or phase budget on this matter. We should confirm those with him when we reply to the client contact.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:56:26+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "85e1ef86-2f7c-4c06-a2d9-88ee9713c95d",
+    "input_tokens": 2,
+    "output_tokens": 638,
+    "cache_write_tokens": 2231,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.015307999999999999,
+    "latency_ms": 5343,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 638,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2231,
+      "webSearchRequests": 0,
+      "costUSD": 0.015307999999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2231,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

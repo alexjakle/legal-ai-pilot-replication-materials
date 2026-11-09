@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T2",
+  "prompt_hash": "2f1861e1202199c147cd47393ea0dc8bd54fe991edfcedfad03ce3e8ee76a97b",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:00:50+00:00",
+  "session_id_in": null,
+  "session_id": "7d3be060-3cad-462e-be4c-093ace21e459",
+  "text": "**Reporting plan for B-2 (Toil & Trouble Home Products)**\n\n**Format: one page, no narrative memos.** Each report will show:\n1. **Exposure range** in dollars\n2. **Status** in a few lines\n3. **Upcoming dates**\n4. **Any decision needed** from the client\n\n**Cadence:**\n- **Monthly**, one page each month.\n- **Event-driven**, a one-page update after any event that changes the exposure range.\n- **Initial case assessment** within 45 to 60 days of intake, in the same one-page format. We will calendar this now.\n- **Short note or call after significant events** such as depositions.\n\n**Routing:**\n- Reports go to General Counsel Franklin Oyelaran, copied to Delphine Moorcroft in risk management.\n- The client passes them to its CEO and its insurer's claims group, so each page should be written to stand alone for those readers. Anything touching coverage or exposure should be clearly marked.\n\n**Related items to pair with reporting:**\n- **Budget:** We will provide separate fee estimates through mediation and through trial, and give early notice if the budget expectation becomes unrealistic. Invoices are monthly.\n- **Prompt flags outside the regular page:** Other claims involving the same or related models, and any case development that could lead to pulling a product (the client has promised its largest retail partners advance warning), go to the General Counsel at once, not at the next monthly report.\n- **Settlement:** Reports will show exposure only. No settlement figure or signal will be communicated without Mr. Oyelaran's written approval.\n\nBecause the contact who asked may not be Mr. Oyelaran, I would send this reply to him with Ms. Moorcroft copied, rather than to the contact directly, and confirm the format with him.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:00:50+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7d3be060-3cad-462e-be4c-093ace21e459",
+    "input_tokens": 2,
+    "output_tokens": 583,
+    "cache_write_tokens": 2275,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.014934,
+    "latency_ms": 6134,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 583,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2275,
+      "webSearchRequests": 0,
+      "costUSD": 0.014934,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2275,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

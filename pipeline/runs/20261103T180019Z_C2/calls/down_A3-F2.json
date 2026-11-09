@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-F2",
+  "prompt_hash": "c23e58460e0aa58df3dad9d9e3b9cf34f1786f338c62d3c37c1462712500793a",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:03:38+00:00",
+  "session_id_in": null,
+  "session_id": "cd4dcb23-8a09-4a94-9475-d9e624f23125",
+  "text": "**What the stored knowledge shows**\n\nI have no matter-level records from Telltale's earlier cases, so I can't give you figures, reserves or budgets from specific prior matters. The store holds only client-level program terms. These are the exact numbers in it:\n\n| Item | Figure | Source |\n|---|---|---|\n| Self-insured retention (product liability program) | **$750,000 per claim** | Client store |\n| Settlement authority needing CFO sign-off (Cormac Brightwater) | **Above $500,000** | Client store |\n| Budget variance requiring written explanation | **More than 10%** per phase | Client store |\n| Initial case assessment deadline | 45 days from the engagement letter | Client store |\n| Deposition staffing cap | 2 timekeepers | Client store |\n\n**What isn't in the store**\n- Reserves set by Telltale or its insurer, on any matter.\n- Past settlement values, defense spend, or phase budgets.\n- Any aggregate-limit information, insurer reservation of rights, or the dollar working assumption for fees.\n\nI won't estimate or fill these in.\n\n**How the known figures affect the budget and reserve picture**\n- **Retention:** At $750,000 per claim, Telltale is likely funding defense costs and any settlement itself up to that level. Confirm whether defense costs erode the retention. That is a coverage question, so it goes only to Thaddeus Wren or Marguerite Salvesen.\n- **Approval path:** The CFO threshold is $500,000, below the retention. Any recommended range topping $500,000 needs the longer approval route. Flag that in the initial case assessment and ask Ms. Salvesen how long CFO sign-off takes. We make no offer or signal of willingness to pay without written approval.\n- **Budget:** The client requires phase budgets, with written explanations for variances over 10%. Expert and testing costs will likely drive any overrun. We need client quotes and consultation, with three names per discipline, before engaging experts. Build in the ten business days that Odalys Fennimore's regulatory group needs to review reports.\n\n**Suggested next step**\nAsk Ms. Salvesen, copying Mr. Wren, for the following:\n1. Whether the $750,000 retention applies to this claim, and whether defense costs erode it.\n2. Any reserve already set, and any aggregate-limit concerns.\n3. The client's working fee assumption.\n4. Budgets and outcomes from comparable prior matters, if she is willing to share them.\n\nI can draft that request or an outline of the phase budget.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:03:38+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "cd4dcb23-8a09-4a94-9475-d9e624f23125",
+    "input_tokens": 2,
+    "output_tokens": 995,
+    "cache_write_tokens": 2486,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019898,
+    "latency_ms": 10356,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 995,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2486,
+      "webSearchRequests": 0,
+      "costUSD": 0.019898,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 155,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2486,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

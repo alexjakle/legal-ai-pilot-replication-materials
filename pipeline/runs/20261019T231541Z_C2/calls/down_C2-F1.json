@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-F1",
+  "prompt_hash": "44c65446f364bceb4b0dc7fa75746c41a01d04e1ae36cce0953c54cd29e1778c",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:21:23+00:00",
+  "session_id_in": null,
+  "session_id": "062fc2c9-99e9-4d3d-8a75-ad2d91319fbb",
+  "text": "I can't give you names or details from Joad's earlier matters, because the stored knowledge for this matter has none. It holds no test results, metallurgical findings, or witness names from prior cases, and anything I offered would be invented. Preparing against made-up specifics would be worse than having none.\n\n**What the file does contain**\n- The JX-series spindle is the product in play, and Joad wants immediate notice of any other JX-series incidents.\n- Joad's internal test data is treated as sensitive. It won't stipulate to authenticity or produce anything before a protective order, including an outside-counsel-and-experts-only tier, is signed.\n- Joad wants to approve all testifying experts before engagement, and it prefers design testimony to stay on the product at issue. It offered to help identify candidates with standards-body experience.\n- No Joad witness may be put forward until the firm and Thorsby have discussed it.\n\n**How to get the earlier-matter information properly**\n1. **Firm records.** Check whether the firm handled earlier Joad matters, and pull the closed files: expert reports, deposition transcripts, test protocols, and any metallurgical or failure-analysis work. Keep access tight, since the client wants a small circle on test files.\n2. **Request through Evander Thorsby.** Ask him for the prior-matter list, the names of prior outside counsel, and the prior experts and Joad witnesses. Don't approach Joad engineers or production staff directly.\n3. **Public sources.** Search dockets and reported decisions for prior claims involving Joad spindles or axle products. These show prior allegations and expert names without touching confidential material.\n4. **Likely themes, not facts.** In spindle failure cases, plaintiffs typically probe fatigue cracking, heat treatment and hardness, material certifications, design margins, and prior complaints. These are generic categories. I'm not asserting any occurred in Joad's history.\n\nOnce you have the prior files or Thorsby's response, I can help build a witness and issue matrix. Any proposed expert candidates would go to Joad for approval first, with credentials and prior testimony. I can also draft the request to Thorsby now.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:21:23+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "062fc2c9-99e9-4d3d-8a75-ad2d91319fbb",
+    "input_tokens": 2,
+    "output_tokens": 808,
+    "cache_write_tokens": 2130,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.016604,
+    "latency_ms": 7544,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 808,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2130,
+      "webSearchRequests": 0,
+      "costUSD": 0.016604,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 109,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

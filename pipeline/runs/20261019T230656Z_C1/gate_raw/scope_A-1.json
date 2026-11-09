@@ -1,0 +1,189 @@
+{
+  "matter": "A-1",
+  "call_id": "scope_A-1",
+  "timestamp": "2026-10-19T23:08:01+00:00",
+  "session_id": "2e583d87-28cc-4ce8-b1dd-25d8ae694c75",
+  "raw": "{\"items\":[\n{\"id\":\"N412193.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.05\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.11\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.14\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.24\",\"decision\":\"client_store\",\"text\":\"Telltale requires CFO (Cormac Brightwater) sign-off for settlement authority above $500,000. The firm sends the General Counsel an assessment and recommended range before authority is sought.\",\"tags\":[]},\n{\"id\":\"N412193.25\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.26\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N412193.27\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N412193.28\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.29\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.30\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N412193.31\",\"decision\":\"client_store\",\"text\":\"Telltale wants an explanation whenever a fee and cost estimate exceeds its budget assumption. Because Telltale is in a regulatory inspection tied to its next-generation lead, it asks the firm to avoid public filings that characterize failure rates beyond what the case requires.\",\"tags\":[]},\n{\"id\":\"N412193.32\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N412193.33\",\"decision\":\"client_store\",\"text\":\"Telltale wants a vigorous but measured defense.\",\"tags\":[]},\n{\"id\":\"N412193.34\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.35\",\"decision\":\"matter_only\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N412193.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.04",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.05",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.06",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.07",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.08",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.09",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.10",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.11",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.12",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.13",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.14",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.15",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.17",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.18",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.19",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.22",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.23",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.24",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale requires CFO (Cormac Brightwater) sign-off for settlement authority above $500,000. The firm sends the General Counsel an assessment and recommended range before authority is sought."
+      },
+      {
+        "id": "N412193.25",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.26",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N412193.27",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N412193.28",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.29",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.30",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N412193.31",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale wants an explanation whenever a fee and cost estimate exceeds its budget assumption. Because Telltale is in a regulatory inspection tied to its next-generation lead, it asks the firm to avoid public filings that characterize failure rates beyond what the case requires."
+      },
+      {
+        "id": "N412193.32",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N412193.33",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale wants a vigorous but measured defense."
+      },
+      {
+        "id": "N412193.34",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.35",
+        "decision": "matter_only",
+        "tags": []
+      }
+    ]
+  }
+}

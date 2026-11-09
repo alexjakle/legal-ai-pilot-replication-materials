@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F2",
+  "prompt_hash": "517f26880c2ecc099e336a2815aa185acefde32a3467dafcacd206fe341daa78",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:09:56+00:00",
+  "session_id_in": null,
+  "session_id": "bdcf5a50-fe18-4e24-a50f-3814dc54b53a",
+  "text": "I can't give you that list, because the stored knowledge for Toil & Trouble doesn't contain any internal systems, document identifiers, Bates conventions, file-naming schemes or code names from earlier matters. The only identifiers on file are product-related: the TT-6200 (six-quart electric pressure cooker) and the \"related models\" the client refers to in its reporting instructions, which aren't named. I won't guess at others, since a made-up list could lead you to misread the production.\n\nWays to fill the gap:\n\n1. **Ask the General Counsel.** Franklin Oyelaran (copy Delphine Moorcroft in risk management) can supply a data map: the systems that hold relevant records (e.g., engineering, QA, complaints/returns, ERP, email), the naming and numbering conventions, and any internal project names for the TT-6200 or related models. All case communications go through his office, so don't approach client employees directly.\n\n2. **Check the firm's files from earlier matters.** If we have prior productions, privilege logs or pleadings for this client, they may show document prefixes and system names. That isn't in what I have here, so someone would need to pull them.\n\n3. **Request a production index or key.** When the production arrives, ask for load-file metadata, a field list and a glossary of abbreviations, code names and part or model numbers.\n\n4. **Confirm preservation.** The litigation hold should cover the systems once they are identified, which is another reason to get the data map early.\n\nI can draft a short note to Mr. Oyelaran asking for the system list, naming conventions and code names, along with a request to confirm the hold covers them. Do you want me to prepare it?",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:09:56+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "bdcf5a50-fe18-4e24-a50f-3814dc54b53a",
+    "input_tokens": 2,
+    "output_tokens": 530,
+    "cache_write_tokens": 1770,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.012384,
+    "latency_ms": 6815,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 530,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1770,
+      "webSearchRequests": 0,
+      "costUSD": 0.012384,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1770,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

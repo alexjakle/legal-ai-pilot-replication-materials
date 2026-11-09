@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "e9f734c081eceef6",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6798,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6798,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10081200000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2321,
+      "provider": "firstParty",
+      "thinkingTokens": 717,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "dabbd92201f0b46186e4c3696f9e282027499ccbe8ea5147b6e45908595f23aa",
+  "session_id": "f945487e-c72e-46c8-8c9c-56f81814c8c1",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"**Above $1.5M:** No offer may be made or communicated until the written board consent is in hand, even as a signal or a hint about range.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Cobaltridge Indemnity has pre-approved this tier. Before conveying any figure, even within it, check with General Counsel Evander Thorsby, because the insurer will want to be involved.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer and the GC, and requires GC clearance even within the insurer's pre-approved tier. This is a client instruction with no matching row.\"},\n{\"output_quote\": \"Verbal indications from directors or officers don't count.\", \"apparent_reach\": \"client\", \"note\": \"Adds a client-specific detail to the board sign-off practice that is not in the R29 text.\"},\n{\"output_quote\": \"The client needs about three weeks to prepare a board consent, so ask early.\", \"apparent_reach\": \"client\", \"note\": \"Gives the client's internal lead time for a board consent.\"},\n{\"output_quote\": \"Perpetua Wallace, the Cobaltridge claims handler, is copied on anything bearing on coverage. The client wants same-day notice if the carrier reserves its rights.\", \"apparent_reach\": \"client\", \"note\": \"Names the claims handler and states two client communication instructions.\"},\n{\"output_quote\": \"The policy has a $400,000 retention, and the client is watching the aggregate limit because of two other open claims.\", \"apparent_reach\": \"client\", \"note\": \"States the client's coverage retention figure and its aggregate-limit concern.\"},\n{\"output_quote\": \"the Estate would price the case on the worst version of the FT-77 data\", \"apparent_reach\": \"matter\", \"note\": \"Names an internal dataset identifier (FT-77) for the matter.\"},\n{\"output_quote\": \"If the examination goes well, the memo suggests exploring roughly $1.2M to $2M.\", \"apparent_reach\": \"matter\", \"note\": \"States a specific recommended settlement range taken from the matter memo.\"},\n{\"output_quote\": \"The Estate has made no formal demand beyond the complaint figure ($11.5M), so there is no number to answer.\", \"apparent_reach\": \"matter\", \"note\": \"States the matter's complaint figure and the status of any demand.\"},\n{\"output_quote\": \"the response to Ms. Brandvold should be that we can't discuss figures now.\", \"apparent_reach\": \"matter\", \"note\": \"Names plaintiff's counsel and gives the planned response.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:55:04+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6798,
+    "call_id": "e9f734c081eceef6",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17257,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2321,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:55:04+00:00",
+    "total_cost_usd": 0.10081200000000001
+  }
+}

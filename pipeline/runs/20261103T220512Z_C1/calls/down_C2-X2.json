@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-X2",
+  "prompt_hash": "9b53338ad2a011fc40c286b6264e521d6d51076dd8409f02b9508e54232097ab",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:11:57+00:00",
+  "session_id_in": null,
+  "session_id": "37f2dd55-5fe7-43f8-b2bf-0a234ce6f9fc",
+  "text": "I don't have anything on Toil & Trouble. Neither the firm's stored knowledge nor Joad's client store mentions them, so I can't say what they want in case reports or how they sequence mediation and expert work. I'd also be cautious about modeling Joad's approach on another client's preferences. Those preferences are client-specific and may be confidential, and Joad has its own detailed instructions.\n\nHere is what Joad has actually told us.\n\n**Reporting**\n- A written report every six weeks, with a call after significant events.\n- A first case assessment within 60 days, including an exposure range and a probability of an adverse result.\n- A short note within five business days after every deposition.\n- All communications go to General Counsel Evander Thorsby.\n- Perpetua Wallace (insurer) is copied on anything bearing on coverage, and receives the monthly invoice summary.\n- Joad wants to hear the same day if the carrier reserves rights.\n- Other JX-series spindle incidents are to be reported immediately.\n\n**Expert work**\n- Before engaging any testifying expert, send Thorsby their names, credentials, prior testimony and fee quotes, and get clearance.\n- Tell Joad whether anyone will speak to industry practice.\n- Joad prefers design testimony focused on the specific product. It has offered to help identify candidates with standards-body experience.\n- Testing requires a quote first and ten days' notice to Joad. Clarify who pays for shared lab work, and keep the circle of people who see test files tight.\n\n**Mediation and settlement**\n- Joad has not set a mediation sequence, but its settlement rules affect timing.\n- Consult Joad before any offer, even one within the insurer's pre-approved tier, because the insurer will want to be involved.\n- Any offer above that tier needs written board sign-off before it is communicated, even as a signal. Verbal indications from directors or officers don't count.\n- The General Counsel needs about three weeks to prepare a board consent. The board meets monthly and can act in writing between meetings if the chair approves.\n- If a settlement range might extend above the tier, flag it early, before negotiations reach that point.\n\nA sensible sequence would be to get expert clearance and the 60-day assessment (with exposure range) done first. That lets us tell whether the range exceeds the tier, and start the board consent process in time, before any mediation.\n\nIf you can tell me where the Toil & Trouble information is kept, or whether it's a matter I should have access to, I can compare it against Joad's requirements.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:11:57+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "37f2dd55-5fe7-43f8-b2bf-0a234ce6f9fc",
+    "input_tokens": 2,
+    "output_tokens": 1087,
+    "cache_write_tokens": 2054,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019090000000000003,
+    "latency_ms": 8560,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1087,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2054,
+      "webSearchRequests": 0,
+      "costUSD": 0.019090000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 272,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2054,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "666e97749af4e51f",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6554,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6554,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08924,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1840,
+      "provider": "firstParty",
+      "thinkingTokens": 580,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "17b16fc5d196b3ab948e286bba02bd00ad744706ac48d2d8169408ec2a8639f8",
+  "session_id": "1ac04f52-7ee8-4331-97bb-d16904793f49",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Regulatory affairs (Ms. Fennimore) gets ten business days to review expert reports before service.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Regulatory affairs (Ms. Fennimore) gets ten business days to review expert reports before service.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n\"unregistered_candidates\": [{\"output_quote\": \"A biweekly call with Ms. Raghunathan in the early phase.\", \"apparent_reach\": \"client\", \"note\": \"Telltale-specific reporting instruction naming a client contact.\"}, {\"output_quote\": \"At least five business days' notice before filing any motion.\", \"apparent_reach\": \"client\", \"note\": \"Telltale standing instruction on motion notice.\"}, {\"output_quote\": \"Phase budgets, with variance explained above ten percent.\", \"apparent_reach\": \"client\", \"note\": \"Telltale budget variance threshold.\"}, {\"output_quote\": \"All communications go to the General Counsel, with a copy to Mr. Wren.\", \"apparent_reach\": \"client\", \"note\": \"Telltale communication routing naming a client contact.\"}, {\"output_quote\": \"No more than two timekeepers per deposition.\", \"apparent_reach\": \"client\", \"note\": \"Telltale staffing restriction for depositions.\"}, {\"output_quote\": \"Regulatory affairs (Ms. Fennimore) gets ten business days to review expert reports before service.\", \"apparent_reach\": \"client\", \"note\": \"Adds a named regulatory affairs contact and a ten-business-day review period not stated in R07/R25.\"}]}",
+  "timestamp": "2026-10-30T21:34:51+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6554,
+    "call_id": "666e97749af4e51f",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14413,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1840,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:34:51+00:00",
+    "total_cost_usd": 0.08924
+  }
+}

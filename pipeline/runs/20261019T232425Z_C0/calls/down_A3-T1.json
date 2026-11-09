@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "b331d9e43c2892e84b00bc31e996f7a34054ef8c6abebe2738f0dca00025c6d8",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-10-19T23:24:54+00:00",
+  "session_id_in": null,
+  "session_id": "941499c4-1c5e-4b73-ab5a-b4ee88b09a74",
+  "text": "# Moving expert reports from first draft to service (Matter A-3)\n\nI have no A-3 file yet, so this process comes from Telltale's standing instructions in its other matters with us. The details need confirming with the client for A-3, and I have not carried over any matter-specific facts.\n\n## 1. Before engagement (weeks 1-2)\n- **Consult the General Counsel first.** Telltale wants to be consulted before any testifying expert is signed. Send three candidates per discipline, with a note on each one's prior testimony and a fee quote. Confirm who the GC is on A-3. Send communications to the GC, copying Thaddeus Wren on anything touching coverage or exposure.\n- **Retain through the firm.** Use a scope letter limited to the assignment. If we want an industry-standards witness, consider a separate expert from the design engineer, and raise that with the GC as part of the same consultation.\n- **Get protective terms in place.**\n  - Design and complaint-handling records (the Orrinwick material) cannot be produced until a protective order is proposed. Experts should sign the acknowledgment before receiving anything.\n  - Confirm a stipulation that drafts and attorney-expert communications are protected, except for facts, data and assumptions we supply. Because those are discoverable, be deliberate about what we give the experts.\n\n## 2. Drafting (weeks 2-6)\n- Experts draft and communicate only through counsel. Keep a tight circle on the file and keep drafts inside the firm and the expert's office.\n- Hold any employee contact for fact input to arrangements through the GC's office. Employees below vice-president level need clearance.\n- Where reports quote confidential documents, plan the designation and sealing procedure.\n- Avoid characterizing failure rates beyond what the opinion requires. Telltale is sensitive to this because of its regulatory exposure.\n\n## 3. Internal review\n- The partner and associate review a near-final draft for fit with the facts, the legal standard and consistency with the pleadings.\n- Aim to have this done at least three to four weeks before the service date.\n\n## 4. Regulatory affairs review (the gating step)\n- **Who:** Telltale's regulatory affairs group, led by Odalys Fennimore, must review every report before service. They check that nothing conflicts with what Telltale told the regulator.\n- **Timing:** Allow ten business days, and plan on two weeks. Telltale has stated both figures in different matters.\n- **Routing:**\n  - Send the draft through counsel only, and log what is sent so the exchange stays protected as work done at counsel's direction.\n  - Confirm with plaintiff's counsel that the draft-protection stipulation covers this process.\n  - Regulatory comments come back through counsel to the expert, never directly.\n  - Nothing leaves the firm and the experts until the group clears it.\n\n## 5. Revise, re-clear and serve\n- The expert revises on the comments. Re-submit if the changes are substantive, and leave a few days for that.\n- Run a final check on the disclosure contents, such as prior testimony and materials considered, and on sealing and designations.\n- Serve only after written clearance, and tell the GC when service occurs.\n\n## Working back from the deadline\nThe \"ten weeks\" is plaintiff's disclosure date, and I don't know our reports' date. If disclosure is sequential, ours falls later. If it is simultaneous, ours is the same date, and the schedule is tight:\n- Engagement by week 2.\n- Expert draft to us by about week 5.\n- Internal review through week 6.\n- Regulatory review in weeks 6-8.\n- Revisions in week 9.\n- Service in week 10.\n\nPlease confirm the actual defense deadline and whether the client's review periods differ for this matter.",
+  "usage": {
+    "run_id": "20261019T232425Z_C0",
+    "timestamp": "2026-10-19T23:24:54+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "941499c4-1c5e-4b73-ab5a-b4ee88b09a74",
+    "input_tokens": 2,
+    "output_tokens": 2550,
+    "cache_write_tokens": 24962,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.12535200000000002,
+    "latency_ms": 21396,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2550,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 24962,
+      "webSearchRequests": 0,
+      "costUSD": 0.12535200000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1318,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

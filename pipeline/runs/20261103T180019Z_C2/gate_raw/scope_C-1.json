@@ -1,0 +1,199 @@
+{
+  "matter": "C-1",
+  "call_id": "scope_C-1",
+  "timestamp": "2026-11-03T18:01:39+00:00",
+  "session_id": "8a5af791-7479-4b20-81f2-c1791da991b7",
+  "raw": "{\"items\":[\n{\"id\":\"N722ac3.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.05\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.11\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.14\",\"decision\":\"client_store\",\"text\":\"Joad Axle Works will not stipulate to the authenticity of its internal test data until a protective order is in place that includes a tier limiting access to outside counsel and experts. Joad produces only what the court requires and not before the order is signed. Hold the line against any blanket authenticity stipulation.\",\"tags\":[]},\n{\"id\":\"N722ac3.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.24\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.25\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.26\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.27\",\"decision\":\"client_store\",\"text\":\"Joad Axle Works' General Counsel wants to review names and credentials of all proposed testifying experts before engagement and wants to know whether anyone will speak to industry practice. He prefers that design testimony stay focused on the specific product at issue. He is glad to help identify candidates who have served on standards bodies. Clear any standards-expert plan with him before engagement.\",\"tags\":[]},\n{\"id\":\"N722ac3.28\",\"decision\":\"client_store\",\"text\":\"Joad Axle Works settlement authority: its insurer, Cobaltridge Indemnity, has pre-approved settlement authority up to $1,500,000. Any offer above that needs written sign-off from Joad's board of directors; verbal indications from a director or officer are not enough. No offer above $1.5 million should be communicated, even as a signal, without that document. The client needs about three weeks to prepare a board consent. If an offer would fall within the insurer's tier, check with the General Counsel before conveying it.\",\"tags\":[]},\n{\"id\":\"N722ac3.29\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.30\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.31\",\"decision\":\"client_store\",\"text\":\"Joad Axle Works wants quotes before any testing is commissioned and wants to know who pays for shared lab work. It expects explanation where projections exceed its budget assumption.\",\"tags\":[]},\n{\"id\":\"N722ac3.32\",\"decision\":\"client_store\",\"text\":\"Joad Axle Works insurance: its policy has a $400,000 retention and an aggregate limit the client is watching closely because of other open claims. The insurer's claims handler is Perpetua Wallace. She must be copied on anything bearing on coverage and sent the monthly invoice summary. The client wants to hear the same day if the carrier reserves its rights.\",\"tags\":[]},\n{\"id\":\"N722ac3.33\",\"decision\":\"client_store\",\"text\":\"Joad Axle Works reporting requirements: a written report every six weeks, with a call after significant events; a first case assessment within 60 days with an exposure range and probability of an adverse result; a phase budget within 45 days; and a short note within five business days after every deposition.\",\"tags\":[]},\n{\"id\":\"N722ac3.34\",\"decision\":\"client_store\",\"text\":\"Joad Axle Works standing instructions: route all case communications through General Counsel Evander Thorsby. Do not contact current Joad engineers or production staff directly. Make no public statements and refer media, regulator or customer inquiries to him. Limit deposition attendance to one firm lawyer and one insurer lawyer. Give 10 days' notice of any proposed testing. Report immediately any other incidents involving JX-series products. Send preservation recommendations, and observe the litigation hold.\",\"tags\":[]},\n{\"id\":\"N722ac3.35\",\"decision\":\"client_store\",\"text\":\"Joad Axle Works instruction on witnesses: interview key engineers early and keep a tight circle around who sees test files. Do not offer key engineering or sales witnesses for testimony until the firm and the General Counsel have discussed it.\",\"tags\":[]},\n{\"id\":\"N722ac3.36\",\"decision\":\"matter_only\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N722ac3.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.04",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.05",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.06",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.07",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.08",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.09",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.10",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.11",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.12",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.13",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.14",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Joad Axle Works will not stipulate to the authenticity of its internal test data until a protective order is in place that includes a tier limiting access to outside counsel and experts. Joad produces only what the court requires and not before the order is signed. Hold the line against any blanket authenticity stipulation."
+      },
+      {
+        "id": "N722ac3.15",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.17",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.18",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.19",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.22",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.23",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.24",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.25",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.26",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.27",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Joad Axle Works' General Counsel wants to review names and credentials of all proposed testifying experts before engagement and wants to know whether anyone will speak to industry practice. He prefers that design testimony stay focused on the specific product at issue. He is glad to help identify candidates who have served on standards bodies. Clear any standards-expert plan with him before engagement."
+      },
+      {
+        "id": "N722ac3.28",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Joad Axle Works settlement authority: its insurer, Cobaltridge Indemnity, has pre-approved settlement authority up to $1,500,000. Any offer above that needs written sign-off from Joad's board of directors; verbal indications from a director or officer are not enough. No offer above $1.5 million should be communicated, even as a signal, without that document. The client needs about three weeks to prepare a board consent. If an offer would fall within the insurer's tier, check with the General Counsel before conveying it."
+      },
+      {
+        "id": "N722ac3.29",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.30",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.31",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Joad Axle Works wants quotes before any testing is commissioned and wants to know who pays for shared lab work. It expects explanation where projections exceed its budget assumption."
+      },
+      {
+        "id": "N722ac3.32",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Joad Axle Works insurance: its policy has a $400,000 retention and an aggregate limit the client is watching closely because of other open claims. The insurer's claims handler is Perpetua Wallace. She must be copied on anything bearing on coverage and sent the monthly invoice summary. The client wants to hear the same day if the carrier reserves its rights."
+      },
+      {
+        "id": "N722ac3.33",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Joad Axle Works reporting requirements: a written report every six weeks, with a call after significant events; a first case assessment within 60 days with an exposure range and probability of an adverse result; a phase budget within 45 days; and a short note within five business days after every deposition."
+      },
+      {
+        "id": "N722ac3.34",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Joad Axle Works standing instructions: route all case communications through General Counsel Evander Thorsby. Do not contact current Joad engineers or production staff directly. Make no public statements and refer media, regulator or customer inquiries to him. Limit deposition attendance to one firm lawyer and one insurer lawyer. Give 10 days' notice of any proposed testing. Report immediately any other incidents involving JX-series products. Send preservation recommendations, and observe the litigation hold."
+      },
+      {
+        "id": "N722ac3.35",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Joad Axle Works instruction on witnesses: interview key engineers early and keep a tight circle around who sees test files. Do not offer key engineering or sales witnesses for testimony until the firm and the General Counsel have discussed it."
+      },
+      {
+        "id": "N722ac3.36",
+        "decision": "matter_only",
+        "tags": []
+      }
+    ]
+  }
+}

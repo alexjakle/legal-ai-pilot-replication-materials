@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "018e146a5dae3c38_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 7061,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.05784020000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2821,
+      "provider": "firstParty",
+      "thinkingTokens": 1538,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a593681f444e00b512ef373a5f600f94a76b400ad673bd7cc06cd8bca4c25a03",
+  "session_id": "aac22c0a-9f04-41dc-a281-9b9eb1c89564",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"Retain a witness from the cardiac-lead standards community, such as a member of the working group or committee that drafted the consensus lead standard.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Route any report through Telltale's regulatory affairs review before service.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"Our past Telltale matters took the same approach: Delmore recommends Dr. Marchetti and Hartwell recommends an unnamed standards-community witness.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"Retain a witness from the cardiac-lead standards community, such as a member of the working group or committee that drafted the consensus lead standard.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Route any report through Telltale's regulatory affairs review before service.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Keep the witness away from public characterizations of failure rates beyond what the case needs, given the pending regulatory inspection.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Telltale is defending several ArcLine cases and does not want material from one case appearing in another.\",\"apparent_reach\":\"client\",\"note\":\"States a client concern about keeping material from crossing between its ArcLine cases.\"},{\"output_quote\":\"Under the Hartwell and Delmore instructions, that means giving the General Counsel three candidates with prior-testimony notes and fee quotes before anyone is engaged.\",\"apparent_reach\":\"client\",\"note\":\"Client expert-consultation rule drawn from instruction letters in two matters.\"},{\"output_quote\":\"Hartwell allows ten business days and Delmore two weeks.\",\"apparent_reach\":\"matter\",\"note\":\"Matter-specific time periods for the client's regulatory affairs review of expert reports.\"},{\"output_quote\":\"Her Delmore retention was itself still waiting on client clearance.\",\"apparent_reach\":\"matter\",\"note\":\"Status of Dr. Marchetti's retention in the Delmore matter.\"},{\"output_quote\":\"Design expert (as Vandermeer or Ouellette in the other matters)\",\"apparent_reach\":\"matter\",\"note\":\"Names the design experts used in other Telltale matters.\"}]}",
+  "timestamp": "2026-11-04T03:39:03+00:00",
+  "usage": {
+    "cache_read_tokens": 7061,
+    "cache_write_tokens": 0,
+    "call_id": "018e146a5dae3c38_r2",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 22107,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2821,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:39:03+00:00",
+    "total_cost_usd": 0.05784020000000001
+  }
+}

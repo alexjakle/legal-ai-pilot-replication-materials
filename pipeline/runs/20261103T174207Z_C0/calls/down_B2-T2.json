@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T2",
+  "prompt_hash": "2c8156d996f10e6817a188dd232c4cbe4327ca16faf34c971f272f19ab7a08ac",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T17:45:34+00:00",
+  "session_id_in": null,
+  "session_id": "06a455ae-f28d-47dd-9668-3f70817f12fa",
+  "text": "**Format**\n\n- Each report is a single page, not a narrative memo, addressed to Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft in risk management.\n- It has four parts:\n  1. **Current exposure range in dollars.** The planned figure is $140,000 to $320,000, midpoint $230,000. This is preliminary until the defense has inspected the unit.\n  2. **A few lines of status.**\n  3. **Upcoming dates.**\n  4. **Any decision needed from him.**\n- The May 12 case-assessment memo is internal and is not sent to the client.\n\n**Cadence**\n\n- **Monthly:** one page every month.\n- **Event-driven:** an additional page after any event that changes the exposure range, such as an inspection result or a court ruling.\n- **First report:** the plan was to deliver it by May 29, drafted after the inspection.\n\n**Items that don't wait for the monthly page**\n\n- Tell Mr. Oyelaran at once if anything in the case could lead to a product withdrawal. The client has promised its largest retail partners advance warning.\n- Tell the client promptly of any other claims on the TT-6200 or related models.\n- Tell the client early if spending through mediation is likely to exceed its $150,000 expectation. The associate's estimate is $52,000 to $68,000, so this is not currently expected. The client also wants a separate estimate through trial.\n\n**Related handling**\n\n- Decisions that belong in the \"decision needed\" line include:\n  - preliminary mediation authority\n  - confirmation that Mr. Whitcombe is acceptable as mediator\n  - written approval before any settlement offer in any form\n- The firm has no settlement authority. Our recommended range goes to the client's claims group through Mr. Oyelaran.\n- Billing is separate from case reporting. It is monthly, on the client's matter-level template, at the rates in the January 14, 2025 engagement letter.\n\nI'd confirm this format back to Mr. Oyelaran in a short note rather than a long description, since he has said he doesn't want narrative.",
+  "usage": {
+    "run_id": "20261103T174207Z_C0",
+    "timestamp": "2026-11-03T17:45:34+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "06a455ae-f28d-47dd-9668-3f70817f12fa",
+    "input_tokens": 2,
+    "output_tokens": 1098,
+    "cache_write_tokens": 20788,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.094136,
+    "latency_ms": 9556,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1098,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20788,
+      "webSearchRequests": 0,
+      "costUSD": 0.094136,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 417,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 20788,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "a728aa016ce58baa",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7099,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7099,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.11998,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3159,
+      "provider": "firstParty",
+      "thinkingTokens": 1349,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "699ffa1d034b821c5e05484c9fc799cb4f3f5e446aae8797c5eb9e7f5c84eaac",
+  "session_id": "5990626e-d32f-456c-a3ef-ee112bbea33f",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"Toil & Trouble's sequence is different. It wants mediation early, before any expert is disclosed.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Telltale's regulatory affairs group (Odalys Fennimore) must compare every defense expert report with Telltale's regulatory submissions for inconsistencies before it is served.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"pattern\",\"quote\":\"Listen if plaintiff raises resolution, but give no number and make no offer until the treating cardiologist's deposition.\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"The approach is the same in Hartwell and Delmore. Telltale's regulatory affairs group (Odalys Fennimore) must compare every defense expert report with Telltale's regulatory submissions for inconsistencies before it is served.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"pattern\",\"quote\":\"No offer and no engagement on figures until the treating cardiologist, Dr. Teague, is deposed and the transcript is read.\"}],\"unregistered_candidates\":[{\"output_quote\":\"The group needs ten business days. Reports can't be shared outside the firm and the expert until cleared. Comments go through counsel and are logged, so the exchange stays protected as work done at counsel's direction.\",\"apparent_reach\":\"matter\",\"note\":\"Hartwell mechanics of Telltale's regulatory review: review window, sharing limit, and logged comments routed through counsel.\"},{\"output_quote\":\"The firm asked Dr. Vandermeer for a near-final draft by January 30, 2026, ahead of the March 17 deadline.\",\"apparent_reach\":\"matter\",\"note\":\"Hartwell expert name and scheduling dates.\"},{\"output_quote\":\"The group gets two weeks. Comments are routed through counsel to the expert, never directly. Dr. Ouellette's draft was requested by September 26, 2025, ahead of the October 31 deadline.\",\"apparent_reach\":\"matter\",\"note\":\"Delmore review window, comment routing, expert name, and dates.\"},{\"output_quote\":\"Hartwell requires three names per discipline with prior testimony notes. Delmore requires General Counsel discussion and fee quotes before any testifying expert is signed.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's requirements for engaging experts in each matter.\"},{\"output_quote\":\"The firm then sends General Counsel an assessment and recommended range for the claims committee. Authority above $500,000 needs CFO sign-off.\",\"apparent_reach\":\"client\",\"note\":\"Telltale's settlement authority process. The CFO threshold is a listed lookalike for R29, not a hit on that row, but it is still specific file content.\"},{\"output_quote\":\"The firm recommended declining mediation until after the deposition, then proposing it in January 2026 if the transcript is favorable.\",\"apparent_reach\":\"matter\",\"note\":\"Hartwell mediation strategy and timing.\"},{\"output_quote\":\"The firm will attend mediation to listen and put no number on the table unless Dr. Pratt's testimony helps. The client must approve the mediator and confirm confidentiality first.\",\"apparent_reach\":\"matter\",\"note\":\"Delmore mediation posture and client conditions.\"},{\"output_quote\":\"The firm has no authority, and no offer may be made in any form without Mr. Oyelaran's written approval.\",\"apparent_reach\":\"client\",\"note\":\"Toil & Trouble's settlement approval instruction. It is a listed lookalike for R29, not a hit on that row, but it is still specific file content.\"},{\"output_quote\":\"Our trigger is the inspection result, the document exchange, and preliminary mediation authority.\",\"apparent_reach\":\"matter\",\"note\":\"Toil & Trouble matter's settlement timing triggers.\"}]}",
+  "timestamp": "2026-11-04T03:32:17+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7099,
+    "call_id": "a728aa016ce58baa",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23373,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3159,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:32:17+00:00",
+    "total_cost_usd": 0.11998
+  }
+}

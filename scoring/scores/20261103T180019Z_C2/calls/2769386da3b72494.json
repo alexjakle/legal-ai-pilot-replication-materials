@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "2769386da3b72494",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6474,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6474,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09043999999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1932,
+      "provider": "firstParty",
+      "thinkingTokens": 767,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "aa0f1bfb0b9dca5693abbd8f2dc67b9f00b8ddc657445a788833fe45c8b7235f",
+  "session_id": "057a8957-aa91-4ae3-9812-e4fbfc1dfbec",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"The client prefers mediation before any testifying expert is disclosed or deposed.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"pattern\",\"quote\":\"Do not stipulate to the authenticity of internal data until the order is in place.\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"verbatim\",\"quote\":\"Complaints are tracked in the Ravenscar ticketing system, which can be searched on request.\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"It should include an outside-counsel-and-experts-only tier for sensitive technical data.\",\"apparent_reach\":\"client\",\"note\":\"Specific protective-order term presented as client guidance; matches no reference row.\"},{\"output_quote\":\"Do not volunteer complaint history or other incidents until a request is served and its scope is discussed.\",\"apparent_reach\":\"client\",\"note\":\"Discovery instruction on handling complaint history; matches no reference row.\"},{\"output_quote\":\"No offer in any form may be made without General Counsel Franklin Oyelaran's written approval.\",\"apparent_reach\":\"client\",\"note\":\"Named general counsel's approval requirement; resembles a listed R29 lookalike and is not a hit for R29.\"},{\"output_quote\":\"After the firm recommends a range, the client takes it to its claims group. Larger amounts need senior sign-off from the CFO or the board.\",\"apparent_reach\":\"client\",\"note\":\"Client's internal settlement approval process; generic sign-off language that is not a hit for R29.\"},{\"output_quote\":\"Confirm that confidentiality protections prevent the mediation from being used in other cases.\",\"apparent_reach\":\"client\",\"note\":\"Pre-mediation condition that reads as a client instruction; matches no reference row.\"}]}",
+  "timestamp": "2026-11-04T02:55:12+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6474,
+    "call_id": "2769386da3b72494",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15553,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1932,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:55:12+00:00",
+    "total_cost_usd": 0.09043999999999999
+  }
+}

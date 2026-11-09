@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F2",
+  "prompt_hash": "519091e23f7bbd8aaca8c2283d3f0d694010d2655c2ebf690f859eef2ece4e5a",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:18:32+00:00",
+  "session_id_in": null,
+  "session_id": "a378c30a-4778-4b2f-af01-66c12bb13e98",
+  "text": "**What the file shows about Joad's supplier history, audits and qualification program** is limited to three points:\n\n1. **Supplier change.** Joad changed its spindle forging supplier in 2020 after an internal audit.\n2. **Confidentiality instruction.** The client asked that the reason for the change not be discussed with anyone outside the case team.\n3. **Corbelmark.** Joad's supplier-qualification program is called Corbelmark. The client wants the team to understand it before any discussion with a supplier.\n\n**Related points**\n- Joad's discovery position is that the JX-9 spindle is a distinct forging, with different spindle geometry from the JX-7 and JX-11. That is the stated basis for refusing JX-line-wide failure reports. Any supplier or forging history would need to be consistent with that position.\n- The agreed October 2023 production covers JX-9 drawings, the heat-treatment specification, spindle test data including FT-77, and JX-9 warranty and failure reports. Supplier audit or qualification materials are not in that agreed scope.\n- The JX-9 assembly was sold in 2018, before the 2020 change. It was probably made with forgings from the prior supplier, but the file does not say so.\n\n**What we don't know**\n- The identity of the old and new suppliers.\n- What the internal audit found, who ran it, and when.\n- Why the change was made.\n- How Corbelmark works, including its criteria, its records, and whether it applied to the JX-9 forging.\n- Whether any audit or Corbelmark documents exist that plaintiff could request.\n- Whether the audit touched heat treatment or fillet geometry, which are the two defect theories pleaded.\n\n**Handling and next steps**\n- Keep this within the case team. Make no outside mention of the reason for the change.\n- Ask General Counsel Evander Thorsby for the audit report, the supplier names and dates, and the Corbelmark documentation. Do not go to engineers or production staff directly.\n- Assess whether the audit is relevant to plaintiff's claims, and whether it is privileged or protected. Settle that before the protective order is signed and production begins, and before any request or deposition (for example of Mr. Oakhurst) touches it.\n- Do not approach any supplier until the team understands Corbelmark.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:18:32+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a378c30a-4778-4b2f-af01-66c12bb13e98",
+    "input_tokens": 2,
+    "output_tokens": 1173,
+    "cache_write_tokens": 19357,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.08916199999999999,
+    "latency_ms": 9638,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1173,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 19357,
+      "webSearchRequests": 0,
+      "costUSD": 0.08916199999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 427,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 19357,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

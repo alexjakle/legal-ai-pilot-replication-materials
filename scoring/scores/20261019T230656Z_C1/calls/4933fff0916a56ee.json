@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "4933fff0916a56ee",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5830,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.095568,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2446,
+      "provider": "firstParty",
+      "thinkingTokens": 972,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "fbf3c2688c94e6555fdc492766d7b439c5fd50d00c2b9c0b1fe0169a944ff4cf",
+  "session_id": "f57db1bb-c2c6-4413-a259-ca96462ce820",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Telltale's regulatory affairs group, led by Odalys Fennimore, must clear every expert report, with ten business days allowed. Discovery on what Telltale told the regulator could be sensitive.\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"including any code names or systems beyond Orrinwick.\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Telltale's regulatory affairs group, led by Odalys Fennimore, must clear every expert report, with ten business days allowed.\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"Telltale is in a regulatory inspection tied to its next-generation lead. It asks us to avoid public filings that describe failure rates beyond what the case requires.\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Telltale's regulatory affairs group, led by Odalys Fennimore, must clear every expert report, with ten business days allowed.\", \"apparent_reach\": \"client\", \"note\": \"Specific details of the client's practice: the reviewer's name and a ten-business-day review window. Neither is in R07 or R25.\"},\n{\"output_quote\": \"This tracks the design engineering and complaint-handling records, which Telltale treats as confidential. A protective order must be proposed before anything from it is produced.\", \"apparent_reach\": \"client\", \"note\": \"Describes what the Orrinwick database contains and a client instruction to seek a protective order before production. The instruction is listed as a lookalike for R13, not as a registered row.\"},\n{\"output_quote\": \"These are under a litigation hold and must be preserved.\", \"apparent_reach\": \"client\", \"note\": \"Litigation hold on AL-4120 and ArcLine-family documents.\"},\n{\"output_quote\": \"Any similar claim or incident involving the same or related products should go to the General Counsel immediately.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to report similar incidents to the GC.\"},\n{\"output_quote\": \"Ask the General Counsel, with a copy to Thaddeus Wren, for a short summary of prior discovery disputes involving Telltale. Contact with client staff has to go through the GC.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact to copy, and a client rule that staff contact goes through the GC.\"}\n]}\n```",
+  "timestamp": "2026-10-20T02:33:43+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5830,
+    "call_id": "4933fff0916a56ee",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19172,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2446,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:33:43+00:00",
+    "total_cost_usd": 0.095568
+  }
+}

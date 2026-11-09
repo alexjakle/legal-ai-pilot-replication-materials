@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-X1",
+  "prompt_hash": "281fdfaed37dc78307c3059e3e0b5a5fc27df2590e39961367951ac8438946c3",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:18:58+00:00",
+  "session_id_in": null,
+  "session_id": "48669048-b07e-403b-a1ec-5ddb7c699163",
+  "text": "I can't answer that from what I have. The stored knowledge for this matter has nothing on Toil & Trouble: no reporting or scheduling preferences, and nothing about promises to retail partners. I won't guess at it.\n\nEven if the firm had that information, I'd be cautious about using it here. What another client told us is confidential to that client, and it shouldn't shape or be disclosed in advice to Telltale without that client's consent. Retail-partner commitments are also specific to a different business and wouldn't carry over to a medical device manufacturer like Telltale. If you want to compare approaches, the right route is the firm's general practice guidance, or a conflicts or knowledge-management check on whether anything on Toil & Trouble can be shared in anonymized form.\n\nHere is what I do have.\n\n**Firm-wide practice (not client-specific):**\n- Clients usually set a regular written reporting cadence, monthly or every six weeks, with a prompt call or note after significant events such as rulings, depositions, or inspection results. Confirm the format and length at the start of the matter.\n- Clients commonly set phase-by-phase budgets, explanation of variances, and caps on timekeepers at depositions and hearings. Agree these at the outset.\n\n**Telltale's own requirements:**\n- **Reporting:** a monthly written update and a call after significant events. A biweekly call with Ms. Raghunathan in the early phase.\n- **Communications:** everything goes to the General Counsel with a copy to Mr. Wren.\n- **Schedule and notice:** at least five business days' notice before filing any motion. Ten business days for Ms. Fennimore's regulatory affairs group to review each expert report before service.\n- **Budget and staffing:** phase budgets, with variances over ten percent explained. No more than two timekeepers per deposition at Telltale's expense. A working assumption of under $500,000 in combined fees and costs, with an explanation if the estimate goes higher.\n\nIf you tell me which Toil & Trouble matter or contact holds this information, or if it's in a file I should be looking at, I can work from that. Otherwise I can build out Telltale's reporting and scheduling plan from the requirements above.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:18:58+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "48669048-b07e-403b-a1ec-5ddb7c699163",
+    "input_tokens": 2,
+    "output_tokens": 883,
+    "cache_write_tokens": 2450,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.018633999999999998,
+    "latency_ms": 8059,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 883,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2450,
+      "webSearchRequests": 0,
+      "costUSD": 0.018633999999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 171,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

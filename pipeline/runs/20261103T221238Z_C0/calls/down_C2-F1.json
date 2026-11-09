@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F1",
+  "prompt_hash": "c21c36d14ba462db4c151502c216ef6f96f580978991aa531acae19ee72d0061",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:18:21+00:00",
+  "session_id_in": null,
+  "session_id": "d34c4d5b-7664-411c-a3f5-62cfff3b3445",
+  "text": "The only earlier Joad matter in the file is *Estate of Sven Lindqvist v. Joad Axle Works* (Tamarack County Superior Court, No. TC-23-0459). I've drawn only on Joad's own store and left out the firm's work for other clients. I don't have the facts of C-2, so how closely these points carry over depends on whether it involves the JX-9 spindle or the same people and testing.\n\n**Test results**\n- **FT-77 fatigue series (2017):** Four specimens reached runout, and one failed at 82% of runout. Expect plaintiff to argue this shows an inadequate margin and to ask for the worst version of the data.\n- **Tractor data recorder:** It showed 41 mph on a ramp posted at 35 mph. We used this for comparative fault and an alternative cause, and plaintiff's reconstructionist said the speed was within the legal limit.\n- **Warranty and failure reports:** These covered JX-9 spindle and wheel-end bearing-shoulder reports from 2018 to June 9, 2022. Joad refused JX-line-wide data because the JX-9 spindle is a distinct forging, with different spindle geometry from the JX-7 and JX-11.\n\n**Metallurgical findings**\n- **Plaintiff's side (Dr. Fenwick Ashdown):** He is expected to say beach marks show months of fatigue progression before the incident. He will also attack the fillet radius and the heat treatment.\n- **Joad's preliminary read:** The final overload zone is large, and there is heavy post-separation smearing, consistent with impact failure.\n- **Adverse finding:** A privileged post-accident review found a machining tool mark at the fracture origin that the reviewer could not rule out as the initiation point. It has not been produced and is withheld as work product. Don't disclose or characterize it outside the case team, and keep it from anyone who might be deposed or who drafts expert reports. Consider how it affects any position that the failure came from impact.\n- **Condition of the evidence:** The spindle sat about eight months in a yard, and it is now in a storage facility Joad doesn't control. Expect chain-of-custody and spoliation arguments and a joint-inspection protocol (no sectioning without both sides' engineers present).\n\n**Witness names**\n- **Bertil Oakhurst (chief axle engineer):** He ran the 2017 test program and is expected to be a central witness. Joad wants to speak with us before he testifies, and he should be interviewed early.\n- **Hollis Pruett (former test technician):** He carried out FT-77, left Joad in 2019, and may be deposed on how the testing was conducted.\n- **Dr. Lorraine Pettibone (plaintiff's accident reconstructionist):** She is expected to say axle failure is the only reasonable explanation for the loss of control.\n- **Redfern Freight maintenance personnel:** The last three bearing services are relevant to the alteration and maintenance defenses.\n- **The sales manager on the tractor-builder account:** He can address how the JX-9 was specified and sold, and Joad wants a discussion before he is put forward.\n- **Experts on our side:** Dr. Raul Esquivel is the design engineer, and Dr. Mathilde Grosvenor is the standards witness. Both need client review before engagement.\n- **Counsel:** Octavia Brandvold represented the plaintiff.\n\n**Handling points**\n- Joad refuses to stipulate to authenticity or business-record admissibility of its internal test data, including FT-77, until a protective order is in place.\n- Joad changed spindle forging suppliers in 2020 after an internal audit, under its Corbelmark qualification program. It wants the reason kept within the case team.\n- Don't contact Joad engineers or production staff directly. Route everything through General Counsel Evander Thorsby.\n- Report immediately any other incidents involving JX-series spindles. If C-2 is one, tell Mr. Thorsby right away.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:18:21+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "d34c4d5b-7664-411c-a3f5-62cfff3b3445",
+    "input_tokens": 2,
+    "output_tokens": 1724,
+    "cache_write_tokens": 19371,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.094728,
+    "latency_ms": 12959,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1724,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 19371,
+      "webSearchRequests": 0,
+      "costUSD": 0.094728,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 408,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 19371,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

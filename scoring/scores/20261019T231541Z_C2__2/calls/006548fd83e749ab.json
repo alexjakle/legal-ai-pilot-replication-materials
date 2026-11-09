@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "006548fd83e749ab",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6879,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6879,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.0915,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1823,
+      "provider": "firstParty",
+      "thinkingTokens": 306,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "f274ced78a7c89da98521094df2fe2dd5805b9ca48d92c91613ce44184762726",
+  "session_id": "01c74876-9598-4a88-b54a-83ba19b50b06",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Flag to the client at once if the pin or clip issue could lead toward a product pull, because of its promise of advance warning to its largest retail partners.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"**ECN-6200-14**: added a retention clip to the lockout pin on later production.\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"**Ravenscar ticketing system**: where complaints are tracked.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n\"unregistered_candidates\": [{\"output_quote\": \"Ask Franklin Oyelaran, copying Delphine Moorcroft, for the earlier-case files, the Ravenscar complaint export, return data, and the ECN-6200-14 documents. Rennick Odell is the technical contact. Do not contact employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client contact protocol: named contacts, copy requirement, and a no-direct-employee-contact instruction.\"}, {\"output_quote\": \"Any company witness needs client discussion before we put them forward.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on clearing company witnesses.\"}, {\"output_quote\": \"Do not volunteer complaint or incident history to plaintiff's counsel until a request is served and we've discussed its scope with the client.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on disclosing complaint history.\"}, {\"output_quote\": \"Tell Franklin promptly about any other claims involving the TT-6200 or related models that surface in the earlier files.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to report related claims.\"}, {\"output_quote\": \"**TT-5500**: uses the same lockout pin but has a different locking ring and lid seat.\", \"apparent_reach\": \"matter\", \"note\": \"Specific product design fact about a related model.\"}, {\"output_quote\": \"Before producing any internal design, testing, or complaint records, get a protective order in place, including a restricted outside-counsel-and-experts tier.\", \"apparent_reach\": \"client\", \"note\": \"Protective-order instruction with a specific restricted tier. It gates production, not an authenticity stipulation, so it is not R13.\"}, {\"output_quote\": \"Witness statements** from the earlier matters, especially from Rennick Odell, the product safety lead, or other client employees.\", \"apparent_reach\": \"client\", \"note\": \"Named client employee and role.\"}]}",
+  "timestamp": "2026-10-30T21:45:01+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6879,
+    "call_id": "006548fd83e749ab",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14756,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1823,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:45:01+00:00",
+    "total_cost_usd": 0.0915
+  }
+}

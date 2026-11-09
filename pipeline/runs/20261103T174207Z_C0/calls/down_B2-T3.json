@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "0070f727f81a1082e1f4054b19338638e332c4085883a24a750a8493b1d02495",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T17:45:54+00:00",
+  "session_id_in": null,
+  "session_id": "b9e56983-7da4-441a-9c7b-8746287cec35",
+  "text": "## Preliminary point: our file doesn't match the premise\n\nOur file does not show a manufacturing-defect theory. The petition pleads design defect and negligence, and our working assumption is that Dr. Pellam will say the lockout pin can stick when coated with bean starch or foam. That is a design and use-condition theory. If he now says the unit failed because of how it was made, one of three things has happened:\n\n- He has changed his opinion.\n- We are looking at a different expert.\n- Plaintiff plans to amend.\n\nBefore anything else, get his report or designation and any amended petition, and confirm which it is. Also check the schedule. Under the agreed dates, plaintiff's designations were due August 21 and defense designations October 2, with expert depositions in November. I don't know whether mediation happened or whether those dates held, so verify the current status.\n\n## Approach\n\nUse the same strategy as for Pellam generally. Attack causation and reliability first, before engaging on design or on whether a different lid mechanism would be better.\n\nA manufacturing theory has to show that this unit deviated from the specification and that the deviation caused the failure. It cannot be inferred from the fact that the lid opened. The questions for the expert are:\n\n- **Evidence of deviation:** What measurement, comparison to drawings or testing shows the pin, ring or seat departed from spec?\n- **Replication:** Has he reproduced the failure on a comparable unit?\n- **Alternative causes:** Has he ruled out the July 2025 replacement gasket, alteration, pin removal and residue from use? Has he accounted for the possibility that the unit was returned and resold?\n- **Fit with the facts:** Does the theory match the ordinary-use account and the condition of the pin on inspection?\n- **Lot data:** Does it match the lot history? The Q3-2024 lot has no lid complaints, and the three \"hard to open\" complaints involve other lots.\n\n## Order of work\n\n1. **Pin down the opinion.** Review the designation, report and pleadings. If manufacturing defect isn't pleaded, note that for the response and for any objection to an amendment.\n2. **Confirm preservation.** Establish chain of custody from December, since the unit has been in her engineer's lab only since February. This is the spoliation risk. Also send Marlowe Home & Hardware a preservation request for its sales records.\n3. **Complete the joint non-destructive inspection under the protocol.**\n   - Dr. Takahashi attends in counsel's presence. Nothing is disassembled or cleaned until both engineers agree on steps.\n   - Capture pin travel, residue on the pin and seat, the gasket's origin and the state of the ring.\n   - Get his preliminary read, with no formal report.\n4. **Run the internal fact work.**\n   - Pull the July 2025 gasket shipment records.\n   - Run down the purchase-channel lead on the box returned once and resold as new.\n   - Review the week-of-manufacture line inspection records before they go out.\n   - Settle how to treat ECN-6200-14 before the design file is produced.\n5. **Handle production carefully.** Produce only what was agreed, by June 5 (confirm that happened). Expect plaintiff to push for the whole Q3-2024 lot on a manufacturing theory. Hold to the agreed scope and don't volunteer complaint history. Any request to widen scope goes through discussion and the client first.\n6. **Report to the client.**\n   - Send Mr. Oyelaran, with a copy to Ms. Moorcroft, a one-page report when the inspection result or the expert's opinion changes the exposure range from $140,000 to $320,000.\n   - A manufacturing finding that implicates a lot could lead to a product withdrawal. If anything points that way, tell him at once, because the client has promised retail partners advance warning.\n   - We have no settlement authority and can't signal numbers without his written approval.\n7. **Deposition and challenge.** Take Pellam's deposition (testifying experts only) once the inspection data is in hand. Then move to exclude him on reliability and fit if he hasn't tested or ruled out the gasket and alteration. Dr. Takahashi stays a non-testifying consultant unless we decide to designate him. If we do, clear that with the client first.\n\nA narrowed causation case makes any design or manufacturing argument less relevant, which is why this order comes first.",
+  "usage": {
+    "run_id": "20261103T174207Z_C0",
+    "timestamp": "2026-11-03T17:45:54+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "b9e56983-7da4-441a-9c7b-8746287cec35",
+    "input_tokens": 2,
+    "output_tokens": 2318,
+    "cache_write_tokens": 20805,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.106404,
+    "latency_ms": 19317,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2318,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20805,
+      "webSearchRequests": 0,
+      "costUSD": 0.106404,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 889,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 20805,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

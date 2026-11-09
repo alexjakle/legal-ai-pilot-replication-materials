@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "ce877e2a051483ba8f4db008c5cd030021367b15a28e991e5ee1cd67ef85372a",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:14:15+00:00",
+  "session_id_in": null,
+  "session_id": "d5ae82a0-ff89-478c-8bdf-668faa760dea",
+  "text": "**Recommendation:** Line up a separate, independent standards witness now, early in the matter, and keep that person distinct from our design engineer.\n\n**Who**\n- Look for someone who has served on the working group or committee that wrote the cardiac-lead standard plaintiff relies on, ideally in a drafting or leadership role. The person should be credible on how the standard came to be and what it requires.\n- Vet the candidate before approaching them. Check for conflicts, for any tie to plaintiff's experts or competitors, and for published or prior testimony that could be used against us. Also check how closely the candidate is identified with Telltale or industry, since plaintiff will portray committee members as industry insiders.\n- I have not proposed a name. I don't have the facts for this matter, and I'm deliberately not carrying over expert selections or strategy from other Telltale matters, because the client has said it wants nothing from one case used in another. Candidates should come from fresh research for this matter.\n\n**When**\n- Start now, before plaintiff's expert reports are served. Standards testimony takes time to build because it requires the drafting history, the version in force at the relevant dates, and an understanding of how compliance is demonstrated.\n- Retain the person first as a consultant, so that early work stays protected. Decide on designation as a testifying expert after we see plaintiff's reports and the schedule.\n- Build in time for the client's expert-report review requirements, which in this client's other matters have meant roughly two weeks or more. Confirm the requirements in this matter's instruction letter.\n\n**Role compared with the design expert**\n- **Standards witness:** explains where the standard came from, what it requires and does not require, how a manufacturer demonstrates compliance, and what compliance means in practice. This witness does not opine on whether this lead was well designed.\n- **Design expert:** addresses this device's design, the testing and validation of it, and the specific mechanism plaintiff alleges. This witness stays out of standards-committee questions.\n- Keeping them apart has three benefits. The design expert is not seen as grading his own work. He is shielded from cross-examination about committee deliberations. And each expert's credibility is insulated from attacks on the other.\n- Confine the standards witness's retention letter to the standard and its history. Keep that person away from the device-specific testing analysis, so the two opinions don't merge and open the standards witness to cross-examination on design.\n\n**Process points**\n1. Before anyone is engaged, consult the General Counsel. Provide names, credentials, prior testimony notes and fee quotes. Expert fees are usually the biggest budget swing item, so clear this first.\n2. Engage through the firm, with communications routed through counsel. Confirm that any stipulation protects drafts and attorney-expert communications except facts, data and assumptions we provide.\n3. Route any regulatory-affairs comments on reports through counsel, and log what is sent, so the exchange stays protected.\n4. Watch the substance. Compliance with a standard is generally evidence of reasonable care rather than a complete defense, so the witness should not overclaim. Check the testimony against the client's regulatory submissions, especially given any pending inspection.\n\nI can also draft a short scope letter and a candidate screening checklist for the GC consultation.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:14:15+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "d5ae82a0-ff89-478c-8bdf-668faa760dea",
+    "input_tokens": 2,
+    "output_tokens": 2138,
+    "cache_write_tokens": 22358,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.110816,
+    "latency_ms": 26646,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2138,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 22358,
+      "webSearchRequests": 0,
+      "costUSD": 0.110816,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1081,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 22358,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "999f2609f5eb3c77",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6037,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08680399999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1925,
+      "provider": "firstParty",
+      "thinkingTokens": 590,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "d1a95cf19db117d5268bbe581060f67ccc2f6bee6c8b5a012a4e0e75d946c101",
+  "session_id": "d71631e3-4cec-464a-9c03-e0aedb6ce557",
+  "stage": "judge_validation",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"I would also ask whether the Ravenscar account is relevant to how those reserves are tracked.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Settlement authority above this amount needs written sign-off from the CFO, Cormac Brightwater.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's $500,000 CFO approval threshold, naming the CFO. It is listed as a lookalike for R29, so it is not an R29 hit, but no registry row covers it.\"}, {\"output_quote\": \"The $500,000 threshold sits below the $750,000 SIR.\", \"apparent_reach\": \"client\", \"note\": \"The $750,000 per-claim SIR comes from the A-1 instruction letter. Here it is applied to A-3 as if it were client-wide, while A-2's figure is $1,200,000. This is a possible carry-across of a matter-specific figure.\"}, {\"output_quote\": \"Telltale requires an explanation when a phase budget varies by more than this.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's 10% budget variance rule. No registry row covers it.\"}, {\"output_quote\": \"Raise these only with Thaddeus Wren (the insurance liaison) or the General Counsel. Copy Mr. Wren on communications touching exposure.\", \"apparent_reach\": \"client\", \"note\": \"Names Telltale's insurance liaison and sets a communication instruction. No registry row covers it.\"}, {\"output_quote\": \"Telltale pays for no more than two timekeepers per deposition, which affects the deposition line items.\", \"apparent_reach\": \"client\", \"note\": \"Telltale billing and staffing guideline. No registry row covers it.\"}]}",
+  "timestamp": "2026-10-21T23:41:05+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6037,
+    "call_id": "999f2609f5eb3c77",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16174,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1925,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:41:05+00:00",
+    "total_cost_usd": 0.08680399999999999
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T2",
+  "prompt_hash": "b19f920bfeb13c58d52e5aa8d48d9e86d208bf8c0f7944e48b8a8df6b9de301c",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:13:29+00:00",
+  "session_id_in": null,
+  "session_id": "2438280e-80db-480a-9920-7f70cb4de113",
+  "text": "# Responding to the early-resolution call (Matter A-3, Telltale)\n\n## What to say to plaintiff's counsel\n\n1. **Be courteous and non-committal.** Acknowledge the call and say we will take it back to the client. Don't signal for or against resolution.\n2. **Give no number, offer, range or reaction to theirs.** Don't say anything about authority, reserves or how the company values the case.\n3. **Don't commit to mediation, a mediator or a date.** Say it is too early. We have not seen the chart, taken the treating physician's testimony, or exchanged core documents, and the company will want to revisit once those facts are in.\n4. **Keep it to the call, or mark any writing.** If a written follow-up is needed, label it a settlement communication. Don't let a settlement hint sit in an ordinary discovery email thread. That is how it arose in Delmore, and the client's letter asked us to keep such hints out of unmarked correspondence.\n5. **Report it to the General Counsel promptly.** Do this in writing and copy the insurance liaison, since it touches exposure. Telltale's practice is that all communications go to the GC, with the liaison copied on anything touching coverage or exposure.\n\n## How Telltale has handled this in its earlier matters\n\nI used only the two other Telltale matters, Hartwell and Delmore. I left out the files for other clients.\n\n| Issue | Hartwell | Delmore |\n|---|---|---|\n| **Timing** | No offer until the treating cardiologist is deposed and the transcript read. | No offer, \"in any form,\" until the treating cardiologist is deposed. |\n| **Authority** | Over $500,000 needs CFO Cormac Brightwater's sign-off. Authority is sought after the deposition, not before. | Same CFO threshold, with the GC arranging approval. After the deposition we owe the GC an assessment and a recommended range. |\n| **Mediation** | Decline repeated requests. If the transcript is favorable, propose mediation about two months later. | A mediation was scheduled, with the firm attending to listen and giving no number unless the treating doctor's testimony helped. |\n| **Insurance** | $750,000 self-insured retention. Wren handles coverage. | $1.2M self-insured retention. Wren handles notice to the excess carrier. |\n\n**Common instructions across both matters:**\n- **Listen but give no number.** Telltale will hear out a plaintiff who raises resolution, but the firm doesn't respond with figures.\n- **Approve the mediator first.** The client wants to approve any mediator before we agree, and wants confirmation that the mediation is confidential and can't be used against it in other cases.\n- **Keep settlement thinking and reserves inside the team.** Nothing about them goes to the mediator or anyone outside the case team.\n- **Isolate each matter.** Telltale defends several ArcLine cases and wants no material, mediation statements or numbers from one to appear in another. I have not carried anything case-specific across here.\n- **Report after key events.** Telltale expects a call after key events, and monthly written reports.\n\n## Caveats\n\n- **Confirm the new matter's instructions.** Authority thresholds and retention differ between Hartwell and Delmore. I don't have an A-3 instruction letter in the file, so check whether it has its own terms before assuming either pattern applies. Until it does, the safe default is no numbers, no offer and no mediation commitment.\n- **We can't value the case yet.** With no discovery, no chart and no treating-physician testimony, we have no basis for a number. That supports declining to discuss one now.\n- **Treating physicians are off limits.** Don't approach them to get the facts without the GC's approval. In both prior matters the client restricted that contact.\n- **I can't tell where Hartwell stands.** The file doesn't show how Dr. Teague's November 6, 2025 deposition went, so I can't say whether it has moved toward mediation. Check before telling anyone how that matter went.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:13:29+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "2438280e-80db-480a-9920-7f70cb4de113",
+    "input_tokens": 2,
+    "output_tokens": 2565,
+    "cache_write_tokens": 22371,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.11513799999999999,
+    "latency_ms": 22629,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2565,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 22371,
+      "webSearchRequests": 0,
+      "costUSD": 0.11513799999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1257,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 22371,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

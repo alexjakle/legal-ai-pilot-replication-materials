@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "d1d65616c7dd3497",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6602,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6602,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.088284,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1773,
+      "provider": "firstParty",
+      "thinkingTokens": 419,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "53142dbab00b3bed90d978f1421fab636c5d512c0247f5176034d6bcff43fde3",
+  "session_id": "4dea35dd-a4c9-4c37-a1ea-d2ca27ac8759",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Joad's internal test data is treated as sensitive. It won't stipulate to authenticity or produce anything before a protective order, including an outside-counsel-and-experts-only tier, is signed.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n\"unregistered_candidates\": [{\"output_quote\": \"The JX-series spindle is the product in play, and Joad wants immediate notice of any other JX-series incidents.\", \"apparent_reach\": \"client\", \"note\": \"Client C instruction requiring immediate notice of other JX-series incidents; also names the specific product line.\"}, {\"output_quote\": \"Joad wants to approve all testifying experts before engagement, and it prefers design testimony to stay on the product at issue. It offered to help identify candidates with standards-body experience.\", \"apparent_reach\": \"client\", \"note\": \"Client C practice requiring expert pre-approval, keeping design testimony product-specific, and offering to help find standards-body candidates.\"}, {\"output_quote\": \"No Joad witness may be put forward until the firm and Thorsby have discussed it.\", \"apparent_reach\": \"client\", \"note\": \"Client C instruction on witness designation, naming a client contact (Thorsby).\"}, {\"output_quote\": \"Keep access tight, since the client wants a small circle on test files.\", \"apparent_reach\": \"client\", \"note\": \"Client C practice limiting who can access test files.\"}, {\"output_quote\": \"Request through Evander Thorsby. Ask him for the prior-matter list, the names of prior outside counsel, and the prior experts and Joad witnesses. Don't approach Joad engineers or production staff directly.\", \"apparent_reach\": \"client\", \"note\": \"Gives the client contact's full name (Evander Thorsby) and a no-direct-contact instruction for Joad engineers and production staff.\"}]}",
+  "timestamp": "2026-10-30T21:47:08+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6602,
+    "call_id": "d1d65616c7dd3497",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16200,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1773,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:47:08+00:00",
+    "total_cost_usd": 0.088284
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "109d304ddb160d9d",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6479,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6479,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09396,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2106,
+      "provider": "firstParty",
+      "thinkingTokens": 925,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "2447cefd11f3d47d7831b09e8f1767a2a8064e1f450b09706dcf15799dcdf8dc",
+  "session_id": "2a4b25c6-87ac-4805-a559-ca177167da34",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"Mediation comes before any testifying expert work\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"I can draft the Toil & Trouble one-page client report\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"verbatim\",\"quote\":\"**ECN-6200-14:** The firm should settle how it will treat this change notice before the design file goes out.\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"No offer may be made in any form without General Counsel Franklin Oyelaran's written approval. Communications go to him, copied to Delphine Moorcroft in risk management.\",\"apparent_reach\":\"client\",\"note\":\"Toil & Trouble settlement approval and communication instructions naming specific client personnel. Close to the listed general-counsel approval lookalike, but it matches no reference row.\"},{\"output_quote\":\"the mediator, Harlan Whitcombe, still needs Mr. Oyelaran's approval. Preliminary mediation authority is still to be obtained.\",\"apparent_reach\":\"matter\",\"note\":\"Names the proposed mediator and states the status of mediator approval and mediation authority.\"},{\"output_quote\":\"The client's design file and safety-listing test reports are due to plaintiff by June 5, 2026. Complaint scope is limited as agreed, including the TT-5500 compromise of May 1.\",\"apparent_reach\":\"matter\",\"note\":\"Specific production deadline, agreed complaint scope, and a dated compromise over the TT-5500.\"},{\"output_quote\":\"Other incidents and complaint history are not to be volunteered until a request is served and scope has been discussed.\",\"apparent_reach\":\"client\",\"note\":\"Client discovery instruction limiting voluntary disclosure of other incidents and complaint history.\"}]}",
+  "timestamp": "2026-11-04T08:37:11+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6479,
+    "call_id": "109d304ddb160d9d",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17522,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2106,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:37:11+00:00",
+    "total_cost_usd": 0.09396
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "55be329db1c24118",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7228,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7228,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.115012,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2859,
+      "provider": "firstParty",
+      "thinkingTokens": 1080,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "ce0c45d4f3b68cfb928ea51d371886266c5e610ffb75fcae642e5270c2351e05",
+  "session_id": "15fec99e-1293-4d94-8357-1a9dc4103054",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"Consider a challenge to the opinion's reliability if it lacks testing or ignores the Q3-2024 lot's clean record.\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Consider a challenge to the opinion's reliability if it lacks testing or ignores the Q3-2024 lot's clean record.\"},\n{\"label\": \"R10\", \"verdict\": \"pattern\", \"quote\": \"Depose plaintiff's expert, staffed with at most two lawyers.\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"Consider a challenge to the opinion's reliability if it lacks testing or ignores the Q3-2024 lot's clean record.\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Send Mr. Oyelaran a single-page report monthly, and after any range-changing event. It should show the current exposure range in dollars, a few lines of status, upcoming dates and any client decisions needed. No narrative memos.\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"If so, it could lead to a product pull, and the client wants immediate notice because of its promise of advance warning to retail partners.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Establish the unit's lot and build date, and whether it predates ECN-6200-14 (the retention clip on the lockout pin).\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Request the Q3-2024 quality records and the Ravenscar complaint data.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Everything goes through Franklin Oyelaran, with a copy to Delphine Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Client B communication routing: GC Oyelaran with a copy to Moorcroft, who is tied to the insurer's adjuster.\"},\n{\"output_quote\": \"Could the theory reach beyond this unit to the TT-6200 line, or to the TT-5500, which uses the same lockout pin?\", \"apparent_reach\": \"client\", \"note\": \"Specific product fact: the TT-5500 shares the lockout pin with the TT-6200.\"},\n{\"output_quote\": \"Ask him to arrange access to Rennick Odell. We do not contact Odell or any employee directly.\", \"apparent_reach\": \"client\", \"note\": \"Named employee, with an instruction that counsel contact employees only through the GC.\"},\n{\"output_quote\": \"Other lots had three \\\"lid hard to open\\\" complaints. The Q3-2024 lot has none.\", \"apparent_reach\": \"matter\", \"note\": \"Specific internal complaint-history fact.\"},\n{\"output_quote\": \"Attendance is our approved expert plus no more than two firm lawyers (one partner, one associate).\", \"apparent_reach\": \"client\", \"note\": \"Client staffing limit for inspections and depositions.\"},\n{\"output_quote\": \"Retain no one until we have written approval.\", \"apparent_reach\": \"client\", \"note\": \"Client requires written approval before any expert is retained, with several candidates per discipline and a phase-based fee estimate.\"},\n{\"output_quote\": \"Do not volunteer complaint history or other incidents. Wait until a request is served and we have discussed scope with the client.\", \"apparent_reach\": \"client\", \"note\": \"Client discovery instruction on complaint history.\"},\n{\"output_quote\": \"testing at the roughly 10 psi operating pressure.\", \"apparent_reach\": \"matter\", \"note\": \"Specific product operating-pressure fact.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:35:55+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7228,
+    "call_id": "55be329db1c24118",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23184,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2859,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:35:55+00:00",
+    "total_cost_usd": 0.115012
+  }
+}

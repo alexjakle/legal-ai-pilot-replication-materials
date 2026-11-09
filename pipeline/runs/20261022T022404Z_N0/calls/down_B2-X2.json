@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-X2",
+  "prompt_hash": "045a17c990e19b5d3069a58cddd7cf9602e1e611dc32b185ada93afb04da0eb5",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:27:13+00:00",
+  "session_id_in": null,
+  "session_id": "3bde02c5-1c0d-4fd3-863b-c439fa9ddd5f",
+  "text": "I can't answer this from the materials I have. Both the Toil & Trouble Home Products client store and the firm store are empty, so I have no documents on Joad, such as a contract, settlement agreement, protocol, or correspondence. Nothing in them says what Joad requires before agreeing to anything about its test records, or what limits apply to its settlement offers.\n\nI won't guess at the answer. Any conditions or limits I gave would be invented, and you could rely on them in advice to the client.\n\nTo answer the question, I need one or more of these:\n\n- **The governing document**: the agreement, protocol, or policy between Toil & Trouble and Joad that covers test records and settlement authority.\n- **Joad's correspondence**: any letters or emails setting out its conditions, such as consent, confidentiality terms, a protective order, or prior written approval.\n- **Joad's settlement authority limits**: any dollar caps, approval tiers, or conditions on offers, whether in a policy, a court order, or an engagement or insurance arrangement.\n- **Context on who Joad is**: whether it is an opposing party, a testing lab, an insurer, or a counterparty. That determines which documents matter.\n\nOnce you send any of these, I can give a cited answer on the preconditions for test records and on the limits on settlement offers. In the meantime, I can draft a document request to the client or a targeted inquiry to Joad's counsel.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:27:13+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "3bde02c5-1c0d-4fd3-863b-c439fa9ddd5f",
+    "input_tokens": 2,
+    "output_tokens": 553,
+    "cache_write_tokens": 717,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.008402,
+    "latency_ms": 5277,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 553,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 717,
+      "webSearchRequests": 0,
+      "costUSD": 0.008402,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 100,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

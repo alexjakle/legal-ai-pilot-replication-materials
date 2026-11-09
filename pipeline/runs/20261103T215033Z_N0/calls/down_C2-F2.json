@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F2",
+  "prompt_hash": "60fc0b8c09145fe0e621b768007e357a9c1328effa1aeb1e7b1ca95bf13028dd",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:55:53+00:00",
+  "session_id_in": null,
+  "session_id": "141c5d56-27ba-44da-817a-533572fae093",
+  "text": "We currently know nothing about Joad Axle Works' supplier history, supplier audits, or any supplier-qualification program. Both the client store (Joad Axle Works) and the firm store are empty, so there is no stored material on these topics for matter C-2. I haven't been given any documents, correspondence, or prior work product to draw on, and I won't infer or assume facts about the company from its name or industry.\n\n**What this means**\n- I can't confirm whether Joad has a formal supplier-qualification program, who its suppliers are or have been, or whether any audits (internal, customer-driven, or third-party) have been done.\n- Any statement on these points right now would be speculation.\n\n**Suggested next steps**\n1. **Request documents from the client**\n   - Approved supplier list and supplier history (onboarding dates, terminations, key sole-source or critical suppliers)\n   - Supplier qualification procedures, quality manuals, and supplier code of conduct\n   - Supplier audit reports, scorecards, corrective-action requests, and nonconformance records\n   - Supply agreements and quality or specification terms\n   - Certifications relevant to the business (e.g., ISO 9001, IATF 16949) and any customer-mandated supplier requirements\n   - Records of supplier-related disputes, recalls, or warranty claims\n2. **Ask the client key questions**\n   - Who owns supplier management (procurement, quality, compliance)?\n   - Are there supplier-related issues tied to the subject of matter C-2?\n   - Are there any related regulatory, customer, or insurer inquiries?\n3. **Check internal firm resources** for any prior matters involving Joad that might not be indexed in the stores.\n4. **Consider scope**: depending on what C-2 involves (e.g., product liability, a supply dispute, or a transaction), I can tailor the request list and prioritize the most relevant items.\n\nOnce documents are provided or the stores are populated, I can summarize the findings and flag gaps or risks.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:55:53+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "141c5d56-27ba-44da-817a-533572fae093",
+    "input_tokens": 2,
+    "output_tokens": 646,
+    "cache_write_tokens": 732,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.009392,
+    "latency_ms": 6309,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 646,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 732,
+      "webSearchRequests": 0,
+      "costUSD": 0.009392,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 732,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

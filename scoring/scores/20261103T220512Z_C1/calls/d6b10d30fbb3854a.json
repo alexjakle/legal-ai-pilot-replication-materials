@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "d6b10d30fbb3854a",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6772,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6772,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08898400000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1740,
+      "provider": "firstParty",
+      "thinkingTokens": 562,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "80b8e4d9cf15c1747b5ea8960d8d04bef28195473c4b28a419c1c1439d6a4536",
+  "session_id": "8fdb5de2-f00d-4873-9464-3a892cb390ef",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Do not agree to any new testing or re-testing without a quote and the client's required ten days' notice.\",\"apparent_reach\":\"client\",\"note\":\"Specific Joad instruction requiring a quote and ten days' notice before new testing.\"},{\"output_quote\":\"Any stipulation affects exposure, so copy the insurer's claims handler, Perpetua Wallace, because the insurer will want to be involved.\",\"apparent_reach\":\"client\",\"note\":\"Names Joad's insurer claims handler and describes the practice of involving the insurer in matters affecting exposure.\"},{\"output_quote\":\"Request these through the GC's office. Do not contact Joad engineers or production staff directly.\",\"apparent_reach\":\"client\",\"note\":\"Client protocol routing document requests through the general counsel and barring direct contact with engineers or production staff.\"},{\"output_quote\":\"Ask whether any other incidents or claims involve the same product or test program, since Joad wants prompt reports of those.\",\"apparent_reach\":\"client\",\"note\":\"Client reporting preference for prompt reports of other incidents or claims.\"},{\"output_quote\":\"It belongs in the first case assessment, which is due within 60 days.\",\"apparent_reach\":\"matter\",\"note\":\"Specific client deadline for the first case assessment; listed as a lookalike for R19 but not a one-page report requirement.\"},{\"output_quote\":\"take the question to Joad's General Counsel, Evander Thorsby, before committing to anything.\",\"apparent_reach\":\"client\",\"note\":\"Names Joad's general counsel from the firm's client file.\"}]}",
+  "timestamp": "2026-11-04T08:26:02+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6772,
+    "call_id": "d6b10d30fbb3854a",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 13676,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1740,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:26:02+00:00",
+    "total_cost_usd": 0.08898400000000001
+  }
+}

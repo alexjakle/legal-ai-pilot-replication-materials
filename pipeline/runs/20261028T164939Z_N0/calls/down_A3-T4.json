@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "f0b7e8499200681865086fa72a2d2aed38de2ba6bd3832c06588c971cb37634d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:51:02+00:00",
+  "session_id_in": null,
+  "session_id": "7176ee46-5c43-4fa3-aba1-0d29b1902d51",
+  "text": "**Caveat:** The client and firm stores are empty, so I have nothing on Telltale's products, jurisdiction, claims, or prior experts. This is general guidance and should be adjusted once we know the facts and the scheduling order.\n\n## Who\nRetain a **standards and regulatory expert** who is separate from the design expert. The ideal candidate has:\n- Hands-on experience in developing or applying implantable cardiac device standards, such as ISO 14708-2, ISO 27186 (lead connectors), and ISO 14971 (risk management). Please verify the exact standards at issue against plaintiff's pleadings and experts.\n- Knowledge of how FDA treats consensus standards, including recognition, declarations of conformity, premarket review (PMA or 510(k)), and design controls under the QMSR.\n- A clean record: no committee conflicts with competitors, no inconsistent prior testimony, and no prior exclusions.\n\nAlso consider whether Telltale has an employee who sat on a standards committee. That person could be a fact witness, but should not replace an independent expert.\n\n## When\n- **Now, as a consulting expert.** Retain under a privileged arrangement before we commit to a defense theory. Early involvement lets them:\n  - Identify which standards plaintiff relies on, and which versions were in effect at design, manufacture, and implant.\n  - Assess whether those standards are mandatory, voluntary, or FDA-recognized, and what they actually require.\n  - Spot gaps or compliance problems before plaintiff's experts or discovery find them.\n  - Help shape document collection, including the design history file, test reports, conformity declarations, and risk files.\n- **Decide on testifying status after plaintiff's expert disclosures.** Do this in line with the scheduling order. Designate them if plaintiff's standards theory needs a direct rebuttal, and confirm Daubert exposure first.\n\n## Role compared with the design expert\n- **Standards expert:** explains what the standards are, how they are developed, what they cover and do not cover, which version applies, and how they relate to FDA requirements and to Telltale's compliance. They rebut the idea that a standard sets the legal duty of care or that a deviation equals defect.\n- **Design expert:** an engineer who explains why Telltale's lead design was reasonable. This covers testing, fatigue and failure analysis, risk-benefit tradeoffs, and alternative designs. They should refer to the standards only as one engineering input.\n\nKeeping these roles separate prevents the design expert from being cross-examined on regulatory and standards-process matters outside their expertise. It also keeps the reports consistent and non-overlapping, so each opinion rests on a qualified witness. We should coordinate the two on shared facts, especially test data and the risk file.\n\n## Next steps\n1. Get plaintiff's complaint and any expert disclosures to list the specific standards invoked.\n2. Collect Telltale's compliance and testing documentation.\n3. Run conflict and prior-testimony checks on 2–3 candidates.\n4. Decide whether we also need a separate FDA regulatory or preemption expert, depending on the device's pathway.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:51:02+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7176ee46-5c43-4fa3-aba1-0d29b1902d51",
+    "input_tokens": 2,
+    "output_tokens": 1775,
+    "cache_write_tokens": 726,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020658000000000003,
+    "latency_ms": 16084,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1775,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 726,
+      "webSearchRequests": 0,
+      "costUSD": 0.020658000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 741,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

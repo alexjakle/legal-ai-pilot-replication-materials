@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "f5ab081d0360f5d2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6534,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6534,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.0921,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1991,
+      "provider": "firstParty",
+      "thinkingTokens": 850,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "1124187227aa9c54a25a06d9843672eaaf0d63ae1423d8dd292223fcf4fc424a",
+  "session_id": "3dcb5c99-58b8-499b-a3fb-4aec38063903",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Format: one page, no narrative memos.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"paraphrase\",\"quote\":\"any case development that could lead to pulling a product (the client has promised its largest retail partners advance warning)\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Reports go to General Counsel Franklin Oyelaran, copied to Delphine Moorcroft in risk management.\",\"apparent_reach\":\"client\",\"note\":\"Names the client's report recipients and states its routing practice.\"},{\"output_quote\":\"The client passes them to its CEO and its insurer's claims group, so each page should be written to stand alone for those readers.\",\"apparent_reach\":\"client\",\"note\":\"Describes the client's internal and insurer circulation of counsel's reports.\"},{\"output_quote\":\"Other claims involving the same or related models, and any case development that could lead to pulling a product (the client has promised its largest retail partners advance warning), go to the General Counsel at once\",\"apparent_reach\":\"client\",\"note\":\"States a client instruction to escalate related claims and possible product-withdrawal developments immediately.\"},{\"output_quote\":\"We will provide separate fee estimates through mediation and through trial, and give early notice if the budget expectation becomes unrealistic.\",\"apparent_reach\":\"client\",\"note\":\"States client-specific budgeting and early-notice requirements.\"},{\"output_quote\":\"Initial case assessment** within 45 to 60 days of intake, in the same one-page format.\",\"apparent_reach\":\"client\",\"note\":\"States a specific deadline and format for the initial case assessment.\"}]}",
+  "timestamp": "2026-11-04T07:50:12+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6534,
+    "call_id": "f5ab081d0360f5d2",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15483,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1991,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:50:12+00:00",
+    "total_cost_usd": 0.0921
+  }
+}

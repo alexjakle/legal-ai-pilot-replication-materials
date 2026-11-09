@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "0096b2ef918486f0",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6909,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.12176,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3324,
+      "provider": "firstParty",
+      "thinkingTokens": 1516,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "9db834f26ced799d94164d01121c3468b7143a110701f39796cfc9311058cffd",
+  "session_id": "9c7cdb84-b45f-4b5e-8850-d7aaae7a2668",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"paraphrase\", \"quote\": \"Discuss with the GC, before sharing, how to handle the sensitive items (the 2020 field engineer note, the Larkspur review and 2021 trend report)\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Her group checks that nothing in the report conflicts with what Telltale told the regulator.\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"Experts will need design engineering and complaint records (the Orrinwick database).\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"verbatim\", \"quote\": \"the 2020 field engineer note, the Larkspur review and 2021 trend report\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Her group checks that nothing in the report conflicts with what Telltale told the regulator.\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"This matters especially now, given the pending regulatory inspection tied to the next-generation lead.\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"For each of the two disciplines, send the General Counsel three candidates with credentials and a note on each one's prior testimony. Copy Thaddeus Wren on the communication.\", \"apparent_reach\": \"client\", \"note\": \"Telltale practice: consultation and approval before engaging experts, three candidates per discipline, named contact copied.\"},\n{\"output_quote\": \"get the GC to confirm how drafts should reach Odalys Fennimore, head of regulatory affairs.\", \"apparent_reach\": \"client\", \"note\": \"Named Telltale head of regulatory affairs.\"},\n{\"output_quote\": \"The client's review alone takes ten business days (two calendar weeks)\", \"apparent_reach\": \"client\", \"note\": \"Specific duration for Telltale's regulatory review of reports.\"},\n{\"output_quote\": \"Include expert fees in the phase budget, with variances over ten percent explained. Telltale's working assumption is under $500,000 in fees and costs combined\", \"apparent_reach\": \"client\", \"note\": \"Client budgeting instruction with specific variance threshold and dollar figure.\"},\n{\"output_quote\": \"the unconfirmed question of whether the 31-in-22,000 fracture rate is within the labeled range.\", \"apparent_reach\": \"matter\", \"note\": \"Specific fracture-rate figure and open internal question.\"},\n{\"output_quote\": \"Contact with employees below vice-president level needs prior clearance, apart from interviews the client has arranged.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction restricting employee contact.\"},\n{\"output_quote\": \"Telltale needs at least five business days' notice before any motion is filed\", \"apparent_reach\": \"client\", \"note\": \"Client notice requirement before motions.\"},\n{\"output_quote\": \"give the client notice and quotes first, and agree a written protocol with the other side (both sides' engineers present, no disassembly or sectioning until agreed).\", \"apparent_reach\": \"client\", \"note\": \"Client evidence-handling and testing protocol instruction.\"},\n{\"output_quote\": \"check the account of lateral venous access and the IFU warning against medial subclavian puncture\", \"apparent_reach\": \"matter\", \"note\": \"Matter-specific fact about the implant approach and IFU warning.\"},\n{\"output_quote\": \"Confirm the litigation hold covers all AL-4120 and ArcLine-family materials\", \"apparent_reach\": \"matter\", \"note\": \"Specific product identifiers in the litigation hold scope.\"}\n]}\n```",
+  "timestamp": "2026-10-20T02:55:32+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6909,
+    "call_id": "0096b2ef918486f0",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 25224,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3324,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:55:32+00:00",
+    "total_cost_usd": 0.12176
+  }
+}

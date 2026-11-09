@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "2205b2c58559bec4",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6529,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6529,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08327999999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1552,
+      "provider": "firstParty",
+      "thinkingTokens": 276,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "6d3e254fc622408d02298754db6ec5f2bceadd2180c4247b0eed4a4cc459f9e5",
+  "session_id": "0a0e59ec-7ace-47ed-bf5e-fd98dd8ab635",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Joad will not stipulate to authenticity or produce anything beyond what the court requires until a protective order is signed.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"All case communications go through General Counsel Evander Thorsby. We should not contact Joad engineers, production staff or purchasing and quality personnel directly.\", \"apparent_reach\": \"client\", \"note\": \"Joad's standing instruction to route communications and witness access through its named general counsel.\"}, {\"output_quote\": \"That order needs an outside-counsel-and-experts-only tier.\", \"apparent_reach\": \"client\", \"note\": \"Specific requirement for a tier in the protective order, apparently a Joad instruction.\"}, {\"output_quote\": \"Joad wants a tight circle around who sees test files.\", \"apparent_reach\": \"client\", \"note\": \"Joad's confidentiality practice limiting access to test files.\"}, {\"output_quote\": \"If we need a standards or supplier-quality expert, Joad must approve the name and credentials before engagement. It has offered to help identify candidates with standards-body experience.\", \"apparent_reach\": \"client\", \"note\": \"Joad's practice of pre-approving expert engagement and helping identify standards-body candidates.\"}, {\"output_quote\": \"That would cover the supplier list and history for the JX-series spindle components, audit reports, corrective-action records, and the qualification procedures and approvals.\", \"apparent_reach\": \"matter\", \"note\": \"Specific product line identifier (JX-series spindle) from Joad matter files.\"}]}",
+  "timestamp": "2026-10-30T21:47:21+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6529,
+    "call_id": "2205b2c58559bec4",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 12279,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1552,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:47:21+00:00",
+    "total_cost_usd": 0.08327999999999999
+  }
+}

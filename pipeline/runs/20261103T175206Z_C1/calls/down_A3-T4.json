@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "074b051c90bcb0ebf8a33fcf3d4ac826b1e617e98e738b9a60d29c4b574b0169",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:55:25+00:00",
+  "session_id_in": null,
+  "session_id": "11551440-c9e0-4dcc-aa36-f4192a640e0c",
+  "text": "# Standards expert for Matter A-3 (Telltale)\n\n## Who\nWe need a separate, dedicated standards/industry-practice expert. Our design expert shouldn't carry this alone. The profile should be:\n\n- Hands-on experience with the cardiac lead and implantable-device standards plaintiff relies on (e.g., ISO/IEC/AAMI lead and active-implantable standards), ideally including standards-committee participation.\n- Knowledge of how FDA treats consensus standards in premarket review and design controls.\n- A clean, consistent prior-testimony record, since that gets vetted.\n\nI have no names in the file, so we need to source candidates. Which standards plaintiff cites should be confirmed from the complaint and their expert disclosures.\n\n## When\nStart now, before anyone is engaged. Telltale's requirements drive the sequence:\n\n1. **Candidate package.** Send General Counsel Marguerite Salvesen, with a copy to Thaddeus Wren, three candidates for this discipline, with credentials and prior-testimony notes. Our general practice is to expect extra clearance for standards experts, so flag it as a priority. We do not engage anyone until Telltale has been consulted.\n2. **Initial case assessment.** This is due within 45 days of the engagement letter. Use it to report the expert plan and why we need a standards expert. Include expert costs in the phase budget.\n3. **Report schedule.** Odalys Fennimore's regulatory affairs group must review every expert report before service, to check consistency with what Telltale told the regulator. The group needs ten business days. Reports can't go outside the firm and the experts until cleared. So the internal deadline for the draft should be at least ten business days, plus a cushion for revisions, before the service date. Calendar it at intake. Standards opinions are exactly where regulatory consistency issues come up, so this review is likely to matter.\n4. **Protective order.** Propose one before sharing or producing any design-engineering or complaint-handling material (including Orrinwick data) with the expert. The expert should see only what is needed.\n\n## Role compared with the design expert\n| | Standards expert | Design expert |\n|---|---|---|\n| Focus | What the standards require, whether they set minimums or a standard of care, how the industry and FDA apply them, and whether Telltale's lead and process met them | The lead's actual design, testing, risk analysis, and engineering choices, and whether the design was reasonable and causally connected to the alleged failure |\n| Rebuts | Plaintiff's use of standards as a benchmark for what Telltale should have done | Plaintiff's design-defect and causation theories |\n| Stays out of | Detailed design merits, causation, and failure rates | Characterizing industry practice and standards broadly |\n\nThe two should be coordinated so their reports are consistent and don't overlap. The design expert shows the design satisfies the standards, and the standards expert explains what those standards mean and how they're applied. Keep both reports from characterizing failure rates beyond what the case requires. Telltale asked us to avoid that because of its regulatory inspection tied to the next-generation lead. Confirm with Marguerite that this is still current, since the status I have is as of 2025.\n\n## Other points\n- Don't contact Telltale employees below vice president level to brief the expert. Route access through Marguerite.\n- Only two timekeepers at a deposition are paid for, so plan who defends and who attends.\n- Report anything the expert learns about related incidents to Telltale promptly.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:55:25+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "11551440-c9e0-4dcc-aa36-f4192a640e0c",
+    "input_tokens": 2,
+    "output_tokens": 1901,
+    "cache_write_tokens": 2104,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.02743,
+    "latency_ms": 15914,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1901,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2104,
+      "webSearchRequests": 0,
+      "costUSD": 0.02743,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 754,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2104,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

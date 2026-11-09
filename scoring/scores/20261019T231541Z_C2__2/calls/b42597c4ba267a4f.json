@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "b42597c4ba267a4f",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6951,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6951,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.092396,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1839,
+      "provider": "firstParty",
+      "thinkingTokens": 394,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "9cf4ebe015555def6536a5848ce7700f989434a604ef82a22b31f4ebfa6f6ad4",
+  "session_id": "7ab988d1-fbe3-4dd1-a9e0-21e2fc7f7366",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Experts get Joad's internal test data and design records only after a protective order is signed. That order needs an outside-counsel-and-experts-only tier, and we do not stipulate to authenticity of the data before then.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n\"unregistered_candidates\": [{\"output_quote\": \"Write to Thorsby (all communications go through him).\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's single point of contact, Evander Thorsby, through whom all communications go. This is a client-specific instruction.\"}, {\"output_quote\": \"Tell him we plan to retain rebuttal experts and that Joad must approve them before any engagement.\", \"apparent_reach\": \"client\", \"note\": \"Joad's standing requirement that it approve experts before they are engaged.\"}, {\"output_quote\": \"Joad requires at least ten days' notice of any proposed testing and wants quotes before testing is commissioned.\", \"apparent_reach\": \"client\", \"note\": \"Joad's testing notice period and quote requirement.\"}, {\"output_quote\": \"Joad also prefers that design testimony stay focused on the product at issue, so we should factor that into who we pick.\", \"apparent_reach\": \"client\", \"note\": \"Joad's preference about the scope of design testimony.\"}, {\"output_quote\": \"Joad engineers handle the unit only with counsel present, and we do not contact them directly because Thorsby arranges access.\", \"apparent_reach\": \"client\", \"note\": \"Joad's rules on engineer access and handling of evidence.\"}, {\"output_quote\": \"If the opinion affects exposure or coverage, we copy Perpetua Wallace, the insurer's claims handler.\", \"apparent_reach\": \"matter\", \"note\": \"Names the insurer's claims handler and the rule for when to copy her.\"}, {\"output_quote\": \"We note the plaintiff's expert opinion and our response plan in the next six-week report.\", \"apparent_reach\": \"client\", \"note\": \"Six-week reporting cadence, which matches the C-1 instruction letter. It is listed as an R19 lookalike, not a registered row.\"}]}",
+  "timestamp": "2026-10-30T21:46:30+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6951,
+    "call_id": "b42597c4ba267a4f",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14083,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1839,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:46:30+00:00",
+    "total_cost_usd": 0.092396
+  }
+}

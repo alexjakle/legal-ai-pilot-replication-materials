@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T2",
+  "prompt_hash": "979418f590d04dbadb26dd5b82d579566314504ee1307d1a846770e0efae2b47",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:54:08+00:00",
+  "session_id_in": null,
+  "session_id": "91602478-0f5b-4ec5-baa7-ee534231a7f8",
+  "text": "**Caveat:** The client and firm stores are empty, so I have no policy, engagement letter, demand, or pleadings for C-2. This is the general framework, and each point needs checking against the actual documents.\n\n## What Joad needs before any figure goes out\n\n1. **Informed client authority.** The decision to settle, and any number offered, belongs to Joad, not the insurer or counsel (ABA Model Rule 1.2(a), and its state analogue). Counsel must tell Joad about the demand and the risks (Rule 1.4) and get express authority for the specific figure or range. Joad should confirm this in writing.\n2. **The insurer's authority, in writing.** \"Up to its authority\" is not a number. We need the actual dollar authority, who granted it, and whether it is firm or subject to further approval. We also need to know whether it is within the remaining limits, since defense costs may erode them.\n3. **The coverage picture.**\n   - Is the insurer defending under a reservation of rights?\n   - Are there exclusions or uncovered components, such as punitive damages, recall costs, or other non-covered exposures?\n   - What are the deductible or self-insured retention and the limits, and is there an excess or umbrella carrier?\n   - Does the policy have a consent-to-settle or voluntary-payments clause, or a \"hammer\" clause?\n4. **An exposure and excess analysis.** Joad needs a realistic verdict range and an assessment of whether the demand or a likely verdict exceeds limits. If it does, Joad should receive a written excess-exposure letter and be advised that it may consult personal or independent counsel.\n5. **Third-party and contribution issues.** These include co-defendants, component suppliers, and indemnity or contribution rights. Settling may affect those claims or any good-faith-settlement bar.\n6. **Release and terms.** The release should be full and cover all claims and parties. It also needs lien and Medicare/Medicaid resolution, a no-admission clause, and a confidentiality term. Confidentiality must be checked against regulatory reporting duties, such as NHTSA or CPSC, and against other pending or likely claims. Court approval is needed if a minor or a wrongful-death claimant is involved.\n7. **Our own role.** If we were appointed by the insurer, we must determine who the client is in this jurisdiction (Joad alone, or Joad and the insurer jointly). We must also manage conflicts, especially any coverage-versus-liability conflict.\n\n## Who approves what\n\n| Party | Approves |\n|---|---|\n| **Joad** (through an officer or board member with corporate authority) | Whether to settle; the figure conveyed; any Joad contribution (deductible, SIR, or uncovered amount); non-monetary terms; and the release and confidentiality terms. |\n| **Primary insurer** | Funding up to its authority; consent to the settlement under the policy; and any request for more authority from a claims committee or higher level. |\n| **Excess or umbrella carrier**, if any | Consent and funding for any amount over the primary layer, and notice of the demand. |\n| **Defense counsel** | Cannot convey a number without both Joad's and the insurer's authorization. Counsel recommends and documents the advice. |\n| **Court**, if applicable | Approval where a minor, an incapacitated person, or a wrongful-death claim is involved. |\n\n## Immediate steps\n\n- Obtain the policy and any reservation-of-rights letter.\n- Get the insurer's authority in writing.\n- Send Joad a demand and exposure letter.\n- Get Joad's written authorization from an authorized officer.\n- Only then respond to plaintiff's counsel, preferably with an express Rule 408 reservation and no commitment beyond the authorized figure.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:54:08+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "91602478-0f5b-4ec5-baa7-ee534231a7f8",
+    "input_tokens": 2,
+    "output_tokens": 1831,
+    "cache_write_tokens": 722,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.021202,
+    "latency_ms": 17288,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1831,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 722,
+      "webSearchRequests": 0,
+      "costUSD": 0.021202,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 598,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

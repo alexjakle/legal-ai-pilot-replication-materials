@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F2",
+  "prompt_hash": "a728f389229f0d0b5097a78d0812c2edce5dad7379f0ba7200c68400786e71c1",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:57:40+00:00",
+  "session_id_in": null,
+  "session_id": "0015ff8c-09b1-454a-abd0-ddb38ca57b36",
+  "text": "Our stored knowledge has very little on this, and I don't want to guess at identifiers.\n\n**What the file shows**\n\n| Item | Type | Notes |\n|---|---|---|\n| **Ravenscar** | Internal system | Toil & Trouble's consumer-complaint ticketing system. The client can search it on request. |\n| **PressureMate TT-6200** | Product name and model number | The six-quart electric pressure cooker. Expect \"TT-6200\" in file names, tickets and test records. |\n| **Lot designations (e.g., \"Q3-2024 lot\")** | Production-lot convention | This is how our notes refer to lots. The client's own lot-code format isn't recorded, so confirm it. |\n| **\"Lid hard to open\"** | Complaint wording | Three complaints used this phrasing on other 2024 lots. Expect similar ticket categories or tags in Ravenscar. |\n| **Rennick Odell** | Person | The technical contact. He may appear as an author or custodian. |\n\n**What the file does not show**\n- No Bates prefixes, document-control numbers, or file-naming conventions from earlier matters.\n- No project or product code names.\n- No other internal systems, such as engineering change, QA, test-lab, or document-management platforms.\n- No identifiers for the independent laboratory lid testing the client says was done before launch. We have no lab name or report numbers.\n\n**How to fill the gaps**\n1. Check the firm's closed-matter files from earlier Toil & Trouble work, including the Okafor matter, for prior productions, privilege logs, and discovery responses. These are the most reliable source for Bates prefixes and system names.\n2. Ask Mr. Oyelaran, with a copy to Delphine Moorcroft, for a short list of the relevant systems, lot-code formats, and any internal code names. Odell and other employees must be reached only through the client, not directly.\n3. When the production arrives, ask the client for a data map or custodian list as part of the scope discussion.\n\nRavenscar and the complaint history shouldn't be raised with anyone outside the client or the firm until a request is served and scope is discussed. This list is for internal use only.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:57:40+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "0015ff8c-09b1-454a-abd0-ddb38ca57b36",
+    "input_tokens": 2,
+    "output_tokens": 974,
+    "cache_write_tokens": 2234,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.018680000000000002,
+    "latency_ms": 16657,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 974,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2234,
+      "webSearchRequests": 0,
+      "costUSD": 0.018680000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 267,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2234,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

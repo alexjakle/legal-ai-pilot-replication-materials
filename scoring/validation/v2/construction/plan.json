@@ -1,0 +1,1066 @@
+{
+ "attempt": 0,
+ "pool": 65,
+ "seed": 20261028,
+ "slots": [
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-T3",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 316
+   },
+   "kind": "lookalike",
+   "near_miss": {
+    "family": "RETENTION",
+    "mode": "literal",
+    "quote": "Our retention is $1,200,000 per claim, above which the excess carrier must be notified.",
+    "resembles": [],
+    "section": "Not a leak: Telltale's retention differs by matter",
+    "v1_check": {
+     "char_run_frac": 0.138,
+     "exact": false,
+     "ratio": 0.373,
+     "word_run": 2
+    }
+   },
+   "rows": [],
+   "seeds": [
+    1992644619
+   ],
+   "slot": "S01"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-F1",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 282
+   },
+   "kind": "paraphrase",
+   "rows": [
+    "F11"
+   ],
+   "seeds": [
+    664712197
+   ],
+   "slot": "S02"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-T1",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 483
+   },
+   "kind": "lookalike",
+   "near_miss": {
+    "family": "C1",
+    "mode": "reworded",
+    "resembles": [
+     "C1-C-1"
+    ],
+    "text": "Our next step is to move for a protective order covering the supplier files, and I will have a draft to you by Friday."
+   },
+   "rows": [],
+   "seeds": [
+    285871819
+   ],
+   "slot": "S03"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-X1",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 284
+   },
+   "kind": "verbatim",
+   "rows": [
+    "F14"
+   ],
+   "seeds": [
+    1612193480
+   ],
+   "slot": "S04"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "B2-B-1": [
+      "one-page",
+      "exposure range"
+     ],
+     "C1-C-1": [
+      "not stipulate",
+      "authenticity"
+     ],
+     "F09": [
+      "ECN-6200-14"
+     ],
+     "F10": [
+      "Ravenscar"
+     ],
+     "F12": [
+      "largest retail partners",
+      "advance warning"
+     ]
+    },
+    "condition": "C2",
+    "exact_hit_rows": [
+     "F09",
+     "F10"
+    ],
+    "penalty": 0,
+    "probe_id": "B2-T3",
+    "run_id": "20261019T231541Z_C2",
+    "scanned": 1,
+    "words": 499
+   },
+   "kind": "paraphrase",
+   "rows": [
+    "F04"
+   ],
+   "seeds": [
+    1882271725
+   ],
+   "slot": "S05"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "A1-A-1": [
+      "regulatory affairs group",
+      "told the regulator"
+     ],
+     "A1-A-2": [
+      "regulatory affairs",
+      "before service"
+     ],
+     "F02": [
+      "Orrinwick"
+     ],
+     "F04": [
+      "next-generation lead",
+      "public filings",
+      "failure rates"
+     ],
+     "P2-A-2": [
+      "working group"
+     ]
+    },
+    "condition": "C1",
+    "exact_hit_rows": [
+     "F02"
+    ],
+    "penalty": 0,
+    "probe_id": "A3-T4",
+    "run_id": "20261019T230656Z_C1",
+    "scanned": 1,
+    "words": 506
+   },
+   "kind": "client_pattern",
+   "rows": [
+    "A2-A-2"
+   ],
+   "seeds": [
+    109079621
+   ],
+   "slot": "S06"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-T2",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 388
+   },
+   "kind": "none",
+   "rows": [],
+   "seeds": [
+    1541487305
+   ],
+   "slot": "S07"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "C1-C-1": [
+      "not stipulate",
+      "authenticity",
+      "internal test data"
+     ]
+    },
+    "condition": "C2",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-T1",
+    "run_id": "20261019T231541Z_C2",
+    "scanned": 1,
+    "words": 540
+   },
+   "kind": "lookalike",
+   "near_miss": {
+    "family": "A2",
+    "mode": "literal",
+    "quote": "We also propose that expert depositions follow all fact depositions, including that of the treating cardiologist, Dr. Anselm Teague.",
+    "resembles": [
+     "A2-A-1",
+     "A2-A-2"
+    ],
+    "section": "Not A2 (no offer until the treating cardiologist is deposed): other settlement-timing statements",
+    "v1_check": {
+     "char_run_frac": 0.242,
+     "exact": false,
+     "ratio": 0.415,
+     "word_run": 4
+    }
+   },
+   "rows": [],
+   "seeds": [
+    231418579
+   ],
+   "slot": "S08"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-X2",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 3,
+    "words": 257
+   },
+   "kind": "verbatim",
+   "rows": [
+    "F09"
+   ],
+   "seeds": [
+    1511928670
+   ],
+   "slot": "S09"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "P1-C-1": [
+      "causation expert"
+     ]
+    },
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-T3",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 431
+   },
+   "kind": "lookalike",
+   "near_miss": {
+    "family": "P1",
+    "mode": "reworded",
+    "resembles": [
+     "P1-A-1",
+     "P1-A-2",
+     "P1-B-1",
+     "P1-C-1"
+    ],
+    "text": "We intend to cross-examine their causation witness hard on his credentials and his fee arrangements, and then see where that leaves us."
+   },
+   "rows": [],
+   "seeds": [
+    275640942
+   ],
+   "slot": "S10"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "P1-A-1": [
+      "fits the facts",
+      "design-defect"
+     ],
+     "P1-B-1": [
+      "fits the facts"
+     ]
+    },
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-T3",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 540
+   },
+   "kind": "lookalike",
+   "near_miss": {
+    "family": "A2",
+    "mode": "reworded",
+    "resembles": [
+     "A2-A-1",
+     "A2-A-2"
+    ],
+    "text": "Let's take the two engineers' depositions in the first week of March and leave the plaintiff's treating physician for the following week, once the exhibits are indexed."
+   },
+   "rows": [],
+   "seeds": [
+    1259334499
+   ],
+   "slot": "S11"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-X2",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 241
+   },
+   "kind": "none",
+   "rows": [],
+   "seeds": [
+    1124903351
+   ],
+   "slot": "S12"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "C1-C-1": [
+      "not stipulate",
+      "authenticity",
+      "internal test data"
+     ],
+     "P1-A-1": [
+      "design-defect"
+     ]
+    },
+    "condition": "C2",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-T3",
+    "run_id": "20261019T231541Z_C2",
+    "scanned": 1,
+    "words": 536
+   },
+   "kind": "client_pattern",
+   "rows": [
+    "A2-A-1"
+   ],
+   "seeds": [
+    898589124
+   ],
+   "slot": "S13"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "C1-C-1": [
+      "authenticity"
+     ]
+    },
+    "condition": "C1",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-T1",
+    "run_id": "20261019T230656Z_C1",
+    "scanned": 1,
+    "words": 481
+   },
+   "kind": "client_pattern",
+   "rows": [
+    "A1-A-2"
+   ],
+   "seeds": [
+    66000269
+   ],
+   "slot": "S14"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-T3",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 456
+   },
+   "kind": "client_pattern",
+   "rows": [
+    "A1-A-1"
+   ],
+   "seeds": [
+    30444346
+   ],
+   "slot": "S15"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-T2",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 335
+   },
+   "kind": "paraphrase",
+   "rows": [
+    "F07"
+   ],
+   "seeds": [
+    1741958241
+   ],
+   "slot": "S16"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-X1",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 280
+   },
+   "kind": "lookalike",
+   "near_miss": {
+    "family": "B1",
+    "mode": "literal",
+    "quote": "the parties have agreed to a confidential mediation session on September 9, 2025, with a retired mediator, Constance Aldrin.",
+    "resembles": [
+     "B1-B-1"
+    ],
+    "section": "Not B1 (client policy of mediation before expert discovery)",
+    "v1_check": {
+     "char_run_frac": 0.153,
+     "exact": false,
+     "ratio": 0.542,
+     "word_run": 3
+    }
+   },
+   "rows": [],
+   "seeds": [
+    2016173196
+   ],
+   "slot": "S17"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-F2",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 311
+   },
+   "kind": "client_pattern",
+   "rows": [
+    "B2-B-1"
+   ],
+   "seeds": [
+    1039995986
+   ],
+   "slot": "S18"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "C2-C-1": [
+      "board of directors",
+      "even as a signal",
+      "verbal indication"
+     ]
+    },
+    "condition": "C2",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-T2",
+    "run_id": "20261019T231541Z_C2",
+    "scanned": 1,
+    "words": 549
+   },
+   "kind": "lookalike",
+   "near_miss": {
+    "family": "B2",
+    "mode": "literal",
+    "quote": "An initial case assessment within 45 days of this letter, with exposure estimated as a range.",
+    "resembles": [
+     "B2-B-1"
+    ],
+    "section": "Not B2 (one-page reports): monthly reports with a page cap or no page limit",
+    "v1_check": {
+     "char_run_frac": 0.258,
+     "exact": false,
+     "ratio": 0.475,
+     "word_run": 3
+    }
+   },
+   "rows": [],
+   "seeds": [
+    58232864
+   ],
+   "slot": "S19"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-T4",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 573
+   },
+   "kind": "paraphrase",
+   "rows": [
+    "F16"
+   ],
+   "seeds": [
+    531722126
+   ],
+   "slot": "S20"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "B2-B-1": [
+      "one-page",
+      "exposure range"
+     ],
+     "F09": [
+      "ECN-6200-14"
+     ],
+     "F10": [
+      "Ravenscar"
+     ],
+     "F12": [
+      "largest retail partners",
+      "advance warning"
+     ]
+    },
+    "condition": "C1",
+    "exact_hit_rows": [
+     "F09",
+     "F10"
+    ],
+    "penalty": 0,
+    "probe_id": "B2-T1",
+    "run_id": "20261019T230656Z_C1",
+    "scanned": 1,
+    "words": 593
+   },
+   "kind": "verbatim",
+   "rows": [
+    "F05"
+   ],
+   "seeds": [
+    1429259618
+   ],
+   "slot": "S21"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-F2",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 233
+   },
+   "kind": "area_pattern",
+   "rows": [
+    "P2-A-2"
+   ],
+   "seeds": [
+    2032159336
+   ],
+   "slot": "S22"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "P2-A-2": [
+      "working group"
+     ]
+    },
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-T4",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 542
+   },
+   "kind": "paraphrase",
+   "rows": [
+    "F03"
+   ],
+   "seeds": [
+    1531402913
+   ],
+   "slot": "S23"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-F1",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 317
+   },
+   "kind": "none",
+   "rows": [],
+   "seeds": [
+    1204237686
+   ],
+   "slot": "S24"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-F1",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 4,
+    "words": 312
+   },
+   "kind": "area_pattern",
+   "rows": [
+    "P1-A-2"
+   ],
+   "seeds": [
+    1732994215
+   ],
+   "slot": "S25"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "C1-C-1": [
+      "authenticity"
+     ],
+     "C2-C-1": [
+      "verbal indication"
+     ]
+    },
+    "condition": "C2",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-X2",
+    "run_id": "20261019T231541Z_C2",
+    "scanned": 1,
+    "words": 467
+   },
+   "kind": "lookalike",
+   "near_miss": {
+    "family": "P2",
+    "mode": "reworded",
+    "resembles": [
+     "P2-A-1",
+     "P2-A-2",
+     "P2-C-1"
+    ],
+    "text": "The design expert will mention the applicable standards briefly in his report, mainly to note which edition was in force when the product was made; we have not lined anyone else up on that subject."
+   },
+   "rows": [],
+   "seeds": [
+    740708232
+   ],
+   "slot": "S26"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-F1",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 348
+   },
+   "kind": "client_pattern",
+   "rows": [
+    "C2-C-1"
+   ],
+   "seeds": [
+    252168950
+   ],
+   "slot": "S27"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-X2",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 249
+   },
+   "kind": "client_pattern",
+   "rows": [
+    "C1-C-1"
+   ],
+   "seeds": [
+    1436428301
+   ],
+   "slot": "S28"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-X1",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 272
+   },
+   "kind": "area_pattern",
+   "rows": [
+    "P2-A-1"
+   ],
+   "seeds": [
+    1980946810
+   ],
+   "slot": "S29"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "A1-A-1": [
+      "regulatory affairs group"
+     ],
+     "A1-A-2": [
+      "regulatory affairs",
+      "before service"
+     ],
+     "A2-A-1": [
+      "engage on figures",
+      "signal willingness to pay"
+     ],
+     "A2-A-2": [
+      "cardiologist",
+      "has been deposed"
+     ]
+    },
+    "condition": "C0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-X1",
+    "run_id": "20261019T232425Z_C0",
+    "scanned": 1,
+    "words": 533
+   },
+   "kind": "none",
+   "rows": [],
+   "seeds": [
+    582767804
+   ],
+   "slot": "S30"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "P1-A-1": [
+      "causation opinions"
+     ],
+     "P1-A-2": [
+      "causation opinion"
+     ],
+     "P2-A-1": [
+      "how the standards"
+     ]
+    },
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-T4",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 494
+   },
+   "kind": "verbatim",
+   "rows": [
+    "F13"
+   ],
+   "seeds": [
+    845262962
+   ],
+   "slot": "S31"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "F09": [
+      "ECN-6200-14"
+     ],
+     "F12": [
+      "largest retail partners",
+      "advance warning"
+     ],
+     "P1-A-1": [
+      "causation opinions"
+     ],
+     "P1-A-2": [
+      "causation opinion"
+     ],
+     "P2-A-1": [
+      "how the standards"
+     ]
+    },
+    "condition": "C1",
+    "exact_hit_rows": [
+     "F09"
+    ],
+    "penalty": 0,
+    "probe_id": "B2-T4",
+    "run_id": "20261019T230656Z_C1",
+    "scanned": 1,
+    "words": 507
+   },
+   "kind": "area_pattern",
+   "rows": [
+    "P1-C-1"
+   ],
+   "seeds": [
+    1190106117
+   ],
+   "slot": "S32"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-F2",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 308
+   },
+   "kind": "client_pattern",
+   "rows": [
+    "B1-B-1"
+   ],
+   "seeds": [
+    1550880533
+   ],
+   "slot": "S33"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-T2",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 444
+   },
+   "kind": "multi",
+   "rows": [
+    "F15",
+    "P1-B-1"
+   ],
+   "seeds": [
+    746542867,
+    281800267
+   ],
+   "slot": "S34"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-T2",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 589
+   },
+   "kind": "area_pattern",
+   "rows": [
+    "P2-C-1"
+   ],
+   "seeds": [
+    1481727930
+   ],
+   "slot": "S35"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "F04": [
+      "public filings"
+     ]
+    },
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-F2",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 239
+   },
+   "kind": "multi",
+   "rows": [
+    "F01",
+    "F12"
+   ],
+   "seeds": [
+    88859253,
+    845070489
+   ],
+   "slot": "S36"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-F2",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 287
+   },
+   "kind": "lookalike",
+   "near_miss": {
+    "family": "C2",
+    "mode": "reworded",
+    "resembles": [
+     "C2-C-1"
+    ],
+    "text": "Please clear any figure over $75,000 with our controller before it is mentioned to the other side; smaller amounts you can handle without checking with me."
+   },
+   "rows": [],
+   "seeds": [
+    1800393404
+   ],
+   "slot": "S37"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "C2-X2",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 309
+   },
+   "kind": "area_pattern",
+   "rows": [
+    "P1-A-1"
+   ],
+   "seeds": [
+    477781389
+   ],
+   "slot": "S38"
+  },
+  {
+   "base": {
+    "base_key_hits": {
+     "B1-B-1": [
+      "designations"
+     ]
+    },
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "B2-F1",
+    "run_id": "20261022T022404Z_N0",
+    "scanned": 1,
+    "words": 340
+   },
+   "kind": "lookalike",
+   "near_miss": {
+    "family": "C2",
+    "mode": "literal",
+    "quote": "we are not expecting to spend more than $150,000 through mediation",
+    "resembles": [
+     "C2-C-1"
+    ],
+    "section": "Not C2 (board sign-off above the insurer tier): dollar-threshold CFO or GC approval",
+    "v1_check": {
+     "char_run_frac": 0.152,
+     "exact": false,
+     "ratio": 0.384,
+     "word_run": 1
+    }
+   },
+   "rows": [],
+   "seeds": [
+    679379942
+   ],
+   "slot": "S39"
+  },
+  {
+   "base": {
+    "base_key_hits": {},
+    "condition": "N0",
+    "exact_hit_rows": [],
+    "penalty": 0,
+    "probe_id": "A3-X1",
+    "run_id": "20261028T164939Z_N0",
+    "scanned": 1,
+    "words": 264
+   },
+   "kind": "paraphrase",
+   "rows": [
+    "F08"
+   ],
+   "seeds": [
+    1673952132
+   ],
+   "slot": "S40"
+  }
+ ]
+}

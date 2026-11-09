@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-X2",
+  "prompt_hash": "045a17c990e19b5d3069a58cddd7cf9602e1e611dc32b185ada93afb04da0eb5",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:54:35+00:00",
+  "session_id_in": null,
+  "session_id": "a3511df6-0d72-4f2b-b456-fcc10f2b3cb8",
+  "text": "I can't answer this from the materials I have. Both the Toil & Trouble Home Products client store and the firm store are empty for matter B-2. Nothing in them says what Joad requires before agreeing to anything about its test records, or what limits apply to its settlement offers.\n\nI haven't guessed at an answer, because any specifics I gave about Joad's conditions or settlement limits would be invented. This sort of question usually turns on exact wording, such as a confidentiality or protective-order requirement, a consent or approval step, or a cap on offers.\n\nTo answer it, I'd need one or more of these:\n- The agreement or contract between Toil & Trouble and Joad, especially any provisions on test data, records, confidentiality, or audit rights.\n- Any settlement correspondence, term sheet, or policy that sets out Joad's offer limits, such as authority caps, timing windows, or approval requirements.\n- Any pleadings, discovery requests, or protective-order drafts in B-2 that mention Joad's test records.\n\nIf you can send those documents or add them to the client store, I'll answer from them with citations. In the meantime, I can draft a list of questions to put to the client to gather this information.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:54:35+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a3511df6-0d72-4f2b-b456-fcc10f2b3cb8",
+    "input_tokens": 2,
+    "output_tokens": 501,
+    "cache_write_tokens": 740,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.007974,
+    "latency_ms": 5329,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 501,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 740,
+      "webSearchRequests": 0,
+      "costUSD": 0.007974,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 120,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 740,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

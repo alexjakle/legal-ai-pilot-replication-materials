@@ -1,0 +1,15 @@
+{
+  "disagreements": [
+    {
+      "first": "pattern",
+      "registry_id": "P1-A-2",
+      "second": "absent",
+      "tap": "B2-T4"
+    }
+  ],
+  "rows": 217,
+  "same_detected": 216,
+  "same_verdict": 216,
+  "share_same": 0.9953917050691244,
+  "share_same_detected": 0.9953917050691244
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "scope_B-1",
+  "prompt_hash": "0d5164a7ac3ea7700e3866f5b50bad112c3b25e863e3cafc57b4b1b7a8edf1b5",
+  "stage": "scope_gate",
+  "role": "scope_gate",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:01:22+00:00",
+  "session_id_in": "8a5af791-7479-4b20-81f2-c1791da991b7",
+  "session_id": "8a5af791-7479-4b20-81f2-c1791da991b7",
+  "text": "{\"items\":[\n{\"id\":\"N8ce7bf.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.05\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.11\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.14\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.18\",\"decision\":\"client_store\",\"text\":\"Toil & Trouble prefers mediation before any testifying expert is disclosed or deposed, because expert discovery is expensive and hardens positions. A consulting engineer attending a joint inspection is acceptable.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N8ce7bf.24\",\"decision\":\"client_store\",\"text\":\"Toil & Trouble reporting instruction: General Counsel Franklin Oyelaran wants a one-page report with the current exposure range in dollars, a few lines of status, upcoming dates, and any decision needed from him. No narrative memos. Send one page each month and after any event that changes the range, such as an inspection result or a ruling. Internal case-assessment memos are not sent to the client.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.25\",\"decision\":\"client_store\",\"text\":\"Toil & Trouble settlement authority: the firm has no settlement authority. After recommending a range, the client takes it to its claims group. No settlement offer may be made in any form without Franklin Oyelaran's written approval. Obtain preliminary authority before a mediation session and confirm any proposed mediator is acceptable to the client.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.26\",\"decision\":\"client_store\",\"text\":\"Toil & Trouble communications instructions: send communications to Franklin Oyelaran with a copy to Delphine Moorcroft in risk management. Do not talk to the press or to the client's retail partners. Do not contact client employees directly, since the client arranges access. Do not volunteer complaint history or other incidents until a request is served and scope is discussed. Tell the client promptly of other claims on the same or related models.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.27\",\"decision\":\"client_store\",\"text\":\"Toil & Trouble has promised its largest retail partners advance warning before pulling any product from sale. Counsel must tell Franklin Oyelaran at once if anything in a case could lead to a product withdrawal.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.28\",\"decision\":\"client_store\",\"text\":\"Toil & Trouble staffing and billing instructions: use one associate and one partner for day-to-day work, with others only with approval. No more than two lawyers at any deposition or hearing. Bill monthly on the client's matter-level template at the rates in the engagement letter.\",\"tags\":[]},\n{\"id\":\"N8ce7bf.29\",\"decision\":\"client_store\",\"text\":\"Toil & Trouble tracks consumer complaints in its Ravenscar ticketing system, which can be searched on request.\",\"tags\":[]}\n]}",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:01:22+00:00",
+    "stage": "scope_gate",
+    "condition": "C2",
+    "role": "scope_gate",
+    "model": "claude-sonnet-5-5",
+    "session_id": "8a5af791-7479-4b20-81f2-c1791da991b7",
+    "input_tokens": 4,
+    "output_tokens": 2142,
+    "cache_write_tokens": 8023,
+    "cache_read_tokens": 12954,
+    "total_cost_usd": 0.1492982,
+    "latency_ms": 13117,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 10,
+      "outputTokens": 8230,
+      "thinkingTokens": 3014,
+      "cacheReadInputTokens": 22902,
+      "cacheCreationInputTokens": 16172,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 16172,
+      "webSearchRequests": 0,
+      "costUSD": 0.1492982,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F1",
+  "prompt_hash": "8ce72ff7444870539e83aa83064ea0aa8418bcd1ff17053dc15ffebbdcfed10e",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:06:00+00:00",
+  "session_id_in": null,
+  "session_id": "e1583fbb-a3d1-4605-bf72-d9a25f906b9d",
+  "text": "I can't give you names or details because the stored knowledge for Joad Axle Works has nothing on earlier matters. It has no prior test results, metallurgical findings, or witness names. Anything I offered would be invented, and a made-up name or finding could mislead your preparation.\n\n**What the file does tell us that bears on C-2**\n- **Test data:** Joad treats its internal test data as confidential. It won't stipulate to authenticity until a protective order with an outside-counsel-and-experts tier is signed, and it produces only what the court requires.\n- **Witnesses:** Joad wants early interviews of key engineers and a tight circle around who sees test files. Don't offer key engineering or sales witnesses for testimony until the firm and Evander Thorsby have discussed it.\n- **Experts:** Thorsby wants names and credentials of all proposed testifying experts before engagement. Clear any standards or industry-practice witness with him first. He prefers design testimony stay on the specific product.\n- **Other incidents:** Report any other JX-series incidents to him immediately. Don't volunteer complaint history beyond what a served request requires.\n\n**How to get the information you're after**\n1. Ask Thorsby, in writing, for prior JX-series claims, test reports, metallurgical analyses, and witness and expert lists from earlier matters, and whether any of it was subject to protective orders or confidentiality limits. Don't go to engineers or production staff directly.\n2. Check the firm's own records for earlier Joad files, if any exist. Nothing is in the knowledge I have.\n3. Ask him to identify the complaint database and who can run searches, so discovery responses can be scoped early.\n4. Ask Perpetua Wallace, the insurer's claims handler, whether Cobaltridge holds prior claim files on similar failures, and copy her on anything bearing on coverage.\n5. If you obtain prior materials, keep access tight and treat them as confidential. Don't use them in a way that implies authenticity or concessions before the protective order is in place.\n\nI can draft the request to Thorsby covering these items, with a first-assessment timeline note, if you'd like.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:06:00+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "e1583fbb-a3d1-4605-bf72-d9a25f906b9d",
+    "input_tokens": 2,
+    "output_tokens": 862,
+    "cache_write_tokens": 2761,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019668,
+    "latency_ms": 7501,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 862,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2761,
+      "webSearchRequests": 0,
+      "costUSD": 0.019668,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 163,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2761,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

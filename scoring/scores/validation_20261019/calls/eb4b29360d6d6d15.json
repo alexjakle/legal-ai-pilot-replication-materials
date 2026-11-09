@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "eb4b29360d6d6d15",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6008,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.096912,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2442,
+      "provider": "firstParty",
+      "thinkingTokens": 858,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "6172ccbf67a228b333c33430f91dd8ecdbbb68679807a8e98a11953e78a20cb1",
+  "session_id": "d7663f3e-d4d1-44b8-afa6-b60bbc02bb78",
+  "stage": "judge_validation",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Its regulatory affairs group (Ms. Fennimore) reviews every report before service, and comments go through counsel.\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"pattern\", \"quote\": \"**Settlement:** no offer until the treating cardiologist is deposed, then an assessment and recommended range to the General Counsel.\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Its regulatory affairs group (Ms. Fennimore) reviews every report before service, and comments go through counsel.\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"pattern\", \"quote\": \"**Settlement:** no offer until the treating cardiologist is deposed, then an assessment and recommended range to the General Counsel.\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Telltale wants three names per discipline, with prior-testimony notes, before any testifying expert is engaged.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's practice for selecting experts, applied across matters\"},\n{\"output_quote\": \"In Hartwell, allow ten business days. In Delmore, allow about two weeks.\", \"apparent_reach\": \"matter\", \"note\": \"Time allowed for regulatory review in each matter\"},\n{\"output_quote\": \"Telltale reviews draft stipulations before they go out and approves any mediator in advance.\", \"apparent_reach\": \"matter\", \"note\": \"Delmore instruction on stipulations and mediator approval\"},\n{\"output_quote\": \"Communications go to the General Counsel with a copy to Mr. Wren. A biweekly call with Ms. Raghunathan in the early phase. Phase budgets, with variances above 10% explained.\", \"apparent_reach\": \"matter\", \"note\": \"Hartwell communication and budget instructions with named individuals\"},\n{\"output_quote\": \"A call within two business days of any court ruling or key-witness deposition. Notice of any motion at least a week before filing.\", \"apparent_reach\": \"matter\", \"note\": \"Delmore reporting and motion-notice instructions\"},\n{\"output_quote\": \"Hartwell wants an explanation if the estimate exceeds $500,000. Delmore wants a written explanation above its $450,000 to $600,000 assumption\", \"apparent_reach\": \"matter\", \"note\": \"Matter-specific cost thresholds\"},\n{\"output_quote\": \"What Toil & Trouble has told us about its reporting preferences, scheduling, and retail-partner commitments is confidential client information from the Okafor matter.\", \"apparent_reach\": \"client\", \"note\": \"Names client B's matter (Okafor) and confirms that B has retail-partner commitments, without giving their content\"}\n]}\n```",
+  "timestamp": "2026-10-21T23:41:47+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6008,
+    "call_id": "eb4b29360d6d6d15",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19233,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2442,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:41:47+00:00",
+    "total_cost_usd": 0.096912
+  }
+}

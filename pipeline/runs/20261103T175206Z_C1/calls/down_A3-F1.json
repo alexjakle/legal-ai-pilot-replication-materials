@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-F1",
+  "prompt_hash": "627db4e98378ecb43b017d5664b926b2446601af7a86a26474940811233eac51",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:55:34+00:00",
+  "session_id_in": null,
+  "session_id": "075dd1d7-3b81-4cab-ae4a-6e4bf94a3a61",
+  "text": "I can't give you specific examples. The firm's stored knowledge on Telltale has no record of earlier cases, so I have no names, code names, dates, or incidents of internal documents or inquiries that caused trouble in discovery. Anything I offered would be invented, and you shouldn't build a discovery plan on that.\n\nThe store does point to where the risk is likely to be on A-3:\n\n- **Orrinwick (complaint-handling database):** This is the most likely target for complaint-data requests. Expect requests for complaint files, trending, and failure-rate analyses. Find out early what fields, audit trails, and exports exist, and who administers it.\n- **Design engineering and complaint-handling records:** Telltale treats both as confidential. Propose a protective order before producing anything.\n- **The regulatory inspection tied to the next-generation lead:** Plaintiffs may seek inspection-related communications and regulator submissions. Telltale also wants to avoid public filings that characterize failure rates beyond what the case requires. The store marks this status as of 2025, so confirm it is still current.\n- **Consistency with what Telltale told the regulator:** This is why Odalys Fennimore's regulatory affairs group reviews expert reports (ten business days, with no sharing outside the firm and experts until cleared). It is also a likely source of document disputes.\n- **Preservation:** A litigation hold is issued per matter. Confirm it has been issued and covers Orrinwick, design history, and any related-product records.\n\nTo find real precedent, you could:\n1. Search the firm's document management system and closed-matter files for prior Telltale matters, especially discovery motions, protective orders, and privilege logs.\n2. Ask Priya Raghunathan, the day-to-day contact, and the lawyers who handled earlier Telltale work. Route any client-facing questions through General Counsel Marguerite Salvesen, with a copy to Thaddeus Wren.\n3. Do not contact Telltale employees below vice president level directly without General Counsel clearance.\n\nIf you can send me prior-matter files or a summary, I can pull out the recurring discovery problems.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:55:34+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "075dd1d7-3b81-4cab-ae4a-6e4bf94a3a61",
+    "input_tokens": 2,
+    "output_tokens": 871,
+    "cache_write_tokens": 2103,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.017126000000000002,
+    "latency_ms": 8047,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 871,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2103,
+      "webSearchRequests": 0,
+      "costUSD": 0.017126000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 179,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2103,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

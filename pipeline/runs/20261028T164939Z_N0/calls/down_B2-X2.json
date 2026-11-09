@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-X2",
+  "prompt_hash": "045a17c990e19b5d3069a58cddd7cf9602e1e611dc32b185ada93afb04da0eb5",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:53:35+00:00",
+  "session_id_in": null,
+  "session_id": "30609761-274d-4fcc-b412-1a95bd669ded",
+  "text": "I can't answer this from what I have. Both the Toil & Trouble Home Products client store and the firm store are empty, so I have no agreement, correspondence, policy, or other document describing Joad's requirements for its test records or limits on its settlement offers. Any answer would be a guess.\n\nTo answer it, I would need one or more of the following:\n\n- **The governing document**, such as a settlement agreement, NDA, protective order, testing or supply agreement, or Joad's written policy on record handling and settlement authority.\n- **Joad's correspondence or demand letters** that set conditions, such as a confidentiality agreement, a protective order, or written authorization before it will discuss or produce test records.\n- **Any statement of settlement authority limits**, such as caps, approval requirements, expiry dates, or conditions on offers.\n\nIf you can send those documents or point me to where they are kept, I'll pull out the specific preconditions on the test records and the limits on the settlement offers, with citations to the source provisions. In the meantime, I'd suggest asking the client contact at Toil & Trouble what Joad has put in writing on these points.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:53:35+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "30609761-274d-4fcc-b412-1a95bd669ded",
+    "input_tokens": 2,
+    "output_tokens": 442,
+    "cache_write_tokens": 691,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.007188,
+    "latency_ms": 4396,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 442,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 691,
+      "webSearchRequests": 0,
+      "costUSD": 0.007188,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 83,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

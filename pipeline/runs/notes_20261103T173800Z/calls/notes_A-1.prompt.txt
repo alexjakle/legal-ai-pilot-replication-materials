@@ -1,0 +1,327 @@
+You are a legal assistant at a law firm. Below are the four documents for one matter. Write the matter notes: a numbered list of short items that a lawyer at the firm could consult later without opening the documents.
+
+Each item has a type:
+- fact: something established in the documents
+- position: a stance taken by a party or by the firm
+- lesson: something the team learned or would do differently
+
+Write each item so that it makes sense on its own. Do not add anything that is not in the documents. Use as many items as the documents warrant.
+
+Matter: A-1
+Client: Telltale Cardiac Systems
+
+=== 01-answer.md ===
+**DRAFT FOR PARTNER REVIEW — NOT YET FILED**
+
+SUPERIOR COURT OF ASHGROVE COUNTY
+
+DOROTHEA HARTWELL, Plaintiff,
+
+v.
+
+TELLTALE CARDIAC SYSTEMS, Defendant.
+
+Case No. 25-CV-03817
+
+# DEFENDANT TELLTALE CARDIAC SYSTEMS' ANSWER AND AFFIRMATIVE DEFENSES
+
+Defendant Telltale Cardiac Systems ("Telltale"), through its counsel Kenge, Carboy & Vholes LLP, answers the Complaint filed by Plaintiff Dorothea Hartwell on March 4, 2025, as follows.
+
+## Preliminary Statement
+
+Telltale designs and manufactures implantable cardiac pacing leads, including the ArcLine AL-4120 bipolar active-fixation lead. Telltale sympathizes with Plaintiff's medical experience but denies that the AL-4120 was defectively designed, that its labeling was inadequate, or that any act or omission of Telltale caused her injuries.
+
+## Responses to Numbered Allegations
+
+1. Telltale admits that it is a corporation that designs, manufactures and markets implantable cardiac pacing leads. Telltale denies the remaining allegations of Paragraph 1.
+
+2. Telltale lacks knowledge or information sufficient to form a belief as to Plaintiff's residence and age, and on that basis denies the allegations of Paragraph 2.
+
+3. Telltale admits that venue is proper in Ashgrove County. Telltale denies that Plaintiff has stated a claim on which relief may be granted.
+
+4. Telltale admits that a lead bearing model number AL-4120 was implanted in Plaintiff on or about March 19, 2019, at Westmarch Regional Hospital. Telltale lacks knowledge as to the surgical technique employed and therefore denies the allegations concerning the implant procedure.
+
+5. Telltale admits that the AL-4120 was approved for distribution following the federal regulator's review of Telltale's premarket submission, and that the lead was accompanied by instructions for use. Telltale denies Plaintiff's characterization of those instructions.
+
+6. Telltale admits, on information and belief, that Plaintiff underwent a routine device interrogation on November 8, 2022, and that a lead revision procedure was performed on November 15, 2022. Telltale denies that the lead was defective and denies all remaining allegations of Paragraph 6.
+
+7. Telltale denies the allegations of Paragraphs 7 through 12, which assert that the AL-4120 conductor coil was unreasonably susceptible to fatigue fracture, that a safer alternative design was feasible, and that Telltale knew of a heightened fracture rate before Plaintiff's implant.
+
+8. Telltale denies the allegations of Paragraphs 13 through 17, which assert that Telltale failed to warn implanting physicians of the risk of conductor fracture associated with placement near the clavicle and first rib.
+
+9. Telltale lacks knowledge or information sufficient to form a belief as to Plaintiff's alleged medical expenses of $214,000, her alleged lost earnings, and her alleged pain and suffering, and therefore denies the allegations of Paragraphs 18 through 22.
+
+10. Telltale denies that Plaintiff is entitled to any of the relief requested in her prayer, including the demand for compensatory damages in excess of $1,900,000 and for punitive damages.
+
+11. Any allegation not expressly admitted is denied.
+
+## Affirmative and Other Defenses
+
+Telltale asserts the following defenses without assuming any burden of proof that the law places on Plaintiff. Telltale reserves the right to amend this Answer as discovery proceeds.
+
+**First Defense (Failure to State a Claim).** The Complaint fails to state a claim on which relief can be granted, including as to punitive damages.
+
+**Second Defense (Learned Intermediary).** Telltale's duty to warn ran to the implanting physician, who was adequately warned of the risks of conductor fracture through the instructions for use and related physician communications. Plaintiff's implanting physician exercised independent medical judgment in selecting the lead and the implant approach.
+
+**Third Defense (Adequate Warnings).** The warnings and instructions accompanying the AL-4120 were adequate and complied with applicable regulatory requirements.
+
+**Fourth Defense (State of the Art).** The design, testing, manufacture and labeling of the AL-4120 conformed to the state of the art and to generally recognized industry standards at the time the lead left Telltale's control.
+
+**Fifth Defense (Regulatory Compliance).** The AL-4120 was designed, manufactured and labeled in compliance with the requirements of the federal regulator. Compliance supports a presumption that the product was not defective and, to the extent federal law so provides, preempts claims that would impose requirements different from or in addition to those requirements.
+
+**Sixth Defense (No Feasible Safer Alternative).** No reasonable alternative design was available that would have prevented the claimed injury without impairing the lead's utility, safety or cost.
+
+**Seventh Defense (Causation).** The conduct of Telltale was not a cause in fact or proximate cause of Plaintiff's alleged injuries. Plaintiff's lead fracture, if any, resulted from the implant technique, lead positioning, patient anatomy or patient activity.
+
+**Eighth Defense (Intervening and Superseding Cause).** Plaintiff's alleged injuries were caused by the acts or omissions of third parties over whom Telltale had no control, including those involved in the implant and follow-up care.
+
+**Ninth Defense (Comparative Fault).** To the extent Plaintiff failed to follow medical advice or to attend recommended follow-up visits, her recovery is barred or reduced in proportion to her fault.
+
+**Tenth Defense (Failure to Mitigate).** Plaintiff failed to take reasonable steps to mitigate her alleged damages.
+
+**Eleventh Defense (Statute of Limitations and Repose).** Some or all claims are barred by the applicable statutes of limitations or repose. Telltale will evaluate this defense once the date of Plaintiff's first notice of symptoms is established.
+
+**Twelfth Defense (Misuse or Alteration).** To the extent the lead was subjected to forces, handling or positioning inconsistent with its labeling, Plaintiff's claims are barred or reduced.
+
+**Thirteenth Defense (Setoff).** Telltale is entitled to a setoff for amounts paid by any collateral source or settling party to the extent permitted by law.
+
+**Fourteenth Defense (Punitive Damages).** The Complaint pleads no facts showing conscious disregard of safety, and any award of punitive damages would violate Telltale's constitutional rights to due process.
+
+**Fifteenth Defense (Reservation).** Telltale reserves the right to assert further defenses as discovery warrants.
+
+## Prayer
+
+Telltale requests that the Court enter judgment in its favor, dismiss the Complaint with prejudice, award Telltale its costs, and grant such further relief as is just.
+
+Dated: April 22, 2025
+
+KENGE, CARBOY & VHOLES LLP
+
+By: Priya Raghunathan, Associate
+Reviewed: Walter Osgood, Partner
+Counsel for Defendant Telltale Cardiac Systems
+
+**Open drafting notes for partner:** (a) confirm whether we plead the repose defense given the 2019 implant date; (b) confirm client sign-off on the preemption language; (c) the Eleventh Defense is placeholder pending plaintiff's chart.
+
+=== 02-emails.md ===
+# Email Thread: Hartwell v. Telltale Cardiac Systems — Discovery Scope and Expert Disclosure
+
+---
+
+**From:** Gideon Farrar <gfarrar@farrarwhitlock.example>
+**To:** Priya Raghunathan <praghunathan@kengecarboyvholes.example>
+**Date:** June 10, 2025, 9:14 AM
+**Subject:** Hartwell — Plaintiff's First Requests and proposed schedule
+
+Priya,
+
+Thanks for the call last week. Plaintiff's First Set of Requests for Production went out Monday. As discussed, we are asking for design history files for the ArcLine AL-4120 from the original concept stage through the 2018 release, all complaint and returned-product analyses for any ArcLine lead from 2015 to the present, and all fatigue and flex testing of the conductor coil.
+
+On experts, I propose a simultaneous exchange of opening reports on January 16, 2026, with rebuttals sixty days later. We expect to disclose a biomedical engineer, an electrophysiologist on causation, and a regulatory witness.
+
+Please let me know whether Telltale will agree.
+
+Gideon
+
+---
+
+**From:** Priya Raghunathan
+**To:** Gideon Farrar
+**Date:** June 12, 2025, 4:41 PM
+**Subject:** RE: Hartwell — Plaintiff's First Requests and proposed schedule
+
+Gideon,
+
+Thank you. We will respond formally within the thirty days, but I can give you our preliminary position on scope now so we can narrow the dispute.
+
+The complaint concerns a single model, the AL-4120. Telltale will produce the design history file for that model and the testing that supported its release. It will not agree to produce files for every lead in the ArcLine family. Different models in the family have different conductor coil pitch and insulation thickness, and a request keyed to the whole family is not proportional to a case about one lead.
+
+On complaints, we can agree to produce complaint and returned-product analysis records for the AL-4120 from its 2018 release through the date of Ms. Hartwell's revision on November 15, 2022. Reaching back to 2015 would sweep in products that were not on the market. Anything after the revision date is not relevant to what Telltale knew when the lead was implanted.
+
+Regarding expert timing, a simultaneous exchange favors the party with the burden of proof, so we prefer sequential disclosure: plaintiff's reports first, ours sixty days later, then rebuttals. We also propose that expert depositions follow all fact depositions, including that of the treating cardiologist, Dr. Anselm Teague.
+
+Priya
+
+---
+
+**From:** Gideon Farrar
+**To:** Priya Raghunathan
+**Date:** June 16, 2025, 11:02 AM
+**Subject:** RE: Hartwell — Plaintiff's First Requests and proposed schedule
+
+Priya,
+
+We can live with a model-specific design history file, but the family limitation is a problem. Your own labeling treats the ArcLine leads as a single platform. I am not willing to drop the sibling models without a showing of why the coil differences matter. If you send me an engineering declaration describing the differences, I will consider limiting the request to the AL-4120 and the single closest sibling.
+
+On the complaint window, I will move the start date to the first clinical use of the AL-4120 in 2018 rather than 2015 and accept the revision date as the end point, provided you also give us the post-revision events for any lead returned after the revision by the same implanting center.
+
+I can agree to sequential expert reports. I will not agree to defer all expert depositions until after the treating physician testifies. Dr. Teague's availability is unclear, and I do not want the schedule held hostage to one witness.
+
+Gideon
+
+---
+
+**From:** Priya Raghunathan
+**To:** Gideon Farrar
+**Date:** June 18, 2025, 2:27 PM
+**Subject:** RE: Hartwell — Plaintiff's First Requests and proposed schedule
+
+Gideon,
+
+Agreed on the 2018 clinical-use start date and the November 15, 2022 end date. We will not produce post-revision events from the implanting center; that request goes beyond Telltale's knowledge of its own product and implicates third-party patient information. Let me know if you intend to move on it.
+
+On the engineering declaration, we will send one next week limited to the coil differences between the AL-4120 and the AL-4125. We would ask that you treat it as informal and not as a concession on family-wide relevance.
+
+On sequencing, I understand the concern about Dr. Teague. How about this: we will notice his deposition for the week of September 15, 2025, and I will work with his office to confirm a date. If he cannot sit in that window, we revisit the expert deposition sequence. We would also like a draft protective order covering design and testing documents; I will circulate our form by Friday.
+
+One housekeeping point. Telltale will disclose its experts on the sequential schedule, but we want clarity that consulting experts are not discoverable and that draft reports and communications between counsel and testifying experts remain protected, except for facts, data and assumptions counsel provided.
+
+Priya
+
+---
+
+**From:** Gideon Farrar
+**To:** Priya Raghunathan
+**Date:** June 19, 2025, 8:50 AM
+**Subject:** RE: Hartwell — Plaintiff's First Requests and proposed schedule
+
+Priya,
+
+Agreed on drafts and attorney-expert communications, on the stated exceptions. I will send a stipulation tonight. Send the protective order form and the declaration and I will turn both around quickly.
+
+I will confirm the plaintiff's opening report date as January 16, 2026, with Telltale's reports due March 17, 2026.
+
+Gideon
+
+---
+
+**From:** Priya Raghunathan
+**To:** Gideon Farrar
+**Cc:** Walter Osgood
+**Date:** June 19, 2025, 3:35 PM
+**Subject:** RE: Hartwell — Plaintiff's First Requests and proposed schedule
+
+Gideon,
+
+Confirmed on the dates, subject to the Court's approval of the stipulation. I have copied my partner, Walter Osgood, who will be at the case management conference.
+
+Priya
+
+=== 03-memo.md ===
+**PRIVILEGED AND CONFIDENTIAL — ATTORNEY WORK PRODUCT**
+
+# MEMORANDUM
+
+**To:** Walter Osgood, Partner
+**From:** Priya Raghunathan, Associate
+**Date:** October 7, 2025
+**Re:** Hartwell v. Telltale Cardiac Systems (Ashgrove County Superior Court, No. 25-CV-03817) — Case Assessment and Strategy
+
+## 1. Bottom Line
+
+This is a defensible case on liability and a moderate one on damages. The plaintiff's theory is that the conductor coil in the ArcLine AL-4120 was too fatigue-prone and that Telltale's instructions did not adequately warn implanting physicians about fracture risk at the clavicle-first rib crossing. I rate our chance of defeating the claim on summary judgment as modest, but our prospects at trial as good if the causation case is narrowed first. Gross exposure is driven by the revision surgery ($214,000 in billed charges), Ms. Hartwell's reported lost work as a school administrator (roughly $96,000), and a general damages component. Plaintiff's demand is $1.9 million. I see realistic verdict exposure of $450,000 to $900,000 if liability is found.
+
+## 2. Facts That Matter
+
+The lead was implanted on March 19, 2019, through a subclavian approach. The fracture was found at a routine interrogation on November 8, 2022, when impedance readings were out of range. Radiographs show the break roughly 4 centimeters from the pectoral pocket, in the segment that crosses beneath the clavicle. Telltale's complaint database shows 31 confirmed conductor fractures out of about 22,000 AL-4120 leads shipped, a rate near 0.14 percent. In 2020 an engineer working in the field circulated an internal note observing that returned leads showed wear from repeated bending close to the pocket and suggesting the design be looked at again. It has not been produced, and I regard it as the most damaging document that has not yet been disclosed. The instructions for use warn against medial subclavian puncture and describe lateral venous access as the preferred approach. The operative note does not say which technique was used, and that gap is the most important open factual question.
+
+## 3. Plaintiff's Likely Case
+
+Plaintiff will present a biomedical engineer, Dr. Ruth Kellaway, who will say the coil pitch and insulation sleeve create a stress concentration, and an electrophysiologist, Dr. Leopold Quist, who will say the fracture caused the symptoms and the revision. A regulatory witness will say Telltale should have updated its warnings after a 2021 trend report. The trend report itself followed an internal quality inquiry that Telltale ran earlier in 2021 into returned-lead fractures, the Larkspur review, and plaintiff has not asked about it by name.
+
+## 4. Strategy
+
+**Sequence of attack.** I recommend that our first motion practice and first expert effort go to Dr. Quist and Dr. Kellaway's causation opinions, not to the design-defect debate. Before we spend resources arguing the merits of the coil geometry, we should test whether their opinion that this lead failed because of its design, rather than because of lead placement, is reliable and fits the facts. Dr. Kellaway has not examined the explanted lead under magnification and, as of now, has not ruled out subclavian crush from medial puncture. If we obtain a ruling limiting her causation opinion, the design-defect theory loses its connection to the injury. Only if that motion fails do we need to meet the design theory directly, through Dr. Henrik Vandermeer, our testifying design engineer.
+
+**Treating cardiologist.** Dr. Anselm Teague's deposition is noticed for the week of September 15 and now slipped; it has been reset to November 6, 2025. He is the only witness who can say whether lateral or medial access was used and what he understood from the instructions for use. His testimony drives our learned intermediary defense and the causation challenge. Everything else is secondary until we hear it.
+
+**Settlement posture.** Ms. Salvesen made clear in her instruction letter that Telltale will not entertain a settlement offer until Dr. Teague has testified, and I have told plaintiff's counsel only that we are not in a position to discuss numbers. Mr. Farrar has asked twice for a mediation date. I recommend we decline until after November 6 and, if the transcript is favorable, propose mediation in January 2026. We should plan for an authority request after that deposition, not before.
+
+## 5. Experts and Regulatory Review
+
+Our reports are due March 17, 2026. Telltale expects every expert report to go through its regulatory affairs group before it is served, so that nothing in a report is inconsistent with what the company told the regulator in its submissions. Ms. Salvesen's team asks for ten business days. I propose that Dr. Vandermeer deliver a near-final draft by January 30, 2026, so that the review does not compress our own editing. We must be careful that comments from the regulatory group go through counsel and that we log what we send, so that the exchange stays protected as work done at counsel's direction. I will also confirm with Mr. Farrar that the stipulation covering drafts applies to this process.
+
+**Industry-standards defense.** I recommend we begin developing the industry-standards defense now, instead of waiting to see what Dr. Kellaway says in her reports about the coil pitch and insulation sleeve. We should retain a witness from the cardiac-device standards community to explain how the standards covering a lead like the AL-4120 are written and how manufacturers are expected to satisfy them. That witness should be a separate engagement from Dr. Vandermeer. If he testified both that the design is sound and that the yardstick we use to judge it is the right one, plaintiff would argue he is grading his own work. A separate witness also keeps him out of questions about standards-committee matters, which would only distract from the fracture analysis.
+
+## 6. Risks
+
+1. **The missing operative detail.** If Dr. Teague used medial puncture, our defense gets stronger. If he used the lateral approach, the plaintiff's theory of an inherent fatigue weakness gains weight.
+2. **The 2021 trend report.** Plaintiff will argue it shows notice of a rising fracture rate. We need to confirm with engineering that the rate stayed within the labeled range.
+3. **Sympathy.** Ms. Hartwell is a credible witness who has had a hard recovery.
+4. **Discovery creep.** Mr. Farrar will keep pressing for sibling-model files. The engineering declaration should hold the line on the AL-4120 and the AL-4125.
+5. **Repose.** The statute of repose is likely not available given the implant date, and I recommend we drop it from the final answer.
+
+## 7. Budget and Next Steps
+
+Through trial, I estimate fees and costs of $410,000 to $520,000. Next steps: finalize deposition outline for Dr. Teague; ask Dr. Vandermeer for his CV and availability; prepare an outline for a motion to exclude on Dr. Quist and Dr. Kellaway; and send Ms. Salvesen the November status note. I would like 30 minutes on your calendar this week to settle the outline.
+
+=== 04-instruction-letter.md ===
+**TELLTALE CARDIAC SYSTEMS**
+Office of the General Counsel
+1180 Quillon Parkway, Suite 400
+
+March 27, 2025
+
+Walter Osgood, Esq.
+Kenge, Carboy & Vholes LLP
+
+**Re: Hartwell v. Telltale Cardiac Systems — Engagement Instructions**
+
+Dear Walter,
+
+Thank you for taking the Hartwell matter. This letter sets out how we would like the case handled, what we expect by way of reporting, and the guidelines that apply to all of our product liability matters. Please share it with whoever on your team is working on the file.
+
+## The Matter
+
+Ms. Hartwell alleges that the ArcLine AL-4120 lead implanted in March 2019 fractured and required surgical revision in November 2022. We have pulled the device history record for her lead and our quality team will give your associate access this week. We do not believe the lead was defective. The AL-4120 has a long field record, and our own complaint data supports that. Complaint files and returns are tracked in Orrinwick, our complaint-handling database, and the quality team can pull from it for you. We want a vigorous but measured defense. The company is also in the middle of a regulatory inspection tied to our next-generation lead, so please avoid public filings that characterize failure rates any further than the case requires.
+
+Please assign one senior associate as the day-to-day contact. I understand that will be Priya Raghunathan. I would like to speak with her once every two weeks in the early phase.
+
+## Settlement
+
+I want to be direct about one thing. Telltale will not make any settlement offer in this case until Ms. Hartwell's treating cardiologist has been deposed and we have read the transcript. I know plaintiff's counsel will push for early numbers. Do not engage on figures, and do not signal willingness to pay, until that testimony is in the record. Once it is, send me an assessment and a recommended range, and I will take it to our claims committee. Anything above $500,000 in authority needs sign-off from our chief financial officer, Cormac Brightwater.
+
+## Experts
+
+We will want to be consulted on the selection of any testifying expert before an engagement is signed. Please send me three names for each discipline, with a short note on prior testimony. In addition, our regulatory affairs group must see every expert report before anything is served. This is not a formality. The group, led by Odalys Fennimore, checks that nothing in a report conflicts with what we told the regulator in the original submission and in later reporting. Allow ten business days for their review and build that time into your schedule. Reports should not be shared with anyone outside your firm and the experts until they have cleared that review.
+
+## Reporting
+
+- A short written update every month, and a call after any significant event such as a ruling or deposition.
+- An initial case assessment within 45 days of this letter, with exposure estimated as a range.
+- Advance notice, at least five business days, before any motion is filed.
+- Budgets for each phase, with variance explained when you exceed them by more than ten percent.
+
+## Standing Guidelines
+
+1. All communications about the case should come to me, with a copy to our outside insurance liaison, Thaddeus Wren.
+2. Do not communicate with the media, with treating physicians, or with Telltale employees below the vice president level without clearing it with me first, apart from the interviews described below.
+3. Preserve every document related to the AL-4120 and the ArcLine family. I have issued a litigation hold internally and will send you a copy.
+4. Please staff the case leanly. We do not pay for more than two timekeepers at any deposition.
+5. Invoices go to my office monthly in the task-based format we use for all panel firms. Rates are as agreed in the panel agreement.
+6. Keep our design engineering and complaint-handling records confidential. If plaintiff seeks them, propose a protective order before producing anything.
+
+## Documents and Witnesses
+
+Our quality and engineering staff will be your main source of facts. I will make three people available for interviews in April: our director of reliability engineering, the quality engineer who handled the device history review, and the clinical specialist who covers the implanting hospital. Please prepare short outlines in advance so that we limit the time they spend away from their work. Telltale's design history file for the AL-4120 is large, and I would rather you tell me what you need than ask for everything.
+
+## Budget
+
+Please send me a phase budget within 30 days covering pleadings, written discovery, fact depositions, expert work and dispositive motions, and a separate trial budget at the end of expert discovery. Our working assumption is that the case should be resolved or tried for less than $500,000 in fees and costs combined, and I will want an explanation if you see it going higher. We will consider alternatives to hourly billing for the trial phase if you want to propose one.
+
+## Insurance
+
+Telltale's product liability program carries a self-insured retention of $750,000 per claim. Mr. Wren will coordinate with the excess carrier. Do not discuss coverage positions with anyone but him or me.
+
+## Closing
+
+Telltale takes the safety of its devices seriously, and we also take seriously the cost of litigating a case we believe is meritless. I trust the firm to find the balance. Please confirm receipt and call me with any questions.
+
+Sincerely,
+
+Marguerite Salvesen
+General Counsel
+Telltale Cardiac Systems
+
+Reply with JSON only, no other text, in this form:
+{"items": [{"type": "fact", "text": "..."}, {"type": "position", "text": "..."}]}

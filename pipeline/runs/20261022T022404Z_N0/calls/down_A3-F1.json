@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-F1",
+  "prompt_hash": "f0238ed654ba81b83422998a9f044563a8b3357b5037be14cd279b1bbe7b9820",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:25:36+00:00",
+  "session_id_in": null,
+  "session_id": "09de1b3d-429d-4e2c-a0e4-f697ec8948ee",
+  "text": "I can't give you those examples, because the firm's stored knowledge has nothing on them. The client store for Telltale Cardiac Systems is empty, and so is the firm store. There are no records of earlier Telltale cases, discovery disputes, document names, code names, dates, or system names. Anything I offered would be invented, and for a discovery plan, fabricated specifics would be worse than none.\n\nHere is what I'd suggest to get the real answers:\n\n**Where to find them**\n- **Prior matter teams.** Ask the attorneys and paralegals who handled Telltale's earlier cases. Their recollection of problem documents is usually the quickest route.\n- **Discovery files from those matters.** Look at privilege logs, motions to compel, meet-and-confer correspondence, deficiency letters, protective order disputes, and sanctions or spoliation motions.\n- **Deposition transcripts.** Check testimony of Telltale's 30(b)(6) designees and custodians for questions about internal systems or documents that caused trouble.\n- **Telltale's in-house legal and IT teams.** They can tell you about the document retention policy, the legacy systems, and any past litigation holds.\n\n**What to look for, based on typical medical device (cardiac) litigation**\nThese are general categories, not facts about Telltale:\n- Complaint-handling and MDR (adverse event) files, and CAPA records\n- Design history files, risk analyses (FMEA), and design change records\n- Quality system and post-market surveillance data\n- Internal emails or chats discussing known failure modes, field actions, or recalls\n- FDA correspondence, 483 observations, and audit reports\n- Engineering and clinical data, including data held in legacy or retired systems\n- Code names for products or projects that keyword searches would miss\n- Retention gaps, such as auto-deleted chat, personal devices, or departed employees' data\n\nIf you can get me the prior case materials, or if the firm's knowledge base is populated, I can pull out the specific names, code names, dates, and systems and build a targeted search and preservation plan for A-3.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:25:36+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "09de1b3d-429d-4e2c-a0e4-f697ec8948ee",
+    "input_tokens": 2,
+    "output_tokens": 675,
+    "cache_write_tokens": 751,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.009758000000000001,
+    "latency_ms": 7368,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 675,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 751,
+      "webSearchRequests": 0,
+      "costUSD": 0.009758000000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "scope_A-2",
+  "prompt_hash": "3cb2456bbeecad3a194a943205bca6456d197440aa6f15ac9678a0e73a8ca3a5",
+  "stage": "scope_gate",
+  "role": "scope_gate",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T21:57:59+00:00",
+  "session_id_in": "315d7b69-4a5c-4ecc-a67b-2cb31b54af62",
+  "session_id": "315d7b69-4a5c-4ecc-a67b-2cb31b54af62",
+  "text": "{\"items\":[\n{\"id\":\"N4fc817.01\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.02\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.03\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.04\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.05\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.06\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.07\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.08\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.09\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.10\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.11\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.12\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.13\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.14\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.15\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.16\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.17\",\"decision\":\"client_store\",\"text\":\"Telltale requires its General Counsel (Marguerite Salvesen) to discuss proposed testifying experts before anyone is signed, and to receive fee quotes before engagement. Clear each expert with her first, because expert fees are the largest budget swing item.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.18\",\"decision\":\"client_store\",\"text\":\"Telltale's regulatory affairs group (under Odalys Fennimore) must read every defense expert report before service to check consistency with regulatory submissions. Allow about two weeks for the review. Comments go through counsel to the expert, not directly. Schedule expert draft delivery early enough to fit the review before the service date.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.19\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.20\",\"decision\":\"client_store\",\"text\":\"Telltale settlement instruction: listen if plaintiff raises resolution, but give no number. Telltale will not authorize or convey any offer, in any form, until the treating physician has been deposed. After that deposition, send the General Counsel an assessment and recommended range. Authority above $500,000 requires approval from CFO Cormac Brightwater, which the GC arranges. At any mediation, attend to listen and do not put a number on the table unless the testimony helps, and write to the GC right after the transcript arrives.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.21\",\"decision\":\"client_store\",\"text\":\"Telltale wants nothing about its settlement thinking or claims reserves to reach a mediator or anyone outside the case team. Reserve figures are for the team only. The client wants to approve any mediator before the firm agrees, and to confirm the mediation is confidential and cannot be used against Telltale in other cases.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.22\",\"decision\":\"client_store\",\"text\":\"Telltale defends several ArcLine cases and wants no material from one case to appear in another. Keep sensitive produced documents in restricted folders, do not use them in other matters or share them with other company counsel, and confirm in writing who on the team has access. The same applies to mediation statements and any numbers discussed. The GC also instructed that no strategy or work product be shared with other Telltale counsel unless she asks.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.23\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.24\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.25\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.26\",\"decision\":\"client_store\",\"text\":\"Telltale asks that settlement hints from plaintiff's counsel be acknowledged politely and kept out of any correspondence not marked as a settlement communication. Mark any settlement-related correspondence accordingly, and do not let informal resolution requests sit in ordinary discovery email threads.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.27\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]}\n]}",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T21:57:59+00:00",
+    "stage": "scope_gate",
+    "condition": "C2",
+    "role": "scope_gate",
+    "model": "claude-sonnet-5-5",
+    "session_id": "315d7b69-4a5c-4ecc-a67b-2cb31b54af62",
+    "input_tokens": 4,
+    "output_tokens": 2755,
+    "cache_write_tokens": 6504,
+    "cache_read_tokens": 4185,
+    "total_cost_usd": 0.0913365,
+    "latency_ms": 18948,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 6,
+      "outputTokens": 4815,
+      "thinkingTokens": 1885,
+      "cacheReadInputTokens": 4185,
+      "cacheCreationInputTokens": 10689,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 10689,
+      "webSearchRequests": 0,
+      "costUSD": 0.0913365,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

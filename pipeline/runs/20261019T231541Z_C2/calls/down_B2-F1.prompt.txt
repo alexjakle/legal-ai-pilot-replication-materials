@@ -1,0 +1,32 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Toil & Trouble Home Products):
+- The PressureMate TT-6200 (six-quart electric pressure cooker) has a rotating bayonet lid with a spring-loaded float valve. Its lockout pin rises as pressure builds and blocks the ring from turning. Operating pressure is about 10 psi.
+- Engineering change notice ECN-6200-14 added a retention clip to the TT-6200 lockout pin on later production.
+- Client preference: try mediation before any testifying experts are disclosed or deposed, because expert discovery is expensive and hardens positions. Consulting engineers may attend inspections. If plaintiff's counsel presses for an expert schedule first, insist on a mediation date and tell the client if she objects.
+- The TT-5500 uses the same lockout pin as the TT-6200 but has a different locking ring and lid seat.
+- Client instruction on product inspections: nothing may be disassembled or cleaned before both sides' engineers are present, and the client's own engineer may handle the unit only in the lawyer's presence.
+- Client budget and staffing rules: provide an estimate for each phase of a matter. Limit staffing to one associate and one partner, with no more than two lawyers at any deposition or hearing.
+- Client reporting requirement (Franklin Oyelaran, General Counsel, letter of March 9, 2026): case reports must be a single page showing current exposure as a dollar range, a few lines of status, upcoming dates, and any decision needed from the client. No narrative memos. Send a page monthly and after any event that changes the range, such as an inspection result or a ruling.
+- Authority limits: the firm has no settlement authority. Once it recommends a range, the client takes it to its claims group. No settlement offer may be made in any form without the General Counsel's written approval.
+- Client communication rules: send communications to Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft in risk management. Do not speak to the press or to retail partners, and refer inquiries to him. Do not contact client employees directly, as he arranges access. His technical contact is Rennick Odell, product safety lead. Quality records are available on request, and complaints are tracked in the Ravenscar ticketing system. Tell him promptly of other claims involving the TT-6200 or related models.
+- The client has promised its largest retail partners advance warning before pulling any product from sale. It asked to be told at once if anything in the case could lead there.
+- Client instruction on plaintiff's counsel: be courteous, but do not volunteer information about customer complaint history or other incidents until a request is served and the scope has been discussed with the client. If a joint inspection is requested, agree in principle and send a written protocol.
+
+Firm store:
+- Corporate product-liability clients commonly want to control expert selection. Consult the client, and get its approval, before engaging any testifying expert. Be ready to give several candidates per discipline with credentials and prior testimony, and confirm the client discussion has happened before engaging anyone a memo recommends.
+- The firm typically has no settlement authority of its own. After assessing a claim, send the client an assessment and recommended range. Offers, and even signals of willingness to pay, wait for the client's authority: written General Counsel approval, or written sign-off from a higher body (CFO or board) above set thresholds. Verbal indications are not enough, and lead time for the approval should be flagged early.
+- Clients treat internal design, testing and complaint records as sensitive. Propose or obtain a protective order before producing them, including a restricted outside-counsel-and-experts tier where needed, and do not stipulate to authenticity or produce beyond what the court requires until the order is signed.
+- Clients route communications through the General Counsel and control access to their people. Do not contact employees directly or speak to the media or other outside parties, refer such inquiries to the General Counsel, and get client discussion before putting forward any company witness.
+- Clients set a regular written reporting cadence (monthly, every six weeks or similar) with a prompt call or note after significant events such as rulings, depositions or inspection results. Confirm each client's required format and length at the start of the matter.
+- Clients impose budget and staffing controls: phase-by-phase estimates, explanation of variances or overruns, and caps on timekeepers at depositions and hearings. Agree these with the client at the start of the matter.
+- Clients with insurance coverage want coverage-related communications handled through designated contacts (an insurance liaison or claims handler). Copy them on anything bearing on coverage or exposure, and confine coverage positions to those contacts and the General Counsel.
+- Clients restrict handling of physical evidence and testing. Require advance notice and a written protocol before any inspection or testing, with both sides' engineers present and no disassembly, cleaning or sectioning until agreed. Client engineers handle the unit only with counsel present, and the client wants notice or quotes before testing is commissioned.
+
+New matter: B-2
+Client: Toil & Trouble Home Products
+
+Question:
+What specific facts from Toil & Trouble's earlier cases (witness statements, retail return history, engineering documents with numbers or identifiers) should I expect to come up again? Please be concrete.
+
+Answer the question.

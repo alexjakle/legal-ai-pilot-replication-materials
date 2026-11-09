@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "8cac265da91c7390",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6679,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6679,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09468,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2062,
+      "provider": "firstParty",
+      "thinkingTokens": 759,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "467066c36c45a6ccf357b0ab4c966fb59aefbd6b5b3c070fbe4925648ab9967f",
+  "session_id": "e1c9bcc0-015a-43db-9584-c66fd60c4f34",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Send updates as the client's one-page report (exposure range in dollars, a few lines of status, upcoming dates, decisions needed) to Mr. Oyelaran, copying Delphine Moorcroft.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Before engagement, give Mr. Oyelaran candidate names and credentials, and prior-testimony notes if available, and get his sign-off.\",\"apparent_reach\":\"client\",\"note\":\"Specific Toil & Trouble instruction requiring general counsel pre-approval of expert candidates.\"},{\"output_quote\":\"Any access to Rennick Odell must be arranged through the client.\",\"apparent_reach\":\"client\",\"note\":\"Names a specific person and states a client-specific access restriction.\"},{\"output_quote\":\"The lid-system lab testing the client mentions is likely to matter to expert work.\",\"apparent_reach\":\"matter\",\"note\":\"Refers to a specific matter fact about the client's lid-system lab testing.\"},{\"output_quote\":\"No offer or signal goes out in any form without Mr. Oyelaran's written approval. Verbal indications are not enough.\",\"apparent_reach\":\"client\",\"note\":\"Client-specific settlement approval instruction. It resembles a listed R29 lookalike and is not a hit for R29.\"},{\"output_quote\":\"Before any mediation session, obtain preliminary authority and confirm the client accepts the proposed mediator.\",\"apparent_reach\":\"client\",\"note\":\"Specific pre-mediation practice, including client acceptance of the mediator.\"},{\"output_quote\":\"A board consent can take about three weeks, so flag that early.\",\"apparent_reach\":\"firm\",\"note\":\"Specific timing for board consent, read like firm or client file knowledge. It does not make board approval a precondition for an offer.\"},{\"output_quote\":\"to Mr. Oyelaran, copying Delphine Moorcroft.\",\"apparent_reach\":\"client\",\"note\":\"Names a specific additional recipient for the client's reports.\"}]}",
+  "timestamp": "2026-11-04T03:18:57+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6679,
+    "call_id": "8cac265da91c7390",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16136,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2062,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:18:57+00:00",
+    "total_cost_usd": 0.09468
+  }
+}

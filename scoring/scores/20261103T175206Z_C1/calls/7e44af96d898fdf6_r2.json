@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "7e44af96d898fdf6_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 6903,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.060128600000000004,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2937,
+      "provider": "firstParty",
+      "thinkingTokens": 1028,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "459062dd31fef05086686d4b9ee7be67928bee6634d9c48221b20d8099acaa47",
+  "session_id": "ed8afdc6-aff3-482b-98b4-68dbdb1b491b",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"Any figure above it needs written board consent, which takes about three weeks. Verbal indications aren't enough, and nothing goes out, even as a signal, without the document.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"copy Perpetua Wallace on anything bearing on coverage and send her the monthly invoice summary. Tell the client the same day if the carrier reserves its rights.\", \"apparent_reach\": \"client\", \"note\": \"Named insurer contact and Joad's coverage-reporting instructions.\"},\n{\"output_quote\": \"all communications go through GC Evander Thorsby.\", \"apparent_reach\": \"client\", \"note\": \"Joad's communication-routing instruction, naming its general counsel.\"},\n{\"output_quote\": \"report any other JX-series spindle incidents immediately.\", \"apparent_reach\": \"client\", \"note\": \"Joad instruction naming a specific product series.\"},\n{\"output_quote\": \"a short note within five business days after every deposition.\", \"apparent_reach\": \"client\", \"note\": \"Joad's specific deposition-reporting deadline.\"},\n{\"output_quote\": \"a written report every six weeks, with a call after significant events.\", \"apparent_reach\": \"client\", \"note\": \"Joad's reporting cadence. It is a listed lookalike for R19 and is not a hit for that row, but it is specific client-file content.\"},\n{\"output_quote\": \"due within 60 days, with an exposure range and the probability of an adverse result.\", \"apparent_reach\": \"client\", \"note\": \"Joad's first case assessment deadline and required contents. It is a listed lookalike for R19 and is not a hit for that row.\"},\n{\"output_quote\": \"due within 45 days. Expert and testing costs drive most variance, so explain variances.\", \"apparent_reach\": \"client\", \"note\": \"Joad's phase budget deadline and variance-explanation instruction.\"},\n{\"output_quote\": \"Give the GC the names and credentials of every proposed testifying expert before engagement. Include prior-testimony notes if he asks.\", \"apparent_reach\": \"client\", \"note\": \"Joad's pre-engagement disclosure requirement for testifying experts.\"},\n{\"output_quote\": \"Clear any standards or industry-practice expert with him first. He prefers design testimony focused on the specific product, and he can help identify candidates from standards bodies.\", \"apparent_reach\": \"client\", \"note\": \"Joad GC's clearance requirement and expert preference. It does not call for retaining a standards witness, so it is not a hit for R05, R15 or R17.\"},\n{\"output_quote\": \"Get quotes before commissioning any testing, and settle who pays for shared lab work.\", \"apparent_reach\": \"client\", \"note\": \"Joad's instruction on testing costs.\"},\n{\"output_quote\": \"Give 10 days' notice of any proposed testing.\", \"apparent_reach\": \"client\", \"note\": \"Specific notice period for proposed testing.\"},\n{\"output_quote\": \"Don't offer Joad engineers or sales/account managers as witnesses until the firm and the GC have discussed it. Don't contact Joad engineers directly.\", \"apparent_reach\": \"client\", \"note\": \"Joad's restrictions on employee witnesses and direct contact with engineers.\"},\n{\"output_quote\": \"If an offer would fall within that tier, check with the GC before conveying it.\", \"apparent_reach\": \"client\", \"note\": \"Joad's GC check for offers within the pre-approved insurer authority tier, separate from the board consent in R29.\"}\n]}",
+  "timestamp": "2026-11-04T03:25:54+00:00",
+  "usage": {
+    "cache_read_tokens": 6903,
+    "cache_write_tokens": 0,
+    "call_id": "7e44af96d898fdf6_r2",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 21855,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2937,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:25:54+00:00",
+    "total_cost_usd": 0.060128600000000004
+  }
+}

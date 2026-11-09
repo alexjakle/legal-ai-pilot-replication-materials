@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "cef7e77741bc5e0e",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6898,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6898,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.11557200000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3019,
+      "provider": "firstParty",
+      "thinkingTokens": 1561,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "69a13bb69334c7aa28fbf341a18f6f3666e8aba3d9b0cbffb50bf9e2a25d0497",
+  "session_id": "07ecbaa4-c8f6-4a46-9d6c-63663d3fb91b",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"The standards expert explains what the standards require and how the industry customarily meets them.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"If Joad's regulatory group reviews expert reports for consistency with regulatory submissions, build that time into the schedule.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"pattern\",\"quote\":\"Any access to internal test data should wait for a protective order with an outside-counsel-and-experts tier, and Joad won't stipulate to authenticity of that data before then.\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"The standards expert explains what the standards require and how the industry customarily meets them.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"The standards expert explains what the standards require and how the industry customarily meets them.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"If Joad's regulatory group reviews expert reports for consistency with regulatory submissions, build that time into the schedule.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Clear the plan with Joad's General Counsel, Evander Thorsby, before any outreach or engagement.\",\"apparent_reach\":\"client\",\"note\":\"Names the client's general counsel and requires his clearance before expert outreach or engagement.\"},{\"output_quote\":\"Thorsby has offered to help identify candidates who have served on standards bodies.\",\"apparent_reach\":\"matter\",\"note\":\"Specific offer by the client's general counsel to help identify standards-witness candidates.\"},{\"output_quote\":\"Thorsby prefers design testimony stay product-specific, so keep the engineer out of industry-practice opinions.\",\"apparent_reach\":\"client\",\"note\":\"Client general counsel's stated preference on the scope of design testimony.\"},{\"output_quote\":\"Be careful about what each is shown, since Joad wants a tight circle around test files.\",\"apparent_reach\":\"client\",\"note\":\"Client practice restricting circulation of internal test files.\"},{\"output_quote\":\"Obtain a fee quote before engagement, and explain any projection that exceeds Joad's budget assumption.\",\"apparent_reach\":\"client\",\"note\":\"Client billing instruction on expert fee quotes and budget overruns.\"},{\"output_quote\":\"Copy Perpetua Wallace (Cobaltridge Indemnity) on cost and exposure implications, since expert spend bears on the $400,000 retention and the aggregate limit Joad is watching.\",\"apparent_reach\":\"client\",\"note\":\"Names the insurer contact and states the client's retention figure and aggregate-limit concern.\"},{\"output_quote\":\"Do not contact Joad engineers directly. Any input from them goes through Thorsby.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction routing all engineer contact through the general counsel.\"}]}",
+  "timestamp": "2026-11-04T02:56:43+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6898,
+    "call_id": "cef7e77741bc5e0e",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 23868,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3019,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:56:43+00:00",
+    "total_cost_usd": 0.11557200000000001
+  }
+}

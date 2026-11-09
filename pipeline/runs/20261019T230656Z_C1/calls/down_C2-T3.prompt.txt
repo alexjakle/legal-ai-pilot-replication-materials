@@ -1,0 +1,29 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Joad Axle Works):
+- Client requires at least ten days' notice of any proposed testing and wants quotes before testing is commissioned.
+- Client wants to review the names and credentials of all proposed testifying experts before engagement, and prefers design testimony to stay focused on the product at issue. It offered to help identify candidates with standards-body experience. Consult the client and obtain approval before engaging any expert.
+- Settlement above the insurer's pre-approved tier requires written board of directors sign-off. Verbal indications from directors or officers are not enough, and the client needs about three weeks to prepare a board consent.
+- No offer above the authorized tier may be made or communicated, even as a signal, until written board sign-off is in hand. For any offer within the insurer's tier, check with General Counsel Evander Thorsby before conveying it, because the insurer will want to be involved.
+- Insurance: the policy has a $400,000 retention and an aggregate limit the client is watching because of two other open claims. The insurer's claims handler is Perpetua Wallace. She is to be copied on anything bearing on coverage and sent monthly invoice summaries. If the carrier reserves its rights, the client wants to hear the same day.
+- Client reporting and handling requirements: a written report every six weeks; a note within five business days after each deposition; deposition attendance limited to one firm lawyer and one insurer lawyer; no public statements, with media, regulator and customer inquiries referred to General Counsel Thorsby; and immediate notice of any other similar product incidents.
+- Client communications rules: all case communications go through General Counsel Thorsby. The firm must not contact current Joad engineers or production staff directly, since Thorsby arranges access. Keep a tight circle around who sees test files. No Joad employee or key witness is to be put forward for testimony until the firm and Thorsby have discussed it.
+
+Firm store:
+- Clients require consultation and approval before any testifying expert is engaged. They want names and credentials, and sometimes several candidates per discipline, before engagement. Confirm client sign-off on expert selection before retaining anyone.
+- All case communications go through the client's General Counsel. The firm must not contact client employees or staff directly, because access is arranged through the GC or cleared in advance. Check who the designated contact is before reaching out to any client personnel.
+- Clients require the insurance liaison, adjuster or claims handler to be copied on communications touching coverage or exposure. Coverage positions are discussed only with designated people.
+- Settlement authority is held by the client or its insurer, not the firm. Written sign-off from a designated approver (CFO, General Counsel or board) is required before any offer or signal is made above set thresholds. The firm first provides an assessment and recommended range, and should allow lead time for approvals.
+- Clients bar the firm from speaking to the media or press on its own. Inquiries must be referred to the General Counsel or cleared in advance.
+- Clients require regular written reports on a fixed cadence (monthly or every six weeks) plus prompt event-driven updates after significant events such as rulings, depositions or inspection results. Reporting formats and triggers vary by client, so confirm each client's format and triggers.
+- Clients expect phase-by-phase budgets or estimates. They want explanations when projected fees or costs exceed their assumptions or budget variance thresholds.
+- Clients cap staffing at depositions and hearings, typically one to two firm lawyers or timekeepers, and sometimes limit overall team size. Check the client's limit before assigning attendees.
+- Clients ask to be told promptly of other similar claims or product incidents involving the same or related products. Flag any such incident to the General Counsel immediately.
+
+New matter: C-2
+Client: Joad Axle Works
+
+Question:
+Plaintiff's metallurgist in the new Joad matter says a component failed from fatigue because of its design. What is our plan for that expert, and what do we do first?
+
+Answer the question.

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "2454df98f894f0cf",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6793,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6793,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09829200000000002,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2197,
+      "provider": "firstParty",
+      "thinkingTokens": 614,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "965234ed347bf6a515e2558b762bda0d09a1e57ee1745a802139e9b6bcbde296",
+  "session_id": "a2dffa98-1c9a-490b-a177-c5280518be3f",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Say Joad will address authenticity once a protective order is entered. Joad's internal test data is confidential, and we can't stipulate to documents that haven't been produced or reviewed under appropriate protections.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"since all communications run through General Counsel Evander Thorsby\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's general counsel and states a client practice of routing all communications through him.\"}, {\"output_quote\": \"since we don't contact engineers or production staff directly\", \"apparent_reach\": \"client\", \"note\": \"Client restriction on direct contact with engineers and production staff.\"}, {\"output_quote\": \"It must include a tier limiting access to outside counsel and experts (an \\\"outside counsel and experts only\\\" tier) for sensitive technical data such as fatigue test records.\", \"apparent_reach\": \"client\", \"note\": \"Specific protective-order term required for the client's sensitive technical data.\"}, {\"output_quote\": \"Joad will produce only what the court requires, and not before the order is signed.\", \"apparent_reach\": \"client\", \"note\": \"Client production stance, limiting production to what is required and gating it on a signed order.\"}, {\"output_quote\": \"If the fatigue data will need expert interpretation, he wants names and credentials before any engagement.\", \"apparent_reach\": \"client\", \"note\": \"General counsel's instruction requiring expert names and credentials before engagement.\"}, {\"output_quote\": \"a standards-expert plan must be cleared with him first.\", \"apparent_reach\": \"client\", \"note\": \"General counsel's pre-clearance requirement for a standards-expert plan; it does not call for retaining a standards witness, so it is not a hit on the standards-witness rows.\"}, {\"output_quote\": \"Any testing we commission needs a quote first, and 10 days' notice to Joad.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on commissioned testing, with a specific notice period.\"}, {\"output_quote\": \"Copy Perpetua Wallace if the request bears on coverage or exposure.\", \"apparent_reach\": \"client\", \"note\": \"Names a client contact and a specific copying instruction for coverage or exposure issues.\"}, {\"output_quote\": \"a written report every six weeks, a phase budget within 45 days, and a first case assessment within 60 days\", \"apparent_reach\": \"client\", \"note\": \"Client reporting and budget cadence with specific intervals; not one-page reports, so not a hit on R19.\"}]}",
+  "timestamp": "2026-11-04T02:55:29+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6793,
+    "call_id": "2454df98f894f0cf",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16572,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2197,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:55:29+00:00",
+    "total_cost_usd": 0.09829200000000002
+  }
+}

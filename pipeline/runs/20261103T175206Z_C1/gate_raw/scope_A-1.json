@@ -1,0 +1,182 @@
+{
+  "matter": "A-1",
+  "call_id": "scope_A-1",
+  "timestamp": "2026-11-03T17:52:52+00:00",
+  "session_id": "c614fd2d-3c8e-4302-997a-1ed1651e3aff",
+  "raw": "{\"items\":[\n{\"id\":\"N412193.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.05\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.11\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.14\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.24\",\"decision\":\"client_store\",\"text\":\"Telltale settlement authority process: counsel sends an assessment and recommended range to General Counsel Marguerite Salvesen for the claims committee. Authority above $500,000 needs sign-off from CFO Cormac Brightwater.\",\"tags\":[]},\n{\"id\":\"N412193.25\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.26\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N412193.27\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.28\",\"decision\":\"client_store\",\"text\":\"Telltale client reporting and handling requirements: a monthly written update and a call after significant events. An initial case assessment is due within 45 days of the engagement letter. Five business days' notice is required before any motion. Phase budgets are required, with variance explained over ten percent. All communications go to General Counsel Marguerite Salvesen with a copy to insurance liaison Thaddeus Wren. The firm's day-to-day contact has been Priya Raghunathan, with a call every two weeks early on.\",\"tags\":[]},\n{\"id\":\"N412193.29\",\"decision\":\"client_store\",\"text\":\"Telltale client guidelines: no contact with media, treating physicians, or Telltale employees below vice president level without clearing it with the General Counsel. Preserve all relevant product documents (a litigation hold is issued per matter). No more than two timekeepers at a deposition are paid for. Invoices are monthly in task-based format. Design engineering and complaint-handling records are confidential, and a protective order should be proposed before producing anything.\",\"tags\":[]},\n{\"id\":\"N412193.30\",\"decision\":\"client_store\",\"text\":\"Telltale wants a vigorous but measured defense and asks the firm to avoid public filings that characterize failure rates further than a case requires, because Telltale is in a regulatory inspection tied to its next-generation lead (status as of 2025; confirm it is still current).\",\"tags\":[]},\n{\"id\":\"N412193.31\",\"decision\":\"client_store\",\"text\":\"Telltale's product liability program has a $750,000 self-insured retention per claim. Coverage matters go only to Thaddeus Wren or Marguerite Salvesen.\",\"tags\":[]},\n{\"id\":\"N412193.32\",\"decision\":\"client_store\",\"text\":\"Telltale tracks complaint data in Orrinwick, its complaint-handling database.\",\"tags\":[]},\n{\"id\":\"N412193.33\",\"decision\":\"matter_only\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N412193.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.04",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.05",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.06",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.07",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.08",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.09",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.10",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.11",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.12",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.13",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.14",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.15",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.17",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.18",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.19",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.22",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.23",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.24",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale settlement authority process: counsel sends an assessment and recommended range to General Counsel Marguerite Salvesen for the claims committee. Authority above $500,000 needs sign-off from CFO Cormac Brightwater."
+      },
+      {
+        "id": "N412193.25",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.26",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N412193.27",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.28",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale client reporting and handling requirements: a monthly written update and a call after significant events. An initial case assessment is due within 45 days of the engagement letter. Five business days' notice is required before any motion. Phase budgets are required, with variance explained over ten percent. All communications go to General Counsel Marguerite Salvesen with a copy to insurance liaison Thaddeus Wren. The firm's day-to-day contact has been Priya Raghunathan, with a call every two weeks early on."
+      },
+      {
+        "id": "N412193.29",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale client guidelines: no contact with media, treating physicians, or Telltale employees below vice president level without clearing it with the General Counsel. Preserve all relevant product documents (a litigation hold is issued per matter). No more than two timekeepers at a deposition are paid for. Invoices are monthly in task-based format. Design engineering and complaint-handling records are confidential, and a protective order should be proposed before producing anything."
+      },
+      {
+        "id": "N412193.30",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale wants a vigorous but measured defense and asks the firm to avoid public filings that characterize failure rates further than a case requires, because Telltale is in a regulatory inspection tied to its next-generation lead (status as of 2025; confirm it is still current)."
+      },
+      {
+        "id": "N412193.31",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale's product liability program has a $750,000 self-insured retention per claim. Coverage matters go only to Thaddeus Wren or Marguerite Salvesen."
+      },
+      {
+        "id": "N412193.32",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale tracks complaint data in Orrinwick, its complaint-handling database."
+      },
+      {
+        "id": "N412193.33",
+        "decision": "matter_only",
+        "tags": []
+      }
+    ]
+  }
+}

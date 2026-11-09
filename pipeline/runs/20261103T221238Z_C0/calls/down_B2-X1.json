@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-X1",
+  "prompt_hash": "2ec287219e0a008dcd4b6b2c37cd1adf5651632be943039cc96cdbb29b837586",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:16:50+00:00",
+  "session_id_in": null,
+  "session_id": "9ed351a0-a055-449f-b00e-d34c733a1598",
+  "text": "Telltale's approach is a useful template, but Toil & Trouble's instructions differ in places, so I would not copy it wholesale.\n\n**Telltale expert report review (Hartwell and Delmore)**\n- Telltale's regulatory affairs group, led by Odalys Fennimore, must read every defense expert report before service. The purpose is consistency with its regulatory submissions.\n- The review window is ten business days in Hartwell and two weeks in Delmore.\n- Comments go through counsel to the expert, never directly. Counsel logs what is sent so the exchange stays protected work product. In Hartwell, the draft-protection stipulation should be confirmed to cover this review.\n- The expert delivers a near-final draft early enough to fit the window. In Hartwell that was January 30 for a March 17 service date. In Delmore it was September 26 for an October 31 service date.\n- Before any testifying expert is signed, the client wants to discuss candidates and see fee quotes. In Hartwell that means three names per discipline with prior testimony notes.\n\n**Telltale settlement timing (Hartwell and Delmore)**\n- In both matters the firm may listen but may not give a number or convey any offer until the treating cardiologist has been deposed.\n- After the deposition, the firm sends the General Counsel an assessment and recommended range, and authority is sought then, not before.\n- Authority above $500,000 needs CFO sign-off.\n- In Hartwell, the firm declined mediation until after Dr. Teague's November 6, 2025 deposition and planned to propose mediation for January 2026 if the transcript was favorable.\n- In Delmore, the firm planned to attend mediation to listen and not name a number unless Dr. Pratt's testimony helped.\n- Delmore also requires client approval of the mediator, confirmation that the mediation is confidential, and settlement communications marked as such.\n\n**What carries over to Toil & Trouble**\n- **Expert review:** Mr. Oyelaran has not asked for a pre-service review. I would ask him whether he wants one, for example by Rennick Odell as product safety lead. Any such review should run through Mr. Oyelaran, since we cannot contact client employees directly. The log and draft-protection steps would then apply, and the schedule should leave room for the review. Plaintiff's designations are due August 21 and ours October 2 if mediation fails.\n- **Settlement timing:** The triggers differ. Telltale's trigger is a deposition. Toil & Trouble's client wants mediation first, before any testifying expert is disclosed or deposed. We have no authority, and no offer may be made in any form without Mr. Oyelaran's written approval. The mediation-first sequence is already set, with Whitcombe pending client approval. The next steps are to confirm Mr. Whitcombe with Mr. Oyelaran and obtain preliminary mediation authority in writing. Reports to the client should be one page, not the narrative assessments Telltale receives.\n- **Confidentiality:** Use Telltale's matters only as an internal process model. Do not share Telltale facts, work product or numbers with Toil & Trouble. Telltale itself wants nothing from its cases used elsewhere.\n\nThe file I have for Toil & Trouble stops at the May 12 memo, which anticipated mediation by July 17. It is now November 3, so I can't tell from the file whether mediation happened or the expert schedule was triggered. Please confirm the current status before we apply any of this.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:16:50+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "9ed351a0-a055-449f-b00e-d34c733a1598",
+    "input_tokens": 2,
+    "output_tokens": 2101,
+    "cache_write_tokens": 19789,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.10017000000000001,
+    "latency_ms": 15594,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2101,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 19789,
+      "webSearchRequests": 0,
+      "costUSD": 0.10017000000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 958,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 19789,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

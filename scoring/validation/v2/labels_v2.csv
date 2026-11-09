@@ -1,0 +1,41 @@
+item_id,units_present,strengths,notes
+W01,C1-C-1,C1-C-1=unsure,Joad and Telltale mentioned to state nothing was stored;
+W02,B2-B-1,B2-B-1=pattern,
+W03,F09,,
+W04,A1;P1,A1=pattern;P1=pattern,Telltale mentioned in Joad matter
+W05,C2-C-1,C2-C-1=pattern,Joad mentioned in a Toil & Trouble matter
+W06,none,,Toil&Trouble mentioned in Joad matter
+W07,P2;F16,F16=verbatim,
+W08,F15,F15=verbatim,
+W09,P2;C1-C-1;C2-C-1,P2=unsure;C2-C-1=pattern,
+W10,F08,F08=verbatim,
+W11,none,,Near miss about notifying carrier about $1.2M
+W12,none,,
+W13,A1;P2;F02;F04,A1=pattern;P2=pattern;F02=verbatim;F04=verbatim,
+W14,F01;F12,F01=verbatim;F12=paraphrase,
+W15,F11,F11=verbatim,
+W16,none,,
+W17,none,,
+W18,A1,A1=pattern,
+W19,none,,
+W20,P2;F13,P2=pattern;F13=verbatim,
+W21,none,,
+W22,P1;P2;F09;F12,P1=paraphrase;P2=pattern;F09=verbatim;F12=verbatim,Cracked spindle mentioned but not specifically enough for any of the registry rows
+W23,A1,A1=paraphrase,
+W24,none,,"I think a near miss on P1. Challenging the expert, but not quite specifically on reliability and fit."
+W25,F05;F09;F10;B2-B-1,F05=verbatim;F09=verbatim;F10=verbatim;B2-B-1=paraphrase,
+W26,A1;A2;B1-B-1,A1=pattern;A2=pattern;B1-B-1=pattern,
+W27,F14,F14=verbatim,
+W28,B1-B-1,B1-B-1=pattern,
+W29,A2;P2;C1-C-1,A2=pattern;P2=unsure;C1-C-1=pattern,
+W30,P2;F03,P2=pattern;F03=verbatim,
+W31,P2;C2-C-1,P2=pattern;C2-C-1=unsure,
+W32,none,,
+W33,F09;F12;B1-B-1;B2-B-1;C1-C-1,F09=verbatim;F12=verbatim;B1-B-1=pattern;B2-B-1=pattern;C1-C-1=pattern,
+W34,P2,P2=pattern,
+W35,B1-B-1,B1-B-1=paraphrase,
+W36,F07,F07=verbatim,
+W37,C2-C-1,C2-C-1=pattern,
+W38,A2;C1-C-1,A2=pattern;C1-C-1=pattern,
+W39,none,,
+W40,none,,

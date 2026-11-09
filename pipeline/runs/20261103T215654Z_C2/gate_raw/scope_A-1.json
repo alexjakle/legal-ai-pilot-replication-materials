@@ -1,0 +1,155 @@
+{
+  "matter": "A-1",
+  "call_id": "scope_A-1",
+  "timestamp": "2026-11-03T21:57:40+00:00",
+  "session_id": "315d7b69-4a5c-4ecc-a67b-2cb31b54af62",
+  "raw": "{\"items\":[\n{\"id\":\"N412193.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.05\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.11\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.13\",\"decision\":\"client_store\",\"text\":\"Telltale settlement and coverage structure: settlement authority above $500,000 requires sign-off from the CFO (Cormac Brightwater). The self-insured retention is $750,000 per claim. Insurance liaison Thaddeus Wren handles coverage. The GC is Marguerite Salvesen.\",\"tags\":[]},\n{\"id\":\"N412193.14\",\"decision\":\"client_store\",\"text\":\"Telltale reporting and billing requirements: monthly written updates and a call after significant events; initial assessment within 45 days; five business days' notice before filing any motion; phase budgets with variance explanations for variances over 10%; no more than two timekeepers at depositions; communications go to the GC (Marguerite Salvesen) with the insurance liaison (Thaddeus Wren) copied; litigation holds are required on relevant product documents.\",\"tags\":[]},\n{\"id\":\"N412193.15\",\"decision\":\"client_store\",\"text\":\"Telltale expert and regulatory requirements: consult the client before engaging any testifying expert, offering three names per discipline with prior testimony notes. The regulatory affairs group (led by Odalys Fennimore) must review every expert report before service, with ten business days allowed. The client was in a regulatory inspection on its next-generation lead and wants filings to avoid characterizing failure rates beyond what is needed.\",\"tags\":[]},\n{\"id\":\"N412193.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.24\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.25\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.26\",\"decision\":\"client_store\",\"text\":\"Expert report process for Telltale: route regulatory-affairs comments on expert reports through counsel and log what is sent so the exchange stays protected work product. Have the expert deliver a near-final draft early enough to fit the client's ten-business-day review before the service deadline, and confirm that any draft-protection stipulation covers this review.\",\"tags\":[]},\n{\"id\":\"N412193.27\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N412193.28\",\"decision\":\"discard\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N412193.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.04",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.05",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.06",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.07",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.08",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.09",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.10",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.11",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.12",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.13",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale settlement and coverage structure: settlement authority above $500,000 requires sign-off from the CFO (Cormac Brightwater). The self-insured retention is $750,000 per claim. Insurance liaison Thaddeus Wren handles coverage. The GC is Marguerite Salvesen."
+      },
+      {
+        "id": "N412193.14",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale reporting and billing requirements: monthly written updates and a call after significant events; initial assessment within 45 days; five business days' notice before filing any motion; phase budgets with variance explanations for variances over 10%; no more than two timekeepers at depositions; communications go to the GC (Marguerite Salvesen) with the insurance liaison (Thaddeus Wren) copied; litigation holds are required on relevant product documents."
+      },
+      {
+        "id": "N412193.15",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Telltale expert and regulatory requirements: consult the client before engaging any testifying expert, offering three names per discipline with prior testimony notes. The regulatory affairs group (led by Odalys Fennimore) must review every expert report before service, with ten business days allowed. The client was in a regulatory inspection on its next-generation lead and wants filings to avoid characterizing failure rates beyond what is needed."
+      },
+      {
+        "id": "N412193.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.17",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.18",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.19",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.22",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.23",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.24",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.25",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.26",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Expert report process for Telltale: route regulatory-affairs comments on expert reports through counsel and log what is sent so the exchange stays protected work product. Have the expert deliver a near-final draft early enough to fit the client's ten-business-day review before the service deadline, and confirm that any draft-protection stipulation covers this review."
+      },
+      {
+        "id": "N412193.27",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N412193.28",
+        "decision": "discard",
+        "tags": []
+      }
+    ]
+  }
+}

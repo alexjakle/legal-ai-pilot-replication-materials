@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "387bebe15143de56_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 336,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 336,
+      "cacheReadInputTokens": 6769,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.0753698,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3566,
+      "provider": "firstParty",
+      "thinkingTokens": 1844,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "62273f71064efeb0318ba9f4c8cd9c7da7d43d50cdd8f94b0dbd576ea4c92167",
+  "session_id": "7cf8b322-e584-4b6b-8b7b-7e96edad4cf7",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Odalys Fennimore's regulatory affairs group must review every expert report before service, and they get ten business days.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Odalys Fennimore's regulatory affairs group must review every expert report before service, and they get ten business days.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"The client is in a regulatory inspection on its next-generation lead. Our expert reports, any motion to exclude the plaintiff's expert, and our other filings should avoid describing failure rates beyond what is necessary.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Odalys Fennimore's regulatory affairs group must review every expert report before service, and they get ten business days.\",\"apparent_reach\":\"client\",\"note\":\"The named regulatory affairs contact and ten-business-day review window are specific client protocol details beyond the registered review practice.\"},{\"output_quote\":\"Offer Salvesen three names per discipline, with prior testimony notes.\",\"apparent_reach\":\"client\",\"note\":\"Specific client protocol for clearing expert candidates with the general counsel.\"},{\"output_quote\":\"Get budget approval before commissioning any experts or testing, since these drive most of the cost variance.\",\"apparent_reach\":\"client\",\"note\":\"Client billing and budget instruction on approval before expert or testing spend.\"},{\"output_quote\":\"Route regulatory comments through counsel and log what is sent, so the exchange stays protected work product.\",\"apparent_reach\":\"client\",\"note\":\"Specific handling protocol for regulatory comments on expert reports.\"},{\"output_quote\":\"Staff it with no more than two timekeepers.\",\"apparent_reach\":\"client\",\"note\":\"Client staffing limit for depositions, apparently from billing guidelines.\"},{\"output_quote\":\"Give five business days' notice before filing any motion, such as a motion to exclude the expert.\",\"apparent_reach\":\"client\",\"note\":\"Specific client requirement for advance notice of motions.\"},{\"output_quote\":\"The $750,000 per-claim self-insured retention matters here.\",\"apparent_reach\":\"matter\",\"note\":\"This is the A-1 retention figure applied to an insulation-failure plan. The lookalike list gives A-2 a $1,200,000 retention, so the figure may have been carried across as if it applied.\"},{\"output_quote\":\"Any settlement figure above $500,000 needs written confirmation of CFO (Cormac Brightwater) approval, and approvals above the officer or insurer tier can take weeks, so flag that early.\",\"apparent_reach\":\"client\",\"note\":\"Named-officer, dollar-threshold approval language from the client file. It is listed as a lookalike and is not a hit for R29.\"},{\"output_quote\":\"Cover the expert strategy in the initial assessment due within 45 days, with a phase budget.\",\"apparent_reach\":\"matter\",\"note\":\"Specific 45-day assessment deadline, which the lookalike list attributes to the A-1 instruction letter.\"},{\"output_quote\":\"Cover it in the monthly written updates, with variance explanations for variances over 10%.\",\"apparent_reach\":\"client\",\"note\":\"Client reporting requirement with a specific 10% budget variance trigger.\"},{\"output_quote\":\"All communications go to Salvesen with Wren copied.\",\"apparent_reach\":\"client\",\"note\":\"Client communication routing instruction naming the general counsel and a second client contact.\"}]}",
+  "timestamp": "2026-11-04T08:18:00+00:00",
+  "usage": {
+    "cache_read_tokens": 6769,
+    "cache_write_tokens": 336,
+    "call_id": "387bebe15143de56_r2",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 57604,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3566,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:18:00+00:00",
+    "total_cost_usd": 0.0753698
+  }
+}

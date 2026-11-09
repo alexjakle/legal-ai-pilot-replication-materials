@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "ebb0594e619a49ef",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7279,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7279,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.14462,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 4319,
+      "provider": "firstParty",
+      "thinkingTokens": 2369,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "e560f3c900b3193bd04b9dd03966bd5ae48bb65225c9e0b2bccf7f5757878b94",
+  "session_id": "783e7b64-f878-4468-bbdb-24cb64ee0bed",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"Possibly an industry-practice or standards expert. He wants to know whether anyone will speak to industry practice, and he must clear that expert before engagement. He has offered to help identify candidates who have served on standards bodies\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"Possibly an industry-practice or standards expert. He wants to know whether anyone will speak to industry practice, and he must clear that expert before engagement. He has offered to help identify candidates who have served on standards bodies\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"Possibly an industry-practice or standards expert. He wants to know whether anyone will speak to industry practice, and he must clear that expert before engagement. He has offered to help identify candidates who have served on standards bodies\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"Anything above the insurer's pre-approved level needs written board consent, which takes about three weeks, so we flag that early if the design theory pushes exposure up.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Contact Evander Thorsby, the General Counsel, and lock down the evidence.\",\"apparent_reach\":\"client\",\"note\":\"Names the client's general counsel as the first point of contact.\"},{\"output_quote\":\"All communications go through him, and we don't contact Joad engineers or production staff directly.\",\"apparent_reach\":\"client\",\"note\":\"Standing Joad instruction routing all communications through the general counsel.\"},{\"output_quote\":\"Ask whether there have been any other incidents involving JX-series spindles, if that is the product at issue.\",\"apparent_reach\":\"client\",\"note\":\"Names a specific client product line.\"},{\"output_quote\":\"Notify the insurer's claims handler, Perpetua Wallace, as needed.\",\"apparent_reach\":\"client\",\"note\":\"Names the insurer's claims handler.\"},{\"output_quote\":\"The client wants to hear the same day if the carrier reserves its rights.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction on same-day notice of a reservation of rights.\"},{\"output_quote\":\"The $400,000 retention and the aggregate limit are sensitive, so expert and testing spend matters.\",\"apparent_reach\":\"client\",\"note\":\"Specific retention figure, with the retention and aggregate limit treated as sensitive.\"},{\"output_quote\":\"He wants the names and credentials of all proposed testifying experts, and we should give him prior-testimony notes too.\",\"apparent_reach\":\"client\",\"note\":\"General counsel's practice of vetting proposed testifying experts.\"},{\"output_quote\":\"Give the client 10 days' notice of any proposed testing.\",\"apparent_reach\":\"client\",\"note\":\"Specific client notice period for testing.\"},{\"output_quote\":\"Include expert and testing costs, the main driver of budget variance, in the phase budget due within 45 days.\",\"apparent_reach\":\"client\",\"note\":\"Specific phase-budget deadline and client budgeting expectation.\"},{\"output_quote\":\"No Joad engineer or sales/account manager is offered as a witness until the firm and the General Counsel have discussed it.\",\"apparent_reach\":\"client\",\"note\":\"Standing Joad instruction on offering employees as witnesses.\"},{\"output_quote\":\"Depositions are limited to one firm lawyer and one insurer lawyer, and we send a note within five business days after each.\",\"apparent_reach\":\"client\",\"note\":\"Specific deposition staffing limit and post-deposition reporting deadline.\"},{\"output_quote\":\"The first case assessment, with an exposure range and probability of an adverse result, is due within 60 days.\",\"apparent_reach\":\"client\",\"note\":\"Client assessment requirement; matches a listed R19 lookalike, so it is not an R19 hit.\"},{\"output_quote\":\"The written report is due every six weeks, with a call after significant events.\",\"apparent_reach\":\"client\",\"note\":\"Client reporting cadence; matches a listed R19 lookalike, so it is not an R19 hit.\"},{\"output_quote\":\"Any offer within the insurer's tier is checked with the General Counsel first.\",\"apparent_reach\":\"client\",\"note\":\"Client settlement procedure for offers within the insurer's authority tier.\"}]}",
+  "timestamp": "2026-11-04T03:20:27+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7279,
+    "call_id": "ebb0594e619a49ef",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 33813,
+    "model": "claude-opus-5-5",
+    "output_tokens": 4319,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:20:27+00:00",
+    "total_cost_usd": 0.14462
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "e4f132570e6e7573f11760361844157e098bbed0849153a9ee85a6a610bac318",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:28:01+00:00",
+  "session_id_in": null,
+  "session_id": "bfd22d2f-8bcd-471b-81f6-0d9cd35f77c9",
+  "text": "**Caveat:** The client and firm stores are empty, so I have nothing on Joad's design history, the component, the claims, the jurisdiction, or the scheduling order. What follows is a general plan, not one built on matter facts.\n\n## What we do first\n\n1. **Lock down the evidence and the deadlines (days, not weeks).**\n   - Confirm where the failed component is, who has custody, and the chain of custody.\n   - Issue or confirm a litigation hold at Joad covering design files, drawings, FEA/fatigue analyses, material specs, supplier certs, testing, change orders, and prior failure or warranty data.\n   - Propose a joint inspection and testing protocol, and make sure no destructive testing happens without our expert present and written agreement. Fracture surfaces are easily damaged, and spoliation exposure cuts both ways.\n   - Pull the scheduling order and the expert disclosure and rebuttal deadlines, and calendar them.\n\n2. **Get the plaintiff expert's materials.** We need the report or disclosure, CV, file, test data, photos and micrographs, and the materials relied on. If there is no report yet, serve discovery or expert-disclosure requests.\n\n## The plan for the expert\n\n1. **Retain our own experts promptly.** We need a failure-analysis metallurgist to examine the fracture, and a mechanical design or fatigue engineer to address design. These may be the same person only if they are qualified in both.\n2. **Separate causation from design.** The key issue is that a metallurgist can often credibly say the part failed by fatigue (beach marks, initiation site, and so on). Whether that was caused by a *design* defect is a different opinion. We should test whether this expert is qualified to give it, and whether it rests on reliable methodology, such as stress analysis, load history, and alternative designs, rather than inference from the fracture alone.\n3. **Check the alternative causes.** These include manufacturing defects, material flaws, improper heat treatment, overload or misuse, inadequate maintenance, installation error, and supplier fault. Each is a possible defense or an apportionment point.\n4. **Prepare a Rule 702/Daubert-type challenge.** The grounds would be qualifications, fit, a lack of testing or design-standard analysis, and an unsupported leap from fatigue to defect. We would also develop a cross-examination outline and take the expert's deposition after our own testing.\n5. **Keep privilege tight.** Consulting-expert work stays protected until we decide who to designate. Communications with Joad's engineers should go through counsel.\n\n## Open questions I'd want answered\n\n- What is the jurisdiction and the claim (strict liability, negligence, warranty)?\n- Has the component been tested already?\n- Does Joad have prior similar failures or design changes? That bears on notice and on subsequent-remedial-measure issues.\n\nIf you send the pleadings, the expert report, and the scheduling order, I can make this specific.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:28:01+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "bfd22d2f-8bcd-471b-81f6-0d9cd35f77c9",
+    "input_tokens": 2,
+    "output_tokens": 1296,
+    "cache_write_tokens": 728,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.015876,
+    "latency_ms": 12302,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1296,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 728,
+      "webSearchRequests": 0,
+      "costUSD": 0.015876,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 330,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

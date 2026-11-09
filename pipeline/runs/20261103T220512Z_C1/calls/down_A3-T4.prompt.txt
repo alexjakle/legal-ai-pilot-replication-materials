@@ -1,0 +1,18 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Telltale Cardiac Systems):
+- Client settlement authority and coverage: settlement authority above $500,000 requires sign-off from the CFO (Cormac Brightwater). Self-insured retention is $750,000 per claim; insurance liaison Thaddeus Wren handles coverage. Instructions come from the General Counsel (Marguerite Salvesen).
+- Client reporting and billing requirements: monthly written updates and a call after significant events; initial assessment within 45 days; five business days' notice before filing any motion; phase budgets with variance explanations for variances over 10%; no more than two timekeepers at depositions; communications go to the General Counsel (Marguerite Salvesen) copying insurance liaison Thaddeus Wren; litigation holds are required on relevant product documents. Client expects cost-conscious handling of cases.
+- Client expert requirements: consult the client before engaging any testifying expert (provide three names per discipline with prior testimony notes). The client's regulatory affairs group (led by Odalys Fennimore) must review every expert report before service, with ten business days allowed. The client is in a regulatory inspection on its next-generation lead and wants filings to avoid characterizing failure rates beyond what is needed.
+- Expert report process for this client: route regulatory-affairs comments on expert reports through counsel and log what is sent so the exchange stays protected work product. Build the client's ten-business-day review into the schedule (testifying expert should deliver a near-final draft well ahead of the deadline), and confirm any draft-protection stipulation covers the client review.
+
+Firm store:
+- Clients want prompt reports of other claims or incidents involving the same or related products, and no public statements. Press, regulator, retail and customer inquiries go to the client.
+
+New matter: A-3
+Client: Telltale Cardiac Systems
+
+Question:
+Plaintiff's case in the new Telltale matter leans heavily on industry standards for cardiac leads. Who should we line up to address the standards, when should we do it, and what role should that person play compared with our design expert?
+
+Answer the question.

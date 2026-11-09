@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "9b70d3d0a555923080deaf793deca567e1a140708c656c80205d5cdef1e701fe",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:58:42+00:00",
+  "session_id_in": null,
+  "session_id": "573c63d7-effe-4d53-a482-148faf4d4bfe",
+  "text": "# Plan for plaintiff's metallurgist (Matter C-2)\n\n## What we do first\n**1. Contact Evander Thorsby, the General Counsel, and lock down the evidence. Do not engage anyone yet.** All communications go through him, and we don't contact Joad engineers or production staff directly. In that first communication we should:\n- Send preservation recommendations, especially for the test lab. These cover the failed component and its fracture surfaces, retained exemplars and lots, drawings, design and revision history, material certs, fatigue and test data, and related emails. We should also confirm a litigation hold is in place.\n- Ask that the fracture surfaces not be cleaned, handled or tested by anyone. Any inspection or testing is destructive or alters evidence, so it needs a joint protocol.\n- Ask whether there have been any other incidents involving JX-series spindles, if that is the product at issue. We must report any such incident immediately, and it bears directly on a design-fatigue theory.\n- Ask for early interviews with the key Joad engineers, arranged through him, and keep a tight circle around who sees test files.\n- Confirm the routing list and the current pre-approved settlement authority for this matter.\n\n**2. Notify the insurer's claims handler, Perpetua Wallace, as needed.** We copy her on anything bearing on coverage and send her the monthly invoice summary. The client wants to hear the same day if the carrier reserves its rights. The $400,000 retention and the aggregate limit are sensitive, so expert and testing spend matters.\n\n## Expert plan\n**3. Get the plaintiff's expert's report and file.** We want his opinions, the data and testing behind them, his chain of custody, and his prior testimony. He says \"fatigue because of design,\" so we need to test both parts: whether the failure was fatigue at all (fractography, beach marks, origin site) and whether the cause was design rather than manufacturing, material, installation, maintenance, overload or misuse.\n\n**4. Propose a rebuttal team to the General Counsel before engaging anyone.** He wants the names and credentials of all proposed testifying experts, and we should give him prior-testimony notes too. The team would be:\n- A metallurgist or failure-analysis expert for cause and origin.\n- A design or mechanical engineering expert, kept focused on the specific product at issue, as he prefers.\n- Possibly an industry-practice or standards expert. He wants to know whether anyone will speak to industry practice, and he must clear that expert before engagement. He has offered to help identify candidates who have served on standards bodies, so we should take him up on it.\n\nI would also consider a non-testifying consulting metallurgist to advise early. We should still clear that choice with him, and build his review time into the expert schedule.\n\n**5. Testing and budget.**\n- Give the client 10 days' notice of any proposed testing.\n- Obtain quotes before commissioning anything.\n- Settle who pays for shared lab work.\n- Include expert and testing costs, the main driver of budget variance, in the phase budget due within 45 days.\n\n**6. Witnesses.** No Joad engineer or sales/account manager is offered as a witness until the firm and the General Counsel have discussed it. The design engineers are the likely fact witnesses on the design theory. Depositions are limited to one firm lawyer and one insurer lawyer, and we send a note within five business days after each.\n\n## Reporting and settlement\n- The first case assessment, with an exposure range and probability of an adverse result, is due within 60 days. The expert's opinions on design fatigue will drive it.\n- The written report is due every six weeks, with a call after significant events.\n- Settlement authority belongs to the client. We make no offer or signal until the current authority is confirmed. Anything above the insurer's pre-approved level needs written board consent, which takes about three weeks, so we flag that early if the design theory pushes exposure up. Any offer within the insurer's tier is checked with the General Counsel first.\n- We make no public statements, and any media, regulator or customer inquiries go to Evander.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:58:42+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "573c63d7-effe-4d53-a482-148faf4d4bfe",
+    "input_tokens": 2,
+    "output_tokens": 1796,
+    "cache_write_tokens": 2223,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.026856,
+    "latency_ms": 14834,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1796,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2223,
+      "webSearchRequests": 0,
+      "costUSD": 0.026856,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 468,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2223,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

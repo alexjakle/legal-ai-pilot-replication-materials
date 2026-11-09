@@ -1,0 +1,47 @@
+{
+  "call_id": "scope_C-1",
+  "prompt_hash": "75e6af4c7e684b64f0ee12c0d8adbe7cd54708c52a56b9f6bdcccf3835c8dd32",
+  "stage": "scope_gate",
+  "role": "scope_gate",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:53:53+00:00",
+  "session_id_in": null,
+  "session_id": "71019bb7-a198-4089-b7a3-52b06873d35a",
+  "text": "{\"items\":[\n{\"id\":\"N722ac3.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.05\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.11\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.13\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.14\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.18\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.22\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.23\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.24\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.25\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.26\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.27\",\"decision\":\"client_store\",\"text\":\"Client instruction on experts: the General Counsel wants to review the names and credentials of all proposed testifying experts before engagement, wants to know whether anyone will speak to industry practice, and prefers that design testimony stay focused on the specific product at issue. He is glad to help identify candidates who have served on standards bodies. Any plan to use a standards or industry-practice expert should be cleared with him before engagement.\",\"tags\":[]},\n{\"id\":\"N722ac3.28\",\"decision\":\"client_store\",\"text\":\"Settlement authority: any offer above the insurer's pre-approved settlement authority needs written sign-off from Joad's board of directors; verbal indications from a director or officer are not enough. Do not communicate any offer above the pre-approved level, even as a signal, without that document. The client needs about three weeks to prepare a board consent. If an offer would fall within the insurer's tier, check with the General Counsel before conveying it. Confirm the current pre-approved authority amount for each matter.\",\"tags\":[]},\n{\"id\":\"N722ac3.29\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.30\",\"decision\":\"client_store\",\"text\":\"Lesson: any settlement figure above the insurer's pre-approved authority requires the board consent process, which takes about three weeks, so flag it to the client early.\",\"tags\":[]},\n{\"id\":\"N722ac3.31\",\"decision\":\"client_store\",\"text\":\"Budget preferences: the client wants quotes before any testing is commissioned and wants to know who pays for shared lab work. Expert and testing costs tend to drive most budget variance.\",\"tags\":[]},\n{\"id\":\"N722ac3.32\",\"decision\":\"client_store\",\"text\":\"Insurance: Joad's policy has a $400,000 retention and an aggregate limit the client watches closely because of other open claims. The insurer's claims handler is Perpetua Wallace. She must be copied on anything bearing on coverage and sent the monthly invoice summary. The client wants to hear the same day if the carrier reserves its rights.\",\"tags\":[]},\n{\"id\":\"N722ac3.33\",\"decision\":\"client_store\",\"tags\":[],\"text\":\"Client reporting requirements: a written report every six weeks, with a call after significant events; a first case assessment within 60 days with an exposure range and probability of an adverse result; a phase budget within 45 days; and a short note within five business days after every deposition.\"},\n{\"id\":\"N722ac3.34\",\"decision\":\"client_store\",\"text\":\"Client standing instructions: route all case communications through the General Counsel, Evander Thorsby. Do not contact current Joad engineers or production staff directly. Make no public statements and refer media, regulator or customer inquiries to him. Limit deposition attendance to one firm lawyer and one insurer lawyer. Give 10 days' notice of any proposed testing. Report immediately any other incidents involving JX-series spindles. Send preservation recommendations, especially for the test lab.\",\"tags\":[]},\n{\"id\":\"N722ac3.35\",\"decision\":\"client_store\",\"text\":\"Client instruction on witnesses: interview key Joad engineers early and keep a tight circle around who sees test files. No Joad engineer or sales/account manager should be offered for testimony until the firm and the General Counsel have discussed it.\",\"tags\":[]},\n{\"id\":\"N722ac3.36\",\"decision\":\"matter_only\",\"tags\":[]}\n]}",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:53:53+00:00",
+    "stage": "scope_gate",
+    "condition": "C1",
+    "role": "scope_gate",
+    "model": "claude-sonnet-5-5",
+    "session_id": "71019bb7-a198-4089-b7a3-52b06873d35a",
+    "input_tokens": 2,
+    "output_tokens": 3082,
+    "cache_write_tokens": 5268,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.051896,
+    "latency_ms": 17731,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 3082,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 5268,
+      "webSearchRequests": 0,
+      "costUSD": 0.051896,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1193,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 5268,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T3",
+  "prompt_hash": "a9eadeacb44fe309314d86dfe03b005b6eab89c3d60aaa4edd27172b309e49c8",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:03:04+00:00",
+  "session_id_in": null,
+  "session_id": "a0f9dbce-8f60-449e-8f3d-971818519357",
+  "text": "# Plan for plaintiff's failure-analysis expert, and what we know about earlier insulation cases\n\n## What we know from earlier insulation cases\n\n**Nothing yet.** The client and firm records I have contain no earlier insulation-related cases and nothing on the supplier's role. I won't guess at prior positions, testimony or findings. This needs to be filled in before we commit to a theory:\n\n1. **Firm files:** check for any prior Telltale insulation or lead matters, including pleadings, expert reports, deposition transcripts and any protective orders restricting reuse.\n2. **Ask Marguerite Salvesen** (copying Thaddeus Wren) whether such cases exist, how they ended, and what was said about the supplier's material selection and qualification. Telltale decides who runs any **Orrinwick** search. We should not contact employees below vice president level without her clearance.\n3. **Check for inconsistency.** Whatever Telltale said in earlier cases or to the regulator about the supplier and the insulation must be consistent with our position here. Regulatory affairs will test this in its review.\n4. **Report related claims.** If the review turns up other claims or incidents on this lead family, they go to the General Counsel immediately. We volunteer nothing to the other side beyond what a served request requires.\n\n## Plan for the expert\n\n1. **Identify the disciplines.** The likely needs are a polymer or materials scientist and a lead failure-analysis or electrophysiology engineer. A supplier-selection or industry-practice witness is optional, and we hold off on that until we know the earlier-case facts and Telltale agrees.\n2. **Consult before engaging.** We send Salvesen three candidates per discipline, each with credentials and prior testimony notes, copying Wren. We make no engagement, including a consulting engagement, before she approves. Any standards or industry-practice witness plan is cleared with her first.\n3. **Get quotes and a budget.** We obtain quotes before any expert engagement or testing and include them in the phase budget. Experts and testing are the likely main cost driver. We flag early any projected variance over 10%.\n4. **Build in regulatory review.** Odalys Fennimore's group must clear every expert report before service, and it needs ten business days. We hold reports within the firm and the experts until cleared, and we plan the schedule backward from the disclosure deadline.\n5. **Protect the data.** Design engineering and complaint-handling records are confidential. We propose a protective order with an outside-counsel-and-experts tier before producing anything. Our own experts get the data only under that order.\n6. **Test the plaintiff's expert.**\n   - Review the report for the basis of the supplier-selection claim, the failure mode and any testing done.\n   - Plan a deposition with no more than two billed timekeepers.\n   - Give Telltale five business days' notice before any motion, such as a *Daubert* challenge.\n7. **Keep filings measured.** Our reports and filings should not characterize failure rates beyond what is needed, given the regulatory inspection tied to the next-generation lead. We alert the General Counsel at once if anything could lead to a recall or regulatory consequence.\n8. **Stay on process.** The litigation hold stays in force. Everything goes to Salvesen with a copy to Wren, and coverage questions go only to those two. Any significant development is reported by call plus written update.\n\n## Immediate next steps\n- Ask Salvesen about prior insulation cases, the supplier's role and who can run Orrinwick searches.\n- Obtain and review the plaintiff's expert designation and report.\n- Prepare the candidate list and cost estimate for her approval.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:03:04+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a0f9dbce-8f60-449e-8f3d-971818519357",
+    "input_tokens": 2,
+    "output_tokens": 1998,
+    "cache_write_tokens": 2517,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.030052000000000002,
+    "latency_ms": 18761,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1998,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2517,
+      "webSearchRequests": 0,
+      "costUSD": 0.030052000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 802,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2517,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "da491851757849f7807dd7e4ee23eca955a718c12e6073a4a198ab045f0c387d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T17:48:10+00:00",
+  "session_id_in": null,
+  "session_id": "6e1ed497-b64f-4992-ab12-035a5bd56312",
+  "text": "# Plan for plaintiff's metallurgist in C-2\n\n**Caveat:** I don't have C-2 pleadings, so I'm drawing on the Lindqvist file, where Dr. Ashdown makes this argument about the JX-9 spindle. If C-2 involves a different component or a different expert, the framework holds but the specifics need to be confirmed.\n\n## Strategy: attack causation first, not design\n\nThe fillet radius, heat treatment and fatigue-margin arguments only matter if the fatigue crack came first. So the first target is whether his opinion that the part was cracked before the event is reliable and fits the facts. We would test these points:\n\n- **Basis:** whether the opinion rests on testing or replication, or only on reading beach marks.\n- **Alternatives:** whether he rules out overload or impact separation during the event. Our metallurgist's preliminary read in Lindqvist is a large final-overload zone and heavy post-separation smearing.\n- **Other causes:** whether he accounts for the 41 mph reading on the 35 mph ramp and for the maintenance and alteration evidence.\n- **What the part shows:** what the fracture surface itself supports once both sides' engineers have examined it.\n\nIf causation is narrowed, the design theory loses its link to the injury. Only if that fails do we meet design head-on through Dr. Esquivel, supported by a separate standards witness.\n\n## What we do first\n\n1. **Tell Evander Thorsby now.** If C-2 involves another JX-series spindle, the standing instruction is to report it immediately. All contact goes through him, and we do not approach Joad engineers or production staff directly.\n2. **Lock down the evidence.**\n   - Confirm chain of custody and the storage location, since the part may not be under Joad's control.\n   - Confirm the litigation hold and send preservation recommendations, especially for the 2017 test lab.\n   - Put a joint inspection protocol in place. It should require 21 days' notice to the other side and no sectioning unless both sides' engineers are present.\n   - Give Joad 10 days' notice of any testing.\n3. **Retain a consulting metallurgist.**\n   - The GC must see names and credentials before engagement, and the client wants fee quotes before any testing is commissioned.\n   - Begin with a consulting role. Consulting experts are not disclosed, though anyone who touches the part must be named in the protocol.\n4. **Obtain Ashdown's materials.** That means his report, fractography, photographs, test data and the list of materials he considered. We want to know early whether any replication exists.\n5. **Get the protective order signed.**\n   - It needs an attorneys'-eyes-only tier covering the FT-77 data and design drawings, a bar on use outside this case, and return or destruction at the end.\n   - Until it is signed, produce nothing beyond what the court requires, and give no blanket authenticity stipulation for test data.\n6. **Handle the privileged review with care.**\n   - Joad's post-accident review found a machining tool mark at the fracture origin that could not be ruled out as the initiation point. It is withheld as work product.\n   - Decide, with the GC, what any testifying expert may see or rely on, so nothing waives protection.\n   - Make sure our expert's opinion is not contradicted by it. That would be a serious cross-examination risk.\n7. **Keep positions consistent across the two matters.** Ashdown's testimony and our responses in C-2 and Lindqvist will be read side by side.\n\n## Later steps\n\n- Depose Ashdown only after the joint examination and after we have his materials. Prepare a reliability challenge if he has not replicated or ruled out overload.\n- Retain a separate standards expert limited to the standards and their history, and keep that expert apart from the test analysis. The GC must clear this before engagement.\n- Keep witnesses such as Oakhurst and Pruett under tight control. Neither Oakhurst nor the sales manager is offered for testimony until we have discussed it with the GC.\n\n## Reporting\n\nAdd the item to the next client report, give the GC a note on budget and expert quotes, and copy Perpetua Wallace on anything bearing on coverage.",
+  "usage": {
+    "run_id": "20261103T174207Z_C0",
+    "timestamp": "2026-11-03T17:48:10+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "6e1ed497-b64f-4992-ab12-035a5bd56312",
+    "input_tokens": 2,
+    "output_tokens": 2029,
+    "cache_write_tokens": 20804,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.10350999999999999,
+    "latency_ms": 17346,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2029,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20804,
+      "webSearchRequests": 0,
+      "costUSD": 0.10350999999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 664,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 20804,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

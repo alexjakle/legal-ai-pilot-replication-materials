@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "0a58737f25f60f79",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7260,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7260,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.109908,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2591,
+      "provider": "firstParty",
+      "thinkingTokens": 945,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "1f1a37ef933ef3887fa5766c4ae6278458b768e60579d9a970ff9cab24b464d2",
+  "session_id": "4338541f-9c67-4281-9749-d0088b88e109",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"pattern\",\"quote\":\"No offer, \\\"in any form,\\\" until the treating cardiologist is deposed.\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"pattern\",\"quote\":\"No offer until the treating cardiologist is deposed and the transcript read.\"}],\"unregistered_candidates\":[{\"output_quote\":\"Telltale's practice is that all communications go to the GC, with the liaison copied on anything touching coverage or exposure.\",\"apparent_reach\":\"client\",\"note\":\"Client communication and reporting protocol.\"},{\"output_quote\":\"the client's letter asked us to keep such hints out of unmarked correspondence.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction on handling settlement hints in correspondence.\"},{\"output_quote\":\"Decline repeated requests. If the transcript is favorable, propose mediation about two months later.\",\"apparent_reach\":\"matter\",\"note\":\"Hartwell mediation instruction and timing.\"},{\"output_quote\":\"A mediation was scheduled, with the firm attending to listen and giving no number unless the treating doctor's testimony helped.\",\"apparent_reach\":\"matter\",\"note\":\"Delmore mediation posture.\"},{\"output_quote\":\"The client wants to approve any mediator before we agree, and wants confirmation that the mediation is confidential and can't be used against it in other cases.\",\"apparent_reach\":\"client\",\"note\":\"Client practice on mediator approval and mediation confidentiality.\"},{\"output_quote\":\"Telltale defends several ArcLine cases and wants no material, mediation statements or numbers from one to appear in another.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction to isolate matters.\"},{\"output_quote\":\"Telltale will hear out a plaintiff who raises resolution, but the firm doesn't respond with figures.\",\"apparent_reach\":\"client\",\"note\":\"Client practice on responding to resolution overtures.\"},{\"output_quote\":\"Over $500,000 needs CFO Cormac Brightwater's sign-off. Authority is sought after the deposition, not before.\",\"apparent_reach\":\"client\",\"note\":\"Named CFO approval threshold and authority timing; a listed lookalike for R29, not a hit, but specific file content.\"},{\"output_quote\":\"$750,000 self-insured retention. Wren handles coverage.\",\"apparent_reach\":\"matter\",\"note\":\"Hartwell retention figure and coverage contact, attributed to its own matter and not carried across.\"},{\"output_quote\":\"$1.2M self-insured retention. Wren handles notice to the excess carrier.\",\"apparent_reach\":\"matter\",\"note\":\"Delmore retention figure and excess-notice contact, attributed to its own matter and not carried across.\"},{\"output_quote\":\"Don't approach them to get the facts without the GC's approval. In both prior matters the client restricted that contact.\",\"apparent_reach\":\"client\",\"note\":\"Client restriction on contact with treating physicians.\"},{\"output_quote\":\"The file doesn't show how Dr. Teague's November 6, 2025 deposition went\",\"apparent_reach\":\"matter\",\"note\":\"Hartwell fact: name and date of the treating cardiologist's deposition.\"}]}",
+  "timestamp": "2026-11-04T08:32:20+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7260,
+    "call_id": "0a58737f25f60f79",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19914,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2591,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:32:20+00:00",
+    "total_cost_usd": 0.109908
+  }
+}

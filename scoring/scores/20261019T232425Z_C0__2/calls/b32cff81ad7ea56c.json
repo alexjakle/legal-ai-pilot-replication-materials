@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "b32cff81ad7ea56c",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6491,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6491,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.082536,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1530,
+      "provider": "firstParty",
+      "thinkingTokens": 201,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "ff97e36fa84e6b4e161688697f7861f79d1c2d8265ae882183c708085e562b33",
+  "session_id": "090537eb-a193-43a8-a90c-17548c05c4fe",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"**ECN-6200-14:** the engineering change notice adding a retention clip to the lockout pin. It will be in the design file.\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"**Ravenscar ticketing system:** where the client tracks complaints. The complaint reports due June 5 should come out of it.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Rennick Odell, the product safety lead, is the technical contact.\", \"apparent_reach\": \"client\", \"note\": \"Named client employee and role at Toil & Trouble.\"},\n{\"output_quote\": \"**TT-5500:** shares the lockout pin but has a different ring and lid seat. It is in scope only where a report names the pin as the failing element.\", \"apparent_reach\": \"matter\", \"note\": \"Specific product-scope fact and discovery limit.\"},\n{\"output_quote\": \"**Line inspection records:** limited by agreement to the week of manufacture of the Q3-2024 lot units.\", \"apparent_reach\": \"matter\", \"note\": \"Specific negotiated discovery limitation.\"},\n{\"output_quote\": \"**Cause No. D-2026-1184:** the court's cause number.\", \"apparent_reach\": \"matter\", \"note\": \"Specific case identifier for the Okafor matter.\"},\n{\"output_quote\": \"**July 2025 gasket shipment records:** not yet pulled.\", \"apparent_reach\": \"matter\", \"note\": \"Specific document-collection status.\"},\n{\"output_quote\": \"Do this through Mr. Oyelaran, since we shouldn't contact client employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Apparent client practice of routing all contact with client employees through Mr. Oyelaran.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:53:46+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6491,
+    "call_id": "b32cff81ad7ea56c",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 12128,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1530,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:53:46+00:00",
+    "total_cost_usd": 0.082536
+  }
+}

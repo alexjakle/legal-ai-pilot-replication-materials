@@ -1,0 +1,27 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Toil & Trouble Home Products):
+- PressureMate TT-6200 (six-quart electric pressure cooker) lid design: a rotating bayonet lid and a spring-loaded float valve with a lockout pin. The pin rises as pressure builds and blocks the locking ring from turning. Operating pressure is about 10 psi. The client says the lid system went through independent laboratory testing before launch.
+- TT-6200 complaint history as of the Okafor matter (2026): the Q3-2024 lot had no field complaints about the lid. Three complaints of "lid hard to open" were received on other lots in 2024. Expect claimants to characterize these as notice. The client's Ravenscar ticketing system tracks consumer complaints and can be searched on request.
+- Client reporting instruction (General Counsel Franklin Oyelaran): send a one-page report containing the current exposure range in dollars, a few lines of status, upcoming dates, and any decision needed from him. No narrative memos. Report monthly and after any event that changes the exposure range, such as an inspection result or a ruling. Internal case-assessment memos stay internal and are not sent to the client.
+- Settlement authority: the firm has no settlement authority for Toil & Trouble. After recommending a range, the client takes it to its claims group. No settlement offer may be made in any form without Mr. Oyelaran's written approval. Obtain preliminary authority before any mediation session and confirm the client accepts the proposed mediator.
+- Client communication instructions: send communications to Mr. Oyelaran with a copy to Delphine Moorcroft in risk management. Do not talk to the press or to the client's retail partners. Do not contact client employees directly; the client arranges access (Rennick Odell is the technical contact). Do not volunteer complaint history or other incidents until a request is served and scope is discussed. Tell the client promptly of other claims on the TT-6200 or related models.
+- Client sensitivity: the client has promised its largest retail partners advance warning before pulling any product from sale. Counsel must tell Mr. Oyelaran at once if anything in a case could lead to a product withdrawal.
+- Client staffing and billing instructions: use one associate and one partner for day-to-day work, with others only with approval. No more than two lawyers at any deposition or hearing. Bill monthly on the client's matter-level template at the rates in the January 14, 2025 engagement letter. Where a product is inspected, the defense engineer handles it only in counsel's presence, and nothing is disassembled or cleaned before both sides' engineers are present.
+
+Firm store:
+- Clients generally want a say before testifying experts are engaged. Expect to give the General Counsel candidate names and credentials, and sometimes prior-testimony notes, before engagement. Expect extra clearance for industry-practice or standards experts, and for expert reports where the client has a regulatory-consistency review. Build client review time into the expert schedule.
+- Settlement authority sits with the client, not the firm, and is tiered. Above a threshold, a further approval is needed (CFO sign-off, board written consent, or the General Counsel's written approval). Verbal indications are not enough. The firm recommends a range, and no offer or signal goes out until authority is confirmed. Flag early where approvals take lead time (e.g., about three weeks for a board consent), and confirm the current authority amount per matter.
+- Clients set structured reporting requirements. These include a recurring periodic report (monthly, or every six weeks), a call or short note after significant events, and an early initial case assessment (45 to 60 days). Several also require a phase budget within about 45 days. Formats are prescribed (e.g., one-page exposure summaries instead of narrative memos), and budget variances must be explained. Calendar these deadlines at intake.
+- All case communications go through a designated General Counsel, with a designated insurer or risk-management contact copied on coverage and exposure matters. Coverage questions go only to the named insurance contacts. Confirm the routing list at intake.
+- Clients restrict firm contact with their personnel and the outside world. Client employees and engineers are not contacted directly; access is arranged through the General Counsel or the client. There are no media or public statements, and press, regulator or customer inquiries are referred to the client. Witness offers are discussed with the client first.
+- Clients cap staffing and attendance, and prescribe billing. Typical limits are two or fewer lawyers or timekeepers at depositions or hearings, and a small core team. Billing is monthly, in a client-specified format.
+- Clients expect prompt notice of related incidents and preservation steps. Report other claims or incidents involving the same or related products promptly, and follow or recommend litigation holds and preservation.
+
+New matter: B-2
+Client: Toil & Trouble Home Products
+
+Question:
+Plaintiff in the new Toil & Trouble matter has an engineering expert who says the unit failed because of how it was made. What is our approach to that expert, and in what order should we proceed?
+
+Answer the question.

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "2fc8a8fa2ff85849",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7032,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7032,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.112704,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2822,
+      "provider": "firstParty",
+      "thinkingTokens": 776,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "5af986707dabaf2c79487986feb65127a7407906dcdc01268affbda69686137c",
+  "session_id": "54204f26-e153-4888-a463-9774075a6454",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Standards expert: someone who can explain the heavy-vehicle standards, how they are developed and applied, and what manufacturers are expected to do to comply, including how that works in practice for spindles and axle components.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"verbatim\", \"quote\": \"Make sure the standards expert is not briefed on Corbelmark or the supplier change without the client's agreement.\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Do not stipulate to authenticity or business-record status of Joad's data until a protective order exists, and then address it document by document.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Standards expert: someone who can explain the heavy-vehicle standards, how they are developed and applied, and what manufacturers are expected to do to comply, including how that works in practice for spindles and axle components.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Standards expert: someone who can explain the heavy-vehicle standards, how they are developed and applied, and what manufacturers are expected to do to comply, including how that works in practice for spindles and axle components.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"paraphrase\", \"quote\": \"Do not discuss the 2020 forging supplier change or its reasons with outside experts or anyone outside the case team.\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Engineering expert: keep this person focused on the JX-series product at issue, which is what Joad prefers for design testimony.\", \"apparent_reach\": \"client\", \"note\": \"Joad's preference that design testimony stay narrow and product-specific.\"}, {\"output_quote\": \"Joad has offered to help identify candidates with standards-body service.\", \"apparent_reach\": \"client\", \"note\": \"Specific client offer on expert selection.\"}, {\"output_quote\": \"Send Joad (through General Counsel Evander Thorsby, since all communications go through him) the names and credentials of proposed candidates, ideally several per discipline with prior testimony notes.\", \"apparent_reach\": \"client\", \"note\": \"Names the general counsel, routes all communications through him, and states the client's expert-candidate submission practice.\"}, {\"output_quote\": \"Expressly state that one candidate will address industry practice, since Joad wants to be told.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to be told when an expert will address industry practice.\"}, {\"output_quote\": \"Get Joad's clearance before engagement, and build that time into the retention schedule.\", \"apparent_reach\": \"client\", \"note\": \"Client requirement to clear experts before engagement.\"}, {\"output_quote\": \"Get a quote and client approval before commissioning any expert work or testing, and note who pays for shared lab work.\", \"apparent_reach\": \"client\", \"note\": \"Client billing and approval practice for expert work and testing.\"}, {\"output_quote\": \"Expert and testing costs are the main budget variance driver, so include them in the phase budget.\", \"apparent_reach\": \"client\", \"note\": \"Budgeting instruction that reads as drawn from the client's file.\"}, {\"output_quote\": \"Copy Perpetua Wallace on anything bearing on coverage and on the invoice summary.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact and a specific copying instruction for coverage and invoices.\"}, {\"output_quote\": \"Give ten days' notice of any proposed testing.\", \"apparent_reach\": \"client\", \"note\": \"Specific notice period for testing.\"}, {\"output_quote\": \"Do not contact Joad engineers or production staff directly. Go through Thorsby, who will set up any interviews.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction restricting direct contact with employees.\"}, {\"output_quote\": \"Joad also wants to discuss the firm's plans before any employee (such as the chief axle engineer) is put forward as a witness\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on consultation before employee witnesses are put forward.\"}, {\"output_quote\": \"The client wants the team to understand Corbelmark first, before any discussion with a supplier.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on sequencing supplier discussions around Corbelmark; goes beyond the bare name in R08.\"}]}",
+  "timestamp": "2026-11-04T07:53:21+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7032,
+    "call_id": "2fc8a8fa2ff85849",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 20973,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2822,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:53:21+00:00",
+    "total_cost_usd": 0.112704
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-F2",
+  "prompt_hash": "3b5b361d291198618fd7a62f6b687acf504737a0130060d2c0d2b4ad427b2f18",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:08:25+00:00",
+  "session_id_in": null,
+  "session_id": "a4db79b8-5599-446c-a39f-dd2c10f59e82",
+  "text": "The firm's stored knowledge has no figures from Telltale's earlier matters. It holds no prior case budgets, reserves, settlements or paid amounts. It does contain two client-level dollar thresholds that apply to every Telltale matter, including A-3.\n\n**Dollar figures on file**\n- **Self-insured retention:** $750,000 per claim. Thaddeus Wren, the insurance liaison, handles coverage.\n- **Settlement authority:** any settlement above $500,000 needs sign-off from the CFO, Cormac Brightwater. Instructions otherwise come from the General Counsel, Marguerite Salvesen.\n\nThe $500,000 CFO threshold sits below the $750,000 retention. A settlement can therefore need CFO approval while still falling entirely within the client's own funds. That is worth flagging to Ms. Salvesen and Mr. Wren when we set reserves.\n\n**Budget requirements (no amounts on file)**\n- Phase budgets are required, with a written variance explanation for any variance over 10%.\n- The initial assessment is due within 45 days.\n- Monthly written updates are required, plus a call after significant events.\n- No more than two timekeepers may attend depositions.\n- The client expects cost-conscious handling.\n- Expert costs should allow for the client's regulatory review of expert reports (ten business days) and for the process of consulting the client on three candidate experts per discipline.\n\n**Not available from the stored knowledge**\n- Reserve amounts set in prior matters\n- Prior matters' budgets, fees or expert costs\n- Settlement values or verdicts from earlier cases\n- Any reserve guidance from the client\n\nTo get these, we can ask Ms. Salvesen, copying Mr. Wren, for prior reserve practice and any reserve the client has set on A-3. We can also check the firm's billing records for earlier Telltale matters. I haven't made up any numbers. Once we have the facts and claim value, I can draft a phase-based budget framework for A-3 using the requirements above.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:08:25+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a4db79b8-5599-446c-a39f-dd2c10f59e82",
+    "input_tokens": 2,
+    "output_tokens": 791,
+    "cache_write_tokens": 1319,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.01319,
+    "latency_ms": 8185,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 791,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1319,
+      "webSearchRequests": 0,
+      "costUSD": 0.01319,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 126,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1319,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

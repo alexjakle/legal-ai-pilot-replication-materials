@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-F2",
+  "prompt_hash": "69ed19d62cd60534499dfb197d07f409da61f01b43bf6b0dd67031051eb2f63d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:08:51+00:00",
+  "session_id_in": null,
+  "session_id": "1ea55853-711a-4023-923b-1a6bd22278f0",
+  "text": "I can't give you any figures, because there are none to report. Both the Telltale Cardiac Systems client store and the firm store are empty, so nothing on record shows dollar amounts, retention levels, or reserves from Telltale's earlier matters. Any numbers I gave would be invented, and you shouldn't rely on them for a budget or reserve analysis.\n\nTo build the picture for matter A-3, these are the places to look:\n\n1. **Prior matter files.** Check closed and open Telltale matters for engagement letters, budgets, invoices, and final billing summaries.\n2. **Insurance materials.** Policies, declarations pages, and reservation-of-rights or coverage letters will show the self-insured retention or deductible, the limits, and any reserves the carrier set.\n3. **Client communications.** Telltale's risk management, legal, or finance contacts may have set reserves or budget caps, and may have an outside counsel guidelines document with budget requirements.\n4. **Firm billing and accounting records.** These show actual fees and costs by phase for earlier Telltale work, which is the best basis for a realistic budget.\n5. **Settlement and litigation records.** Settlement demands, mediation statements, and any financial disclosures in prior matters may contain reserve or exposure figures.\n\nIf you can share any of these documents, or add them to the client store, I can pull out the exact figures and cite where each comes from. If you'd like a budget framework in the meantime, I can draft a phase-by-phase template with the inputs left blank, to fill in once the real data is in hand.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:08:51+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "1ea55853-711a-4023-923b-1a6bd22278f0",
+    "input_tokens": 2,
+    "output_tokens": 505,
+    "cache_write_tokens": 720,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.007934,
+    "latency_ms": 5372,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 505,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 720,
+      "webSearchRequests": 0,
+      "costUSD": 0.007934,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 720,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

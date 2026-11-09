@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T2",
+  "prompt_hash": "d67dc7701b05b7a275ebf87f4979909c6ba4b3a364166fc9b9e44cdf2ebb122a",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:58:27+00:00",
+  "session_id_in": null,
+  "session_id": "c3d7353f-f27a-428f-a461-9e52bcfd6854",
+  "text": "**Short answer:** Nothing goes out, not even a signal, until the authority for that specific figure is confirmed. Authority belongs to Joad (and its insurer), not to the firm. The firm only recommends a range.\n\n**What's needed before any figure is conveyed**\n\n1. **The current pre-approved authority amount for C-2.** The file doesn't state it, so we need to confirm it in writing with the insurer and Joad. \"Up to its authority\" isn't enough to work from.\n2. **A firm recommendation.** We give the General Counsel a recommended range, ideally grounded in the exposure range and adverse-result probability from the first case assessment (due within 60 days).\n3. **Confirmation of coverage status.** Perpetua Wallace (insurer claims handler) must be copied on anything bearing on coverage. Joad wants to hear the same day if the carrier reserves its rights. We should also consider how a payment interacts with the $400,000 retention and the aggregate limit, which Joad watches closely because of other open claims.\n\n**Who approves what**\n\n- **Figure within the insurer's pre-approved authority:** Check with the General Counsel, Evander Thorsby, before conveying it. His go-ahead should be documented. The insurer's funding authority covers the insurer's side but doesn't replace Joad's clearance.\n- **Figure above the insurer's pre-approved authority:** Written sign-off from Joad's board of directors, in the form of a board consent. Verbal indications from a director or officer don't count. Until the document exists, we can't communicate the figure, even as a hint.\n\n**Timing**\n\nA board consent takes Joad about three weeks. If there's any chance the number will exceed the pre-approved level, we should flag it to Thorsby now and start the process in parallel. Otherwise we risk stalling while plaintiff's counsel presses.\n\n**In the meantime**\n\nRespond to plaintiff's counsel without a number, for example by saying we're consulting the client and carrier. All communications go through Thorsby, and we make no public statements.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:58:27+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "c3d7353f-f27a-428f-a461-9e52bcfd6854",
+    "input_tokens": 2,
+    "output_tokens": 1020,
+    "cache_write_tokens": 2243,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019176000000000002,
+    "latency_ms": 8386,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1020,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2243,
+      "webSearchRequests": 0,
+      "costUSD": 0.019176000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 354,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2243,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

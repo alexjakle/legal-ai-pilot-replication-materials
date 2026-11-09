@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "8ef2ba6488fc7f4cb29b45d0bbb8e680052ea7b0e60145a23e688fedd0b64be6",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:04:26+00:00",
+  "session_id_in": null,
+  "session_id": "c333cf89-cd63-44e2-8ab0-0a708454250c",
+  "text": "**Approach in brief:** Take the manufacturing-defect opinion seriously, but keep early work cheap and consultative. Don't engage a testifying expert yet. Keep the client in control of every expert, cost and settlement step. Mediation comes before expert disclosure or depositions if we can get there.\n\n**Order of steps**\n\n1. **Alert Franklin Oyelaran now, with a copy to Delphine Moorcroft.** Send the one-page report, not a narrative memo. A manufacturing-defect theory points at production, so ask whether it could lead to a product withdrawal. Toil & Trouble has promised its largest retail partners advance warning before pulling any product, so tell Franklin at once if anything could lead to withdrawal. Ask whether other claims exist on the same or related models, and report any we learn of promptly. Keep any insurance or coverage points routed to the designated risk and insurer contacts.\n\n2. **Get the facts through the client, not around it.** Ask the client to arrange access to the relevant production, design and test records and to the right people. We don't contact employees directly. Ask who can run a Ravenscar complaint search, so we can scope it early. Do not volunteer complaint history or other incidents until a request is served and scope is discussed.\n\n3. **Protect confidential data.** Before producing anything, obtain a protective order with an outside-counsel-and-experts tier for sensitive technical data. Produce only what is required, and don't stipulate to the authenticity of internal data until the order is in place.\n\n4. **Analyze the plaintiff's expert's opinion.** Review the report, methodology, qualifications and prior testimony. Test whether the opinion rests on the actual unit, a joint inspection or assumptions. Keep this analysis in an internal case-assessment memo, which does not go to the client.\n\n5. **Joint inspection, with a consulting expert only.** Retain a consulting engineer to attend the joint inspection. That is acceptable to the client and avoids early expert expense. Preserve the unit and agree on a protocol. Staff it with no more than two lawyers.\n\n6. **Report the result and the exposure range.** An inspection result changes the range, so send Franklin a one-page report with the dollar range, a few lines of status, upcoming dates and decisions needed. Also give an early budget by phase, and flag likely overruns, since expert and testing costs are the main driver. Get quotes before testing or expert spend.\n\n7. **Decide on a testifying expert only with the client's approval.** Don't engage one without consulting Franklin first. Give him names, credentials and prior testimony. If we plan a standards or industry-practice witness, clear that plan with him as well. If the client's regulatory group reviews expert reports for consistency with regulatory submissions, build review time into the timetable.\n\n8. **Push toward mediation before any testifying expert is disclosed or deposed.**\n   - Recommend a settlement range to the client. The firm has no settlement authority, so the client takes it to its claims group.\n   - Ask early what approval thresholds apply and how long approval takes. Flag any figure needing a longer process, such as CFO or board sign-off.\n   - Make no offer or signal of willingness to pay without Franklin's written approval.\n   - Confirm that the client accepts the proposed mediator and that confidentiality protections prevent use of the mediation in other cases.\n   - Obtain preliminary authority before the session.\n\n9. **If mediation fails**, proceed with the approved testifying expert. Keep the team to one associate and one partner for day-to-day work, with no more than two lawyers at any deposition or hearing. Send a short note after depositions, and keep billing monthly on the client's template.\n\nThroughout, we do not talk to the press or to retail partners.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:04:26+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "c333cf89-cd63-44e2-8ab0-0a708454250c",
+    "input_tokens": 2,
+    "output_tokens": 1226,
+    "cache_write_tokens": 2543,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.022436,
+    "latency_ms": 11178,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1226,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2543,
+      "webSearchRequests": 0,
+      "costUSD": 0.022436,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2543,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

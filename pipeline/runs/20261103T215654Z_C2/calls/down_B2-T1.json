@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T1",
+  "prompt_hash": "ca811eef4b14f7e7b2213dfa7ce549b5d9bf7377ce6a5e74c5b3bcd83cdfc771",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:00:43+00:00",
+  "session_id_in": null,
+  "session_id": "91ee9e14-9806-45ff-956b-dbab95a66900",
+  "text": "**Short answer:** Toil & Trouble wants mediation before expert work. Our proposed schedule should put the inspection, core document exchange and a mediation date first. Testifying experts are disclosed or deposed only after that, with fixed expert dates that take effect automatically if mediation fails.\n\n**Client's preferred sequencing**\n1. Complete the inspection (a joint inspection, if requested).\n2. Exchange core documents.\n3. Hold mediation.\n4. Only then disclose or depose testifying experts.\n\nA consulting engineer may be retained early to attend inspections. This is not a testifying expert.\n\n**Proposed schedule**\n- **Inspection:** Agree in principle to a joint inspection and send a written protocol. Nothing is disassembled or cleaned until both sides' engineers are present. The client's engineer handles the product only in our presence.\n- **Core documents:** Early, defined production of key documents. Do not volunteer complaint history or other incidents until a request is served and scope has been discussed.\n- **Mediation:** A firm date or window in the scheduling order, set after the inspection and core document exchange.\n- **Expert dates:** Fixed disclosure and deposition dates, with a trigger that starts them if mediation fails or doesn't happen by the deadline.\n\n**Handling plaintiff's counsel**\nPlaintiff's concern is likely delay. The way to get mediation-first sequencing is to offer certainty: early key documents and fixed expert dates with the failure trigger. If she still presses for an expert schedule first, say the client wants a mediation date in the order, and tell the General Counsel (Franklin Oyelaran) if she objects. Be courteous throughout.\n\n**Settlement**\n- We have no settlement authority. No offer or number may be communicated in any form, even as a signal, without Mr. Oyelaran's written approval.\n- Confirm in writing who must approve at each level (GC, CFO, board, insurer). Flag early that offers above the insurer or officer tier can take weeks, so approval doesn't hold up the mediation.\n\n**Expert work and budget**\n- The client will want to vet any testifying expert before engagement, so build clearance time into the timeline. Expect to supply names, credentials, prior testimony notes, and whether anyone will address industry practice.\n- Get client approval or quotes before commissioning testing or experts. Clarify who pays for shared lab work.\n- Provide separate fee estimates through mediation and through trial, and give early notice if the budget becomes unrealistic.\n\n**Reporting and housekeeping**\n- Send everything to Mr. Oyelaran, copied to Delphine Moorcroft. Reports are one page: exposure range in dollars, status in a few lines, upcoming dates and any decision needed. Send one monthly and after any event that changes the range.\n- Confirm the litigation hold is in place. Ask the retailer to preserve its sales records.\n- Staffing: one associate and one partner, and no more than two lawyers at any deposition or hearing.\n- Do not contact client employees directly (technical requests go through the GC, with Rennick Odell as the technical contact), and do not speak to the press or to retail partners.\n- Report promptly any other claims involving the same or related models. Tell the GC at once if this case could lead to a product pull, because the client has promised its largest retail partners advance warning.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:00:43+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "91ee9e14-9806-45ff-956b-dbab95a66900",
+    "input_tokens": 2,
+    "output_tokens": 1100,
+    "cache_write_tokens": 2311,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020248000000000002,
+    "latency_ms": 8462,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1100,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2311,
+      "webSearchRequests": 0,
+      "costUSD": 0.020248000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2311,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F1",
+  "prompt_hash": "a55d81fd59ecd7329b5626b4e15e21ac0375f480e4875444c6f6f00f85825523",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:57:22+00:00",
+  "session_id_in": null,
+  "session_id": "a74c67e7-9ca4-4e09-b4a5-4c67650bac44",
+  "text": "# Facts to expect, and gaps in what I can confirm\n\nThe firm's file on Toil & Trouble doesn't contain witness statements, retail return figures, or engineering documents with part numbers, drawing numbers, or test report IDs. I won't invent specifics. Here is what the file does support.\n\n## Facts likely to recur (TT-6200 six-quart electric pressure cooker)\n\n**Lid design**\n- The lid is a rotating bayonet design.\n- A spring-loaded float valve has a lockout pin. The pin rises as pressure builds and blocks the locking ring from turning.\n- Operating pressure is about 10 psi.\n- Expect the core liability questions to be whether the pin and ring engage reliably, whether the lid can be opened under pressure, and whether the design was reasonable.\n\n**Pre-launch testing**\n- The client says the lid system went through independent laboratory testing before launch.\n- This is the client's statement only. I have no lab name, report number, test protocol, or pass/fail data. We should not rely on it until we have the report.\n\n**Complaint history (as of the Okafor matter, 2026)**\n- The Q3-2024 lot had no field complaints about the lid.\n- Three \"lid hard to open\" complaints came in on other 2024 lots.\n- Expect claimants to characterize these as notice. Expect fights over similarity (a hard-to-open complaint versus a lid opening under pressure) and over lot differences.\n\n**Complaint database**\n- The client's Ravenscar ticketing system tracks consumer complaints and can be searched on request. It is the likely source of any complaint numbers, dates, and lot identifiers.\n\n## What I don't have\n- Okafor witness names or statements\n- Retail return rates, counts, or retailer-specific data\n- Part, drawing, or lot numbers, or the tolerances and spring specs for the valve and pin\n- The independent lab's identity and report\n- Ravenscar ticket IDs for the three complaints\n- Whether Okafor and B-2 involve the same lot or failure mode\n\n## Suggested next steps\n1. Ask Mr. Oyelaran, with a copy to Delphine Moorcroft, whether B-2 involves the TT-6200 or a related model, and which lot. If other claims exist on the TT-6200 or related models, the client expects prompt notice.\n2. Ask the client to run a Ravenscar search scoped to the lid and the relevant lots. Keep the results internal. We don't volunteer complaint history until a request is served and scope is discussed.\n3. Request the independent lab report and the design documents through the client. Technical access goes through Rennick Odell, arranged by the client. We shouldn't contact him or other employees directly.\n4. Ask the client for retail return data. We don't contact retail partners.\n5. Confirm a litigation hold covers Ravenscar, design and test files, and return data.\n6. If any item suggests a possible withdrawal of the product, tell Mr. Oyelaran at once, because of the commitments to retail partners.\n\nOnce you can share the Okafor file or the Ravenscar results, I can build a concrete fact chronology from them.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:57:22+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a74c67e7-9ca4-4e09-b4a5-4c67650bac44",
+    "input_tokens": 2,
+    "output_tokens": 1528,
+    "cache_write_tokens": 2250,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.024284,
+    "latency_ms": 13052,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1528,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2250,
+      "webSearchRequests": 0,
+      "costUSD": 0.024284,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 502,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2250,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

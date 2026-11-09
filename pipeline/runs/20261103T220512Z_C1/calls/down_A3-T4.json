@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "f0980464c413ebe784ccede4a10cf8bf2be9b2045150c4d8975d1572484f59d6",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:08:07+00:00",
+  "session_id_in": null,
+  "session_id": "fd049aab-9c46-4a35-816f-f7188d34e0f1",
+  "text": "# Recommendation\n\n**Retain a separate, dedicated standards expert, ideally one with direct standards-committee experience, to complement the design expert rather than duplicate them.** Engage the expert early.\n\n## Who\n- The expert should be a biomedical or electrical engineer who has sat on a cardiac lead or implantable device standards body, or who has used those standards extensively in design and verification. Candidates should be vetted for prior testimony, since plaintiff will examine any inconsistent positions on what the standards require.\n- **Client process:** the client must be consulted before we engage any testifying expert. We should send General Counsel Marguerite Salvesen, copying Thaddeus Wren, **three names with prior-testimony notes**. We should not retain anyone as a testifying expert until the client signs off.\n- **Option:** we can first use someone as a non-testifying consultant to help with the 45-day initial assessment. That person can be converted to testifying status later, once the client has approved. Doing so keeps early costs lower and gives us a read on how strongly plaintiff's standards theory holds up.\n\n## Role compared with the design expert\n- **Standards expert:** explains what the standards are, who writes them and how, their scope and whether they are voluntary minimums or consensus baselines, and which edition applied at the relevant time. The expert would also cover how the lead was tested and verified against them, and whether plaintiff's reading overstates what they require.\n- **Design expert:** addresses this specific lead's design choices, materials, testing, failure analysis, causation, and the risk-benefit and alternative-design questions.\n- **Boundaries:** the standards expert should not offer causation or failure-mode opinions. The design expert should rely on, and not re-argue, the standards framework. The two should coordinate so that their reports are consistent and any reliance is explicit.\n- **Failure-rate language:** the client is in a regulatory inspection on its next-generation lead, so both experts' reports should avoid characterizing failure rates beyond what is necessary. We should scope the engagement letters accordingly.\n\n## When\n- **Now.** We should do this in the first phase, so the names go to the client early and the 45-day initial assessment can include the expert plan, budget, and timeline.\n- The standards expert's framework should be settled **before the design expert finalizes a report**, because the design opinions will depend on it.\n- **Client review:** Odalys Fennimore's regulatory affairs group must review every expert report before service, and it is allowed **ten business days**. We should require near-final drafts well ahead of the deadline and build that window into the schedule.\n  - Regulatory-affairs comments should go through counsel, not directly to the experts, and we should log what is sent so the exchange stays protected work product.\n  - We should confirm that any draft-protection stipulation covers the client review.\n\n## Housekeeping\n- Confirm that litigation holds cover standards-compliance files, design history, and test records.\n- Include the two experts in the phase budget, with variance explanations if costs run more than 10% over.\n- Keep the client's cost-consciousness in view. A single standards expert with a tightly defined scope is better than a broad regulatory expert, who could stray into FDA matters tied to the ongoing inspection.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:08:07+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "fd049aab-9c46-4a35-816f-f7188d34e0f1",
+    "input_tokens": 2,
+    "output_tokens": 1672,
+    "cache_write_tokens": 1326,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.022028000000000002,
+    "latency_ms": 18189,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1672,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1326,
+      "webSearchRequests": 0,
+      "costUSD": 0.022028000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 618,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1326,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

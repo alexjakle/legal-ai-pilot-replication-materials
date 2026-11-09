@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-X2",
+  "prompt_hash": "9d7e90f9eb92c3f0561186fde486a9e08eeec39ad02871c3a6bc5bea496244c3",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:55:08+00:00",
+  "session_id_in": null,
+  "session_id": "be72af56-5f8e-45e0-9909-bdfe798b270f",
+  "text": "I can't answer this from the firm's records. Both the Joad Axle Works client store and the firm store are empty, so I have nothing on Toil & Trouble's case-report requirements or on how it sequences mediation and expert work. Anything I told you would be invented, and I don't want you modeling Joad's approach on a guess.\n\n**What I need to answer this**\n- Toil & Trouble's outside counsel guidelines or litigation management protocol, which usually set report format, budgets, and staffing.\n- Sample or template case reports the firm has prepared for them, such as initial case assessments, periodic status reports, and pre-mediation reports.\n- Any engagement letter or correspondence from them on when they want to mediate and when they want experts retained.\n- Whether this is a client the firm has represented before, since prior matter files might hold this information.\n\n**Questions to settle once I have the materials**\n- **Case reports:** What is the required format and cadence? What do they expect on exposure and reserves, a budget against actuals, liability and damages analysis, and recommendations?\n- **Mediation and experts:** Do they mediate early, before expert spend, or only after key experts are retained and have reported? Do they use consulting experts first and designate testifying experts later? Which decisions need client approval?\n\n**Caution on the premise**\nToil & Trouble's approach reflects its own risk tolerance, insurance and reserve practices, and the kinds of disputes it handles. Before adopting it for Joad, we should check that the approach fits Joad's matter, the governing procedural deadlines, and Joad's own preferences. We should also confirm that Toil & Trouble's guidelines are not confidential to that client.\n\nIf you can send the documents, or tell me where they are, I'll summarize their requirements and propose a Joad-specific framework for C-2. In the meantime I can draft a generic case report template and a mediation and expert sequencing outline, clearly labeled as not based on Toil & Trouble's practices.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:55:08+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "be72af56-5f8e-45e0-9909-bdfe798b270f",
+    "input_tokens": 2,
+    "output_tokens": 683,
+    "cache_write_tokens": 698,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.009626,
+    "latency_ms": 8326,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 683,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 698,
+      "webSearchRequests": 0,
+      "costUSD": 0.009626,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 44,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

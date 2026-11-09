@@ -1,0 +1,11 @@
+# Firm store
+
+- `firm-01` [pattern] (tags: wall:A-3) Settlement authority above a set tier needs formal sign-off from a higher client body (CFO, or the board in writing). Do not rely on verbal indications, and do not signal any offer above the tier before sign-off. Flag early when a settlement range may exceed the tier, because the approval process takes time.
+- `firm-02` [pattern] (tags: wall:A-3) Clients want a say before testifying experts are engaged. Give the General Counsel the proposed experts' names, credentials and prior testimony, and fee quotes, and get clearance before anyone is signed. Expert and testing costs are the biggest budget swing items.
+- `firm-03` [pattern] (tags: wall:A-3) All case communications go through the client's General Counsel. Do not contact client employees directly, and contact them only through the GC's office where permitted. Refer outside inquiries to the GC.
+- `firm-04` [pattern] (tags: wall:A-3) Clients cap the number of firm lawyers at depositions and hearings, typically one or two. Confirm the limit at the outset and staff accordingly.
+- `firm-05` [pattern] (tags: wall:A-3) Clients set fixed reporting rhythms: periodic written reports (monthly or every six weeks), with a format or length limit in some cases. They also expect a call or note after significant events such as rulings, depositions or changes in exposure. Early case assessments are due within a set period.
+- `firm-06` [pattern] (tags: wall:A-3) Copy the insurer or coverage liaison, or risk contact, on anything touching coverage or exposure. Coverage issues such as retention, reservation of rights and excess notice are monitored closely by the client.
+- `firm-07` [pattern] (tags: wall:A-3) Clients require phase budgets, prior approval for work above budget, and explanations of variances. Quotes are needed before costly work such as testing.
+- `firm-08` [pattern] (tags: wall:A-3) Clients require document preservation and litigation holds on relevant product documents.
+- `firm-09` [pattern] Clients want prompt reports of other claims or incidents involving the same or related products, and no public statements. Press, regulator, retail and customer inquiries go to the client.

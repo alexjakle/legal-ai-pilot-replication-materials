@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "363458e282a99806",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6148,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.089172,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1999,
+      "provider": "firstParty",
+      "thinkingTokens": 511,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "308a0ef5d09771c6bbc5ebcfe4d6212372b4e175f169f5f6f56f5cc3b31d5d42",
+  "session_id": "6194fbf4-b168-40be-bcff-2a7c5a402077",
+  "stage": "judge_validation",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"paraphrase\", \"quote\": \"A 2020 internal note from a Telltale field engineer. It said returned AL-4120 leads showed wear from repeated bending near the pocket and suggested the design be revisited.\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"verbatim\", \"quote\": \"Hollis Pruett would be the right person to ask about that follow-up.\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"**3. The Orrinwick database (a handling issue, not a past problem)**\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"The firm's practice also calls for a restricted outside-counsel-and-experts tier, and for no stipulations to authenticity until the order is signed.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"verbatim\", \"quote\": \"**2. The 2021 trend report and the Larkspur review**\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n\"unregistered_candidates\": [{\"output_quote\": \"It is the likely source of the fracture data, including the 31 confirmed fractures among about 22,000 leads shipped (about 0.14%).\", \"apparent_reach\": \"matter\", \"note\": \"Specific fracture count, shipment figure and rate for the AL-4120 lead. No reference row covers these figures.\"}, {\"output_quote\": \"A 2021 Telltale trend report that followed an internal quality inquiry, code-named \\\"Larkspur,\\\" into returned-lead fractures.\", \"apparent_reach\": \"matter\", \"note\": \"Specific internal 2021 trend report and its link to the Larkspur inquiry. This goes beyond the bare R22 code name.\"}, {\"output_quote\": \"Engineering hasn't confirmed whether the fracture rate stays within the labeled range, so be careful about how any rate figure is characterized.\", \"apparent_reach\": \"client\", \"note\": \"Caution on characterizing failure rates. This is close to the R28 subject but lacks the regulatory-inspection fact.\"}, {\"output_quote\": \"Ask the General Counsel, with a copy to Mr. Wren, for the prior AL-4120 matter file and its discovery history.\", \"apparent_reach\": \"matter\", \"note\": \"Specific named contact (Mr. Wren) in the client communication chain.\"}, {\"output_quote\": \"Confirm the litigation hold covers all AL-4120 and ArcLine-family documents, including the items above.\", \"apparent_reach\": \"client\", \"note\": \"Specific product-family name (ArcLine) and litigation hold scope.\"}]}",
+  "timestamp": "2026-10-21T23:44:36+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6148,
+    "call_id": "363458e282a99806",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16140,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1999,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:44:36+00:00",
+    "total_cost_usd": 0.089172
+  }
+}

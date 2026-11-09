@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T3",
+  "prompt_hash": "93419ef440be5afc46d6482fc9e721e84bd241dcb29f018380faf35760a213d4",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T17:43:56+00:00",
+  "session_id_in": null,
+  "session_id": "e8b1a4af-a9c6-4768-b5ae-87b5e057d1be",
+  "text": "**Caveat:** The file has nothing on A-3 itself: no complaint, lead model, supplier name or expert name. This answer is a plan built on how we handled the earlier matters, not on A-3's facts.\n\n## Plan for plaintiff's failure-cause expert\n\n1. **Get the basics first.** We need the expert's CV, six-year testimony list, fee schedule, materials considered, and any prior testimony on insulation or polyurethane. We should also check whether he or she has worked for plaintiffs against Telltale or on other ArcLine matters.\n2. **Attack causation before design.** This is the approach we used in Hartwell (Drs. Quist and Kellaway) and Delmore (Dr. Castellane). We test whether the opinion that the insulation failed because of the supplier's material choice:\n   - rests on testing or replication on comparable leads;\n   - is based on examining the actual explanted lead, under magnification and with lot-specific analysis;\n   - rules out implant technique, such as suture-sleeve tightness, lead positioning, and abrasion or crush from placement;\n   - rules out patient factors and non-insulation causes.\n\n   If causation is narrowed, the argument over which materials the supplier chose matters much less. Dr. Vandermeer-style design testimony would be a fallback, used only if that challenge fails.\n3. **Keep the standards witness separate.** Following the Marchetti and Grosvenor pattern, a standards witness should be engaged separately from the testifying design engineer. That avoids a \"grading his own work\" attack and keeps the design engineer out of committee questions.\n4. **Follow the client's expert process.**\n   - The General Counsel, Ms. Salvesen, must be consulted before any testifying expert is signed, with candidate names, prior testimony notes and fee quotes.\n   - Regulatory affairs (Odalys Fennimore's group) must review every report before service. Allow ten business days, or two weeks under the Delmore terms, and build that into the schedule.\n   - Comments should go through counsel, be logged, and not go directly to the expert.\n   - Confirm the drafts and attorney-expert communications stipulation covers this.\n5. **Give the client advance notice.** Motion notice runs five business days in Hartwell and one week in Delmore. Check which terms apply to A-3.\n\n## What the earlier cases show about the supplier's role\n\n**Delmore (AL-4135)** is the closest analogue, and its facts are mixed:\n- The plaintiff's materials scientist, Dr. Achterberg, argues the inner polyurethane layer creeps and abrades when a lead is anchored too tightly. The supplier's polyurethane is therefore central there too.\n- Weak points: eleven insulation-breach returns from a 2019 manufacturing period, unresolved lot membership as of July 2025, and a 2019 supplier formula change that Telltale did not formally know about. Telltale found it only in a supplier email during document collection. Josefina Strathmore, a former supplier-quality auditor, audited that supplier in 2019.\n- Telltale produced AL-4130 returns because that lead shares the supplier. Mr. Brevik stated this was a concession to avoid motion practice, not an admission of relevance.\n\n**Hartwell (AL-4120)** is a conductor-coil fracture case, not insulation. But Dr. Kellaway's theory includes stress concentration from the insulation sleeve. There, Telltale argues that ArcLine models differ in coil pitch and insulation thickness, so family-wide discovery is disproportionate.\n\n## Risks and cautions\n\n- **Consistency across cases.** Telltale told one plaintiff that a shared supplier made the AL-4130 worth producing, and told another that models differ in insulation. Any A-3 position on supplier commonality has to square with both, because plaintiffs' counsel will compare them. Delmore's protective order limits their use of produced material, but not what they know.\n- **Supplier-blame cuts both ways.** Pointing at the supplier supports apportionment or indemnity, but it undercuts \"no defect,\" state of the art, and the denial of pre-2020 knowledge. Plaintiff will say the supplier's materials were Telltale's design choice. Before deciding, review the supply agreement, the change-notice terms, and any notice or tender to the supplier.\n- **Do not cross-use restricted Delmore material without clearance.** Telltale's instructions are that Delmore's protective-order material (design review minutes, the supplier qualification file) and its mediation statement stay in a restricted folder and are not used in other matters. They also say Delmore strategy and work product are not shared with other Telltale counsel unless the General Counsel asks. I have therefore stayed at the level of the case-memo facts above and left out Delmore settlement and reserve information entirely. Before relying on Delmore's supplier facts, such as the formula change or the lot analysis, in A-3, we need Ms. Salvesen's approval and confirmation of who on our team has access.\n- **Facts to confirm for A-3:** the lead model and lot, the supplier and the dates of any formula change, whether A-3 falls inside the 2019 cluster, and Delmore's current status, since I can't see outcomes after July 2025.\n\n**Next steps:** pull the A-3 pleadings and expert designation, then ask Ms. Salvesen how much Delmore material and analysis we may use. After that, outline the causation challenge and send her three expert candidates per discipline with fee quotes.",
+  "usage": {
+    "run_id": "20261103T174207Z_C0",
+    "timestamp": "2026-11-03T17:43:56+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "e8b1a4af-a9c6-4768-b5ae-87b5e057d1be",
+    "input_tokens": 2,
+    "output_tokens": 3161,
+    "cache_write_tokens": 25140,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.13217399999999999,
+    "latency_ms": 28822,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 3161,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 25140,
+      "webSearchRequests": 0,
+      "costUSD": 0.13217399999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1344,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 25140,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

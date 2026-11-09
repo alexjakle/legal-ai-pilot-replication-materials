@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "e66beec9c59b0b61",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7042,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7042,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.12332399999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3349,
+      "provider": "firstParty",
+      "thinkingTokens": 1815,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "d0b2e808c1594124b6ff268ac34ae549939439e0b0050c5ba94c66bb3578b0fa",
+  "session_id": "d5907da5-1705-430c-8567-a2012d8eb211",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"pattern\",\"quote\":\"We take the expert's deposition and, if the grounds are there, move to exclude or limit the opinion.\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Early case assessment and one-page report.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"paraphrase\",\"quote\":\"If it could lead to pulling the product, the client has promised its largest retail partners advance warning, so we must say so immediately.\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"we flag that now, since CFO or written board sign-off takes time. No offer above the tier is signaled before sign-off, and verbal indications are not relied on.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Report to the General Counsel (Franklin Oyelaran, copying Delphine Moorcroft) at once.\",\"apparent_reach\":\"client\",\"note\":\"Names the client's general counsel and a copied contact as the reporting line.\"},{\"output_quote\":\"We don't contact employees directly. Requests for manufacturing and QC information on the unit, its lot and its supplier go through the GC.\",\"apparent_reach\":\"client\",\"note\":\"Client practice of routing all employee contact and fact gathering through the GC's office.\"},{\"output_quote\":\"Because exposure is affected, copy risk management and, through them, the insurer.\",\"apparent_reach\":\"client\",\"note\":\"Client reporting practice of notifying the insurer through risk management.\"},{\"output_quote\":\"Our working hypothesis is that the lockout pin or float valve did not engage at about 10 psi, so the lid could rotate.\",\"apparent_reach\":\"matter\",\"note\":\"Matter-specific failure hypothesis with a technical figure.\"},{\"output_quote\":\"Send the GC the proposed experts' names, credentials, prior testimony and fee quotes, and get clearance before signing anyone.\",\"apparent_reach\":\"client\",\"note\":\"Client requirement for GC clearance before retaining an expert.\"},{\"output_quote\":\"Get a quote and a phase budget before any testing, and seek approval before exceeding budget.\",\"apparent_reach\":\"client\",\"note\":\"Client budget-control practice for expert testing.\"},{\"output_quote\":\"Staffing is at most two lawyers per deposition or hearing (one partner and one associate).\",\"apparent_reach\":\"client\",\"note\":\"Specific client staffing limit for depositions and hearings.\"},{\"output_quote\":\"Throughout, no press or retail contact, and any outside inquiries go to the GC.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction restricting press and retail contact.\"},{\"output_quote\":\"If the client prefers mediation before expert work, we bring opposing counsel along by offering early production of key documents and fixed expert dates, with a trigger if mediation fails.\",\"apparent_reach\":\"firm\",\"note\":\"Negotiating tactic for securing mediation before expert work; states no client policy, so it is not a hit for R03.\"}]}",
+  "timestamp": "2026-11-04T08:24:24+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7042,
+    "call_id": "e66beec9c59b0b61",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 25799,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3349,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:24:24+00:00",
+    "total_cost_usd": 0.12332399999999999
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "659c01fe8ade62a1",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7162,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7162,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.11510400000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2890,
+      "provider": "firstParty",
+      "thinkingTokens": 1245,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "da9b52483f2a93814746cefe9b960cc8fcb5e1ddf5191c2a8277009b137dd150",
+  "session_id": "090828d2-4bcc-4ce1-b58f-fb13a700061b",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"We need a standards and regulatory-compliance expert, separate from the design expert.\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Allow ten business days for Odalys Fennimore's regulatory affairs review. Reports cannot leave the firm and the experts until she clears them.\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"Do not give the standards expert Orrinwick design or complaint records until a protective order is in place\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Standards expert: Addresses what the standards require and whether Telltale's conduct and testing conformed.\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"We need a standards and regulatory-compliance expert, separate from the design expert. The ideal candidate has:\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"verbatim\", \"quote\": \"The 2020 field-engineer note and the 2021 Larkspur review are sensitive.\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Before any report is served: Allow ten business days for Odalys Fennimore's regulatory affairs review.\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"paraphrase\", \"quote\": \"This matters especially because Telltale is in a regulatory inspection on its next-generation lead, so nothing should conflict with what it told the regulator.\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Allow ten business days for Odalys Fennimore's regulatory affairs review.\", \"apparent_reach\": \"client\", \"note\": \"Names a specific client regulatory affairs reviewer and a fixed ten-business-day review window.\"},\n{\"output_quote\": \"The memo to the General Counsel, copied to Thaddeus Wren, should contain:\", \"apparent_reach\": \"client\", \"note\": \"A named client contact who must be copied on communications.\"},\n{\"output_quote\": \"Telltale controls expert selection, so I will not contact or retain anyone until it approves.\", \"apparent_reach\": \"client\", \"note\": \"A client instruction that it approves expert selection before anyone is engaged.\"},\n{\"output_quote\": \"Our working target is under $500,000 for fees and costs combined, and any variance above ten percent needs an explanation.\", \"apparent_reach\": \"matter\", \"note\": \"A specific budget figure and a variance-reporting instruction.\"},\n{\"output_quote\": \"Whether the fracture rate (31 of about 22,000, roughly 0.14 percent) is within the labeled range is unconfirmed\", \"apparent_reach\": \"matter\", \"note\": \"Specific AL-4120 fracture-rate figures.\"},\n{\"output_quote\": \"The explant must be handled only under an agreed written protocol with both sides' engineers present and no disassembly or sectioning until then.\", \"apparent_reach\": \"matter\", \"note\": \"A specific explant-handling instruction for this matter.\"},\n{\"output_quote\": \"the instructions for use (which warn against medial subclavian puncture and prefer lateral access)\", \"apparent_reach\": \"matter\", \"note\": \"Specific content of the AL-4120 instructions for use.\"}\n]}\n```",
+  "timestamp": "2026-10-30T21:42:06+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7162,
+    "call_id": "659c01fe8ade62a1",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 22633,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2890,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:42:06+00:00",
+    "total_cost_usd": 0.11510400000000001
+  }
+}

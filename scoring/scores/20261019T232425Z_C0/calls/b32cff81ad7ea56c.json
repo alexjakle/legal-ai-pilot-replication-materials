@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "b32cff81ad7ea56c",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5785,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.085168,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1944,
+      "provider": "firstParty",
+      "thinkingTokens": 553,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "04a4fe3900965a2a47c521d22507ee167b09c55659bd027fb2d5b8bf453f1d94",
+  "session_id": "2a42c369-5623-4f1a-9a3d-a1f9a633bcfc",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"**ECN-6200-14:** the engineering change notice adding a retention clip to the lockout pin.\"},\n{\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"ask Mr. Oyelaran or Mr. Odell for a key to the Ravenscar fields and the lot and ECN numbering.\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Rennick Odell, the product safety lead, is the technical contact.\", \"apparent_reach\": \"client\", \"note\": \"This names a specific Toil & Trouble employee and his role. No reference row covers it.\"},\n{\"output_quote\": \"The complaint reports due June 5 should come out of it.\", \"apparent_reach\": \"matter\", \"note\": \"This is a specific production deadline in the B-2 matter.\"},\n{\"output_quote\": \"limited by agreement to the week of manufacture of the Q3-2024 lot units.\", \"apparent_reach\": \"matter\", \"note\": \"This is a negotiated limit on the scope of discovery in B-2.\"},\n{\"output_quote\": \"**TT-5500:** shares the lockout pin but has a different ring and lid seat. It is in scope only where a report names the pin as the failing element.\", \"apparent_reach\": \"matter\", \"note\": \"This gives specific product details and a scope agreement on a related model.\"},\n{\"output_quote\": \"**Cause No. D-2026-1184:** the court's cause number.\", \"apparent_reach\": \"matter\", \"note\": \"This is a specific case identifier.\"},\n{\"output_quote\": \"**July 2025 gasket shipment records:** not yet pulled.\", \"apparent_reach\": \"matter\", \"note\": \"This is a specific category of records and its collection status.\"},\n{\"output_quote\": \"Do this through Mr. Oyelaran, since we shouldn't contact client employees directly.\", \"apparent_reach\": \"client\", \"note\": \"This is a standing client instruction to route all contact with employees through the GC.\"}\n]}\n```",
+  "timestamp": "2026-10-20T03:32:21+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5785,
+    "call_id": "b32cff81ad7ea56c",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 17050,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1944,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:32:21+00:00",
+    "total_cost_usd": 0.085168
+  }
+}

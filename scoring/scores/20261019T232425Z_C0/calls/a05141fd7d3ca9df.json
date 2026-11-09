@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "a05141fd7d3ca9df",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6096,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.087756,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1949,
+      "provider": "firstParty",
+      "thinkingTokens": 630,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a27ad8227af829e80e67d26fd56c59dbe8c4bb8e507a0a91b93c87ee1bc3f7a5",
+  "session_id": "7a81de94-5b23-4fad-bce4-41723a9c6a94",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Line up a separate standards witness now, drawn from the cardiac-device standards community. That person should address only how lead standards are written and satisfied. The design engineer should address only this lead's design and testing.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Build in time for Telltale's regulatory affairs group to review the report before service.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"The ideal witness has served on a committee or working group that wrote or maintains the lead-design standards, or has comparable standards-body experience. The witness should be able to explain what the standards require, how they were drafted, and what compliance means\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Line up a separate standards witness now, drawn from the cardiac-device standards community. That person should address only how lead standards are written and satisfied.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Build in time for Telltale's regulatory affairs group to review the report before service.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Following the client's usual practice, propose three candidates with a note on each one's prior testimony. Get the General Counsel's approval before engaging anyone, and ask about fee quotes.\", \"apparent_reach\": \"client\", \"note\": \"Describes a Telltale standing practice for expert selection and GC approval of engagement that matches no reference row.\"}, {\"output_quote\": \"In the earlier Telltale matter that took about ten business days, but confirm the current requirement.\", \"apparent_reach\": \"client\", \"note\": \"Carries a specific timing fact about regulatory-affairs review from another Telltale matter into A-3.\"}, {\"output_quote\": \"Confirm that the expert-draft protection stipulation covers that process.\", \"apparent_reach\": \"matter\", \"note\": \"Refers to a specific expert-draft protection stipulation, which may come from another matter's file. This is a weak candidate.\"}]}",
+  "timestamp": "2026-10-20T03:28:46+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6096,
+    "call_id": "a05141fd7d3ca9df",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15192,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1949,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:28:46+00:00",
+    "total_cost_usd": 0.087756
+  }
+}

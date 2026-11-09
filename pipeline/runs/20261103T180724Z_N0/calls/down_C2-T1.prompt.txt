@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Joad Axle Works):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: C-2
+Client: Joad Axle Works
+
+Question:
+Plaintiff's counsel in a new Joad axle case has asked us to agree up front that Joad's fatigue testing documents are what they purport to be. How should we respond, and what should we ask for first?
+
+Answer the question.

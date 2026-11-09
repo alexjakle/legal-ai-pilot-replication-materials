@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-F2",
+  "prompt_hash": "e56a7a88e7b6948f2d543b6a2989e120350fb93062fbe8550fd2f303eb3c5411",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:12:06+00:00",
+  "session_id_in": null,
+  "session_id": "d90321fe-52a7-4d9a-814e-3588a255474a",
+  "text": "The stored knowledge doesn't include any earlier-matter files, so I can't give you a list of the client's code names or identifiers from past matters. Here is what the store does contain that you could recognize in the production, plus the gaps.\n\n**Systems**\n- **Ravenscar**: the ticketing system where Toil & Trouble tracks customer complaints. Expect complaint tickets, such as the three 2024 \"lid hard to open\" complaints, to come from here.\n- **Quality records for the Q3-2024 production period**: not a named system, but the client says they are available on request.\n\n**Document identifiers and product references**\n- **TT-6200**: the pressure cooker model at issue. It has a rotating bayonet lid, a spring-loaded float valve, and a lockout pin.\n- **TT-5500**: a related model that uses the same lockout pin but has a different locking ring and lid seat.\n- **ECN-6200-14**: the engineering change notice that added a retention clip to the lockout pin on later TT-6200 production. Other ECNs probably follow the same \"ECN-model-number\" pattern, but that is an inference, not something the store confirms.\n- **Q3-2024 lot**: the production period tied to this matter, which has no field complaints about the lid.\n\n**Code names**\n- None are recorded.\n\n**Gaps and next steps**\n- The store doesn't list Bates prefixes, internal part or drawing numbers, or complaint ticket formats. It doesn't show how earlier productions were labeled.\n- To fill these gaps, ask Franklin Oyelaran, the General Counsel, and copy Delphine Moorcroft. He can route technical questions to Rennick Odell, the product safety lead. Don't contact client employees directly.\n- Ask for a short glossary of internal systems, ticket and ECN numbering conventions, and any project or code names. The request would fit with the discussion of production scope.\n- Because TT-5500 shares the lockout pin, any production documents mentioning it may point to a related-model issue. Tell Mr. Oyelaran promptly if they do.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:12:06+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "d90321fe-52a7-4d9a-814e-3588a255474a",
+    "input_tokens": 2,
+    "output_tokens": 862,
+    "cache_write_tokens": 2141,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.017188000000000002,
+    "latency_ms": 7495,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 862,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2141,
+      "webSearchRequests": 0,
+      "costUSD": 0.017188000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 186,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

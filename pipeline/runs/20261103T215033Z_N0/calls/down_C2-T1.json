@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "45e3f40fa74d8f9468f0c1533f4be3d1fffbbec9b0cbbe10ca334928973acc39",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:54:52+00:00",
+  "session_id_in": null,
+  "session_id": "7f6733ed-3bf6-4ef6-bbc2-be789cc06231",
+  "text": "**Short answer:** Don't agree to a blanket, up-front stipulation. Offer instead to stipulate to authenticity, document by document, once we have a defined list and have verified the documents ourselves. The first thing to ask for is that list.\n\n*Our client and firm stores are empty, so I have no prior Joad productions, earlier stipulations, protective orders, or test records to check. This rests on general principles and should be checked against the court's rules and the case record.*\n\n**Why not agree broadly**\n- \"Are what they purport to be\" is the authenticity standard (FRE 901). It is vague about which documents it covers. Fatigue files often hold drafts, test protocols for other axle models or revisions, supplier data, third-party lab reports, and engineers' notes. Conceding authenticity of the whole set could implicitly concede that they relate to the axle at issue.\n- Authenticity is not admissibility. Any stipulation must expressly preserve objections on relevance, hearsay (including business-records foundation), FRE 403, FRE 407 (subsequent remedial measures), FRE 106 completeness, privilege and work product, substantial similarity of the tested design or conditions, and expert reliability.\n- We haven't yet verified provenance, completeness, or version control. If we stipulate and a document later proves to be a draft, misdated, or misattributed, we will have given up ground.\n- Refusing everything isn't wise either. Authenticity of a party's own produced documents is rarely worth fighting over. Unreasonable denials can lead to cost-shifting under Rule 37(c)(2) if the matter proceeds by requests for admission, and they can cost credibility with the court. A narrow stipulation can be a reasonable concession that we trade for something.\n\n**What to ask for first**\n1. A precise schedule of the documents they want covered, by Bates number or exhibit number. For each, we need the date, author, test or report description, and the axle model and part number it concerns.\n2. The source of each. We need to know whether it came from Joad's production in this case, from a prior case, or from a third party, and whether it is a complete copy.\n3. The purpose for which they intend to use them, and whether the request is mutual (for example, covering our documents as well).\n\n**Proposed response to opposing counsel**\n- We are willing to discuss a stipulation limited to authenticity, for specified documents that Joad produced, after our review.\n- It must be reciprocal and subject to a full reservation of all other objections.\n- It must carry no admission of relevance, similarity, accuracy of the contents, or that the documents represent the product or testing at issue.\n- It must be consistent with any protective order and confidentiality designations.\n- Alternatively, we can offer a Rule 902(11)-style custodian certification for the business records we choose, instead of a general stipulation.\n\n**Internal steps before we answer**\n- Collect the testing files from Joad and interview the custodian and test engineers on how the records were created and kept.\n- Compare the documents with what was produced or authenticated in earlier Joad litigation, so our position is consistent.\n- Confirm the litigation hold is in place and that the insurer has been notified.\n- Check the scheduling order and local rules for deadlines on stipulations and requests for admission.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:54:52+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7f6733ed-3bf6-4ef6-bbc2-be789cc06231",
+    "input_tokens": 2,
+    "output_tokens": 1658,
+    "cache_write_tokens": 763,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019636,
+    "latency_ms": 16488,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1658,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 763,
+      "webSearchRequests": 0,
+      "costUSD": 0.019636,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 607,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 763,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

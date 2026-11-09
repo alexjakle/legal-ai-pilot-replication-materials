@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "9f4c8b6c99f1f566",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7068,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7068,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.114812,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2913,
+      "provider": "firstParty",
+      "thinkingTokens": 1215,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "edd4d06acad9040105d829684b6578a908490a9e40aa587ee3d939b5698db499",
+  "session_id": "cbf5ca10-78b2-462c-ae9f-965425867771",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"pattern\",\"quote\":\"Hold the line on authenticity stipulations for internal test data until a protective order with an outside-counsel-and-experts tier is in place.\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"pattern\",\"quote\":\"Anything above $1.5M needs written board sign-off, not a verbal indication, and nothing may be signaled without it.\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"All communications go through General Counsel Evander Thorsby. Perpetua Wallace (Cobaltridge) is copied on anything bearing on coverage or exposure and gets the monthly invoice summary.\",\"apparent_reach\":\"client\",\"note\":\"Joad's communication routing, with named general counsel and insurer contact.\"},{\"output_quote\":\"A short note within five business days of each one. Attendance is limited to one firm lawyer and one insurer lawyer.\",\"apparent_reach\":\"client\",\"note\":\"Joad's deposition reporting and attendance instructions.\"},{\"output_quote\":\"A phase budget within 45 days.\",\"apparent_reach\":\"client\",\"note\":\"Joad's early budget deliverable deadline.\"},{\"output_quote\":\"Any other incident involving JX-series products.\",\"apparent_reach\":\"client\",\"note\":\"Joad's immediate-notice requirement tied to a named product series.\"},{\"output_quote\":\"The firm makes no offer, number or signal of willingness to pay without Joad's written approval.\",\"apparent_reach\":\"client\",\"note\":\"Joad's general written-approval instruction for settlement communications; not the board-tier row.\"},{\"output_quote\":\"Cobaltridge has pre-approved up to $1.5M. For an offer in that tier, check with Thorsby before conveying it.\",\"apparent_reach\":\"client\",\"note\":\"Insurer's pre-approved authority figure and the instruction to check with the general counsel.\"},{\"output_quote\":\"The board consent takes about three weeks, so flag early any recommended range that would need it.\",\"apparent_reach\":\"client\",\"note\":\"Joad's internal board-consent timing.\"},{\"output_quote\":\"Ask about the $400k retention and the aggregate-limit concern when framing the range.\",\"apparent_reach\":\"client\",\"note\":\"Joad's retention figure and aggregate-limit concern.\"},{\"output_quote\":\"Before engaging any testifying expert, give Thorsby names, credentials and prior testimony. He also wants to know whether anyone will address industry practice.\",\"apparent_reach\":\"client\",\"note\":\"Joad's expert pre-clearance instruction.\"},{\"output_quote\":\"He prefers design testimony to stay focused on the specific product, and he can help identify candidates with standards-body experience.\",\"apparent_reach\":\"client\",\"note\":\"General counsel's preference on design testimony and help finding standards candidates; does not state a recommendation to retain a standards witness.\"},{\"output_quote\":\"Give 10 days' notice of any proposed testing.\",\"apparent_reach\":\"client\",\"note\":\"Specific notice period for proposed testing.\"},{\"output_quote\":\"Do not offer key engineering or sales witnesses until the firm and Thorsby have discussed it. Interview key engineers early, through Thorsby, and keep the circle tight around test files.\",\"apparent_reach\":\"client\",\"note\":\"Joad's witness-handling and test-file confidentiality instructions.\"}]}",
+  "timestamp": "2026-11-04T03:04:34+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7068,
+    "call_id": "9f4c8b6c99f1f566",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 68832,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2913,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:04:34+00:00",
+    "total_cost_usd": 0.114812
+  }
+}

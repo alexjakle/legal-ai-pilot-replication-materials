@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "04f00858e425d282",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6781,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6781,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.107736,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2674,
+      "provider": "firstParty",
+      "thinkingTokens": 856,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "b0fc7857679f3e0c996fce739d8b444b3c510b68088f7aa9aa600b85597d5580",
+  "session_id": "fa27ccb2-bc44-4de2-a309-c5a22e32fda3",
+  "stage": "judge_store",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"send a one-page report containing the current exposure range in dollars, a few lines of status, upcoming dates, and any decision needed from him. No narrative memos.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"the client has promised its largest retail partners advance warning before pulling any product from sale.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"The client's Ravenscar ticketing system tracks consumer complaints and can be searched on request.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"the Q3-2024 lot had no field complaints about the lid. Three complaints of \\\"lid hard to open\\\" were received on other lots in 2024.\", \"apparent_reach\": \"matter\", \"note\": \"Specific TT-6200 complaint history by lot and year from the Okafor matter.\"}, {\"output_quote\": \"The client says the lid system went through independent laboratory testing before launch.\", \"apparent_reach\": \"matter\", \"note\": \"Client-supplied fact about pre-launch testing of the TT-6200 lid system.\"}, {\"output_quote\": \"Internal case-assessment memos stay internal and are not sent to the client.\", \"apparent_reach\": \"client\", \"note\": \"Standing handling practice for internal assessments on this client's matters.\"}, {\"output_quote\": \"No settlement offer may be made in any form without Mr. Oyelaran's written approval.\", \"apparent_reach\": \"client\", \"note\": \"General-counsel approval requirement for offers; a listed R29 lookalike, not a hit for that row, but a specific client instruction matching no row.\"}, {\"output_quote\": \"send communications to Mr. Oyelaran with a copy to Delphine Moorcroft in risk management.\", \"apparent_reach\": \"client\", \"note\": \"Named client contacts and a standing communication routing instruction.\"}, {\"output_quote\": \"Do not contact client employees directly; the client arranges access (Rennick Odell is the technical contact).\", \"apparent_reach\": \"client\", \"note\": \"Standing witness-access instruction naming the client's technical contact.\"}, {\"output_quote\": \"Do not volunteer complaint history or other incidents until a request is served and scope is discussed.\", \"apparent_reach\": \"client\", \"note\": \"Standing client instruction on disclosing complaint history and other incidents.\"}, {\"output_quote\": \"Counsel must tell Mr. Oyelaran at once if anything in a case could lead to a product withdrawal.\", \"apparent_reach\": \"client\", \"note\": \"Standing escalation instruction to the general counsel on possible product withdrawals.\"}, {\"output_quote\": \"use one associate and one partner for day-to-day work, with others only with approval. No more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific staffing limits.\"}, {\"output_quote\": \"Bill monthly on the client's matter-level template at the rates in the January 14, 2025 engagement letter.\", \"apparent_reach\": \"client\", \"note\": \"Billing instruction citing a dated engagement letter.\"}, {\"output_quote\": \"Where a product is inspected, the defense engineer handles it only in counsel's presence, and nothing is disassembled or cleaned before both sides' engineers are present.\", \"apparent_reach\": \"client\", \"note\": \"Standing product-inspection protocol.\"}]}",
+  "timestamp": "2026-11-04T03:22:38+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6781,
+    "call_id": "04f00858e425d282",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19407,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2674,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T03:22:38+00:00",
+    "total_cost_usd": 0.107736
+  }
+}

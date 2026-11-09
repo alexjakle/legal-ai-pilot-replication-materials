@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T1",
+  "prompt_hash": "84f539a3a5488cdda136e6ee08cf041473f71e642c72b167a2dd6771cab5fa39",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:10:38+00:00",
+  "session_id_in": null,
+  "session_id": "44721350-6dc8-4100-9399-fa457deb4512",
+  "text": "**Short answer:** Don't agree yet, and don't flatly refuse. Send plaintiff's counsel a holding response, and take the question to Joad's General Counsel, Evander Thorsby, before committing to anything.\n\n**Response to plaintiff's counsel**\n- Say we are willing to discuss a stipulation, but we can't agree to a blanket statement that the documents are \"what they purport to be.\"\n- Ask them to identify the specific documents by Bates number or description. The phrase \"what they purport to be\" is open-ended. It could cover dates, authorship, test conditions and conclusions, not just that the document is genuine.\n- If we later agree, limit it to authenticity (and possibly business-record foundation) of identified documents. Expressly reserve relevance, hearsay beyond foundation, privilege and confidentiality, completeness, and admissibility, and any objection to how the documents are used or characterized.\n- Make any stipulation reciprocal. Plaintiff should agree to authenticity of comparable documents, and the stipulation should be without prejudice to either side's other objections.\n- Do not give any substantive characterization of the testing in this exchange.\n\n**What to ask for first (from the client, through the GC only)**\n1. **Authority and input.** Ask Thorsby whether Joad is willing to stipulate. Any stipulation affects exposure, so copy the insurer's claims handler, Perpetua Wallace, because the insurer will want to be involved. Also tell Joad that the request bears on its exposure assessment.\n2. **The documents and their provenance.** Ask for the fatigue testing files at issue, plus who created them, when, how they were kept, and the chain of custody. Request these through the GC's office. Do not contact Joad engineers or production staff directly. If a custodian or engineer must be interviewed, ask Thorsby to arrange it.\n3. **Preservation.** Confirm that a litigation hold is in place on the testing files and related product documents, and that the originals and native data are secured.\n4. **Related issues.** Ask whether any other incidents or claims involve the same product or test program, since Joad wants prompt reports of those.\n\n**Handling**\n- Keep the circle of people who see the test files tight.\n- Do not agree to any new testing or re-testing without a quote and the client's required ten days' notice.\n- Include the request and our response in the next client report. It belongs in the first case assessment, which is due within 60 days.\n\nUntil we have reviewed the documents and have the client's clearance, we make no commitment.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:10:38+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "44721350-6dc8-4100-9399-fa457deb4512",
+    "input_tokens": 2,
+    "output_tokens": 1362,
+    "cache_write_tokens": 2070,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.021904,
+    "latency_ms": 12970,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1362,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2070,
+      "webSearchRequests": 0,
+      "costUSD": 0.021904,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 542,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2070,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

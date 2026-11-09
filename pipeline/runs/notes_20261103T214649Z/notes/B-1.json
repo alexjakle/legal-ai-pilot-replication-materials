@@ -1,0 +1,174 @@
+{
+  "matter": "B-1",
+  "client": "Toil & Trouble Home Products",
+  "artifact_id": "N8ce7bf",
+  "call_id": "notes_B-1",
+  "timestamp": "2026-11-03T21:48:46+00:00",
+  "items": [
+    {
+      "id": "N8ce7bf.01",
+      "type": "fact",
+      "text": "Okafor v. Toil & Trouble Home Products, Cause No. D-2026-1184, District Court of Pelham Ridge County. Plaintiff Nkechi Okafor filed her Original Petition on February 17, 2026. Kenge, Carboy & Vholes LLP represents the defendant, with Josephine Armitage as partner and Marcus Teller as associate. Leona Trevisan (Trevisan Hale) represents the plaintiff."
+    },
+    {
+      "id": "N8ce7bf.02",
+      "type": "fact",
+      "text": "The plaintiff alleges that on December 14, 2025 the lid of her PressureMate TT-6200 (a six-quart electric pressure cooker) rotated open while the unit was under pressure. She says she bought it from Marlowe Home & Hardware in October 2024 for $119.99; the memo gives the purchase date as October 11, 2024. The petition pleads design defect and negligence, including failure to test and failure to investigate prior complaints."
+    },
+    {
+      "id": "N8ce7bf.03",
+      "type": "fact",
+      "text": "The plaintiff is 38 and a dental hygienist. She suffered second- and third-degree scald burns to her left forearm and upper chest. She has had two skin graft procedures and claims scarring, medical charges of $87,500 and about $38,000 in lost income. She demands $650,000 and also seeks exemplary damages."
+    },
+    {
+      "id": "N8ce7bf.04",
+      "type": "fact",
+      "text": "The TT-6200 has a rotating bayonet lid and a spring-loaded float valve with a lockout pin. The pin rises as pressure builds and blocks the locking ring from turning. Operating pressure is about 10 psi. The plaintiff says she was cooking dried beans, the pressure indicator was down, and the lid turned with ordinary effort and released a jet of hot liquid."
+    },
+    {
+      "id": "N8ce7bf.05",
+      "type": "fact",
+      "text": "The draft Answer is dated March 31, 2026. It is a general denial plus specific responses and affirmative defenses, and it was circulated for partner comment. It admits Toil & Trouble designs and sells the TT-6200 and describes the lid ring and lockout pin. It denies the unit was in the same condition as when it left the company's control, and it states the company has not yet inspected the unit."
+    },
+    {
+      "id": "N8ce7bf.06",
+      "type": "position",
+      "text": "Defense position in the Answer on the unit: any alteration, damage or repair after the unit left Toil & Trouble's control, such as replacing the gasket or removing the lockout pin, caused the incident rather than any original condition. The Answer also demands that the cooker, lid, gasket, float valve, packaging, receipt and pot contents be preserved. It asserts an adverse inference if they are not."
+    },
+    {
+      "id": "N8ce7bf.07",
+      "type": "position",
+      "text": "Defense position in the Answer on liability: misuse and failure to follow warnings (forcing the lid, opening before pressure drops, overfilling past the two-thirds line); comparative responsibility; compliance with safety standards and an independent laboratory safety listing; adequate warnings; open and obvious risk; no feasible safer alternative design (the petition suggests a secondary mechanical lockout); and no causation."
+    },
+    {
+      "id": "N8ce7bf.08",
+      "type": "position",
+      "text": "Defense position in the Answer on damages and other parties: failure to mitigate; medical expenses limited to amounts actually paid or incurred; no facts pleaded to support exemplary damages, plus statutory and constitutional limits; and credit for any settlement. It reserves the right to designate a retailer, prior owner or repair provider as a responsible third party once discovery permits."
+    },
+    {
+      "id": "N8ce7bf.09",
+      "type": "fact",
+      "text": "The client's instruction letter is dated March 9, 2026, from General Counsel Franklin Oyelaran. The firm has no settlement authority. No settlement offer may be made in any form without his written approval. Communications go to him, copied to Delphine Moorcroft in risk management."
+    },
+    {
+      "id": "N8ce7bf.10",
+      "type": "position",
+      "text": "Client instruction: try mediation before expert work. Complete the inspection, exchange core documents and set a mediation before any testifying expert is disclosed or deposed. A consulting engineer may be retained now to attend the inspection. If plaintiff's counsel presses for an expert schedule first, the firm should say the client wants a mediation date in the order and tell Mr. Oyelaran if she objects."
+    },
+    {
+      "id": "N8ce7bf.11",
+      "type": "position",
+      "text": "Client reporting instruction: reports must be one page showing the exposure range in dollars, status in a few lines, upcoming dates and any decision needed. There should be no narrative memos. The client wants a page each month and after any event that changes the range, with the first due by the end of May 2026. The client reports to its CEO and its insurer's claims group."
+    },
+    {
+      "id": "N8ce7bf.12",
+      "type": "fact",
+      "text": "Other client instructions: do not speak to the press or to retail partners; do not contact client employees directly; preserve all documents (a hold was issued February 26, 2026); allow no more than two lawyers at any deposition or hearing; use one associate and one partner for day-to-day work; bill monthly; and report promptly any other claims involving the TT-6200 or related models. The client has also promised its largest retail partners advance warning before pulling any product, so counsel must tell Mr. Oyelaran at once if the case could lead to that."
+    },
+    {
+      "id": "N8ce7bf.13",
+      "type": "position",
+      "text": "Client instruction on the plaintiff's counsel: be courteous, but do not volunteer complaint history or other incidents until a request is served and scope has been discussed. If a joint inspection is requested, agree in principle and send a written protocol so nothing is disassembled or cleaned before both sides' engineers are present. The client's engineer should handle the unit only in counsel's presence. The firm should also ask Marlowe Home & Hardware to preserve its sales records for the unit."
+    },
+    {
+      "id": "N8ce7bf.14",
+      "type": "fact",
+      "text": "Insurance and budget per the client: the insurer is notified and the deductible is $100,000 on this claim. The client does not expect to spend more than $150,000 through mediation and wants early notice if that is unrealistic. It asked for separate estimates through mediation and through trial. Rennick Odell, the product safety lead, is the technical contact. Q3-2024 quality records are available on request, and complaints are tracked in the Ravenscar ticketing system."
+    },
+    {
+      "id": "N8ce7bf.15",
+      "type": "fact",
+      "text": "The client's customer care records show one contact in July 2025 from a household at the plaintiff's address about a replacement gasket. The memo says a replacement gasket was sent. This raises an alteration question. The client asked the firm to look into it early and to find out whether the unit was bought new from the retailer or through another channel."
+    },
+    {
+      "id": "N8ce7bf.16",
+      "type": "fact",
+      "text": "A retail employee told the client's investigator that the box for this unit had been returned once and resold as new. The memo notes that, if true, this could undercut the plaintiff's account that she bought it new."
+    },
+    {
+      "id": "N8ce7bf.17",
+      "type": "fact",
+      "text": "The plaintiff's counsel says the unit is secured at her consulting engineer's lab and offered a joint, non-destructive inspection. Ms. Trevisan reportedly says the unit has been in a lab since February, and the memo says the firm must confirm it was preserved since December. Mr. Teller agreed to the joint inspection on April 23, 2026. His protocol covers photographs, measurement of the locking ring and lockout pin, and no disassembly until both sides' engineers agree on steps. The memo says the protocol was sent April 24."
+    },
+    {
+      "id": "N8ce7bf.18",
+      "type": "fact",
+      "text": "Written discovery as agreed in the April–May 2026 emails: the defense will produce the TT-6200 lid design file and the test reports supporting the safety listing. It will produce TT-6200 lid-related incident reports from the 2023 launch through December 14, 2025. It will produce line inspection records for the week of manufacture of the Q3-2024 lot, not the whole quarter. The lid design file and complaint reports are due by June 5, 2026."
+    },
+    {
+      "id": "N8ce7bf.19",
+      "type": "position",
+      "text": "Defense position on complaint scope: it objects to complaint data for other Toil & Trouble models with a different lid design. Plaintiff's counsel pressed for the TT-5500, which uses the same lockout pin but a different locking ring and lid seat. The compromise, agreed May 1, is to produce TT-5500 complaints only where the report describes the pin as the failing element."
+    },
+    {
+      "id": "N8ce7bf.20",
+      "type": "fact",
+      "text": "Agreed schedule, to go in an agreed scheduling order that Ms. Trevisan will draft: mediation by July 17, 2026. If the case does not settle, plaintiff designates experts August 21, 2026 and the defense designates October 2, 2026, with expert depositions in November. Plaintiff's original proposal was designations June 26 and August 7 with depositions in September, and that proposal was superseded."
+    },
+    {
+      "id": "N8ce7bf.21",
+      "type": "fact",
+      "text": "The plaintiff's counsel accepted mediation first on two conditions: the design file and complaint reports are produced before the session, and expert dates are fixed now with a trigger on mediation failure. Her stated concern was a stalled schedule, since her client has waited since December. The defense agreed to both conditions."
+    },
+    {
+      "id": "N8ce7bf.22",
+      "type": "fact",
+      "text": "Consulting experts: both sides agreed that non-testifying consultants will not be disclosed, but anyone who touches the unit will be named in the inspection protocol. Only testifying experts will be deposed."
+    },
+    {
+      "id": "N8ce7bf.23",
+      "type": "fact",
+      "text": "Open scheduling items as of May 1, 2026: the mediator proposed is retired trial judge Harlan Whitcombe, who has handled product cases. Mr. Teller found him acceptable in principle, subject to client approval. Mr. Teller also proposed an interrogatory cap of 25 per side including subparts until mediation. He proposed that only the plaintiff's and the product safety lead's depositions be allowed before mediation, with other fact depositions held until afterward. Plaintiff's counsel had not yet responded on these points."
+    },
+    {
+      "id": "N8ce7bf.24",
+      "type": "position",
+      "text": "The memo of May 12, 2026 (Teller to Armitage) puts likely exposure at $140,000–$320,000 on the current record, with $230,000 as a midpoint and a modest chance of a defense verdict. It calls this a preliminary view because the unit has not been inspected. The reasons: a scarred, sympathetic plaintiff and a pressure-hazard consumer product are a hard combination before a jury, though adverse liability is not likely to be a landslide."
+    },
+    {
+      "id": "N8ce7bf.25",
+      "type": "fact",
+      "text": "Plaintiff's likely experts per the memo: Dr. Gareth Pellam, a mechanical engineer, who will probably say the lockout pin can stick when coated with starch or foam from beans, letting the ring turn under pressure. Dr. Yvette Hargrove, a human-factors witness, will address the manual's warnings. The team should assume both will be designated."
+    },
+    {
+      "id": "N8ce7bf.26",
+      "type": "position",
+      "text": "Memo strategy on experts: attack Dr. Pellam's opinion on what happened in this kitchen first, before engaging on whether a different lid mechanism would be a better design. The questions are whether his sticking-pin opinion rests on testing of a comparable unit, whether it fits the ordinary-use scenario and the replacement gasket, and whether it fits the condition of the pin on examination. If he has not replicated the failure or has not ruled out a gasket problem, the reliability challenge should come before the design merits. Narrowing causation also makes the alternative-design argument less relevant."
+    },
+    {
+      "id": "N8ce7bf.27",
+      "type": "fact",
+      "text": "Complaint and design-change history: the Q3-2024 lot has no field complaints about the lid. There were three complaints of \"lid hard to open\" on other lots in 2024. Engineering change notice ECN-6200-14 added a retention clip to the lockout pin on later production and is dated after the plaintiff's purchase."
+    },
+    {
+      "id": "N8ce7bf.28",
+      "type": "position",
+      "text": "Memo view on ECN-6200-14: because it predates the plaintiff's injury, the subsequent-remedial-measure rule is unlikely to keep it out. The associate wants to settle how the firm will treat it before the design file is produced (due June 5, 2026)."
+    },
+    {
+      "id": "N8ce7bf.29",
+      "type": "position",
+      "text": "Memo plan for mediation: the firm recommends Harlan Whitcombe. To make mediation useful, the inspection should be finished by the end of June, with Dr. Oswin Takahashi's preliminary read in hand but no formal report, to keep expert spending low. At the joint inspection, preserve the pin's travel, residue on the pin and seat, the gasket's origin and the state of the ring."
+    },
+    {
+      "id": "N8ce7bf.30",
+      "type": "fact",
+      "text": "Risks listed in the memo: (1) bean-foam residue on the pin would strengthen Dr. Pellam's theory; (2) the three \"hard to open\" complaints will be characterized as notice; (3) the replacement gasket supports alteration, but if the client sent the part the plaintiff will say it was the wrong one; (4) damages are driven by two grafts and visible scarring; (5) spoliation, because preservation of the unit since December must be confirmed."
+    },
+    {
+      "id": "N8ce7bf.31",
+      "type": "fact",
+      "text": "Budget estimate in the memo: $52,000–$68,000 through mediation, which is within the client's $150,000 expectation, and $240,000–$310,000 through trial if the case does not resolve."
+    },
+    {
+      "id": "N8ce7bf.32",
+      "type": "position",
+      "text": "Client reporting plan: the memo is internal only. The client report will be a single page with the range ($140,000–$320,000, midpoint $230,000), a short status line and the next event, drafted after the inspection. A first one-page report is planned for the file by May 29. Open next steps: get Dr. Takahashi's availability for the last two weeks of June, confirm Mr. Whitcombe with Mr. Oyelaran, obtain preliminary mediation authority, and pull the July 2025 gasket shipment records."
+    },
+    {
+      "id": "N8ce7bf.33",
+      "type": "lesson",
+      "text": "Leverage on schedule: the client's preference for mediation before experts was secured by agreeing to produce key documents early and to fix expert dates now with a trigger for mediation failure. Mediation-first sequencing was easier to obtain by offering the plaintiff certainty on production and dates, since she feared delay."
+    }
+  ]
+}

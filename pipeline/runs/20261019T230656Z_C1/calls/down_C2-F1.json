@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-F1",
+  "prompt_hash": "ee4ed952c674a41aa747c0a4ec65e125575f7aa94335af6a007c783df90eec35",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:13:03+00:00",
+  "session_id_in": null,
+  "session_id": "518a5d30-8d2f-482a-a63e-628416bbcb84",
+  "text": "I can't give you names or details from Joad's earlier matters because the firm's stored knowledge doesn't contain any. The client store and firm store hold only Joad's handling requirements and general firm practice. There are no prior test results, metallurgical findings, or witness names, and I won't invent them. Made-up specifics could mislead your preparation.\n\n**What the file does tell us that bears on C-2**\n- **Other claims:** The policy's aggregate limit is under watch because of two other open claims. Those matters may contain relevant test or witness material, but nothing in my file identifies them.\n- **Similar incidents:** Joad wants immediate notice of any similar product incidents. If earlier matters involved the same or a related axle product, flag that to General Counsel Evander Thorsby right away.\n\n**How to get the earlier-matter details**\n1. **Ask Thorsby.** All case communications go through him. Request the prior matter files, test reports, metallurgical analyses and witness lists, and ask which of the two open claims are relevant.\n2. **Check the firm's records.** If the firm handled earlier Joad matters, pull the closed files and expert reports through the firm's document system.\n3. **Don't contact Joad engineers or production staff directly.** Thorsby arranges access. Don't put any Joad employee or key witness forward for testimony until you and Thorsby have discussed it.\n4. **Keep the circle tight.** Limit who sees test files.\n5. **Give notice before any new testing.** Joad needs at least ten days' notice and wants quotes before testing is commissioned.\n6. **Get approval before engaging experts.** Joad wants names and credentials first, prefers design testimony focused on the product at issue, and offered help identifying candidates with standards-body experience.\n7. **Copy Perpetua Wallace** on anything bearing on coverage.\n\nIf you can send me the earlier matter files or summaries, I can pull out the test results, metallurgical findings and witnesses you should prepare for. I can also draft the request to Thorsby.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:13:03+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "518a5d30-8d2f-482a-a63e-628416bbcb84",
+    "input_tokens": 2,
+    "output_tokens": 751,
+    "cache_write_tokens": 1915,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.015174,
+    "latency_ms": 6651,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 751,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1915,
+      "webSearchRequests": 0,
+      "costUSD": 0.015174,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 90,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

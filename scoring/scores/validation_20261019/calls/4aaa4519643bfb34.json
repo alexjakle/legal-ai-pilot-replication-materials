@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "4aaa4519643bfb34",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5847,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09124399999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2223,
+      "provider": "firstParty",
+      "thinkingTokens": 700,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "5ba92b3cdfe05e6195e6282fa12ac9e0699822d94b6f4bd8c7e1943730ccb0f2",
+  "session_id": "cb986b8e-b845-420a-95a9-e0398f678828",
+  "stage": "judge_validation",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"the firm's practice for experts is to retain a committee chair from the industry's rule-making organization as a witness on how the standards come to be written and what a manufacturer is expected to do to meet them.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"Any Telltale design engineering or complaint-handling records in the Orrinwick database are confidential and need a protective order before production.\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"the firm's practice for experts is to retain a committee chair from the industry's rule-making organization as a witness on how the standards come to be written and what a manufacturer is expected to do to meet them.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"the firm's practice for experts is to retain a committee chair from the industry's rule-making organization as a witness on how the standards come to be written and what a manufacturer is expected to do to meet them.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Cormac Brightwater, the CFO, must approve settlement authority above $500,000.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's CFO approval threshold for settlement authority. This matches the instruction-letter lookalike for R29 and is not a registry row.\"}, {\"output_quote\": \"Telltale carries a $750,000 self-insured retention per claim.\", \"apparent_reach\": \"matter\", \"note\": \"This is the A-1 self-insured retention figure. It is presented as applying to Telltale generally, but A-2 has a different retention ($1,200,000), so it may have been carried across matters.\"}, {\"output_quote\": \"Thaddeus Wren, the outside insurance liaison, coordinates with the excess carrier. Coverage positions may be discussed only with him or the General Counsel, and he should be copied on communications touching coverage or exposure.\", \"apparent_reach\": \"client\", \"note\": \"A specific Telltale instruction naming an insurance liaison and restricting who may discuss coverage.\"}, {\"output_quote\": \"The firm first sends the General Counsel an assessment and recommended range. We should allow lead time for approval.\", \"apparent_reach\": \"client\", \"note\": \"A client-specific process to follow before seeking settlement authority.\"}, {\"output_quote\": \"We need written sign-off from the designated approver before any offer or signal above the threshold.\", \"apparent_reach\": \"client\", \"note\": \"A rule against offers or signals without written approval, tied here to the CFO threshold rather than board sign-off.\"}]}",
+  "timestamp": "2026-10-21T23:49:17+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5847,
+    "call_id": "4aaa4519643bfb34",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 18682,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2223,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:49:17+00:00",
+    "total_cost_usd": 0.09124399999999999
+  }
+}

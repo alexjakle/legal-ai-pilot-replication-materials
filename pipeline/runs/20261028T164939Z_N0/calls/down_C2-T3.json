@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "e4f132570e6e7573f11760361844157e098bbed0849153a9ee85a6a610bac318",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:54:21+00:00",
+  "session_id_in": null,
+  "session_id": "6aee3903-3b6d-41f6-8a02-fa37de3e5a99",
+  "text": "**Note:** The client and firm stores are empty, so I have no prior Joad matters, expert files, or positions on this. The plan below is general practice, not drawn from the firm's history, and the specifics need to be confirmed once we have the case file.\n\n## What we do first\n\n1. **Lock down the evidence.**\n   - Confirm where the failed component is, who has it, and the chain of custody.\n   - Send a written demand that nothing be tested destructively, sectioned, cleaned, or altered without notice and an agreed joint protocol.\n   - Issue or confirm a litigation hold at Joad covering design files, drawings, material and heat-treat specs, supplier records, QC and testing data, service history, complaints, and similar failures.\n\n2. **Get the expert's materials and the schedule.**\n   - Obtain the report, CV, materials considered, test data, photos, and testimony list.\n   - Check the scheduling order for deadlines on our expert disclosures, expert depositions, and Rule 702/Daubert motions.\n\n## Plan for the expert\n\n1. **Retain our own experts.** We need a metallurgist or failure analyst to do an independent fractography and root-cause analysis, and a design engineer who can address the design opinion directly. A metallurgist can say how the part failed, such as fatigue initiation sites and beach marks. That does not necessarily mean the person can say why the design was defective.\n\n2. **Test the fatigue conclusion.** Alternative causes include:\n   - material defects or inclusions\n   - manufacturing or heat-treatment problems\n   - surface damage\n   - improper installation or maintenance\n   - overload or misuse\n   - operating conditions beyond design intent\n   - upstream or supplier issues\n\n3. **Challenge the design opinion.** The main attack is that a metallurgist is moving from failure mechanism to design defect without design expertise. We would look for:\n   - no stress or load analysis\n   - no testing of an alternative design\n   - no showing that a feasible, safer design existed\n   - no comparison to industry standards (SAE, ASTM, ISO)\n   - no accounting for the real duty cycle\n\n   If the foundation is weak, we move to limit or exclude the opinion under Rule 702 or the state equivalent. We should confirm which standard applies in our jurisdiction.\n\n4. **Prepare the deposition.** Cover qualifications, methodology, what was and wasn't tested, the chain of custody, assumptions about loads, and prior testimony or publications that may be inconsistent.\n\n5. **Keep our own position consistent.** Before our expert commits to anything, we need to know the actual design basis, any prior failures, and any design changes. A subsequent remedial measure issue could also arise.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:54:21+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "6aee3903-3b6d-41f6-8a02-fa37de3e5a99",
+    "input_tokens": 2,
+    "output_tokens": 1258,
+    "cache_write_tokens": 702,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.015392000000000001,
+    "latency_ms": 12173,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1258,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 702,
+      "webSearchRequests": 0,
+      "costUSD": 0.015392000000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 374,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

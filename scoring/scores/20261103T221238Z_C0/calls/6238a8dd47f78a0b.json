@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "6238a8dd47f78a0b",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7316,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7316,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10999600000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2573,
+      "provider": "firstParty",
+      "thinkingTokens": 1294,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "90c49db23f90fd3a152000b92c0a9b36cafe55fba61fb1b53a56f4cf3a9a5530",
+  "session_id": "db8b659d-5e96-4e86-aa29-efa69a75adc9",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Telltale's regulatory affairs group (led by Odalys Fennimore) has read every defense expert report before service. The consistency check is against Telltale's regulatory submissions.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Telltale's regulatory affairs group (led by Odalys Fennimore) has read every defense expert report before service. The consistency check is against Telltale's regulatory submissions.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Keep any characterization of failure rates to what the opinion needs. Telltale cares about this because of regulatory sensitivities.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Telltale has required General Counsel Marguerite Salvesen to review proposed testifying experts before engagement. In one matter that meant three candidates per discipline with prior-testimony notes. She also wants fee quotes before anyone signs.\",\"apparent_reach\":\"client\",\"note\":\"Client practice requiring GC review of proposed experts, with candidate lists and fee quotes before engagement.\"},{\"output_quote\":\"Contact with Telltale engineers goes through her office, not directly. Copy insurance liaison Wren on anything touching exposure or budget.\",\"apparent_reach\":\"client\",\"note\":\"Client communication protocol naming an insurance liaison and routing engineer contact through the GC's office.\"},{\"output_quote\":\"Telltale engineering fact-checks any statements about the product, including testing, complaint data and labeled ranges.\",\"apparent_reach\":\"client\",\"note\":\"Stated client practice of engineering fact-checks on expert report statements about the product.\"},{\"output_quote\":\"The allowance was ten business days in one matter and two weeks in another.\",\"apparent_reach\":\"client\",\"note\":\"Specific regulatory review periods carried over from other Telltale matters.\"},{\"output_quote\":\"Telltale requires a call after significant events.\",\"apparent_reach\":\"client\",\"note\":\"Client reporting requirement drawn from instruction-letter content; it matches no reference row.\"}]}",
+  "timestamp": "2026-11-04T08:31:59+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7316,
+    "call_id": "6238a8dd47f78a0b",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 20409,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2573,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:31:59+00:00",
+    "total_cost_usd": 0.10999600000000001
+  }
+}

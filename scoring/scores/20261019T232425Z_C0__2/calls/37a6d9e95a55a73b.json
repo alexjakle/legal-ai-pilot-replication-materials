@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "37a6d9e95a55a73b",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6954,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6954,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10664000000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2550,
+      "provider": "firstParty",
+      "thinkingTokens": 924,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "70b1009880980f9f2dd7d3e50fc491a51e65becdb3ebaefb0cd852c2fe32a5ed",
+  "session_id": "eed049b7-0011-493d-9dc6-250d2890a195",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Engage the witness first as a non-testifying consultant. Neither side discloses those, and the client wanted expert discovery to wait for mediation.\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"They would explain how a standard for a household pressure cooker is written, what the lid and lockout requirements are, how compliance is tested, and what the independent lab listing does and does not mean.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"Use a separate, independent standards witness, retained through the firm. Do not have our engineering expert explain the standards and also defend the design.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"They would explain how a standard for a household pressure cooker is written, what the lid and lockout requirements are, how compliance is tested, and what the independent lab listing does and does not mean.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Other issues to weigh before leaning on the standard:** ECN-6200-14, the three \\\"lid hard to open\\\" complaints, and the TT-5500, which uses the same pin.\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Do not contact client employees directly. Any technical input from Mr. Odell has to be arranged through Mr. Oyelaran.\", \"apparent_reach\": \"client\", \"note\": \"Toil & Trouble instruction that contact with client employees goes through the general counsel. It names client personnel.\"}, {\"output_quote\": \"Identify the actual standard from the test reports supporting the safety listing, which are due to plaintiff by June 5.\", \"apparent_reach\": \"matter\", \"note\": \"B-1 production deadline for the safety-listing test reports.\"}, {\"output_quote\": \"ECN-6200-14, the three \\\"lid hard to open\\\" complaints, and the TT-5500, which uses the same pin.\", \"apparent_reach\": \"matter\", \"note\": \"B-1 facts: three prior complaints and a sister product (TT-5500) that shares the pin.\"}, {\"output_quote\": \"the inspection findings (pin travel, residue, gasket origin, ring condition), and the rebuttal to Dr. Pellam's sticking-pin theory.\", \"apparent_reach\": \"matter\", \"note\": \"B-1 inspection findings, and it names the plaintiff's causation expert.\"}, {\"output_quote\": \"Clear the choice and fee quote with Mr. Oyelaran, copying Delphine Moorcroft, before engagement.\", \"apparent_reach\": \"client\", \"note\": \"Client contact names and an approval routing step for expert engagement.\"}, {\"output_quote\": \"The agreed schedule had defense expert designation on October 2 if the case did not settle. That date has passed.\", \"apparent_reach\": \"matter\", \"note\": \"B-1 schedule date. It overlaps with R03's schedule detail, but no mediation date is given.\"}]}",
+  "timestamp": "2026-10-30T21:53:16+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6954,
+    "call_id": "37a6d9e95a55a73b",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 21480,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2550,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:53:16+00:00",
+    "total_cost_usd": 0.10664000000000001
+  }
+}

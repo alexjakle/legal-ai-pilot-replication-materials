@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "d021a4d9066642fa",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6566,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6566,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.089896,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1868,
+      "provider": "firstParty",
+      "thinkingTokens": 530,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "1a1be6dd73b0cd3db0bec5fd35aed51b47861734414cec4d05845df829f34a8d",
+  "session_id": "19e434af-e1ce-4ea6-a4dc-7d84dc1ba1b7",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"It also says that complaint data sits in Orrinwick.\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Counsel sends an assessment and recommended range to General Counsel Marguerite Salvesen for the claims committee.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's settlement approval routing, naming its general counsel and claims committee.\"}, {\"output_quote\": \"Authority above $500,000 requires sign-off from CFO Cormac Brightwater.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's CFO approval threshold. It appears in the near-miss list as not a hit for R29 and matches no reference row.\"}, {\"output_quote\": \"The firm makes no offer, number or signal of willingness to pay without the client's written approval. A verbal indication isn't enough.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's instruction requiring written approval before any offer or signal, with no tier or body named as in R29.\"}, {\"output_quote\": \"Telltale has a $750,000 self-insured retention per claim. Coverage matters go only to Thaddeus Wren or Ms. Salvesen.\", \"apparent_reach\": \"matter\", \"note\": \"The retention figure is listed for matter A-1 and differs in A-2, but is stated here as Telltale's general figure. Also gives a coverage-communications instruction naming specific contacts.\"}, {\"output_quote\": \"It says only that design engineering and complaint-handling records are confidential, so a protective order should be in place before producing anything.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's protective-order gating of production. This is a near-miss for R13 with no authenticity stipulation refusal.\"}]}",
+  "timestamp": "2026-11-04T02:52:21+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6566,
+    "call_id": "d021a4d9066642fa",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14446,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1868,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:52:21+00:00",
+    "total_cost_usd": 0.089896
+  }
+}

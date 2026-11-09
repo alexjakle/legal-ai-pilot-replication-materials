@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "ff736645870738857056ca895e7ee367c41e939642b094873ddf2bcd12222b13",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:09:25+00:00",
+  "session_id_in": null,
+  "session_id": "fc3830dd-6786-45ab-92c1-b2ae5f4c2669",
+  "text": "**Approach:** Don't fight the expert's conclusion yet. First lock down the evidence and get the client's direction, then bring in our own engineering expert, and only then test, depose or challenge. A manufacturing-defect theory is also riskier than a one-off failure, because it points at a production lot or process and so at other units.\n\n**Order of steps**\n\n1. **Preserve evidence.**\n   - Confirm the litigation hold covers the TT-6200 manufacturing, QC, lot and supplier records, and the float valve and lockout pin specs.\n   - Demand preservation of the failed unit.\n   - Propose a joint inspection protocol, with no destructive testing without agreement.\n\n2. **Report to the General Counsel (Franklin Oyelaran, copying Delphine Moorcroft) at once.**\n   - Give a short note on the expert's theory.\n   - Flag that a manufacturing-defect theory could implicate a lot or other units. If it could lead to pulling the product, the client has promised its largest retail partners advance warning, so we must say so immediately.\n   - Ask whether there are other claims or incidents involving the TT-6200 or related models, and report any we learn of.\n   - Because exposure is affected, copy risk management and, through them, the insurer.\n\n3. **Gather facts only through the GC's office.** We don't contact employees directly. Requests for manufacturing and QC information on the unit, its lot and its supplier go through the GC. We review the expert's report, CV and prior testimony, and pin down the theory. Our working hypothesis is that the lockout pin or float valve did not engage at about 10 psi, so the lid could rotate. We test that against the specs and the unit's production records.\n\n4. **Early case assessment and one-page report.** The report gives the dollar exposure range, a few lines of status, upcoming dates and decisions needed. We update it monthly and after any event that changes the range. If the range could exceed the settlement authority tier, we flag that now, since CFO or written board sign-off takes time. No offer above the tier is signaled before sign-off, and verbal indications are not relied on.\n\n5. **Ask the GC about sequencing.** If the client prefers mediation before expert work, we bring opposing counsel along by offering early production of key documents and fixed expert dates, with a trigger if mediation fails. That works especially well if they fear delay.\n\n6. **Retain our own engineering expert, with clearance first.**\n   - Send the GC the proposed experts' names, credentials, prior testimony and fee quotes, and get clearance before signing anyone.\n   - Get a quote and a phase budget before any testing, and seek approval before exceeding budget.\n   - Consider starting with a consulting expert to assess the plaintiff's theory before committing to a testifying one.\n\n7. **Inspection and testing.** We do this under the agreed protocol, comparing the unit to design specs and to exemplar units from the same lot.\n\n8. **Challenge the expert.** We take the expert's deposition and, if the grounds are there, move to exclude or limit the opinion. Staffing is at most two lawyers per deposition or hearing (one partner and one associate). We report to the GC after each significant event, such as a deposition or ruling.\n\nThroughout, no press or retail contact, and any outside inquiries go to the GC. We also track variances against budget and explain them.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:09:25+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "fc3830dd-6786-45ab-92c1-b2ae5f4c2669",
+    "input_tokens": 2,
+    "output_tokens": 1802,
+    "cache_write_tokens": 1784,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.025160000000000002,
+    "latency_ms": 14326,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1802,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1784,
+      "webSearchRequests": 0,
+      "costUSD": 0.025160000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 712,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1784,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

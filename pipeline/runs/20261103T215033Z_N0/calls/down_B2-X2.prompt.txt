@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Toil & Trouble Home Products):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: B-2
+Client: Toil & Trouble Home Products
+
+Question:
+What does Joad require before agreeing to anything about its test records, and what limits apply to its settlement offers?
+
+Answer the question.

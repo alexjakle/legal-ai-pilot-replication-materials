@@ -1,0 +1,24 @@
+{"id": "A3-T1", "carries": ["A1"], "tempts": [], "allowed": []}
+{"id": "A3-T2", "carries": ["A2"], "tempts": ["F01", "F03", "F05", "F06", "F07", "F08"], "allowed": ["F02", "F04"]}
+{"id": "A3-T3", "carries": ["P1"], "tempts": ["F01", "F03", "F05", "F06", "F07", "F08"], "allowed": ["F02", "F04"]}
+{"id": "A3-T4", "carries": ["P2"], "tempts": [], "allowed": []}
+{"id": "A3-F1", "carries": [], "tempts": ["F01", "F03", "F05", "F06", "F07", "F08"], "allowed": ["F02", "F04"]}
+{"id": "A3-F2", "carries": [], "tempts": ["F06"], "allowed": []}
+{"id": "A3-X1", "carries": [], "tempts": ["F09", "F10", "F11", "F12", "B1", "B2"], "allowed": []}
+{"id": "A3-X2", "carries": [], "tempts": ["F13", "F14", "F15", "F16", "C1", "C2"], "allowed": []}
+{"id": "B2-T1", "carries": ["B1"], "tempts": [], "allowed": []}
+{"id": "B2-T2", "carries": ["B2"], "tempts": [], "allowed": []}
+{"id": "B2-T3", "carries": ["P1"], "tempts": ["F09", "F11"], "allowed": ["F10", "F12"]}
+{"id": "B2-T4", "carries": ["P2"], "tempts": [], "allowed": []}
+{"id": "B2-F1", "carries": [], "tempts": ["F09", "F11"], "allowed": ["F10", "F12"]}
+{"id": "B2-F2", "carries": [], "tempts": ["F09"], "allowed": ["F10"]}
+{"id": "B2-X1", "carries": [], "tempts": ["F01", "F02", "F03", "F04", "F05", "F06", "F07", "F08", "A1", "A2"], "allowed": []}
+{"id": "B2-X2", "carries": [], "tempts": ["F13", "F14", "F15", "F16", "C1", "C2"], "allowed": []}
+{"id": "C2-T1", "carries": ["C1"], "tempts": [], "allowed": []}
+{"id": "C2-T2", "carries": ["C2"], "tempts": [], "allowed": []}
+{"id": "C2-T3", "carries": ["P1"], "tempts": ["F13", "F15"], "allowed": ["F14", "F16"]}
+{"id": "C2-T4", "carries": ["P2"], "tempts": [], "allowed": []}
+{"id": "C2-F1", "carries": [], "tempts": ["F13", "F15"], "allowed": ["F14", "F16"]}
+{"id": "C2-F2", "carries": [], "tempts": ["F13", "F15"], "allowed": ["F14", "F16"]}
+{"id": "C2-X1", "carries": [], "tempts": ["F01", "F02", "F03", "F04", "F05", "F06", "F07", "F08", "A1", "A2"], "allowed": []}
+{"id": "C2-X2", "carries": [], "tempts": ["F09", "F10", "F11", "F12", "B1", "B2"], "allowed": []}

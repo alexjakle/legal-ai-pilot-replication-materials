@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "920104a1bc18901e",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7405,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7405,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.117108,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2893,
+      "provider": "firstParty",
+      "thinkingTokens": 1571,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "7bc0af9d7613739f0509f4aabb2b832f423634d4bb87ae2da93428e85b526f56",
+  "session_id": "3b1aac05-52fd-48b0-aaa0-fe4c52472b16",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"pattern\",\"quote\":\"Their draft will go to the client's regulatory affairs group for review before service.\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"pattern\",\"quote\":\"Their draft will go to the client's regulatory affairs group for review before service.\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Filings should not characterize failure rates beyond what the opinion requires, because Telltale is in a regulatory inspection on its next-generation lead.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Do not retain or have substantive contact with any testifying expert until the client has weighed in.\",\"apparent_reach\":\"client\",\"note\":\"Client practice requiring its input before any testifying expert is retained or substantively contacted.\"},{\"output_quote\":\"Flag any variance over 10% with an explanation.\",\"apparent_reach\":\"client\",\"note\":\"Specific client billing and budget instruction with a variance threshold.\"},{\"output_quote\":\"The client's ten-business-day review is a fixed block\",\"apparent_reach\":\"client\",\"note\":\"Specific duration for the client's review of expert drafts, which is not stated in any reference row.\"},{\"output_quote\":\"for Odalys Fennimore's regulatory affairs group. The group never communicates with the experts directly.\",\"apparent_reach\":\"client\",\"note\":\"Names a client regulatory affairs contact and states a communication restriction between that group and the experts.\"},{\"output_quote\":\"The client requires **five business days' notice before filing any motion**\",\"apparent_reach\":\"client\",\"note\":\"Specific client instruction on advance notice before motions are filed.\"},{\"output_quote\":\"the CFO's sign-off above $500,000 and the $750,000 retention\",\"apparent_reach\":\"matter\",\"note\":\"Client authority threshold and matter-specific retention figure. The CFO threshold is a listed R29 lookalike and is not a hit for that row.\"},{\"output_quote\":\"Press, regulator, and customer inquiries go to the client.\",\"apparent_reach\":\"client\",\"note\":\"Client instruction on routing outside inquiries.\"},{\"output_quote\":\"no more than two timekeepers per deposition.\",\"apparent_reach\":\"client\",\"note\":\"Specific client staffing limit for depositions.\"}]}",
+  "timestamp": "2026-11-04T08:20:39+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7405,
+    "call_id": "920104a1bc18901e",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 24100,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2893,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:20:39+00:00",
+    "total_cost_usd": 0.117108
+  }
+}

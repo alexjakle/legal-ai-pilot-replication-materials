@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T2",
+  "prompt_hash": "979418f590d04dbadb26dd5b82d579566314504ee1307d1a846770e0efae2b47",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T21:55:09+00:00",
+  "session_id_in": null,
+  "session_id": "f3a1bb54-8a12-43e4-a0d1-cfc7f83b6327",
+  "text": "# Before any settlement figure is conveyed: Joad Axle Works (C-2)\n\n**Caveat:** The client store and firm store are empty. I have no policy, no reservation-of-rights letter, no engagement terms, and no client instructions for this matter. What follows is the general framework, and the specifics need to be confirmed against the documents and the governing jurisdiction's rules.\n\n## 1. What Joad needs before a number goes out\n\n1. **Informed client authority.** Whether and for how much to settle is the client's decision (ABA Model Rule 1.2(a)). Even if the insurer is paying, Joad is our client (and possibly the insurer too, depending on jurisdiction). We should not convey a figure, even as an opening or \"exploratory\" number, without express authority from Joad.\n2. **Advice sufficient for informed consent (Rule 1.4).** Joad needs:\n   - A liability and damages evaluation, with a realistic verdict range and probabilities.\n   - Its exposure above the insurer's authority and above policy limits, including excess verdict risk and any uncovered components such as punitive damages.\n   - The non-monetary consequences of settling: confidentiality, non-admission, effects on other pending or future axle claims, and any recall or regulatory reporting.\n3. **Coverage clarity.**\n   - The policy limits, the retention or deductible, and whether defense costs erode the limits.\n   - Whether the insurer is defending under a reservation of rights.\n   - The consent-to-settle and cooperation clauses.\n   - Whether any excess or umbrella carrier needs notice.\n   - Whether Joad would have to contribute anything, and how any gap between the demand and the insurer's authority would be handled.\n4. **A written understanding of the insurer's authority.** \"Up to its authority\" is vague. We need the actual dollar authority, who holds it, and whether it is conditioned on anything such as release terms or an allocation among defendants.\n5. **Settlement terms beyond the number.** These include release scope (all claims, all Joad affiliates and suppliers), indemnity and lien handling (medical liens, Medicare/Medicaid), a no-admission clause, confidentiality, and contribution or indemnity rights against other parties such as component suppliers.\n\n## 2. Who approves what\n\n| Decision | Approver |\n|---|---|\n| Whether to settle, and the maximum Joad will accept or pay | **Joad**, through an authorized officer or its board if required by its governance |\n| Payment of the insurer's share, and authority within the limits | **The insurer**, per its authority levels (possibly with excess carrier consent) |\n| Any amount Joad itself would fund (deductible, retention, uncovered portion) | **Joad** |\n| Consent to settle under the policy | **Joad and/or the insurer**, depending on the policy's consent clause (a \"hammer clause\" may shift cost if Joad refuses a recommended settlement) |\n| Conveying a number to plaintiff's counsel | **Us**, but only after Joad's written authority and confirmation of the insurer's authority |\n| Release, confidentiality, and indemnity terms | **Joad** (the insurer typically also must agree) |\n\n## 3. Ethical issues to manage\n\n- **Tripartite relationship and conflicts (Rules 1.7, 1.8(f), 5.4(c)).** The insurer may pay and communicate with us, but we must not let it direct our judgment at Joad's expense. If coverage is disputed or the exposure exceeds the limits, Joad's and the insurer's interests may diverge, and we may need to advise Joad to consider independent counsel.\n- **Excess exposure.** If plaintiff's demand is within limits and the insurer refuses it, we should put Joad on written notice of its excess risk and its rights against the insurer.\n- **Confidentiality.** What Joad tells us about its authority or its own contribution should not go to the insurer if doing so could harm Joad on coverage.\n\n## Next steps\n\n1. Pull the policy and any reservation-of-rights letter.\n2. Get the insurer's authority in writing.\n3. Prepare an exposure analysis for Joad.\n4. Obtain Joad's written authority, including any limits on what it will contribute.\n5. Only then communicate with plaintiff's counsel. Until then, we can say we are evaluating the demand and will respond, without conveying a figure.",
+  "usage": {
+    "run_id": "20261103T215033Z_N0",
+    "timestamp": "2026-11-03T21:55:09+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "f3a1bb54-8a12-43e4-a0d1-cfc7f83b6327",
+    "input_tokens": 2,
+    "output_tokens": 1850,
+    "cache_write_tokens": 771,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.021588000000000003,
+    "latency_ms": 16766,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1850,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 771,
+      "webSearchRequests": 0,
+      "costUSD": 0.021588000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 404,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 771,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

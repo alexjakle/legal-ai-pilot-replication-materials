@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T2",
+  "prompt_hash": "fa7f276dde72607d80537c915f3701a4daa2c1bcd7aace1e5480628351f96c43",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:20:54+00:00",
+  "session_id_in": null,
+  "session_id": "14fa3462-a29d-469d-aae4-dfaec2682006",
+  "text": "**Short answer:** Nothing goes to plaintiff's counsel, not even a signal, until the right approvals are in hand. Which approval applies depends on whether the figure falls inside or above the insurer's pre-approved tier.\n\n**1. Before any figure is conveyed (all cases)**\n- **Firm assessment to the client.** The firm has no settlement authority of its own. After assessing the claim, we send Joad an assessment and a recommended range.\n- **Route everything through General Counsel Evander Thorsby.** All case communications go through him.\n- **No signals.** Joad's instruction bars any offer above the approved authority from being made or communicated, even as a signal of willingness to pay, until written board sign-off is in hand. Under the firm's standard practice, even offers within authority wait for the client's authority. Verbal indications from directors, officers, or the insurer are not enough.\n\n**2. Figure within the insurer's pre-approved tier**\n- **Thorsby must be consulted before we convey it.** The insurer will want to be involved, so we coordinate with him and the insurer rather than going to plaintiff unilaterally.\n- **Insurer involvement.** The insurer has said it will fund up to its authority, so the figure has to fit within that pre-approved tier. Copy claims handler Perpetua Wallace, since this bears on coverage and exposure.\n- **Aggregate limit.** Joad is watching its policy's aggregate limit because of several open claims. Settlement spending affects that limit, so Thorsby should see the effect on it before we proceed.\n\n**3. Figure above the insurer's tier**\n- **Written board of directors sign-off** is required. Verbal indications are not sufficient.\n- **Lead time.** Joad needs about three weeks to prepare a board consent, so we should flag this to Thorsby now. If plaintiff is pressing for a number that may exceed the tier, we should start the process early rather than wait for the demand to be confirmed as above the tier.\n- Until the written consent exists, we cannot convey the higher figure or hint that we might.\n\n**4. Handling with plaintiff's counsel now**\nSince no approved number exists yet, we can acknowledge the request and say we are taking it up with the client, without signaling any figure or range. Also confirm any dollar figure is not communicated to plaintiff by anyone at Joad or the insurer on their own.\n\n**5. Related requirements to keep in view**\n- **Carrier reservation of rights.** If the carrier reserves its rights, Joad wants to hear the same day. Confine coverage positions to Wallace and Thorsby.\n- **Reporting.** Include the settlement assessment in the next six-week written report, and tell Thorsby promptly of any significant development.\n- **No public statements.** Refer any media, regulator, or customer inquiry to Thorsby.\n\n**Who approves what, in summary**\n\n| Step | Who |\n|---|---|\n| Assessment and recommended range | Firm, sent to Thorsby |\n| Offer within insurer's tier | Thorsby (consulted first), with the insurer involved |\n| Offer above insurer's tier | Written board of directors sign-off |\n| Coverage and reservation-of-rights matters | Wallace and Thorsby |\n\n**Next steps:** send Thorsby the assessment and recommended range, ask where the insurer's pre-approved tier sits relative to that range, and, if the range could exceed it, request that he start the board consent immediately given the three-week lead time.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:20:54+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "14fa3462-a29d-469d-aae4-dfaec2682006",
+    "input_tokens": 2,
+    "output_tokens": 1142,
+    "cache_write_tokens": 2155,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.020044,
+    "latency_ms": 9351,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1142,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2155,
+      "webSearchRequests": 0,
+      "costUSD": 0.020044,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

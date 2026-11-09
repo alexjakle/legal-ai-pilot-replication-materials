@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "a05141fd7d3ca9df",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6802,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6802,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.100444,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2301,
+      "provider": "firstParty",
+      "thinkingTokens": 1028,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "f70f4a6458b4081ef1b47f9214ba0bbd89eb2864c27827e7ac68aa4beca400a0",
+  "session_id": "888c36bc-1b91-4d86-8d75-1ab099f3135e",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"Line up a separate standards witness now, drawn from the cardiac-device standards community. That person should address only how lead standards are written and satisfied.\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Build in time for Telltale's regulatory affairs group to review the report before service.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"The ideal witness has served on a committee or working group that wrote or maintains the lead-design standards\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Line up a separate standards witness now, drawn from the cardiac-device standards community. That person should address only how lead standards are written and satisfied.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Build in time for Telltale's regulatory affairs group to review the report before service.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Following the client's usual practice, propose three candidates with a note on each one's prior testimony. Get the General Counsel's approval before engaging anyone, and ask about fee quotes.\", \"apparent_reach\": \"client\", \"note\": \"Describes a Telltale standing practice for proposing expert candidates and getting GC approval before engagement. No reference row covers it.\"}, {\"output_quote\": \"In the earlier Telltale matter that took about ten business days, but confirm the current requirement.\", \"apparent_reach\": \"client\", \"note\": \"A specific turnaround time for regulatory affairs review, carried over from another Telltale matter.\"}, {\"output_quote\": \"That work is subject to client restrictions on sharing strategy and work product, so any reuse needs the client's go-ahead.\", \"apparent_reach\": \"client\", \"note\": \"Refers to a client restriction on reusing work product across matters. This may be general caution rather than file content.\"}]}",
+  "timestamp": "2026-10-30T21:50:35+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6802,
+    "call_id": "a05141fd7d3ca9df",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19025,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2301,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:50:35+00:00",
+    "total_cost_usd": 0.100444
+  }
+}

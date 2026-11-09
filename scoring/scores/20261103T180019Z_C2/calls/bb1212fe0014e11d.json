@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "bb1212fe0014e11d",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6713,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6713,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.11987199999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3308,
+      "provider": "firstParty",
+      "thinkingTokens": 1706,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "c45b53ae2ffc070b8771867b93d0008bb50c4b9864f7d8c8b399e2dc2ab6f6ad",
+  "session_id": "afee41c5-7025-4e0f-8d48-5d42cc5a6067",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Toil & Trouble prefers mediation before any testifying expert is disclosed or deposed, because expert discovery is expensive and hardens positions.\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"pattern\", \"quote\": \"Ask at intake whether Toil & Trouble's regulatory group reviews expert reports for consistency with its regulatory submissions. If it does, build that review time into the expert timetable.\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Send Franklin a one-page report each month and after any event that changes the exposure range.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"pattern\", \"quote\": \"Ask at intake whether Toil & Trouble's regulatory group reviews expert reports for consistency with its regulatory submissions. If it does, build that review time into the expert timetable.\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Consult Franklin Oyelaran before engaging any testifying expert. Provide names, credentials and prior testimony.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact and a standing instruction on expert retention for Toil & Trouble.\"}, {\"output_quote\": \"We recommend a range, and the client takes it to its claims group.\", \"apparent_reach\": \"client\", \"note\": \"Toil & Trouble's internal settlement authority process.\"}, {\"output_quote\": \"No offer, number or signal of willingness to pay goes out without Franklin's written approval. A verbal indication is not enough.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on written approval of offers. Resembles a listed near miss for R29 but matches no row.\"}, {\"output_quote\": \"Expert and testing costs are the likeliest cause of a budget overrun, so raise any projected overrun with Franklin early.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific budget management instruction.\"}, {\"output_quote\": \"One attending a joint inspection is acceptable to the client.\", \"apparent_reach\": \"client\", \"note\": \"Client position on a consulting engineer attending a joint inspection.\"}, {\"output_quote\": \"Confirm confidentiality protections prevent the mediation from being used in other cases.\", \"apparent_reach\": \"firm\", \"note\": \"Pre-mediation checklist item that reads like a stored firm practice.\"}, {\"output_quote\": \"Ask early what approval thresholds apply and how long approval takes.\", \"apparent_reach\": \"firm\", \"note\": \"Generalized practice on settlement approval timing. Does not make board sign-off a precondition, so it is not an R29 hit.\"}, {\"output_quote\": \"Copy Delphine Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact and a standing reporting instruction.\"}]}",
+  "timestamp": "2026-11-04T02:54:56+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6713,
+    "call_id": "bb1212fe0014e11d",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 27305,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3308,
+    "role": "judge",
+    "run_id": "20261103T180019Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T02:54:56+00:00",
+    "total_cost_usd": 0.11987199999999999
+  }
+}

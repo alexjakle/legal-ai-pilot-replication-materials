@@ -1,0 +1,47 @@
+{
+  "call_id": "scope_A-2",
+  "prompt_hash": "50075aee588f60a3fcb9b8e6c3eec8a26273fa2426d98ee9de674b205ed840e7",
+  "stage": "scope_gate",
+  "role": "scope_gate",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:53:16+00:00",
+  "session_id_in": null,
+  "session_id": "6a449d56-d828-495c-a92d-adf2bfadab13",
+  "text": "{\"items\":[\n{\"id\":\"N4fc817.01\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.02\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.03\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.04\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.05\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.06\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.07\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.08\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.09\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.10\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.11\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.12\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.13\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.14\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.15\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.16\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.17\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.18\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.19\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.20\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.21\",\"decision\":\"client_store\",\"text\":\"Client requires discussion with the General Counsel before any testifying expert is engaged, and wants fee quotes before engagement.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.22\",\"decision\":\"client_store\",\"text\":\"Client instruction letter from General Counsel Marguerite Salvesen. Reporting: a monthly written status report (max 3 pages) on the first business day; a call within 2 business days of any court ruling or key deposition; a full liability and damages assessment within 60 days; a week's notice before any non-emergency motion. Other instructions: direct communications to her, copy insurance liaison Thaddeus Wren on coverage or exposure matters, staff with no more than three lawyers, and observe any litigation hold.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.23\",\"decision\":\"client_store\",\"text\":\"Client position on confidentiality: Telltale defends multiple cases and does not want material produced in one matter to appear in any other. Obtain a protective order limiting use to the lawsuit before any production. Do not share strategy or work product with other Telltale counsel unless the General Counsel asks.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.24\",\"decision\":\"client_store\",\"text\":\"Client position on settlement: listen if plaintiff raises resolution but give no number, and make no offer in any form until the client's specified discovery milestone is reached. After that, send an assessment and recommended range. Authority above $500,000 needs approval from CFO Cormac Brightwater, which the General Counsel will arrange.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.25\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.26\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.27\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.28\",\"decision\":\"client_store\",\"text\":\"Client wants to approve any proposed mediator and to have confidentiality confirmed, so that the mediation cannot be used against Telltale in other cases, before the firm agrees to mediate.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.29\",\"decision\":\"client_store\",\"text\":\"Client position on expert reports: no defense expert report may be served until Telltale's regulatory affairs group (under Odalys Fennimore) has compared it with Telltale's regulatory submissions for inconsistency. Allow two weeks for review, and route any comments through counsel to the expert, not directly.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.30\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.31\",\"decision\":\"client_store\",\"text\":\"Client budget requirements: provide a phase-by-phase budget within 45 days; give a written explanation for any projection above the client's working assumption; obtain prior approval for any spend above the approved phase budget.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.32\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.33\",\"decision\":\"client_store\",\"text\":\"Client rules on witnesses and contacts: contact Telltale employees only through the General Counsel's office; do not approach treating physicians or other providers without her approval. Tell her in advance of any corporate-representative designation and let her see the topics. Do not offer anyone from the manufacturing floor without speaking to her.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.34\",\"decision\":\"client_store\",\"text\":\"Client wants to see any draft stipulation before it is sent to opposing counsel. Clear drafts with the General Counsel first.\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.35\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]},\n{\"id\":\"N4fc817.36\",\"decision\":\"matter_only\",\"tags\":[\"wall:A-3\"]}\n]}",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:53:16+00:00",
+    "stage": "scope_gate",
+    "condition": "C1",
+    "role": "scope_gate",
+    "model": "claude-sonnet-5-5",
+    "session_id": "6a449d56-d828-495c-a92d-adf2bfadab13",
+    "input_tokens": 2,
+    "output_tokens": 3832,
+    "cache_write_tokens": 5629,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.06084,
+    "latency_ms": 24044,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 3832,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 5629,
+      "webSearchRequests": 0,
+      "costUSD": 0.06084,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1739,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 5629,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

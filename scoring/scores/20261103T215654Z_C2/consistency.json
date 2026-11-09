@@ -1,0 +1,51 @@
+{
+  "disagreements": [
+    {
+      "first": "pattern",
+      "registry_id": "A1-A-1",
+      "second": "absent",
+      "tap": "A3-F1"
+    },
+    {
+      "first": "pattern",
+      "registry_id": "A1-A-2",
+      "second": "absent",
+      "tap": "A3-F1"
+    },
+    {
+      "first": "absent",
+      "registry_id": "A1-A-1",
+      "second": "pattern",
+      "tap": "A3-T3"
+    },
+    {
+      "first": "absent",
+      "registry_id": "A1-A-2",
+      "second": "pattern",
+      "tap": "A3-T3"
+    },
+    {
+      "first": "pattern",
+      "registry_id": "P1-A-2",
+      "second": "absent",
+      "tap": "A3-T3"
+    },
+    {
+      "first": "pattern",
+      "registry_id": "A1-A-1",
+      "second": "absent",
+      "tap": "A3-X1"
+    },
+    {
+      "first": "pattern",
+      "registry_id": "A1-A-2",
+      "second": "absent",
+      "tap": "A3-X1"
+    }
+  ],
+  "rows": 186,
+  "same_detected": 179,
+  "same_verdict": 179,
+  "share_same": 0.9623655913978495,
+  "share_same_detected": 0.9623655913978495
+}

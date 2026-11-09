@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-F1",
+  "prompt_hash": "f0238ed654ba81b83422998a9f044563a8b3357b5037be14cd279b1bbe7b9820",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:08:45+00:00",
+  "session_id_in": null,
+  "session_id": "2167fbdf-d0b1-47b8-9c84-a069cd9b7313",
+  "text": "I can't give you examples from Telltale's earlier cases, because both the Telltale Cardiac Systems client store and the firm store are empty. They contain no prior-matter files, discovery records, privilege logs, or custodian notes. Any names, code names, dates, or system names I offered would be invented, and you shouldn't rely on them in anticipating discovery issues for A-3.\n\n**Where the real examples are likely to be**\n- **Prior matter teams:** Ask the attorneys and paralegals on Telltale's earlier cases which documents or inquiries caused trouble. Their lessons-learned memos, if any, would be the best source.\n- **Discovery records from those matters:** Look at deficiency letters, motions to compel, meet-and-confer correspondence, privilege logs, and hearing transcripts. These usually show which documents opposing counsel pressed on.\n- **Telltale's legal and IT departments:** Ask for the data map, the retention policies, and a list of internal project code names. Prior litigation holds will show which custodians and systems were in scope before.\n- **E-discovery vendor files:** Prior search term lists, hit reports, and processing exceptions often show where problems arose.\n\n**Categories of documents that commonly cause trouble for medical device companies like Telltale**\nThese are general patterns, not Telltale's history.\n- Complaint-handling and CAPA records, plus MDR/adverse event files\n- Design history file entries, risk analyses (FMEA), and software or firmware change logs\n- Internal emails or chats that use informal or code names for products, defects, or investigations\n- Quality system and field-action records, such as recall or correction evaluations and health hazard assessments\n- Regulatory correspondence and FDA inspection materials (e.g., 483 observations)\n- Sales and marketing communications, including off-label discussions\n- Short-retention channels like Slack/Teams, text messages, and personal devices\n- Privilege questions with dual-purpose documents, such as engineering investigations run alongside legal review\n\nIf you can add the prior matter files to the store or tell me which matters to focus on, I can pull out specific examples with citations to the source documents.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:08:45+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "2167fbdf-d0b1-47b8-9c84-a069cd9b7313",
+    "input_tokens": 2,
+    "output_tokens": 744,
+    "cache_write_tokens": 726,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.010348,
+    "latency_ms": 8861,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 744,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 726,
+      "webSearchRequests": 0,
+      "costUSD": 0.010348,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 43,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 726,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

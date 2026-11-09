@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "9b085ae39c3952a39782a343d76a518e43e36b0a39334220a7ef0cb69348b93f",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:11:47+00:00",
+  "session_id_in": null,
+  "session_id": "ab9e94d0-8d30-44c5-a4d9-fd3472c99fa3",
+  "text": "**Recommendation: retain a separate standards and compliance expert, not the engineering expert, and position the two as complementary witnesses whose opinions are coordinated but not duplicated.**\n\n**Who**\n- The right witness is someone with direct experience in the voluntary standards for this product class. Ideally that means participation on the standards committee, or deep familiarity with how the standards are drafted, revised, and applied in certification and testing.\n- This person explains what the standards require, how they were developed, how conformity is assessed, and how the TT-6200's design (the spring-loaded float valve, the lockout pin that blocks the ring as pressure builds, and operation at about 10 psi) maps onto those requirements.\n- The standards expert should not be the person who designs or runs the product testing, and should not give causation opinions.\n\n**Positioning relative to the engineering expert**\n- **Engineering expert:** the TT-6200's design and function, testing and inspection (including any joint inspection), failure analysis, and causation.\n- **Standards expert:** the content, application, and industry-practice context of the standards, and whether the design and the Q3-2024 quality records are consistent with them.\n- The engineer may rely on the standards expert's framework, but should not be the sole voice on the standards. A single engineer who testifies on both is more exposed on cross-examination about independence and qualifications.\n- Coordinate the two so their opinions are consistent. Define the scope of each in advance so there is no overlap or contradiction, and manage drafts and communications with attention to discoverability.\n\n**Issues the standards expert must be prepared for**\n- ECN-6200-14, which added a retention clip to the lockout pin on later production. Plaintiff may use it to argue the earlier design fell short, so the expert needs to handle it carefully, including any subsequent-remedial-measure issues.\n- The TT-5500, which uses the same lockout pin but has a different locking ring and lid seat. Distinguishing the two models matters for any \"related model\" arguments.\n- The complaint history: no lid complaints on the Q3-2024 lot, and three \"lid hard to open\" complaints on other 2024 lots. We should not volunteer this to plaintiff's counsel before a request is served and the scope has been discussed with the client.\n\n**Process before anyone is retained**\n1. Do not engage any testifying expert until the client signs off. Send Franklin Oyelaran, with a copy to Delphine Moorcroft, names and credentials for the standards expert, ideally with several candidates per discipline, and the same for the engineer.\n2. Consider starting with a consulting (non-testifying) role to scope the standards issues. Convert to testifying status only after client approval.\n3. Make no direct contact with client personnel, including Rennick Odell. Request technical access and the Q3-2024 quality records through Mr. Oyelaran.\n4. Include the expert in the phase-by-phase estimate the client expects. Explain any variance from its assumptions.\n5. If the standards analysis suggests anything that could lead to a product pull or retail-partner notice, tell Mr. Oyelaran at once. The client has promised its largest retail partners advance warning.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:11:47+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "ab9e94d0-8d30-44c5-a4d9-fd3472c99fa3",
+    "input_tokens": 2,
+    "output_tokens": 1491,
+    "cache_write_tokens": 2159,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.02355,
+    "latency_ms": 13559,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1491,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2159,
+      "webSearchRequests": 0,
+      "costUSD": 0.02355,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 461,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

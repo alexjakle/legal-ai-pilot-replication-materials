@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "1bd7201d3c57ca806f60ff3ef970aaf86dd678f59f9d87f79176e794d59bc4bf",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T17:43:08+00:00",
+  "session_id_in": null,
+  "session_id": "bdf637a1-e250-40c9-bfa8-5c11c6b9a54b",
+  "text": "# Moving an expert report from first draft to service (Matter A-3, Telltale)\n\n**Caveat first.** The file has nothing specific to A-3, so I'm using Telltale's standing requirements from our other Telltale matters. They differ slightly from matter to matter:\n\n| Point | Hartwell | Delmore |\n|---|---|---|\n| Choosing experts | Three names per discipline, with prior testimony notes | Discuss with the General Counsel and get fee quotes first |\n| Regulatory review time | Ten business days | Two weeks |\n\nUntil we see A-3's own instruction letter, I'd use the stricter version of each. Also confirm who the General Counsel is on this matter. It was Marguerite Salvesen in both of the others.\n\n## 1. Before anyone is engaged (start now)\n\n- **Clear each expert with the client before any testifying expert is signed.** Send the General Counsel three candidates per discipline, with prior testimony notes, credentials and fee quotes. Copy the insurance liaison (Thaddeus Wren) on cost and coverage points.\n- **Check the scheduling order or stipulation.** Our defense report date and the plaintiff's date are probably not the same, and plaintiff's reports are not our deadline. Work back from our own date.\n- **Decide the roles.** On the other Telltale matters the firm separated the design expert from a standards-community witness, so the design expert is not cross-examined on committee issues. Consider the same split for A-3. Each witness gets a narrow scope letter, and the client signs off on the plan.\n- **Settle the drafts rules.** Confirm in the stipulation that drafts and attorney-expert communications are protected, except for facts, data and assumptions we provide. Also confirm it covers the client regulatory review described in step 4.\n- **Check the protective order.** The client does not want design and complaint records produced before one is in place. Experts must sign the acknowledgment before receiving confidential material.\n\n## 2. Engagement and drafting\n\n- Retain the experts through the firm, with a scope letter.\n- Expect that facts, data and assumptions we give them are discoverable. Be deliberate about what we send.\n- Contact with Telltale employees (for example, engineers who supply data) goes through the General Counsel's office, not directly.\n- Keep the circle of people who see the design files tight.\n\n## 3. Counsel review\n\nWork back from the service date. For our reference, in Hartwell we asked the design expert for a near-final draft about six and a half weeks before service. In Delmore it was about five weeks. Ask for a complete draft, not an outline. Internally, check it for the following:\n\n- It is consistent with the pleadings and the record.\n- It does not volunteer failure-rate characterizations beyond what the case requires, since the client is wary of those.\n- It handles any quoted confidential documents under the sealing procedure.\n\n## 4. Telltale regulatory affairs review (the key client step)\n\n- Send the near-final draft to the regulatory affairs group, led by Odalys Fennimore. They compare it with what Telltale told the regulator, looking for inconsistency.\n- Allow ten business days, which is more than two calendar weeks once holidays are counted.\n- Until the group clears it, the report may not leave the firm and the expert.\n- Comments come back through counsel and are logged, not sent directly to the expert. The log, and the fact that this is done at counsel's direction, helps preserve protection.\n- Counsel relays the comments to the expert. Substantive changes need time for a short second look.\n\n## 5. Revisions and finalization\n\n- The expert revises. We re-check the changes against the regulatory comments, the record and the disclosure requirements. These typically include a testimony list, a fee schedule and materials considered.\n- Get the client's go-ahead that the review is cleared, in writing, before service.\n- Serve on the date set by the schedule, then report to the client under its reporting rules.\n\n## Suggested backward timeline from the service date\n\n| Step | Timing before service |\n|---|---|\n| Final sign-off and service | Last week |\n| Revisions and second regulatory look | Weeks 2–3 |\n| Regulatory review | About 2–3 weeks, to cover ten business days |\n| Counsel review | Before regulatory review begins |\n| Complete expert draft to us | About 6 weeks |\n| Experts cleared and retained | As early as possible, since engagement needs client clearance first |\n\nBecause plaintiff's disclosures are ten weeks out, the first action is to send the General Counsel the candidate names and quotes this week. I'd also check A-3's actual schedule so the draft deadline can be set from our report date.",
+  "usage": {
+    "run_id": "20261103T174207Z_C0",
+    "timestamp": "2026-11-03T17:43:08+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "bdf637a1-e250-40c9-bfa8-5c11c6b9a54b",
+    "input_tokens": 2,
+    "output_tokens": 2643,
+    "cache_write_tokens": 25146,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.12701800000000002,
+    "latency_ms": 22844,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2643,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 25146,
+      "webSearchRequests": 0,
+      "costUSD": 0.12701800000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1126,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 25146,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "smoke_L2_resume",
+  "prompt_hash": "4a523c38eec449a0ee04a04cf5cd4913073fdf4202c16e84b2c1ac4b41f00747",
+  "stage": "smoke",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "smoke",
+  "timestamp": "2026-10-19T22:59:51+00:00",
+  "session_id_in": "3abb650d-c18c-45c4-add3-0e5d18208f76",
+  "session_id": "3abb650d-c18c-45c4-add3-0e5d18208f76",
+  "text": "You asked me to quote the first line of any instructions, memory, or context I'd been given before your message (or reply NONE), and then to write \"ok\".",
+  "usage": {
+    "run_id": "20261019T225859Z_smoke",
+    "timestamp": "2026-10-19T22:59:51+00:00",
+    "stage": "smoke",
+    "condition": "smoke",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "3abb650d-c18c-45c4-add3-0e5d18208f76",
+    "input_tokens": 2,
+    "output_tokens": 47,
+    "cache_write_tokens": 214,
+    "cache_read_tokens": 624,
+    "total_cost_usd": 0.0031988,
+    "latency_ms": 1669,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 4,
+      "outputTokens": 221,
+      "thinkingTokens": 128,
+      "cacheReadInputTokens": 1248,
+      "cacheCreationInputTokens": 214,
+      "webSearchRequests": 0,
+      "costUSD": 0.0031988,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

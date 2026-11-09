@@ -1,0 +1,327 @@
+You are a legal assistant at a law firm. Below are the four documents for one matter. Write the matter notes: a numbered list of short items that a lawyer at the firm could consult later without opening the documents.
+
+Each item has a type:
+- fact: something established in the documents
+- position: a stance taken by a party or by the firm
+- lesson: something the team learned or would do differently
+
+Write each item so that it makes sense on its own. Do not add anything that is not in the documents. Use as many items as the documents warrant.
+
+Matter: B-1
+Client: Toil & Trouble Home Products
+
+=== 01-answer.md ===
+**DRAFT ANSWER — CIRCULATED FOR PARTNER COMMENT**
+
+IN THE DISTRICT COURT OF PELHAM RIDGE COUNTY
+
+NKECHI OKAFOR, Plaintiff,
+
+v.
+
+TOIL & TROUBLE HOME PRODUCTS, Defendant.
+
+Cause No. D-2026-1184
+
+# DEFENDANT'S ORIGINAL ANSWER AND AFFIRMATIVE DEFENSES
+
+Defendant Toil & Trouble Home Products ("Toil & Trouble") files this Answer to Plaintiff's Original Petition, filed February 17, 2026, and states:
+
+## I. General Denial
+
+Toil & Trouble generally denies each and every allegation in the Petition, and any amendment or supplement, and demands strict proof by a preponderance of the evidence. To the extent that the applicable rules of procedure require specific responses, Toil & Trouble provides them below without waiving its general denial.
+
+## II. Specific Responses
+
+1. Toil & Trouble admits it designs and sells countertop electric pressure cookers, including the PressureMate TT-6200, a six-quart model. It denies that it designed, manufactured or marketed a defective product.
+
+2. Toil & Trouble lacks sufficient information to admit or deny where Plaintiff lives or whether she purchased the unit from Marlowe Home & Hardware in October 2024 for $119.99, and therefore denies those allegations. It admits that the TT-6200 is generally sold through retail outlets.
+
+3. Toil & Trouble admits that the TT-6200 has a lid with a rotating locking ring and a float-valve lockout pin that is designed to prevent the lid from turning while the cooker is pressurized. It denies Plaintiff's description of those components as "easily defeated."
+
+4. Toil & Trouble denies that the unit in Plaintiff's possession was in the same condition as when it left Toil & Trouble's control. Toil & Trouble has not yet inspected the unit and demands that it be preserved in its present condition.
+
+5. Toil & Trouble lacks knowledge sufficient to admit or deny the allegations about what occurred in Plaintiff's kitchen on December 14, 2025, including whether the lid opened while the cooker was under pressure, what Plaintiff was cooking, or how she handled the unit. Those allegations are denied.
+
+6. Toil & Trouble lacks knowledge sufficient to admit or deny the nature or extent of Plaintiff's burn injuries, her medical treatment, her alleged expenses of $87,500, or her alleged lost income. Those allegations are denied.
+
+7. Toil & Trouble denies the allegations of the design defect count, including that a feasible alternative design, such as a secondary mechanical lockout, existed and would have prevented the incident at a reasonable cost.
+
+8. Toil & Trouble denies the allegations of the negligence count, including those alleging failure to test and failure to investigate prior complaints.
+
+9. Toil & Trouble denies that Plaintiff is entitled to damages of $650,000 or to exemplary damages.
+
+## III. Affirmative and Other Defenses
+
+Pleading in the alternative and without assuming any burden of proof that rests on Plaintiff, Toil & Trouble asserts:
+
+**A. Product alteration or modification.** If the unit was altered, damaged or repaired after it left Toil & Trouble's control, including by replacement of the gasket or removal of the lockout pin, those changes and not any original condition caused the incident.
+
+**B. Misuse and failure to follow warnings.** The user manual and the product itself warn users not to force the lid, not to open the cooker until the pressure indicator has dropped, and not to overfill beyond the two-thirds line. If Plaintiff did not follow these warnings, her claims are barred or reduced.
+
+**C. Comparative responsibility.** Plaintiff's own acts or omissions were a cause of her injuries. Toil & Trouble requests that the trier of fact assign percentages of responsibility to every person who contributed.
+
+**D. Responsible third parties.** Toil & Trouble reserves the right to designate any retailer, prior owner or repair provider as a responsible third party once discovery permits.
+
+**E. Compliance with standards.** The TT-6200 was designed, tested and labeled in compliance with applicable safety standards and with the safety listing it obtained from an independent laboratory before sale.
+
+**F. Open and obvious risk.** The risk of scalding from steam and hot contents is open and obvious and is inherent in the use of a pressure cooker.
+
+**G. Adequate warnings.** The warnings and instructions were adequate in content and placement.
+
+**H. No safer alternative design.** No safer alternative design was economically and technologically feasible when the unit was made that would have prevented the injuries without impairing the product's utility.
+
+**I. Lack of causation.** Nothing Toil & Trouble did or failed to do was a producing or proximate cause of the injuries alleged.
+
+**J. Failure to mitigate.** To the extent Plaintiff failed to follow medical advice or to take reasonable steps to limit her damages, recovery is reduced.
+
+**K. Limit on medical expenses.** Recovery of medical expenses, if any, is limited to amounts actually paid or incurred by or on behalf of Plaintiff.
+
+**L. Exemplary damages.** The Petition pleads no facts supporting a finding of conscious indifference. Any award would be subject to statutory caps and constitutional limits.
+
+**M. Credit and offset.** Toil & Trouble is entitled to a credit for any settlement with any other person.
+
+**N. Preservation.** Plaintiff must preserve the cooker, lid, gasket, float valve, packaging, receipt and the food and liquids in the pot. Failure to do so entitles Toil & Trouble to an adverse inference.
+
+## IV. Prayer
+
+Toil & Trouble asks that Plaintiff take nothing, that judgment be entered for Toil & Trouble, and that it recover costs and other relief to which it is entitled.
+
+Dated: March 31, 2026
+
+KENGE, CARBOY & VHOLES LLP
+Marcus Teller, Associate
+Josephine Armitage, Partner
+Counsel for Defendant Toil & Trouble Home Products
+
+=== 02-emails.md ===
+# Email Thread: Okafor v. Toil & Trouble Home Products — Discovery Scope, Mediation and Expert Disclosure
+
+---
+
+**From:** Leona Trevisan <ltrevisan@trevisanhale.example>
+**To:** Marcus Teller <mteller@kengecarboyvholes.example>
+**Date:** April 20, 2026, 8:32 AM
+**Subject:** Okafor — discovery proposal
+
+Marcus,
+
+Thanks for the answer. Here is where I would like to go on discovery.
+
+First, the unit. We have it secured at our consulting engineer's lab and will make it available for a joint, non-destructive inspection. Please send a protocol.
+
+Second, written discovery. I will be asking for the design and testing files for the TT-6200 lid system, all consumer complaints about lids opening under pressure, and production-line quality data for the lot that includes Ms. Okafor's unit, which is Q3-2024.
+
+Third, experts. My proposal is plaintiff's designations on June 26 and defense designations on August 7, with expert depositions in September.
+
+Leona
+
+---
+
+**From:** Marcus Teller
+**To:** Leona Trevisan
+**Date:** April 23, 2026, 2:14 PM
+**Subject:** RE: Okafor — discovery proposal
+
+Leona,
+
+Thanks. A joint, non-destructive inspection works. I will send a draft protocol by Friday, covering photographs, measurement of the locking ring and lockout pin, and a hold on any disassembly until both sides' engineers agree on steps.
+
+On written discovery, we will produce the TT-6200 lid design file and the test reports supporting the safety listing. For complaints, we will produce reports of lid-related incidents for the TT-6200 from launch in 2023 through December 14, 2025. We object to producing complaint data for other Toil & Trouble models, which use a different lid design. On the lot data, we can offer the line inspection records for the week of manufacture for Q3-2024 lot units, not the whole quarter.
+
+On expert timing, our client prefers to try mediation first. The way Toil & Trouble approaches cases of this size, a mediation attempt comes before the parties incur the cost of expert discovery. I propose that we agree to mediate by July 17, 2026, with an expert schedule that begins after the session. If the case does not resolve, plaintiff designates thirty days after mediation and defense thirty days after that.
+
+Marcus
+
+---
+
+**From:** Leona Trevisan
+**To:** Marcus Teller
+**Date:** April 27, 2026, 10:48 AM
+**Subject:** RE: Okafor — discovery proposal
+
+Marcus,
+
+The protocol sounds fine, and I will review it when it comes.
+
+On mediation, I am open to it. My concern is a stalled schedule. My client has already waited since December and I do not want a mediation that is an excuse to push discovery. I can accept mediation by July 17 if (1) Toil & Trouble produces the lid design file and the complaint reports before the session so we both mediate on real information, and (2) the expert dates are fixed now, with a trigger for a mediation failure, rather than left open.
+
+On the complaint scope, a different model that shares the TT-6200 lockout pin should be included. I understand that the TT-5500 uses the same pin.
+
+Leona
+
+---
+
+**From:** Marcus Teller
+**To:** Leona Trevisan
+**Date:** April 29, 2026, 4:05 PM
+**Subject:** RE: Okafor — discovery proposal
+
+Leona,
+
+Both conditions are fair. We will produce the lid design file and the complaint reports by June 5. On the TT-5500: it does use the same pin but a different locking ring and lid seat. I will agree to produce complaints for the TT-5500 only where the report describes the pin as the failing element. I do not think we need to litigate beyond that.
+
+On the schedule, here is a firm one. Mediation by July 17. If the case does not settle, plaintiff's designations on August 21, defense designations on October 2, expert depositions in November. We can put those dates in an agreed scheduling order now.
+
+We also would like each side to disclose consulting experts who inspect the unit, so neither side is surprised. Testifying experts only will be subject to deposition.
+
+Marcus
+
+---
+
+**From:** Leona Trevisan
+**To:** Marcus Teller
+**Date:** May 1, 2026, 9:15 AM
+**Subject:** RE: Okafor — discovery proposal
+
+Marcus,
+
+Agreed on June 5 and the TT-5500 limitation, and the August 21 and October 2 dates. I will not disclose consultants who do not testify, and neither will you. Anyone who touches the unit will be named in the protocol, though.
+
+I will draft the scheduling order and circulate it. Do you have a mediator in mind? I would suggest a retired trial judge, Harlan Whitcombe, who has handled product cases.
+
+Leona
+
+---
+
+**From:** Marcus Teller
+**To:** Leona Trevisan
+**Date:** May 1, 2026, 1:40 PM
+**Subject:** RE: Okafor — discovery proposal
+
+Leona,
+
+Fine on the inspection-only disclosure. Mr. Whitcombe is acceptable in principle; I need to check with my client and will let you know by Monday.
+
+Two housekeeping items for the scheduling order. First, interrogatories: I suggest a cap of 25 per side, including subparts, until the mediation is done. Second, depositions of Ms. Okafor and our product safety lead can be taken before mediation if each side wants them, but I would prefer to hold other fact depositions until afterward. Let me know if that works.
+
+Marcus
+
+=== 03-memo.md ===
+**PRIVILEGED AND CONFIDENTIAL — ATTORNEY-CLIENT COMMUNICATION AND WORK PRODUCT**
+
+# MEMORANDUM
+
+**To:** Josephine Armitage, Partner
+**From:** Marcus Teller, Associate
+**Date:** May 12, 2026
+**Re:** Okafor v. Toil & Trouble Home Products (Pelham Ridge County District Court, No. D-2026-1184) — Case Assessment
+
+## 1. Assessment in Brief
+
+Ms. Okafor, 38, suffered second- and third-degree scald burns to her left forearm and upper chest on December 14, 2025, when the lid of her PressureMate TT-6200 reportedly rotated open while the cooker was under pressure. She claims a design defect (the lid can be turned while the pot is pressurized) and negligence. Her medical charges are $87,500, she has had two skin graft procedures, and she is claiming scarring and about $38,000 in lost income from her work as a dental hygienist. Her demand is $650,000.
+
+I place the likely range of exposure at $140,000 to $320,000 on the current record, with a modest chance of a defense verdict. Adverse liability is not likely to be a landslide, but a scarred, sympathetic plaintiff and a consumer product with a pressure hazard is a hard combination in front of a jury. The unit has not been inspected, so this is a preliminary view.
+
+## 2. Key Facts
+
+The TT-6200 has a rotating bayonet lid and a spring-loaded float valve with a lockout pin that rises as pressure builds and blocks the ring from turning. Operating pressure is about 10 psi. Ms. Okafor bought the unit on October 11, 2024. She says she was cooking dried beans, that the pressure indicator was down, and that the lid turned with ordinary effort and released a jet of hot liquid. Our client's service records show a replacement gasket was sent to a household at her address in July 2025, which raises an alteration question. A retail employee has also told the client's investigator that the box for this unit had been returned once and resold as new, which, if true, could undercut her account that she bought it new. The Q3-2024 lot has no field complaints about the lid, but there were three complaints of "lid hard to open" on other lots in 2024. Engineering change notice ECN-6200-14 added a retention clip to the lockout pin on later production and is dated after the plaintiff's purchase. Because it predates the plaintiff's injury, the subsequent-remedial-measure rule is unlikely to keep it out, and I want to settle how we treat it before the design file goes out.
+
+## 3. Plaintiff's Likely Experts
+
+Dr. Gareth Pellam, a mechanical engineer, will probably say that the lockout pin can stick when it is coated with starch or foam from beans, allowing the ring to turn despite the pressure. A human-factors witness, Dr. Yvette Hargrove, will address the manual's warnings. We should assume both will be designated.
+
+## 4. Strategy
+
+**Order of attack.** The first target is Dr. Pellam's opinion on what actually happened in this kitchen. Before we engage on whether a different lid mechanism would be a better design, we want to find out whether his testimony that this unit failed from a sticking pin is based on testing and fits the facts: the ordinary-use scenario Ms. Okafor describes, the replacement gasket, and the condition of the pin when the unit is examined. If he has not replicated the failure on a comparable unit, or has not ruled out a gasket problem, his reliability is open to challenge, and that challenge should be mounted before we spend effort on the merits of the design theory. A narrowed causation case makes the alternative design argument less relevant.
+
+**Mediation first.** Toil & Trouble wants mediation to come before expert discovery, and we negotiated that into the schedule: mediation by July 17, 2026, plaintiff's designations August 21 and ours October 2. I recommend retired trial judge Harlan Whitcombe as mediator. For mediation to be useful, we need the inspection finished by the end of June and our engineer's preliminary read in hand, but not a formal report. That keeps expert spending low until we see whether the case resolves.
+
+**Inspection.** Dr. Oswin Takahashi, our engineer, should attend the joint inspection. The key facts to preserve are the pin's travel, residue on the pin and seat, the gasket's origin and the state of the ring.
+
+## 5. Reporting to the Client
+
+Mr. Oyelaran's letter says he wants case reports in a one-page format with an exposure range, not narrative memos. This memo is for internal use; the client report I will draft after the inspection will be a single page with a range, a short status line, and the next event. My current number for that page is $140,000 to $320,000, with $230,000 as a midpoint.
+
+## 6. Risks
+
+1. **Sticking-pin evidence.** If the unit's pin shows residue consistent with bean foam, Dr. Pellam's theory will be much stronger.
+2. **Complaint history.** Three "hard to open" complaints will be characterized as notice.
+3. **The replacement gasket.** It cuts both ways: it supports alteration, but if we sent the part, plaintiff will say we sent the wrong one.
+4. **Damages.** Two grafts and visible scarring.
+5. **Spoliation.** We must confirm the unit has been preserved since December. Ms. Trevisan says it has been in a lab since February.
+
+## 7. Next Steps
+
+- Send the inspection protocol (done April 24).
+- Ask Dr. Takahashi for availability the last two weeks of June.
+- Confirm with Mr. Oyelaran that Mr. Whitcombe is acceptable and obtain preliminary authority for the mediation session.
+- Pull the July 2025 gasket shipment records.
+- Prepare a first one-page client report for the file by May 29.
+
+## 8. Budget
+
+Through mediation: $52,000 to $68,000. Through trial if the case does not resolve: $240,000 to $310,000.
+
+=== 04-instruction-letter.md ===
+**TOIL & TROUBLE HOME PRODUCTS**
+Legal Department
+77 Cinderfield Road, Dunmore Falls
+
+March 9, 2026
+
+Josephine Armitage, Esq.
+Kenge, Carboy & Vholes LLP
+
+**Re: Okafor v. Toil & Trouble Home Products — Instructions for Defense**
+
+Dear Josephine,
+
+Thank you for taking this case on short notice. I have asked our product safety team to pull the design file for the TT-6200 and the service records for the unit, and you will have both next week. This letter covers how we want the matter run.
+
+## The Case
+
+Ms. Okafor alleges that the lid of her TT-6200 turned open while the cooker was under pressure and that she was badly burned. We take any burn injury seriously and we are sorry for her pain. We also stand behind the TT-6200 lid system, which went through independent laboratory testing before launch. Our focus is to understand what happened in her kitchen and what condition the unit is in. You should also know that we have promised our largest retail partners advance warning before we pull any product from sale, so tell me at once if anything in this case could lead there.
+
+## Sequence of Work
+
+Our practice with cases like this is to try mediation before the parties get into expert work. Expert discovery is expensive, it hardens positions, and in our experience most of these cases are better resolved once the facts are known but before the experts have been paid and committed. Please plan the schedule accordingly: get the inspection done, exchange the core documents, and set a mediation before anyone designates an expert. If plaintiff's counsel presses for an expert schedule first, tell her we want a mediation date in the order, and let me know if she objects.
+
+You may retain a consulting engineer now to attend the inspection; that is not what I am describing. I just do not want testifying experts disclosed or deposed until a mediation attempt has been made.
+
+## Reporting
+
+I report to our chief executive and our insurer's claims group, and I have little time to read long documents. For that reason, please give me case reports on a single page. The page should show the current exposure as a range in dollars, the status in a few lines, upcoming dates, and any decision you need from me. I do not want narrative memos on the case. If something needs more explanation, call me. I would like a page each month and after any event that changes the range, such as an inspection result or a ruling.
+
+Please send the first one by the end of May.
+
+## Authority and Settlement
+
+You do not have settlement authority at this time. Once you have recommended a range, I will take it to our claims group. Settlement offers should not be made in any form without my written approval.
+
+## General Guidelines
+
+1. Send communications to me, copied to Delphine Moorcroft in risk management.
+2. Do not speak to the press or to our retail partners about the matter. Refer any inquiry to me.
+3. Preserve all documents. We issued a hold on February 26, 2026, and I will forward it.
+4. Do not contact our employees directly. I will arrange access.
+5. We expect no more than two lawyers at any deposition or hearing.
+6. Please bill monthly on the matter-level template we send. Rates are as agreed in the engagement letter dated January 14, 2025.
+7. Tell me promptly if you learn of other claims involving the TT-6200 or related models.
+
+## The Unit and the Facts
+
+Our customer care team has a record of one contact from a household at Ms. Okafor's address in July 2025 about a replacement gasket. Please look into that early, because it may matter. I would also like to know whether the unit was bought new from the retailer or through another channel. Our product safety lead, Rennick Odell, will be your technical contact, and our quality records for the Q3-2024 production period are available to you on request. Our consumer complaints and contacts are tracked in Ravenscar, our ticketing system, and I can have it searched for you.
+
+## Budget and Staffing
+
+I would like an estimate for the first phase through a mediation, and a separate estimate through trial. For a case of this size we are not expecting to spend more than $150,000 through mediation, and I would like to hear early if you think that is unrealistic. Please use one associate and one partner for the day-to-day work, and bring in others only with my approval.
+
+## Communications with Plaintiff's Counsel
+
+Be courteous with Ms. Trevisan's office, but do not volunteer information about our customer complaint history or other incidents until a request is served and we have discussed the scope. If she asks for a joint inspection, agree in principle and send a written protocol so that nothing is disassembled or cleaned before both sides' engineers are present. Our own engineer should handle the unit only in your presence. Please also ask the retailer, Marlowe Home & Hardware, to preserve its sales records for the unit.
+
+## Insurance
+
+Our insurer is notified, and there is a deductible of $100,000 on this claim. Ms. Moorcroft coordinates with the claims adjuster and will tell you if anything is needed from you.
+
+Please confirm receipt. I am available any time.
+
+Sincerely,
+
+Franklin Oyelaran
+General Counsel
+Toil & Trouble Home Products
+
+Reply with JSON only, no other text, in this form:
+{"items": [{"type": "fact", "text": "..."}, {"type": "position", "text": "..."}]}

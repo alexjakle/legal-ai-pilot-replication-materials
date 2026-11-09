@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T1",
+  "prompt_hash": "25cd8aa61c75f797630252134a4f1ea6ab365c5cfb737391c6578c7ad3f281b8",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:09:02+00:00",
+  "session_id_in": null,
+  "session_id": "9a400a89-7e0c-4078-be83-e86be5454bd6",
+  "text": "# Proposed approach for B-2 (Toil & Trouble, TT-6200 injury claim)\n\n## Sequencing: mediation first, then expert work\n\nThe client's stored preference is to try mediation before expert work. Our proposal to plaintiff's counsel should therefore tie the expert schedule to mediation rather than start the expert clock now. Our lesson from similar matters is that opposing counsel will usually agree if they are offered certainty and not delay. Two commitments give them that certainty:\n\n1. **Early production of key documents.**\n2. **Fixed expert dates that start automatically if mediation fails.**\n\nI would confirm this preference with Franklin Oyelaran before we send anything.\n\n## Proposed schedule\n\nI have used relative timing because I have no court order or dates yet. The day counts are my proposals and should be adjusted once we see the court's scheduling order.\n\n| Step | Proposed timing |\n|---|---|\n| Litigation hold and preservation (product documents, the incident unit, TT-6200 float valve and lockout pin design and testing files) | Immediately |\n| One-page early assessment to Oyelaran, copying Moorcroft, with exposure range and any decision needed | Within the client's required period |\n| Joint protocol for preserving and inspecting the incident unit (non-destructive only until experts are cleared) | Within about 30 days |\n| Production of agreed key documents (design specs, valve and lockout pin records, relevant complaint and incident history) | About 30–45 days |\n| Mediator selection and mediation | About 60–90 days |\n| **Trigger:** mediation fails, reaches impasse, or does not occur by an agreed outside date | Starts the expert clock automatically |\n| Plaintiff's expert disclosures | Fixed number of days after the trigger (e.g., 45) |\n| Defense expert disclosures | About 45 days later |\n| Rebuttal reports, then expert depositions | About 30 days each, in sequence |\n\nAll dates after the trigger are fixed in the order now, so plaintiff gives up nothing but sequence.\n\n## Client requirements that shape the schedule\n\n- **Expert clearance.** We do not sign any testifying expert until Oyelaran has the proposed experts' names, credentials, prior testimony and fee quotes, and has cleared them. Testing and expert costs are the biggest budget swing, so we also need quotes before any testing. Before mediation, a consulting-only review would still need his go-ahead.\n- **Settlement authority.** If the range may exceed the client's authority tier, we flag it early because CFO or written board sign-off takes time. We must not signal any offer above the tier before sign-off, and verbal indications are not enough. We should raise this before mediation is scheduled.\n- **Retail partner warning.** The client has promised its largest retail partners advance warning before pulling any product. If anything in the claim (for example, the lockout pin or float valve) could lead to a pull, we tell the General Counsel at once.\n- **Other claims.** We report promptly any other claims involving the TT-6200 or related models.\n- **Reporting.** The client wants one page each month, and another after any event that changes the exposure range. Each page shows the dollar range, status in a few lines, upcoming dates and any decision needed. We send it to Oyelaran, copy Moorcroft, and write it so it can go to the CEO and the insurer's claims group. Anything touching coverage or exposure also goes to the risk contact or insurer liaison.\n- **Staffing.** One associate and one partner handle day-to-day work, and no more than two lawyers attend any deposition, hearing or mediation session.\n- **Communications.** We contact no client employees directly and say nothing to the press or retail partners. All outside inquiries go to the GC.\n- **Budget.** We provide phase budgets, get approval before exceeding them, and bill monthly.\n\n## Next steps\n\n1. Tell plaintiff's counsel we will respond with a proposed package and agree no dates yet.\n2. Clear the mediation-first sequence and the package with Oyelaran.\n3. Send the first one-page report.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:09:02+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "9a400a89-7e0c-4078-be83-e86be5454bd6",
+    "input_tokens": 2,
+    "output_tokens": 2088,
+    "cache_write_tokens": 1803,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.028096,
+    "latency_ms": 17548,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2088,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1803,
+      "webSearchRequests": 0,
+      "costUSD": 0.028096,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 743,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1803,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

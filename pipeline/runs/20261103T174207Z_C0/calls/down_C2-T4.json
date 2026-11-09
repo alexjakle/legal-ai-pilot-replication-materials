@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T4",
+  "prompt_hash": "809f7dc0fd609ac0314ca85f29bdd45bd6fb245911c2ec9a63cf6f75eae5cafc",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T17:48:23+00:00",
+  "session_id_in": null,
+  "session_id": "43313abb-c102-43d4-9ca0-a5579f8fed3c",
+  "text": "**Recommendation:** Retain Dr. Mathilde Grosvenor, who chairs the relevant standards body's axle subcommittee, to explain what the standards require and how they developed. Engage her separately from Dr. Raul Esquivel, the testifying design engineer who addresses this axle's design and testing.\n\n**Why separate the two experts**\n- If Esquivel vouched for both the JX-9 design and the standard it is measured against, plaintiff could say he is grading his own work.\n- Keeping Esquivel off committee matters shields him from cross-examination on standards-body politics and history. That cross falls on Grosvenor, who is positioned for it.\n- Client preference points the same way. The General Counsel wants design testimony kept focused on this axle and wants to know who will speak to industry practice.\n\n**How to position Grosvenor**\n- **Scope:** Her retention letter should limit her to what the standards require, their history, and what compliance means for a manufacturer. It should keep her work apart from the FT-77 and other testing analysis.\n- **Division of roles:** Grosvenor supplies the yardstick. Esquivel applies it to the JX-9's design, fillet radius, heat treatment and fatigue testing, relying on her account of the standards without opining on committee matters himself.\n- **Materials control:** Each side lists what its experts considered, so anything we give her may be disclosed. Give her only what her narrow scope needs. Do not give her the privileged post-accident metallurgical review, which found the tool mark at the fracture origin and is being withheld as work product. Be equally careful with the test files generally, since the client wants a tight circle around them. Any production to her of confidential test data should wait for the protective order and its attorneys'-eyes-only tier.\n- **Reliability check:** Before engagement, vet her prior testimony and any committee positions that conflict with Joad's design choices. A subcommittee chair may have published or voted on positions that plaintiff can use.\n\n**Before engaging her**\n1. Clear the plan with General Counsel Evander Thorsby. He must review names and credentials of all proposed testifying experts first and has offered to help identify candidates who have served on standards bodies. All communications go through him.\n2. Get her fee quote first. The client wants quotes before engagement, and expert costs drive the variance in the $780,000 to $960,000 projection against the client's $700,000 to $1,000,000 expectation.\n3. Fit her into the expert-report schedule. The October 2023 agreement set defense reports for June 14, 2024, but the file is stale, so confirm current dates and the reviewed timing for her report.\n4. Copy Perpetua Wallace at Cobaltridge only on items bearing on coverage, and include her fees in the monthly invoice summary.",
+  "usage": {
+    "run_id": "20261103T174207Z_C0",
+    "timestamp": "2026-11-03T17:48:23+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "43313abb-c102-43d4-9ca0-a5579f8fed3c",
+    "input_tokens": 2,
+    "output_tokens": 1353,
+    "cache_write_tokens": 20818,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.096806,
+    "latency_ms": 11716,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1353,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20818,
+      "webSearchRequests": 0,
+      "costUSD": 0.096806,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 445,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 20818,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

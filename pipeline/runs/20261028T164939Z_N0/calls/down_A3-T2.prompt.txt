@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Telltale Cardiac Systems):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: A-3
+Client: Telltale Cardiac Systems
+
+Question:
+Plaintiff's counsel in the new Telltale case has called to ask whether the company would talk about early resolution. No discovery has been taken yet. How should we respond, and how has Telltale handled authority, timing and mediation in its earlier matters with us?
+
+Answer the question.

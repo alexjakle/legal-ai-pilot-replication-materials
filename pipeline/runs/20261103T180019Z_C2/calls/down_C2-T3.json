@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "a589523cdd8bc4c5103df46994783badcf200ee8d07091f21c7d980ec0ffc269",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:05:43+00:00",
+  "session_id_in": null,
+  "session_id": "7e66e959-443b-4be2-8ba8-c14411221502",
+  "text": "# Plan for plaintiff's metallurgist (fatigue/design opinion)\n\n## What we do first\n\n**1. Send a short, decision-focused note to Evander Thorsby, with Perpetua Wallace copied.** The opinion bears on exposure and possibly coverage, so she is copied. We go through Thorsby only and do not contact Joad engineers or production staff directly. The note should cover:\n\n- **The opinion:** a fatigue failure attributed to design, which could reach the whole JX-series and not just this unit.\n- **Preservation:** confirm the litigation hold is in place and send our preservation recommendations. These cover the failed component and its chain of custody, design and test files, and the fatigue and validation data. We need to make sure no destructive testing happens on the component by anyone, including by us, without notice and protocol.\n- **Other incidents:** ask whether there have been similar fatigue failures or complaints on JX-series products. If there have been, they are reported immediately. We volunteer nothing in discovery beyond what a served request requires.\n- **Regulatory and commercial sensitivity:** ask whether a design-fatigue theory could trigger a withdrawal, recall, regulator interest, or retailer commitments. If so, we flag it now.\n- **Access:** ask Thorsby to arrange early interviews with the key engineers who own the design and fatigue analysis. We keep the circle of people who see the test files tight.\n- **Decisions needed from him:** the expert approach below, and the budget and testing approvals below.\n\n**2. Protect the data.** We do not stipulate to the authenticity of Joad's internal test data, and we resist any blanket stipulation. We produce only what the court requires. Before anything goes out, we need a protective order with an outside-counsel-and-experts-only tier for technical data. If plaintiff seeks the test data to support the metallurgist, we move for that order first.\n\n## Expert plan\n\n- **Retain a rebuttal expert:** a failure-analysis metallurgist with fatigue expertise, plus a design/mechanical engineering expert if needed. We do not engage anyone until Thorsby has seen names, credentials, and prior testimony, and has approved.\n- **Industry practice:** Thorsby wants to know whether anyone will speak to industry practice, and he prefers design testimony stay focused on the specific product. Our default is a product-specific design opinion. If we think a standards or industry-practice witness is worthwhile, we raise it with him as a proposal and clear it before engagement. He has offered to help identify candidates who have served on standards bodies, so we ask him for names.\n- **Cost:** get quotes before any testing or expert engagement. Ask who pays for shared lab work. Expert and testing costs will likely be the main budget driver, so we explain in writing any projection above his budget assumption.\n- **Testing:** give 10 days' notice of any proposed testing. This includes joint inspection, fractography, and metallurgical exams. We negotiate a joint protocol with plaintiff for any destructive testing of the component.\n- **Timetable:** build in time for any Joad regulatory-group review of expert reports for consistency with regulatory submissions.\n- **Joad witnesses:** we do not offer key engineering or sales witnesses to rebut the theory until we have discussed it with Thorsby.\n\n## Attacking plaintiff's expert\n\nAfter the engineer interviews and a review of the test files, we assess the fatigue opinion for these points:\n\n- the loading assumptions\n- the S-N and fatigue-life analysis\n- alternative causes, such as manufacturing, material, overload, misuse, or maintenance\n- whether he tested the actual part or proposed a feasible alternative design\n- his qualifications and prior testimony\n\nWe then decide between a *Daubert* challenge and a deposition-focused cross. A deposition of the expert is limited to one firm lawyer and one insurer lawyer, followed by a short note to Thorsby within five business days.\n\n## Reporting and budget\n\n- **Phase budget:** due within 45 days.\n- **First case assessment:** due within 60 days, with an exposure range and the probability of an adverse result. The fatigue theory will feed into this.\n- **Six-week report:** a written report every six weeks, plus a call after significant events.\n- **Insurer:** send Wallace the monthly invoice summary. Joad wants to hear the same day if the carrier reserves its rights.\n- **Settlement:** nothing on settlement is communicated without client approval. Any figure above $1.5M needs written board consent, which takes about three weeks, so we flag that early. Offers within the insurer's tier get checked with Thorsby before they are conveyed.\n- **Public statements:** none. Media, regulator, and customer inquiries go to Thorsby.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:05:43+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7e66e959-443b-4be2-8ba8-c14411221502",
+    "input_tokens": 2,
+    "output_tokens": 2246,
+    "cache_write_tokens": 2766,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.033528,
+    "latency_ms": 18130,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2246,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2766,
+      "webSearchRequests": 0,
+      "costUSD": 0.033528,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 680,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2766,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

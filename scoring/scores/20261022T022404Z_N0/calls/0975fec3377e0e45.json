@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "0975fec3377e0e45",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6854,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6854,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09698,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2107,
+      "provider": "firstParty",
+      "thinkingTokens": 1165,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "bc62eec48381255007cdcd668d5167fd193ab9b0b4f640ca072d60377754c3cc",
+  "session_id": "e944c77a-d543-4e97-b0cf-a9d3a48d9da1",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"Reliability of method (Rule 702/Daubert or the state equivalent)\\n- Whether the opinion fits the facts\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Reliability of method (Rule 702/Daubert or the state equivalent)\\n- Whether the opinion fits the facts\"},\n{\"label\": \"R10\", \"verdict\": \"pattern\", \"quote\": \"Depose the expert after steps 5 and 6.\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"Reliability of method (Rule 702/Daubert or the state equivalent)\\n- Whether the opinion fits the facts\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": []}\n```",
+  "timestamp": "2026-11-02T21:20:23+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6854,
+    "call_id": "0975fec3377e0e45",
+    "condition": "N0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 18927,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2107,
+    "role": "judge",
+    "run_id": "20261022T022404Z_N0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-02T21:20:23+00:00",
+    "total_cost_usd": 0.09698
+  }
+}

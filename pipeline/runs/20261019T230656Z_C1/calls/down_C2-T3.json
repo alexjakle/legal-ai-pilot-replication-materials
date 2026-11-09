@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "59bbee35edfc586b6b6934ef3471feeca43dd77176a065a0d986bb094b3ff9bc",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:12:47+00:00",
+  "session_id_in": null,
+  "session_id": "a57bc141-79a4-465f-a99e-4fbe3f33077e",
+  "text": "**First step: go to General Counsel Evander Thorsby, not the engineers.** Send him a short written update on the plaintiff's metallurgist and the fatigue-by-design theory, and ask for a call. All case communications go through him. We do not contact Joad engineers or production staff directly, because he arranges access. If we need design or production input to evaluate the fatigue theory, we ask him to set it up.\n\n**Plan for the rebuttal expert**\n\n1. **Define the disciplines.** We likely need a rebuttal metallurgist/failure analyst, and probably a design or standards expert to answer the \"failed because of its design\" claim. Joad prefers design testimony stay focused on the product at issue.\n2. **Build a candidate list.** Identify several candidates per discipline. Joad has offered to help find people with standards-body experience, so we should take that up.\n3. **Get client approval before engaging anyone.** Send Thorsby names and credentials for each candidate. Retain no one until Joad signs off. This is a firm rule and a client rule.\n4. **Handle testing carefully.** Any testing (for example, fractography or fatigue analysis on the failed component) needs a quote first and at least ten days' written notice to Joad before we commission it. Keep the circle tight on who sees test files.\n5. **Keep the insurer informed.** Copy Perpetua Wallace on anything bearing on coverage or exposure. A design-defect theory could affect exposure, and the aggregate limit matters because of Joad's two other open claims. Expert costs also belong in the budget and monthly invoice summaries. Flag any projected overrun to the client.\n6. **Check for similar incidents.** A fatigue-by-design theory raises the question of whether other similar failures exist. Ask Thorsby, and report any immediately.\n7. **Reporting.** Include the plaintiff's expert's opinion and our expert plan in the next six-week written report. Give prompt notice after significant events such as inspection results or depositions (a note within five business days after each deposition).\n8. **Testimony.** Do not put forward any Joad employee or key witness as a design witness until we have discussed it with Thorsby. Depositions are limited to one firm lawyer and one insurer lawyer.\n\n**Sequence:** (1) notify and confer with Thorsby, copying Wallace on exposure points, (2) send candidate names and credentials, (3) after approval, give 10 days' notice with quotes for any testing, (4) engage the experts.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:12:47+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a57bc141-79a4-465f-a99e-4fbe3f33077e",
+    "input_tokens": 2,
+    "output_tokens": 814,
+    "cache_write_tokens": 1920,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.015824,
+    "latency_ms": 6870,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 814,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1920,
+      "webSearchRequests": 0,
+      "costUSD": 0.015824,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

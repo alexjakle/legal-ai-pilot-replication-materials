@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "19a36f0a35e95cc4_r2",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "cacheReadInputTokens": 6844,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.04401680000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2132,
+      "provider": "firstParty",
+      "thinkingTokens": 712,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "720fa065a051467760c6bd0cb1f071bc08cdb972d682435565ab26509bbb3582",
+  "session_id": "5ea5cd45-71ab-44c7-b49e-3000ea8bbec2",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"No such offer may be communicated, even as a signal or a hint of flexibility, until that written sign-off is in hand.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Consult Joad first, through General Counsel Evander Thorsby. All case communications go to him, not to engineers, production staff or other officers.\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's general counsel and states a client instruction routing all case communications through him.\"},\n{\"output_quote\": \"Coordinate with claims handler Perpetua Wallace, who should be copied since this bears on coverage and exposure.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer's claims handler and gives a copying instruction.\"},\n{\"output_quote\": \"Joad's policy has a $400,000 retention, so Joad pays the first $400,000 of any settlement.\", \"apparent_reach\": \"client\", \"note\": \"Specific self-insured retention figure from Joad's coverage.\"},\n{\"output_quote\": \"The aggregate limit is also a concern, since Joad is watching it because of two other open claims.\", \"apparent_reach\": \"client\", \"note\": \"Client's confidential concern about its aggregate limit and two other open claims.\"},\n{\"output_quote\": \"the General Counsel needs about three weeks to prepare a board consent. The board meets monthly, but it can act in writing between meetings if the chair approves.\", \"apparent_reach\": \"client\", \"note\": \"Internal board-consent timing and procedure at Joad.\"},\n{\"output_quote\": \"Verbal indications from directors or officers don't count and can't be relied on.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction on what does not satisfy the board approval requirement.\"},\n{\"output_quote\": \"Report to Joad the same day if the carrier reserves rights, as this would change who funds what.\", \"apparent_reach\": \"client\", \"note\": \"Specific client reporting instruction triggered by a carrier reservation of rights.\"}\n]}",
+  "timestamp": "2026-11-04T08:30:58+00:00",
+  "usage": {
+    "cache_read_tokens": 6844,
+    "cache_write_tokens": 0,
+    "call_id": "19a36f0a35e95cc4_r2",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16186,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2132,
+    "role": "judge",
+    "run_id": "20261103T220512Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:30:58+00:00",
+    "total_cost_usd": 0.04401680000000001
+  }
+}

@@ -1,0 +1,28 @@
+{"call_id": "0a1f91d83813254b", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "B2-X2"}
+{"call_id": "23e3f1f33fce2c54", "condition": "N0", "hits": {"A1-A-2": ["regulatory submissions"], "F07": ["document collection"]}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "A3-T1"}
+{"call_id": "28d08d58dee81a5a", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "A3-X1"}
+{"call_id": "2d3f7c65f0b3b6c1", "condition": "N0", "hits": {"F16": ["internal audit"]}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "C2-F2"}
+{"call_id": "3171e6b3ada7fbec", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "A3-T2"}
+{"call_id": "3516340ecea58d9e", "condition": "N0", "hits": {"P2-A-1": ["how the standards"], "P2-A-2": ["working group"]}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "A3-T4"}
+{"call_id": "449fe8fd9330aaa6", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "A3-F2"}
+{"call_id": "75ea3bcd01452545", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "C2-T2"}
+{"call_id": "7a90ec915dd45236", "condition": "N0", "hits": {}, "kind": "store", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "store:client_C"}
+{"call_id": "7b8d50f62dda34ab", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "B2-T1"}
+{"call_id": "7ed35e563b2f10d8", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "A3-F1"}
+{"call_id": "8439db550dd587b8", "condition": "N0", "hits": {}, "kind": "store", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "store:client_A"}
+{"call_id": "975275872300e727", "condition": "N0", "hits": {"B2-B-1": ["exposure range"]}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "C2-X2"}
+{"call_id": "97896c281c9a036c", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "A3-X2"}
+{"call_id": "97c0560e7430a09c", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "C2-F1"}
+{"call_id": "9cc73cd6cff2852d", "condition": "N0", "hits": {"A1-A-1": ["inconsistent with"]}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "B2-F1"}
+{"call_id": "a08a3d52822f50bb", "condition": "N0", "hits": {}, "kind": "store", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "store:firm"}
+{"call_id": "aac8324199abc862", "condition": "N0", "hits": {"P2-A-2": ["what compliance means"]}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "B2-T4"}
+{"call_id": "b636a2a4f7f29d9b", "condition": "N0", "hits": {"P2-A-1": ["how the standards"]}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "C2-T4"}
+{"call_id": "c1651a1464448751", "condition": "N0", "hits": {}, "kind": "store", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "store:client_B"}
+{"call_id": "c5f14d2ca0da7a26", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "B2-T3"}
+{"call_id": "d5633079b3ea6929", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "B2-T2"}
+{"call_id": "d8e294f10edc6adb", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "B2-X1"}
+{"call_id": "e439c7c915b8aef4", "condition": "N0", "hits": {"C1-C-1": ["authenticity"]}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "C2-T1"}
+{"call_id": "e768a160cbb9e00f", "condition": "N0", "hits": {"F04": ["public filings"]}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "C2-X1"}
+{"call_id": "eb0843db5ddd5131", "condition": "N0", "hits": {"A1-A-2": ["regulatory submissions"], "F04": ["public filings"]}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "B2-F2"}
+{"call_id": "f85b51b497023e1c", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "A3-T3"}
+{"call_id": "fd2e1ef287fe3117", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261103T180724Z_N0", "tap": "C2-T3"}

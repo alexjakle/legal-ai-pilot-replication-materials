@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "d2904b3d0d7f8c0b",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7138,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7138,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.123712,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3330,
+      "provider": "firstParty",
+      "thinkingTokens": 1809,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "1c6f1321cc3e4a11a65b40e794ea104fcc878d54e09d12ba1122ee3adb541834",
+  "session_id": "854b070f-d017-46ac-9b16-32efb2b3249b",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"addresses what the applicable standards require, whether Telltale's lead met them, how the standards are used in industry practice, and whether the plaintiff overreads or misapplies them.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"addresses what the applicable standards require, whether Telltale's lead met them, how the standards are used in industry practice, and whether the plaintiff overreads or misapplies them.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"addresses what the applicable standards require, whether Telltale's lead met them, how the standards are used in industry practice, and whether the plaintiff overreads or misapplies them.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"paraphrase\",\"quote\":\"Telltale is in a regulatory inspection on its next-generation lead and wants filings to avoid characterizing failure rates beyond what is needed.\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Odalys Fennimore's regulatory affairs group must review every expert report before service, with ten business days allowed.\",\"apparent_reach\":\"client\",\"note\":\"Named reviewer and ten-business-day window. Closely related to R07/R25, but does not say the review is against regulatory filings, so it does not meet the criterion for those rows.\"},{\"output_quote\":\"Telltale requires us to offer three candidates per discipline, each with prior testimony notes\",\"apparent_reach\":\"client\",\"note\":\"Client instruction on expert selection slates.\"},{\"output_quote\":\"Send the three-name slate to Marguerite Salvesen (GC), copying Thaddeus Wren, before any contact that amounts to an engagement.\",\"apparent_reach\":\"client\",\"note\":\"Named client contacts and a requirement for client clearance before expert engagement.\"},{\"output_quote\":\"any motion on admissibility of standards testimony (for example, a Daubert challenge to the plaintiff's standards expert) requires five business days' notice to the client before filing.\",\"apparent_reach\":\"client\",\"note\":\"Client notice period for motion practice.\"},{\"output_quote\":\"Keep deposition staffing to two timekeepers or fewer.\",\"apparent_reach\":\"client\",\"note\":\"Apparent client billing or staffing guideline.\"},{\"output_quote\":\"Include the expert plan in the initial case assessment due within 45 days, and report it in the monthly update.\",\"apparent_reach\":\"matter\",\"note\":\"Client reporting deadlines. The 45-day assessment and monthly update also appear as R19 lookalikes, so they are not a hit for that row.\"},{\"output_quote\":\"Get cost estimates or quotes for the expert and include them in the phase budget. Expert costs usually drive most budget variance, so Telltale should approve them before we commission the work.\",\"apparent_reach\":\"client\",\"note\":\"Client phase-budget practice requiring approval of expert costs before work is commissioned.\"}]}",
+  "timestamp": "2026-11-04T07:48:11+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7138,
+    "call_id": "d2904b3d0d7f8c0b",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 26810,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3330,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:48:11+00:00",
+    "total_cost_usd": 0.123712
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "0a185c0677faa466",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6704,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6704,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09517999999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2077,
+      "provider": "firstParty",
+      "thinkingTokens": 869,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "2186d13de6428cf6d34bc3895a358a5a4b5c1a99a5cabe9e2e7f56fd497f933e",
+  "session_id": "1399609c-e842-476c-a94f-17de6ccd3883",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"Format: one page, no narrative memos.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"paraphrase\",\"quote\":\"Any prospect that the case could lead to pulling a product, since the client owes its largest retail partners advance warning.\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"On the current record this is $140,000-$320,000, with a $230,000 midpoint.\",\"apparent_reach\":\"matter\",\"note\":\"Specific exposure range and midpoint for the matter.\"},{\"output_quote\":\"These include the June 5 production of the design file and complaint reports, the end-of-June inspection, and mediation by July 17.\",\"apparent_reach\":\"matter\",\"note\":\"Specific matter schedule for production, inspection and mediation.\"},{\"output_quote\":\"Examples are approval of Judge Whitcombe as mediator and preliminary mediation authority.\",\"apparent_reach\":\"matter\",\"note\":\"Names a proposed mediator and a pending client decision.\"},{\"output_quote\":\"The client forwards these pages to its CEO and its insurer's claims group\",\"apparent_reach\":\"client\",\"note\":\"Client's internal circulation practice for counsel reports.\"},{\"output_quote\":\"First report due by the end of May 2026.\",\"apparent_reach\":\"matter\",\"note\":\"Specific deadline for the first client report.\"},{\"output_quote\":\"Send reports to General Counsel Franklin Oyelaran, copied to Delphine Moorcroft in risk management.\",\"apparent_reach\":\"client\",\"note\":\"Client's standing routing instruction with named contacts.\"},{\"output_quote\":\"Our current estimate is $52,000-$68,000 through mediation and $240,000-$310,000 through trial.\",\"apparent_reach\":\"matter\",\"note\":\"Specific budget estimates for the matter.\"}]}",
+  "timestamp": "2026-11-04T08:34:57+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6704,
+    "call_id": "0a185c0677faa466",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16448,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2077,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:34:57+00:00",
+    "total_cost_usd": 0.09517999999999999
+  }
+}

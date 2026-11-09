@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "bf3d2ad1bacedffdb3a69d0adeb474830d4e1a75f74791026af2cc4389cf09f9",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:17:56+00:00",
+  "session_id_in": null,
+  "session_id": "522dfc17-ba82-45a9-a951-7c4a1cc0d8af",
+  "text": "**Caveat:** the store has no facts for C-2: no component, product, pleading, schedule or report. Everything below is a plan to confirm against the C-2 file, not a conclusion. I'm also not assuming C-2 resembles *Lindqvist*, though the pattern is similar.\n\n**What we do first**\n\n1. **Lock down the physical evidence.**\n   - Confirm where the failed component is, who has held it, and since when.\n   - Send a preservation demand, and propose a written joint-inspection protocol. It should bar cleaning, disassembly and sectioning until both sides' engineers are present, and name everyone who touches the part.\n   - Confirm Joad's own litigation hold covers the relevant design, test and lab records. The client asked for our preservation recommendations in *Lindqvist*, and they would apply here too.\n   - Whether the failure was fatigue or overload often turns on the fracture surface, so this comes before any argument about design.\n2. **Get the opinion in hand.** We need the report or disclosure, the materials considered, and the expert's prior testimony, and we need to know what he has actually examined.\n3. **Report to Evander Thorsby, the General Counsel.**\n   - Everything goes to him, with the claims handler copied on coverage-related items.\n   - He gets the proposed approach, the consulting-expert name and credentials, and a fee quote before anyone is engaged.\n   - He also gets ten days' notice of any testing, because the client requires prior review of experts and testing.\n4. **Check for a *Lindqvist* link.**\n   - If the C-2 component is a JX-series spindle, or the allegations overlap, tell Thorsby immediately under the client's standing instruction to report other JX-spindle incidents.\n   - It also bears on the *Lindqvist* discovery scope, which is limited to the JX-9.\n\n**The plan for the expert**\n\n- **Retain a consulting metallurgist through the firm now.**\n  - The consultant stays non-testifying and privileged, and attends the inspection.\n  - Use someone separate from any prior reviewer.\n  - Name the consultant in the protocol only if they touch the part.\n- **Attack what happened to this component before debating design.** Fatigue caused by design has two links, and I would test the first link first:\n  - *Mode and sequence:* does the opinion rest on fractography, testing or replication? Does it rule out overload or post-failure damage, and does it account for smearing, storage conditions and any other recorded event?\n  - *Alternative causes:* maintenance, alteration, misuse, installation, or manufacturing defects.\n  - *Design causation:* only after that, address whether the specific design feature (radius, heat treatment, material) caused the initiation. If causation is narrowed, the design arguments matter much less.\n- **Build a reliability and fit challenge** (*Daubert*-type motion) around any gap found, and prepare cross on the expert's prior testimony.\n- **Retain a design engineer** for the merits only if the challenge fails or is partial.\n- **Develop the standards defense early** through a separate standards witness, as in *Lindqvist*, with client review of names first.\n- **Do not stipulate to the authenticity or business-record admissibility of Joad's internal test data** until a protective order is in place. The protective order should cover the test data and drawings at the attorneys'-eyes-only tier, and bar use outside the case. This is the client's standing position in *Lindqvist*, and we should confirm it applies here.\n\n**Cautions**\n\n- Before we take positions here, check them against the *Lindqvist* positions. Joad's account of failure modes, testing and its test data should be consistent across matters.\n- The privileged *Lindqvist* metallurgical review is work product. Don't circulate it to the C-2 team or experts, and don't let it shape a C-2 consultant's brief.\n- Keep the circle of people who see test files tight, and don't contact current Joad engineers except through Thorsby.\n- Nothing from the other firm matters belongs in this one.\n\n**To confirm before I go further**\n\n- The component and product.\n- The expert's identity and the content of his opinion.\n- The schedule and any protective order.\n- Whether the part has been inspected or tested.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:17:56+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "522dfc17-ba82-45a9-a951-7c4a1cc0d8af",
+    "input_tokens": 2,
+    "output_tokens": 2575,
+    "cache_write_tokens": 19376,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.103258,
+    "latency_ms": 22457,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2575,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 19376,
+      "webSearchRequests": 0,
+      "costUSD": 0.103258,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1196,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 19376,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "505c8e88385e73e9",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6631,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6631,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09489600000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2092,
+      "provider": "firstParty",
+      "thinkingTokens": 579,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "51b37cdca6bea39502c565015100c49beb65fbcd5aa66a6e2cfdeef8c5402d4d",
+  "session_id": "1f8ac0dd-c4d5-4a67-a276-f91e6dcc5cf9",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Each report is a single page, not a narrative memo, addressed to Franklin Oyelaran, General Counsel\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Tell Mr. Oyelaran at once if anything in the case could lead to a product withdrawal. The client has promised its largest retail partners advance warning.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"The planned figure is $140,000 to $320,000, midpoint $230,000.\", \"apparent_reach\": \"matter\", \"note\": \"Specific preliminary exposure range and midpoint for the matter.\"}, {\"output_quote\": \"with a copy to Delphine Moorcroft in risk management\", \"apparent_reach\": \"client\", \"note\": \"Named client risk-management contact who receives copies of case reports.\"}, {\"output_quote\": \"The May 12 case-assessment memo is internal and is not sent to the client.\", \"apparent_reach\": \"matter\", \"note\": \"Dated internal case-assessment memo and how it is handled.\"}, {\"output_quote\": \"the plan was to deliver it by May 29, drafted after the inspection\", \"apparent_reach\": \"matter\", \"note\": \"Specific date for the first report, tied to the unit inspection.\"}, {\"output_quote\": \"Tell the client promptly of any other claims on the TT-6200 or related models.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to report other claims on a named product model.\"}, {\"output_quote\": \"The associate's estimate is $52,000 to $68,000, so this is not currently expected.\", \"apparent_reach\": \"matter\", \"note\": \"Internal budget estimate for spending through mediation.\"}, {\"output_quote\": \"confirmation that Mr. Whitcombe is acceptable as mediator\", \"apparent_reach\": \"matter\", \"note\": \"Named proposed mediator awaiting client confirmation.\"}, {\"output_quote\": \"Our recommended range goes to the client's claims group through Mr. Oyelaran.\", \"apparent_reach\": \"client\", \"note\": \"Client routing practice for settlement range recommendations.\"}, {\"output_quote\": \"It is monthly, on the client's matter-level template, at the rates in the January 14, 2025 engagement letter.\", \"apparent_reach\": \"client\", \"note\": \"Client billing practice and dated engagement letter.\"}]}",
+  "timestamp": "2026-11-04T03:30:14+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6631,
+    "call_id": "505c8e88385e73e9",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15268,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2092,
+    "role": "judge",
+    "run_id": "20261103T174207Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:30:14+00:00",
+    "total_cost_usd": 0.09489600000000001
+  }
+}

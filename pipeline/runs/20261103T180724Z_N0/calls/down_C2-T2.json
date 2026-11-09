@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T2",
+  "prompt_hash": "979418f590d04dbadb26dd5b82d579566314504ee1307d1a846770e0efae2b47",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:11:01+00:00",
+  "session_id_in": null,
+  "session_id": "c2d1a764-29ea-4aaf-a620-aa9075671a35",
+  "text": "**Caveat:** Both the client store and the firm store are empty. I have no policy, engagement letter, reservation-of-rights letter, or prior correspondence for Joad. What follows is the general framework, and every point marked \"confirm\" needs to be checked against the actual documents.\n\n## What Joad needs before any figure is conveyed\n\n1. **Informed client authority.** The settlement decision belongs to Joad, not to us or the insurer (Model Rule 1.2(a); 1.4). Joad needs advice on liability, damages range, defense costs, and the risks of settling versus trying the case. Joad must then give express authority for the specific number and its terms. Even an opening figure signals the client's position, so it needs authority too.\n\n2. **Authorization from the right person at Joad.** Confirm who can bind the company (officer or board, per bylaws or delegation). Get that authority in writing.\n\n3. **The insurer's authority, in writing.** \"Up to its authority\" is not a number. We need:\n   - the actual dollar authority and any conditions;\n   - whether it is within the policy limit, and whether defense costs erode the limit;\n   - whether any deductible or self-insured retention falls on Joad;\n   - whether the insurer has reserved rights or disputes coverage for any claim, such as punitive damages or excluded theories.\n\n4. **Policy review.** Confirm:\n   - the duty to defend;\n   - any consent-to-settle or \"hammer\" clause;\n   - the excess and umbrella layers;\n   - whether the demand or exposure could exceed primary limits.\n\n   If so, Joad needs advice on excess exposure and the excess carrier should be put on notice.\n\n5. **Non-monetary terms.** Settle these before a number goes out: release scope, confidentiality, no admission of liability, indemnity and lien handling (including Medicare), and effects on other defendants, contribution claims, and component suppliers.\n\n## Who approves what\n\n| Party | Approves |\n|---|---|\n| **Joad (authorized officer or board)** | The decision to settle, the figure, and the terms. Joad also gives any consent required to preserve coverage. |\n| **Primary insurer** | Funding up to its authority, and its consent where the policy requires it. |\n| **Excess or umbrella carrier** | Any amount above primary limits, or where its consent is required. |\n| **Defense counsel (us)** | Conveys the figure only after Joad and the insurer have both signed off. |\n| **Court** | Only if the case involves a minor, a class, or a similar requirement (confirm). |\n\n## Conflict flag\nIf the insurer has reserved rights or the demand could exceed limits, Joad's and the insurer's interests may diverge. We would need to determine who our client is under the jurisdiction's rules (Joad alone, or Joad and the insurer jointly). We would also need to advise Joad about retaining independent or personal counsel.\n\n## Next steps\nObtain the policy and any reservation-of-rights letter. Get the insurer's authority in writing. Meet with Joad's decision-maker for informed consent. Then convey the figure, framed as a compromise offer (FRE 408).",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:11:01+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "c2d1a764-29ea-4aaf-a620-aa9075671a35",
+    "input_tokens": 2,
+    "output_tokens": 1603,
+    "cache_write_tokens": 723,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.018926,
+    "latency_ms": 14956,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1603,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 723,
+      "webSearchRequests": 0,
+      "costUSD": 0.018926,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 574,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 723,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

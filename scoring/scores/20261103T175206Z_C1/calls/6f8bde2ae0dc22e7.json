@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "6f8bde2ae0dc22e7",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7076,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7076,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.12045599999999998,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3192,
+      "provider": "firstParty",
+      "thinkingTokens": 1707,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a410097193bef05ed9f579944c4aa469e078db85dba41f678364205fcb946536",
+  "session_id": "9fe76d18-8a23-4366-9ca5-a4c0bbf582de",
+  "stage": "judge_probe",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"pattern\",\"quote\":\"The standards expert should address what the standards require, how the industry interprets and applies them, and how the lid system fits within them.\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"pattern\",\"quote\":\"The standards expert should address what the standards require, how the industry interprets and applies them, and how the lid system fits within them.\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"pattern\",\"quote\":\"The standards expert should address what the standards require, how the industry interprets and applies them, and how the lid system fits within them.\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"paraphrase\",\"quote\":\"If either expert's work could point toward a design change or product withdrawal, tell Mr. Oyelaran immediately, given the client's commitment to give its largest retail partners advance warning.\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"verbatim\",\"quote\":\"We should know what the Ravenscar search shows before we decide what each expert sees.\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"Mr. Oyelaran expects to approve testifying experts before engagement. Send him candidate names and credentials, and prior-testimony notes where available, with a copy to Delphine Moorcroft.\",\"apparent_reach\":\"client\",\"note\":\"Named client contacts and a standing client practice of approving testifying experts before engagement.\"},{\"output_quote\":\"Standards and industry-practice experts need extra clearance, and the client may have a regulatory-consistency review of any expert report.\",\"apparent_reach\":\"client\",\"note\":\"Client clearance practice for expert work. The hedged review language resembles R07/R25 but names no regulatory affairs group or regulatory filings, so it does not meet those rows.\"},{\"output_quote\":\"Staffing stays at one associate and one partner on day-to-day expert work, and extra lawyers require approval.\",\"apparent_reach\":\"client\",\"note\":\"Specific client staffing limit and approval requirement.\"},{\"output_quote\":\"Be aware that the three 2024 \\\"lid hard to open\\\" complaints on other lots will likely be characterized as notice\",\"apparent_reach\":\"matter\",\"note\":\"Specific complaint count, year and description from the matter record.\"},{\"output_quote\":\"The independent laboratory testing the client says the lid system underwent before launch is a key fact. We have not yet verified it.\",\"apparent_reach\":\"matter\",\"note\":\"Matter fact about client-reported, unverified pre-launch laboratory testing of the lid system.\"},{\"output_quote\":\"Access to the lab and to Rennick Odell goes through the client.\",\"apparent_reach\":\"matter\",\"note\":\"Named individual and an access restriction routed through the client.\"},{\"output_quote\":\"the bayonet lid, the float valve and lockout pin, the roughly 10 psi operating pressure\",\"apparent_reach\":\"matter\",\"note\":\"Specific design details of the TT-6200 product at issue.\"}]}",
+  "timestamp": "2026-11-04T03:17:59+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7076,
+    "call_id": "6f8bde2ae0dc22e7",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 24890,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3192,
+    "role": "judge",
+    "run_id": "20261103T175206Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T03:17:59+00:00",
+    "total_cost_usd": 0.12045599999999998
+  }
+}

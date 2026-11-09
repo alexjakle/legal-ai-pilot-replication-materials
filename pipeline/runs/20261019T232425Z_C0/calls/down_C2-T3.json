@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "525e85df767ee68ec19f5cffa1e618ac51a2b97dea8692b03d0a49e530a379bc",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-10-19T23:29:11+00:00",
+  "session_id_in": null,
+  "session_id": "b908ccf6-9c5c-45c6-a285-538e3bb4c009",
+  "text": "# Plan for plaintiff's fatigue and design metallurgist (Matter C-2)\n\n**Caveat:** I don't have the C-2 pleadings or facts. What follows applies the Joad playbook from the Lindqvist matter. I'm assuming C-2 is a similar fatigue and design claim, and I would not assume the same component, facts or evidence until we confirm them.\n\n## What we do first\n\n1. **Tell General Counsel Thorsby, and confirm whether C-2 involves another JX-series spindle.** Joad requires immediate notice of any other JX-series spindle incident. All communication goes through Thorsby, and we do not contact Joad engineers directly.\n2. **Work out how C-2 relates to Lindqvist.** If the same component or test data is involved, the two cases share exposure. We would need consistent positions and a tight circle around who sees the test files. Plaintiff's experts could also use the FT-77 specimen that failed short of runout in both cases.\n3. **Get the metallurgist's opinion and its basis.** That means the report or disclosure, the materials considered, and any testing or fractography. We should also learn the component's chain of custody, storage history and condition.\n4. **Lock down preservation and inspection.** We should confirm that the component and related records are preserved. Any testing needs a protocol shared at least 21 days ahead. Nothing may be sectioned or cleaned unless both sides' engineers are present. The client also requires at least 10 days' notice and a quote before testing is commissioned.\n\n## Plan for the expert\n\n**Challenge causation first.** If the fatigue-from-design opinion is narrowed, the fillet-radius, heat-treatment and testing arguments matter far less. The questions for him are:\n- Does \"cracked before the incident\" rest on actual testing or replication, or only on visual reading of beach marks?\n- Does he rule out overload or impact failure and post-failure damage? Smearing and a large final-overload zone point that way, and storage time can alter a fracture surface.\n- Does he address alternative causes, such as maintenance, alteration and operating conditions?\n- Do his opinions fit the physical and recorder evidence?\n\nIf the opinion is unreliable, we move to exclude it. Only if that fails does our design expert meet the design theory directly.\n\n**Retain our own experts, with client approval first.** Joad reviews names and credentials before any engagement. We would retain a consulting metallurgist now, and consulting experts are non-discoverable. We would also keep two separate testifying roles. A design and testing expert (Dr. Esquivel in Lindqvist) addresses this component. A separate standards witness (Dr. Grosvenor) addresses what the standards require, under a retention letter limited to the standards and their history. This keeps one expert from vouching for both the design and the yardstick.\n\n**Handle sensitive material carefully.**\n- Any privileged post-accident metallurgical review stays withheld as work product. We must not let a testifying expert see or rely on it unless we deliberately decide to waive.\n- The client will not stipulate to the authenticity of its internal test data, and will produce nothing, until a protective order is in place. The order needs an outside-counsel-and-experts-only tier, a bar on use outside the case, and return or destruction at the end. After that, we discuss authenticity document by document.\n- The Corbelmark and supplier-change background stays within the case team.\n\n**Prepare witnesses.** We interview Bertil Oakhurst early, through Thorsby. Neither he nor the sales manager is put forward for testimony until the firm and Thorsby have discussed it. We also anticipate a deposition of Hollis Pruett, the former technician who ran the FT-77 testing.\n\n**Keep to the client's reporting rules.** We send Thorsby a written report every six weeks and a note within five business days after each deposition. We copy Perpetua Wallace on anything bearing on coverage, and we tell Thorsby the same day if the carrier reserves its rights. Any settlement figure is confined by the limits: no offer above $1.5M until the board has signed off in writing.",
+  "usage": {
+    "run_id": "20261019T232425Z_C0",
+    "timestamp": "2026-10-19T23:29:11+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "b908ccf6-9c5c-45c6-a285-538e3bb4c009",
+    "input_tokens": 2,
+    "output_tokens": 2006,
+    "cache_write_tokens": 20523,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.102156,
+    "latency_ms": 16019,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2006,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 20523,
+      "webSearchRequests": 0,
+      "costUSD": 0.102156,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 663,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

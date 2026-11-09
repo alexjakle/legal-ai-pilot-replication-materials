@@ -1,0 +1,15 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Telltale Cardiac Systems):
+(empty)
+
+Firm store:
+(empty)
+
+New matter: A-3
+Client: Telltale Cardiac Systems
+
+Question:
+In the new Telltale case, plaintiff says the lead's insulation degraded because of materials its supplier chose, and has designated an expert on why the lead failed. What is our plan for that expert, and what do we already know from the company's earlier insulation-related cases that bears on the supplier's role?
+
+Answer the question.

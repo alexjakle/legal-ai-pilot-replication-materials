@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-T3",
+  "prompt_hash": "e2ae803c6e54bf6d03ab46e58f0e8fc8321c344a637ddc0ff0a66ef64de24949",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:21:05+00:00",
+  "session_id_in": null,
+  "session_id": "f677a950-5b50-4b42-984d-d1ee80d436b1",
+  "text": "**Short answer:** Our plan is to answer plaintiff's metallurgist with our own qualified experts. But we don't engage anyone until Joad has reviewed and approved them. The first step is to go to Evander Thorsby, not to retain an expert.\n\n**What we do first**\n\n1. **Write to Thorsby (all communications go through him).** Report that plaintiff's metallurgist is opining that the component failed in fatigue because of its design. Tell him we plan to retain rebuttal experts and that Joad must approve them before any engagement.\n2. **Take Joad up on its offer to help identify candidates.** Joad offered to help find people with standards-body experience, so we ask for that input at the same time. Joad also prefers that design testimony stay focused on the product at issue, so we should factor that into who we pick.\n3. **Preserve the physical evidence.** Before anyone inspects or tests the part, we need to address the evidence. This includes the failed component and any exemplar units.\n   - Give advance notice and agree a written protocol with both sides' engineers present.\n   - No disassembly, cleaning or sectioning until the protocol is agreed.\n   - Joad engineers handle the unit only with counsel present, and we do not contact them directly because Thorsby arranges access.\n\n**The expert plan**\n\n- **Disciplines.** We likely need a metallurgist or fractography expert to address the failure mode, and a design or standards expert to address the design-defect theory. The design expert is the one where Joad's standards-body experience suggestion matters most.\n- **Candidates.** We prepare a memo with several candidates per discipline, including credentials and prior testimony, and send it to Thorsby for review.\n- **Approval.** We confirm the client discussion has happened and get Joad's approval before engaging anyone the memo recommends.\n- **Testing.** Joad requires at least ten days' notice of any proposed testing and wants quotes before testing is commissioned. We send Thorsby the notice and quotes first, and nothing is commissioned until he agrees.\n- **Test files.** We keep a tight circle on who sees the test files. Experts get Joad's internal test data and design records only after a protective order is signed. That order needs an outside-counsel-and-experts-only tier, and we do not stipulate to authenticity of the data before then. Experts therefore start with what is public or already produced, and work on the sensitive material once the order is in place.\n- **Testifying versus consulting.** Until approval comes through, no one is retained as a testifying expert. If we need early technical help to assess the opinion, we raise it with Thorsby as part of the same request.\n\n**What we do not do**\n\n- No engaging, even informally, any expert before Joad approves.\n- No contacting Joad engineers or production staff directly.\n- No producing internal test data before the protective order is signed.\n- No putting forward any Joad witness to address the design question without first discussing it with Thorsby.\n\n**Reporting.** We note the plaintiff's expert opinion and our response plan in the next six-week report. If the opinion affects exposure or coverage, we copy Perpetua Wallace, the insurer's claims handler. We also keep Thorsby informed of any budget impact from adding experts and testing.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:21:05+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "f677a950-5b50-4b42-984d-d1ee80d436b1",
+    "input_tokens": 2,
+    "output_tokens": 1048,
+    "cache_write_tokens": 2135,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019024000000000003,
+    "latency_ms": 9778,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1048,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2135,
+      "webSearchRequests": 0,
+      "costUSD": 0.019024000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "11b31cff587e99cb",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6530,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.113488,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3062,
+      "provider": "firstParty",
+      "thinkingTokens": 1341,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "5573e5c3dcc8f5704d767ba76cc052076ddaaf47ba77ea3f6e9f05f9c87e63e2",
+  "session_id": "d39c3e67-0163-4cff-bd6f-f2609cfec744",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"paraphrase\", \"quote\": \"I also don't know whether mediation (due by July 17) has happened or the case has settled. If it hasn't, the August 21 plaintiff designation date has likely passed, and we need to check what was served.\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"pattern\", \"quote\": \"Test causation first, using the joint inspection and our own records. Take on the design or manufacturing theory only after that, and only if causation survives.\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"pattern\", \"quote\": \"Does the sticking-pin opinion rest on testing?\\n   - Does it fit the ordinary-use facts: dried beans, indicator down, lid turned with ordinary effort?\"},\n{\"label\": \"R10\", \"verdict\": \"pattern\", \"quote\": \"Test causation first, using the joint inspection and our own records. Take on the design or manufacturing theory only after that, and only if causation survives.\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"pattern\", \"quote\": \"If the answers are no, we challenge his reliability. If that narrows causation, the alternative-design argument matters much less.\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Send a one-page report (exposure range, status, dates, decisions needed) after the inspection result\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"Settle how to handle ECN-6200-14 and the complaint and TT-5500 material before the June 5 production.\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Check whether the opinion has moved toward a manufacturing defect tied to lot Q3-2024.\", \"apparent_reach\": \"matter\", \"note\": \"Specific production lot identifier for the B-2 unit.\"},\n{\"output_quote\": \"Pull the July 2025 gasket shipment records. They raise an alteration question, but they also let plaintiff argue we sent the wrong part.\", \"apparent_reach\": \"matter\", \"note\": \"Specific replacement-gasket shipment fact and its risk assessment.\"},\n{\"output_quote\": \"Gather our own facts, through Mr. Oyelaran with a copy to Ms. Moorcroft.** We do not contact client employees directly.\", \"apparent_reach\": \"client\", \"note\": \"Client communication protocol: route fact gathering through GC with copy to a named contact, no direct employee contact.\"},\n{\"output_quote\": \"Beyond the agreed scope, we do not volunteer complaint history.\", \"apparent_reach\": \"client\", \"note\": \"Standing discovery practice about complaint history.\"},\n{\"output_quote\": \"since it may change the $140,000–$320,000 range. Any settlement position needs the General Counsel's written approval.\", \"apparent_reach\": \"matter\", \"note\": \"Specific exposure range figure and GC written-approval requirement for settlement positions.\"},\n{\"output_quote\": \"Follow up on the retailer-return and resale question and the request that Marlowe preserve its records.\", \"apparent_reach\": \"matter\", \"note\": \"Named retailer Marlowe and a preservation request; references the return/resale issue without stating the fact.\"},\n{\"output_quote\": \"Dr. Takahashi attends and gives a preliminary read, not a formal report.\", \"apparent_reach\": \"matter\", \"note\": \"Named consulting engineer and the instruction on how they participate in the inspection.\"}\n]}\n```",
+  "timestamp": "2026-10-20T03:31:21+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6530,
+    "call_id": "11b31cff587e99cb",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 24104,
+    "model": "claude-opus-5-5",
+    "output_tokens": 3062,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:31:21+00:00",
+    "total_cost_usd": 0.113488
+  }
+}

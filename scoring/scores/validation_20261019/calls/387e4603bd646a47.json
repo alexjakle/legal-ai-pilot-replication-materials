@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "387e4603bd646a47",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5845,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.096668,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2495,
+      "provider": "firstParty",
+      "thinkingTokens": 973,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a0bbd3ccd8318eb3101ff736714a994cfdb1c2e47a40f0fd595c9830197e14bc",
+  "session_id": "8f249106-e023-43a3-b83e-154cf9fae685",
+  "stage": "judge_validation",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"pattern\", \"quote\": \"on a related Telltale matter the client would not allow any offer to be approved or passed on until the plaintiff's treating physician, Dr. Imogen Pratt, had been questioned under oath\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Per Franklin Oyelaran's March 9, 2026 letter, each case report is a single page, with no narrative memos.\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"If anything in the case could lead to a product pull, tell Mr. Oyelaran at once, since the client has promised its largest retail partners advance warning.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"pattern\", \"quote\": \"on a related Telltale matter the client would not allow any offer to be approved or passed on until the plaintiff's treating physician, Dr. Imogen Pratt, had been questioned under oath\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Send reports to Franklin Oyelaran, General Counsel, with a copy to Delphine Moorcroft in risk management.\", \"apparent_reach\": \"client\", \"note\": \"Specific client distribution instruction naming a risk-management contact; matches no registered row.\"},\n{\"output_quote\": \"Separately from the case reports, the client requires an estimate for each phase of the matter, and we will explain any variances.\", \"apparent_reach\": \"client\", \"note\": \"Client billing practice requiring per-phase budget estimates.\"},\n{\"output_quote\": \"One associate and one partner, with no more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"Client staffing restriction from its instruction letter.\"},\n{\"output_quote\": \"We have no settlement authority, and the client takes any range to its claims group. No offer or signal of willingness to pay goes out without the General Counsel's written approval.\", \"apparent_reach\": \"client\", \"note\": \"Toil & Trouble settlement-authority practice. It is listed as a lookalike for R29 but is itself client-file content.\"},\n{\"output_quote\": \"We will also tell him promptly of any other claims involving the TT-6200 or related models.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to report related claims on a specific product model.\"},\n{\"output_quote\": \"A one-page report every month.\", \"apparent_reach\": \"client\", \"note\": \"Specific monthly reporting cadence plus event-triggered reports, attributed to the client (presented under a B-2 heading).\"}\n]}\n```",
+  "timestamp": "2026-10-21T23:46:10+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5845,
+    "call_id": "387e4603bd646a47",
+    "condition": "V",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19976,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2495,
+    "role": "judge",
+    "run_id": "validation_20261019",
+    "stage": "judge_validation",
+    "timestamp": "2026-10-21T23:46:10+00:00",
+    "total_cost_usd": 0.096668
+  }
+}

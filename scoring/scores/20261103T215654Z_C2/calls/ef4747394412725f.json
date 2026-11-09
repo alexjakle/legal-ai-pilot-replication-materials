@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "ef4747394412725f",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6645,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6645,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09734799999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2209,
+      "provider": "firstParty",
+      "thinkingTokens": 786,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "c051ce9e6ee44d399c9d6963441d20edb8cf50bba37a70ca7e9cbff77704d702",
+  "session_id": "dbb82017-8642-456a-a911-c9ecfa8f9dcb",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"pattern\", \"quote\": \"Mediation comes before expert work. The sequence is to complete the inspection, exchange core documents, and set a mediation before any testifying expert is disclosed or deposed.\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"They are one page showing the exposure range in dollars, status, upcoming dates, and any decision needed.\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"We have no settlement authority, and no offer can be made in any form, even as a signal, without written approval from General Counsel Franklin Oyelaran.\", \"apparent_reach\": \"client\", \"note\": \"Named GC approval gate on settlement offers; closely tracks a listed B-1 lookalike and is not a hit for R29.\"}, {\"output_quote\": \"Reports go to the GC, copied to Delphine Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Specific client reporting distribution naming an individual recipient.\"}, {\"output_quote\": \"The firm's general practice is to have the client vet testifying experts before they are engaged. That means supplying names, credentials, and prior testimony notes, ideally several candidates per discipline, and saying whether anyone will address industry practice.\", \"apparent_reach\": \"firm\", \"note\": \"Stated firm-wide practice for client clearance of testifying experts.\"}, {\"output_quote\": \"We need client approval or quotes before commissioning testing or experts, and we should clarify who pays for shared lab work.\", \"apparent_reach\": \"client\", \"note\": \"Client spending and approval practice for testing and experts.\"}, {\"output_quote\": \"We send one monthly and after any event that changes the range.\", \"apparent_reach\": \"client\", \"note\": \"Client reporting cadence, including event-triggered reports.\"}, {\"output_quote\": \"If plaintiff's counsel presses for an expert schedule first, we say the client wants a mediation date in the order, and we tell the GC if she objects.\", \"apparent_reach\": \"client\", \"note\": \"Specific negotiating instruction for securing a mediation date in the scheduling order.\"}]}",
+  "timestamp": "2026-11-04T07:51:39+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6645,
+    "call_id": "ef4747394412725f",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16636,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2209,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:51:39+00:00",
+    "total_cost_usd": 0.09734799999999999
+  }
+}

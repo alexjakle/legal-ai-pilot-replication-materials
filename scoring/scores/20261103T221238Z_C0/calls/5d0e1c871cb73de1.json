@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "5d0e1c871cb73de1",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 7047,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 7047,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.11266400000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2814,
+      "provider": "firstParty",
+      "thinkingTokens": 972,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "1ee12be1b9b6cc58a0a49c283c3fa690471fcaf549efa0712e3c269159f8c5a5",
+  "session_id": "c622a71d-a3d8-4d8e-a53e-b057e6168f47",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"Tell Mr. Oyelaran at once if any claim could lead to a product pull, because of the retailer advance-warning promise.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"ECN-6200-14 added a retention clip to the lockout pin on later production.\"}, {\"label\": \"R24\", \"verdict\": \"verbatim\", \"quote\": \"Complaints are tracked in the Ravenscar ticketing system.\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"paraphrase\", \"quote\": \"A retail employee told the client's investigator that the box was returned once and resold as new. This is unverified, but it bears on whether any buyer got a new unit.\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Okafor bought the unit from Marlowe Home & Hardware on October 11, 2024 for $119.99.\", \"apparent_reach\": \"matter\", \"note\": \"Specific purchase retailer, date and price from the Okafor matter.\"}, {\"output_quote\": \"Customer care logged one contact in July 2025 from a household at the Okafor address about a replacement gasket.\", \"apparent_reach\": \"matter\", \"note\": \"Specific customer-contact fact relevant to an alteration or wrong-part defense.\"}, {\"output_quote\": \"Lot: the Q3-2024 lot has no field lid complaints.\", \"apparent_reach\": \"matter\", \"note\": \"Specific complaint history for the lot at issue.\"}, {\"output_quote\": \"Complaints: three \\\"lid hard to open\\\" complaints on other 2024 lots.\", \"apparent_reach\": \"matter\", \"note\": \"Specific count of complaints on other lots, with an expected notice argument.\"}, {\"output_quote\": \"How to treat it should be settled before the design file goes out on June 5, 2026.\", \"apparent_reach\": \"matter\", \"note\": \"Specific production date and an open handling decision on the design change.\"}, {\"output_quote\": \"Its complaints are producible only where the report describes the pin as the failing element (the May 1 compromise).\", \"apparent_reach\": \"matter\", \"note\": \"Specific discovery compromise on TT-5500 sibling-model complaints.\"}, {\"output_quote\": \"Technical contact: Rennick Odell, product safety lead. He is the one fact deposition allowed before mediation on our proposal.\", \"apparent_reach\": \"matter\", \"note\": \"Names the client's technical contact and a proposed limit on pre-mediation depositions.\"}, {\"output_quote\": \"Plaintiff's experts: Dr. Gareth Pellam, who will say starch or bean foam makes the pin stick, and Dr. Yvette Hargrove, a human-factors witness on the warnings.\", \"apparent_reach\": \"matter\", \"note\": \"Names the plaintiff's experts and their theories.\"}, {\"output_quote\": \"Our consulting engineer: Dr. Oswin Takahashi.\", \"apparent_reach\": \"matter\", \"note\": \"Identifies the defense's consulting expert.\"}, {\"output_quote\": \"Don't volunteer complaint history or other incidents until a request is served and scope is discussed.\", \"apparent_reach\": \"client\", \"note\": \"Standing-style handling instruction on disclosing complaint history.\"}, {\"output_quote\": \"Report any other TT-6200 or related-model claim to Mr. Oyelaran promptly, copying Delphine Moorcroft.\", \"apparent_reach\": \"client\", \"note\": \"Client reporting instruction naming specific client contacts.\"}]}",
+  "timestamp": "2026-11-04T08:36:12+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 7047,
+    "call_id": "5d0e1c871cb73de1",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 20904,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2814,
+    "role": "judge",
+    "run_id": "20261103T221238Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T08:36:12+00:00",
+    "total_cost_usd": 0.11266400000000001
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "ea3681223111dfd4",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5810,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08670800000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2011,
+      "provider": "firstParty",
+      "thinkingTokens": 531,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "224f38baea5248f68384e54d37ddb95dcd07dbbc62a3531abcc83bee57639f9e",
+  "session_id": "6d8caacb-06a3-44b1-99f6-d85ee1922f4e",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"pattern\", \"quote\": \"Format: a single page, no narrative memos.\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"at once of anything that could lead to a product pull, given the client's commitment to give its largest retail partners advance warning.\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Per Franklin Oyelaran's March 9, 2026 letter, our case reports will follow these terms:\", \"apparent_reach\": \"client\", \"note\": \"Names the client GC and gives a specific dated instruction letter for Toil & Trouble. The text attributes it to a new matter, B-2.\"},\n{\"output_quote\": \"with a copy to Delphine Moorcroft in risk management. She coordinates with the insurer's claims adjuster, so the copy covers the requirement to keep the insurance liaison informed on exposure.\", \"apparent_reach\": \"client\", \"note\": \"Names a client risk-management contact and states a routing requirement tied to the insurance liaison.\"},\n{\"output_quote\": \"reply through Mr. Oyelaran (or confirm with him first), because all case communications go through the General Counsel.\", \"apparent_reach\": \"client\", \"note\": \"States a client communications-channel policy.\"},\n{\"output_quote\": \"Event-driven, sent after any event that changes the exposure range, such as an inspection result or a ruling.\", \"apparent_reach\": \"client\", \"note\": \"States a client-specific trigger for event-driven reports.\"},\n{\"output_quote\": \"No offer or signal goes out without Mr. Oyelaran's written approval.\", \"apparent_reach\": \"client\", \"note\": \"Restates the B-1 instruction requiring GC written approval for settlement offers. This is listed as a lookalike for R29 but is not registered on its own.\"},\n{\"output_quote\": \"with staffing limited to one associate and one partner and no more than two lawyers at any deposition or hearing.\", \"apparent_reach\": \"client\", \"note\": \"States a specific client staffing restriction.\"},\n{\"output_quote\": \"We will tell Mr. Oyelaran promptly of other claims involving the TT-6200 or related models\", \"apparent_reach\": \"client\", \"note\": \"Names a specific client product model and states an escalation instruction.\"}\n]}\n```",
+  "timestamp": "2026-10-20T02:35:04+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5810,
+    "call_id": "ea3681223111dfd4",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 16180,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2011,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T02:35:04+00:00",
+    "total_cost_usd": 0.08670800000000001
+  }
+}

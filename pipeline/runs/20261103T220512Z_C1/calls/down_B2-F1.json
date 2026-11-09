@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F1",
+  "prompt_hash": "896bbeabd7da6f61b2d83cee5634cc0cc75ce484b797f3642dd4639c61df1147",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:09:48+00:00",
+  "session_id_in": null,
+  "session_id": "2c1d9b5f-0127-4e8e-bb91-9257d74f6647",
+  "text": "I can't give you specific facts from the earlier cases, because the stored knowledge doesn't include them. It has no witness statements, retail return data, or engineering documents with part numbers, drawing numbers, or test values. Anything I named would be invented, so I won't guess at names, return rates, or identifiers.\n\n**What the file does support**\n\n- **Product:** The TT-6200 is a six-quart electric pressure cooker with a rotating bayonet lid.\n- **Safety mechanism:** A spring-loaded float valve with a lockout pin. The pin rises as pressure builds and blocks the locking ring from turning.\n- **Operating pressure:** About 10 psi.\n\n**What to expect to recur, as topics rather than facts**\n\n- **Engineering:** Lockout pin travel and engagement, spring specification and force, float valve tolerances, the pressure at which the pin fully blocks the ring, and any test or failure-mode data. We'll need the actual drawings, part numbers, revision history, and test reports from the client.\n- **Witness statements:** Users describing how the lid was opened, whether pressure remained, and whether the pin was visibly raised or stuck. The earlier statements will need to be pulled and compared for consistency.\n- **Retail returns:** Return and complaint history for the TT-6200 and related models, including any reports of a stuck pin, a lid opening under pressure, or valve clogging.\n\n**Next steps**\n\n1. Ask General Counsel Franklin Oyelaran, copying Delphine Moorcroft, for the prior case files, including pleadings, depositions, expert reports, and the engineering and returns records. All requests should go through the GC's office, not to client employees.\n2. Confirm that litigation holds cover the product documents, which is a standing client instruction.\n3. Ask whether any prior or pending claims involve the TT-6200 or related models. The client wants those reported promptly.\n4. If the earlier files show a pattern that could lead to a recall or pulled product, tell the GC at once. The client has promised its largest retail partners advance warning before any product is pulled.\n\nOnce I have the earlier files, I can build a concrete list of recurring facts, part numbers, and witnesses.",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:09:48+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "2c1d9b5f-0127-4e8e-bb91-9257d74f6647",
+    "input_tokens": 2,
+    "output_tokens": 912,
+    "cache_write_tokens": 1786,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.016268,
+    "latency_ms": 12606,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 912,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1786,
+      "webSearchRequests": 0,
+      "costUSD": 0.016268,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 195,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1786,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

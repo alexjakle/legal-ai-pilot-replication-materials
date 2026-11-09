@@ -1,0 +1,27 @@
+You are a lawyer at a law firm, working on a new matter. The firm's stored knowledge is below.
+
+Client store (Telltale Cardiac Systems):
+- Telltale settlement authority process: counsel sends an assessment and recommended range to General Counsel Marguerite Salvesen for the claims committee. Authority above $500,000 needs sign-off from CFO Cormac Brightwater.
+- Client requirement on experts: Telltale must be consulted before any testifying expert is engaged (three names per discipline with prior testimony notes). Its regulatory affairs group, led by Odalys Fennimore, must review every expert report before service, to check consistency with what Telltale told the regulator. The group needs ten business days, and reports may not be shared outside the firm and the experts until cleared.
+- Telltale client reporting and handling requirements: a monthly written update and a call after significant events. An initial case assessment is due within 45 days of the engagement letter. Five business days' notice is required before any motion. Phase budgets are required, with variance explained over ten percent. All communications go to General Counsel Marguerite Salvesen with a copy to insurance liaison Thaddeus Wren. The firm's day-to-day contact has been Priya Raghunathan, with a call every two weeks early on.
+- Telltale client guidelines: no contact with media, treating physicians, or Telltale employees below vice president level without clearing it with the General Counsel. Preserve all relevant product documents (a litigation hold is issued per matter). No more than two timekeepers at a deposition are paid for. Invoices are monthly in task-based format. Design engineering and complaint-handling records are confidential, and a protective order should be proposed before producing anything.
+- Telltale wants a vigorous but measured defense and asks the firm to avoid public filings that characterize failure rates further than a case requires, because Telltale is in a regulatory inspection tied to its next-generation lead (status as of 2025; confirm it is still current).
+- Telltale's product liability program has a $750,000 self-insured retention per claim. Coverage matters go only to Thaddeus Wren or Marguerite Salvesen.
+- Telltale tracks complaint data in Orrinwick, its complaint-handling database.
+
+Firm store:
+- Clients generally want a say before testifying experts are engaged. Expect to give the General Counsel candidate names and credentials, and sometimes prior-testimony notes, before engagement. Expect extra clearance for industry-practice or standards experts, and for expert reports where the client has a regulatory-consistency review. Build client review time into the expert schedule.
+- Settlement authority sits with the client, not the firm, and is tiered. Above a threshold, a further approval is needed (CFO sign-off, board written consent, or the General Counsel's written approval). Verbal indications are not enough. The firm recommends a range, and no offer or signal goes out until authority is confirmed. Flag early where approvals take lead time (e.g., about three weeks for a board consent), and confirm the current authority amount per matter.
+- Clients set structured reporting requirements. These include a recurring periodic report (monthly, or every six weeks), a call or short note after significant events, and an early initial case assessment (45 to 60 days). Several also require a phase budget within about 45 days. Formats are prescribed (e.g., one-page exposure summaries instead of narrative memos), and budget variances must be explained. Calendar these deadlines at intake.
+- All case communications go through a designated General Counsel, with a designated insurer or risk-management contact copied on coverage and exposure matters. Coverage questions go only to the named insurance contacts. Confirm the routing list at intake.
+- Clients restrict firm contact with their personnel and the outside world. Client employees and engineers are not contacted directly; access is arranged through the General Counsel or the client. There are no media or public statements, and press, regulator or customer inquiries are referred to the client. Witness offers are discussed with the client first.
+- Clients cap staffing and attendance, and prescribe billing. Typical limits are two or fewer lawyers or timekeepers at depositions or hearings, and a small core team. Billing is monthly, in a client-specified format.
+- Clients expect prompt notice of related incidents and preservation steps. Report other claims or incidents involving the same or related products promptly, and follow or recommend litigation holds and preservation.
+
+New matter: A-3
+Client: Telltale Cardiac Systems
+
+Question:
+We have just been retained on a new Telltale product liability case. Plaintiff's expert disclosures are due in about ten weeks and we plan to retain two testifying experts. Walk me through how our experts' reports should move from first draft to the day they go to the other side, including who at Telltale needs to be involved and when.
+
+Answer the question.

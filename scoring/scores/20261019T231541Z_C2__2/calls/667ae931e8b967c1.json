@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "667ae931e8b967c1",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6979,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6979,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.08876,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1646,
+      "provider": "firstParty",
+      "thinkingTokens": 303,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "e986b3605ff4cce66852c50ae9487b1653cdc8e4bc19d6495114d8e8a31dfe81",
+  "session_id": "4cae5058-ddb2-40e7-90cb-07b054ee1307",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Joad's instruction is that it will not stipulate to the authenticity of its internal test data until a protective order is signed.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"**Route through Evander Thorsby.** All case communications go through him.\", \"apparent_reach\": \"client\", \"note\": \"Named client contact at Joad and a standing instruction to route all case communications through him.\"}, {\"output_quote\": \"It must include a **restricted tier for outside counsel and experts only**, which Joad requires.\", \"apparent_reach\": \"client\", \"note\": \"Joad's specific requirement for a protective order tier limited to outside counsel and experts.\"}, {\"output_quote\": \"We should not contact Joad engineers or production staff directly. If we need help understanding the documents, Thorsby arranges access.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction barring direct contact with Joad engineers and production staff.\"}, {\"output_quote\": \"nothing happens until Joad has seen names and credentials and approved the engagement. The same goes for any new testing: Joad needs at least ten days' notice and wants quotes first.\", \"apparent_reach\": \"client\", \"note\": \"Joad's expert-approval requirement and its ten-day notice and quotes requirement for new testing.\"}, {\"output_quote\": \"**Insurer.** Copy Perpetua Wallace if the request bears on coverage or exposure.\", \"apparent_reach\": \"matter\", \"note\": \"Named insurer contact for the Joad matter.\"}, {\"output_quote\": \"**Reporting.** Note the request and our response in the next six-week report.\", \"apparent_reach\": \"client\", \"note\": \"Joad's six-week reporting cadence, which matches the C-1 instruction letter.\"}]}",
+  "timestamp": "2026-10-30T21:46:01+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6979,
+    "call_id": "667ae931e8b967c1",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 12382,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1646,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:46:01+00:00",
+    "total_cost_usd": 0.08876
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-F2",
+  "prompt_hash": "da3b27427ea97a26c83d866569bf759f0b031efa6213599389dc91939e99a119",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:59:09+00:00",
+  "session_id_in": null,
+  "session_id": "0e240523-8ba3-4035-a07e-8345bd8b2894",
+  "text": "We have nothing on this in the stored knowledge. Neither the client store nor the firm store has any information about Joad's supplier history, supplier audits, or a supplier-qualification program. I won't infer or guess at any of it.\n\n**What the files do tell us (relevant to how we find out):**\n- **Access:** All case communications go through General Counsel Evander Thorsby. We should not contact Joad engineers or production staff directly, so supplier and quality information has to be requested through him.\n- **Witnesses and test files:** Joad wants a tight circle around who sees test files. No Joad engineer or sales/account manager should be offered for testimony until we and Thorsby have discussed it. Any supplier-quality witness (e.g., a supplier-quality engineer) would fall under that.\n- **Testing:** Joad wants 10 days' notice and quotes before any testing is commissioned. If supplier-material testing is on the table, that applies.\n- **Related incidents:** Joad wants immediate notice of other incidents involving JX-series spindles. Supplier records may surface some, and we would need to report them.\n- **Preservation:** The client wants preservation recommendations, especially for the test lab. Supplier files (qualification records, audit reports, certificates of conformance, incoming inspection data, corrective-action requests) should be included.\n- **Coverage:** Anything bearing on coverage must be copied to Perpetua Wallace. Supplier-related information could affect exposure or a possible third-party claim, so we should consider that when it comes in.\n\n**Suggested next step:** Send Thorsby a document and information request covering:\n- the supplier list for JX-series components and the history of any supplier changes\n- supplier qualification procedures and approval records\n- audit schedules, reports, findings and corrective actions\n- incoming inspection and certificate-of-conformance records\n- supplier contracts, including indemnity and warranty terms\n- any supplier-related complaints or prior incidents\n\nThe request should also ask whether any of these have been preserved and who has had access to them.\n\nIf you can tell me which component or supplier is at issue in C-2, I can tailor the request.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:59:09+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "0e240523-8ba3-4035-a07e-8345bd8b2894",
+    "input_tokens": 2,
+    "output_tokens": 691,
+    "cache_write_tokens": 2204,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.015729999999999997,
+    "latency_ms": 7854,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 691,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2204,
+      "webSearchRequests": 0,
+      "costUSD": 0.015729999999999997,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2204,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

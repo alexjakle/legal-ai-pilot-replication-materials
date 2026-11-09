@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T3",
+  "prompt_hash": "bede1be0687384245818950db2a6916e9ac42dd3e99c24983437aa3da4eddb1a",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T21:59:42+00:00",
+  "session_id_in": null,
+  "session_id": "50e33017-da27-487c-8f35-498b2604580b",
+  "text": "# Plan for plaintiff's insulation-failure expert, and what we know about the supplier's role\n\n## What we know from earlier insulation cases\n\nNothing on this is in the firm's or the client's stored knowledge. The Telltale file I have covers settlement and coverage structure, reporting and billing, expert and regulatory protocols, and the expert report process. It has no record of earlier insulation matters, what they found about the supplier's material choices, or any prior testimony. I won't guess at it.\n\nTo fill the gap, I would take these steps:\n- **Ask Marguerite Salvesen (GC), copying Thaddeus Wren,** for the prior insulation-related case files, pleadings, expert reports, and outcomes. Ask specifically for any findings or admissions about who selected the insulation materials and on what specification.\n- **Check whether the same plaintiff expert has appeared in those cases** and, if so, what that expert said.\n- **Check our own prior positions on supplier responsibility** for consistency, and check for protective orders or confidentiality limits on reusing earlier materials.\n- **Confirm the litigation hold** covers supplier specifications, material-selection and qualification records, and supplier communications, and ask about other incidents involving the same or related models. The client expects prompt reporting of those.\n\n## Plan for the plaintiff's expert\n\n1. **Retain our own testifying experts, with client clearance first.**\n   - Likely disciplines are polymer/insulation materials failure analysis, and possibly industry practice if the supplier's role will be addressed.\n   - Offer Salvesen three names per discipline, with prior testimony notes.\n   - Get budget approval before commissioning any experts or testing, since these drive most of the cost variance. Clarify who pays for shared lab work.\n\n2. **Build the regulatory review into the timeline.**\n   - Odalys Fennimore's regulatory affairs group must review every expert report before service, and they get ten business days.\n   - Have our expert deliver a near-final draft early enough to fit that window before the service deadline.\n   - Route regulatory comments through counsel and log what is sent, so the exchange stays protected work product.\n   - Confirm that any draft-protection stipulation covers this review.\n\n3. **Control how failure rates are characterized.** The client is in a regulatory inspection on its next-generation lead. Our expert reports, any motion to exclude the plaintiff's expert, and our other filings should avoid describing failure rates beyond what is necessary.\n\n4. **Take the plaintiff expert's deposition with discipline.**\n   - Staff it with no more than two timekeepers.\n   - Give the client a call or short note afterward.\n   - Give five business days' notice before filing any motion, such as a motion to exclude the expert.\n\n5. **Consider the supplier angle early.**\n   - Possible steps include contribution, indemnity, or third-party claims against the supplier. These touch coverage and exposure, so Wren should be copied.\n   - The $750,000 per-claim self-insured retention matters here.\n   - Any settlement figure above $500,000 needs written confirmation of CFO (Cormac Brightwater) approval, and approvals above the officer or insurer tier can take weeks, so flag that early.\n\n6. **Report to the client on schedule.**\n   - Cover the expert strategy in the initial assessment due within 45 days, with a phase budget.\n   - Cover it in the monthly written updates, with variance explanations for variances over 10%.\n   - All communications go to Salvesen with Wren copied.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T21:59:42+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "50e33017-da27-487c-8f35-498b2604580b",
+    "input_tokens": 2,
+    "output_tokens": 1782,
+    "cache_write_tokens": 1961,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.025668,
+    "latency_ms": 14714,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1782,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1961,
+      "webSearchRequests": 0,
+      "costUSD": 0.025668,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 628,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1961,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "c7cb767f4de5961416527da2555ea27d6d311d2540a61442695155003aa9d95d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:09:33+00:00",
+  "session_id_in": null,
+  "session_id": "41b0c24e-f44e-44da-81b1-3b61011402b1",
+  "text": "**Note:** The client and firm stores are empty, so I have no firm playbook, scheduling order, jurisdiction, or facts about the unit or the expert. What follows is a general approach to a manufacturing-defect expert, not a firm-specific protocol. Check it against the scheduling order and governing law once we have them.\n\n**Approach:** Don't assume the opinion is right. Test whether it is reliable and admissible, and build our own competing technical case. The goal is to exclude or limit the expert, or to discredit them at trial, while preserving our own evidence.\n\n**Order of proceeding:**\n\n1. **Lock down the evidence first.**\n   - Issue or confirm a litigation hold at Toil & Trouble covering design, manufacturing, QC, supplier, complaint, and returns records for this unit and lot.\n   - Secure the failed unit and exemplar units.\n   - Insist on a joint, written protocol before any inspection or destructive testing. Spoliation or unilateral testing is the biggest early risk.\n\n2. **Get the facts and the manufacturing record internally.**\n   - Interview engineering and production personnel.\n   - Pull the unit's build records, specifications, and any prior similar failures. We need to know our own weak points before we attack theirs.\n\n3. **Retain our own consulting expert, under privilege.**\n   - Use a consulting expert first, so candid assessments of defects, alternative causes (misuse, installation, wear, design versus manufacturing), and weaknesses stay protected.\n   - Convert to a testifying expert later if that helps.\n\n4. **Obtain the plaintiff expert's disclosures.**\n   - Get the report, CV, prior testimony, publications, fee information, and the complete file: data, test protocols, photos, notes, and communications to the extent discoverable.\n   - Watch the disclosure deadlines.\n\n5. **Analyze methodology.**\n   - Examine whether the expert did testing or only inferred defect from the failure.\n   - Check whether they ruled out alternative causes, identified a specific manufacturing deviation, and used generally accepted methods.\n   - Check whether they inspected the actual unit and chain of custody was maintained, and whether they are qualified in this specific field.\n\n6. **Depose the expert.**\n   - Do this after the file review and with our consultant's help.\n   - Lock in the basis for each opinion, concessions on alternative causes, and the limits of their testing.\n\n7. **File a Rule 702/*Daubert* motion (or the state equivalent), if warranted.**\n   - Target unreliable methodology or an insufficient factual basis.\n   - Consider a summary judgment motion if the exclusion would leave plaintiff without proof of defect.\n\n8. **Disclose our rebuttal or testifying expert on time.**\n   - The expert's report should address the manufacturing theory directly and offer an alternative causation analysis.\n\n**Next steps:** To refine this, I need the jurisdiction and court, the scheduling order, the product and failure facts, the expert's report if served, and any firm protocols for expert handling.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:09:33+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "41b0c24e-f44e-44da-81b1-3b61011402b1",
+    "input_tokens": 2,
+    "output_tokens": 1254,
+    "cache_write_tokens": 719,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.01542,
+    "latency_ms": 11747,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1254,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 719,
+      "webSearchRequests": 0,
+      "costUSD": 0.01542,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 251,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 719,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

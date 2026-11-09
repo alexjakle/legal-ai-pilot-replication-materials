@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "180b6cea2c23219b7f97002ba6b93afc1bce46ad5d919c185af8a04d439b2ebe",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T18:04:38+00:00",
+  "session_id_in": null,
+  "session_id": "008122ce-d1b0-4176-8d35-a54fa91c826f",
+  "text": "**Recommendation: a separate, standards/industry-practice expert, distinct from the engineering expert, and cleared with Franklin Oyelaran before anyone is engaged.**\n\n**Who should explain the standards**\n- A dedicated standards and industry-practice witness (for example, someone with committee experience on the relevant voluntary standards body and knowledge of how manufacturers in this product class apply the standards in design, testing and certification). This keeps the engineering expert focused on the product's design, failure mode and testing, and avoids stretching that expert beyond their field, which invites a qualification challenge.\n- Alternatively, if the standards role is narrow, the engineering expert could cover it. That is a fallback, not the lead recommendation. The decision belongs to the client.\n\n**How to position the two**\n- **Complementary and sequenced.** The engineering expert establishes what the product did and how it was designed and tested. The standards witness explains what the standards require, how the industry applies them, and how the product measures against them. Their opinions should be consistent, with each relying on the other's scope and neither opining outside it.\n- **Coordinated, not duplicative.** Define the scope of each in writing early, share the factual record, and make sure the standards testimony does not contradict the engineering analysis. This also keeps expert cost down, which matters given budget discipline.\n- **Neither is engaged yet.** At this stage, a consulting engineer attending a joint inspection is fine. Any testifying expert should wait.\n\n**Client approvals and process (required before engaging)**\n1. **Clear the plan with Franklin Oyelaran first.** The client expects to control expert selection, and a standards or industry-practice witness specifically must be cleared before any outreach. Provide names, credentials and prior testimony for each candidate.\n2. **Toil & Trouble prefers mediation before any testifying expert is disclosed or deposed**, because expert discovery is expensive and hardens positions. Raise timing with him: use the consulting engineer for now, and hold the testifying standards witness until the mediation question is resolved.\n3. **Regulatory review time.** Ask whether the client's regulatory group reviews expert reports for consistency with regulatory submissions. If so, build that review into the expert timetable, which matters particularly for a standards witness because their opinions on compliance may touch regulatory filings.\n4. **Budget.** Get quotes before engaging either expert, and flag to Franklin that experts are the likely main cost driver. Raise any projected overrun early and in writing.\n5. **Communications.** Send to Franklin with a copy to Delphine Moorcroft. Do not contact client employees directly to gather information on standards compliance. The client arranges access.\n6. **Confidentiality.** Do not give any expert the client's internal design, test or complaint-handling records until a protective order with an outside-counsel-and-experts tier is in place.\n\n**Flag for Franklin now:** if the standards analysis could show the product falls short of a voluntary standard, that could bear on exposure or on withdrawal. Because of the client's commitments to its largest retail partners, he must be told at once if anything points toward a possible product withdrawal. Any such result also changes the exposure range, which triggers a one-page report.\n\n**Decision needed from Franklin:** approve (a) a separate standards witness versus using the engineering expert for both, and (b) the timing, meaning consulting-only for now versus early testifying designation.",
+  "usage": {
+    "run_id": "20261103T180019Z_C2",
+    "timestamp": "2026-11-03T18:04:38+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "008122ce-d1b0-4176-8d35-a54fa91c826f",
+    "input_tokens": 2,
+    "output_tokens": 1121,
+    "cache_write_tokens": 2547,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.021402,
+    "latency_ms": 10932,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1121,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2547,
+      "webSearchRequests": 0,
+      "costUSD": 0.021402,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2547,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

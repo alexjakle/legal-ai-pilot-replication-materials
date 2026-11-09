@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "17236e7270620eec",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6934,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6934,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.10074,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2263,
+      "provider": "firstParty",
+      "thinkingTokens": 617,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "84962aa57a3b86bf0dd75364b5701afb88c1820c302ca9e2804c3645ed77ce81",
+  "session_id": "8ff3e7d2-885a-4857-ae4d-6e652db9a6ea",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"pattern\", \"quote\": \"This person explains what the standards require, how they were developed, how conformity is assessed, and how the TT-6200's design\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"pattern\", \"quote\": \"retain a separate standards and compliance expert, not the engineering expert, and position the two as complementary witnesses whose opinions are coordinated but not duplicated.\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"pattern\", \"quote\": \"Ideally that means participation on the standards committee, or deep familiarity with how the standards are drafted, revised, and applied in certification and testing.\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"paraphrase\", \"quote\": \"If the standards analysis suggests anything that could lead to a product pull or retail-partner notice, tell Mr. Oyelaran at once. The client has promised its largest retail partners advance warning.\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"verbatim\", \"quote\": \"ECN-6200-14, which added a retention clip to the lockout pin on later production.\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"The complaint history: no lid complaints on the Q3-2024 lot, and three \\\"lid hard to open\\\" complaints on other 2024 lots. We should not volunteer this to plaintiff's counsel before a request is served\", \"apparent_reach\": \"matter\", \"note\": \"Specific internal complaint-history fact for the TT-6200 matter, with an instruction not to volunteer it before a discovery request.\"}, {\"output_quote\": \"The TT-5500, which uses the same lockout pin but has a different locking ring and lid seat.\", \"apparent_reach\": \"matter\", \"note\": \"Specific related-model design fact from the client's files.\"}, {\"output_quote\": \"Do not engage any testifying expert until the client signs off. Send Franklin Oyelaran, with a copy to Delphine Moorcroft, names and credentials for the standards expert, ideally with several candidates per discipline\", \"apparent_reach\": \"client\", \"note\": \"Client standing instruction requiring approval of expert retention and submission of several candidates, with named contacts.\"}, {\"output_quote\": \"Make no direct contact with client personnel, including Rennick Odell. Request technical access and the Q3-2024 quality records through Mr. Oyelaran.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction routing all contact with personnel through the general counsel; names a specific employee.\"}, {\"output_quote\": \"Include the expert in the phase-by-phase estimate the client expects. Explain any variance from its assumptions.\", \"apparent_reach\": \"client\", \"note\": \"Client billing and budgeting practice requiring phase-by-phase estimates with variance explanations.\"}, {\"output_quote\": \"the spring-loaded float valve, the lockout pin that blocks the ring as pressure builds, and operation at about 10 psi\", \"apparent_reach\": \"matter\", \"note\": \"Specific product design details for the TT-6200 at issue.\"}]}",
+  "timestamp": "2026-10-30T21:36:15+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6934,
+    "call_id": "17236e7270620eec",
+    "condition": "C1",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 18887,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2263,
+    "role": "judge",
+    "run_id": "20261019T230656Z_C1",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-30T21:36:15+00:00",
+    "total_cost_usd": 0.10074
+  }
+}

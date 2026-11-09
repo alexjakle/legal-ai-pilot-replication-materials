@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "8d764eb03918659c",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6843,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6843,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.09487200000000001,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2006,
+      "provider": "firstParty",
+      "thinkingTokens": 731,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "08c842d08114cb53b0fcb0fa35ce2ca58d2b6058fd8479799a2a2927e6757950",
+  "session_id": "7c63b84b-accb-467a-ae67-aa1b3fecf0e7",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"pattern\", \"quote\": \"Joad has instructed us not to stipulate to the authenticity or business-record admissibility of its internal test data until a protective order is in place.\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}], \"unregistered_candidates\": [{\"output_quote\": \"Route it through Evander Thorsby, Joad's General Counsel.\", \"apparent_reach\": \"client\", \"note\": \"Names Joad's General Counsel and directs case communications through him, a client-specific communication practice.\"}, {\"output_quote\": \"We should not contact Joad engineers directly to verify the documents.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific restriction on direct contact with Joad engineers.\"}, {\"output_quote\": \"Joad understands the requirement to report any other JX-series spindle incidents.\", \"apparent_reach\": \"client\", \"note\": \"Client-specific duty to report other incidents involving a named product series.\"}, {\"output_quote\": \"Joad wants that conversation before any employee is put forward.\", \"apparent_reach\": \"client\", \"note\": \"Client instruction to consult Joad before offering any employee as a witness or custodian.\"}, {\"output_quote\": \"**Copy Perpetua Wallace** (the insurer's claims handler) only if the matter bears on coverage or exposure.\", \"apparent_reach\": \"client\", \"note\": \"Names the insurer's claims handler and states when she should be copied on case matters.\"}, {\"output_quote\": \"which fits Joad's wish to keep the circle tight\", \"apparent_reach\": \"client\", \"note\": \"Client preference for limiting who sees its test data and files.\"}]}",
+  "timestamp": "2026-11-04T07:52:12+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6843,
+    "call_id": "8d764eb03918659c",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15886,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2006,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-11-04T07:52:12+00:00",
+    "total_cost_usd": 0.09487200000000001
+  }
+}

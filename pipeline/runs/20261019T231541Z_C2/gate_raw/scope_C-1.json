@@ -1,0 +1,178 @@
+{
+  "matter": "C-1",
+  "call_id": "scope_C-1",
+  "timestamp": "2026-10-19T23:17:00+00:00",
+  "session_id": "03b73dc2-1d1f-4458-a130-c12ac8b472ab",
+  "raw": "{\"items\":[\n{\"id\":\"N722ac3.01\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.02\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.03\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.04\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.05\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.06\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.07\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.08\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.09\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.10\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.11\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.12\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.13\",\"decision\":\"client_store\",\"text\":\"Client instruction: Joad will not stipulate to the authenticity of its internal test data until a protective order is in place, and it requires an outside-counsel-and-experts-only tier. It will produce only what the court requires, and not before the order is signed.\",\"tags\":[]},\n{\"id\":\"N722ac3.14\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.15\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.16\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.17\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.18\",\"decision\":\"client_store\",\"text\":\"Client instruction on testing: Joad requires at least ten days' notice of any proposed testing of a product and wants quotes before testing is commissioned.\",\"tags\":[]},\n{\"id\":\"N722ac3.19\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.20\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.21\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.22\",\"decision\":\"client_store\",\"text\":\"Client control over experts: Joad wants to review the names and credentials of all proposed testifying experts before engagement and prefers design testimony to stay focused on the product at issue. It offered to help identify candidates with standards-body experience. Consult the client and get approval before engaging any expert.\",\"tags\":[]},\n{\"id\":\"N722ac3.23\",\"decision\":\"client_store\",\"text\":\"Settlement authority: settlement above the insurer's pre-approved tier needs written board of directors sign-off. Verbal indications from directors or officers are not enough, and the client needs about three weeks to prepare a board consent.\",\"tags\":[]},\n{\"id\":\"N722ac3.24\",\"decision\":\"client_store\",\"text\":\"Client instruction: no offer above the authority already approved may be made or communicated, even as a signal, until written board sign-off is in hand. For any offer within the insurer's tier, check with General Counsel Evander Thorsby before conveying it, because the insurer will want to be involved.\",\"tags\":[]},\n{\"id\":\"N722ac3.25\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.26\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.27\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.28\",\"decision\":\"client_store\",\"text\":\"Insurance handling: copy the insurer's claims handler, Perpetua Wallace, on anything bearing on coverage and send her monthly invoice summaries. The client is watching its policy's aggregate limit because of several open claims, and wants to hear the same day if the carrier reserves its rights.\",\"tags\":[]},\n{\"id\":\"N722ac3.29\",\"decision\":\"client_store\",\"tags\":[]},\n{\"id\":\"N722ac3.30\",\"decision\":\"client_store\",\"text\":\"Client communications rules: all case communications go through General Counsel Evander Thorsby. Do not contact current Joad engineers or production staff directly, since Thorsby arranges access. Keep a tight circle around who sees test files. Do not put forward any Joad witness for testimony until the firm and Thorsby have discussed it.\",\"tags\":[]},\n{\"id\":\"N722ac3.31\",\"decision\":\"matter_only\",\"tags\":[]},\n{\"id\":\"N722ac3.32\",\"decision\":\"matter_only\",\"tags\":[]}\n]}",
+  "parsed": {
+    "items": [
+      {
+        "id": "N722ac3.01",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.02",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.03",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.04",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.05",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.06",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.07",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.08",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.09",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.10",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.11",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.12",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.13",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client instruction: Joad will not stipulate to the authenticity of its internal test data until a protective order is in place, and it requires an outside-counsel-and-experts-only tier. It will produce only what the court requires, and not before the order is signed."
+      },
+      {
+        "id": "N722ac3.14",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.15",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.16",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.17",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.18",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client instruction on testing: Joad requires at least ten days' notice of any proposed testing of a product and wants quotes before testing is commissioned."
+      },
+      {
+        "id": "N722ac3.19",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.20",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.21",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.22",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client control over experts: Joad wants to review the names and credentials of all proposed testifying experts before engagement and prefers design testimony to stay focused on the product at issue. It offered to help identify candidates with standards-body experience. Consult the client and get approval before engaging any expert."
+      },
+      {
+        "id": "N722ac3.23",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Settlement authority: settlement above the insurer's pre-approved tier needs written board of directors sign-off. Verbal indications from directors or officers are not enough, and the client needs about three weeks to prepare a board consent."
+      },
+      {
+        "id": "N722ac3.24",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client instruction: no offer above the authority already approved may be made or communicated, even as a signal, until written board sign-off is in hand. For any offer within the insurer's tier, check with General Counsel Evander Thorsby before conveying it, because the insurer will want to be involved."
+      },
+      {
+        "id": "N722ac3.25",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.26",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.27",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.28",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Insurance handling: copy the insurer's claims handler, Perpetua Wallace, on anything bearing on coverage and send her monthly invoice summaries. The client is watching its policy's aggregate limit because of several open claims, and wants to hear the same day if the carrier reserves its rights."
+      },
+      {
+        "id": "N722ac3.29",
+        "decision": "client_store",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.30",
+        "decision": "client_store",
+        "tags": [],
+        "text": "Client communications rules: all case communications go through General Counsel Evander Thorsby. Do not contact current Joad engineers or production staff directly, since Thorsby arranges access. Keep a tight circle around who sees test files. Do not put forward any Joad witness for testimony until the firm and Thorsby have discussed it."
+      },
+      {
+        "id": "N722ac3.31",
+        "decision": "matter_only",
+        "tags": []
+      },
+      {
+        "id": "N722ac3.32",
+        "decision": "matter_only",
+        "tags": []
+      }
+    ]
+  }
+}

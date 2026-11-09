@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "63b520e982b24dcf901d6c631a07e60b3a740b79664f6e6a820cd5e2d1a21a57",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:10:16+00:00",
+  "session_id_in": null,
+  "session_id": "f55fb27a-0dff-4664-b922-c10f564a0bf5",
+  "text": "**Recommendation: a standards expert, separate from the design expert, identified now but not engaged until Telltale signs off.**\n\n**Who**\nLine up a testifying expert in cardiac lead standards. Good candidates have served on ISO 14708 / ISO 27186 or comparable working groups, or have a regulatory and standards-development background (FDA recognized consensus standards, premarket review of leads). Per Telltale's instruction, we should offer three names for this discipline. For each, we should include credentials and a note on prior testimony, including any past positions on lead standards, failure rates, or Telltale or its competitors. We should not retain anyone until Telltale has approved the choice.\n\n**When**\n- **Now:** Vet candidates for conflicts and prior testimony. Send the General Counsel the three names with the testimony notes, copying Thaddeus Wren, as Telltale requires on all communications to the GC.\n- **After approval:** Engage the expert early enough to shape the defense, not only to rebut plaintiff. That means before our design expert finalizes opinions, and well ahead of plaintiff's expert disclosure and our own report deadline.\n- **Before service:** Build in ten business days for Odalys Fennimore's regulatory affairs group to review each report. The review checks for conflicts with what Telltale told the regulator, and is especially sensitive given the inspection tied to the next-generation lead. No report may leave the firm and the experts until it is cleared. We should work back from the scheduling order's deadlines and flag any tight timing to the GC early.\n- **Budget:** Add the expert to the phase budget. If the estimate exceeds Telltale's assumption, we should explain the variance.\n\n**Role compared with the design expert**\n- **Standards expert:** Explains what the standards are, how they are developed and applied, which ones actually govern the AL-4120/ArcLine leads, and how the product was tested and complied. The expert also rebuts plaintiff's claim that the standards set a duty or were violated, and addresses regulatory clearance and the meaning of compliance. The expert should stay at the level of the standards framework.\n- **Design expert:** Addresses the engineering of the lead itself: design choices, risk analysis, testing, failure modes, and whether the design was reasonable and not defective. This expert relies on the Orrinwick design and complaint-handling records.\n- **Coordination:** The two should be consistent but not duplicative. The standards expert supplies the benchmark, and the design expert applies it to the product. Neither should wander into the other's field, so that cross-examination cannot exploit overlap or inconsistency.\n\n**Handling cautions**\n- The standards expert should not opine on failure rates beyond what the case requires, given Telltale's request to avoid public filings that characterize failure rates while the inspection is pending.\n- Design and complaint-handling records are confidential. A protective order must be proposed before any are produced or shared with experts beyond what the order covers.\n- Report the plan to Telltale in the monthly update. Any contact with Telltale engineers or other employees for the experts should go through the GC, and anyone below vice-president level needs prior clearance.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:10:16+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "f55fb27a-0dff-4664-b922-c10f564a0bf5",
+    "input_tokens": 2,
+    "output_tokens": 1030,
+    "cache_write_tokens": 1996,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.018288,
+    "latency_ms": 9553,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1030,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1996,
+      "webSearchRequests": 0,
+      "costUSD": 0.018288,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "81f66e1e514e0d2f70a107620558357d3d2fa5d59f8f712191c80f2072b24065",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-10-19T23:25:47+00:00",
+  "session_id_in": null,
+  "session_id": "7ca21299-a296-4138-80bc-e9651f5c4f98",
+  "text": "**Recommendation:** Line up a separate standards witness now, drawn from the cardiac-device standards community. That person should address only how lead standards are written and satisfied. The design engineer should address only this lead's design and testing.\n\n**Who**\n- The ideal witness has served on a committee or working group that wrote or maintains the lead-design standards, or has comparable standards-body experience. The witness should be able to explain what the standards require, how they were drafted, and what compliance means for a lead of this type.\n- The witness should not be a Telltale employee and should not be the design engineer.\n- Following the client's usual practice, propose three candidates with a note on each one's prior testimony. Get the General Counsel's approval before engaging anyone, and ask about fee quotes. Check the A-3 engagement terms for any different approval rules.\n\n**When**\n- Start now, before plaintiff's expert reports arrive. The standards defense takes time to build, and plaintiff's case leans on the standards. Early work lets us see what the standards actually say and whether our compliance record supports the defense. It also lets us shape the design expert's work.\n- Build in time for Telltale's regulatory affairs group to review the report before service. In the earlier Telltale matter that took about ten business days, but confirm the current requirement. Comments should go through counsel to the expert.\n\n**Role compared with the design expert**\n- **Separation protects the design expert.** If one person vouches for both the design and the yardstick, plaintiff can argue the engineer is grading his own work. A separate witness also keeps the design engineer out of cross-examination about committee politics and standards-drafting history.\n- **The standards witness** explains the origin, content, and meaning of the standards and what compliance requires. The witness should not opine on whether this lead is defective or safe.\n- **The design expert** applies those standards to this lead, covering its design, testing, and validation, and does not speak for the standards committee.\n\n**Engagement mechanics**\n- Retain the witness through the firm. The scope letter should be limited to the standards and their drafting history.\n- Route all drafts and communications through counsel and log what goes to the regulatory group, so the protection for draft reports and counsel communications holds. Confirm that the expert-draft protection stipulation covers that process.\n- Keep the standards witness's work separate from the design expert's, with no shared drafts.\n\n**Caveats**\n- I have no A-3 facts beyond your description of plaintiff's case, so I cannot identify specific standards or candidates. The first step is to identify which standards plaintiff relies on and how Telltale documented compliance.\n- I did not draw on candidates or materials from Telltale's other matters. That work is subject to client restrictions on sharing strategy and work product, so any reuse needs the client's go-ahead.",
+  "usage": {
+    "run_id": "20261019T232425Z_C0",
+    "timestamp": "2026-10-19T23:25:47+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7ca21299-a296-4138-80bc-e9651f5c4f98",
+    "input_tokens": 2,
+    "output_tokens": 1638,
+    "cache_write_tokens": 24932,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.11611199999999999,
+    "latency_ms": 14165,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1638,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 24932,
+      "webSearchRequests": 0,
+      "costUSD": 0.11611199999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 739,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

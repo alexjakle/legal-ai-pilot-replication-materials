@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "680f6fd1332c75c72c2369eae124ce7da810129ea8e74235528253304f78b032",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:09:54+00:00",
+  "session_id_in": null,
+  "session_id": "a01005f7-643a-4d1f-b733-bbc1c6590b38",
+  "text": "# Short answer\n\nRetain a separate **standards and industry-practice expert**. Do not have the engineering expert carry that testimony. Position the standards expert as a complementary witness who covers the framework, while the engineer covers the product.\n\nOur firm and client stores are empty for this matter, so this rests on general practice, not on prior Toil & Trouble facts, existing experts, or the specific standards at issue. I'd confirm those details before finalizing.\n\n## Who the standards expert should be\n\n- Someone with direct experience in the relevant standards-development body (ASTM, UL, ANSI, ISO/IEC, or similar). Ideal profiles are a long-time technical committee member or officer, or a former CPSC or other regulatory staffer who dealt with the standard.\n- Someone who can explain, from experience, how the standard was developed and what it covers, what it does not cover, how conformity is tested and certified, and how manufacturers actually apply it.\n- Someone with no entanglement. Screen for ties to Toil & Trouble, competitors, or the plaintiff's experts, for prior testimony or publications that cut against our position, and for any role in drafting a provision at issue.\n- Not a Toil & Trouble employee as an expert. If a client employee sat on a standards committee, treat them as a fact witness, and prepare for the bias cross-examination that comes with that.\n\n## How to position them relative to the engineering expert\n\n- **Division of labor.**\n  - The standards expert covers the framework: the origin, scope, and purpose of the standards, industry practice and its evolution, and what compliance means in practice.\n  - The engineer covers the product: design, testing, failure analysis, causation, and whether the product actually meets the standard's requirements.\n  - Keep the overlap narrow, with the engineer relying on the standards expert for the framework and the standards expert not opining on causation or design defect.\n- **Sequence.** The standards expert's account sets the benchmark, and the engineer then shows how the product measures against it. They need consistent terminology and consistent factual assumptions.\n- **Credibility.** Separating the roles protects the engineer from a Rule 702 attack that they are testifying outside their expertise. It also keeps the engineer from being cross-examined on committee history they didn't witness.\n- **Disclosure and privilege.** Under Rule 26(b)(4), attorney communications and drafts are generally protected, but facts, data, and assumptions the experts consider are discoverable. Avoid circulating drafts between the experts, and manage what each one reviews.\n- **Consulting first.** Consider engaging the standards expert initially as a consultant to evaluate whether the product complies and whether the standard helps or hurts us. Designate them as a testifying expert only once that is clear.\n\n## Substantive cautions\n\n- Compliance with a voluntary standard is typically relevant but **not conclusive** on defect or negligence (see Restatement (Third) of Torts: Products Liability § 4 and the governing state's law). Plaintiffs will argue the standard is a minimum floor, was industry-influenced, or is outdated. The standards expert must be ready to address all three.\n- Check whether the voluntary standard has been incorporated into a **mandatory** rule, for example through the CPSIA or CPSC rulemaking. That changes the analysis considerably.\n- Establish early whether the product actually conforms, and which version of the standard applied at the time of manufacture. Non-compliance or a version mismatch could make the standard a plaintiff's tool.\n\n## Next steps\n\n1. Pull the product's certification and test records and identify the applicable standards and versions.\n2. Confirm the governing jurisdiction's rules on admissibility and the weight given to voluntary standards.\n3. Run conflict and background checks on candidate experts.\n4. Coordinate the scope of both retentions so their reports dovetail without overlapping.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:09:54+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "a01005f7-643a-4d1f-b733-bbc1c6590b38",
+    "input_tokens": 2,
+    "output_tokens": 1927,
+    "cache_write_tokens": 723,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.022165999999999998,
+    "latency_ms": 20160,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1927,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 723,
+      "webSearchRequests": 0,
+      "costUSD": 0.022165999999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 661,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 723,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

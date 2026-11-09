@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-X2",
+  "prompt_hash": "2c195895f2b3d3fc9529e7724ba47376fe6162952d92412c94f56e71ee2585b9",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:10:23+00:00",
+  "session_id_in": null,
+  "session_id": "256d1518-673f-450c-b92a-2ff2db0e71f6",
+  "text": "I can't answer this from what I have. Nothing in the client or firm stores mentions Joad, its test records, or any conditions or limits on its settlement offers. I don't know whether Joad is the claimant, a co-defendant, a supplier, a testing lab, or an insurer, and I won't guess at its requirements.\n\nThe stores do cover related points on our side, which may be what you're after:\n\n- **Settlement authority:** Authority above the set tier needs formal sign-off from the CFO, or from the board in writing. Verbal indications don't count. We must not signal any offer above the tier before sign-off. We should flag early if the range may exceed the tier, because approval takes time.\n- **Test records and testing:** Quotes are needed before costly testing. Expert and testing costs are the biggest budget swing items. Any testifying expert needs General Counsel clearance (names, credentials, prior testimony, fee quotes) before engagement.\n- **Preservation:** All TT-6200 documents, including test records, must be preserved under a litigation hold.\n- **Mediation sequencing:** If the client prefers mediation before expert work, we can bring opposing counsel along by offering early production of key documents and fixed expert dates, with a trigger if mediation fails.\n- **Communications and reporting:** Communications go through General Counsel Franklin Oyelaran, copied to Delphine Moorcroft. Anything touching exposure or coverage also goes to the insurer or risk contact.\n\nTo answer the question itself, I need the document that sets out Joad's position, such as a letter, term sheet, discovery response, or protective-order draft. Can you send it or tell me who Joad is in B-2?",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:10:23+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "256d1518-673f-450c-b92a-2ff2db0e71f6",
+    "input_tokens": 2,
+    "output_tokens": 718,
+    "cache_write_tokens": 1757,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.014211999999999999,
+    "latency_ms": 9914,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 718,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1757,
+      "webSearchRequests": 0,
+      "costUSD": 0.014211999999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 175,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1757,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

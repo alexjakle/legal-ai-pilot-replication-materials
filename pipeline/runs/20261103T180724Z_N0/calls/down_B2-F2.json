@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F2",
+  "prompt_hash": "34f1a9e82e8eee81fe957f5d22157fb34dc61a7e7a3e53c29fa794d55573ca6f",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:10:14+00:00",
+  "session_id_in": null,
+  "session_id": "0c9b6798-edc6-4f58-a4f9-58bee74cd9d7",
+  "text": "I can't give you that list, because the firm's stored knowledge has nothing on Toil & Trouble Home Products. Both the client store and the firm store are empty, so there are no earlier matters, systems, document identifiers or code names for me to draw from. Anything I listed would be invented, and a made-up identifier could lead you to misread the production when it arrives.\n\nHere is how you could build the list from reliable sources:\n\n1. **Prior matter files.** Check the firm's DMS and conflicts/billing records for earlier work for Toil & Trouble. Productions, privilege logs, deposition exhibits, and discovery responses from those matters usually show Bates prefixes, custodian names, and system references.\n2. **The client's legal or IT contacts.** Ask for a data map or ESI questionnaire covering email platforms, document management, ERP, product lifecycle or quality systems, shared drives, messaging tools, and retention policies.\n3. **Rule 26(f) and ESI protocol discussions.** These should surface the systems, custodians, and metadata fields in play. Ask opposing counsel or the client to confirm the Bates prefix and naming conventions before the production is sent.\n4. **Initial disclosures and prior public filings.** Earlier litigation dockets, regulatory submissions (e.g., CPSC reports for a home products company), and recall documents may reveal product code names and internal document numbering.\n5. **The production itself.** Once it arrives, the load file, metadata fields (such as custodian, source path, and file naming), and any cover letter will show the identifiers actually used.\n\nIf you add the earlier matter files or notes to the client store, I can pull out the systems, identifiers and code names and put together a recognition guide for B-2. I can also draft a client questionnaire for the points above.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:10:14+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "0c9b6798-edc6-4f58-a4f9-58bee74cd9d7",
+    "input_tokens": 2,
+    "output_tokens": 580,
+    "cache_write_tokens": 705,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.008624,
+    "latency_ms": 8523,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 580,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 705,
+      "webSearchRequests": 0,
+      "costUSD": 0.008624,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 705,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

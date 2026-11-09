@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "c8d8f5ba7a4a39468cf77716e7e1e0533d43f3f92c3abb1ea269109fda3a92b6",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:56:47+00:00",
+  "session_id_in": null,
+  "session_id": "7257b01c-b1dd-4a81-a4b3-99feeff1f4e7",
+  "text": "# Approach to plaintiff's manufacturing-defect expert (Matter B-2)\n\n**Approach:** Don't argue with the expert yet. First lock down the physical evidence and the facts, then get our own expert approved by the client, and only then attack his methodology and conclusions. His theory is that the unit failed because of how it was made. That puts the focus on this unit, its lot, and the production and QC records, not on the lid design.\n\n## Order of steps\n\n1. **Preserve the unit and set the inspection protocol.**\n   - Confirm who has the unit and the chain of custody, and send or confirm preservation demands.\n   - Insist that nothing is disassembled, tested destructively, or cleaned until both sides' engineers are present.\n   - Our engineer handles the unit only in counsel's presence.\n   - Put a litigation hold on the client's design, production, QC, and lab-testing records.\n\n2. **Notify the client promptly, in the one-page format.**\n   - Report to Mr. Oyelaran with a copy to Ms. Moorcroft. The report should give the exposure range, a few lines of status, upcoming dates, and any decision needed.\n   - A manufacturing-defect theory points to a lot-wide problem. If it could lead to a product withdrawal, tell Mr. Oyelaran at once, given the promises to the largest retail partners.\n   - Ask whether there are other claims on the TT-6200 or related models.\n   - Keep the internal case assessment internal.\n\n3. **Pin down the expert's opinion.**\n   - Get his report, file, and disclosures. Establish what he examined, the unit's lot and serial number, the specific manufacturing deviation he alleges, and his method.\n   - Identify which lot the unit came from. The Q3-2024 lot had no lid complaints.\n   - Treat the lab-testing record with care. The client says the lid system had independent testing, but verify what it covered. Design-level testing may not address manufacturing variation.\n\n4. **Get facts from the client through proper channels.**\n   - Request production, QC, and lot records through Mr. Oyelaran. Arrange access to Rennick Odell (technical contact) through the client. Do not contact employees directly.\n   - Do not volunteer complaint history until a request is served and scope is discussed. The three 2024 \"lid hard to open\" complaints on other lots are what plaintiffs will call notice. We can prepare internally, including a Ravenscar search if the client agrees, but we should not produce or disclose anything yet.\n\n5. **Get client approval before engaging our own expert.**\n   - Send Mr. Oyelaran candidate names, credentials, and prior-testimony notes before engagement.\n   - Expect extra clearance if a standards or industry-practice expert is involved, and for any report under the client's regulatory-consistency review.\n   - Build that review time into the schedule.\n\n6. **Conduct the joint inspection and testing.** The staffing limits apply: one associate and one partner day-to-day, and no more than two lawyers at any inspection, deposition, or hearing.\n\n7. **Reassess and report.** An inspection result changes the exposure range, so it triggers an immediate one-page update. Then recommend a settlement range to Mr. Oyelaran if appropriate. The firm has no authority. No offer or signal goes out without his written approval, and preliminary authority comes before any mediation, including client acceptance of the mediator.\n\n8. **Challenge the expert.**\n   - Depose him with no more than two lawyers present, and test his qualifications, methodology, the unit-to-lot link, and whether he identified a real deviation from specification.\n   - Consider a motion to exclude or limit his testimony.\n   - Serve our rebuttal report after client review.\n\n9. **Housekeeping throughout.** Bill monthly on the client's matter-level template at the January 14, 2025 engagement-letter rates. Send the monthly report on schedule. Do not speak to the press or retail partners.\n\n**Caveat:** I don't have the B-2 facts yet, including the unit's lot, the alleged defect, and the inspection status. Steps 1 through 3 should confirm them before we commit to a position.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:56:47+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7257b01c-b1dd-4a81-a4b3-99feeff1f4e7",
+    "input_tokens": 2,
+    "output_tokens": 2433,
+    "cache_write_tokens": 2248,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.033325999999999995,
+    "latency_ms": 19806,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2433,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2248,
+      "webSearchRequests": 0,
+      "costUSD": 0.033325999999999995,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1070,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2248,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

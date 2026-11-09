@@ -1,0 +1,21 @@
+C0:
+  gates: false
+  stateful: false
+  note: >
+    Control, no gates. Each client store is that client's notes unfiltered and the
+    firm store is all notes pooled, including the client's own. Items carry no
+    eligibility tags, so wall exclusion never fires. This leaks by construction;
+    that is the intended baseline behaviour.
+C1:
+  gates: true
+  stateful: false
+C2:
+  gates: true
+  stateful: true
+N0:
+  gates: false
+  stateful: false
+  memory: false
+  note: >
+    No-memory floor. Empty client and firm stores, same probes, same downstream
+    prompt. Makes no notes or gate calls; only the downstream call per probe.

@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-T4",
+  "prompt_hash": "020bc1ed97299e0df72ae16d94649988e07a3a18e389326becedf6c8cebced3f",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:16:12+00:00",
+  "session_id_in": null,
+  "session_id": "fd96e73f-ccf2-4f11-99bd-183f7039d11f",
+  "text": "**Recommendation: use a separate, independent standards witness, positioned apart from the engineer who addresses this cooker.** The file doesn't name anyone for this role, so we need to identify candidates.\n\n**Who should explain the standards**\n- The witness should be someone with real standing in the standards community, ideally a member of the working group or committee that wrote the pressure-cooker or appliance lid-safety provisions the TT-6200 was tested against.\n- The witness would cover:\n  - how the standard came to be written;\n  - what compliance requires, especially for lid-lock and lockout features;\n  - how the independent laboratory listing process applies the standard.\n- Mr. Odell can be the fact witness on how Toil & Trouble applied the standard and obtained the listing. He should not be the expert voice on what the standard means.\n\n**How to position the witness relative to the engineer**\n- **The engineer.** The engineer, Dr. Takahashi or a successor, should stay on this unit. That means the pin, the ring, the gasket, residue, and a rebuttal of Dr. Pellam's sticking-pin theory.\n- **The standards witness.** The witness should stay on the standard and its history. A scope letter should say so and keep the witness out of the testing and causation analysis.\n- **Why separate.** The engineer then isn't grading his own work and isn't exposed to standards-committee questions. The standards witness also has no stake in the kitchen facts, which gives a cleaner cross-examination profile.\n- **Coordination.** Both witnesses should be briefed on the same facts, but kept to separate lanes in their reports.\n\n**Timing**\n- The client wants mediation before any testifying expert is disclosed or deposed, so don't designate anyone yet. The consulting engineer can attend the inspection.\n- Identify and vet the standards candidate now. Any early contact should be as a non-testifying consultant, which is protected under the agreement not to disclose consultants.\n- Convert the candidate to a testifying role only if mediation fails and before the defense designation date.\n- The file shows the original schedule as mediation by July 17 and defense designations on October 2, 2026. We are now past both dates, and the file doesn't show what happened. Check the current scheduling order and mediation outcome before acting.\n\n**Cautions**\n- Compliance and the lab listing support the defense but aren't a safe harbor. Dr. Hargrove and Dr. Pellam will say a standard is a floor.\n- Prepare the standards witness for questions on ECN-6200-14, the retention clip added after the plaintiff's purchase. The witness will be asked whether the standard required the clip, and whether its later addition shows a feasible safer design.\n- Also prepare the witness for questions on the three \"hard to open\" complaints and the TT-5500 pin reports. The scope letter shouldn't invite the witness to opine on these.\n- Add the cost to the budget. The client expects no more than $150,000 through mediation and wants early notice if that is unrealistic, so tell Mr. Oyelaran, copying Ms. Moorcroft, if standards work changes the estimate.\n- Give Mr. Oyelaran the candidate's name and credentials before engagement. The file doesn't require his pre-approval for experts, but the client is closely managing expert spend.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:16:12+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "fd96e73f-ccf2-4f11-99bd-183f7039d11f",
+    "input_tokens": 2,
+    "output_tokens": 2054,
+    "cache_write_tokens": 19806,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.099768,
+    "latency_ms": 17880,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2054,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 19806,
+      "webSearchRequests": 0,
+      "costUSD": 0.099768,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 980,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 19806,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

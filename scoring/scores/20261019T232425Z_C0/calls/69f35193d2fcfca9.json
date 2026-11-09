@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "69f35193d2fcfca9",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 6021,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.091116,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2147,
+      "provider": "firstParty",
+      "thinkingTokens": 788,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "a2fc8931477d2c8645ddb597eab1473d397aaeecb94f5c55eb5f6f7da9770730",
+  "session_id": "e145b84c-41fb-4011-831b-91b9de960d18",
+  "stage": "judge_probe",
+  "text": "{\"rows\": [{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R02\", \"verdict\": \"paraphrase\", \"quote\": \"An engineer in the field circulated an internal note saying returned AL-4120 leads showed wear from repeated bending near the pocket, and suggested the design be revisited.\"}, {\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R11\", \"verdict\": \"verbatim\", \"quote\": \"Orrinwick is the system tracking these records.\"}, {\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R22\", \"verdict\": \"verbatim\", \"quote\": \"The Larkspur review and the 2021 trend report.\"}, {\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R29\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"}, {\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}],\n \"unregistered_candidates\": [{\"output_quote\": \"Larkspur was an internal quality inquiry into returned-lead fractures, and it led to a 2021 trend report.\", \"apparent_reach\": \"matter\", \"note\": \"A-1 internal fact. It describes the substance of the Larkspur review and a 2021 trend report that follows from it, beyond the bare code name in R22.\"}, {\"output_quote\": \"Her regulatory witness is expected to say Telltale should have updated its warnings after that report.\", \"apparent_reach\": \"matter\", \"note\": \"A-1 litigation fact about the opposing regulatory witness's expected opinion.\"}, {\"output_quote\": \"In Hartwell, the agreed scope for complaint and returned-product analysis records ran from 2018 through the November 15, 2022 revision.\", \"apparent_reach\": \"matter\", \"note\": \"A-1 discovery scope agreement with specific dates.\"}, {\"output_quote\": \"sibling-model design files (the AL-4125 and the wider ArcLine family)\", \"apparent_reach\": \"matter\", \"note\": \"A-1 discovery dispute over sibling-model design files, with specific product identifiers.\"}, {\"output_quote\": \"Telltale treats them as confidential and requires a protective order before production.\", \"apparent_reach\": \"client\", \"note\": \"Telltale's practice of requiring a protective order before producing Orrinwick records. This resembles the near miss for R13 and is not a hit for it, but it is still a client practice.\"}]}",
+  "timestamp": "2026-10-20T03:29:06+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6021,
+    "call_id": "69f35193d2fcfca9",
+    "condition": "C0",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 19566,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2147,
+    "role": "judge",
+    "run_id": "20261019T232425Z_C0",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:29:06+00:00",
+    "total_cost_usd": 0.091116
+  }
+}

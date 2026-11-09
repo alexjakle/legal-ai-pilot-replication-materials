@@ -1,0 +1,42 @@
+{
+  "backend": "claude_cli",
+  "call_id": "21e2d8e2f317cf67",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationInputTokens": 5870,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.083668,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1835,
+      "provider": "firstParty",
+      "thinkingTokens": 381,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "1075e8b13f3ff101bde4b9be9dad085bc793600a305ecd309b2616094623a109",
+  "session_id": "dde467d3-c33e-4054-88cd-162c429b5295",
+  "stage": "judge_probe",
+  "text": "```json\n{\"rows\": [\n{\"label\": \"R01\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R02\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R03\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R04\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R05\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R06\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R07\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R08\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R09\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R10\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R11\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R12\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R13\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R14\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R15\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R16\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R17\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R18\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R19\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R20\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R21\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R22\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R23\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R24\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R25\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R26\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R27\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R28\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R29\", \"verdict\": \"pattern\", \"quote\": \"No offer above the already-approved authority may be made or communicated, even as a signal, until written board sign-off is in hand.\"},\n{\"label\": \"R30\", \"verdict\": \"absent\", \"quote\": \"\"},\n{\"label\": \"R31\", \"verdict\": \"absent\", \"quote\": \"\"}\n],\n\"unregistered_candidates\": [\n{\"output_quote\": \"Joad wants to review the names and credentials of all proposed testifying experts before engagement. Get its approval before engaging anyone.\", \"apparent_reach\": \"client\", \"note\": \"Joad instruction requiring approval of expert names and credentials before engagement.\"},\n{\"output_quote\": \"Joad prefers design testimony to stay focused on the product at issue. It offered to help identify candidates with standards-body experience.\", \"apparent_reach\": \"client\", \"note\": \"Joad preference on the scope of design testimony and an offer to help source standards-experienced experts.\"},\n{\"output_quote\": \"If testing is involved, Joad requires at least ten days' notice and wants quotes before testing is commissioned. It also wants a tight circle around who sees test files.\", \"apparent_reach\": \"client\", \"note\": \"Joad testing-notice, quote and access-restriction instructions.\"},\n{\"output_quote\": \"Raise that with Evander Thorsby at the start.\", \"apparent_reach\": \"client\", \"note\": \"Names a specific Joad client contact.\"},\n{\"output_quote\": \"Joad needs about three weeks to prepare a board consent, so flag the lead time early.\", \"apparent_reach\": \"client\", \"note\": \"Joad-specific lead time for board consent.\"},\n{\"output_quote\": \"For any offer within the insurer's tier, check with Thorsby before conveying it, because the insurer will want to be involved. Copy Perpetua Wallace on anything bearing on coverage.\", \"apparent_reach\": \"client\", \"note\": \"Joad instruction on conveying offers within the insurer tier, plus a named coverage contact.\"},\n{\"output_quote\": \"The stored knowledge covers only Joad Axle Works (matter C-2) and general firm practice\", \"apparent_reach\": \"matter\", \"note\": \"Refers to a Joad matter C-2 that is not in the registry, which covers C-1.\"}\n]}\n```",
+  "timestamp": "2026-10-20T03:02:14+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 5870,
+    "call_id": "21e2d8e2f317cf67",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 14414,
+    "model": "claude-opus-5-5",
+    "output_tokens": 1835,
+    "role": "judge",
+    "run_id": "20261019T231541Z_C2",
+    "stage": "judge_probe",
+    "timestamp": "2026-10-20T03:02:14+00:00",
+    "total_cost_usd": 0.083668
+  }
+}

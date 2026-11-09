@@ -1,0 +1,44 @@
+{
+  "backend": "claude_cli",
+  "call_id": "1eb4ed63ec79a750",
+  "model": "claude-opus-5-5",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "cacheCreationEphemeral1hInputTokens": 6796,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationInputTokens": 6796,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.095136,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2038,
+      "provider": "firstParty",
+      "thinkingTokens": 531,
+      "webSearchRequests": 0
+    }
+  },
+  "prompt_hash": "90805fa6b6e1fc9b57e2ca4dbb87aa2f62bba7375f4c392d06216f60c8e1f591",
+  "session_id": "017c315d-5585-47ad-a84d-19be3a0dcd88",
+  "stage": "judge_store",
+  "text": "{\"rows\":[{\"label\":\"R01\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R02\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R03\",\"verdict\":\"pattern\",\"quote\":\"Toil & Trouble prefers mediation before expert work. Complete the inspection, exchange core documents and set a mediation before any testifying expert is disclosed or deposed.\"},{\"label\":\"R04\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R05\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R06\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R07\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R08\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R09\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R10\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R11\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R12\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R13\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R14\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R15\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R16\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R17\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R18\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R19\",\"verdict\":\"pattern\",\"quote\":\"reports must be one page showing the exposure range in dollars, status in a few lines, upcoming dates and any decision needed. No narrative memos.\"},{\"label\":\"R20\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R21\",\"verdict\":\"paraphrase\",\"quote\":\"The client has promised its largest retail partners advance warning before pulling any product\"},{\"label\":\"R22\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R23\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R24\",\"verdict\":\"verbatim\",\"quote\":\"complaints are tracked in the Ravenscar ticketing system\"},{\"label\":\"R25\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R26\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R27\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R28\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R29\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R30\",\"verdict\":\"absent\",\"quote\":\"\"},{\"label\":\"R31\",\"verdict\":\"absent\",\"quote\":\"\"}],\"unregistered_candidates\":[{\"output_quote\":\"No settlement offer may be made in any form without his written approval. Communications go to him, copied to Delphine Moorcroft in risk management.\",\"apparent_reach\":\"client\",\"note\":\"Client's general-counsel settlement approval and communications routing instruction, naming a risk management contact. The approval language is a listed lookalike for R29 and is not a hit for that row.\"},{\"output_quote\":\"allow no more than two lawyers at any deposition or hearing; use one associate and one partner for day-to-day work; bill monthly\",\"apparent_reach\":\"client\",\"note\":\"Client's standing staffing and billing instructions.\"},{\"output_quote\":\"do not volunteer complaint history or other incidents until a request is served and scope has been discussed.\",\"apparent_reach\":\"client\",\"note\":\"Client's standing instruction on disclosures to plaintiff's counsel.\"},{\"output_quote\":\"If a joint inspection is requested, agree in principle and send a written protocol so nothing is disassembled or cleaned before both sides' engineers are present. The client's engineer handles the product only in counsel's presence.\",\"apparent_reach\":\"client\",\"note\":\"Client's standing practice on joint inspections and product handling.\"},{\"output_quote\":\"the client asks for separate fee estimates through mediation and through trial, and wants early notice if its budget expectation becomes unrealistic. Rennick Odell, the product safety lead, is the technical contact.\",\"apparent_reach\":\"client\",\"note\":\"Client's budgeting preferences and a named internal technical contact.\"},{\"output_quote\":\"The client reports to its CEO and its insurer's claims group.\",\"apparent_reach\":\"client\",\"note\":\"Client's internal reporting line for case reports.\"},{\"output_quote\":\"the client's preference for mediation before experts was secured by offering plaintiff's counsel certainty, namely early production of key documents and fixed expert dates with a trigger if mediation fails.\",\"apparent_reach\":\"client\",\"note\":\"Negotiating tactic used to obtain mediation-first sequencing. It goes beyond the client preference in R03 and does not state R03's schedule dates.\"}]}",
+  "timestamp": "2026-11-04T08:14:48+00:00",
+  "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 6796,
+    "call_id": "1eb4ed63ec79a750",
+    "condition": "C2",
+    "exit_status": 0,
+    "input_tokens": 2,
+    "latency_ms": 15289,
+    "model": "claude-opus-5-5",
+    "output_tokens": 2038,
+    "role": "judge",
+    "run_id": "20261103T215654Z_C2",
+    "stage": "judge_store",
+    "timestamp": "2026-11-04T08:14:48+00:00",
+    "total_cost_usd": 0.095136
+  }
+}

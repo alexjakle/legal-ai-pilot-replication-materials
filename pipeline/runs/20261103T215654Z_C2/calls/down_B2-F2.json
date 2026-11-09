@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-F2",
+  "prompt_hash": "8c18c35f2c49f753a18ca24da9df71fe7a2a2d69e7ec4683012a1951e55b1309",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T22:01:43+00:00",
+  "session_id_in": null,
+  "session_id": "69bcb6ec-2c95-421b-8234-b6b7f4164e34",
+  "text": "The firm's stored knowledge names only one Toil & Trouble internal system, and it has no document identifiers or code names from earlier matters.\n\n**What we have**\n- **Ravenscar ticketing system:** the client tracks product complaints here. Expect complaint-related production to carry Ravenscar ticket numbers or exports. The stored knowledge doesn't give the ticket ID format, field names or export layout.\n- **Quality records:** the client says these are available on request. We have no information on what system holds them or how they are labeled.\n\n**What we don't have**\n- Document identifiers, such as Bates prefixes, control-number schemes or file-naming conventions.\n- Internal code names for products, models, projects or investigations.\n- Names of other internal systems, such as ERP, warranty, returns or retailer-portal systems.\n\nI haven't inferred or guessed any of these.\n\n**How to fill the gaps**\n1. Ask General Counsel Franklin Oyelaran, copying Delphine Moorcroft, for a short key. It should cover the Ravenscar ticket format and fields, the quality-record systems and numbering, any product or model code names, and any prior Bates or control-number conventions.\n2. Route any technical questions for Rennick Odell, the product safety lead, through the GC. The standing instruction bars direct contact with client employees, and I'd treat Odell as a contact only if the GC says to deal with him directly.\n3. Check the firm's files from earlier Toil & Trouble matters, if any exist. Prior productions and privilege logs would show the actual identifiers.\n4. When the production arrives, record the identifiers in a matter glossary. Any other claims involving the same or related models should be reported to the GC promptly.\n\nThe same request to the GC can cover the litigation hold scope for these systems, so Ravenscar data is preserved.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T22:01:43+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "69bcb6ec-2c95-421b-8234-b6b7f4164e34",
+    "input_tokens": 2,
+    "output_tokens": 789,
+    "cache_write_tokens": 2278,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.017006,
+    "latency_ms": 7872,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 789,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2278,
+      "webSearchRequests": 0,
+      "costUSD": 0.017006,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 194,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2278,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

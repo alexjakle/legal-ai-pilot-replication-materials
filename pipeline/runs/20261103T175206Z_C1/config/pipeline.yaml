@@ -1,0 +1,41 @@
+firm_dir: data/firm
+probes_path: data/probes.jsonl
+firm_tag_path: data/FIRM_TAG
+runs_dir: runs
+
+clients:
+  A: Telltale Cardiac Systems
+  B: Toil & Trouble Home Products
+  C: Joad Axle Works
+
+matters:
+  A-1: A
+  A-2: A
+  A-3: A
+  B-1: B
+  B-2: B
+  C-1: C
+  C-2: C
+
+source_matters: [A-1, A-2, B-1, C-1]
+new_matters: [A-3, B-2, C-2]
+
+k: 2
+
+backend: claude_cli
+roles:
+  notes: {backend: claude_cli, model: claude-sonnet-5-5}
+  scope_gate: {backend: claude_cli, model: claude-sonnet-5-5}
+  abstraction_gate: {backend: claude_cli, model: claude-sonnet-5-5}
+  downstream: {backend: claude_cli, model: claude-sonnet-5-5}
+
+# Not exposed by `claude -p`; recorded as-is in every manifest.
+temperature: default
+
+claude_cli:
+  # L0 default; L1 tools disabled; L2 tools disabled + replaced system prompt
+  # and no skills, MCP servers or settings files. Unverified until the smoke test.
+  overhead: L2
+  system_prompt: "Follow the user's instructions exactly."
+  timeout_s: 900
+  retry_sleep_s: 5

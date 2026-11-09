@@ -1,0 +1,28 @@
+{"call_id": "07cfdd2f25c971a3", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "C2-T4"}
+{"call_id": "0975fec3377e0e45", "condition": "N0", "hits": {"P1-A-1": ["fits the facts"], "P1-B-1": ["fits the facts"]}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "B2-T3"}
+{"call_id": "0bd0a2eae9689ccc", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "A3-F1"}
+{"call_id": "181b9bd473638a0c", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "C2-F2"}
+{"call_id": "1a0ede37b2137a6f", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "C2-T2"}
+{"call_id": "23f3f0f449ec6e70", "condition": "N0", "hits": {"B1-B-1": ["designations"]}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "B2-F1"}
+{"call_id": "2483b12c8ed290d0", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "A3-X1"}
+{"call_id": "2afeab96cf7dc581", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "C2-T3"}
+{"call_id": "30fa82da65523d4f", "condition": "N0", "hits": {"A2-A-2": ["cardiologist"], "B1-B-1": ["designations"]}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "A3-T1"}
+{"call_id": "4b5714ebd4870c82", "condition": "N0", "hits": {"C1-C-1": ["authenticity"]}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "C2-T1"}
+{"call_id": "50b6e356f62a5849", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "B2-T2"}
+{"call_id": "57e4665350f7fae1", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "B2-X2"}
+{"call_id": "76acfb050d2d9477", "condition": "N0", "hits": {}, "kind": "store", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "store:client_C"}
+{"call_id": "76fcc055a14eca09", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "A3-T2"}
+{"call_id": "781b2570082635ad", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "A3-X2"}
+{"call_id": "94c1e3b895b3fd53", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "B2-F2"}
+{"call_id": "9544990b3d46004d", "condition": "N0", "hits": {"P1-A-1": ["causation opinions"], "P1-A-2": ["causation opinion"], "P2-A-1": ["how the standards"]}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "B2-T4"}
+{"call_id": "9e491f1834d38eca", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "B2-X1"}
+{"call_id": "a7c3870d95ba3707", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "A3-F2"}
+{"call_id": "bcad4f6ad79d2824", "condition": "N0", "hits": {}, "kind": "store", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "store:client_B"}
+{"call_id": "c74a2411966f472c", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "B2-T1"}
+{"call_id": "c9a956674b62f520", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "C2-X2"}
+{"call_id": "cc07a3fa871568d6", "condition": "N0", "hits": {"P2-A-2": ["working group"]}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "A3-T4"}
+{"call_id": "cf2a893d40cab99d", "condition": "N0", "hits": {}, "kind": "store", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "store:firm"}
+{"call_id": "d267c4246e6d10b4", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "C2-X1"}
+{"call_id": "dc81892b77dca281", "condition": "N0", "hits": {"P1-C-1": ["causation expert"]}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "A3-T3"}
+{"call_id": "f1b16c870898a552", "condition": "N0", "hits": {}, "kind": "store", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "store:client_A"}
+{"call_id": "f55fd378bf571ed4", "condition": "N0", "hits": {}, "kind": "probe", "repeat": false, "run_id": "20261022T022404Z_N0", "tap": "C2-F1"}

@@ -1,0 +1,45 @@
+{
+  "call_id": "down_A3-T1",
+  "prompt_hash": "820e0acb4a98d9dccaa43d03f3a64acf6e67617a87c247ffb7e5c7c16b8ff72e",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-22T02:24:48+00:00",
+  "session_id_in": null,
+  "session_id": "bd04c17c-d02d-40fa-a258-efec3238dac4",
+  "text": "# Moving expert reports from first draft to service\n\n**Caveats:**\n- The client and firm stores are empty, so I have no Telltale-specific protocols, prior expert relationships, or scheduling order to draw on. This is a general workflow, and the names and roles at Telltale are placeholders to confirm with the client.\n- **Check the deadline.** If we are defending Telltale, plaintiff's disclosures normally come first and defense disclosures later. Confirm in the scheduling order whose deadline is ten weeks out, whether disclosures are simultaneous, and whether rebuttal reports are allowed. If this is a state-court matter, check the local rules on draft and communication protection, since they vary.\n\n## Timeline (working back from the service date)\n\n**Weeks 0–1: Set-up**\n- Read the scheduling order and any ESI or expert stipulations. Calendar an internal deadline about one week before the real one.\n- Confirm the litigation hold has gone to Telltale and its custodians.\n- Pick the two experts, for example a cardiac-device or biomedical engineer and an electrophysiologist or cardiologist. Add a regulatory expert only if needed. Run conflict checks, including against Telltale competitors and prior adverse engagements.\n- Retain them through the firm with a written engagement letter that covers scope, rates, and communication ground rules. Start them as consultants and designate them as testifying only when ready.\n- At Telltale, get **in-house counsel** (product liability or litigation) to approve the experts and budget. Notify the **insurer or risk management** if they must approve expert spend.\n\n**Weeks 1–3: Facts and materials**\n- Get a protective order in place before sending Telltale confidential material to experts.\n- Telltale designates one point of contact, usually in-house counsel, who routes all information requests. Experts do not contact Telltale employees directly.\n- Telltale supplies, through counsel:\n  - **Engineering/R&D:** design history file, risk analyses (FMEA), verification and validation testing, and exemplar devices.\n  - **Quality/Regulatory:** FDA submissions (PMA or 510(k)), CAPAs, and labeling and IFU history.\n  - **Post-market surveillance/complaint handling:** complaint files, MDRs, and field actions.\n  - **Medical/clinical affairs:** clinical data and literature.\n  - **IT/records custodian:** to confirm collection is complete.\n- Keep a running log of everything given to each expert. Rule 26(a)(2)(B) requires disclosure of facts or data considered, and the log makes that list easy to build.\n\n**Weeks 3–5: Analysis**\n- Experts do their testing, inspections, and literature review. Keep communication mostly oral and limit written exchanges.\n- Telltale engineers or technical staff may be made available for fact interviews or to explain how the device works. Have counsel attend, and treat these as fact discussions, not review of the expert's opinions.\n\n**Weeks 5–7: First drafts**\n- The **expert** writes the draft, not counsel. Counsel can comment on structure, legal standards (the *Daubert*/Rule 702 framework, state causation and defect elements), and clarity. The opinions and wording must remain the expert's own.\n- Coordinate the two reports to avoid overlap and inconsistency, and to keep each expert within their field.\n- Keep drafts within the firm and the expert. Do not circulate them to Telltale personnel generally.\n\n**Weeks 7–8: Client fact-check (narrow)**\n- In-house counsel and a few designated Telltale subject-matter people may verify specific factual statements. The cleaner way is to send them extracted factual assertions, not the whole report.\n- Check consistency with Telltale's FDA filings, public statements, and the testimony of its fact witnesses.\n- Telltale reviews for confidentiality and trade-secret issues, and for regulatory implications such as statements that conflict with FDA positions.\n- Telltale does not edit the opinions. Client-driven changes to an expert's opinions create impeachment and discovery risk.\n\n**Weeks 8–9: Hardening**\n- Stress-test each report against likely *Daubert* challenges: methodology, reliability, fit, and qualifications.\n- Cite-check and assemble exhibits. Confirm the required report contents:\n  - all opinions and their bases\n  - facts or data considered\n  - exhibits\n  - qualifications and publications from the last 10 years\n  - testimony from the last 4 years\n  - compensation\n- Consider a mock cross of each expert.\n- Finalize the confidentiality designations under the protective order.\n\n**Week 9–10: Sign-off and service**\n- Experts review the final version carefully and sign it.\n- The supervising partner and Telltale's in-house counsel give final approval. Insurer approval comes in only if required.\n- Serve at least a few days before the deadline, and keep proof of service. Serve confidential material per the protective order.\n- Afterward, preserve the file and calendar deposition prep and any supplementation duties.\n\n## Protecting the process\n- Under the 2010 amendments to Rule 26(b)(4)(B)–(C), drafts and most attorney–expert communications are protected. The exceptions are compensation, facts or data counsel provided that the expert considered, and assumptions counsel provided that the expert relied on. Anything we send is potentially discoverable, so send deliberately.\n- Don't use Telltale employees as testifying experts. Their communications and files are far less protected and they carry bias issues. Use them as fact sources and fact witnesses.\n- Keep the Telltale review channel narrow and run it through counsel to protect privilege.\n\nIf you tell me which side's deadline this is, the court, and the product at issue, I can tailor the schedule and the list of Telltale contacts.",
+  "usage": {
+    "run_id": "20261022T022404Z_N0",
+    "timestamp": "2026-10-22T02:24:48+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "bd04c17c-d02d-40fa-a258-efec3238dac4",
+    "input_tokens": 2,
+    "output_tokens": 3022,
+    "cache_write_tokens": 782,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.033352,
+    "latency_ms": 26696,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 3022,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 782,
+      "webSearchRequests": 0,
+      "costUSD": 0.033352,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1100,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

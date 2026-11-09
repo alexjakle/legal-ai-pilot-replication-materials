@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-T4",
+  "prompt_hash": "ab577a4b2cbd6ba5a20d82cde86a4e6a466c8276f758fb1d4c5355b8ce342560",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-11-03T21:59:56+00:00",
+  "session_id_in": null,
+  "session_id": "abb70286-1d64-41a1-bd4c-8feab6cdd87b",
+  "text": "**Recommendation: retain a separate industry-standards expert, distinct from the design expert, and start the selection and client-clearance process now.**\n\n**Who**\nLine up a standards expert, such as someone with experience on the cardiac lead standards committees (ISO/CENELEC/AAMI) and in regulatory compliance. This person should not be the design expert. Telltale requires us to offer three candidates per discipline, each with prior testimony notes, so we should assemble three names with credentials and testimony histories. We should also tell Telltale expressly that this expert will address industry practice and standards, since clients expect to be told that.\n\n**When**\n- Begin candidate vetting immediately, because the plaintiff's case depends on the standards and client clearance has to be built into the timeline.\n- Send the three-name slate to Marguerite Salvesen (GC), copying Thaddeus Wren, before any contact that amounts to an engagement. We should not retain the expert until Telltale clears the choice.\n- Get cost estimates or quotes for the expert and include them in the phase budget. Expert costs usually drive most budget variance, so Telltale should approve them before we commission the work.\n- Work backward from the service deadline. Odalys Fennimore's regulatory affairs group must review every expert report before service, with ten business days allowed. That means the expert should deliver a near-final draft early enough to fit that window.\n- Confirm that any draft-protection stipulation covers the client review.\n- Include the expert plan in the initial case assessment due within 45 days, and report it in the monthly update.\n\n**Roles compared with the design expert**\n- **Standards expert:** addresses what the applicable standards require, whether Telltale's lead met them, how the standards are used in industry practice, and whether the plaintiff overreads or misapplies them. This expert testifies on the benchmark.\n- **Design expert:** addresses the engineering of Telltale's lead, including design choices, testing, risk analysis, and failure mechanisms. This expert testifies on the product.\n- We should keep their opinions from overlapping, so that each is credible within their own field and neither is exposed on cross for straying outside it. The standards expert should rely on the design expert's engineering conclusions, not duplicate them. The two reports should be consistent with each other.\n\n**Regulatory sensitivity**\nTelltale is in a regulatory inspection on its next-generation lead and wants filings to avoid characterizing failure rates beyond what is needed. The standards expert's report should be scoped carefully on that point. It should say whether the product met the standards and should not make failure-rate statements that are broader than necessary. Because the report will go through regulatory affairs review, route Fennimore's comments through counsel and log what is sent, so that the exchange stays protected work product.\n\n**Other process points**\n- Give the expert the same five business days' notice of any related motion practice that we give Telltale. In particular, any motion on admissibility of standards testimony (for example, a Daubert challenge to the plaintiff's standards expert) requires five business days' notice to the client before filing.\n- If the standards are relevant to other Telltale claims, keep their other-incident reporting and litigation hold obligations in mind. Confirm that the hold covers documents on the lead and on how the standards were applied.\n- Keep deposition staffing to two timekeepers or fewer.\n\n**Immediate next steps**\n1. Identify three standards-expert candidates with testimony notes.\n2. Send the slate to Salvesen, copying Wren, with a note on the proposed scope.\n3. Request the budget approval.\n4. Build the ten-business-day regulatory review into the expert schedule.",
+  "usage": {
+    "run_id": "20261103T215654Z_C2",
+    "timestamp": "2026-11-03T21:59:56+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "abb70286-1d64-41a1-bd4c-8feab6cdd87b",
+    "input_tokens": 2,
+    "output_tokens": 1187,
+    "cache_write_tokens": 1937,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.019622,
+    "latency_ms": 13561,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1187,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 1937,
+      "webSearchRequests": 0,
+      "costUSD": 0.019622,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1937,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "down_C2-F1",
+  "prompt_hash": "9ad71a9e84f1922c70f25e72b7e4cdaedf4f94ce9b88343d7b671938f8ca8daf",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-10-28T16:54:41+00:00",
+  "session_id_in": null,
+  "session_id": "7f48ee5b-77e1-41a8-aa5c-cfd0cfd96e35",
+  "text": "I can't give you specific examples because there are none to draw from. Both the Joad Axle Works client store and the firm store are empty, so I have no record of Joad's earlier matters: no test results, no metallurgical findings, and no witness names. Anything I offered would be invented, and in a legal matter that would be dangerous to rely on.\n\n**What I'd suggest instead:**\n\n1. **Pull the actual files.** Check the firm's document management system, the matter-opening records, and conflicts database for Joad Axle Works' prior matters (and C-1, if it's related). Look for expert reports, lab and test reports, deposition transcripts, and witness lists.\n2. **Ask the responsible attorneys.** Whoever handled the earlier matters can tell you which experts, labs, and witnesses came up and how they performed.\n3. **Ask the client.** Joad's engineering, quality, or legal contacts should have their own test records, heat/lot certifications, and a list of past personnel involved.\n4. **Check public records.** Prior litigation involving Joad may appear on court dockets, where expert disclosures and Daubert filings are often available.\n\n**Categories to prepare for in an axle-related matter** (general preparation topics, not facts about Joad):\n\n- **Metallurgical findings:** fracture surface analysis (fatigue vs. overload, beach marks, origin points), hardness testing and case depth, microstructure and grain size, inclusion content, heat treatment records, chemical composition against spec.\n- **Test results:** tensile, yield, and impact (Charpy) data, fatigue testing, non-destructive testing (magnetic particle, ultrasonic), and dimensional inspections.\n- **Witnesses:** the metallurgist or failure analyst, the heat-treat and quality-control personnel, the design engineer, the supplier of raw steel, the testing lab technician, and the opposing party's expert.\n- **Documents:** mill certifications, traceability and lot records, inspection logs, and chain of custody for failed parts.\n\nIf you can send me the earlier matter files or summaries, I can pull out the specific names, results, and findings and organize them for C-2 preparation.",
+  "usage": {
+    "run_id": "20261028T164939Z_N0",
+    "timestamp": "2026-10-28T16:54:41+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "7f48ee5b-77e1-41a8-aa5c-cfd0cfd96e35",
+    "input_tokens": 2,
+    "output_tokens": 706,
+    "cache_write_tokens": 697,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.009852,
+    "latency_ms": 6644,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 706,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 697,
+      "webSearchRequests": 0,
+      "costUSD": 0.009852,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "scope_C-1",
+  "prompt_hash": "42d95ed499946c6f1ca17ddaf04d1f67e9566b9897acaa7dd6b1d71c1193fe7b",
+  "stage": "scope_gate",
+  "role": "scope_gate",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T22:06:37+00:00",
+  "session_id_in": null,
+  "session_id": "5955300b-9c89-4306-a0a9-43aec1233766",
+  "text": "{\"items\":[{\"id\":\"N722ac3.01\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.02\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.03\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.04\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.05\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.06\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.07\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.08\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.09\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.10\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.11\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.12\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.13\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.14\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.15\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.16\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.17\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.18\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.19\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.20\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.21\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.22\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.23\",\"decision\":\"client_store\",\"text\":\"Joad wants to review the names and credentials of all proposed testifying experts before they are engaged. It wants to be told whether anyone will speak to industry practice. It prefers that design testimony stay focused on the specific product at issue, and it has offered to help identify candidates who have served on standards bodies.\",\"tags\":[]},{\"id\":\"N722ac3.24\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.25\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.26\",\"decision\":\"client_store\",\"text\":\"Settlement authority above the insurer's pre-approved tier requires written sign-off from Joad's board of directors. Verbal indications from directors or officers are not to be relied on. The General Counsel needs about three weeks to prepare a board consent. The board meets monthly and can act in writing between meetings if the chair approves.\",\"tags\":[]},{\"id\":\"N722ac3.27\",\"decision\":\"client_store\",\"text\":\"No offer above the insurer's pre-approved tier may be communicated, even as a signal, until the board's written sign-off is in hand. Even for an offer within the insurer's tier, Joad wants to be consulted first because the insurer will want to be involved.\",\"tags\":[]},{\"id\":\"N722ac3.28\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.29\",\"decision\":\"client_store\",\"text\":\"Lesson: if a settlement range being considered extends above the insurer's pre-approved tier, flag this early, before negotiations reach that point, because the roughly three-week board consent process will be needed.\",\"tags\":[]},{\"id\":\"N722ac3.30\",\"decision\":\"client_store\",\"tags\":[]},{\"id\":\"N722ac3.31\",\"decision\":\"client_store\",\"text\":\"Budget preferences: Joad asks for a phase budget, quotes before any testing is commissioned, and clarity on who pays for shared lab work. Expert and testing costs tend to drive most budget variance.\",\"tags\":[]},{\"id\":\"N722ac3.32\",\"decision\":\"client_store\",\"tags\":[]},{\"id\":\"N722ac3.33\",\"decision\":\"client_store\",\"text\":\"Client standing instructions: all case communications go to General Counsel Evander Thorsby. Do not contact current Joad engineers or production staff directly. Make no public statements and refer media, regulator and customer inquiries to him. Limit deposition attendance to one firm lawyer and one insurer lawyer. Report immediately any other incidents involving JX-series spindles. Keep the circle of people who see test files tight.\",\"tags\":[]},{\"id\":\"N722ac3.34\",\"decision\":\"matter_only\",\"tags\":[]},{\"id\":\"N722ac3.35\",\"decision\":\"matter_only\",\"tags\":[]}]}",
+  "usage": {
+    "run_id": "20261103T220512Z_C1",
+    "timestamp": "2026-11-03T22:06:37+00:00",
+    "stage": "scope_gate",
+    "condition": "C1",
+    "role": "scope_gate",
+    "model": "claude-sonnet-5-5",
+    "session_id": "5955300b-9c89-4306-a0a9-43aec1233766",
+    "input_tokens": 2,
+    "output_tokens": 2805,
+    "cache_write_tokens": 5162,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.048702,
+    "latency_ms": 17157,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2805,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 5162,
+      "webSearchRequests": 0,
+      "costUSD": 0.048702,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1263,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 5162,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

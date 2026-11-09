@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T2",
+  "prompt_hash": "0a66e57492d9eb40cbc18f372924fd01330f5bccffc0461cfa574e416bb654c2",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-10-19T23:11:12+00:00",
+  "session_id_in": null,
+  "session_id": "fa3814bf-ecdc-41e2-9c39-8756cdceadb4",
+  "text": "**Reporting format and cadence for Toil & Trouble (Matter B-2)**\n\nPer Franklin Oyelaran's March 9, 2026 letter, our case reports will follow these terms:\n\n**Format: a single page, no narrative memos.** Each page will show:\n1. **Current exposure** as a dollar range\n2. **Status**, in a few lines\n3. **Upcoming dates**\n4. **Decisions needed from the client**, if any\n\n**Cadence:**\n- **Monthly**, on a fixed schedule.\n- **Event-driven**, sent after any event that changes the exposure range, such as an inspection result or a ruling.\n\n**Routing:**\n- Send reports to Mr. Oyelaran, the General Counsel, with a copy to Delphine Moorcroft in risk management. She coordinates with the insurer's claims adjuster, so the copy covers the requirement to keep the insurance liaison informed on exposure.\n- Since the client's contact has asked, reply through Mr. Oyelaran (or confirm with him first), because all case communications go through the General Counsel.\n\n**Related points to confirm in our reply:**\n- **Exposure range is an assessment, not an offer.** The firm has no settlement authority. Once we recommend a range, the client takes it to its claims group. No offer or signal goes out without Mr. Oyelaran's written approval.\n- **Phase estimates and staffing** are handled separately from the reports. We will give an estimate for each phase, with staffing limited to one associate and one partner and no more than two lawyers at any deposition or hearing. We will explain any projected overrun.\n- **Escalations outside the cadence.** We will tell Mr. Oyelaran promptly of other claims involving the TT-6200 or related models, and at once of anything that could lead to a product pull, given the client's commitment to give its largest retail partners advance warning.",
+  "usage": {
+    "run_id": "20261019T230656Z_C1",
+    "timestamp": "2026-10-19T23:11:12+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "fa3814bf-ecdc-41e2-9c39-8756cdceadb4",
+    "input_tokens": 2,
+    "output_tokens": 613,
+    "cache_write_tokens": 2138,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.014686000000000001,
+    "latency_ms": 5337,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 613,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2138,
+      "webSearchRequests": 0,
+      "costUSD": 0.014686000000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

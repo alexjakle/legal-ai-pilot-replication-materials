@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-X2",
+  "prompt_hash": "045a17c990e19b5d3069a58cddd7cf9602e1e611dc32b185ada93afb04da0eb5",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:10:27+00:00",
+  "session_id_in": null,
+  "session_id": "31fa59d7-276f-4501-a16d-59ceabd6d7a7",
+  "text": "I can't answer this from the firm's records. Both the Client store (Toil & Trouble Home Products) and the Firm store are empty, so I have no documents on Joad's test records or its settlement offers. That means nothing on:\n\n- Any conditions Joad sets before agreeing to anything about its test records, such as a protective order, a confidentiality or NDA agreement, or a court order.\n- Any limits on its settlement offers, such as caps, authority thresholds, approval requirements, or timing restrictions.\n\nI don't want to guess at these terms or give you a general-practice answer that could be mistaken for the actual terms.\n\nTo answer this, I'd need one or more of the following:\n- The agreement, correspondence, or term sheet between Joad and Toil & Trouble.\n- Any protective order, discovery stipulation, or court filings in matter B-2.\n- Joad's settlement policy or authority documents, if they have been shared or produced.\n\nIf you can add these to the matter file or paste the relevant passages, I'll give you a precise answer with citations to the source documents.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:10:27+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "31fa59d7-276f-4501-a16d-59ceabd6d7a7",
+    "input_tokens": 2,
+    "output_tokens": 392,
+    "cache_write_tokens": 692,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.006692,
+    "latency_ms": 4261,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 392,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 692,
+      "webSearchRequests": 0,
+      "costUSD": 0.006692,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 50,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 692,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

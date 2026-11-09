@@ -1,0 +1,47 @@
+{
+  "call_id": "down_C2-T4",
+  "prompt_hash": "f5d3b3028223e8b2237a425b5c700dae98f51bd54a06f7822f4b30efe640dc5d",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C0",
+  "timestamp": "2026-11-03T22:18:08+00:00",
+  "session_id_in": null,
+  "session_id": "1cd68c76-0397-4b87-b99f-afc21f137a35",
+  "text": "**Recommendation: retain Dr. Mathilde Grosvenor as a separate standards witness, kept apart from our design engineer, Dr. Raul Esquivel.**\n\n**Who explains the standards**\n- Dr. Grosvenor chairs the axle subcommittee of the relevant standards body. She is well placed to explain how the standards are written, what they require, and how a manufacturer satisfies them. That supports the state-of-the-art and industry-standards defense.\n- She should be engaged through the firm, and her scope should be limited to the standards and their history.\n\n**How to position her relative to Dr. Esquivel**\n- **Separate engagements.** Dr. Esquivel addresses this axle only: the JX-9 design, the fillet radius and heat treatment, and the testing, including FT-77. Dr. Grosvenor addresses how standards are written and met.\n- **Why the split matters.** If Dr. Esquivel also testified about the standards, he would look like he was grading his own work. He would also be exposed to cross-examination on standards-committee questions. The split avoids both problems.\n- **Retention letter.** It should confine her to the standards and their history and keep her away from the testing analysis. That includes FT-77, where one of five specimens failed at 82% of runout and plaintiff will argue the margin was inadequate. Don't let her testimony drift into defending that data.\n- **Materials she receives.** She is a testifying expert, so what she considers will be disclosed. Do not give her the privileged post-accident metallurgical review, which found the tool mark at the fracture origin. Also hold back Joad's internal test data and drawings until the protective order, with its attorneys'-eyes-only tier, is signed.\n\n**Client steps before engagement**\n- Joad wants to review the names and credentials of every proposed testifying expert before engagement. It also wants to be told whether anyone will speak to industry practice. Both apply here, and it prefers design testimony to stay focused on this axle.\n- Send Mr. Thorsby, the General Counsel, the proposed names, credentials and fee quotes for both experts. Expert costs are the main budget variance. Joad has also offered to help identify candidates who have served on standards bodies, so give it a chance to suggest alternatives.\n- Before engaging her, run a conflict and bias check on Dr. Grosvenor. Her role in writing the standards could be used to show she is invested in how the JX-9 was measured against them.\n\n**Timing**\n- Engage her early rather than waiting for plaintiff's design expert's report. Defense reports are due June 14, 2024, and plaintiff's reports are due March 8, 2024.",
+  "usage": {
+    "run_id": "20261103T221238Z_C0",
+    "timestamp": "2026-11-03T22:18:08+00:00",
+    "stage": "downstream",
+    "condition": "C0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "1cd68c76-0397-4b87-b99f-afc21f137a35",
+    "input_tokens": 2,
+    "output_tokens": 1464,
+    "cache_write_tokens": 19390,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.09220400000000001,
+    "latency_ms": 11698,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1464,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 19390,
+      "webSearchRequests": 0,
+      "costUSD": 0.09220400000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 597,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 19390,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

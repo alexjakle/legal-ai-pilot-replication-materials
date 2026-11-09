@@ -1,0 +1,45 @@
+{
+  "call_id": "down_B2-T3",
+  "prompt_hash": "3787d52c82fc04aaef160c6fffd975db39a77a0926cddcda70b8b85a1d4eb302",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C2",
+  "timestamp": "2026-10-19T23:19:42+00:00",
+  "session_id_in": null,
+  "session_id": "d567e586-dd04-4fc3-82cf-9cc973e18c73",
+  "text": "**Approach:** Treat plaintiff's expert as someone to understand and test at a joint inspection, not to depose or rebut with our own testifying expert yet. The client wants mediation before any testifying experts are disclosed or deposed, so we use a consulting engineer now and defer the testifying expert.\n\n**Order of steps**\n\n1. **Tell the client first.** Send Franklin Oyelaran (cc Delphine Moorcroft) a one-page report covering the expert's manufacturing-defect theory, a preliminary exposure range, upcoming dates, and any decisions needed.\n   - Flag at once any way the theory could lead to a pull from sale, because the client has promised its largest retail partners advance warning.\n   - Note that the lockout pin is shared with the TT-5500 and that ECN-6200-14 added a retention clip on later production. A manufacturing theory could reach those, so ask whether other claims exist.\n   - Include a phase-by-phase budget estimate, with one associate and one partner staffed.\n\n2. **Preserve the unit and agree to a joint inspection.** Agree in principle and send a written protocol. It should provide:\n   - Advance notice of the inspection.\n   - Both sides' engineers present.\n   - No disassembly, cleaning, or sectioning until agreed.\n   - Client engineer handles the unit only with us present.\n\n3. **Retain a consulting (non-testifying) engineer with client sign-off.** Go through Franklin, who arranges access to Rennick Odell and other employees; we do not contact employees directly. Get notice or quotes to the client before any testing is commissioned. Request the quality records and Ravenscar complaint data from the client for our own review only.\n\n4. **Hold the joint inspection.** The consulting engineer attends and tests the expert's manufacturing theory against the unit, including the lockout pin, the float valve, the ring, and the 10 psi operating condition.\n\n5. **Report the result.** An inspection result changes the range, so send an updated one-page report promptly.\n\n6. **Control discovery.** Do not volunteer complaint history or other incidents to plaintiff's counsel. Wait for a served request and discuss its scope with the client first. Obtain a protective order, with an outside-counsel-and-experts tier, before producing design, testing, or complaint records. Do not stipulate to authenticity until it is signed.\n\n7. **Press for mediation before expert disclosure.** If plaintiff's counsel asks for an expert schedule first, insist on a mediation date and tell the client if the client objects. Send the client an assessment and recommended range. The firm has no settlement authority, and no offer or signal of willingness to pay goes out without the General Counsel's written approval. Flag the approval lead time early.\n\n8. **Only if mediation fails, engage a testifying expert.**\n   - Give the client several candidates per discipline, with credentials and prior testimony.\n   - Get the client's approval and confirm the client discussion has happened before engaging anyone.\n   - Then proceed to expert disclosure and to deposing plaintiff's expert, with no more than two lawyers at the deposition.\n\nThroughout, we do not speak to the press or retail partners, and we refer inquiries to Franklin.",
+  "usage": {
+    "run_id": "20261019T231541Z_C2",
+    "timestamp": "2026-10-19T23:19:42+00:00",
+    "stage": "downstream",
+    "condition": "C2",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "d567e586-dd04-4fc3-82cf-9cc973e18c73",
+    "input_tokens": 2,
+    "output_tokens": 1983,
+    "cache_write_tokens": 2337,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.029182,
+    "latency_ms": 14972,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1983,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2337,
+      "webSearchRequests": 0,
+      "costUSD": 0.029182,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 926,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

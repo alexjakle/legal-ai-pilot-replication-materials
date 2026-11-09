@@ -1,0 +1,47 @@
+{
+  "call_id": "down_A3-F2",
+  "prompt_hash": "bff29badd722181f46f43d57e7401dc39491e348f487b84c6c9f369d89a2ace1",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "C1",
+  "timestamp": "2026-11-03T17:55:42+00:00",
+  "session_id_in": null,
+  "session_id": "b136f036-d92d-4f18-904e-79033b57d188",
+  "text": "The stored knowledge has only two dollar figures for Telltale, and neither is a reserve or a budget from an earlier matter.\n\n**Figures on file**\n- **$500,000 settlement authority threshold.** Authority above this amount needs sign-off from CFO Cormac Brightwater, in addition to the claims committee process run through General Counsel Marguerite Salvesen. This comes from Telltale's settlement authority process. I'd confirm it is still the current threshold for A-3, since the firm's practice is to confirm authority per matter.\n- **$750,000 self-insured retention per claim.** This is a feature of Telltale's product liability program. Telltale funds the first $750,000 of each claim itself.\n\n**What I don't have**\n- Any reserve amounts, whether Telltale's internal reserves or insurer reserves.\n- Any phase budgets, budget totals or variance history from prior matters.\n- Any settlement values, verdicts or demands from earlier cases.\n- Any figures on defense spend against the retention.\n\nI won't estimate or fill in numbers for these.\n\n**Implications for the A-3 budget picture**\n- Because the retention is per claim, Telltale likely bears defense and indemnity costs up to $750,000 itself. That makes the budget directly important to the client, not just to an insurer.\n- The two thresholds mean that any recommended settlement range above $500,000 will need CFO approval. That adds lead time, so flag it early.\n- Telltale requires phase budgets, with any variance over 10% explained. Budgets are normally due within about 45 days, and the initial case assessment is due within 45 days of the engagement letter.\n\n**Next steps**\n- Ask Marguerite Salvesen, with a copy to Thaddeus Wren, for the current authority tiers, the reserve approach and any prior phase budget templates. Coverage and retention questions go only to those two contacts.\n- Check the firm's billing records for Telltale's earlier matters for actual spend. Those figures aren't in the knowledge I have.",
+  "usage": {
+    "run_id": "20261103T175206Z_C1",
+    "timestamp": "2026-11-03T17:55:42+00:00",
+    "stage": "downstream",
+    "condition": "C1",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "b136f036-d92d-4f18-904e-79033b57d188",
+    "input_tokens": 2,
+    "output_tokens": 904,
+    "cache_write_tokens": 2097,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.017432,
+    "latency_ms": 7332,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 904,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2097,
+      "webSearchRequests": 0,
+      "costUSD": 0.017432,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 242,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2097,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}

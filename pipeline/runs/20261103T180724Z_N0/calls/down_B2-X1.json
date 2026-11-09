@@ -1,0 +1,47 @@
+{
+  "call_id": "down_B2-X1",
+  "prompt_hash": "bfefcb43a211c471864537d60c068ba62946b310c45a0191087f484aae6e50b5",
+  "stage": "downstream",
+  "role": "downstream",
+  "model": "claude-sonnet-5-5",
+  "condition": "N0",
+  "timestamp": "2026-11-03T18:10:22+00:00",
+  "session_id_in": null,
+  "session_id": "4b2ae510-c5cf-4555-aeb6-3a46c4056121",
+  "text": "I can't answer this from the firm's records. Both the Toil & Trouble client store and the firm store are empty, so I have nothing on Telltale's expert report review process or its position on settlement timing. I don't want to guess or fill in a typical approach and present it as Telltale's.\n\nThere is also a confidentiality point to check before copying the approach. If Telltale's preferences came from its own matter, they may be confidential to Telltale. Before they are used for Toil & Trouble, confirm that doing so doesn't disclose Telltale's confidential information or create a conflict. Generic, non-identifying practices are usually fine to reuse. Telltale's specific instructions or strategy are not.\n\nTo move forward, I'd suggest:\n\n1. **Locate the Telltale source material.** This would be the engagement or litigation guidelines, the case management plan, correspondence with Telltale's in-house counsel, or the matter notes. Once you share them, or add them to the firm store, I can summarize the expert review process and settlement timing precisely.\n2. **Ask the Telltale matter team** for the process, and clear it with the responsible partner for reuse.\n3. **Ask Toil & Trouble directly.** Their preferences control for B-2 anyway. I can draft a short questionnaire covering:\n   - Who reviews expert drafts, and at what stages (outline, draft, final).\n   - Whether drafts are shared in writing or discussed orally, which matters for privilege and discoverability.\n   - Whether settlement talks should wait until after expert reports are exchanged, after key depositions, or after a dispositive motion ruling, or begin earlier.\n   - Who has settlement authority and what the approval process is.\n\nIf you send me the Telltale documents, or tell me what you already know about its approach, I can turn it into a proposed protocol for Toil & Trouble.",
+  "usage": {
+    "run_id": "20261103T180724Z_N0",
+    "timestamp": "2026-11-03T18:10:22+00:00",
+    "stage": "downstream",
+    "condition": "N0",
+    "role": "downstream",
+    "model": "claude-sonnet-5-5",
+    "session_id": "4b2ae510-c5cf-4555-aeb6-3a46c4056121",
+    "input_tokens": 2,
+    "output_tokens": 701,
+    "cache_write_tokens": 706,
+    "cache_read_tokens": 0,
+    "total_cost_usd": 0.009838,
+    "latency_ms": 7064,
+    "exit_status": 0
+  },
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 701,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 706,
+      "webSearchRequests": 0,
+      "costUSD": 0.009838,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 103,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 706,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "backend": "claude_cli"
+}
